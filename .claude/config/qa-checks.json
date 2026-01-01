@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "name": "Design Tokens",
+      "command": "npm run validate:tokens",
+      "blocking": false,
+      "description": "Validate design token usage and consistency",
+      "severity": "warning"
+    },
+    {
+      "name": "CSS Linting",
+      "command": "npm run lint:css",
+      "blocking": true,
+      "description": "Check CSS/SCSS files for style issues",
+      "severity": "error"
+    },
+    {
+      "name": "ESLint",
+      "command": "npx eslint src --ext .ts,.vue",
+      "blocking": true,
+      "description": "Lint TypeScript and Vue files",
+      "severity": "error"
+    },
+    {
+      "name": "Tests",
+      "command": "npx vitest run --coverage",
+      "blocking": true,
+      "description": "Run test suite with coverage reporting",
+      "min_coverage": 80,
+      "severity": "error"
+    },
+    {
+      "name": "TypeScript",
+      "command": "npm run typecheck",
+      "blocking": true,
+      "description": "Check TypeScript type safety",
+      "severity": "error"
+    },
+    {
+      "name": "Build",
+      "command": "npm run build",
+      "blocking": false,
+      "description": "Verify production build succeeds",
+      "severity": "warning"
+    }
+  ],
+  "output_format": "consolidated",
+  "severity_levels": ["error", "warning", "info"],
+  "auto_fix_safe_issues": true,
+  "stop_on_first_blocking_error": false,
+  "report_template": {
+    "header": "QA Report",
+    "sections": [
+      "summary",
+      "blocking_issues",
+      "warnings",
+      "info",
+      "recommendations"
+    ]
+  },
+  "thresholds": {
+    "min_test_coverage": 80,
+    "max_eslint_warnings": 10,
+    "max_css_warnings": 5
+  },
+  "auto_fix_commands": {
+    "eslint": "npx eslint src --ext .ts,.vue --fix",
+    "css_lint": "npm run lint:css:fix",
+    "tokens": "npm run validate:tokens:fix"
+  },
+  "parallel_execution": {
+    "enabled": true,
+    "max_concurrent": 3,
+    "independent_checks": ["Design Tokens", "ESLint", "CSS Linting"]
+  },
+  "exit_codes": {
+    "all_passed": 0,
+    "warnings_only": 1,
+    "blocking_errors": 2
+  }
+}

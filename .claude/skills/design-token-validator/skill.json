@@ -1,0 +1,86 @@
+{
+  "name": "design-token-validator",
+  "version": "1.0.0",
+  "tier": 2,
+  "description": "Validate and auto-fix design token usage across CSS files and Vue components to ensure consistency and maintainability",
+  "triggers": {
+    "auto": true,
+    "patterns": [
+      "after editing files in src/public/css/tokens/",
+      "after editing component <style> blocks with CSS custom properties",
+      "after adding/modifying var(--*) references"
+    ],
+    "file_patterns": [
+      "src/public/css/tokens/**/*.css",
+      "src/components/**/*.vue",
+      "src/public/css/**/*.css"
+    ]
+  },
+  "workflow": [
+    "Run npm run validate:tokens to check token consistency",
+    "Scan component styles for token usage patterns",
+    "Check components use semantic tokens (not primitive)",
+    "Identify unused tokens in token definition files",
+    "Detect missing token definitions (referenced but not defined)",
+    "If auto_fix is enabled, run npm run validate:tokens:fix for safe corrections",
+    "Report remaining issues with severity levels (error/warning)"
+  ],
+  "configuration": {
+    "file": ".claude/config/token-rules.json",
+    "auto_fix": true,
+    "prefer_semantic": true
+  },
+  "validation_checks": [
+    {
+      "rule": "no_hardcoded_values",
+      "description": "Components should use tokens instead of hardcoded colors/spacing",
+      "severity": "error",
+      "exceptions": ["transparent", "inherit", "currentColor"]
+    },
+    {
+      "rule": "prefer_semantic",
+      "description": "Use semantic tokens (--color-primary) over primitive (--color-base-blue-500)",
+      "severity": "warning",
+      "auto_fixable": true
+    },
+    {
+      "rule": "token_must_exist",
+      "description": "All referenced tokens must be defined in token files",
+      "severity": "error",
+      "auto_fixable": false
+    },
+    {
+      "rule": "unused_tokens",
+      "description": "Tokens defined but never used",
+      "severity": "warning",
+      "auto_fixable": false
+    }
+  ],
+  "auto_fix_capabilities": {
+    "primitive_to_semantic": "Maps common primitive tokens to semantic equivalents",
+    "safe_fixes_only": "Only applies fixes that don't change visual appearance"
+  },
+  "outputs": [
+    "Validation report with categorized issues",
+    "Auto-fixed files (if enabled)",
+    "Suggestions for manual fixes",
+    "Token usage statistics"
+  ],
+  "examples": [
+    {
+      "issue": "Component uses --color-base-blue-500 directly",
+      "auto_fix": "Replace with --color-primary",
+      "result": "✅ Auto-fixed: Replaced 3 occurrences in ccmButton.vue"
+    },
+    {
+      "issue": "Hardcoded color: background: #3b82f6",
+      "auto_fix": "Cannot auto-fix - requires human decision",
+      "suggestion": "Consider using --color-primary or define new semantic token"
+    }
+  ],
+  "dependencies": [
+    "npm run validate:tokens",
+    "npm run validate:tokens:fix",
+    ".claude/config/token-rules.json"
+  ]
+}

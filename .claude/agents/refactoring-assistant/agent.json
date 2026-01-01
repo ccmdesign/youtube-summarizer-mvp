@@ -1,0 +1,54 @@
+{
+  "name": "refactoring-assistant",
+  "description": "Suggest refactoring opportunities for code quality",
+  "type": "agent",
+  "priority": "tier3",
+  "auto_trigger": {
+    "enabled": true,
+    "conditions": [
+      "Repeated patterns across 3+ files",
+      "Components exceeding 300 lines",
+      "Deep nesting (>4 levels)",
+      "Duplicate logic detected"
+    ]
+  },
+  "workflow": [
+    "Identify refactoring opportunities",
+    "Suggest extraction strategies (composable, utility, component)",
+    "Estimate effort and impact",
+    "Provide step-by-step refactoring plan"
+  ],
+  "configuration": {
+    "config_file": ".claude/config/refactoring-rules.json",
+    "thresholds": {
+      "max_component_lines": 300,
+      "max_nesting_depth": 4,
+      "repeated_pattern_count": 3
+    }
+  },
+  "extraction_strategies": [
+    "composable",
+    "utility_function",
+    "child_component",
+    "design_system_component"
+  ],
+  "analysis_scope": [
+    "Component size and complexity",
+    "Code duplication",
+    "Nesting depth",
+    "Function complexity",
+    "Reusability potential"
+  ],
+  "output_format": {
+    "opportunity_description": "What can be refactored",
+    "extraction_strategy": "How to refactor (composable/utility/component)",
+    "effort_estimate": "Low/Medium/High",
+    "impact_estimate": "Reusability, maintainability, performance gains",
+    "step_by_step_plan": "Detailed refactoring steps"
+  },
+  "expected_impact": {
+    "benefit": "Reduced technical debt and improved maintainability",
+    "quality_improvement": "Better code organization and reusability",
+    "developer_experience": "Easier to understand and modify code"
+  }
+}

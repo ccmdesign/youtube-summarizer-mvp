@@ -1,0 +1,30 @@
+{
+  "sources": {
+    "nuxt": {
+      "mcp_server": "nuxt-docs",
+      "version": "4.2.0",
+      "cache_ttl_days": 7
+    },
+    "gemini": {
+      "mcp_server": "google-ai-docs",
+      "focus_areas": ["generative-ai", "multimodal"],
+      "cache_ttl_days": 3
+    },
+    "youtube": {
+      "mcp_server": "google-apis-docs",
+      "version": "v3",
+      "focus_areas": ["playlists", "videos", "quota"],
+      "cache_ttl_days": 14
+    },
+    "nuxt-content": {
+      "mcp_server": "nuxt-docs",
+      "version": "3.7.1",
+      "cache_ttl_days": 7
+    }
+  },
+  "output_format": {
+    "include_examples": true,
+    "include_version_notes": true,
+    "max_length_chars": 1500
+  }
+}

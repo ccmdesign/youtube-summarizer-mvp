@@ -1,0 +1,34 @@
+{
+  "name": "component-scaffolder",
+  "version": "1.0.0",
+  "description": "Generate new design system components following established patterns",
+  "type": "skill",
+  "auto_trigger": {
+    "enabled": true,
+    "patterns": [
+      "create a new .* component",
+      "add a ccm.* component",
+      "scaffold a .* in the design system"
+    ]
+  },
+  "configuration": {
+    "config_file": ".claude/config/component-patterns.json",
+    "output_directories": {
+      "components": "src/components/ds/",
+      "demos": "src/components/docs/demos/",
+      "tests": "src/tests/components/"
+    }
+  },
+  "workflow": [
+    "Check .claude/config/component-patterns.json for learned patterns",
+    "Determine component category (atom/molecule/organism) based on request",
+    "Scaffold component file in src/components/ds/[category]/ccm[Name].vue",
+    "Generate demo file in src/components/docs/demos/ccm-[name]-demo.vue",
+    "Create test file in src/tests/components/ccm[Name].test.ts",
+    "Run npm run docs:generate"
+  ],
+  "dependencies": {
+    "scripts": ["npm run docs:generate"],
+    "config_files": [".claude/config/component-patterns.json"]
+  }
+}

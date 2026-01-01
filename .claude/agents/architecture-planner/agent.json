@@ -1,0 +1,48 @@
+{
+  "name": "architecture-planner",
+  "version": "1.0.0",
+  "description": "Plan implementation strategy before writing code",
+  "type": "agent",
+  "auto_trigger": {
+    "enabled": true,
+    "patterns": [
+      "I need to build .*",
+      "let's implement .*",
+      "how should I structure .*"
+    ]
+  },
+  "configuration": {
+    "config_file": ".claude/config/architecture-rules.json",
+    "output_directory": "_process/plans/"
+  },
+  "workflow": [
+    "Read project structure (src/ directory tree)",
+    "Review CLAUDE.md and _process/youtube-summarizer-spec.md",
+    "Identify existing components/composables that can be reused",
+    "Propose file structure and component breakdown",
+    "Create implementation checklist",
+    "Output plan to _process/plans/[feature-name]-plan.md"
+  ],
+  "reuse_priority": [
+    "existing_ds_components",
+    "composables",
+    "utilities",
+    "new_components"
+  ],
+  "component_decision_tree": [
+    "Can existing DS component be extended?",
+    "Is this a domain-specific component (custom)?",
+    "Does this need to be in the design system?",
+    "Should this be a composable instead?"
+  ],
+  "plan_output": {
+    "format": "markdown",
+    "sections": [
+      "Feature Overview",
+      "Files to Create/Modify",
+      "Components to Reuse",
+      "Implementation Steps",
+      "Testing Requirements"
+    ]
+  }
+}

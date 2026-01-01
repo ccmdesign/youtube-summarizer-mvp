@@ -1,0 +1,60 @@
+{
+  "name": "documentation-researcher",
+  "version": "1.0.0",
+  "description": "Search official documentation for external APIs and libraries",
+  "type": "skill",
+  "auto_trigger": {
+    "enabled": true,
+    "patterns": [
+      "how do I use .*",
+      "what's the syntax for .*",
+      "does .* support .*"
+    ],
+    "libraries": [
+      "YouTube Data API",
+      "Gemini API",
+      "Nuxt Content",
+      "Nuxt 4"
+    ]
+  },
+  "configuration": {
+    "config_file": ".claude/config/doc-sources.json",
+    "cache_directory": ".claude/cache/"
+  },
+  "workflow": [
+    "Identify the library/API from context",
+    "Check .claude/cache/docs-[library].json for cached results",
+    "If not cached or stale (>TTL days), fetch from MCP server",
+    "Extract relevant API methods, examples, and best practices",
+    "Return concise summary with code examples",
+    "Cache results for session"
+  ],
+  "supported_sources": {
+    "nuxt": {
+      "mcp_server": "nuxt-docs",
+      "version": "4.2.0",
+      "cache_ttl_days": 7
+    },
+    "gemini": {
+      "mcp_server": "google-ai-docs",
+      "focus_areas": ["generative-ai", "multimodal"],
+      "cache_ttl_days": 3
+    },
+    "youtube": {
+      "mcp_server": "google-apis-docs",
+      "version": "v3",
+      "focus_areas": ["playlists", "videos", "quota"],
+      "cache_ttl_days": 14
+    },
+    "nuxt-content": {
+      "mcp_server": "nuxt-docs",
+      "version": "3.7.1",
+      "cache_ttl_days": 7
+    }
+  },
+  "output_format": {
+    "include_examples": true,
+    "include_version_notes": true,
+    "max_length_chars": 1500
+  }
+}

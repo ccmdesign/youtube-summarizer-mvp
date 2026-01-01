@@ -1,0 +1,50 @@
+{
+  "name": "code-reviewer",
+  "version": "1.0.0",
+  "description": "Proactively review code changes for quality, consistency, and standards compliance",
+  "type": "skill",
+  "auto_trigger": {
+    "enabled": true,
+    "file_patterns": [
+      "src/components/ds/**/*.vue",
+      "src/public/css/**/*.css",
+      "src/composables/**/*.ts"
+    ],
+    "on_actions": ["edit", "create"]
+  },
+  "configuration": {
+    "config_file": ".claude/config/review-rules.json"
+  },
+  "review_checklist": {
+    "cube_css_compliance": {
+      "check": "Styles wrapped in appropriate @layer directive",
+      "check": "Token usage follows semantic > primitive hierarchy"
+    },
+    "component_standards": {
+      "check": "Props organized by category",
+      "check": "defineOptions follows production/dev pattern",
+      "check": "cssVars computed property for dynamic styling",
+      "check": "Component follows --_ccm-{component}-{property} pattern"
+    },
+    "accessibility": {
+      "check": "ARIA labels present on interactive elements",
+      "check": "Keyboard focus visible (:focus-visible styles)",
+      "check": "Semantic HTML elements used",
+      "check": "Disabled states use aria-disabled"
+    },
+    "typescript_safety": {
+      "check": "Props have explicit types",
+      "check": "No any types without justification",
+      "check": "Composables have return type inference"
+    },
+    "performance": {
+      "check": "No unnecessary re-renders",
+      "check": "Computed properties used for derived state",
+      "check": "Event handlers not recreated on each render"
+    }
+  },
+  "output": {
+    "format": "inline_suggestions",
+    "severity_levels": ["error", "warning", "info"]
+  }
+}

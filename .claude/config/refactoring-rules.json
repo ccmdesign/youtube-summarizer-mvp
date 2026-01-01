@@ -1,0 +1,108 @@
+{
+  "thresholds": {
+    "max_component_lines": 300,
+    "max_nesting_depth": 4,
+    "repeated_pattern_count": 3,
+    "max_function_complexity": 10,
+    "max_function_lines": 50
+  },
+  "extraction_strategies": [
+    "composable",
+    "utility_function",
+    "child_component",
+    "design_system_component"
+  ],
+  "strategy_selection": {
+    "composable": {
+      "when": "Stateful logic shared across 3+ components",
+      "benefits": ["Reusability", "Consistency", "Testability"],
+      "effort": "Medium"
+    },
+    "utility_function": {
+      "when": "Pure function, no state, used 3+ times",
+      "benefits": ["Simplicity", "Performance", "Easy testing"],
+      "effort": "Low"
+    },
+    "child_component": {
+      "when": "Component >300 lines with distinct UI sections",
+      "benefits": ["Separation of concerns", "Maintainability", "Reusability"],
+      "effort": "Medium"
+    },
+    "design_system_component": {
+      "when": "UI pattern used across multiple features",
+      "benefits": ["Consistency", "Reusability", "Centralized styling"],
+      "effort": "High"
+    }
+  },
+  "analysis_patterns": {
+    "duplicate_code": {
+      "enabled": true,
+      "min_similarity_percent": 80,
+      "min_lines": 5
+    },
+    "large_components": {
+      "enabled": true,
+      "scan_directories": ["src/components/", "src/pages/"]
+    },
+    "deep_nesting": {
+      "enabled": true,
+      "scan_file_types": [".ts", ".vue", ".js"]
+    },
+    "complex_functions": {
+      "enabled": true,
+      "cyclomatic_complexity_threshold": 10
+    }
+  },
+  "effort_estimation": {
+    "low": {
+      "description": "15-45 minutes",
+      "examples": ["Extract utility function", "Apply early returns", "Rename variables"]
+    },
+    "medium": {
+      "description": "1-3 hours",
+      "examples": ["Extract composable", "Split component", "Reorganize structure"]
+    },
+    "high": {
+      "description": "Half day or more",
+      "examples": ["Create design system component", "Major architectural change"]
+    }
+  },
+  "impact_categories": {
+    "readability": {
+      "weight": 0.3,
+      "indicators": ["Reduced nesting", "Clearer naming", "Better organization"]
+    },
+    "reusability": {
+      "weight": 0.3,
+      "indicators": ["Extracted shared logic", "Generic implementation", "Composable API"]
+    },
+    "maintainability": {
+      "weight": 0.2,
+      "indicators": ["Smaller units", "Single responsibility", "Clear boundaries"]
+    },
+    "testability": {
+      "weight": 0.2,
+      "indicators": ["Isolated units", "Pure functions", "Mockable dependencies"]
+    }
+  },
+  "output_format": {
+    "include_effort_estimate": true,
+    "include_impact_analysis": true,
+    "include_step_by_step_plan": true,
+    "include_before_after_examples": true
+  },
+  "exclusions": {
+    "ignore_directories": [
+      "node_modules/",
+      ".nuxt/",
+      ".output/",
+      "dist/",
+      "_archive/"
+    ],
+    "ignore_file_patterns": [
+      "*.test.ts",
+      "*.spec.ts",
+      "*.config.ts"
+    ]
+  }
+}

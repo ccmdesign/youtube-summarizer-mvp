@@ -1,0 +1,25 @@
+{
+  "watch_directories": [
+    "src/components/ds/"
+  ],
+  "generation_command": "npm run docs:generate",
+  "verify_demos": true,
+  "output_directory": "src/public/component-docs/",
+  "auto_trigger": true,
+  "demo_verification": {
+    "enabled": true,
+    "check_props_match": true,
+    "check_slots_match": true,
+    "check_examples_valid": true
+  },
+  "notification": {
+    "on_success": true,
+    "on_error": true,
+    "on_demo_mismatch": true
+  },
+  "excluded_patterns": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "**/demos/**"
+  ]
+}

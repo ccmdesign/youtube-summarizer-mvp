@@ -1,0 +1,50 @@
+{
+  "framework": "vitest",
+  "min_coverage_threshold": 80,
+  "test_structure": {
+    "describe_block": "component/composable name",
+    "test_categories": [
+      "renders correctly",
+      "prop validation",
+      "slot rendering",
+      "event handling",
+      "edge cases"
+    ]
+  },
+  "imports": {
+    "components": "@nuxt/test-utils",
+    "composables": "vitest"
+  },
+  "coverage_enforcement": true,
+  "auto_run_after_generation": true,
+  "test_file_patterns": {
+    "components": "src/tests/components/{name}.test.ts",
+    "composables": "src/tests/composables/{name}.test.ts",
+    "utils": "src/tests/utils/{name}.test.ts"
+  },
+  "template_structure": {
+    "component_test": {
+      "imports": [
+        "import { describe, it, expect } from 'vitest'",
+        "import { mountSuspended } from '@nuxt/test-utils/runtime'"
+      ],
+      "test_cases": {
+        "default_render": "it('renders with default props', async () => { /* ... */ })",
+        "prop_validation": "it('validates {prop} prop', () => { /* ... */ })",
+        "slot_content": "it('renders {slot} slot content', async () => { /* ... */ })",
+        "event_emission": "it('emits {event} event', async () => { /* ... */ })",
+        "disabled_state": "it('handles disabled state correctly', async () => { /* ... */ })"
+      }
+    },
+    "composable_test": {
+      "imports": [
+        "import { describe, it, expect } from 'vitest'"
+      ],
+      "test_cases": {
+        "default_behavior": "it('returns expected default values', () => { /* ... */ })",
+        "state_updates": "it('updates state correctly', () => { /* ... */ })",
+        "error_handling": "it('handles errors gracefully', () => { /* ... */ })"
+      }
+    }
+  }
+}

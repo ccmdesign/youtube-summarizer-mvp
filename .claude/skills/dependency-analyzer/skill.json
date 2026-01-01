@@ -1,0 +1,50 @@
+{
+  "name": "dependency-analyzer",
+  "description": "Analyze package dependencies before adding new ones",
+  "priority": "tier3",
+  "auto_trigger": {
+    "enabled": true,
+    "patterns": [
+      "we need to install [package]",
+      "should we add [library]",
+      "what package can [do X]",
+      "npm install",
+      "add dependency",
+      "install package"
+    ]
+  },
+  "workflow": [
+    "Check if existing dependencies can solve the problem",
+    "Search npm for alternatives",
+    "Compare bundle size impact",
+    "Verify Nuxt 4 compatibility",
+    "Suggest tree-shakeable import strategies",
+    "Report security vulnerabilities (via npm audit)"
+  ],
+  "configuration": {
+    "config_file": ".claude/config/dependency-rules.json",
+    "compatibility_targets": {
+      "nuxt": "4.x",
+      "vue": "3.x",
+      "node": ">=18"
+    },
+    "thresholds": {
+      "bundle_size_kb": 50,
+      "security_vulnerabilities": 0
+    }
+  },
+  "analysis_criteria": [
+    "Existing dependency coverage",
+    "Bundle size impact",
+    "Framework compatibility",
+    "ESM support",
+    "Security status",
+    "Maintenance activity",
+    "Community adoption"
+  ],
+  "expected_impact": {
+    "benefit": "Zero unnecessary dependencies added",
+    "cost_savings": "Reduced bundle size and maintenance burden",
+    "security": "Proactive vulnerability prevention"
+  }
+}

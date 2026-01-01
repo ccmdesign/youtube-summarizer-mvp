@@ -1,0 +1,80 @@
+{
+  "token_directories": [
+    "src/public/css/tokens/"
+  ],
+  "semantic_token_prefix": "color-",
+  "primitive_token_prefix": "color-base-",
+  "auto_fix": true,
+  "fix_strategies": {
+    "primitive_to_semantic": true,
+    "unused_token_warning": true,
+    "missing_token_error": true
+  },
+  "validation_script": "npm run validate:tokens",
+  "fix_script": "npm run validate:tokens:fix",
+  "token_types": {
+    "color": {
+      "semantic_pattern": "--color-{semantic-name}",
+      "primitive_pattern": "--color-base-{color}-{shade}",
+      "examples": {
+        "semantic": ["--color-primary", "--color-secondary", "--color-text", "--color-background"],
+        "primitive": ["--color-base-blue-500", "--color-base-gray-100"]
+      }
+    },
+    "spacing": {
+      "semantic_pattern": "--spacing-{semantic-name}",
+      "primitive_pattern": "--spacing-base-{size}",
+      "examples": {
+        "semantic": ["--spacing-section", "--spacing-card"],
+        "primitive": ["--spacing-base-xs", "--spacing-base-m", "--spacing-base-xl"]
+      }
+    },
+    "typography": {
+      "semantic_pattern": "--font-{semantic-name}",
+      "primitive_pattern": "--font-base-{property}",
+      "examples": {
+        "semantic": ["--font-heading", "--font-body"],
+        "primitive": ["--font-base-family-sans", "--font-base-size-16"]
+      }
+    }
+  },
+  "validation_rules": {
+    "no_hardcoded_values": {
+      "enabled": true,
+      "message": "Use design tokens instead of hardcoded values",
+      "exceptions": ["transparent", "inherit", "currentColor"]
+    },
+    "prefer_semantic": {
+      "enabled": true,
+      "message": "Use semantic tokens (e.g., --color-primary) instead of primitive tokens (e.g., --color-base-blue-500) in component styles"
+    },
+    "token_must_exist": {
+      "enabled": true,
+      "message": "Referenced token is not defined in token files"
+    },
+    "unused_tokens": {
+      "enabled": true,
+      "message": "Token is defined but never used",
+      "severity": "warning"
+    }
+  },
+  "auto_fix_rules": {
+    "primitive_to_semantic_mapping": {
+      "--color-base-blue-500": "--color-primary",
+      "--color-base-gray-900": "--color-text",
+      "--color-base-gray-100": "--color-background-light",
+      "--spacing-base-m": "--spacing-default"
+    },
+    "safe_fixes_only": true
+  },
+  "component_validation": {
+    "scan_patterns": [
+      "src/components/**/*.vue",
+      "src/public/css/**/*.css"
+    ],
+    "exclude_patterns": [
+      "src/public/css/tokens/**",
+      "node_modules/**"
+    ]
+  }
+}

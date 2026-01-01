@@ -1,0 +1,44 @@
+# Cursor IDE Rules
+
+**For complete documentation, read [CLAUDE.md](CLAUDE.md) and [AGENTS.md](AGENTS.md).**
+
+CLAUDE.md is the single source of truth for this project.
+
+## Quick Reference
+
+**Framework**: Nuxt 3/4 + Vue 3.5 + @nuxt/content
+**Source**: All code in `src/`
+**This is a boilerplate** - content files are examples
+
+## Essential Commands
+```bash
+npm run dev                      # Start dev server
+npm run build                    # Production build
+npx vitest run                   # Run tests
+npx eslint src --ext .ts,.vue    # Lint code
+npm run lint:css                 # Lint CSS (if exists)
+npm run validate:tokens          # Validate tokens (if exists)
+```
+
+## Standards (See CLAUDE.md for details)
+- Vue: `<script setup lang="ts">` composition API
+- Components: PascalCase, `ccm` prefix for DS
+- TypeScript: 2-space indent, no semicolons, single quotes
+- CSS: CUBE methodology, design tokens, `--_ccm-{component}-{property}`
+
+## Project Structure
+```
+src/
+├── pages/          # File-based routes
+├── components/ds/  # Design system (ccm*)
+├── composables/    # Composition utilities
+├── content/        # Markdown (examples)
+├── public/         # Static + CSS
+├── server/         # API routes
+└── tests/          # Vitest specs
+```
+
+## Read the Docs
+- **[CLAUDE.md](CLAUDE.md)** - Complete project documentation
+- **[AGENTS.md](AGENTS.md)** - Agent resource links
+- **[GEMINI.md](GEMINI.md)** - Gemini-specific notes

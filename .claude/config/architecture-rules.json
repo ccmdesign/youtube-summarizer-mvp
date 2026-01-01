@@ -1,0 +1,17 @@
+{
+  "reuse_priority": ["existing_ds_components", "composables", "utilities", "new_components"],
+  "file_locations": {
+    "components_ds": "src/components/ds/",
+    "components_custom": "src/components/custom/",
+    "composables": "src/composables/",
+    "pages": "src/pages/",
+    "server": "src/server/"
+  },
+  "component_decision_tree": [
+    "Can existing DS component be extended?",
+    "Is this a domain-specific component (custom)?",
+    "Does this need to be in the design system?",
+    "Should this be a composable instead?"
+  ],
+  "plan_template": "feature-implementation-plan.md"
+}

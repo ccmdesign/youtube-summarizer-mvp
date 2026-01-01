@@ -1,0 +1,74 @@
+{
+  "existing_dependencies_first": true,
+  "bundle_size_threshold_kb": 50,
+  "compatibility_check": {
+    "nuxt": "4.x",
+    "vue": "3.x",
+    "node": ">=18"
+  },
+  "prefer_esm": true,
+  "security_check": true,
+  "analysis_criteria": [
+    "existing_coverage",
+    "bundle_size",
+    "framework_compatibility",
+    "esm_support",
+    "security_status",
+    "maintenance_activity",
+    "community_adoption"
+  ],
+  "bundle_analysis": {
+    "enabled": true,
+    "report_format": "summary",
+    "size_units": "KB",
+    "compare_alternatives": true
+  },
+  "security_scan": {
+    "enabled": true,
+    "command": "npm audit",
+    "fail_on_vulnerabilities": true,
+    "allowed_severity_levels": []
+  },
+  "recommendations": {
+    "suggest_native_alternatives": true,
+    "suggest_framework_utilities": true,
+    "suggest_lighter_alternatives": true,
+    "show_bundle_size_savings": true
+  },
+  "known_alternatives": {
+    "lodash": {
+      "alternatives": [
+        "native JavaScript (ES2024)",
+        "lodash-es (tree-shakeable)",
+        "Nuxt Kit utilities"
+      ],
+      "recommendation": "Use lodash-es with named imports if native alternatives insufficient"
+    },
+    "moment": {
+      "alternatives": [
+        "Intl.DateTimeFormat (native)",
+        "date-fns",
+        "dayjs"
+      ],
+      "recommendation": "Use Intl.DateTimeFormat for basic formatting, dayjs for advanced features"
+    },
+    "axios": {
+      "alternatives": [
+        "$fetch (Nuxt built-in)",
+        "useFetch (Nuxt composable)",
+        "useAsyncData (Nuxt composable)"
+      ],
+      "recommendation": "Use $fetch or useFetch (already available in Nuxt)"
+    },
+    "uuid": {
+      "alternatives": [
+        "crypto.randomUUID() (native)"
+      ],
+      "recommendation": "Use crypto.randomUUID() (Node 18+, modern browsers)"
+    }
+  },
+  "auto_fix": {
+    "suggest_import_optimization": true,
+    "suggest_tree_shaking": true
+  }
+}

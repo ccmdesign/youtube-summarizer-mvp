@@ -1,0 +1,124 @@
+{
+  "name": "quality-assurance",
+  "version": "1.0.0",
+  "tier": 2,
+  "type": "agent",
+  "description": "Run comprehensive quality checks before commits with consolidated error reporting",
+  "triggers": {
+    "auto": true,
+    "patterns": [
+      "developer says 'I'm done with [feature]'",
+      "developer says 'ready to commit'",
+      "developer says 'run QA checks'",
+      "developer says 'validate everything'",
+      "developer says 'check quality'"
+    ]
+  },
+  "workflow": [
+    "Load QA configuration from .claude/config/qa-checks.json",
+    "Execute checks in parallel where possible (Design Tokens, ESLint, CSS Linting)",
+    "Run sequential checks that depend on previous results (Tests, TypeScript)",
+    "Attempt auto-fix for safe, non-blocking issues if enabled",
+    "Consolidate all errors and warnings into single report",
+    "Categorize issues by severity (error, warning, info)",
+    "Generate actionable recommendations",
+    "Return exit code based on results (0=pass, 1=warnings, 2=blocking errors)"
+  ],
+  "checks": [
+    {
+      "id": "tokens",
+      "name": "Design Tokens",
+      "command": "npm run validate:tokens",
+      "blocking": false,
+      "parallel": true
+    },
+    {
+      "id": "css",
+      "name": "CSS Linting",
+      "command": "npm run lint:css",
+      "blocking": true,
+      "parallel": true,
+      "auto_fix": "npm run lint:css:fix"
+    },
+    {
+      "id": "eslint",
+      "name": "ESLint",
+      "command": "npx eslint src --ext .ts,.vue",
+      "blocking": true,
+      "parallel": true,
+      "auto_fix": "npx eslint src --ext .ts,.vue --fix"
+    },
+    {
+      "id": "tests",
+      "name": "Tests",
+      "command": "npx vitest run --coverage",
+      "blocking": true,
+      "parallel": false,
+      "min_coverage": 80
+    },
+    {
+      "id": "typecheck",
+      "name": "TypeScript",
+      "command": "npm run typecheck",
+      "blocking": true,
+      "parallel": false
+    },
+    {
+      "id": "build",
+      "name": "Build",
+      "command": "npm run build",
+      "blocking": false,
+      "parallel": false
+    }
+  ],
+  "configuration": {
+    "file": ".claude/config/qa-checks.json",
+    "auto_fix_safe_issues": true,
+    "parallel_execution": true,
+    "stop_on_first_error": false
+  },
+  "outputs": [
+    "Consolidated QA report with all check results",
+    "List of blocking issues preventing commit",
+    "List of warnings for review",
+    "Auto-fix results (if enabled)",
+    "Recommendations for improving code quality",
+    "Exit code (0=pass, 1=warnings, 2=errors)"
+  ],
+  "report_format": {
+    "sections": [
+      "Summary: Pass/Fail status for each check",
+      "Blocking Issues: Errors that must be fixed before commit",
+      "Warnings: Non-blocking issues for review",
+      "Auto-fixes Applied: What was automatically corrected",
+      "Recommendations: Suggested improvements"
+    ],
+    "icons": {
+      "pass": "✅",
+      "warning": "⚠️",
+      "error": "❌",
+      "info": "ℹ️"
+    }
+  },
+  "examples": [
+    {
+      "trigger": "Developer: 'ready to commit'",
+      "checks_run": [
+        "Design Tokens ✅",
+        "CSS Linting ⚠️ 2 warnings",
+        "ESLint ❌ 1 error, 3 warnings",
+        "Tests ✅ 87% coverage",
+        "TypeScript ✅"
+      ],
+      "result": "Exit code 2 (blocking error). Must fix ESLint error before commit."
+    }
+  ],
+  "dependencies": [
+    "npm run validate:tokens",
+    "npm run lint:css",
+    "npx eslint",
+    "npx vitest",
+    "npm run typecheck",
+    ".claude/config/qa-checks.json"
+  ]
+}

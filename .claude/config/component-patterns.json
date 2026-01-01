@@ -1,0 +1,99 @@
+{
+  "structure": {
+    "template": {
+      "required_slots": [
+        "default"
+      ],
+      "optional_slots": [
+        "separator",
+        "icon-before",
+        "icon-after",
+        "icon",
+        "navigation",
+        "content",
+        "logo",
+        "image",
+        "action",
+        "top-bar",
+        "top",
+        "bottom",
+        "left",
+        "right"
+      ]
+    },
+    "script": {
+      "defineOptions": "inheritAttrs based on NODE_ENV",
+      "props_categories": [
+        "structural",
+        "content",
+        "visual",
+        "accessibility",
+        "behavior"
+      ],
+      "computed_pattern": "cssVars for dynamic styling"
+    },
+    "style": {
+      "scoped": true,
+      "css_vars_pattern": "--_ccm-{component}-{property}",
+      "token_preference": "semantic > primitive"
+    }
+  },
+  "naming": {
+    "component_prefix": "ccm",
+    "file_case": "camelCase",
+    "demo_suffix": "-demo"
+  },
+  "props": {
+    "common": {
+      "size": {
+        "type": "String",
+        "default": "m",
+        "values": [
+          "s",
+          "m",
+          "l",
+          "xl"
+        ]
+      },
+      "color": {
+        "type": "String",
+        "default": "base",
+        "values": [
+          "primary",
+          "secondary",
+          "base",
+          "accent",
+          "white",
+          "success",
+          "fail",
+          "warning",
+          "info"
+        ]
+      },
+      "variant": {
+        "type": "String",
+        "context_dependent": true
+      },
+      "backgroundColor": {
+        "type": "String",
+        "default": "transparent"
+      }
+    }
+  },
+  "accessibility": {
+    "required_attrs": [
+      "aria-label fallback"
+    ],
+    "focus_visible": "2px solid var(--color-primary), offset 2px",
+    "disabled_pattern": "opacity 0.5, cursor not-allowed, pointer-events none"
+  },
+  "demo_structure": {
+    "sections": [
+      "baseline-usage",
+      "variants",
+      "sizes",
+      "colors",
+      "accessibility-check"
+    ]
+  }
+}

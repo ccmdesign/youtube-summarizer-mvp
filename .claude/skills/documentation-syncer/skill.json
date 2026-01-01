@@ -1,0 +1,34 @@
+{
+  "name": "documentation-syncer",
+  "description": "Regenerate component documentation after changes",
+  "priority": "tier3",
+  "auto_trigger": {
+    "enabled": true,
+    "patterns": [
+      "modified files in src/components/ds/",
+      "changed component props",
+      "updated component structure",
+      "edited component slots"
+    ],
+    "file_patterns": [
+      "src/components/ds/**/*.vue"
+    ]
+  },
+  "workflow": [
+    "Detect which components changed",
+    "Run npm run docs:generate",
+    "Verify demo files still work",
+    "Check for broken examples in generated docs",
+    "Report any issues"
+  ],
+  "configuration": {
+    "config_file": ".claude/config/docs-sync.json",
+    "required_scripts": ["docs:generate"],
+    "output_directory": "src/public/component-docs/"
+  },
+  "expected_impact": {
+    "benefit": "Documentation always in sync with code",
+    "time_saved": "Eliminates manual doc regeneration",
+    "quality_improvement": "Prevents stale documentation"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "test-generator",
+  "version": "1.0.0",
+  "tier": 2,
+  "description": "Automatically generate Vitest specs for components and composables with coverage enforcement",
+  "triggers": {
+    "auto": true,
+    "patterns": [
+      "after creating new component in src/components/ds/",
+      "after creating new composable in src/composables/",
+      "after creating new utility in src/utils/",
+      "after significantly modifying existing component/composable"
+    ],
+    "file_patterns": [
+      "src/components/ds/**/*.vue",
+      "src/composables/**/*.ts",
+      "src/utils/**/*.ts"
+    ]
+  },
+  "workflow": [
+    "Analyze the target file (props, methods, computed properties, slots, events)",
+    "Load test patterns from .claude/config/test-patterns.json",
+    "Determine test file location based on file type",
+    "Generate test file with appropriate structure and test cases",
+    "Include tests for: prop validation, slot rendering, event emissions, edge cases",
+    "Run npx vitest run [test-file] to verify tests pass",
+    "Check coverage meets minimum threshold (80%)",
+    "If coverage < threshold, add warning and suggest additional test cases"
+  ],
+  "configuration": {
+    "file": ".claude/config/test-patterns.json",
+    "min_coverage": 80,
+    "auto_run": true,
+    "enforce_coverage": true
+  },
+  "outputs": [
+    "Test file created in src/tests/[category]/[name].test.ts",
+    "Test execution results",
+    "Coverage report",
+    "Suggestions for additional tests if coverage is low"
+  ],
+  "examples": [
+    {
+      "trigger": "Created ccmTooltip.vue component",
+      "action": "Generate src/tests/components/ccmTooltip.test.ts with tests for all props, slots, positioning logic, and accessibility features",
+      "result": "Test file created with 15 test cases, coverage: 92%"
+    },
+    {
+      "trigger": "Created useVideoSummarizer.ts composable",
+      "action": "Generate src/tests/composables/useVideoSummarizer.test.ts with tests for state management, API calls, and error handling",
+      "result": "Test file created with 8 test cases, coverage: 78% - suggested 3 additional edge case tests"
+    }
+  ],
+  "dependencies": [
+    "vitest",
+    "@nuxt/test-utils",
+    ".claude/config/test-patterns.json"
+  ]
+}

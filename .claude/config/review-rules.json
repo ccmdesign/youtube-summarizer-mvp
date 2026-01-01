@@ -1,0 +1,17 @@
+{
+  "css_layers": ["reset", "defaults", "tokens", "themes", "components", "utils", "overrides"],
+  "token_hierarchy": ["semantic", "primitive"],
+  "required_focus_styles": true,
+  "disabled_pattern": {
+    "opacity": 0.5,
+    "cursor": "not-allowed",
+    "pointer_events": "none"
+  },
+  "prop_categories_required": true,
+  "min_accessibility_score": 95,
+  "auto_fix": {
+    "token_references": true,
+    "focus_styles": false,
+    "aria_labels": false
+  }
+}
