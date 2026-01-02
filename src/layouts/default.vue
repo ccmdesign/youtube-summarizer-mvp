@@ -13,7 +13,7 @@
     <main class="layout-main">
       <slot />
     </main>
-    <ccm-footer class="layout-footer" />
+    <ccm-footer v-if="footer" class="layout-footer" />
   </div>
 </template>
 

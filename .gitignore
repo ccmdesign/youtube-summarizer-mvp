@@ -25,6 +25,10 @@ logs
 !.env.example
 /content/
 
+# YouTube Summarizer data
+src/content/summaries/*.md
+!src/content/summaries/.gitkeep
+
 package-lock.json
 
 _archive/

@@ -58,7 +58,56 @@ Root:
 └── .cursorrules    # Cursor IDE rules
 ```
 
+## YouTube Playlist Summarizer
+
+This project includes a YouTube Playlist Summarizer that automatically fetches videos from a YouTube playlist and generates AI-powered summaries using Google Gemini API.
+
+### Setup
+
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+2. **Configure environment variables**:
+   ```bash
+   cp .env.example .env
+   ```
+
+   Edit `.env` and add your API keys:
+   - `YOUTUBE_API_KEY`: From [Google Cloud Console](https://console.cloud.google.com/)
+   - `YOUTUBE_PLAYLIST_ID`: The playlist ID to sync
+   - `GEMINI_API_KEY`: From [Google AI Studio](https://aistudio.google.com/app/apikey)
+
+3. **Run the sync**:
+   ```bash
+   npm run sync-playlist
+   ```
+
+### Usage
+
+```bash
+# Sync playlist manually
+npm run sync-playlist
+
+# View generated summaries
+ls src/content/summaries/
+
+# Check database
+sqlite3 .data/youtube-summarizer.db "SELECT * FROM processing_history;"
+```
+
+### Configuration
+
+See `.env.example` for all configuration options:
+- `PROCESSING_MODE`: `transcript` (cheaper, faster) or `native-video` (better quality)
+- `GEMINI_MODEL`: `gemini-2.0-flash-exp` or `gemini-2.0-pro-exp`
+- `MAX_VIDEOS_PER_RUN`: Limit number of videos processed per run (default: 10)
+
 ## Available Scripts
+
+### YouTube Summarizer
+- `npm run sync-playlist` - Sync YouTube playlist and generate summaries
 
 ### Development
 - `npm run dev` - Start dev server with hot reload

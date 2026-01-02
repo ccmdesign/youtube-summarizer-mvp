@@ -68,7 +68,7 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
     : optionsOrPreset
   const key = options.key ?? `content:${source}:${JSON.stringify({ ...options, key: undefined })}`
 
-  const { data, pending, error } = useAsyncData(key, async () => {
+  const { data, pending, error, refresh } = useAsyncData(key, async () => {
     const isPath = source.startsWith('/')
 
     // queryCollection/queryContent are auto-imported by @nuxt/content
@@ -88,7 +88,7 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
     return docs
   })
 
-  return { data, pending, error }
+  return { data, pending, error, refresh }
 }
 
 // Sugar alias with a name that reads well in pages

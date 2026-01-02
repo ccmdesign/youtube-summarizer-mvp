@@ -5,6 +5,7 @@
     "build": "npm run docs:generate && nuxt build",
     "dev": "concurrently -k -s first -n nuxt,docs \"npm:dev:nuxt\" \"npm run docs:watch\"",
     "dev:nuxt": "nuxt dev",
+    "dev:host": "nuxt dev --host 0.0.0.0",
     "generate": "npm run docs:generate && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -22,19 +23,22 @@
     "lint:css:fix": "stylelint 'src/**/*.{css,vue,scss}' --fix",
     "analyze:components": "tsx scripts/analyze-components.ts",
     "ai:setup": "tsx scripts/setup-ai-environment.ts",
-    "ai:validate": "tsx scripts/validate-ai-config.ts"
+    "ai:validate": "tsx scripts/validate-ai-config.ts",
+    "sync-playlist": "tsx scripts/sync-playlist.ts"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@libsql/client": "^0.14.0",
     "@nuxt/content": "^3.7.1",
     "@nuxt/eslint": "^1.9.0",
     "@nuxt/test-utils": "^3.20.1",
     "@pinia/nuxt": "^0.11.2",
     "@vimeo/player": "^2.27.1",
     "axios": "^1.9.0",
-    "better-sqlite3": "^12.2.0",
     "date-fns": "^4.1.0",
-    "dotenv": "^16.5.0",
+    "dotenv": "^16.6.1",
     "eslint": "^9.25.1",
+    "googleapis": "^169.0.0",
     "nuxt": "^4.2.0",
     "pinia": "^3.0.3",
     "rimraf": "^6.0.1",
@@ -44,7 +48,9 @@
     "vue-router": "^4.5.0",
     "vue2-perfect-scrollbar": "^1.5.56",
     "vue3-youtube": "^0.1.9",
-    "zod": "^4.0.0"
+    "winston": "^3.19.0",
+    "youtube-transcript": "^1.2.1",
+    "zod": "^4.3.4"
   },
   "devDependencies": {
     "@types/stylelint": "^13.13.3",
@@ -58,7 +64,7 @@
     "postcss-preset-env": "^8.0.0",
     "stylelint": "^16.25.0",
     "stylelint-config-standard-scss": "^16.0.0",
-    "tsx": "^4.20.6",
+    "tsx": "^4.21.0",
     "typescript": "^5.0.0",
     "vue-tsc": "^2.0.0"
   }
