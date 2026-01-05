@@ -21,6 +21,7 @@
 const route = useRoute()
 const heroState = useState('hero', () => null)
 const hero = computed(() => route.meta.hero || heroState.value)
+const footer = computed(() => route.meta.footer ?? true)
 </script>
 
 <style>

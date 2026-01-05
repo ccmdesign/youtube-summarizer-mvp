@@ -91,9 +91,6 @@ export function useContentStream(source: string, optionsOrPreset: ContentStreamO
   return { data, pending, error, refresh }
 }
 
-// Sugar alias with a name that reads well in pages
-export const getContent = useContentStream
-
 function presetToOptions(preset: SortPreset): ContentStreamOptions {
   switch (preset) {
     case 'recency':
@@ -105,10 +102,3 @@ function presetToOptions(preset: SortPreset): ContentStreamOptions {
       return {}
   }
 }
-
-// Data-only alias for simpler usage: const blog = content('blog', 'recency')
-export function content(source: string, optionsOrPreset: ContentStreamOptions | SortPreset = {}) {
-  return useContentStream(source, optionsOrPreset).data
-}
-
-

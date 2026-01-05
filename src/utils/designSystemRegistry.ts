@@ -76,11 +76,3 @@ export function findDesignSystemComponent(componentName: string): DesignSystemCo
 
   return null
 }
-
-export function invalidateDesignSystemComponentCache() {
-  cachedEntries = null
-}
-
-export const DESIGN_SYSTEM_COMPONENT_ROOT = designSystemRoot
-
-

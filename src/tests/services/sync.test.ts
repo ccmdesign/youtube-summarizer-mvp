@@ -11,17 +11,8 @@ vi.mock('~/server/utils/config', () => ({
     processingMode: 'transcript',
     maxVideosPerRun: 5,
     enableProFallback: false,
-    databasePath: '.data/test.db',
     outputDir: '.data/test-summaries'
   }))
-}));
-
-vi.mock('~/server/db/client', () => ({
-  db: {
-    getCompletedVideos: vi.fn(() => []),
-    recordProcessing: vi.fn(),
-    logError: vi.fn()
-  }
 }));
 
 vi.mock('~/server/services/youtube.service', () => ({
@@ -40,7 +31,8 @@ vi.mock('~/server/services/gemini.service', () => ({
 
 vi.mock('~/server/services/content-writer.service', () => ({
   createContentWriterService: vi.fn(() => ({
-    writeMarkdown: vi.fn()
+    writeMarkdown: vi.fn(),
+    exists: vi.fn(() => Promise.resolve(false))
   }))
 }));
 

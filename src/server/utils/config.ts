@@ -12,7 +12,6 @@ const ConfigSchema = z.object({
   processingMode: z.enum(['transcript', 'native-video']),
   maxVideosPerRun: z.number().int().positive().max(50),
   enableProFallback: z.boolean(),
-  databasePath: z.string(),
   outputDir: z.string()
 });
 
@@ -25,7 +24,6 @@ export function loadConfig(): AppConfig {
     processingMode: process.env.PROCESSING_MODE || 'transcript',
     maxVideosPerRun: parseInt(process.env.MAX_VIDEOS_PER_RUN || '10', 10),
     enableProFallback: process.env.ENABLE_PRO_FALLBACK === 'true',
-    databasePath: process.env.DATABASE_PATH || '.data/youtube-summarizer.db',
     outputDir: process.env.OUTPUT_DIR || 'src/content/summaries'
   };
 

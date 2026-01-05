@@ -76,6 +76,14 @@ export default defineNuxtConfig({
   experimental: {
     clientFallback: true
   },
+  serverDir: resolve(currentDir, 'server'),
+  nitro: {
+    preset: 'netlify'
+  },
+  routeRules: {
+    '/**': { prerender: true },
+    '/api/**': { prerender: false }
+  },
   components: [
     ...dsComponentDirs.map(path => ({
       path,
@@ -87,15 +95,7 @@ export default defineNuxtConfig({
       pathPrefix: false
     },
     {
-      path: resolve(currentDir, 'components/docs'),
-      pathPrefix: false
-    },
-    {
-      path: resolve(currentDir, 'components/templates'),
-      pathPrefix: false
-    },
-    {
-      path: resolve(currentDir, 'components/pages'),
+      path: resolve(currentDir, 'components/custom'),
       pathPrefix: false
     }
   ],

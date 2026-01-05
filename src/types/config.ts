@@ -6,7 +6,6 @@ export interface AppConfig {
   processingMode: 'transcript' | 'native-video';
   maxVideosPerRun: number;
   enableProFallback: boolean;
-  databasePath: string;
   outputDir: string;
 }
 

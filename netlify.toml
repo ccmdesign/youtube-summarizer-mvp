@@ -1,0 +1,27 @@
+[build]
+  command = "npm run build"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Netlify Functions for triggering sync
+[functions]
+  directory = "netlify/functions"
+
+# Redirects for SPA fallback (if needed)
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+
+# Headers for caching static assets
+[[headers]]
+  for = "/_nuxt/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/summaries/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"

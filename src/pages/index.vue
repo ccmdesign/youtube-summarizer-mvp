@@ -48,8 +48,9 @@
           />
           <div class="summary-content">
             <div class="summary-meta">
-              <span class="channel">{{ summary.channel }}</span> | 
-              <span class="date">{{ formatDate(summary.publishedAt) }}</span>
+              <span class="channel">{{ summary.channel }}</span> |
+              <span class="date">{{ formatDate(summary.publishedAt) }}</span> |
+              <a :href="`https://www.youtube.com/watch?v=${summary.videoId}`" target="_blank" rel="noopener" class="video-link">Watch on YouTube</a>
             </div>
             <h3><nuxt-link :to="`/summaries/${summary.videoId}`">{{ summary.title }}</nuxt-link></h3>
             <p v-if="summary.tldr" class="tldr">{{ summary.tldr }}</p>
@@ -64,6 +65,7 @@
 
 <script setup lang="ts">
 import { formatDate } from '~/utils/formatDate'
+import type { SyncResult } from '~/types/config'
 
 definePageMeta({
   hero: false,
@@ -93,16 +95,47 @@ const sortedSummaries = computed(() => {
 const isSyncing = ref(false)
 const syncStatus = ref('')
 
+const isLocalhost = computed(() => {
+  if (import.meta.client) {
+    return window.location.hostname === 'localhost' 
+      || window.location.hostname === '127.0.0.1'
+  }
+  return false
+})
+
 async function handleSync() {
   isSyncing.value = true
   syncStatus.value = ''
   
   try {
-    const result = await $fetch('/api/sync', { method: 'POST' })
-    syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`
-    
-    // Refresh summaries after sync
-    await refreshSummaries()
+    if (isLocalhost.value) {
+      // Direct sync on localhost
+      const result = await $fetch<SyncResult>('/api/sync', { method: 'POST' })
+      syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`
+      
+      // Refresh summaries after sync
+      await refreshSummaries()
+    } else {
+      // Trigger GitHub Actions on production
+      const response = await fetch('/.netlify/functions/trigger-sync', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ maxVideos: 10 })
+      })
+
+      const data = await response.json()
+
+      if (data.success) {
+        syncStatus.value = data.message || 'Sync triggered successfully!'
+        if (data.note) {
+          syncStatus.value += '\n\n' + data.note
+        }
+      } else {
+        syncStatus.value = `Sync failed: ${data.error || data.details || 'Unknown error'}`
+      }
+    }
   } catch (error) {
     syncStatus.value = `Sync failed: ${error instanceof Error ? error.message : String(error)}`
   } finally {

@@ -66,13 +66,3 @@ export function useContentItem(source: string, options: ContentItemOptions = {})
 
   return { data, pending, error }
 }
-
-// Sugar alias that mirrors the stream helper naming
-export const getContentOne = useContentItem
-
-// Data-only alias: const post = contentOne('blog', { slug })
-export function contentOne(source: string, options: ContentItemOptions = {}) {
-  return useContentItem(source, options).data
-}
-
-

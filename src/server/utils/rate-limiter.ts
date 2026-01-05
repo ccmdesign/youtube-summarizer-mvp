@@ -41,14 +41,6 @@ export class RateLimiter {
     this.tokens = Math.min(this.maxTokens, this.tokens + tokensToAdd);
     this.lastRefill = now;
   }
-
-  /**
-   * Get current token count
-   */
-  getAvailableTokens(): number {
-    this.refill();
-    return Math.floor(this.tokens);
-  }
 }
 
 // Gemini Flash rate limiter: 60 requests per minute

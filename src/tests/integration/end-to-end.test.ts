@@ -1,6 +1,5 @@
 import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 import { syncPlaylist } from '~/server/services/sync.service';
-import { db } from '~/server/db/client';
 import fs from 'fs/promises';
 import path from 'path';
 
@@ -56,9 +55,5 @@ describe('End-to-End Integration', () => {
       expect(content).toContain('videoId:');
       expect(content).toContain('tldr:');
     }
-
-    // Verify database records
-    const stats = db.getStats();
-    expect(stats.length).toBeGreaterThan(0);
   }, 60000); // 60 second timeout for API calls
 });

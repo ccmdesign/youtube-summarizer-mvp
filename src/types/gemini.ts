@@ -11,7 +11,3 @@ export interface SummaryOutput {
   summary: string;
   modelUsed: string;
 }
-
-export interface GeminiResponse {
-  text: string;
-}

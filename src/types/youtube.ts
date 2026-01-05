@@ -13,9 +13,3 @@ export interface VideoMetadata {
   publishedAt: string; // ISO 8601 timestamp
   thumbnailUrl: string;
 }
-
-export interface TranscriptEntry {
-  text: string;
-  start: number;
-  duration: number;
-}

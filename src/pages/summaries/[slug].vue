@@ -7,6 +7,9 @@
       <div class="center">
         <nuxt-link to="/">Back to summaries</nuxt-link>
         <h1>{{ summary.title }}</h1>
+        <p class="video-link">
+          <a :href="`https://www.youtube.com/watch?v=${summary.videoId}`" target="_blank" rel="noopener">Watch on YouTube</a>
+        </p>
         <ContentRenderer :value="summary" class="prose-layout | prose" />
       </div>
     </div>

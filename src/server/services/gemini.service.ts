@@ -1,8 +1,9 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
+import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import type { SummaryInput, SummaryOutput } from '~/types/gemini';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { geminiFlashLimiter, geminiProLimiter } from '~/server/utils/rate-limiter';
+import { buildSummaryPrompt, summaryResponseSchema, type SummaryResponse } from '~/server/prompts/summary.prompt';
 
 export class GeminiService {
   private genAI: GoogleGenerativeAI;
@@ -28,7 +29,17 @@ export class GeminiService {
     });
 
     const result = await retryWithBackoff(async () => {
-      const model = this.genAI.getGenerativeModel({ model: this.modelName });
+      const model = this.genAI.getGenerativeModel({
+        model: this.modelName,
+        generationConfig: {
+          responseMimeType: 'application/json',
+          responseSchema: {
+            type: SchemaType.OBJECT,
+            properties: summaryResponseSchema.properties,
+            required: summaryResponseSchema.required
+          }
+        }
+      });
 
       if (input.mode === 'native-video') {
         // Native video mode: pass YouTube URL to Gemini
@@ -74,54 +85,32 @@ export class GeminiService {
    * Build the prompt for Gemini
    */
   private buildPrompt(input: SummaryInput): string {
-    const { metadata, transcript } = input;
-
-    return `You are summarizing a YouTube video for a personal knowledge base.
-
-Video Title: ${metadata.title}
-Channel: ${metadata.channel}
-Duration: ${metadata.duration}
-Published: ${metadata.publishedAt}
-
-${transcript ? `Transcript:\n${transcript}\n\n` : ''}
-
-Provide:
-1. KEY TAKEAWAY: The single most important insight or actionable lesson from this video (max 200 characters, no quotes). This should be the one thing someone should remember if they only read this line.
-2. A comprehensive summary (up to 1000 words, but shorter if the content is simple)
-
-Focus on:
-- Key insights and main arguments
-- Actionable takeaways
-- Notable quotes or statistics (paraphrased)
-
-Do not include filler. Be direct and information-dense.
-
-Respond in this exact format:
-KEY TAKEAWAY: [the single most important insight or lesson]
-
-SUMMARY:
-[your summary here]`;
+    return buildSummaryPrompt({
+      metadata: input.metadata,
+      transcript: input.transcript
+    });
   }
 
   /**
-   * Parse Gemini's response into structured data
+   * Parse Gemini's structured JSON response
    */
   private parseResponse(text: string): { tldr: string; summary: string } {
-    // Match KEY TAKEAWAY (anything before SUMMARY:)
-    const takeawayMatch = text.match(/KEY TAKEAWAY:\s*(.+?)(?=\n\n|SUMMARY:)/s);
+    try {
+      const parsed: SummaryResponse = JSON.parse(text);
 
-    // Match SUMMARY (everything after SUMMARY:)
-    const summaryMatch = text.match(/SUMMARY:\s*(.+)/s);
+      if (!parsed.keyTakeaway || !parsed.summary) {
+        logger.error('Missing required fields in Gemini response', { parsed });
+        throw new Error('MALFORMED_GEMINI_RESPONSE');
+      }
 
-    if (!takeawayMatch || !summaryMatch) {
-      logger.error('Malformed Gemini response', { text });
+      return {
+        tldr: parsed.keyTakeaway.slice(0, 200),
+        summary: parsed.summary
+      };
+    } catch (error) {
+      logger.error('Failed to parse Gemini JSON response', { text, error });
       throw new Error('MALFORMED_GEMINI_RESPONSE');
     }
-
-    return {
-      tldr: takeawayMatch[1].trim().slice(0, 200),
-      summary: summaryMatch[1].trim()
-    };
   }
 }
 

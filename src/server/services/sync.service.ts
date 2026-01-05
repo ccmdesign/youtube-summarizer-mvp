@@ -1,7 +1,6 @@
 import type { SyncResult } from '~/types/config';
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
-import { db } from '~/server/db/client';
 import { createYouTubeService } from './youtube.service';
 import { createGeminiService } from './gemini.service';
 import { createContentWriterService } from './content-writer.service';
@@ -40,15 +39,18 @@ export async function syncPlaylist(): Promise<SyncResult> {
       return result;
     }
 
-    // 2. Filter out already processed videos
-    const completedVideos = db.getCompletedVideos();
+    // 2. Filter out already processed videos (check if markdown file exists)
+    const processedChecks = await Promise.all(
+      playlistItems.map(item => contentWriter.exists(item.videoId))
+    );
     const newVideos = playlistItems.filter(
-      item => !completedVideos.includes(item.videoId)
+      (item, index) => !processedChecks[index]
     );
 
-    logger.info(`Found ${newVideos.length} new videos (${completedVideos.length} already processed)`);
+    const alreadyProcessed = playlistItems.length - newVideos.length;
+    logger.info(`Found ${newVideos.length} new videos (${alreadyProcessed} already processed)`);
 
-    result.skipped = playlistItems.length - newVideos.length;
+    result.skipped = alreadyProcessed;
 
     // 3. Limit to maxVideosPerRun
     const videosToProcess = newVideos.slice(0, config.maxVideosPerRun);
@@ -73,7 +75,7 @@ export async function syncPlaylist(): Promise<SyncResult> {
 
         result.processed++;
 
-        logger.info(`✅ Successfully processed ${item.videoId}`);
+        logger.info(`Successfully processed ${item.videoId}`);
       } catch (error) {
         result.failed++;
         const errorMessage = error instanceof Error ? error.message : String(error);
@@ -83,23 +85,7 @@ export async function syncPlaylist(): Promise<SyncResult> {
           error: errorMessage
         });
 
-        logger.error(`❌ Failed to process ${item.videoId}`, { error: errorMessage });
-
-        // Log to database
-        db.logError({
-          video_id: item.videoId,
-          error_type: errorMessage.split(':')[0] || 'UNKNOWN_ERROR',
-          error_message: errorMessage,
-          stack_trace: error instanceof Error ? error.stack : undefined
-        });
-
-        // Record failed processing
-        db.recordProcessing({
-          video_id: item.videoId,
-          status: 'failed',
-          processed_at: new Date().toISOString(),
-          error_message: errorMessage
-        });
+        logger.error(`Failed to process ${item.videoId}`, { error: errorMessage });
       }
     }
 
@@ -126,15 +112,16 @@ async function processVideo(
 
   // 2. Get transcript (if in transcript mode)
   let transcript: string | undefined;
+  let processingMode = config.processingMode;
 
-  if (config.processingMode === 'transcript') {
+  if (processingMode === 'transcript') {
     try {
       transcript = await youtubeService.getTranscript(videoId);
     } catch (error) {
       // If transcript unavailable and Pro fallback is enabled
       if (config.enableProFallback && config.geminiModel.includes('pro')) {
         logger.warn(`Transcript unavailable, falling back to native video mode`, { videoId });
-        config.processingMode = 'native-video';
+        processingMode = 'native-video';
       } else {
         throw error;
       }
@@ -145,21 +132,13 @@ async function processVideo(
   const summary = await geminiService.generateSummary({
     metadata,
     transcript,
-    mode: config.processingMode
+    mode: processingMode
   });
 
-  // 4. Write markdown file
+  // 4. Write markdown file (filesystem is source of truth for "processed")
   await contentWriter.writeMarkdown({
     videoId,
     metadata,
     summary
-  });
-
-  // 5. Record successful processing in database
-  db.recordProcessing({
-    video_id: videoId,
-    status: 'completed',
-    processed_at: new Date().toISOString(),
-    model_used: summary.modelUsed
   });
 }
