@@ -72,7 +72,9 @@ export class GeminiService {
 
     logger.info(`Summary generated for ${input.metadata.videoId}`, {
       tldrLength: parsed.tldr.length,
-      summaryLength: parsed.summary.length
+      keyTakeawaysLength: parsed.keyTakeaways.length,
+      summaryLength: parsed.summary.length,
+      contextLength: parsed.context.length
     });
 
     return {
@@ -94,18 +96,23 @@ export class GeminiService {
   /**
    * Parse Gemini's structured JSON response
    */
-  private parseResponse(text: string): { tldr: string; summary: string } {
+  private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string } {
     try {
       const parsed: SummaryResponse = JSON.parse(text);
 
-      if (!parsed.keyTakeaway || !parsed.summary) {
+      if (!parsed.tldr || !parsed.keyTakeaways || !parsed.summary || !parsed.context) {
         logger.error('Missing required fields in Gemini response', { parsed });
         throw new Error('MALFORMED_GEMINI_RESPONSE');
       }
 
+      // Gemini sometimes returns literal \n instead of actual newlines
+      const normalize = (s: string) => s.replace(/\\n/g, '\n');
+
       return {
-        tldr: parsed.keyTakeaway.slice(0, 200),
-        summary: parsed.summary
+        tldr: parsed.tldr.slice(0, 400),
+        keyTakeaways: normalize(parsed.keyTakeaways),
+        summary: normalize(parsed.summary),
+        context: normalize(parsed.context)
       };
     } catch (error) {
       logger.error('Failed to parse Gemini JSON response', { text, error });

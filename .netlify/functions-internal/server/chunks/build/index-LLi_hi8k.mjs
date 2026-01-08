@@ -1,9 +1,10 @@
-import { _ as __nuxt_component_0, u as useAsyncData, q as queryCollection } from './app-NuZk_sGK.mjs';
+import { _ as __nuxt_component_0, u as useAsyncData, q as queryCollection } from './app-c_VwMdJF.mjs';
 import { _ as __nuxt_component_0$1 } from './nuxt-link-wD1AYW9d.mjs';
 import { defineComponent, ref, computed, withCtx, unref, createTextVNode, toDisplayString, createVNode, createBlock, createCommentVNode, openBlock, Fragment, renderList, resolveDynamicComponent, mergeProps, renderSlot, useSSRContext } from 'vue';
 import { ssrRenderComponent, ssrInterpolate, ssrRenderList, ssrRenderAttr, ssrRenderVNode, ssrRenderSlot } from 'vue/server-renderer';
 import { _ as _export_sfc, a as useRouter } from './server.mjs';
 import { format } from 'date-fns';
+import { marked } from 'marked';
 import 'perfect-debounce';
 import '../nitro/nitro.mjs';
 import 'zod';
@@ -234,6 +235,13 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
   __name: "index",
   __ssrInlineRender: true,
   setup(__props) {
+    marked.use({
+      renderer: {
+        paragraph(token) {
+          return token.text;
+        }
+      }
+    });
     const { data: summaries, pending, refresh: refreshSummaries } = useContentStream("summaries");
     const sortBy = ref("processedAt");
     const sortedSummaries = computed(() => {
@@ -248,16 +256,52 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
     });
     const isSyncing = ref(false);
     const syncStatus = ref("");
+    const currentVideoTitle = ref("");
+    const syncProgress = ref({ current: 0, total: 0 });
     const isLocalhost = computed(() => {
       return false;
     });
     async function handleSync() {
       isSyncing.value = true;
       syncStatus.value = "";
+      currentVideoTitle.value = "";
+      syncProgress.value = { current: 0, total: 0 };
       try {
         if (isLocalhost.value) {
-          const result = await $fetch("/api/sync", { method: "POST" });
-          syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`;
+          const response = await fetch("/api/sync-stream", { method: "POST" });
+          const reader = response.body?.getReader();
+          const decoder = new TextDecoder();
+          if (!reader) {
+            throw new Error("No response body");
+          }
+          let buffer = "";
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split("\n\n");
+            buffer = lines.pop() || "";
+            for (const line of lines) {
+              if (line.startsWith("data: ")) {
+                try {
+                  const event = JSON.parse(line.slice(6));
+                  if (event.type === "processing") {
+                    currentVideoTitle.value = event.videoTitle || "";
+                    syncProgress.value = {
+                      current: event.current || 0,
+                      total: event.total || 0
+                    };
+                  } else if (event.type === "complete" && event.result) {
+                    const result = event.result;
+                    syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`;
+                  } else if (event.type === "error") {
+                    syncStatus.value = `Sync failed: ${event.error}`;
+                  }
+                } catch {
+                }
+              }
+            }
+          }
           await refreshSummaries();
         } else {
           const response = await fetch("/.netlify/functions/trigger-sync", {
@@ -281,6 +325,8 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
         syncStatus.value = `Sync failed: ${error instanceof Error ? error.message : String(error)}`;
       } finally {
         isSyncing.value = false;
+        currentVideoTitle.value = "";
+        syncProgress.value = { current: 0, total: 0 };
       }
     }
     return (_ctx, _push, _parent, _attrs) => {
@@ -290,7 +336,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
       _push(ssrRenderComponent(_component_ccm_section, _attrs, {
         default: withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
-            _push2(`<div class="stack" data-v-96eafb94${_scopeId}><div class="sync-section" data-v-96eafb94${_scopeId}>`);
+            _push2(`<div class="stack" data-v-1915095d${_scopeId}><div class="sync-section" data-v-1915095d${_scopeId}>`);
             _push2(ssrRenderComponent(_component_ccm_button, {
               onClick: handleSync,
               disabled: unref(isSyncing),
@@ -308,12 +354,23 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
               }),
               _: 1
             }, _parent2, _scopeId));
-            if (unref(syncStatus)) {
-              _push2(`<p class="sync-status" data-v-96eafb94${_scopeId}>${ssrInterpolate(unref(syncStatus))}</p>`);
+            if (unref(isSyncing)) {
+              _push2(`<span class="sync-loading" data-v-1915095d${_scopeId}>${ssrInterpolate(unref(currentVideoTitle) || "Starting sync...")} `);
+              if (unref(syncProgress).current && unref(syncProgress).total) {
+                _push2(`<!--[--> (${ssrInterpolate(unref(syncProgress).current)}/${ssrInterpolate(unref(syncProgress).total)}) <!--]-->`);
+              } else {
+                _push2(`<!---->`);
+              }
+              _push2(`</span>`);
             } else {
               _push2(`<!---->`);
             }
-            _push2(`</div><div class="header-row" data-v-96eafb94${_scopeId}><h2 data-v-96eafb94${_scopeId}>Video Summaries</h2><div class="sort-buttons" data-v-96eafb94${_scopeId}>`);
+            if (unref(syncStatus)) {
+              _push2(`<p class="sync-status" data-v-1915095d${_scopeId}>${ssrInterpolate(unref(syncStatus))}</p>`);
+            } else {
+              _push2(`<!---->`);
+            }
+            _push2(`</div><div class="header-row" data-v-1915095d${_scopeId}><h2 data-v-1915095d${_scopeId}>Video Summaries</h2><div class="sort-buttons" data-v-1915095d${_scopeId}>`);
             _push2(ssrRenderComponent(_component_ccm_button, {
               onClick: ($event) => sortBy.value = "publishedAt",
               variant: unref(sortBy) === "publishedAt" ? "primary" : "secondary",
@@ -348,15 +405,15 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
             }, _parent2, _scopeId));
             _push2(`</div></div>`);
             if (unref(sortedSummaries) && unref(sortedSummaries).length > 0) {
-              _push2(`<ul class="summaries-list | stack" data-v-96eafb94${_scopeId}><!--[-->`);
+              _push2(`<ul class="summaries-list | stack" data-v-1915095d${_scopeId}><!--[-->`);
               ssrRenderList(unref(sortedSummaries), (summary) => {
-                _push2(`<li class="summary-item"${ssrRenderAttr("to", `/summaries/${summary.videoId}`)}${ssrRenderAttr("title", summary.title)} data-v-96eafb94${_scopeId}>`);
+                _push2(`<li class="summary-item"${ssrRenderAttr("to", `/summaries/${summary.videoId}`)}${ssrRenderAttr("title", summary.title)} data-v-1915095d${_scopeId}>`);
                 if (summary.thumbnailUrl) {
-                  _push2(`<img${ssrRenderAttr("src", summary.thumbnailUrl)}${ssrRenderAttr("alt", `Thumbnail for ${summary.title}`)} class="summary-thumb" loading="lazy" data-v-96eafb94${_scopeId}>`);
+                  _push2(`<img${ssrRenderAttr("src", summary.thumbnailUrl)}${ssrRenderAttr("alt", `Thumbnail for ${summary.title}`)} class="summary-thumb" loading="lazy" data-v-1915095d${_scopeId}>`);
                 } else {
                   _push2(`<!---->`);
                 }
-                _push2(`<div class="summary-content" data-v-96eafb94${_scopeId}><div class="summary-meta" data-v-96eafb94${_scopeId}><span class="channel" data-v-96eafb94${_scopeId}>${ssrInterpolate(summary.channel)}</span> | <span class="date" data-v-96eafb94${_scopeId}>${ssrInterpolate(unref(formatDate)(summary.publishedAt))}</span> | <a${ssrRenderAttr("href", `https://www.youtube.com/watch?v=${summary.videoId}`)} target="_blank" rel="noopener" class="video-link" data-v-96eafb94${_scopeId}>Watch on YouTube</a></div><h3 data-v-96eafb94${_scopeId}>`);
+                _push2(`<div class="summary-content" data-v-1915095d${_scopeId}><div class="summary-meta" data-v-1915095d${_scopeId}><span class="channel" data-v-1915095d${_scopeId}>${ssrInterpolate(summary.channel)}</span> | <span class="date" data-v-1915095d${_scopeId}>${ssrInterpolate(unref(formatDate)(summary.publishedAt))}</span> | <a${ssrRenderAttr("href", `https://www.youtube.com/watch?v=${summary.videoId}`)} target="_blank" rel="noopener" class="video-link" data-v-1915095d${_scopeId}>Watch on YouTube</a></div><h3 data-v-1915095d${_scopeId}>`);
                 _push2(ssrRenderComponent(_component_nuxt_link, {
                   to: `/summaries/${summary.videoId}`
                 }, {
@@ -373,7 +430,7 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
                 }, _parent2, _scopeId));
                 _push2(`</h3>`);
                 if (summary.tldr) {
-                  _push2(`<p class="tldr" data-v-96eafb94${_scopeId}>${ssrInterpolate(summary.tldr)}</p>`);
+                  _push2(`<div class="tldr" data-v-1915095d${_scopeId}>${unref(marked).parse(summary.tldr) ?? ""}</div>`);
                 } else {
                   _push2(`<!---->`);
                 }
@@ -381,9 +438,9 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
               });
               _push2(`<!--]--></ul>`);
             } else if (!unref(pending)) {
-              _push2(`<p data-v-96eafb94${_scopeId}>No summaries found</p>`);
+              _push2(`<p data-v-1915095d${_scopeId}>No summaries found</p>`);
             } else {
-              _push2(`<p data-v-96eafb94${_scopeId}>Loading...</p>`);
+              _push2(`<p data-v-1915095d${_scopeId}>Loading...</p>`);
             }
             _push2(`</div>`);
           } else {
@@ -401,8 +458,17 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
                     ]),
                     _: 1
                   }, 8, ["disabled"]),
-                  unref(syncStatus) ? (openBlock(), createBlock("p", {
+                  unref(isSyncing) ? (openBlock(), createBlock("span", {
                     key: 0,
+                    class: "sync-loading"
+                  }, [
+                    createTextVNode(toDisplayString(unref(currentVideoTitle) || "Starting sync...") + " ", 1),
+                    unref(syncProgress).current && unref(syncProgress).total ? (openBlock(), createBlock(Fragment, { key: 0 }, [
+                      createTextVNode(" (" + toDisplayString(unref(syncProgress).current) + "/" + toDisplayString(unref(syncProgress).total) + ") ", 1)
+                    ], 64)) : createCommentVNode("", true)
+                  ])) : createCommentVNode("", true),
+                  unref(syncStatus) ? (openBlock(), createBlock("p", {
+                    key: 1,
                     class: "sync-status"
                   }, toDisplayString(unref(syncStatus)), 1)) : createCommentVNode("", true)
                 ]),
@@ -472,10 +538,11 @@ const _sfc_main = /* @__PURE__ */ defineComponent({
                             _: 2
                           }, 1032, ["to"])
                         ]),
-                        summary.tldr ? (openBlock(), createBlock("p", {
+                        summary.tldr ? (openBlock(), createBlock("div", {
                           key: 0,
-                          class: "tldr"
-                        }, toDisplayString(summary.tldr), 1)) : createCommentVNode("", true)
+                          class: "tldr",
+                          innerHTML: unref(marked).parse(summary.tldr)
+                        }, null, 8, ["innerHTML"])) : createCommentVNode("", true)
                       ])
                     ], 8, ["to", "title"]);
                   }), 128))
@@ -495,7 +562,7 @@ _sfc_main.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
   return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
 };
-const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-96eafb94"]]);
+const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-1915095d"]]);
 
 export { index as default };
-//# sourceMappingURL=index-DVXgxL_v.mjs.map
+//# sourceMappingURL=index-LLi_hi8k.mjs.map

@@ -2,14 +2,20 @@
   <ccm-section>
     <div class="stack">
       <div class="sync-section">
-        <ccm-button 
-          @click="handleSync" 
+        <ccm-button
+          @click="handleSync"
           :disabled="isSyncing"
-          variant="primary" 
+          variant="primary"
           color="primary"
         >
           {{ isSyncing ? 'Syncing...' : 'Sync Playlist' }}
         </ccm-button>
+        <span v-if="isSyncing" class="sync-loading">
+          {{ currentVideoTitle || 'Starting sync...' }}
+          <template v-if="syncProgress.current && syncProgress.total">
+            ({{ syncProgress.current }}/{{ syncProgress.total }})
+          </template>
+        </span>
         <p v-if="syncStatus" class="sync-status">{{ syncStatus }}</p>
       </div>
 
@@ -53,7 +59,7 @@
               <a :href="`https://www.youtube.com/watch?v=${summary.videoId}`" target="_blank" rel="noopener" class="video-link">Watch on YouTube</a>
             </div>
             <h3><nuxt-link :to="`/summaries/${summary.videoId}`">{{ summary.title }}</nuxt-link></h3>
-            <p v-if="summary.tldr" class="tldr">{{ summary.tldr }}</p>
+            <div v-if="summary.tldr" class="tldr" v-html="marked.parse(summary.tldr)"></div>
           </div>
         </li>
       </ul>
@@ -66,6 +72,16 @@
 <script setup lang="ts">
 import { formatDate } from '~/utils/formatDate'
 import type { SyncResult } from '~/types/config'
+import { marked } from 'marked'
+
+// Configure marked for inline rendering (no <p> wrappers)
+marked.use({
+  renderer: {
+    paragraph(token) {
+      return token.text
+    }
+  }
+})
 
 definePageMeta({
   hero: false,
@@ -94,6 +110,8 @@ const sortedSummaries = computed(() => {
 
 const isSyncing = ref(false)
 const syncStatus = ref('')
+const currentVideoTitle = ref('')
+const syncProgress = ref({ current: 0, total: 0 })
 
 const isLocalhost = computed(() => {
   if (import.meta.client) {
@@ -106,13 +124,56 @@ const isLocalhost = computed(() => {
 async function handleSync() {
   isSyncing.value = true
   syncStatus.value = ''
-  
+  currentVideoTitle.value = ''
+  syncProgress.value = { current: 0, total: 0 }
+
   try {
     if (isLocalhost.value) {
-      // Direct sync on localhost
-      const result = await $fetch<SyncResult>('/api/sync', { method: 'POST' })
-      syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`
-      
+      // Use streaming endpoint on localhost
+      const response = await fetch('/api/sync-stream', { method: 'POST' })
+      const reader = response.body?.getReader()
+      const decoder = new TextDecoder()
+
+      if (!reader) {
+        throw new Error('No response body')
+      }
+
+      let buffer = ''
+
+      while (true) {
+        const { done, value } = await reader.read()
+        if (done) break
+
+        buffer += decoder.decode(value, { stream: true })
+
+        // Process complete SSE messages
+        const lines = buffer.split('\n\n')
+        buffer = lines.pop() || '' // Keep incomplete message in buffer
+
+        for (const line of lines) {
+          if (line.startsWith('data: ')) {
+            try {
+              const event = JSON.parse(line.slice(6))
+
+              if (event.type === 'processing') {
+                currentVideoTitle.value = event.videoTitle || ''
+                syncProgress.value = {
+                  current: event.current || 0,
+                  total: event.total || 0
+                }
+              } else if (event.type === 'complete' && event.result) {
+                const result = event.result as SyncResult
+                syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`
+              } else if (event.type === 'error') {
+                syncStatus.value = `Sync failed: ${event.error}`
+              }
+            } catch {
+              // Ignore JSON parse errors
+            }
+          }
+        }
+      }
+
       // Refresh summaries after sync
       await refreshSummaries()
     } else {
@@ -140,11 +201,35 @@ async function handleSync() {
     syncStatus.value = `Sync failed: ${error instanceof Error ? error.message : String(error)}`
   } finally {
     isSyncing.value = false
+    currentVideoTitle.value = ''
+    syncProgress.value = { current: 0, total: 0 }
   }
 }
 </script>
 
 <style scoped>
+.sync-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-m);
+  flex-wrap: wrap;
+}
+
+.sync-loading {
+  font-size: var(--step--1, 0.875rem);
+  color: var(--color-primary, #0066cc);
+  animation: pulse-opacity 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-opacity {
+  0%, 100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
 .header-row {
   display: flex;
   justify-content: space-between;
@@ -172,5 +257,26 @@ async function handleSync() {
 .summary-thumb {
   width: 200px;
   aspect-ratio: 16/9;
+}
+
+.tldr {
+  font-size: var(--step--1, 0.875rem);
+  color: var(--color-base-shade-10, #666);
+  line-height: 1.5;
+}
+
+.tldr :deep(ul) {
+  margin: 0.5em 0;
+  padding-left: 1.5em;
+  list-style-type: disc;
+}
+
+.tldr :deep(li) {
+  margin: 0.25em 0;
+}
+
+.tldr :deep(strong) {
+  font-weight: 600;
+  color: var(--color-base, #333);
 }
 </style>

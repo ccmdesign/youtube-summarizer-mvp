@@ -48,40 +48,101 @@ export class ContentWriterService {
    */
   private generateMarkdown(input: MarkdownInput): string {
     const { videoId, metadata, summary } = input;
+    const { metrics } = summary;
 
-    const frontmatter = {
-      title: this.escapeYaml(metadata.title),
-      videoId,
-      channel: this.escapeYaml(metadata.channel),
-      channelId: metadata.channelId,
-      duration: metadata.duration,
-      publishedAt: metadata.publishedAt,
-      processedAt: new Date().toISOString(),
-      source: 'youtube',
-      playlistId: process.env.YOUTUBE_PLAYLIST_ID || '',
-      thumbnailUrl: metadata.thumbnailUrl,
-      youtubeUrl: `https://www.youtube.com/watch?v=${videoId}`,
-      modelUsed: summary.modelUsed
-    };
+    // Build metrics section (only include defined values)
+    const metricsLines: string[] = [];
+    metricsLines.push(`aiProvider: "${metrics.provider}"`);
+    metricsLines.push(`apiCalls: ${metrics.apiCalls}`);
+    metricsLines.push(`fallbackAttempts: ${metrics.fallbackAttempts}`);
+    if (metrics.inputTokens !== undefined) {
+      metricsLines.push(`inputTokens: ${metrics.inputTokens}`);
+    }
+    if (metrics.outputTokens !== undefined) {
+      metricsLines.push(`outputTokens: ${metrics.outputTokens}`);
+    }
+    if (metrics.totalTokens !== undefined) {
+      metricsLines.push(`totalTokens: ${metrics.totalTokens}`);
+    }
+    metricsLines.push(`processingTimeMs: ${metrics.processingTimeMs}`);
+
+    // Assemble markdown body from structured sections
+    // We control the headers, AI provides the content
+    const body = this.assembleMarkdownBody(summary);
 
     return `---
-title: "${frontmatter.title}"
-videoId: "${frontmatter.videoId}"
-channel: "${frontmatter.channel}"
-channelId: "${frontmatter.channelId}"
-duration: "${frontmatter.duration}"
-publishedAt: "${frontmatter.publishedAt}"
-processedAt: "${frontmatter.processedAt}"
-source: "${frontmatter.source}"
-playlistId: "${frontmatter.playlistId}"
-thumbnailUrl: "${frontmatter.thumbnailUrl}"
-youtubeUrl: "${frontmatter.youtubeUrl}"
-modelUsed: "${frontmatter.modelUsed}"
+title: "${this.escapeYaml(metadata.title)}"
+videoId: "${videoId}"
+channel: "${this.escapeYaml(metadata.channel)}"
+channelId: "${metadata.channelId}"
+duration: "${metadata.duration}"
+publishedAt: "${metadata.publishedAt}"
+processedAt: "${new Date().toISOString()}"
+source: "youtube"
+playlistId: "${process.env.YOUTUBE_PLAYLIST_ID || ''}"
+thumbnailUrl: "${metadata.thumbnailUrl}"
+youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
+modelUsed: "${summary.modelUsed}"
 tldr: "${this.escapeYaml(summary.tldr)}"
+# AI Processing Metrics
+${metricsLines.join('\n')}
 ---
 
-${summary.summary}
+${body}
 `;
+  }
+
+  /**
+   * Assemble markdown body from structured sections.
+   * We control the headers, AI provides the content.
+   */
+  private assembleMarkdownBody(summary: MarkdownInput['summary']): string {
+    const sections: string[] = [];
+
+    // Key Takeaways section
+    if (summary.keyTakeaways?.trim()) {
+      sections.push(`## Key Takeaways\n\n${this.normalizeSectionContent(summary.keyTakeaways)}`);
+    }
+
+    // Summary section
+    if (summary.summary?.trim()) {
+      sections.push(`## Summary\n\n${this.normalizeSectionContent(summary.summary)}`);
+    }
+
+    // Context section
+    if (summary.context?.trim()) {
+      sections.push(`## Context\n\n${this.normalizeSectionContent(summary.context)}`);
+    }
+
+    return sections.join('\n\n');
+  }
+
+  /**
+   * Normalize section content to ensure proper line breaks.
+   * Fixes: bullet points on same line, missing paragraph breaks, ### headers.
+   */
+  private normalizeSectionContent(content: string): string {
+    let normalized = content.trim();
+
+    // Ensure bullet points are on separate lines
+    // Match: end of sentence/item + space + bullet marker
+    normalized = normalized
+      .replace(/([.!?:])(\s+)([-*])\s/g, '$1\n\n$3 ')  // After punctuation
+      .replace(/([a-z])(\s+)([-*])\s/g, '$1\n\n$3 ');   // After lowercase (list continuation)
+
+    // Ensure ### headers have blank lines before and after
+    // Add newline before ### if not present
+    normalized = normalized.replace(/([^\n])(###\s)/g, '$1\n\n$2');
+
+    // Fix run-together text: lowercase immediately followed by uppercase
+    // Pattern: "StrategyThe" -> "Strategy\n\nThe"
+    // This catches headers running into content and sentences without space
+    normalized = normalized.replace(/([a-z])([A-Z][a-z])/g, '$1\n\n$2');
+
+    // Collapse multiple blank lines
+    normalized = normalized.replace(/\n{3,}/g, '\n\n');
+
+    return normalized;
   }
 
   /**

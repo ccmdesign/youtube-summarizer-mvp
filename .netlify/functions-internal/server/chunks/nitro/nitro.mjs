@@ -4070,7 +4070,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "2d388d90-61f3-46dd-b670-83383459c50a",
+    "buildId": "6d78dbfd-f208-494a-99bc-e159e69cc2c4",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -4575,7 +4575,7 @@ async function decompressSQLDump(base64Str, compressionType = "gzip") {
 }
 
 const checksums = {
-  "summaries": "v3.5.0--JM_zs1WYZWP-Bp0NVBpDqS71-hEHBWpLo6x3F4CfPOA"
+  "summaries": "v3.5.0--H2rEZhu-X6WH2E6NBGAUQl6nDro2UTpzfeHSymGm9iA"
 };
 const checksumsStructure = {
   "summaries": "cY80l0M7iddDdGv4oJFuGwkdl73yqVwLElpiAshch4o"
@@ -5024,9 +5024,11 @@ const ConfigSchema = z.object({
   ),
   geminiApiKey: z.string().min(1, "GEMINI_API_KEY is required"),
   geminiModel: z.string().min(1, "GEMINI_MODEL is required"),
+  openRouterApiKey: z.string().optional(),
   processingMode: z.enum(["transcript", "native-video"]),
   maxVideosPerRun: z.number().int().positive().max(50),
   enableProFallback: z.boolean(),
+  enableModelFallback: z.boolean(),
   outputDir: z.string()
 });
 function loadConfig() {
@@ -5035,9 +5037,12 @@ function loadConfig() {
     youtubePlaylistId: process.env.YOUTUBE_PLAYLIST_ID,
     geminiApiKey: process.env.GEMINI_API_KEY,
     geminiModel: process.env.GEMINI_MODEL || "gemini-2.0-flash-exp",
+    openRouterApiKey: process.env.OPEN_ROUTER_API_KEY || void 0,
     processingMode: process.env.PROCESSING_MODE || "transcript",
     maxVideosPerRun: parseInt(process.env.MAX_VIDEOS_PER_RUN || "10", 10),
     enableProFallback: process.env.ENABLE_PRO_FALLBACK === "true",
+    enableModelFallback: process.env.ENABLE_MODEL_FALLBACK !== "false",
+    // Default to true
     outputDir: process.env.OUTPUT_DIR || "src/content/summaries"
   };
   try {
@@ -5126,8 +5131,8 @@ class RateLimiter {
     this.lastRefill = now;
   }
 }
-const geminiFlashLimiter = new RateLimiter(60, 1);
-const geminiProLimiter = new RateLimiter(10, 0.167);
+const geminiFlashLimiter = new RateLimiter(2, 0.033);
+const geminiProLimiter = new RateLimiter(1, 0.017);
 const youtubeApiLimiter = new RateLimiter(100, 10);
 
 async function retryWithBackoff(fn, options = {}) {
@@ -5170,12 +5175,14 @@ const _gWzNwb = eventHandler(async (event) => {
 });
 
 const _lazy_xRe2Sg = () => import('../routes/api/contact.post.mjs');
+const _lazy_XTf3z2 = () => import('../routes/api/sync-stream.post.mjs');
 const _lazy_mPT0Gr = () => import('../routes/api/sync.post.mjs');
 const _lazy_5tRl09 = () => import('../routes/api/test.get.mjs');
 const _lazy_WUxU8t = () => import('../routes/renderer.mjs').then(function (n) { return n.r; });
 
 const handlers = [
   { route: '/api/contact', handler: _lazy_xRe2Sg, lazy: true, middleware: false, method: "post" },
+  { route: '/api/sync-stream', handler: _lazy_XTf3z2, lazy: true, middleware: false, method: "post" },
   { route: '/api/sync', handler: _lazy_mPT0Gr, lazy: true, middleware: false, method: "post" },
   { route: '/api/test', handler: _lazy_5tRl09, lazy: true, middleware: false, method: "get" },
   { route: '/__nuxt_error', handler: _lazy_WUxU8t, lazy: true, middleware: false, method: undefined },
@@ -5372,5 +5379,5 @@ function getCacheHeaders(url) {
   return {};
 }
 
-export { $fetch$1 as $, createHooks as A, executeAsync as B, toRouteMatcher as C, createRouter$1 as D, defu as E, pascalCase as F, kebabCase as G, withoutTrailingSlash as H, withLeadingSlash as I, withTrailingSlash as J, parseQuery as K, handler as L, retryWithBackoff as a, geminiFlashLimiter as b, createError$1 as c, defineEventHandler as d, loadConfig as e, buildAssetsURL as f, geminiProLimiter as g, getResponseStatusText as h, getResponseStatus as i, defineRenderHandler as j, getQuery as k, logger as l, destr as m, getRouteRules as n, useNitroApp as o, publicAssetsURL as p, hasProtocol as q, readBody as r, isScriptProtocol as s, joinURL as t, useRuntimeConfig as u, sanitizeStatusCode as v, withQuery as w, getContext as x, youtubeApiLimiter as y, baseURL as z };
+export { $fetch$1 as $, baseURL as A, createHooks as B, executeAsync as C, toRouteMatcher as D, createRouter$1 as E, defu as F, pascalCase as G, kebabCase as H, withoutTrailingSlash as I, withLeadingSlash as J, withTrailingSlash as K, parseQuery as L, handler as M, retryWithBackoff as a, geminiFlashLimiter as b, createError$1 as c, defineEventHandler as d, loadConfig as e, buildAssetsURL as f, geminiProLimiter as g, getResponseStatusText as h, getResponseStatus as i, defineRenderHandler as j, getQuery as k, logger as l, destr as m, getRouteRules as n, useNitroApp as o, publicAssetsURL as p, hasProtocol as q, readBody as r, setHeader as s, isScriptProtocol as t, useRuntimeConfig as u, joinURL as v, withQuery as w, sanitizeStatusCode as x, youtubeApiLimiter as y, getContext as z };
 //# sourceMappingURL=nitro.mjs.map

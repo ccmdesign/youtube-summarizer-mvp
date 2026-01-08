@@ -16,7 +16,8 @@
     "analyze:components": "tsx scripts/analyze-components.ts",
     "ai:setup": "tsx scripts/setup-ai-environment.ts",
     "ai:validate": "tsx scripts/validate-ai-config.ts",
-    "sync-playlist": "tsx scripts/sync-playlist.ts"
+    "sync-playlist": "tsx scripts/sync-playlist.ts",
+    "dryrun": "tsx scripts/dryrun.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
@@ -31,6 +32,7 @@
     "dotenv": "^16.6.1",
     "eslint": "^9.25.1",
     "googleapis": "^169.0.0",
+    "marked": "^17.0.1",
     "nuxt": "^4.2.0",
     "pinia": "^3.0.3",
     "rimraf": "^6.0.1",

@@ -2,13 +2,25 @@ import type { SyncResult } from '~/types/config';
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { createYouTubeService } from './youtube.service';
-import { createGeminiService } from './gemini.service';
+import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
+
+export interface SyncProgressEvent {
+  type: 'start' | 'processing' | 'complete' | 'error';
+  videoId?: string;
+  videoTitle?: string;
+  current?: number;
+  total?: number;
+  result?: SyncResult;
+  error?: string;
+}
+
+export type SyncProgressCallback = (event: SyncProgressEvent) => void;
 
 /**
  * Main orchestration function for syncing YouTube playlist
  */
-export async function syncPlaylist(): Promise<SyncResult> {
+export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<SyncResult> {
   const config = loadConfig();
 
   logger.info('Starting playlist sync', {
@@ -27,8 +39,21 @@ export async function syncPlaylist(): Promise<SyncResult> {
   try {
     // Initialize services
     const youtubeService = createYouTubeService(config.youtubeApiKey);
-    const geminiService = createGeminiService(config.geminiApiKey, config.geminiModel);
+    const aiService = createAIService({
+      geminiApiKey: config.geminiApiKey,
+      primaryModel: config.geminiModel,
+      openRouterApiKey: config.openRouterApiKey,
+      enableFallback: config.enableModelFallback
+    });
     const contentWriter = createContentWriterService(config.outputDir);
+
+    // Log available models for debugging
+    const availableModels = aiService.getAvailableModels();
+    logger.info('AI service initialized with fallback chain', {
+      primary: config.geminiModel,
+      geminiFallbacks: availableModels.gemini.slice(1),
+      openRouterFallbacks: availableModels.openRouter.length > 0 ? availableModels.openRouter : 'not configured'
+    });
 
     // 1. Fetch playlist items
     logger.info('Fetching playlist items...');
@@ -60,16 +85,40 @@ export async function syncPlaylist(): Promise<SyncResult> {
       result.skipped += newVideos.length - videosToProcess.length;
     }
 
-    // 4. Process each video
+    // 4. Process each video with delays to respect rate limits
+    // Free tier: ~2 videos/minute to stay under 5-15 RPM limits
+    const VIDEO_PROCESSING_DELAY = 30000; // 30 seconds between videos
+
+    // Emit start event
+    onProgress?.({
+      type: 'start',
+      total: videosToProcess.length
+    });
+
     for (const [index, item] of videosToProcess.entries()) {
+      // Add delay between videos (skip first one)
+      if (index > 0) {
+        logger.info(`Waiting ${VIDEO_PROCESSING_DELAY / 1000}s before next video (rate limiting)...`);
+        await new Promise(resolve => setTimeout(resolve, VIDEO_PROCESSING_DELAY));
+      }
+
       logger.info(`Processing video ${index + 1}/${videosToProcess.length}: ${item.videoId}`);
+
+      // Emit processing event with video title
+      onProgress?.({
+        type: 'processing',
+        videoId: item.videoId,
+        videoTitle: item.title,
+        current: index + 1,
+        total: videosToProcess.length
+      });
 
       try {
         await processVideo(
           item.videoId,
           config,
           youtubeService,
-          geminiService,
+          aiService,
           contentWriter
         );
 
@@ -89,9 +138,21 @@ export async function syncPlaylist(): Promise<SyncResult> {
       }
     }
 
+    // Emit complete event
+    onProgress?.({
+      type: 'complete',
+      result
+    });
+
     logger.info('Sync completed', result);
     return result;
   } catch (error) {
+    // Emit error event
+    onProgress?.({
+      type: 'error',
+      error: error instanceof Error ? error.message : String(error)
+    });
+
     logger.error('Sync failed catastrophically', { error });
     throw error;
   }
@@ -104,7 +165,7 @@ async function processVideo(
   videoId: string,
   config: ReturnType<typeof loadConfig>,
   youtubeService: ReturnType<typeof createYouTubeService>,
-  geminiService: ReturnType<typeof createGeminiService>,
+  aiService: ReturnType<typeof createAIService>,
   contentWriter: ReturnType<typeof createContentWriterService>
 ): Promise<void> {
   // 1. Get video metadata
@@ -128,8 +189,8 @@ async function processVideo(
     }
   }
 
-  // 3. Generate summary
-  const summary = await geminiService.generateSummary({
+  // 3. Generate summary (with automatic fallback on quota exhaustion)
+  const summary = await aiService.generateSummary({
     metadata,
     transcript,
     mode: processingMode

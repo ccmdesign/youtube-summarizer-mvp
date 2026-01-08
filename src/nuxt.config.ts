@@ -37,6 +37,9 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
+      siteUrl: process.env.SITE_URL || 'http://localhost:3000',
+      feedTitle: 'YouTube Summaries',
+      feedDescription: 'AI-generated summaries of YouTube videos',
     }
   },
   app: {
@@ -46,6 +49,8 @@ export default defineNuxtConfig({
       link: [
         // google icons
         { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" },
+        // RSS autodiscovery
+        { rel: "alternate", type: "application/rss+xml", title: "YouTube Summaries RSS Feed", href: "/feed.xml" },
       ],
       script: [],
     }

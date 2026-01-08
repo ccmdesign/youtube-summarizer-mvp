@@ -3,9 +3,11 @@ export interface AppConfig {
   youtubePlaylistId: string;
   geminiApiKey: string;
   geminiModel: string;
+  openRouterApiKey?: string;
   processingMode: 'transcript' | 'native-video';
   maxVideosPerRun: number;
   enableProFallback: boolean;
+  enableModelFallback: boolean;
   outputDir: string;
 }
 

@@ -1,6 +1,9 @@
 import type { VideoMetadata } from './youtube';
 import type { SummaryOutput } from './gemini';
 
+// Re-export for convenience
+export type { VideoMetadata } from './youtube';
+
 export interface MarkdownInput {
   videoId: string;
   metadata: VideoMetadata;
@@ -21,4 +24,12 @@ export interface MarkdownFrontmatter {
   youtubeUrl: string;
   modelUsed: string;
   tldr: string;
+  // AI Processing Metrics
+  aiProvider: string;
+  apiCalls: number;
+  fallbackAttempts: number;
+  inputTokens?: number;
+  outputTokens?: number;
+  totalTokens?: number;
+  processingTimeMs: number;
 }

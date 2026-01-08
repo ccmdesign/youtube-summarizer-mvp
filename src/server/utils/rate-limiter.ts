@@ -43,11 +43,13 @@ export class RateLimiter {
   }
 }
 
-// Gemini Flash rate limiter: 60 requests per minute
-export const geminiFlashLimiter = new RateLimiter(60, 1); // 1 token/second = 60/minute
+// Conservative rate limiter for Gemini API free tier
+// Free tier limits: 5-15 RPM depending on model, 20-1500 RPD
+// We use 2 RPM (1 every 30 seconds) to avoid quota exhaustion
+export const geminiFlashLimiter = new RateLimiter(2, 0.033); // 2 tokens max, ~2/minute (1 every 30s)
 
-// Gemini Pro rate limiter: 10 requests per minute
-export const geminiProLimiter = new RateLimiter(10, 0.167); // ~10/minute
+// Gemini Pro rate limiter: even more conservative (5 RPM free tier)
+export const geminiProLimiter = new RateLimiter(1, 0.017); // 1 token max, ~1/minute
 
 // YouTube API rate limiter (conservative: 10 requests per second)
 export const youtubeApiLimiter = new RateLimiter(100, 10);

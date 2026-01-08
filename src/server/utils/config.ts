@@ -9,9 +9,11 @@ const ConfigSchema = z.object({
   ),
   geminiApiKey: z.string().min(1, 'GEMINI_API_KEY is required'),
   geminiModel: z.string().min(1, 'GEMINI_MODEL is required'),
+  openRouterApiKey: z.string().optional(),
   processingMode: z.enum(['transcript', 'native-video']),
   maxVideosPerRun: z.number().int().positive().max(50),
   enableProFallback: z.boolean(),
+  enableModelFallback: z.boolean(),
   outputDir: z.string()
 });
 
@@ -21,9 +23,11 @@ export function loadConfig(): AppConfig {
     youtubePlaylistId: process.env.YOUTUBE_PLAYLIST_ID,
     geminiApiKey: process.env.GEMINI_API_KEY,
     geminiModel: process.env.GEMINI_MODEL || 'gemini-2.0-flash-exp',
+    openRouterApiKey: process.env.OPEN_ROUTER_API_KEY || undefined,
     processingMode: process.env.PROCESSING_MODE || 'transcript',
     maxVideosPerRun: parseInt(process.env.MAX_VIDEOS_PER_RUN || '10', 10),
     enableProFallback: process.env.ENABLE_PRO_FALLBACK === 'true',
+    enableModelFallback: process.env.ENABLE_MODEL_FALLBACK !== 'false', // Default to true
     outputDir: process.env.OUTPUT_DIR || 'src/content/summaries'
   };
 

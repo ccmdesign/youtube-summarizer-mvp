@@ -2,7 +2,7 @@ import { defineComponent, computed, toValue, getCurrentInstance, onServerPrefetc
 import { ssrRenderAttrs, ssrRenderSlot, ssrRenderAttr } from 'vue/server-renderer';
 import { _ as _export_sfc, u as useNuxtApp, d as asyncDataDefaults, t as tryUseNuxtApp, e as createError } from './server.mjs';
 import { debounce } from 'perfect-debounce';
-import { H as withoutTrailingSlash } from '../nitro/nitro.mjs';
+import { I as withoutTrailingSlash } from '../nitro/nitro.mjs';
 
 const _sfc_main = /* @__PURE__ */ defineComponent({
   ...{
@@ -402,7 +402,7 @@ function mergeAbortSignals(signals, timeout) {
   return controller.signal;
 }
 const checksums = {
-  "summaries": "v3.5.0--JM_zs1WYZWP-Bp0NVBpDqS71-hEHBWpLo6x3F4CfPOA"
+  "summaries": "v3.5.0--H2rEZhu-X6WH2E6NBGAUQl6nDro2UTpzfeHSymGm9iA"
 };
 const tables = {
   "summaries": "_content_summaries",
@@ -584,4 +584,4 @@ async function executeContentQuery(event, collection, sql) {
 }
 
 export { __nuxt_component_0 as _, queryCollection as q, useAsyncData as u };
-//# sourceMappingURL=app-NuZk_sGK.mjs.map
+//# sourceMappingURL=app-c_VwMdJF.mjs.map
