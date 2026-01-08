@@ -7,6 +7,9 @@
 dist
 coverage/
 
+# Netlify build artifacts
+.netlify/
+
 # Node dependencies
 node_modules
 
