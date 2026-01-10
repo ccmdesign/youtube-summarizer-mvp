@@ -1,0 +1,36 @@
+# YouTube Channel Monitoring Configuration
+# =========================================
+#
+# Add YouTube channel IDs to monitor for new videos.
+# The system will check these channels daily and automatically
+# process new videos through the summarizer pipeline.
+#
+# How to find a channel ID:
+# 1. Go to the YouTube channel page
+# 2. View page source (Ctrl+U or Cmd+Option+U)
+# 3. Search for "channelId" - it starts with "UC" and is 24 characters
+#
+# Or use the RSS feed URL pattern to verify:
+# https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID
+
+version: "1.0"
+
+channels:
+  # Example channels (uncomment and replace with your own):
+  #
+  # - id: "UCxxxxxxxxxxxxxxxxxxxxxx"
+  #   name: "Channel Name"
+  #   enabled: true
+  #
+  # - id: "UCyyyyyyyyyyyyyyyyyyyy"
+  #   name: "Another Channel"
+  #   enabled: true
+
+settings:
+  # Maximum videos to process per channel per run
+  # YouTube RSS feeds return up to 15 recent videos
+  maxVideosPerChannel: 5
+
+  # Skip videos shorter than this duration (in seconds)
+  # This filters out YouTube Shorts which are typically < 60 seconds
+  skipShortsUnderSeconds: 60

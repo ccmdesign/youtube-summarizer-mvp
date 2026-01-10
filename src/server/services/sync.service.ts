@@ -160,8 +160,9 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 
 /**
  * Process a single video
+ * Exported for reuse by channel monitoring service
  */
-async function processVideo(
+export async function processVideo(
   videoId: string,
   config: ReturnType<typeof loadConfig>,
   youtubeService: ReturnType<typeof createYouTubeService>,
