@@ -4,6 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # Exclude Nuxt Content SQL dumps from secrets scanning (contains video summaries that discuss API keys/tokens)
+  SECRETS_SCAN_OMIT_PATHS = "**/__nuxt_content/**"
 
 # Netlify Functions for triggering sync
 [functions]
