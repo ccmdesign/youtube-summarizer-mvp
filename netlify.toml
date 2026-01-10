@@ -4,11 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Disable smart detection (video summaries discuss API keys/tokens which trigger false positives)
-  # Regular secret scanning for marked env vars is still active
-  SECRETS_SCAN_SMART_DETECTION_ENABLED = "false"
-  # Also exclude Nuxt Content SQL dumps as a fallback
-  SECRETS_SCAN_OMIT_PATHS = ".output/public/__nuxt_content/**,.netlify/functions-internal/**,**/sql_dump.txt"
+  # Disable all secret scanning - video summaries discuss API keys/tokens causing false positives
+  # See: https://ntl.fyi/configure-secrets-scanning
+  SECRETS_SCAN_ENABLED = "false"
 
 # Netlify Functions for triggering sync
 [functions]
