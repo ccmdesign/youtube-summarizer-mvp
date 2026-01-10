@@ -31,8 +31,6 @@ logs
 # YouTube Summarizer data
 !src/content/summaries/.gitkeep
 
-package-lock.json
-
 # AI Files
 _archive/
 .gemini/
