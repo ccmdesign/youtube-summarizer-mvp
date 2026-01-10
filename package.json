@@ -44,7 +44,7 @@
     "vue3-youtube": "^0.1.9",
     "winston": "^3.19.0",
     "yaml": "^2.8.2",
-    "youtube-transcript": "^1.2.1",
+    "youtube-caption-extractor": "^1.9.1",
     "zod": "^4.3.4"
   },
   "devDependencies": {

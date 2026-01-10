@@ -1,5 +1,5 @@
 import { google } from 'googleapis';
-import { YoutubeTranscript } from 'youtube-transcript';
+import { getSubtitles } from 'youtube-caption-extractor';
 import type { PlaylistItem, VideoMetadata } from '~/types/youtube';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
@@ -88,12 +88,25 @@ export class YouTubeService {
    */
   async getTranscript(videoId: string): Promise<string> {
     try {
-      const transcriptData = await YoutubeTranscript.fetchTranscript(videoId);
-      const transcript = transcriptData.map(entry => entry.text).join(' ');
+      // Use youtube-caption-extractor which works in server/CI environments
+      const subtitles = await getSubtitles({ videoID: videoId, lang: 'en' });
+
+      if (!subtitles || subtitles.length === 0) {
+        throw new Error('No transcript segments found');
+      }
+
+      const transcript = subtitles
+        .map(segment => segment.text)
+        .filter(text => text.length > 0)
+        .join(' ');
+
+      if (!transcript) {
+        throw new Error('Empty transcript');
+      }
 
       logger.info(`Fetched transcript for ${videoId}`, {
         length: transcript.length,
-        entries: transcriptData.length
+        segments: subtitles.length
       });
 
       return transcript;
