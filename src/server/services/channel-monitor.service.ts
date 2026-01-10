@@ -1,4 +1,4 @@
-import type { ChannelConfig, ChannelCheckResult, MonitorResult, ChannelsConfig } from '~/types/channels';
+import type { ChannelConfig, ChannelCheckResult, MonitorResult, ChannelsConfig, MonitorOptions, ChannelProgressCallback } from '~/types/channels';
 import { loadConfig } from '~/server/utils/config';
 import { loadChannelsConfig } from '~/server/utils/channels-config';
 import { logger } from '~/server/utils/logger';
@@ -43,8 +43,8 @@ export class ChannelMonitorService {
   /**
    * Monitor all enabled channels for new videos
    */
-  async monitorAllChannels(options?: { channelIds?: string[]; dryRun?: boolean }): Promise<MonitorResult> {
-    const { channelIds, dryRun = false } = options || {};
+  async monitorAllChannels(options?: MonitorOptions): Promise<MonitorResult> {
+    const { channelIds, dryRun = false, onProgress } = options || {};
 
     logger.info('Starting channel monitoring', {
       totalChannels: this.channelsConfig.channels.length,
@@ -61,7 +61,17 @@ export class ChannelMonitorService {
     const results: ChannelCheckResult[] = [];
     const errors: string[] = [];
 
+    // Emit start event
+    onProgress?.({ type: 'start', totalChannels: channelsToCheck.length });
+
     for (const [index, channel] of channelsToCheck.entries()) {
+      // Emit channel progress
+      onProgress?.({
+        type: 'channel',
+        channelName: channel.name || channel.id,
+        channelIndex: index + 1,
+        totalChannels: channelsToCheck.length
+      });
       // Skip disabled channels
       if (channel.enabled === false) {
         results.push({
@@ -83,7 +93,7 @@ export class ChannelMonitorService {
       }
 
       try {
-        const result = await this.checkChannel(channel, dryRun);
+        const result = await this.checkChannel(channel, dryRun, onProgress);
         results.push(result);
       } catch (error) {
         const errorMessage = error instanceof Error ? error.message : String(error);
@@ -124,13 +134,16 @@ export class ChannelMonitorService {
 
     logger.info('Channel monitoring completed', summary);
 
+    // Emit complete event
+    onProgress?.({ type: 'complete', result: monitorResult });
+
     return monitorResult;
   }
 
   /**
    * Check a single channel for new videos
    */
-  private async checkChannel(channel: ChannelConfig, dryRun: boolean): Promise<ChannelCheckResult> {
+  private async checkChannel(channel: ChannelConfig, dryRun: boolean, onProgress?: ChannelProgressCallback): Promise<ChannelCheckResult> {
     logger.info(`Checking channel ${channel.id}`, { name: channel.name });
 
     // Fetch RSS feed
@@ -144,7 +157,7 @@ export class ChannelMonitorService {
     let skipped = 0;
     const skipThreshold = this.channelsConfig.settings.skipShortsUnderSeconds;
 
-    for (const video of videosToCheck) {
+    for (const [videoIndex, video] of videosToCheck.entries()) {
       // Check if already processed
       const exists = await this.contentWriter.exists(video.videoId);
       if (exists) {
@@ -177,6 +190,15 @@ export class ChannelMonitorService {
           logger.info(`Waiting ${VIDEO_PROCESSING_DELAY_MS / 1000}s before next video (rate limiting)...`);
           await this.delay(VIDEO_PROCESSING_DELAY_MS);
         }
+
+        // Emit video progress event
+        onProgress?.({
+          type: 'video',
+          channelName: channel.name || channel.id,
+          videoTitle: video.title,
+          videoIndex: videoIndex + 1,
+          totalVideos: videosToCheck.length
+        });
 
         // Process the video through existing pipeline
         logger.info(`Processing video: ${video.title}`, { videoId: video.videoId });

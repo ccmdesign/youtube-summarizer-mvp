@@ -72,3 +72,32 @@ export interface MonitorRequest {
   channelIds?: string[];
   dryRun?: boolean;
 }
+
+/**
+ * Progress event for channel monitoring SSE stream
+ */
+export interface ChannelProgressEvent {
+  type: 'start' | 'channel' | 'video' | 'complete' | 'error';
+  channelName?: string;
+  channelIndex?: number;
+  totalChannels?: number;
+  videoTitle?: string;
+  videoIndex?: number;
+  totalVideos?: number;
+  result?: MonitorResult;
+  error?: string;
+}
+
+/**
+ * Callback type for channel monitoring progress
+ */
+export type ChannelProgressCallback = (event: ChannelProgressEvent) => void;
+
+/**
+ * Options for monitoring channels
+ */
+export interface MonitorOptions {
+  channelIds?: string[];
+  dryRun?: boolean;
+  onProgress?: ChannelProgressCallback;
+}
