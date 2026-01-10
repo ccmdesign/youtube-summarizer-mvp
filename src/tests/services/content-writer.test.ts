@@ -35,7 +35,16 @@ describe('ContentWriterService', () => {
       summary: {
         tldr: 'This is a test TL;DR',
         summary: 'This is the detailed summary.',
-        modelUsed: 'gemini-2.0-flash-exp'
+        modelUsed: 'gemini-2.0-flash-exp',
+        keyTakeaways: 'Test takeaways',
+        context: 'Test context',
+        metrics: {
+          modelUsed: 'gemini-2.0-flash-exp',
+          apiCalls: 1,
+          fallbackAttempts: 0,
+          processingTimeMs: 1000,
+          provider: 'gemini'
+        }
       }
     };
 
@@ -69,7 +78,16 @@ describe('ContentWriterService', () => {
       summary: {
         tldr: 'Test',
         summary: 'Test summary',
-        modelUsed: 'gemini-2.0-flash-exp'
+        modelUsed: 'gemini-2.0-flash-exp',
+        keyTakeaways: 'Test takeaways',
+        context: 'Test context',
+        metrics: {
+          modelUsed: 'gemini-2.0-flash-exp',
+          apiCalls: 1,
+          fallbackAttempts: 0,
+          processingTimeMs: 500,
+          provider: 'gemini'
+        }
       }
     };
 
@@ -95,7 +113,16 @@ describe('ContentWriterService', () => {
       summary: {
         tldr: 'Test',
         summary: 'Test',
-        modelUsed: 'gemini-2.0-flash-exp'
+        modelUsed: 'gemini-2.0-flash-exp',
+        keyTakeaways: 'Test takeaways',
+        context: 'Test context',
+        metrics: {
+          modelUsed: 'gemini-2.0-flash-exp',
+          apiCalls: 1,
+          fallbackAttempts: 0,
+          processingTimeMs: 300,
+          provider: 'gemini'
+        }
       }
     };
 

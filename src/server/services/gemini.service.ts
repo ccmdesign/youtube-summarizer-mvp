@@ -3,7 +3,7 @@ import type { SummaryInput, SummaryOutput } from '~/types/gemini';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { geminiFlashLimiter, geminiProLimiter } from '~/server/utils/rate-limiter';
-import { buildSummaryPrompt, summaryResponseSchema, type SummaryResponse } from '~/server/prompts/summary.prompt';
+import { buildSummaryPrompt, summaryResponseSchema, type SummaryResponse } from '~/server/prompts';
 
 export class GeminiService {
   private genAI: GoogleGenerativeAI;

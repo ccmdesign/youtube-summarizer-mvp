@@ -1,7 +1,7 @@
 import type { SummaryInput } from '~/types/gemini';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
-import { buildSummaryPrompt, type SummaryResponse } from '~/server/prompts/summary.prompt';
+import { buildPromptForVideo, type SummaryResponse } from '~/server/prompts';
 
 // OpenRouter free models ordered by preference
 export const OPENROUTER_FREE_MODELS = [
@@ -101,9 +101,13 @@ export class OpenRouterService {
     model: OpenRouterModel,
     input: SummaryInput
   ): Promise<OpenRouterResult> {
-    const prompt = buildSummaryPrompt({
+    const { prompt, taxonomy } = buildPromptForVideo({
       metadata: input.metadata,
       transcript: input.transcript
+    });
+
+    logger.info(`Using ${taxonomy.length} prompt template (OpenRouter)`, {
+      videoId: input.metadata.videoId
     });
 
     const systemPrompt = `You are a helpful assistant that summarizes YouTube videos.
