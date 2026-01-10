@@ -93,10 +93,14 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'netlify_static'
-  },
-  routeRules: {
-    '/**': { prerender: true }
+    preset: 'node-server',
+    experimental: {
+      tasks: true
+    },
+    scheduledTasks: {
+      // Run playlist sync every 6 hours
+      '0 */6 * * *': ['sync:playlist']
+    }
   },
   components: [
     ...dsComponentDirs.map(path => ({
