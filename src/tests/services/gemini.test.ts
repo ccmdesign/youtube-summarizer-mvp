@@ -8,7 +8,14 @@ vi.mock('@google/generative-ai', () => ({
     getGenerativeModel: vi.fn(() => ({
       generateContent: vi.fn()
     }))
-  }))
+  })),
+  SchemaType: {
+    OBJECT: 'object',
+    STRING: 'string',
+    NUMBER: 'number',
+    BOOLEAN: 'boolean',
+    ARRAY: 'array'
+  }
 }));
 
 describe('GeminiService', () => {
@@ -20,12 +27,16 @@ describe('GeminiService', () => {
 
   describe('generateSummary', () => {
     it('generates summary in transcript mode', async () => {
+      const mockJsonResponse = JSON.stringify({
+        tldr: 'This is the key takeaway',
+        keyTakeaways: 'Key point 1, Key point 2',
+        summary: 'This is the detailed summary content with insights and takeaways.',
+        context: 'This is the context.'
+      });
+
       const mockResponse = {
         response: {
-          text: () => `KEY TAKEAWAY: This is the key takeaway
-
-SUMMARY:
-This is the detailed summary content with insights and takeaways.`
+          text: () => mockJsonResponse
         }
       };
 

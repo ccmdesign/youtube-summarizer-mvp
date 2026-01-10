@@ -47,8 +47,14 @@ export class ContentWriterService {
    * Generate markdown content with frontmatter
    */
   private generateMarkdown(input: MarkdownInput): string {
-    const { videoId, metadata, summary } = input;
+    const { videoId, metadata, summary, lengthCategory } = input;
     const { metrics } = summary;
+
+    // Build taxonomy section (only include if defined)
+    const taxonomyLines: string[] = [];
+    if (lengthCategory) {
+      taxonomyLines.push(`lengthCategory: "${lengthCategory}"`);
+    }
 
     // Build metrics section (only include defined values)
     const metricsLines: string[] = [];
@@ -70,6 +76,11 @@ export class ContentWriterService {
     // We control the headers, AI provides the content
     const body = this.assembleMarkdownBody(summary);
 
+    // Build taxonomy section string
+    const taxonomySection = taxonomyLines.length > 0
+      ? `# Video Taxonomy\n${taxonomyLines.join('\n')}\n`
+      : '';
+
     return `---
 title: "${this.escapeYaml(metadata.title)}"
 videoId: "${videoId}"
@@ -84,7 +95,7 @@ thumbnailUrl: "${metadata.thumbnailUrl}"
 youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
 modelUsed: "${summary.modelUsed}"
 tldr: "${this.escapeYaml(summary.tldr)}"
-# AI Processing Metrics
+${taxonomySection}# AI Processing Metrics
 ${metricsLines.join('\n')}
 ---
 

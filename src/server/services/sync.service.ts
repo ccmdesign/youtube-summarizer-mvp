@@ -1,6 +1,7 @@
 import type { SyncResult } from '~/types/config';
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
+import { classifyVideo } from '~/server/prompts';
 import { createYouTubeService } from './youtube.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
@@ -231,17 +232,25 @@ export async function processVideo(
     }
   }
 
-  // 3. Generate summary (with automatic fallback on quota exhaustion)
+  // 3. Classify video by taxonomy (for prompt selection and frontmatter)
+  const taxonomy = classifyVideo(metadata.duration);
+  logger.info(`Video classified as ${taxonomy.length}`, {
+    videoId,
+    duration: metadata.duration
+  });
+
+  // 4. Generate summary (with automatic fallback on quota exhaustion)
   const summary = await aiService.generateSummary({
     metadata,
     transcript,
     mode: processingMode
   });
 
-  // 4. Write markdown file (filesystem is source of truth for "processed")
+  // 5. Write markdown file (filesystem is source of truth for "processed")
   await contentWriter.writeMarkdown({
     videoId,
     metadata,
-    summary
+    summary,
+    lengthCategory: taxonomy.length
   });
 }

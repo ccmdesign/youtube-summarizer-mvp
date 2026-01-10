@@ -3,7 +3,7 @@ import type { SummaryInput, SummaryOutput, SummaryMetrics } from '~/types/gemini
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { geminiFlashLimiter, geminiProLimiter } from '~/server/utils/rate-limiter';
-import { buildSummaryPrompt, summaryResponseSchema, type SummaryResponse } from '~/server/prompts/summary.prompt';
+import { buildPromptForVideo, summaryResponseSchema, type SummaryResponse } from '~/server/prompts';
 import { createOpenRouterService, OPENROUTER_FREE_MODELS } from './openrouter.service';
 
 // Gemini models fallback ladder (best to most available)
@@ -188,9 +188,14 @@ export class AIService {
     const limiter = modelName.includes('pro') ? geminiProLimiter : geminiFlashLimiter;
     await limiter.acquire();
 
-    const prompt = buildSummaryPrompt({
+    const { prompt, taxonomy } = buildPromptForVideo({
       metadata: input.metadata,
       transcript: input.transcript
+    });
+
+    logger.info(`Using ${taxonomy.length} prompt template`, {
+      videoId: input.metadata.videoId,
+      duration: input.metadata.duration
     });
 
     const result = await retryWithBackoff(async () => {

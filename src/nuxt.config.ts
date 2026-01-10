@@ -100,7 +100,12 @@ export default defineNuxtConfig({
     scheduledTasks: {
       // Run playlist sync every 6 hours
       '0 */6 * * *': ['sync:playlist']
-    }
+    },
+    // Bundle prompt templates for production builds
+    serverAssets: [{
+      baseName: 'prompts',
+      dir: './server/prompts/templates'
+    }]
   },
   components: [
     ...dsComponentDirs.map(path => ({
