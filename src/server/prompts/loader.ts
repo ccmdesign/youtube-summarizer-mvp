@@ -2,6 +2,9 @@ import { readFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import type { LengthCategory } from './taxonomy';
 
+// Use project root since Nitro compiles server code to .nuxt/dev/
+const TEMPLATES_DIR = resolve(process.cwd(), 'src/server/prompts/templates');
+
 /**
  * Variables available for template interpolation.
  */
@@ -32,8 +35,8 @@ export function loadTemplate(name: string): string {
     return templateCache.get(name)!;
   }
 
-  // Resolve template path relative to this file
-  const templatePath = resolve(__dirname, 'templates', `${name}.prompt.md`);
+  // Resolve template path from project root
+  const templatePath = resolve(TEMPLATES_DIR, `${name}.prompt.md`);
 
   try {
     const content = readFileSync(templatePath, 'utf-8');
