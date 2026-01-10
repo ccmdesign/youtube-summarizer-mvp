@@ -5,11 +5,29 @@ interface GitHubWorkflowResponse {
   message?: string;
 }
 
+// CORS headers for browser requests
+const corsHeaders = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Content-Type': 'application/json'
+};
+
 const handler: Handler = async (event: HandlerEvent) => {
+  // Handle CORS preflight
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 204,
+      headers: corsHeaders,
+      body: ''
+    };
+  }
+
   // Only allow POST requests
   if (event.httpMethod !== 'POST') {
     return {
       statusCode: 405,
+      headers: corsHeaders,
       body: JSON.stringify({ error: 'Method not allowed' })
     };
   }
@@ -21,6 +39,7 @@ const handler: Handler = async (event: HandlerEvent) => {
   if (!githubToken || !githubRepo) {
     return {
       statusCode: 500,
+      headers: corsHeaders,
       body: JSON.stringify({
         error: 'Server configuration error',
         message: 'GITHUB_PAT and GITHUB_REPO environment variables must be set'
@@ -66,9 +85,7 @@ const handler: Handler = async (event: HandlerEvent) => {
       // Success - workflow dispatch returns 204 No Content
       return {
         statusCode: 200,
-        headers: {
-          'Content-Type': 'application/json'
-        },
+        headers: corsHeaders,
         body: JSON.stringify({
           success: true,
           message: 'Sync workflow triggered successfully. Check GitHub Actions for progress.',
@@ -82,6 +99,7 @@ const handler: Handler = async (event: HandlerEvent) => {
 
     return {
       statusCode: response.status,
+      headers: corsHeaders,
       body: JSON.stringify({
         success: false,
         error: 'Failed to trigger workflow',
@@ -94,6 +112,7 @@ const handler: Handler = async (event: HandlerEvent) => {
 
     return {
       statusCode: 500,
+      headers: corsHeaders,
       body: JSON.stringify({
         success: false,
         error: 'Internal server error',
