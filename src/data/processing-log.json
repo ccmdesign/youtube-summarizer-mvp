@@ -1,5 +1,109 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-10T00:00:00.000Z",
-  "entries": {}
+  "lastUpdated": "2026-01-10T19:55:49.316Z",
+  "entries": {
+    "GMICxu7dtO4": {
+      "videoId": "GMICxu7dtO4",
+      "status": "skipped",
+      "createdAt": "2026-01-10T19:49:57.681Z",
+      "updatedAt": "2026-01-10T19:49:57.681Z",
+      "attemptCount": 1,
+      "title": "The One Resolution That Matters Most (Ep. 451)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:49:57.680Z",
+      "errorType": "permanent",
+      "errorCode": "TRANSCRIPT_UNAVAILABLE",
+      "errorMessage": "TRANSCRIPT_UNAVAILABLE",
+      "skipPermanently": true,
+      "skipReason": "Permanent error: TRANSCRIPT_UNAVAILABLE"
+    },
+    "B-UXpneKw6M": {
+      "videoId": "B-UXpneKw6M",
+      "status": "success",
+      "createdAt": "2026-01-10T19:50:27.855Z",
+      "updatedAt": "2026-01-10T19:50:27.855Z",
+      "attemptCount": 1,
+      "title": "The One Rule Claude Code's Creator Never Breaks",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:50:27.854Z",
+      "processedAt": "2026-01-10T19:50:41.774Z"
+    },
+    "4u94juYwLLM": {
+      "videoId": "4u94juYwLLM",
+      "status": "success",
+      "createdAt": "2026-01-10T19:51:11.778Z",
+      "updatedAt": "2026-01-10T19:51:11.778Z",
+      "attemptCount": 1,
+      "title": "Why Designers Can No Longer Trust the Design Process",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:51:11.778Z",
+      "processedAt": "2026-01-10T19:51:26.300Z"
+    },
+    "kMWdmnQtJu0": {
+      "videoId": "kMWdmnQtJu0",
+      "status": "success",
+      "createdAt": "2026-01-10T19:51:56.305Z",
+      "updatedAt": "2026-01-10T19:51:56.305Z",
+      "attemptCount": 1,
+      "title": "How the best designers tackle complex design challenges",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:51:56.305Z",
+      "processedAt": "2026-01-10T19:52:09.149Z"
+    },
+    "JepVi1tBNEE": {
+      "videoId": "JepVi1tBNEE",
+      "status": "success",
+      "createdAt": "2026-01-10T19:52:39.154Z",
+      "updatedAt": "2026-01-10T19:52:39.154Z",
+      "attemptCount": 1,
+      "title": "Introducing Agent Skills in VS Code",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:52:39.153Z",
+      "processedAt": "2026-01-10T19:52:52.656Z"
+    },
+    "jRBiWoSKpIo": {
+      "videoId": "jRBiWoSKpIo",
+      "status": "success",
+      "createdAt": "2026-01-10T19:53:22.660Z",
+      "updatedAt": "2026-01-10T19:53:22.660Z",
+      "attemptCount": 1,
+      "title": "Claude Now Builds Custom Interfaces to Plan Your Life",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:53:22.660Z",
+      "processedAt": "2026-01-10T19:53:43.362Z"
+    },
+    "pgWHATQzkHk": {
+      "videoId": "pgWHATQzkHk",
+      "status": "success",
+      "createdAt": "2026-01-10T19:54:13.367Z",
+      "updatedAt": "2026-01-10T19:54:13.367Z",
+      "attemptCount": 1,
+      "title": "The Free Open Source Jira Killer Devs Love",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:54:13.366Z",
+      "processedAt": "2026-01-10T19:54:26.334Z"
+    },
+    "6Z4vP0xbjt8": {
+      "videoId": "6Z4vP0xbjt8",
+      "status": "success",
+      "createdAt": "2026-01-10T19:54:56.337Z",
+      "updatedAt": "2026-01-10T19:54:56.337Z",
+      "attemptCount": 1,
+      "title": "Understanding A2UI: How AI Agents Build Real User Interfaces (Not Code)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:54:56.336Z",
+      "processedAt": "2026-01-10T19:55:08.293Z"
+    },
+    "M_iCVJSZsu0": {
+      "videoId": "M_iCVJSZsu0",
+      "status": "success",
+      "createdAt": "2026-01-10T19:55:38.300Z",
+      "updatedAt": "2026-01-10T19:55:38.300Z",
+      "attemptCount": 1,
+      "title": "Claude Canvas Turns Claude Code Into a Visual Terminal App!",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-10T19:55:38.300Z",
+      "processedAt": "2026-01-10T19:55:49.315Z"
+    }
+  }
 }
