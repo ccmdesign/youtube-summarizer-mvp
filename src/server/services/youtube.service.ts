@@ -1,9 +1,16 @@
 import { google } from 'googleapis';
 import { getSubtitles } from 'youtube-caption-extractor';
+import { exec } from 'node:child_process';
+import { promisify } from 'node:util';
+import { readFile, unlink } from 'node:fs/promises';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import type { PlaylistItem, VideoMetadata } from '~/types/youtube';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { youtubeApiLimiter } from '~/server/utils/rate-limiter';
+
+const execAsync = promisify(exec);
 
 export class YouTubeService {
   private youtube;
@@ -83,40 +90,108 @@ export class YouTubeService {
   }
 
   /**
+   * Get transcript for a video using youtube-caption-extractor
+   */
+  private async getTranscriptFromCaptionExtractor(videoId: string): Promise<string> {
+    const subtitles = await getSubtitles({ videoID: videoId, lang: 'en' });
+
+    if (!subtitles || subtitles.length === 0) {
+      throw new Error('No transcript segments found');
+    }
+
+    const transcript = subtitles
+      .map(segment => segment.text)
+      .filter(text => text.length > 0)
+      .join(' ');
+
+    if (!transcript) {
+      throw new Error('Empty transcript');
+    }
+
+    return transcript;
+  }
+
+  /**
+   * Get transcript for a video using yt-dlp (fallback method)
+   */
+  private async getTranscriptFromYtDlp(videoId: string): Promise<string> {
+    const tempDir = tmpdir();
+    const outputPath = join(tempDir, `${videoId}`);
+    const url = `https://www.youtube.com/watch?v=${videoId}`;
+
+    try {
+      // Download subtitles using yt-dlp
+      await execAsync(
+        `yt-dlp --skip-download --write-auto-sub --sub-lang en --sub-format vtt --convert-subs srt -o "${outputPath}" "${url}"`,
+        { timeout: 60000 }
+      );
+
+      // Read the subtitle file
+      const srtPath = `${outputPath}.en.srt`;
+      const srtContent = await readFile(srtPath, 'utf-8');
+
+      // Parse SRT to extract text
+      const transcript = srtContent
+        .split('\n')
+        .filter((line: string) => {
+          // Skip empty lines, sequence numbers, and timestamps
+          if (!line.trim()) return false;
+          if (/^\d+$/.test(line.trim())) return false;
+          if (/^\d{2}:\d{2}:\d{2}/.test(line.trim())) return false;
+          return true;
+        })
+        .map((line: string) => line.replace(/<[^>]*>/g, '').trim()) // Remove HTML tags
+        .filter((text: string) => text.length > 0)
+        .join(' ');
+
+      // Cleanup temp file
+      await unlink(srtPath).catch(() => {});
+
+      if (!transcript) {
+        throw new Error('Empty transcript from yt-dlp');
+      }
+
+      return transcript;
+    } catch (error) {
+      // Cleanup any partial files
+      await unlink(`${outputPath}.en.srt`).catch(() => {});
+      await unlink(`${outputPath}.en.vtt`).catch(() => {});
+      throw error;
+    }
+  }
+
+  /**
    * Get transcript for a video
    * @throws Error with code 'TRANSCRIPT_UNAVAILABLE' if transcript cannot be fetched
    */
   async getTranscript(videoId: string): Promise<string> {
+    // Try youtube-caption-extractor first
     try {
-      // Use youtube-caption-extractor which works in server/CI environments
-      const subtitles = await getSubtitles({ videoID: videoId, lang: 'en' });
-
-      if (!subtitles || subtitles.length === 0) {
-        throw new Error('No transcript segments found');
-      }
-
-      const transcript = subtitles
-        .map(segment => segment.text)
-        .filter(text => text.length > 0)
-        .join(' ');
-
-      if (!transcript) {
-        throw new Error('Empty transcript');
-      }
-
-      logger.info(`Fetched transcript for ${videoId}`, {
-        length: transcript.length,
-        segments: subtitles.length
+      const transcript = await this.getTranscriptFromCaptionExtractor(videoId);
+      logger.info(`Fetched transcript for ${videoId} via caption-extractor`, {
+        length: transcript.length
       });
-
       return transcript;
-    } catch (error) {
+    } catch (extractorError) {
+      logger.debug(`Caption extractor failed for ${videoId}, trying yt-dlp`, {
+        error: extractorError instanceof Error ? extractorError.message : String(extractorError)
+      });
+    }
+
+    // Fallback to yt-dlp
+    try {
+      const transcript = await this.getTranscriptFromYtDlp(videoId);
+      logger.info(`Fetched transcript for ${videoId} via yt-dlp`, {
+        length: transcript.length
+      });
+      return transcript;
+    } catch (ytdlpError) {
       logger.warn(`Transcript unavailable for ${videoId}`, {
-        error: error instanceof Error ? error.message : String(error)
+        error: ytdlpError instanceof Error ? ytdlpError.message : String(ytdlpError)
       });
 
       const transcriptError = new Error('TRANSCRIPT_UNAVAILABLE');
-      transcriptError.cause = error;
+      transcriptError.cause = ytdlpError;
       throw transcriptError;
     }
   }
