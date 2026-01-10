@@ -93,11 +93,10 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'netlify'
+    preset: 'netlify_static'
   },
   routeRules: {
-    '/**': { prerender: true },
-    '/api/**': { prerender: false }
+    '/**': { prerender: true }
   },
   components: [
     ...dsComponentDirs.map(path => ({
