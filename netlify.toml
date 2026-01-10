@@ -1,6 +1,6 @@
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "npm run generate"
+  publish = ".output/public"
 
 [build.environment]
   NODE_VERSION = "20"
@@ -12,12 +12,6 @@
 [functions]
   directory = "netlify/functions"
 
-# Redirects for SPA fallback (if needed)
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-
 # Headers for caching static assets
 [[headers]]
   for = "/_nuxt/*"
@@ -28,3 +22,10 @@
   for = "/summaries/*"
   [headers.values]
     Cache-Control = "public, max-age=3600"
+
+# RSS feeds
+[[headers]]
+  for = "/*.xml"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Content-Type = "application/rss+xml; charset=utf-8"

@@ -29,21 +29,28 @@
 
       <div class="header-row">
         <h2>Video Summaries</h2>
-        <div class="sort-buttons">
-          <ccm-button
-            @click="sortBy = 'publishedAt'"
-            :variant="sortBy === 'publishedAt' ? 'primary' : 'secondary'"
-            size="m"
-          >
-            Sort by Video Date
-          </ccm-button>
-          <ccm-button
-            @click="sortBy = 'processedAt'"
-            :variant="sortBy === 'processedAt' ? 'primary' : 'secondary'"
-            size="m"
-          >
-            Sort by Recently Added
-          </ccm-button>
+        <div class="controls-row">
+          <div class="sort-buttons">
+            <ccm-button
+              @click="sortBy = 'publishedAt'"
+              :variant="sortBy === 'publishedAt' ? 'primary' : 'secondary'"
+              size="m"
+            >
+              Sort by Video Date
+            </ccm-button>
+            <ccm-button
+              @click="sortBy = 'processedAt'"
+              :variant="sortBy === 'processedAt' ? 'primary' : 'secondary'"
+              size="m"
+            >
+              Sort by Recently Added
+            </ccm-button>
+          </div>
+          <select v-model="categoryFilter" class="category-filter">
+            <option value="all">All Categories</option>
+            <option value="standard">Standard (&lt;30 min)</option>
+            <option value="longform">Long-form (30+ min)</option>
+          </select>
         </div>
       </div>
       <ul v-if="sortedSummaries && sortedSummaries.length > 0" class="summaries-list | stack">
@@ -99,20 +106,32 @@ definePageMeta({
 const { data: summaries, pending, refresh: refreshSummaries } = useContentStream('summaries')
 
 const sortBy = ref<'publishedAt' | 'processedAt'>('processedAt')
+const categoryFilter = ref<'all' | 'standard' | 'longform'>('all')
 
 const sortedSummaries = computed(() => {
   if (!summaries.value) return []
-  
-  const sorted = [...summaries.value].sort((a, b) => {
+
+  // Filter by category
+  let filtered = [...summaries.value]
+  if (categoryFilter.value !== 'all') {
+    filtered = filtered.filter(s => {
+      // Handle older summaries without lengthCategory
+      if (!s.lengthCategory) return categoryFilter.value === 'standard'
+      return s.lengthCategory === categoryFilter.value
+    })
+  }
+
+  // Sort
+  const sorted = filtered.sort((a, b) => {
     const aValue = a[sortBy.value]
     const bValue = b[sortBy.value]
-    
+
     if (!aValue || !bValue) return 0
-    
+
     // Both are ISO date strings, compare directly
     return bValue.localeCompare(aValue) // desc order (newest first)
   })
-  
+
   return sorted
 })
 
@@ -340,9 +359,33 @@ async function handleChannelSync() {
   margin-bottom: var(--space-m);
 }
 
+.controls-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-m);
+}
+
 .sort-buttons {
   display: flex;
   gap: var(--space-xs);
+}
+
+.category-filter {
+  padding: var(--space-xs) var(--space-s);
+  border: 1px solid var(--color-base-tint-10);
+  border-radius: var(--radius-s);
+  background: var(--color-surface, #fff);
+  font-size: var(--step--1, 0.875rem);
+  cursor: pointer;
+}
+
+.category-filter:hover {
+  border-color: var(--color-primary);
+}
+
+.category-filter:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 .summary-item {

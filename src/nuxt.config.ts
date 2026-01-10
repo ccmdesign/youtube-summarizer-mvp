@@ -93,19 +93,17 @@ export default defineNuxtConfig({
   },
   serverDir: resolve(currentDir, 'server'),
   nitro: {
-    preset: 'node-server',
-    experimental: {
-      tasks: true
-    },
-    scheduledTasks: {
-      // Run playlist sync every 6 hours
-      '0 */6 * * *': ['sync:playlist']
-    },
-    // Bundle prompt templates for production builds
-    serverAssets: [{
-      baseName: 'prompts',
-      dir: './server/prompts/templates'
-    }]
+    preset: 'static',
+    // Prerender all routes including RSS feeds
+    prerender: {
+      crawlLinks: true,
+      routes: ['/feed.xml', '/digest.xml']
+    }
+  },
+  // Route rules for static generation
+  routeRules: {
+    // Prerender all pages at build time
+    '/**': { prerender: true }
   },
   components: [
     ...dsComponentDirs.map(path => ({

@@ -6,6 +6,7 @@ import { createRssService } from './rss.service';
 import { createYouTubeService } from './youtube.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
+import { createProcessingLogService } from './processing-log.service';
 import { processVideo } from './sync.service';
 import { isShortVideo } from '~/server/utils/duration';
 
@@ -23,6 +24,7 @@ export class ChannelMonitorService {
   private youtubeService: ReturnType<typeof createYouTubeService>;
   private aiService: ReturnType<typeof createAIService>;
   private contentWriter: ReturnType<typeof createContentWriterService>;
+  private processingLog: ReturnType<typeof createProcessingLogService>;
   private appConfig: ReturnType<typeof loadConfig>;
   private channelsConfig: ChannelsConfig;
 
@@ -38,6 +40,7 @@ export class ChannelMonitorService {
       enableFallback: this.appConfig.enableModelFallback
     });
     this.contentWriter = createContentWriterService(this.appConfig.outputDir);
+    this.processingLog = createProcessingLogService();
   }
 
   /**
@@ -158,10 +161,19 @@ export class ChannelMonitorService {
     const skipThreshold = this.channelsConfig.settings.skipShortsUnderSeconds;
 
     for (const [videoIndex, video] of videosToCheck.entries()) {
-      // Check if already processed
+      // Check if already processed (file exists)
       const exists = await this.contentWriter.exists(video.videoId);
       if (exists) {
         logger.debug(`Video ${video.videoId} already processed, skipping`);
+        skipped++;
+        continue;
+      }
+
+      // Check processing log for cross-source deduplication
+      // (e.g., if playlist sync already processed or is processing this video)
+      const skipCheck = await this.processingLog.shouldSkip(video.videoId);
+      if (skipCheck.skip) {
+        logger.debug(`Video ${video.videoId} skipped via processing log: ${skipCheck.reason}`);
         skipped++;
         continue;
       }
@@ -200,6 +212,9 @@ export class ChannelMonitorService {
           totalVideos: videosToCheck.length
         });
 
+        // Record processing start (for cross-source deduplication)
+        await this.processingLog.recordProcessingStart(video.videoId, video.title, 'channel');
+
         // Process the video through existing pipeline
         logger.info(`Processing video: ${video.title}`, { videoId: video.videoId });
         await processVideo(
@@ -210,11 +225,21 @@ export class ChannelMonitorService {
           this.contentWriter
         );
 
+        // Record success
+        await this.processingLog.recordSuccess(video.videoId, video.title);
+
         processed++;
         logger.info(`Successfully processed ${video.videoId}`);
       } catch (error) {
         const errorMessage = error instanceof Error ? error.message : String(error);
         logger.error(`Failed to process video ${video.videoId}`, { error: errorMessage });
+
+        // Record failure (handles error classification and retry logic)
+        await this.processingLog.recordFailure(
+          video.videoId,
+          error instanceof Error ? error : errorMessage,
+          video.title
+        );
 
         // Continue with other videos, don't fail the whole channel
         skipped++;
