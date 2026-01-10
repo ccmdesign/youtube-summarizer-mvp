@@ -12,10 +12,32 @@
 #
 # Or use the RSS feed URL pattern to verify:
 # https://www.youtube.com/feeds/videos.xml?channel_id=CHANNEL_ID
+# https://www.tunepocket.com/youtube-channel-id-finder/#channle-id-finder-form
+
 
 version: "1.0"
 
 channels:
+  - id: "UC0C-17n9iuUQPylguM1d-lQ"
+    name: "AI News & Strategy Daily | Nate B Jones"
+    enabled: true
+
+  - id: "UCKelCK4ZaO6HeEI1KQjqzWA"
+    name: "The AI Daily Brief: Artificial Intelligence News"
+    enabled: true
+
+  - id: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+    name: "Better Stack"
+    enabled: true
+
+  - id: "UCLKPca3kwwd-B59HNr-_lvA"
+    name: "AI Engineer"
+    enabled: true
+
+
+
+
+
   # Example channels (uncomment and replace with your own):
   #
   # - id: "UCxxxxxxxxxxxxxxxxxxxxxx"
