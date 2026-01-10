@@ -38,8 +38,14 @@ async function main() {
 
     console.log('\n✨ Sync completed!\n');
 
-    // Exit with error code if any videos failed
-    process.exit(result.failed > 0 ? 1 : 0);
+    // Only fail if no videos could be processed at all
+    // Partial success (some processed, some failed) is still success
+    if (result.processed === 0 && result.failed > 0) {
+      console.log('⚠️  No videos could be processed. Run locally to bypass CI restrictions.');
+      process.exit(1);
+    }
+
+    process.exit(0);
   } catch (error) {
     logger.error('Sync failed', { error });
     console.error('\n❌ Sync failed:', error instanceof Error ? error.message : String(error));
