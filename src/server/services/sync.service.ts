@@ -4,6 +4,7 @@ import { logger } from '~/server/utils/logger';
 import { createYouTubeService } from './youtube.service';
 import { createAIService } from './ai.service';
 import { createContentWriterService } from './content-writer.service';
+import { createProcessingLogService } from './processing-log.service';
 
 export interface SyncProgressEvent {
   type: 'start' | 'processing' | 'complete' | 'error';
@@ -46,6 +47,7 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
       enableFallback: config.enableModelFallback
     });
     const contentWriter = createContentWriterService(config.outputDir);
+    const processingLog = createProcessingLogService();
 
     // Log available models for debugging
     const availableModels = aiService.getAvailableModels();
@@ -64,16 +66,37 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
       return result;
     }
 
-    // 2. Filter out already processed videos (check if markdown file exists)
-    const processedChecks = await Promise.all(
-      playlistItems.map(item => contentWriter.exists(item.videoId))
-    );
-    const newVideos = playlistItems.filter(
-      (item, index) => !processedChecks[index]
+    // 2. Filter out already processed videos
+    // Check both: markdown file exists AND processing log status
+    const skipChecks = await Promise.all(
+      playlistItems.map(async (item) => {
+        // First check if markdown already exists (backward compatible)
+        const fileExists = await contentWriter.exists(item.videoId);
+        if (fileExists) {
+          return { skip: true, reason: 'File exists' };
+        }
+
+        // Then check the processing log for skip flags
+        return processingLog.shouldSkip(item.videoId);
+      })
     );
 
+    const newVideos = playlistItems.filter(
+      (_, index) => !skipChecks[index].skip
+    );
+
+    // Log skip reasons for debugging
+    const skippedItems = playlistItems.filter((_, index) => skipChecks[index].skip);
+    for (const [index, item] of skippedItems.entries()) {
+      const originalIndex = playlistItems.findIndex(p => p.videoId === item.videoId);
+      const reason = skipChecks[originalIndex].reason;
+      if (reason && reason !== 'File exists' && reason !== 'Already processed') {
+        logger.info(`Skipping ${item.videoId}: ${reason}`);
+      }
+    }
+
     const alreadyProcessed = playlistItems.length - newVideos.length;
-    logger.info(`Found ${newVideos.length} new videos (${alreadyProcessed} already processed)`);
+    logger.info(`Found ${newVideos.length} new videos (${alreadyProcessed} skipped)`);
 
     result.skipped = alreadyProcessed;
 
@@ -114,6 +137,9 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
       });
 
       try {
+        // Record processing start in the log
+        await processingLog.recordProcessingStart(item.videoId, item.title, 'playlist');
+
         await processVideo(
           item.videoId,
           config,
@@ -122,19 +148,34 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
           contentWriter
         );
 
+        // Record success in the log
+        await processingLog.recordSuccess(item.videoId, item.title);
+
         result.processed++;
 
         logger.info(`Successfully processed ${item.videoId}`);
       } catch (error) {
-        result.failed++;
         const errorMessage = error instanceof Error ? error.message : String(error);
 
+        // Record failure in the log (this handles error classification)
+        const logEntry = await processingLog.recordFailure(
+          item.videoId,
+          error instanceof Error ? error : errorMessage,
+          item.title
+        );
+
+        result.failed++;
         result.errors.push({
           videoId: item.videoId,
           error: errorMessage
         });
 
-        logger.error(`Failed to process ${item.videoId}`, { error: errorMessage });
+        // Log with skip status for visibility
+        if (logEntry.skipPermanently) {
+          logger.warn(`Failed to process ${item.videoId} - will skip permanently: ${logEntry.skipReason}`);
+        } else {
+          logger.error(`Failed to process ${item.videoId} (attempt ${logEntry.attemptCount}/3)`, { error: errorMessage });
+        }
       }
     }
 

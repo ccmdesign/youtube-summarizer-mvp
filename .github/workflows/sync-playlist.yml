@@ -47,7 +47,7 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          git add src/content/summaries/
+          git add src/content/summaries/ src/data/processing-log.json
           git diff --staged --quiet || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
@@ -58,5 +58,6 @@ jobs:
           git commit -m "chore: sync playlist summaries
 
           Processed new video summaries from YouTube playlist.
+          Updated processing log with status tracking.
           Netlify will auto-deploy these changes."
           git push
