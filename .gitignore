@@ -34,4 +34,14 @@ src/content/summaries/*.md
 
 package-lock.json
 
+# AI Files
 _archive/
+.gemini/
+.cursor/
+.claude/
+.codex/
+.cursorrules
+AGENTS.md
+CLAUDE.md
+GEMINI.md
+.factory/
