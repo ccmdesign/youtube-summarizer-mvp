@@ -17,7 +17,10 @@
     "ai:setup": "tsx scripts/setup-ai-environment.ts",
     "ai:validate": "tsx scripts/validate-ai-config.ts",
     "sync-playlist": "tsx scripts/sync-playlist.ts",
-    "dryrun": "tsx scripts/dryrun.ts"
+    "dryrun": "tsx scripts/dryrun.ts",
+    "video:skip": "tsx scripts/video-skip.ts",
+    "video:retry": "tsx scripts/video-retry.ts",
+    "video:status": "tsx scripts/video-status.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
