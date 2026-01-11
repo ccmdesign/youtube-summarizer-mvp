@@ -43,3 +43,5 @@ CLAUDE.md
 GEMINI.md
 .factory/
 _process/
+
+.playwright-mcp/
