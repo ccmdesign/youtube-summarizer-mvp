@@ -1,19 +1,39 @@
 <script setup lang="ts">
+import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useDateGroups } from '~/composables/useDateGroups'
+
+const route = useRoute()
+const { getPlaylistBySlug } = usePlaylistsConfig()
+
+const playlist = computed(() => getPlaylistBySlug(route.params.slug as string))
+
+// 404 if playlist not found
+if (!playlist.value) {
+  throw createError({ statusCode: 404, message: 'Playlist not found' })
+}
 
 definePageMeta({
   hero: false,
   footer: false
 })
 
-const { data: summaries, pending } = useContentStream('summaries')
+// Fetch summaries for this playlist
+const { data: summaries, pending } = useContentStream('summaries', {
+  where: { playlistId: playlist.value.id }
+})
+
+// Group by date
 const { segments } = useDateGroups(computed(() => summaries.value || []))
+
+useHead({
+  title: `${playlist.value.name} | YouTube Summarizer`
+})
 </script>
 
 <template>
-  <div class="home-page">
+  <div class="playlist-page">
     <header class="page-header">
-      <h1>All Summaries</h1>
+      <h1>{{ playlist?.name }}</h1>
       <p class="page-header__count">{{ summaries?.length || 0 }} videos</p>
     </header>
 
@@ -24,7 +44,7 @@ const { segments } = useDateGroups(computed(() => summaries.value || []))
 </template>
 
 <style scoped>
-.home-page {
+.playlist-page {
   padding: var(--space-l, 2rem);
 }
 

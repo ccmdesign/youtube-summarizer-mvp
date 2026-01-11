@@ -10,9 +10,12 @@
       :size="hero.size || 'l'"
       :hideTop="hero.hideTop === true"
     />
-    <main class="layout-main">
-      <slot />
-    </main>
+    <div class="layout-body">
+      <SidebarNav v-if="showSidebar" class="layout-sidebar" />
+      <main class="layout-main">
+        <slot />
+      </main>
+    </div>
     <ccm-footer v-if="footer" class="layout-footer" />
   </div>
 </template>
@@ -22,13 +25,14 @@ const route = useRoute()
 const heroState = useState('hero', () => null)
 const hero = computed(() => route.meta.hero || heroState.value)
 const footer = computed(() => route.meta.footer ?? true)
+const showSidebar = computed(() => route.meta.sidebar ?? true)
 </script>
 
 <style>
 .layout {
   min-height: 100svh;
   display: grid;
-  grid-template: "hero" auto "main" 1fr "footer" auto / 1fr;
+  grid-template: "hero" auto "body" 1fr "footer" auto / 1fr;
 }
 
 .layout-hero {
@@ -36,13 +40,29 @@ const footer = computed(() => route.meta.footer ?? true)
   background-color: #eee;
 }
 
+.layout-body {
+  grid-area: body;
+  display: flex;
+  min-height: 0;
+}
+
+.layout-sidebar {
+  flex-shrink: 0;
+}
+
 .layout-main {
-  grid-area: main;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .layout-footer {
   grid-area: footer;
   background-color: #eee;
+}
 
+@media (max-width: 768px) {
+  .layout-sidebar {
+    display: none;
+  }
 }
 </style>
