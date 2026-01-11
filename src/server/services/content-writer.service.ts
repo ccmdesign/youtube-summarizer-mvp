@@ -47,7 +47,7 @@ export class ContentWriterService {
    * Generate markdown content with frontmatter
    */
   private generateMarkdown(input: MarkdownInput): string {
-    const { videoId, metadata, summary, lengthCategory } = input;
+    const { videoId, metadata, summary, lengthCategory, playlist } = input;
     const { metrics } = summary;
 
     // Build taxonomy section (only include if defined)
@@ -81,6 +81,17 @@ export class ContentWriterService {
       ? `# Video Taxonomy\n${taxonomyLines.join('\n')}\n`
       : '';
 
+    // Build playlist metadata lines (only include if defined)
+    const playlistLines: string[] = [];
+    const playlistId = playlist?.playlistId || process.env.YOUTUBE_PLAYLIST_ID || '';
+    playlistLines.push(`playlistId: "${playlistId}"`);
+    if (playlist?.playlistName) {
+      playlistLines.push(`playlistName: "${this.escapeYaml(playlist.playlistName)}"`);
+    }
+    if (playlist?.category) {
+      playlistLines.push(`category: "${this.escapeYaml(playlist.category)}"`);
+    }
+
     return `---
 title: "${this.escapeYaml(metadata.title)}"
 videoId: "${videoId}"
@@ -90,7 +101,7 @@ duration: "${metadata.duration}"
 publishedAt: "${metadata.publishedAt}"
 processedAt: "${new Date().toISOString()}"
 source: "youtube"
-playlistId: "${process.env.YOUTUBE_PLAYLIST_ID || ''}"
+${playlistLines.join('\n')}
 thumbnailUrl: "${metadata.thumbnailUrl}"
 youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
 modelUsed: "${summary.modelUsed}"

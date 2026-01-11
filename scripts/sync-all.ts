@@ -2,7 +2,7 @@
 
 import dotenv from 'dotenv';
 import { execSync } from 'child_process';
-import { syncPlaylist } from '../src/server/services/sync.service';
+import { syncAllPlaylists } from '../src/server/services/playlist-sync.service';
 import { ChannelMonitorService } from '../src/server/services/channel-monitor.service';
 import { logger } from '../src/server/utils/logger';
 import { validateConfig } from '../src/server/utils/config';
@@ -11,7 +11,7 @@ import { validateConfig } from '../src/server/utils/config';
 dotenv.config();
 
 interface SyncStats {
-  playlist: { processed: number; skipped: number; failed: number };
+  playlists: { processed: number; skipped: number; failed: number };
   channels: { processed: number; skipped: number; failed: number };
 }
 
@@ -53,7 +53,7 @@ async function main() {
 
   if (skipCommit) console.log('  --no-commit: Will not commit changes');
   if (skipPush) console.log('  --no-push: Will not push to remote');
-  if (playlistOnly) console.log('  --playlist-only: Syncing playlist only');
+  if (playlistOnly) console.log('  --playlist-only: Syncing playlists only');
   if (channelsOnly) console.log('  --channels-only: Syncing channels only');
   console.log('');
 
@@ -66,27 +66,31 @@ async function main() {
   }
 
   const stats: SyncStats = {
-    playlist: { processed: 0, skipped: 0, failed: 0 },
+    playlists: { processed: 0, skipped: 0, failed: 0 },
     channels: { processed: 0, skipped: 0, failed: 0 }
   };
 
   try {
-    // 1. Sync Playlist (unless --channels-only)
+    // 1. Sync Playlists (unless --channels-only)
     if (!channelsOnly) {
-      console.log('📋 Syncing Playlist...\n');
-      const playlistResult = await syncPlaylist((event) => {
-        if (event.type === 'processing' && event.videoTitle) {
-          console.log(`  Processing: ${event.videoTitle} (${event.current}/${event.total})`);
+      console.log('📋 Syncing Playlists...\n');
+      const playlistResult = await syncAllPlaylists({
+        onProgress: (event) => {
+          if (event.type === 'playlist') {
+            console.log(`  Playlist ${event.playlistIndex}/${event.totalPlaylists}: ${event.playlistName}`);
+          } else if (event.type === 'video' && event.videoTitle) {
+            console.log(`    Processing: ${event.videoTitle} (${event.videoIndex}/${event.totalVideos})`);
+          }
         }
       });
 
-      stats.playlist = {
-        processed: playlistResult.processed,
-        skipped: playlistResult.skipped,
-        failed: playlistResult.failed
+      stats.playlists = {
+        processed: playlistResult.summary.videosProcessed,
+        skipped: playlistResult.summary.videosSkipped,
+        failed: playlistResult.summary.failedPlaylists
       };
 
-      console.log(`\n  ✅ Playlist: ${playlistResult.processed} processed, ${playlistResult.skipped} skipped, ${playlistResult.failed} failed\n`);
+      console.log(`\n  ✅ Playlists: ${playlistResult.summary.videosProcessed} processed, ${playlistResult.summary.videosSkipped} skipped\n`);
     }
 
     // 2. Sync Channels (unless --playlist-only)
@@ -113,9 +117,9 @@ async function main() {
     }
 
     // 3. Summary
-    const totalProcessed = stats.playlist.processed + stats.channels.processed;
-    const totalSkipped = stats.playlist.skipped + stats.channels.skipped;
-    const totalFailed = stats.playlist.failed + stats.channels.failed;
+    const totalProcessed = stats.playlists.processed + stats.channels.processed;
+    const totalSkipped = stats.playlists.skipped + stats.channels.skipped;
+    const totalFailed = stats.playlists.failed + stats.channels.failed;
 
     console.log('📊 Sync Summary:');
     console.log(`  Total Processed: ${totalProcessed}`);
@@ -144,7 +148,7 @@ async function main() {
         // Create commit
         const commitMessage = `sync: Add ${totalProcessed} video summaries
 
-Playlist: ${stats.playlist.processed} new
+Playlists: ${stats.playlists.processed} new
 Channels: ${stats.channels.processed} new
 Skipped: ${totalSkipped} (already processed)`;
 

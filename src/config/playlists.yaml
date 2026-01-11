@@ -1,0 +1,52 @@
+# YouTube Playlist Configuration
+# ==============================
+#
+# Add YouTube playlist IDs to sync videos from.
+# The system will process videos through the summarizer pipeline.
+#
+# Playlist ID formats:
+# - PL... : Regular playlists
+# - UU... : Channel uploads playlist
+# - LL... : Liked videos playlist
+# - OL... : Popular/Trending playlist
+# - RD... : Mix/Radio playlist
+#
+# How to find a playlist ID:
+# 1. Open the YouTube playlist in your browser
+# 2. Look at the URL: https://www.youtube.com/playlist?list=PLxxxxxxxxx
+# 3. The playlist ID is the value after "list="
+
+version: "1.0"
+
+playlists:
+  - id: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+    name: "AI Summaries"
+    enabled: true
+    category: "ai"
+
+  - id: "PL-SEjLl-bojUYCpJcOL5XVeJicf9X1nGS"
+    name: "Geopolitics"
+    enabled: true
+    category: "geopolitics"
+
+  - id: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
+    name: "Personal"
+    enabled: true
+    category: "personal"
+
+  - id: "PL-SEjLl-bojWiSK9b4JVTsaOeyrjhuSUQ"
+    name: "YY"
+    enabled: true
+    category: "yy"
+
+settings:
+  # Maximum videos to process per playlist per run
+  maxVideosPerPlaylist: 10
+
+  # Skip videos shorter than this duration (in seconds)
+  # This filters out YouTube Shorts which are typically < 60 seconds
+  skipShortsUnderSeconds: 60
+
+  # Delay between processing playlists (in milliseconds)
+  # Helps respect YouTube API rate limits
+  playlistDelayMs: 2000

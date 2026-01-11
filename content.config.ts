@@ -20,6 +20,9 @@ export default defineContentConfig({
         channel: z.string(),
         publishedAt: z.string(),
         processedAt: z.string(),
+        playlistId: z.string().optional(),
+        playlistName: z.string().optional(),
+        category: z.string().optional(),
         thumbnailUrl: z.string().optional(),
         youtubeUrl: z.string().optional(),
         tldr: z.string().optional()

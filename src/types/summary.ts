@@ -6,11 +6,18 @@ import type { LengthCategory } from '~/server/prompts/taxonomy';
 export type { VideoMetadata } from './youtube';
 export type { LengthCategory } from '~/server/prompts/taxonomy';
 
+export interface PlaylistMetadata {
+  playlistId: string;
+  playlistName?: string;
+  category?: string;
+}
+
 export interface MarkdownInput {
   videoId: string;
   metadata: VideoMetadata;
   summary: SummaryOutput;
   lengthCategory?: LengthCategory;
+  playlist?: PlaylistMetadata;
 }
 
 export interface MarkdownFrontmatter {
@@ -23,6 +30,8 @@ export interface MarkdownFrontmatter {
   processedAt: string;
   source: 'youtube';
   playlistId: string;
+  playlistName?: string;
+  category?: string;
   thumbnailUrl: string;
   youtubeUrl: string;
   modelUsed: string;

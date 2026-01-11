@@ -1,4 +1,5 @@
 import type { SyncResult } from '~/types/config';
+import type { PlaylistMetadata } from '~/types/summary';
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { classifyVideo } from '~/server/prompts';
@@ -202,14 +203,15 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 
 /**
  * Process a single video
- * Exported for reuse by channel monitoring service
+ * Exported for reuse by channel monitoring service and playlist sync service
  */
 export async function processVideo(
   videoId: string,
   config: ReturnType<typeof loadConfig>,
   youtubeService: ReturnType<typeof createYouTubeService>,
   aiService: ReturnType<typeof createAIService>,
-  contentWriter: ReturnType<typeof createContentWriterService>
+  contentWriter: ReturnType<typeof createContentWriterService>,
+  playlist?: PlaylistMetadata
 ): Promise<void> {
   // 1. Get video metadata
   const metadata = await youtubeService.getVideoMetadata(videoId);
@@ -251,6 +253,7 @@ export async function processVideo(
     videoId,
     metadata,
     summary,
-    lengthCategory: taxonomy.length
+    lengthCategory: taxonomy.length,
+    playlist
   });
 }
