@@ -1,32 +1,6 @@
 <template>
   <ccm-section>
     <div class="stack">
-      <div class="sync-section">
-        <ccm-button
-          @click="handlePlaylistSync"
-          :disabled="isSyncing"
-          variant="primary"
-          color="primary"
-        >
-          {{ isSyncing && syncType === 'playlist' ? 'Syncing...' : 'Sync Playlist' }}
-        </ccm-button>
-        <ccm-button
-          @click="handleChannelSync"
-          :disabled="isSyncing"
-          variant="primary"
-          color="secondary"
-        >
-          {{ isSyncing && syncType === 'channels' ? 'Syncing...' : 'Sync Channels' }}
-        </ccm-button>
-        <span v-if="isSyncing" class="sync-loading">
-          {{ currentStatus || 'Starting sync...' }}
-          <template v-if="syncProgress.current && syncProgress.total">
-            ({{ syncProgress.current }}/{{ syncProgress.total }})
-          </template>
-        </span>
-        <p v-if="syncStatus" class="sync-status">{{ syncStatus }}</p>
-      </div>
-
       <div class="header-row">
         <h2>Video Summaries</h2>
         <div class="controls-row">
@@ -86,7 +60,6 @@
 
 <script setup lang="ts">
 import { formatDate } from '~/utils/formatDate'
-import type { SyncResult } from '~/types/config'
 import { marked } from 'marked'
 
 // Configure marked for inline rendering (no <p> wrappers)
@@ -103,7 +76,7 @@ definePageMeta({
   footer: false
 })
 
-const { data: summaries, pending, refresh: refreshSummaries } = useContentStream('summaries')
+const { data: summaries, pending } = useContentStream('summaries')
 
 const sortBy = ref<'publishedAt' | 'processedAt'>('processedAt')
 const categoryFilter = ref<'all' | 'standard' | 'longform'>('all')
@@ -134,224 +107,9 @@ const sortedSummaries = computed(() => {
 
   return sorted
 })
-
-const isSyncing = ref(false)
-const syncType = ref<'playlist' | 'channels' | null>(null)
-const syncStatus = ref('')
-const currentStatus = ref('')
-const syncProgress = ref({ current: 0, total: 0 })
-
-const isLocalhost = computed(() => {
-  if (import.meta.client) {
-    return window.location.hostname === 'localhost' 
-      || window.location.hostname === '127.0.0.1'
-  }
-  return false
-})
-
-async function handlePlaylistSync() {
-  isSyncing.value = true
-  syncType.value = 'playlist'
-  syncStatus.value = ''
-  currentStatus.value = ''
-  syncProgress.value = { current: 0, total: 0 }
-
-  try {
-    if (isLocalhost.value) {
-      // Use streaming endpoint on localhost
-      const response = await fetch('/api/sync-stream', { method: 'POST' })
-      const reader = response.body?.getReader()
-      const decoder = new TextDecoder()
-
-      if (!reader) {
-        throw new Error('No response body')
-      }
-
-      let buffer = ''
-
-      while (true) {
-        const { done, value } = await reader.read()
-        if (done) break
-
-        buffer += decoder.decode(value, { stream: true })
-
-        // Process complete SSE messages
-        const lines = buffer.split('\n\n')
-        buffer = lines.pop() || '' // Keep incomplete message in buffer
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            try {
-              const event = JSON.parse(line.slice(6))
-
-              if (event.type === 'processing') {
-                currentStatus.value = event.videoTitle || ''
-                syncProgress.value = {
-                  current: event.current || 0,
-                  total: event.total || 0
-                }
-              } else if (event.type === 'complete' && event.result) {
-                const result = event.result as SyncResult
-                syncStatus.value = `Sync completed: ${result.processed} processed, ${result.skipped} skipped, ${result.failed} failed`
-              } else if (event.type === 'error') {
-                syncStatus.value = `Sync failed: ${event.error}`
-              }
-            } catch {
-              // Ignore JSON parse errors
-            }
-          }
-        }
-      }
-
-      // Refresh summaries after sync
-      await refreshSummaries()
-    } else {
-      // Trigger GitHub Actions on production
-      const response = await fetch('/.netlify/functions/trigger-sync', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ maxVideos: 10 })
-      })
-
-      const data = await response.json()
-
-      if (data.success) {
-        syncStatus.value = data.message || 'Sync triggered successfully!'
-        if (data.note) {
-          syncStatus.value += '\n\n' + data.note
-        }
-      } else {
-        syncStatus.value = `Sync failed: ${data.error || data.details || 'Unknown error'}`
-      }
-    }
-  } catch (error) {
-    syncStatus.value = `Sync failed: ${error instanceof Error ? error.message : String(error)}`
-  } finally {
-    isSyncing.value = false
-    syncType.value = null
-    currentStatus.value = ''
-    syncProgress.value = { current: 0, total: 0 }
-  }
-}
-
-async function handleChannelSync() {
-  isSyncing.value = true
-  syncType.value = 'channels'
-  syncStatus.value = ''
-  currentStatus.value = ''
-  syncProgress.value = { current: 0, total: 0 }
-
-  try {
-    if (isLocalhost.value) {
-      // Use streaming endpoint on localhost
-      const response = await fetch('/api/channels/monitor-stream', { method: 'POST' })
-      const reader = response.body?.getReader()
-      const decoder = new TextDecoder()
-
-      if (!reader) {
-        throw new Error('No response body')
-      }
-
-      let buffer = ''
-
-      while (true) {
-        const { done, value } = await reader.read()
-        if (done) break
-
-        buffer += decoder.decode(value, { stream: true })
-
-        // Process complete SSE messages
-        const lines = buffer.split('\n\n')
-        buffer = lines.pop() || '' // Keep incomplete message in buffer
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            try {
-              const event = JSON.parse(line.slice(6))
-
-              if (event.type === 'channel') {
-                currentStatus.value = `Checking: ${event.channelName}`
-                syncProgress.value = {
-                  current: event.channelIndex || 0,
-                  total: event.totalChannels || 0
-                }
-              } else if (event.type === 'video') {
-                currentStatus.value = `Processing: ${event.videoTitle}`
-                syncProgress.value = {
-                  current: event.videoIndex || 0,
-                  total: event.totalVideos || 0
-                }
-              } else if (event.type === 'complete' && event.result) {
-                const summary = event.result.summary
-                syncStatus.value = `Channel sync completed: ${summary.totalChannels} channels checked, ${summary.videosProcessed} processed, ${summary.videosSkipped} skipped`
-              } else if (event.type === 'error') {
-                syncStatus.value = `Sync failed: ${event.error}`
-              }
-            } catch {
-              // Ignore JSON parse errors
-            }
-          }
-        }
-      }
-
-      // Refresh summaries after sync
-      await refreshSummaries()
-    } else {
-      // Trigger GitHub Actions on production
-      const response = await fetch('/.netlify/functions/trigger-channel-sync', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-
-      const data = await response.json()
-
-      if (data.success) {
-        syncStatus.value = data.message || 'Channel sync triggered successfully!'
-        if (data.note) {
-          syncStatus.value += '\n\n' + data.note
-        }
-      } else {
-        syncStatus.value = `Sync failed: ${data.error || data.details || 'Unknown error'}`
-      }
-    }
-  } catch (error) {
-    syncStatus.value = `Sync failed: ${error instanceof Error ? error.message : String(error)}`
-  } finally {
-    isSyncing.value = false
-    syncType.value = null
-    currentStatus.value = ''
-    syncProgress.value = { current: 0, total: 0 }
-  }
-}
 </script>
 
 <style scoped>
-.sync-section {
-  display: flex;
-  align-items: center;
-  gap: var(--space-m);
-  flex-wrap: wrap;
-}
-
-.sync-loading {
-  font-size: var(--step--1, 0.875rem);
-  color: var(--color-primary, #0066cc);
-  animation: pulse-opacity 1.5s ease-in-out infinite;
-}
-
-@keyframes pulse-opacity {
-  0%, 100% {
-    opacity: 0.3;
-  }
-  50% {
-    opacity: 0.8;
-  }
-}
-
 .header-row {
   display: flex;
   justify-content: space-between;
