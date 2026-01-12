@@ -13,7 +13,9 @@
     <div class="layout-body">
       <SidebarNav v-if="showSidebar" class="layout-sidebar" />
       <main class="layout-main">
-        <slot />
+        <div class="layout-main__wrapper">
+          <slot />
+        </div>
       </main>
     </div>
     <ccm-footer v-if="footer" class="layout-footer" />
@@ -53,6 +55,13 @@ const showSidebar = computed(() => route.meta.sidebar ?? true)
 .layout-main {
   flex: 1;
   overflow-y: auto;
+  min-width: 0;
+}
+
+.layout-main__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .layout-footer {
