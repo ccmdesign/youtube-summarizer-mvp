@@ -13,7 +13,10 @@ category: "geopolitics"
 thumbnailUrl: "https://i.ytimg.com/vi/pdkcedVHizo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pdkcedVHizo"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Venezuela operates as a state-sponsored criminal enterprise and a geopolitical \"aircraft carrier\" for US adversaries. • The **Cartel de los Soles** is a verified military-run drug syndicate managed by Maduro’s family. • Russia and China utilize the country to station **Spetsnaz** troops, conduct naval patrols, and bypass international sanctions through black-market oil trades."
+tldr: |
+  Venezuela operates as a state-sponsored criminal enterprise and a geopolitical "aircraft carrier" for US adversaries.
+  - The **Cartel de los Soles** is a verified military-run drug syndicate managed by Maduro’s family.
+  - Russia and China utilize the country to station **Spetsnaz** troops, conduct naval patrols, and bypass international sanctions through black-market oil trades.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

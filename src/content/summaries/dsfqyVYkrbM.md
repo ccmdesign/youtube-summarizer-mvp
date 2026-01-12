@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/dsfqyVYkrbM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=dsfqyVYkrbM"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Stack Overflow’s decline to 2008 activity levels highlights a crisis in the open web: • Aggressive moderation since 2014 alienated beginners • Knowledge is becoming siloed in non-searchable Discord/Slack communities • AI tools like ChatGPT are replacing the platform by using the very data Stack Overflow users spent 17 years curating."
+tldr: |
+  Stack Overflow’s decline to 2008 activity levels highlights a crisis in the open web:
+  - Aggressive moderation since 2014 alienated beginners
+  - Knowledge is becoming siloed in non-searchable Discord/Slack communities
+  - AI tools like ChatGPT are replacing the platform by using the very data Stack Overflow users spent 17 years curating.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

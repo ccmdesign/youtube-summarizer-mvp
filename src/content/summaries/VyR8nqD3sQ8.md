@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/VyR8nqD3sQ8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=VyR8nqD3sQ8"
 modelUsed: "gemini-3-flash-preview"
-tldr: "The **Value Creator Model** shifts focus from narrow niches to building a personal brand around your own evolution and problem-solving. • Master the 'High-Value Trinity' of **Writing, Marketing, and Sales** to remain AI-proof. • Use a **long-form first** strategy where a weekly newsletter or video serves as the foundation for all social media growth and product development."
+tldr: |
+  The **Value Creator Model** shifts focus from narrow niches to building a personal brand around your own evolution and problem-solving.
+  - Master the 'High-Value Trinity' of **Writing, Marketing, and Sales** to remain AI-proof.
+  - Use a **long-form first** strategy where a weekly newsletter or video serves as the foundation for all social media growth and product development.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

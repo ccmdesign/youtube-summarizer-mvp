@@ -13,7 +13,10 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/MW8YXn-_-AE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=MW8YXn-_-AE"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• GPT-6 rumors suggest a late 2025 launch, while NVIDIA’s new DGX Spark delivers 5x the power of its predecessor in a compact form factor. • Anthropic's Claude Skills allows users to package specialized knowledge into reusable files that load on-demand. • A new scientific paper quantifies AGI progress, placing GPT-4 at 27% and GPT-5 at 58% toward matching human-level cognitive proficiency."
+tldr: |
+  - GPT-6 rumors suggest a late 2025 launch, while NVIDIA’s new DGX Spark delivers 5x the power of its predecessor in a compact form factor.
+  - Anthropic's Claude Skills allows users to package specialized knowledge into reusable files that load on-demand.
+  - A new scientific paper quantifies AGI progress, placing GPT-4 at 27% and GPT-5 at 58% toward matching human-level cognitive proficiency.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

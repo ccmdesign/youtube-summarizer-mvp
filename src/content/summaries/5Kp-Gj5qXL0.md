@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/5Kp-Gj5qXL0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=5Kp-Gj5qXL0"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• NVIDIA's Vera Rubin platform signals a shift from GPUs to 'AI Factories,' reducing inference costs by 10x. • AI has entered an industrial phase where compute is managed at rack-scale to handle 10M token context windows. • OpenAI is securing its future through 26GW+ power deals across NVIDIA, AMD, and Broadcom to solve a massive global demand shock."
+tldr: |
+  - NVIDIA's Vera Rubin platform signals a shift from GPUs to 'AI Factories,' reducing inference costs by 10x.
+  - AI has entered an industrial phase where compute is managed at rack-scale to handle 10M token context windows.
+  - OpenAI is securing its future through 26GW+ power deals across NVIDIA, AMD, and Broadcom to solve a massive global demand shock.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/Gy0fp4Pab0g/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Gy0fp4Pab0g"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Stack Overflow has officially regressed to 2008 activity levels, with monthly questions dropping from peak heights to approximately 3,862 in December 2025. • While AI tools captured the market, the platform's death is attributed to a toxic moderation culture of \"Dev Karens\" who alienated users. • The shift marks a bittersweet end for a site that defined a generation of web development."
+tldr: |
+  - Stack Overflow has officially regressed to 2008 activity levels, with monthly questions dropping from peak heights to approximately 3,862 in December 2025.
+  - While AI tools captured the market, the platform's death is attributed to a toxic moderation culture of "Dev Karens" who alienated users.
+  - The shift marks a bittersweet end for a site that defined a generation of web development.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

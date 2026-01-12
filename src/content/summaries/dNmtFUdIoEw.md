@@ -13,7 +13,10 @@ category: "yy"
 thumbnailUrl: "https://i.ytimg.com/vi/dNmtFUdIoEw/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=dNmtFUdIoEw"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Elon Musk activated Starlink in Iran to bypass a government communications blackout that included cutting internet, landlines, and electricity. • At least 203 people have died in protests, and the satellite service is the primary method for getting images of the crackdown to the global public. • The move marks a significant private-sector intervention in Middle Eastern geopolitics."
+tldr: |
+  - Elon Musk activated Starlink in Iran to bypass a government communications blackout that included cutting internet, landlines, and electricity.
+  - At least 203 people have died in protests, and the satellite service is the primary method for getting images of the crackdown to the global public.
+  - The move marks a significant private-sector intervention in Middle Eastern geopolitics.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

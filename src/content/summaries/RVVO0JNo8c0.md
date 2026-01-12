@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/RVVO0JNo8c0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=RVVO0JNo8c0"
 modelUsed: "gemini-3-flash-preview"
-tldr: "OpenAI has launched **ChatGPT Health**, a dedicated and encrypted workspace for medical data integration. • Driven by data showing 40 million weekly users already seek health advice, it connects to **Apple Health** and **Electronic Health Records**. • Key benefits include biometric correlation and assisting overworked doctors in identifying medical risks that often go overlooked."
+tldr: |
+  OpenAI has launched **ChatGPT Health**, a dedicated and encrypted workspace for medical data integration.
+  - Driven by data showing 40 million weekly users already seek health advice, it connects to **Apple Health** and **Electronic Health Records**.
+  - Key benefits include biometric correlation and assisting overworked doctors in identifying medical risks that often go overlooked.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

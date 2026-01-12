@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/B-UXpneKw6M/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=B-UXpneKw6M"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Boris, the creator of Claude Code, follows one non-negotiable rule: **Verification-Led Development**. • Never let Claude work without a feedback loop, such as automated tests, bash commands, or UI simulators. • Maintain a dynamic `claude.md` file to prevent repetitive errors. • Use **Plan Mode** to finalize architecture before execution to treat the AI like a high-performing junior developer."
+tldr: |
+  Boris, the creator of Claude Code, follows one non-negotiable rule: **Verification-Led Development**.
+  - Never let Claude work without a feedback loop, such as automated tests, bash commands, or UI simulators.
+  - Maintain a dynamic `claude.md` file to prevent repetitive errors.
+  - Use **Plan Mode** to finalize architecture before execution to treat the AI like a high-performing junior developer.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

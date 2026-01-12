@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/YIRugFtqBsM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=YIRugFtqBsM"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Tailwind CSS is facing a sustainability crisis as AI usage triggered an 80% revenue drop and forced a 75% reduction in their engineering team. • Traffic to documentation is down 40% as developers use LLMs for vibe coding, bypassing the ads for paid components that fund development. • The project faces becoming abandoned ware if a new revenue model is not found."
+tldr: |
+  Tailwind CSS is facing a sustainability crisis as AI usage triggered an 80% revenue drop and forced a 75% reduction in their engineering team.
+  - Traffic to documentation is down 40% as developers use LLMs for vibe coding, bypassing the ads for paid components that fund development.
+  - The project faces becoming abandoned ware if a new revenue model is not found.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

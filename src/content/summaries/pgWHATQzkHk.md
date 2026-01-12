@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/pgWHATQzkHk/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pgWHATQzkHk"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Plane is a free, open-source project management tool that offers a modern \"Jira meets Linear\" experience with Docker-based self-hosting. • Deployment takes under 2 minutes and provides full data ownership. • Key features include AI-driven work summaries, cycles (sprints), and a React/Django tech stack, though advanced features like SSO and local AI integration require a commercial license."
+tldr: |
+  Plane is a free, open-source project management tool that offers a modern "Jira meets Linear" experience with Docker-based self-hosting.
+  - Deployment takes under 2 minutes and provides full data ownership.
+  - Key features include AI-driven work summaries, cycles (sprints), and a React/Django tech stack, though advanced features like SSO and local AI integration require a commercial license.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

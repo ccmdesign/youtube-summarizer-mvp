@@ -13,7 +13,11 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/necl__hPeho/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=necl__hPeho"
 modelUsed: "gemini-3-flash-preview"
-tldr: "The Four-Phase AI Coding Workflow: • **Explore & Plan**: Use `/explore` and `/pl` to create a persistent implementation blueprint and `exploration.md` file. • **Execute**: Use the `/next` command to implement, test, and commit code one task at a time. • **Ship**: Use `/ship` as a final quality gate to verify documentation and generate pull requests."
+tldr: |
+  The Four-Phase AI Coding Workflow:
+  - **Explore & Plan**: Use `/explore` and `/pl` to create a persistent implementation blueprint and `exploration.md` file.
+  - **Execute**: Use the `/next` command to implement, test, and commit code one task at a time.
+  - **Ship**: Use `/ship` as a final quality gate to verify documentation and generate pull requests.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

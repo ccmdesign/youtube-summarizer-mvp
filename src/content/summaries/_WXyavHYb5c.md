@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/_WXyavHYb5c/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=_WXyavHYb5c"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Anthropic’s Opus 4.5 and the Claude Code tool represent a fundamental shift in AI capability, moving from incremental autocomplete to autonomous agency. • 'Vibe Coding' allows both developers and non-coders to build complex, production-grade apps using natural language outcomes. • This 'Software Renaissance' marks a transition to agent-native architectures where features are prompts, not code."
+tldr: |
+  Anthropic’s Opus 4.5 and the Claude Code tool represent a fundamental shift in AI capability, moving from incremental autocomplete to autonomous agency.
+  - 'Vibe Coding' allows both developers and non-coders to build complex, production-grade apps using natural language outcomes.
+  - This 'Software Renaissance' marks a transition to agent-native architectures where features are prompts, not code.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

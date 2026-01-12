@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/4u94juYwLLM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=4u94juYwLLM"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Jenny Wen argues that rigid design processes are outdated in the AI era, where tools allow non-designers to prototype quickly and designers to code. To stay relevant, practitioners must: • Prioritize **craft and end-user experience** over process artifacts • Build **intuition** through constant feedback loops • Embrace **solution-first design** to leverage new technology capabilities."
+tldr: |
+  Jenny Wen argues that rigid design processes are outdated in the AI era, where tools allow non-designers to prototype quickly and designers to code. To stay relevant, practitioners must:
+  - Prioritize **craft and end-user experience** over process artifacts
+  - Build **intuition** through constant feedback loops
+  - Embrace **solution-first design** to leverage new technology capabilities.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

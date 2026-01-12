@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/jRBiWoSKpIo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=jRBiWoSKpIo"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Claude Canvas, an open-source plugin by the Glide Apps CEO, transforms **Claude Code** into a personal assistant by spawning interactive terminal UIs. • It uses **T-mux** and the **Ink** React library to create split-pane displays for tasks like email previews and flight booking. • By utilizing **Inter-Process Communication (IPC)**, the AI can receive real-time feedback from user interactions."
+tldr: |
+  Claude Canvas, an open-source plugin by the Glide Apps CEO, transforms **Claude Code** into a personal assistant by spawning interactive terminal UIs.
+  - It uses **T-mux** and the **Ink** React library to create split-pane displays for tasks like email previews and flight booking.
+  - By utilizing **Inter-Process Communication (IPC)**, the AI can receive real-time feedback from user interactions.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

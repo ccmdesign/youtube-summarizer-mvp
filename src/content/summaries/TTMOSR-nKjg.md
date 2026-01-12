@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/TTMOSR-nKjg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=TTMOSR-nKjg"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Nvidia is shifting from a chipmaker to a platform company with the Vera Rubin architecture, targeting 10M token context windows. • Power constraints have made grid partnerships and “Bring Your Own Power” mandates a strategic priority for scaling. • Anthropic’s MCP has become an industry standard for agents, while OpenAI admits prompt injection is a permanent security reality."
+tldr: |
+  - Nvidia is shifting from a chipmaker to a platform company with the Vera Rubin architecture, targeting 10M token context windows.
+  - Power constraints have made grid partnerships and “Bring Your Own Power” mandates a strategic priority for scaling.
+  - Anthropic’s MCP has become an industry standard for agents, while OpenAI admits prompt injection is a permanent security reality.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

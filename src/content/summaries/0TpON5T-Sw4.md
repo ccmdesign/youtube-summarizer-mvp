@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/0TpON5T-Sw4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=0TpON5T-Sw4"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Nate B Jones argues that 2026 is the year for non-engineers to build an automated second brain using AI loops. • The system uses Slack for capture, Notion for storage, and Claude/GPT for intelligent routing via Zapier. • By applying 12 core engineering principles, users can move from passive storage to a proactive system that surfaces insights while reducing cognitive load and anxiety."
+tldr: |
+  - Nate B Jones argues that 2026 is the year for non-engineers to build an automated second brain using AI loops.
+  - The system uses Slack for capture, Notion for storage, and Claude/GPT for intelligent routing via Zapier.
+  - By applying 12 core engineering principles, users can move from passive storage to a proactive system that surfaces insights while reducing cognitive load and anxiety.
 # Video Taxonomy
 lengthCategory: "longform"
 # AI Processing Metrics

@@ -13,7 +13,11 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/A-ZScvLMd-U/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=A-ZScvLMd-U"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Anthropic's new \"Agent Skills\" feature fixes the Model Context Protocol's (MCP) biggest issue—context window bloat—by utilizing \"progressive disclosure\" to load tool information only when relevant. • Reduces token usage by avoiding massive tool descriptions. • Built using simple folders with a skill.md file and executable scripts. • Available for Claude Pro/Max users in preview."
+tldr: |
+  Anthropic's new "Agent Skills" feature fixes the Model Context Protocol's (MCP) biggest issue—context window bloat—by utilizing "progressive disclosure" to load tool information only when relevant.
+  - Reduces token usage by avoiding massive tool descriptions.
+  - Built using simple folders with a skill.md file and executable scripts.
+  - Available for Claude Pro/Max users in preview.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

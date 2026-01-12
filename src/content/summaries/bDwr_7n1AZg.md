@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/bDwr_7n1AZg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=bDwr_7n1AZg"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Dioxus is a high-performance Rust framework for building native-speed web, mobile, and desktop apps from a single codebase. • Employs RSX (JSX-like syntax) and a component-based architecture for rapid development. • Version 0.7 introduces a GPU-accelerated renderer (Dioxus Native), automatic Tailwind CSS support, and integrated debugging across all platform targets."
+tldr: |
+  Dioxus is a high-performance Rust framework for building native-speed web, mobile, and desktop apps from a single codebase.
+  - Employs RSX (JSX-like syntax) and a component-based architecture for rapid development.
+  - Version 0.7 introduces a GPU-accelerated renderer (Dioxus Native), automatic Tailwind CSS support, and integrated debugging across all platform targets.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

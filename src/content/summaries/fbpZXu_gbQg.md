@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/fbpZXu_gbQg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=fbpZXu_gbQg"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Testing AI models (ChatGPT 5.1, Claude 4.5, Gemini 3) against smart browsers (Atlas, Comet) reveals that specific intent is the deciding factor in finding deals. • Smart browsers leverage on-page context while LLMs rely on reasoning via web tools. • Precision in prompting is required to prevent AI from making incorrect guesses on product details like color or material."
+tldr: |
+  Testing AI models (ChatGPT 5.1, Claude 4.5, Gemini 3) against smart browsers (Atlas, Comet) reveals that specific intent is the deciding factor in finding deals.
+  - Smart browsers leverage on-page context while LLMs rely on reasoning via web tools.
+  - Precision in prompting is required to prevent AI from making incorrect guesses on product details like color or material.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

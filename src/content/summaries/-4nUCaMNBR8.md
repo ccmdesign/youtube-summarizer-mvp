@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/-4nUCaMNBR8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=-4nUCaMNBR8"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Claude Code enables autonomous agentic workflows by leveraging **Model Context Protocol (MCP)** to create self-improving skills. • Agents can write, test, and persist their own tools locally • Iterative feedback loops allow the AI to debug its own scripts • Granular permissions ensure security while maintaining high autonomy for complex engineering tasks."
+tldr: |
+  Claude Code enables autonomous agentic workflows by leveraging **Model Context Protocol (MCP)** to create self-improving skills.
+  - Agents can write, test, and persist their own tools locally
+  - Iterative feedback loops allow the AI to debug its own scripts
+  - Granular permissions ensure security while maintaining high autonomy for complex engineering tasks.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

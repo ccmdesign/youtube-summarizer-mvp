@@ -11,7 +11,9 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/rcsliSIy_YU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=rcsliSIy_YU"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Robert Brennan of AllHands introduces Open Hands, an open-source agent framework that achieves 30x productivity gains by orchestrating fleets of parallel agents to tackle massive technical debt. • The central thesis is that the next frontier of AI engineering isn't better autocomplete, but breaking down 'toil' tasks—like CVE remediation and framework migrations—into PR-sized chunks for parallel ex"
+tldr: |
+  Robert Brennan of AllHands introduces Open Hands, an open-source agent framework that achieves 30x productivity gains by orchestrating fleets of parallel agents to tackle massive technical debt.
+  - The central thesis is that the next frontier of AI engineering isn't better autocomplete, but breaking down 'toil' tasks—like CVE remediation and framework migrations—into PR-sized chunks for parallel ex
 # Video Taxonomy
 lengthCategory: "longform"
 # AI Processing Metrics

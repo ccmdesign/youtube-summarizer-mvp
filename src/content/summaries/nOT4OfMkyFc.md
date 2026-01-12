@@ -13,7 +13,11 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/nOT4OfMkyFc/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=nOT4OfMkyFc"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Create a flourless, sugar-free chocolate cake using rolled oats, banana, and apple slices prepared directly in a frying pan. • Soak 100g ground oats in 180ml hot milk for 15 minutes. • Blend with eggs and mashed banana for the base. • Cook on low heat for 20 minutes over a layer of sliced apples and walnuts before topping with a homemade cocoa-milk glaze."
+tldr: |
+  Create a flourless, sugar-free chocolate cake using rolled oats, banana, and apple slices prepared directly in a frying pan.
+  - Soak 100g ground oats in 180ml hot milk for 15 minutes.
+  - Blend with eggs and mashed banana for the base.
+  - Cook on low heat for 20 minutes over a layer of sliced apples and walnuts before topping with a homemade cocoa-milk glaze.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

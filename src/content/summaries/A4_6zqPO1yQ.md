@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/A4_6zqPO1yQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=A4_6zqPO1yQ"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Streamline **Model Context Protocol (MCP)** server development by combining **Claude Code's** agentic coding capabilities with **MAID Runner's** local execution environment. • Automate boilerplate generation, dependency management, and iterative debugging. • Create secure, local-first tools that allow AI agents to interact directly with private databases and filesystems."
+tldr: |
+  - Streamline **Model Context Protocol (MCP)** server development by combining **Claude Code's** agentic coding capabilities with **MAID Runner's** local execution environment.
+  - Automate boilerplate generation, dependency management, and iterative debugging.
+  - Create secure, local-first tools that allow AI agents to interact directly with private databases and filesystems.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

@@ -13,7 +13,11 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/5Et9WoDCsYs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=5Et9WoDCsYs"
 modelUsed: "gemini-3-flash-preview"
-tldr: "AI is bifurcating the economy into a \"barbell\" based on a three-layer framework: • **Tokenizable Cognition** (commodity drafting/coding) • **Judgment and Accountability** (human-led taste/risk) • **Physical Execution** (atoms-based labor). Mid-tier digital firms are the \"endangered species\" caught between lean AI-native startups and giants with distribution moats."
+tldr: |
+  AI is bifurcating the economy into a "barbell" based on a three-layer framework:
+  - **Tokenizable Cognition** (commodity drafting/coding)
+  - **Judgment and Accountability** (human-led taste/risk)
+  - **Physical Execution** (atoms-based labor). Mid-tier digital firms are the "endangered species" caught between lean AI-native startups and giants with distribution moats.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

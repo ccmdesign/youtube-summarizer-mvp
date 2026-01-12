@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/nflqTdNvUGs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=nflqTdNvUGs"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Tailwind CSS's 80% revenue crash—despite record-high adoption—serves as a warning that AI can destroy business models by bypassing documentation funnels. • AI agents ingest technical docs directly, preventing users from seeing paid offerings. • Stack Overflow queries collapsed from 300k to 6.8k monthly. • The crisis highlights a shift from discovery-based marketing to a need for recurring-revenue "
+tldr: |
+  Tailwind CSS's 80% revenue crash—despite record-high adoption—serves as a warning that AI can destroy business models by bypassing documentation funnels.
+  - AI agents ingest technical docs directly, preventing users from seeing paid offerings.
+  - Stack Overflow queries collapsed from 300k to 6.8k monthly.
+  - The crisis highlights a shift from discovery-based marketing to a need for recurring-revenue
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

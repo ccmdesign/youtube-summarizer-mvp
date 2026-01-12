@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/B23W1gRT9eY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=B23W1gRT9eY"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• AI models are becoming commodities, shifting competition from raw power to integration and user trust. • 2026 will be the year of AI workflows rather than autonomous agents, potentially unlocking $3 trillion in economic value. • Success now depends on providing AI with high-quality context through organized file management rather than complex prompting."
+tldr: |
+  - AI models are becoming commodities, shifting competition from raw power to integration and user trust.
+  - 2026 will be the year of AI workflows rather than autonomous agents, potentially unlocking $3 trillion in economic value.
+  - Success now depends on providing AI with high-quality context through organized file management rather than complex prompting.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

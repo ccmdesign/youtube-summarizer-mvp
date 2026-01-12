@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/TsdFAwOcvTM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=TsdFAwOcvTM"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Open-weight models MiniMax M2.1 and GLM 4.7 have achieved performance parity with Claude 4.5 Sonnet in UI design and development tasks at a fraction of the cost. • MiniMax M2.1 successfully built a functional NextJS application for $0.33, compared to $5.22 for the same result from Claude 4.5 Sonnet. • Top-tier closed models like Claude 4.5 Opus still maintain a lead in 'one-shot' reliability."
+tldr: |
+  - Open-weight models MiniMax M2.1 and GLM 4.7 have achieved performance parity with Claude 4.5 Sonnet in UI design and development tasks at a fraction of the cost.
+  - MiniMax M2.1 successfully built a functional NextJS application for $0.33, compared to $5.22 for the same result from Claude 4.5 Sonnet.
+  - Top-tier closed models like Claude 4.5 Opus still maintain a lead in 'one-shot' reliability.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

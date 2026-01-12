@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/M_iCVJSZsu0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=M_iCVJSZsu0"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Claude Canvas is an open-source TUI (Terminal User Interface) toolkit that adds a dedicated visual display to Claude Code using T-Max. • It enables AI agents to render interactive interfaces for tasks like email drafting, calendar management, and flight booking. • The tool transforms Claude Code from a text-only coding agent into a visual, multi-functional terminal application."
+tldr: |
+  Claude Canvas is an open-source TUI (Terminal User Interface) toolkit that adds a dedicated visual display to Claude Code using T-Max.
+  - It enables AI agents to render interactive interfaces for tasks like email drafting, calendar management, and flight booking.
+  - The tool transforms Claude Code from a text-only coding agent into a visual, multi-functional terminal application.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

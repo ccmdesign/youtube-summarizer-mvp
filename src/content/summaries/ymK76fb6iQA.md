@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/ymK76fb6iQA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=ymK76fb6iQA"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Meta's VL-JEPA (Video-Language Joint Embedding Predictive Architecture) marks a shift from generative AI to predictive world modeling. • It predicts missing information in a latent representation space rather than pixel-by-pixel, making it vastly more efficient than traditional LLMs or Diffusion models. • It enables AI to understand spatio-temporal dynamics and physical causality."
+tldr: |
+  Meta's VL-JEPA (Video-Language Joint Embedding Predictive Architecture) marks a shift from generative AI to predictive world modeling.
+  - It predicts missing information in a latent representation space rather than pixel-by-pixel, making it vastly more efficient than traditional LLMs or Diffusion models.
+  - It enables AI to understand spatio-temporal dynamics and physical causality.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

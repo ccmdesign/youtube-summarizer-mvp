@@ -13,7 +13,10 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/rLu_3hpG0b8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=rLu_3hpG0b8"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Google's Gemini Conductor is a free, spec-driven framework for the Gemini CLI that eliminates 'vibe coding' by transforming prompts into persistent markdown files. • Uses /conductor setup to create a living 'source of truth' within the repo. • Enables autonomous code implementation via /conductor implement while maintaining architectural consistency across brownfield projects."
+tldr: |
+  Google's Gemini Conductor is a free, spec-driven framework for the Gemini CLI that eliminates 'vibe coding' by transforming prompts into persistent markdown files.
+  - Uses /conductor setup to create a living 'source of truth' within the repo.
+  - Enables autonomous code implementation via /conductor implement while maintaining architectural consistency across brownfield projects.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

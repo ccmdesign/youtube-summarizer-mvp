@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/HcLz3ikw-n0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=HcLz3ikw-n0"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Claude Code empowers designers to act as design engineers by using a CLI-based agent to bridge Figma designs and React/Tailwind codebases. • Utilizes Model Context Protocol (MCP) to access design specs and local documentation • Enables rapid, agentic UI iteration through automated edit-test-fix loops • Minimizes handoff friction by allowing designers to execute production-level code changes via na"
+tldr: |
+  Claude Code empowers designers to act as design engineers by using a CLI-based agent to bridge Figma designs and React/Tailwind codebases.
+  - Utilizes Model Context Protocol (MCP) to access design specs and local documentation
+  - Enables rapid, agentic UI iteration through automated edit-test-fix loops
+  - Minimizes handoff friction by allowing designers to execute production-level code changes via na
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

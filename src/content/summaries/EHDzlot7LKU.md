@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/EHDzlot7LKU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=EHDzlot7LKU"
 modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
-tldr: "Claude's **Code Assist feature** enables efficient coding by: • Generating production-ready code in **multiple languages** • Providing **real-time debugging** with step-by-step explanations • Allowing **natural language prompts** for iterative refinement"
+tldr: |
+  Claude's **Code Assist feature** enables efficient coding by:
+  - Generating production-ready code in **multiple languages**
+  - Providing **real-time debugging** with step-by-step explanations
+  - Allowing **natural language prompts** for iterative refinement
 # AI Processing Metrics
 aiProvider: "openrouter"
 apiCalls: 5

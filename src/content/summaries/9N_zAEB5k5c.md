@@ -13,7 +13,10 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/9N_zAEB5k5c/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=9N_zAEB5k5c"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• High sensory processing sensitivity is a neurological trait where the brain processes micro-details, emotional shifts, and inconsistencies that others miss. • This often leads to \"perceptual exhaustion\" but serves as a vital tool for deep empathy and truth-seeking. • The trait transforms from a social burden into a superpower when used to see through masks and connect authentically with others."
+tldr: |
+  - High sensory processing sensitivity is a neurological trait where the brain processes micro-details, emotional shifts, and inconsistencies that others miss.
+  - This often leads to "perceptual exhaustion" but serves as a vital tool for deep empathy and truth-seeking.
+  - The trait transforms from a social burden into a superpower when used to see through masks and connect authentically with others.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

@@ -13,7 +13,10 @@ category: "geopolitics"
 thumbnailUrl: "https://i.ytimg.com/vi/oAAxdIwZAXs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=oAAxdIwZAXs"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Countries often stall at the $10,000–$12,000 income per person threshold due to the **middle-income trap**. • Transitioning to advanced status requires three core pillars: **open capital markets**, **creative education**, and the **Rule of Law**. • A fourth critical factor is **demographics**; without replacement birth rates, even advanced economies face eventual collapse."
+tldr: |
+  Countries often stall at the $10,000–$12,000 income per person threshold due to the **middle-income trap**.
+  - Transitioning to advanced status requires three core pillars: **open capital markets**, **creative education**, and the **Rule of Law**.
+  - A fourth critical factor is **demographics**; without replacement birth rates, even advanced economies face eventual collapse.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

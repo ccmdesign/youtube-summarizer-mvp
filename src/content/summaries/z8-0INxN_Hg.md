@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/z8-0INxN_Hg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=z8-0INxN_Hg"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Retrieval-Augmented Generation (RAG) is the enterprise standard for AI implementation, solving hallucinations by grounding LLMs in private data. Key components include: • Embedding models for semantic data conversion • Vector databases (e.g., Pinecone, Milvus) for efficient search • Prompt orchestration that prioritizes external documents over internal training weights."
+tldr: |
+  Retrieval-Augmented Generation (RAG) is the enterprise standard for AI implementation, solving hallucinations by grounding LLMs in private data. Key components include:
+  - Embedding models for semantic data conversion
+  - Vector databases (e.g., Pinecone, Milvus) for efficient search
+  - Prompt orchestration that prioritizes external documents over internal training weights.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

@@ -13,7 +13,11 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/ZBHc8vcuDcs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=ZBHc8vcuDcs"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Stop writing prompts from scratch by using AI to optimize them: • Use the **Simple Method** by asking AI to research its own best practices for its specific model version. • Use the **AI Interview Method** for high-stakes tasks where AI asks you 20+ questions to clarify intent. • Utilize official, free **Prompt Optimizers** in the OpenAI Platform and Anthropic Console for professional results."
+tldr: |
+  Stop writing prompts from scratch by using AI to optimize them:
+  - Use the **Simple Method** by asking AI to research its own best practices for its specific model version.
+  - Use the **AI Interview Method** for high-stakes tasks where AI asks you 20+ questions to clarify intent.
+  - Utilize official, free **Prompt Optimizers** in the OpenAI Platform and Anthropic Console for professional results.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

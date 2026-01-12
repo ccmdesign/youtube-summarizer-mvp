@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/61Z2jLH4yGU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=61Z2jLH4yGU"
 modelUsed: "gemini-3-flash-preview"
-tldr: "The move from monolithic UI libraries to a localized component model represents a paradigm shift: • **Component ownership** via Shadcn UI allows for full codebase control without dependency lock-in • **Headless primitives** from Radix UI ensure top-tier accessibility (A11y) • **AI-assisted generation** via tools like v0.dev enables rapid prototyping within a consistent design language."
+tldr: |
+  The move from monolithic UI libraries to a localized component model represents a paradigm shift:
+  - **Component ownership** via Shadcn UI allows for full codebase control without dependency lock-in
+  - **Headless primitives** from Radix UI ensure top-tier accessibility (A11y)
+  - **AI-assisted generation** via tools like v0.dev enables rapid prototyping within a consistent design language.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

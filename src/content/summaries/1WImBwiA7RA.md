@@ -13,7 +13,10 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/1WImBwiA7RA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=1WImBwiA7RA"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Claude Skills are a new framework for agent SOPs that outperform MCP by reducing token usage (e.g., from 4,200 to 70 tokens) while providing specific execution instructions. • Uses a mandatory skill.md file to trigger context-aware workflows. • Enables self-improving codebases by automating the creation of custom best-practice skills for specific repositories."
+tldr: |
+  Claude Skills are a new framework for agent SOPs that outperform MCP by reducing token usage (e.g., from 4,200 to 70 tokens) while providing specific execution instructions.
+  - Uses a mandatory skill.md file to trigger context-aware workflows.
+  - Enables self-improving codebases by automating the creation of custom best-practice skills for specific repositories.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/JepVi1tBNEE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=JepVi1tBNEE"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Agent skills are portable, action-oriented folders (instructions, scripts, and resources) that load on demand to automate domain-specific tasks. • They utilize an open standard compatible with VS Code, GitHub Copilot, and CLI. • Unlike static instructions, skills enable complex workflows like PRD drafting, image manipulation, and CI setup through progressive loading."
+tldr: |
+  Agent skills are portable, action-oriented folders (instructions, scripts, and resources) that load on demand to automate domain-specific tasks.
+  - They utilize an open standard compatible with VS Code, GitHub Copilot, and CLI.
+  - Unlike static instructions, skills enable complex workflows like PRD drafting, image manipulation, and CI setup through progressive loading.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

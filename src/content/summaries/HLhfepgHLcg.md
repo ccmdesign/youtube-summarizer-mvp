@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/HLhfepgHLcg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=HLhfepgHLcg"
 modelUsed: "gemini-3-flash-preview"
-tldr: "NVIDIA's CES announcements highlight the Rubin supercomputer with 10x inference efficiency and the open-source Alpameo autonomous driving stack. • LTX-2 has emerged as the top-ranked open-weights text-to-video model. • GPU prices, particularly for the RTX 5090, may surge to $5,000 due to memory shortages while Anthropic secures a massive $10B funding round."
+tldr: |
+  NVIDIA's CES announcements highlight the Rubin supercomputer with 10x inference efficiency and the open-source Alpameo autonomous driving stack.
+  - LTX-2 has emerged as the top-ranked open-weights text-to-video model.
+  - GPU prices, particularly for the RTX 5090, may surge to $5,000 due to memory shortages while Anthropic secures a massive $10B funding round.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

@@ -13,7 +13,10 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/663aUMIZsYE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=663aUMIZsYE"
 modelUsed: "gemini-3-flash-preview"
-tldr: "• Run Claude Code in parallel across multiple terminal windows to execute tasks simultaneously and halve development time. • Use Skills for local, repetitive tasks to minimize context overhead compared to MCP. • Enable fully autonomous execution with the `--dangerously-skip-permissions` flag, but exercise extreme caution as it can accidentally delete entire home directories."
+tldr: |
+  - Run Claude Code in parallel across multiple terminal windows to execute tasks simultaneously and halve development time.
+  - Use Skills for local, repetitive tasks to minimize context overhead compared to MCP.
+  - Enable fully autonomous execution with the `--dangerously-skip-permissions` flag, but exercise extreme caution as it can accidentally delete entire home directories.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

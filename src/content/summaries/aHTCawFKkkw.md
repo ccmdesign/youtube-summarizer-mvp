@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/aHTCawFKkkw/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=aHTCawFKkkw"
 modelUsed: "gemini-3-flash-preview"
-tldr: "The **Mongoled** vulnerability (CVE-2025-14847) is a critical 8.7-rated memory leakage flaw affecting MongoDB versions as far back as 3.6 (2017). • It exploits **BSON** compression handling to exfiltrate residual server memory, including environment variables and sensitive database content. • Over 87,000 instances are exposed, highlighting the dangers of poor code review."
+tldr: |
+  The **Mongoled** vulnerability (CVE-2025-14847) is a critical 8.7-rated memory leakage flaw affecting MongoDB versions as far back as 3.6 (2017).
+  - It exploits **BSON** compression handling to exfiltrate residual server memory, including environment variables and sensitive database content.
+  - Over 87,000 instances are exposed, highlighting the dangers of poor code review.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

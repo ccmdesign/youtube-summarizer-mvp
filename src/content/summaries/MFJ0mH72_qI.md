@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/MFJ0mH72_qI/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=MFJ0mH72_qI"
 modelUsed: "gemini-3-flash-preview"
-tldr: "ShadCN has evolved from a simple component collection into a comprehensive AI-driven UI ecosystem featuring • **ShadCN Registry** for building and publishing custom component libraries • **Blocks** for rapid full-page assembly • Native integration with AI tools like **v0.dev** to automate the path from design prompt to production-ready code."
+tldr: |
+  ShadCN has evolved from a simple component collection into a comprehensive AI-driven UI ecosystem featuring
+  - **ShadCN Registry** for building and publishing custom component libraries
+  - **Blocks** for rapid full-page assembly
+  - Native integration with AI tools like **v0.dev** to automate the path from design prompt to production-ready code.
 # AI Processing Metrics
 aiProvider: "gemini"
 apiCalls: 1

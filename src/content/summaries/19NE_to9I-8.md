@@ -11,7 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/19NE_to9I-8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=19NE_to9I-8"
 modelUsed: "gemini-3-flash-preview"
-tldr: "CES 2026 marks a shift from gimmicky gadgets to market-defining infrastructure and products. • Nvidia’s **Vera Rubin** chips promise a 90% drop in token costs and 5x faster inference. • Amazon is leveraging its 600 million Alexa devices to offer **Alexa Plus** as a family-centric AI assistant. • Google and Samsung aim to reach 800 million AI-enabled handsets by the end of 2026."
+tldr: |
+  CES 2026 marks a shift from gimmicky gadgets to market-defining infrastructure and products.
+  - Nvidia’s **Vera Rubin** chips promise a 90% drop in token costs and 5x faster inference.
+  - Amazon is leveraging its 600 million Alexa devices to offer **Alexa Plus** as a family-centric AI assistant.
+  - Google and Samsung aim to reach 800 million AI-enabled handsets by the end of 2026.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics

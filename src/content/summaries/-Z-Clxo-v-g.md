@@ -11,7 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/-Z-Clxo-v-g/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=-Z-Clxo-v-g"
 modelUsed: "gemini-3-flash-preview"
-tldr: "Buzz is an open-source, MIT-licensed tool that runs OpenAI's Whisper model 100% offline for free transcription and translation. • Key benefits include word-level timestamps, JSON/SRT outputs, and total data privacy. • Challenges involve large storage requirements (GBs) for models and the need for a dedicated GPU to avoid slow CPU-based processing."
+tldr: |
+  Buzz is an open-source, MIT-licensed tool that runs OpenAI's Whisper model 100% offline for free transcription and translation.
+  - Key benefits include word-level timestamps, JSON/SRT outputs, and total data privacy.
+  - Challenges involve large storage requirements (GBs) for models and the need for a dedicated GPU to avoid slow CPU-based processing.
 # Video Taxonomy
 lengthCategory: "standard"
 # AI Processing Metrics
