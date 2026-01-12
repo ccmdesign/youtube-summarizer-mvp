@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-12T14:37:41.820Z",
+  "lastUpdated": "2026-01-12T23:42:35.054Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -409,31 +409,27 @@
     },
     "i5QxpVhR4ik": {
       "videoId": "i5QxpVhR4ik",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-12T14:32:04.905Z",
       "updatedAt": "2026-01-12T14:32:04.905Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "Gesundes Linsenbrot in 5 Minuten! KEIN Mehl und KEINE Hefe!",
       "source": "playlist",
-      "lastAttemptAt": "2026-01-12T14:32:04.905Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "MALFORMED_GEMINI_RESPONSE",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-12T23:32:52.043Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-12T23:33:10.273Z"
     },
     "F7uuo0U5Y9o": {
       "videoId": "F7uuo0U5Y9o",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-12T14:32:50.278Z",
       "updatedAt": "2026-01-12T14:32:50.278Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "Carrots and oatmeal! No sugar! No white flour! My favorite oat cake in 15 minutes!",
       "source": "playlist",
-      "lastAttemptAt": "2026-01-12T14:32:50.278Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "MALFORMED_GEMINI_RESPONSE",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-12T23:33:40.277Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-12T23:33:56.481Z"
     },
     "9N_zAEB5k5c": {
       "videoId": "9N_zAEB5k5c",
@@ -481,17 +477,15 @@
     },
     "UgR6LPPehCA": {
       "videoId": "UgR6LPPehCA",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-12T14:36:13.510Z",
       "updatedAt": "2026-01-12T14:36:13.510Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "AI Tutors Could End Education Scarcity #ai #artificialintelligence #education #aiconversations",
       "source": "channel",
-      "lastAttemptAt": "2026-01-12T14:36:13.509Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "MALFORMED_GEMINI_RESPONSE",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-12T23:36:30.973Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-12T23:36:42.692Z"
     },
     "-Z-Clxo-v-g": {
       "videoId": "-Z-Clxo-v-g",
@@ -506,17 +500,246 @@
     },
     "AcCJ678kV34": {
       "videoId": "AcCJ678kV34",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-12T14:37:25.049Z",
       "updatedAt": "2026-01-12T14:37:25.049Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "Docker’s Best Security Feature Is Now FREE",
       "source": "channel",
-      "lastAttemptAt": "2026-01-12T14:37:25.049Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "MALFORMED_GEMINI_RESPONSE",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-12T23:37:02.784Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-12T23:37:17.202Z"
+    },
+    "fvUGQFtJaT4": {
+      "videoId": "fvUGQFtJaT4",
+      "status": "success",
+      "createdAt": "2026-01-12T23:25:21.091Z",
+      "updatedAt": "2026-01-12T23:25:21.091Z",
+      "attemptCount": 1,
+      "title": "Claude Skills - SOPs For Agents",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:25:21.090Z",
+      "processedAt": "2026-01-12T23:25:36.043Z"
+    },
+    "eLDq5TfIHys": {
+      "videoId": "eLDq5TfIHys",
+      "status": "success",
+      "createdAt": "2026-01-12T23:26:06.048Z",
+      "updatedAt": "2026-01-12T23:26:06.048Z",
+      "attemptCount": 1,
+      "title": "Claude Just Introduced a New Way To Fix Your UI",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:26:06.048Z",
+      "processedAt": "2026-01-12T23:26:20.357Z"
+    },
+    "lXUZvyajciY": {
+      "videoId": "lXUZvyajciY",
+      "status": "success",
+      "createdAt": "2026-01-12T23:26:50.362Z",
+      "updatedAt": "2026-01-12T23:26:50.362Z",
+      "attemptCount": 1,
+      "title": "Andrej Karpathy — “We’re summoning ghosts, not building animals”",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:26:50.361Z",
+      "processedAt": "2026-01-12T23:27:09.655Z"
+    },
+    "AY6-bCihqf8": {
+      "videoId": "AY6-bCihqf8",
+      "status": "success",
+      "createdAt": "2026-01-12T23:27:39.661Z",
+      "updatedAt": "2026-01-12T23:27:39.661Z",
+      "attemptCount": 1,
+      "title": "Vibe Coding by Steve Yegge & Gene Kim",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:27:39.660Z",
+      "processedAt": "2026-01-12T23:27:54.431Z"
+    },
+    "DtePicx_kFY": {
+      "videoId": "DtePicx_kFY",
+      "status": "success",
+      "createdAt": "2026-01-12T23:28:24.436Z",
+      "updatedAt": "2026-01-12T23:28:24.436Z",
+      "attemptCount": 1,
+      "title": "He Co-Invented the Transformer. Now: Continuous Thought Machines [Llion Jones / Luke Darlow]",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:28:24.436Z",
+      "processedAt": "2026-01-12T23:28:39.629Z"
+    },
+    "BVJUmJKrZKA": {
+      "videoId": "BVJUmJKrZKA",
+      "status": "success",
+      "createdAt": "2026-01-12T23:29:09.632Z",
+      "updatedAt": "2026-01-12T23:29:09.632Z",
+      "attemptCount": 1,
+      "title": "Mig Reyes - Harsh truths that designers need to hear",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:29:09.632Z",
+      "processedAt": "2026-01-12T23:29:31.937Z"
+    },
+    "PQhcHrCyU8M": {
+      "videoId": "PQhcHrCyU8M",
+      "status": "success",
+      "createdAt": "2026-01-12T23:30:01.943Z",
+      "updatedAt": "2026-01-12T23:30:01.943Z",
+      "attemptCount": 1,
+      "title": "Ryo Lu (Cursor): AI Turns Designers to Developers",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:30:01.942Z",
+      "processedAt": "2026-01-12T23:30:21.858Z"
+    },
+    "rRljig2AS0g": {
+      "videoId": "rRljig2AS0g",
+      "status": "success",
+      "createdAt": "2026-01-12T23:30:51.861Z",
+      "updatedAt": "2026-01-12T23:30:51.861Z",
+      "attemptCount": 1,
+      "title": "Emmet Connolly - Transitioning into the next era of design",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:30:51.861Z",
+      "processedAt": "2026-01-12T23:31:14.303Z"
+    },
+    "UuyaeSLRTkE": {
+      "videoId": "UuyaeSLRTkE",
+      "status": "success",
+      "createdAt": "2026-01-12T23:31:44.306Z",
+      "updatedAt": "2026-01-12T23:31:44.306Z",
+      "attemptCount": 1,
+      "title": "\"okay, but I want Gemini3 to perform 10x for my specific use case\" - Here is how",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:31:44.306Z",
+      "processedAt": "2026-01-12T23:31:59.610Z"
+    },
+    "TJ-vWGCosdQ": {
+      "videoId": "TJ-vWGCosdQ",
+      "status": "success",
+      "createdAt": "2026-01-12T23:32:29.614Z",
+      "updatedAt": "2026-01-12T23:32:29.614Z",
+      "attemptCount": 1,
+      "title": "Gemini 3 isn't the answer. How to Solve 1 Million Steps with 0 Errors",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:32:29.614Z",
+      "processedAt": "2026-01-12T23:32:47.843Z"
+    },
+    "FIH6dRN22Pg": {
+      "videoId": "FIH6dRN22Pg",
+      "status": "success",
+      "createdAt": "2026-01-12T23:34:26.485Z",
+      "updatedAt": "2026-01-12T23:34:26.485Z",
+      "attemptCount": 1,
+      "title": "40 g Protein Chocolate Truffles made with CHICKPEAS",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:34:26.485Z",
+      "processedAt": "2026-01-12T23:34:41.026Z"
+    },
+    "b5fTnZRsuhI": {
+      "videoId": "b5fTnZRsuhI",
+      "status": "success",
+      "createdAt": "2026-01-12T23:34:43.248Z",
+      "updatedAt": "2026-01-12T23:34:43.248Z",
+      "attemptCount": 1,
+      "title": "Alex Rampell: The Best Founders Materialise Capital, Customers & Labour | The Future of Venture",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-12T23:34:43.248Z",
+      "processedAt": "2026-01-12T23:35:06.361Z"
+    },
+    "Q7OQyXgfjFw": {
+      "videoId": "Q7OQyXgfjFw",
+      "status": "success",
+      "createdAt": "2026-01-12T23:35:06.663Z",
+      "updatedAt": "2026-01-12T23:35:06.663Z",
+      "attemptCount": 1,
+      "title": "Google's API Power is Next-Level! #ai #artificialintelligence #google #nanobananapro",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:35:06.663Z",
+      "processedAt": "2026-01-12T23:35:18.936Z"
+    },
+    "M9TJizOxNFk": {
+      "videoId": "M9TJizOxNFk",
+      "status": "success",
+      "createdAt": "2026-01-12T23:35:49.057Z",
+      "updatedAt": "2026-01-12T23:35:49.057Z",
+      "attemptCount": 1,
+      "title": "What Sam Altman and Dario Amodei Disagree About (And Why It Matters for You)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:35:49.056Z",
+      "processedAt": "2026-01-12T23:36:00.901Z"
+    },
+    "YcR2-XRIxVs": {
+      "videoId": "YcR2-XRIxVs",
+      "status": "success",
+      "createdAt": "2026-01-12T23:36:43.832Z",
+      "updatedAt": "2026-01-12T23:36:43.832Z",
+      "attemptCount": 1,
+      "title": "AI Wearables Round 2: Will Anyone Care This Time?",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:36:43.831Z",
+      "processedAt": "2026-01-12T23:37:01.342Z"
+    },
+    "k8cnVCMYmNc": {
+      "videoId": "k8cnVCMYmNc",
+      "status": "success",
+      "createdAt": "2026-01-12T23:37:18.334Z",
+      "updatedAt": "2026-01-12T23:37:18.334Z",
+      "attemptCount": 1,
+      "title": "OpenAI + @Temporalio : Building Durable, Production Ready Agents - Cornelia Davis, Temporal",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:37:18.333Z",
+      "processedAt": "2026-01-12T23:38:34.060Z"
+    },
+    "-WBHNFAB0OE": {
+      "videoId": "-WBHNFAB0OE",
+      "status": "success",
+      "createdAt": "2026-01-12T23:38:35.239Z",
+      "updatedAt": "2026-01-12T23:38:35.239Z",
+      "attemptCount": 1,
+      "title": "AGENT THREADS. How to SHIP like Boris Cherny. Ralph Wiggnum in Claude Code.",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:38:35.239Z",
+      "processedAt": "2026-01-12T23:38:55.793Z"
+    },
+    "VqDs46A8pqE": {
+      "videoId": "VqDs46A8pqE",
+      "status": "success",
+      "createdAt": "2026-01-12T23:39:25.905Z",
+      "updatedAt": "2026-01-12T23:39:25.905Z",
+      "attemptCount": 1,
+      "title": "Claude Code is Amazing... Until It DELETES Production",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:39:25.904Z",
+      "processedAt": "2026-01-12T23:39:53.129Z"
+    },
+    "fop_yxV-mPo": {
+      "videoId": "fop_yxV-mPo",
+      "status": "success",
+      "createdAt": "2026-01-12T23:40:23.303Z",
+      "updatedAt": "2026-01-12T23:40:23.303Z",
+      "attemptCount": 1,
+      "title": "The Codebase Singularity: “My agents run my codebase better than I can”",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:40:23.302Z",
+      "processedAt": "2026-01-12T23:40:37.956Z"
+    },
+    "u-SQ0Jsv4mI": {
+      "videoId": "u-SQ0Jsv4mI",
+      "status": "success",
+      "createdAt": "2026-01-12T23:41:08.932Z",
+      "updatedAt": "2026-01-12T23:41:08.932Z",
+      "attemptCount": 1,
+      "title": "Gemini 3 Flash should NOT EXIST. TOP 2% Engineering. /PLAN 2026",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:41:08.932Z",
+      "processedAt": "2026-01-12T23:41:40.708Z"
+    },
+    "zTcDwqopvKE": {
+      "videoId": "zTcDwqopvKE",
+      "status": "success",
+      "createdAt": "2026-01-12T23:42:10.770Z",
+      "updatedAt": "2026-01-12T23:42:10.770Z",
+      "attemptCount": 1,
+      "title": "Agent Experts: Finally, Agents That ACTUALLY Learn",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-12T23:42:10.769Z",
+      "processedAt": "2026-01-12T23:42:35.053Z"
     }
   }
 }
