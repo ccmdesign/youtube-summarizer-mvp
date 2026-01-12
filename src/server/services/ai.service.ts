@@ -288,7 +288,7 @@ export class AIService {
 
   /**
    * Check if error is recoverable (should try next model in fallback chain)
-   * Recoverable errors: quota exceeded (429), model not found (404)
+   * Recoverable errors: quota exceeded (429), model not found (404), malformed response
    */
   private isRecoverableGeminiError(error: unknown): boolean {
     if (error instanceof Error) {
@@ -311,7 +311,10 @@ export class AIService {
         message.includes('not supported')
       );
 
-      return isQuotaError || isModelNotFound;
+      // Malformed response errors (transient API issues, empty responses)
+      const isMalformedResponse = message.includes('malformed_gemini_response');
+
+      return isQuotaError || isModelNotFound || isMalformedResponse;
     }
     return false;
   }

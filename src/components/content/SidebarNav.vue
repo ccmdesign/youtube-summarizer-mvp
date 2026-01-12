@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { slugify } from '~/utils/slugify'
+import { useTruncate } from '~/composables/useTruncate'
 
 const { playlists } = usePlaylistsConfig()
 
@@ -42,7 +43,7 @@ const channels = computed(() => {
               class="sidebar-link"
               active-class="sidebar-link--active"
             >
-              {{ playlist.name }}
+              {{ useTruncate(playlist.name, 30) }}
             </NuxtLink>
           </li>
         </ul>
@@ -57,7 +58,7 @@ const channels = computed(() => {
               class="sidebar-link"
               active-class="sidebar-link--active"
             >
-              {{ channel.name }}
+              {{ useTruncate(channel.name, 30) }}
             </NuxtLink>
           </li>
         </ul>

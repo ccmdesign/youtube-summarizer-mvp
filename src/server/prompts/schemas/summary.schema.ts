@@ -30,7 +30,7 @@ export const summaryResponseSchema = {
   properties: {
     tldr: {
       type: 'string' as SchemaType.STRING,
-      description: 'A single sentence (max 400 chars) capturing the most important insight. Be specific - include names, numbers, or key terms. Can use bullet points (•) for 2-3 related points.',
+      description: 'A concise summary (max 400 chars) using proper markdown. Format: Start with a lead sentence, then use markdown bullet points (- item) on separate lines for 2-3 key points. Use **bold** for emphasis. Example:\nMain insight here:\n- **Key point one** with brief context\n- **Key point two** explained\n- **Key point three** summarized',
       nullable: false
     },
     keyTakeaways: {

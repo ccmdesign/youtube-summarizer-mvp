@@ -105,7 +105,8 @@ ${playlistLines.join('\n')}
 thumbnailUrl: "${metadata.thumbnailUrl}"
 youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
 modelUsed: "${summary.modelUsed}"
-tldr: "${this.escapeYaml(summary.tldr)}"
+tldr: |
+${this.formatMultilineYaml(summary.tldr)}
 ${taxonomySection}# AI Processing Metrics
 ${metricsLines.join('\n')}
 ---
@@ -172,6 +173,17 @@ ${body}
    */
   private escapeYaml(str: string): string {
     return str.replace(/"/g, '\\"').replace(/\n/g, ' ');
+  }
+
+  /**
+   * Format a string for YAML literal block scalar (|)
+   * Indents each line by 2 spaces for valid YAML
+   */
+  private formatMultilineYaml(str: string): string {
+    return str
+      .split('\n')
+      .map(line => `  ${line}`)
+      .join('\n');
   }
 }
 
