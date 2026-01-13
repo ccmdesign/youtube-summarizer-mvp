@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-12T23:42:35.054Z",
+  "lastUpdated": "2026-01-13T15:59:35.114Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -740,6 +740,149 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-12T23:42:10.769Z",
       "processedAt": "2026-01-12T23:42:35.053Z"
+    },
+    "r8RGYw1n-5k": {
+      "videoId": "r8RGYw1n-5k",
+      "status": "success",
+      "createdAt": "2026-01-13T15:50:39.425Z",
+      "updatedAt": "2026-01-13T15:50:39.425Z",
+      "attemptCount": 1,
+      "title": "What Everyone Missed About Gemini 3 w/ Salim, Dave & Alexander Wissner-Gross | EP#209",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:50:39.424Z",
+      "processedAt": "2026-01-13T15:51:53.136Z"
+    },
+    "Sm-E3GiSZeA": {
+      "videoId": "Sm-E3GiSZeA",
+      "status": "success",
+      "createdAt": "2026-01-13T15:52:23.145Z",
+      "updatedAt": "2026-01-13T15:52:23.145Z",
+      "attemptCount": 1,
+      "title": "Nano Banana Pro is Jaw Dropping: 18 Use-Cases That Were Impossible Before",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:52:23.144Z",
+      "processedAt": "2026-01-13T15:52:37.500Z"
+    },
+    "opZpIN8g_6M": {
+      "videoId": "opZpIN8g_6M",
+      "status": "success",
+      "createdAt": "2026-01-13T15:53:07.508Z",
+      "updatedAt": "2026-01-13T15:53:07.508Z",
+      "attemptCount": 1,
+      "title": "Claude Just Solved Their Biggest Problem",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:53:07.507Z",
+      "processedAt": "2026-01-13T15:53:22.434Z"
+    },
+    "tLIX3CFEFqA": {
+      "videoId": "tLIX3CFEFqA",
+      "status": "success",
+      "createdAt": "2026-01-13T15:53:52.441Z",
+      "updatedAt": "2026-01-13T15:53:52.441Z",
+      "attemptCount": 1,
+      "title": "Gemini 3 and GPT 5.1",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:53:52.441Z",
+      "processedAt": "2026-01-13T15:54:07.104Z"
+    },
+    "QNh4SUQuts4": {
+      "videoId": "QNh4SUQuts4",
+      "status": "success",
+      "createdAt": "2026-01-13T15:54:37.112Z",
+      "updatedAt": "2026-01-13T15:54:37.112Z",
+      "attemptCount": 1,
+      "title": "I Tested Gemini 3 as a Designer. It’s Terrifyingly Good.",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:54:37.110Z",
+      "processedAt": "2026-01-13T15:54:53.826Z"
+    },
+    "WA_VI0kgkXM": {
+      "videoId": "WA_VI0kgkXM",
+      "status": "success",
+      "createdAt": "2026-01-13T15:55:23.834Z",
+      "updatedAt": "2026-01-13T15:55:23.834Z",
+      "attemptCount": 1,
+      "title": "Nano Banana Pro Just Changed Graphic Design Forever! (Review & Tutorial)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:55:23.834Z",
+      "processedAt": "2026-01-13T15:55:38.325Z"
+    },
+    "Ojivbg9Qr3Y": {
+      "videoId": "Ojivbg9Qr3Y",
+      "status": "success",
+      "createdAt": "2026-01-13T15:56:08.333Z",
+      "updatedAt": "2026-01-13T15:56:08.333Z",
+      "attemptCount": 1,
+      "title": "Graphic Design in 2026 — The Tools Every Pro Is Switching To",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:56:08.332Z",
+      "processedAt": "2026-01-13T15:56:25.670Z"
+    },
+    "oEA1WgjcL7w": {
+      "videoId": "oEA1WgjcL7w",
+      "status": "success",
+      "createdAt": "2026-01-13T15:56:55.676Z",
+      "updatedAt": "2026-01-13T15:56:55.676Z",
+      "attemptCount": 1,
+      "title": "Claude Skills are Game Changing",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:56:55.675Z",
+      "processedAt": "2026-01-13T15:57:07.981Z"
+    },
+    "W45XJWZiwPM": {
+      "videoId": "W45XJWZiwPM",
+      "status": "success",
+      "createdAt": "2026-01-13T15:57:37.988Z",
+      "updatedAt": "2026-01-13T15:57:37.988Z",
+      "attemptCount": 1,
+      "title": "Run Multiple Claude Code Agents Without Git Conflicts (Vibe Kanban)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:57:37.987Z",
+      "processedAt": "2026-01-13T15:57:50.766Z"
+    },
+    "GnQCyxa4TjA": {
+      "videoId": "GnQCyxa4TjA",
+      "status": "success",
+      "createdAt": "2026-01-13T15:58:20.776Z",
+      "updatedAt": "2026-01-13T15:58:20.776Z",
+      "attemptCount": 1,
+      "title": "Open Source AI Agents Just Got Too Powerful: Confucius AI Agent",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:58:20.775Z",
+      "processedAt": "2026-01-13T15:58:39.299Z"
+    },
+    "SkSov0q5NgQ": {
+      "videoId": "SkSov0q5NgQ",
+      "status": "success",
+      "createdAt": "2026-01-13T15:58:43.482Z",
+      "updatedAt": "2026-01-13T15:58:43.482Z",
+      "attemptCount": 1,
+      "title": "HIGH PROTEIN DESSERT | Healthy Cottage Cheese Chocolate Mousse in Minutes",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-13T15:58:43.481Z",
+      "processedAt": "2026-01-13T15:58:58.217Z"
+    },
+    "dzp0OQbElpU": {
+      "videoId": "dzp0OQbElpU",
+      "status": "success",
+      "createdAt": "2026-01-13T15:59:00.458Z",
+      "updatedAt": "2026-01-13T15:59:00.458Z",
+      "attemptCount": 1,
+      "title": "The AI Performance Review Is Here: What Meta, Google & Microsoft Are Measuring",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-13T15:59:00.458Z",
+      "processedAt": "2026-01-13T15:59:21.777Z"
+    },
+    "P7JrP57AxR0": {
+      "videoId": "P7JrP57AxR0",
+      "status": "success",
+      "createdAt": "2026-01-13T15:59:24.483Z",
+      "updatedAt": "2026-01-13T15:59:24.483Z",
+      "attemptCount": 1,
+      "title": "Claude Code Can Now Control Your Browser (Thanks to Vercel)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-13T15:59:24.483Z",
+      "processedAt": "2026-01-13T15:59:35.112Z"
     }
   }
 }
