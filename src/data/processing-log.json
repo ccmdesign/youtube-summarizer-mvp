@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-13T15:59:35.114Z",
+  "lastUpdated": "2026-01-14T16:48:46.789Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -883,6 +883,189 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-13T15:59:24.483Z",
       "processedAt": "2026-01-13T15:59:35.112Z"
+    },
+    "Z9UxjmNF7b0": {
+      "videoId": "Z9UxjmNF7b0",
+      "status": "success",
+      "createdAt": "2026-01-14T16:19:41.037Z",
+      "updatedAt": "2026-01-14T16:19:41.037Z",
+      "attemptCount": 1,
+      "title": "You're falling behind. It's time to catch up.",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:19:41.036Z",
+      "processedAt": "2026-01-14T16:22:27.882Z"
+    },
+    "XP6TJRbOdGo": {
+      "videoId": "XP6TJRbOdGo",
+      "status": "success",
+      "createdAt": "2026-01-14T16:22:57.892Z",
+      "updatedAt": "2026-01-14T16:22:57.892Z",
+      "attemptCount": 1,
+      "title": "I Wasn't Ready For What This Does",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:22:57.891Z",
+      "processedAt": "2026-01-14T16:23:10.426Z"
+    },
+    "rMhvSkXbv4A": {
+      "videoId": "rMhvSkXbv4A",
+      "status": "success",
+      "createdAt": "2026-01-14T16:23:40.432Z",
+      "updatedAt": "2026-01-14T16:23:40.432Z",
+      "attemptCount": 1,
+      "title": "Tool definitions are the new Prompt Engineering",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:23:40.432Z",
+      "processedAt": "2026-01-14T16:24:39.489Z"
+    },
+    "d-PZDQlO4m4": {
+      "videoId": "d-PZDQlO4m4",
+      "status": "success",
+      "createdAt": "2026-01-14T16:25:09.499Z",
+      "updatedAt": "2026-01-14T16:25:09.499Z",
+      "attemptCount": 1,
+      "title": "Automate all your NotebookLM Research and content creation with this Ultimate MCP",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:25:09.498Z",
+      "processedAt": "2026-01-14T16:25:24.267Z"
+    },
+    "UAmKyyZ-b9E": {
+      "videoId": "UAmKyyZ-b9E",
+      "status": "skipped",
+      "createdAt": "2026-01-14T16:25:54.274Z",
+      "updatedAt": "2026-01-14T16:25:54.274Z",
+      "attemptCount": 1,
+      "title": "Introducing Cowork: Claude Code for the rest of your work",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:25:54.274Z",
+      "errorType": "permanent",
+      "errorCode": "TRANSCRIPT_UNAVAILABLE",
+      "errorMessage": "TRANSCRIPT_UNAVAILABLE",
+      "skipPermanently": true,
+      "skipReason": "Permanent error: TRANSCRIPT_UNAVAILABLE"
+    },
+    "TbqPhoH_7TU": {
+      "videoId": "TbqPhoH_7TU",
+      "status": "success",
+      "createdAt": "2026-01-14T16:26:24.605Z",
+      "updatedAt": "2026-01-14T16:26:24.605Z",
+      "attemptCount": 1,
+      "title": "AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:26:24.604Z",
+      "processedAt": "2026-01-14T16:26:39.758Z"
+    },
+    "yDKpF6CjBUo": {
+      "videoId": "yDKpF6CjBUo",
+      "status": "success",
+      "createdAt": "2026-01-14T16:27:09.765Z",
+      "updatedAt": "2026-01-14T16:27:09.765Z",
+      "attemptCount": 1,
+      "title": "Google's New Universal Commerce Protocol",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:27:09.764Z",
+      "processedAt": "2026-01-14T16:27:24.933Z"
+    },
+    "Jo168H2m5lw": {
+      "videoId": "Jo168H2m5lw",
+      "status": "success",
+      "createdAt": "2026-01-14T16:27:54.941Z",
+      "updatedAt": "2026-01-14T16:27:54.941Z",
+      "attemptCount": 1,
+      "title": "Replacing my n8n workflow with a Claude Code Skill",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:27:54.940Z",
+      "processedAt": "2026-01-14T16:28:10.169Z"
+    },
+    "nDHXLnwlIaY": {
+      "videoId": "nDHXLnwlIaY",
+      "status": "success",
+      "createdAt": "2026-01-14T16:28:40.179Z",
+      "updatedAt": "2026-01-14T16:28:40.179Z",
+      "attemptCount": 1,
+      "title": "My 3-Step Claude Skill for Perfect UX Design",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:28:40.178Z",
+      "processedAt": "2026-01-14T16:28:53.552Z"
+    },
+    "guuGl34HI3Q": {
+      "videoId": "guuGl34HI3Q",
+      "status": "success",
+      "createdAt": "2026-01-14T16:29:23.558Z",
+      "updatedAt": "2026-01-14T16:29:23.558Z",
+      "attemptCount": 1,
+      "title": "WTF Anthropic",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:29:23.557Z",
+      "processedAt": "2026-01-14T16:30:11.277Z"
+    },
+    "pDUQkfFiM8w": {
+      "videoId": "pDUQkfFiM8w",
+      "status": "success",
+      "createdAt": "2026-01-14T16:30:19.373Z",
+      "updatedAt": "2026-01-14T16:30:19.373Z",
+      "attemptCount": 1,
+      "title": "Never Miss a Lead Again: Automated Google LSA Replies (2026)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:30:19.371Z",
+      "processedAt": "2026-01-14T16:30:34.962Z"
+    },
+    "YT3BxZNJlhs": {
+      "videoId": "YT3BxZNJlhs",
+      "status": "success",
+      "createdAt": "2026-01-14T16:31:04.973Z",
+      "updatedAt": "2026-01-14T16:31:04.973Z",
+      "attemptCount": 1,
+      "title": "I’m a Pathologist: The \"Biological Cost\" of Ozempic and Mounjaro.",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-14T16:31:04.970Z",
+      "processedAt": "2026-01-14T16:31:22.710Z"
+    },
+    "h7dbkDcb3hA": {
+      "videoId": "h7dbkDcb3hA",
+      "status": "failed",
+      "createdAt": "2026-01-14T16:31:25.008Z",
+      "updatedAt": "2026-01-14T16:31:25.008Z",
+      "attemptCount": 1,
+      "title": "Anthropic's 10-Day Sprint Just Made Copilot Look Slow--Why YOU Should Care About Claude Cowork",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-14T16:31:25.001Z",
+      "errorType": "transient",
+      "errorCode": "UNKNOWN_ERROR",
+      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent: fetch failed",
+      "skipPermanently": false
+    },
+    "HnBdvSC0Syo": {
+      "videoId": "HnBdvSC0Syo",
+      "status": "success",
+      "createdAt": "2026-01-14T16:39:31.294Z",
+      "updatedAt": "2026-01-14T16:39:31.294Z",
+      "attemptCount": 1,
+      "title": "You're Missing an Crucial Step in Prompting! #ai #artificialintelligence #heypresto #openai",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-14T16:39:31.293Z",
+      "processedAt": "2026-01-14T16:39:47.761Z"
+    },
+    "mJWi_koYY70": {
+      "videoId": "mJWi_koYY70",
+      "status": "success",
+      "createdAt": "2026-01-14T16:39:49.308Z",
+      "updatedAt": "2026-01-14T16:39:49.308Z",
+      "attemptCount": 1,
+      "title": "Why Claude Cowork is a Big Deal",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-14T16:39:49.308Z",
+      "processedAt": "2026-01-14T16:40:05.440Z"
+    },
+    "VSdV-AdSlis": {
+      "videoId": "VSdV-AdSlis",
+      "status": "success",
+      "createdAt": "2026-01-14T16:40:08.405Z",
+      "updatedAt": "2026-01-14T16:40:08.405Z",
+      "attemptCount": 1,
+      "title": "Identity for AI Agents - Patrick Riley & Carlos Galan, Auth0",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-14T16:40:08.405Z",
+      "processedAt": "2026-01-14T16:48:46.787Z"
     }
   }
 }
