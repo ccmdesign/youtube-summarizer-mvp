@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-15T06:04:48.865Z",
+  "lastUpdated": "2026-01-15T14:37:20.706Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -1207,6 +1207,149 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-15T06:03:56.422Z",
       "processedAt": "2026-01-15T06:04:48.864Z"
+    },
+    "SR91aSB9fC0": {
+      "videoId": "SR91aSB9fC0",
+      "status": "success",
+      "createdAt": "2026-01-15T14:26:38.954Z",
+      "updatedAt": "2026-01-15T14:26:38.954Z",
+      "attemptCount": 1,
+      "title": "The Future of Writing: Five 2026 Trends You NEED to Know",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:26:38.953Z",
+      "processedAt": "2026-01-15T14:27:26.991Z"
+    },
+    "7U6pKex9tbE": {
+      "videoId": "7U6pKex9tbE",
+      "status": "success",
+      "createdAt": "2026-01-15T14:27:56.999Z",
+      "updatedAt": "2026-01-15T14:27:56.999Z",
+      "attemptCount": 1,
+      "title": "DON'T build AI automations, build agentic workflows! (Google Antigravity)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:27:56.998Z",
+      "processedAt": "2026-01-15T14:28:17.911Z"
+    },
+    "Qs_p21vLp1A": {
+      "videoId": "Qs_p21vLp1A",
+      "status": "success",
+      "createdAt": "2026-01-15T14:28:47.916Z",
+      "updatedAt": "2026-01-15T14:28:47.916Z",
+      "attemptCount": 1,
+      "title": "How I'd Get Traffic to a New Website if I Had to Start Over (2026)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:28:47.915Z",
+      "processedAt": "2026-01-15T14:29:28.237Z"
+    },
+    "PU8JhgLPxes": {
+      "videoId": "PU8JhgLPxes",
+      "status": "success",
+      "createdAt": "2026-01-15T14:29:58.245Z",
+      "updatedAt": "2026-01-15T14:29:58.245Z",
+      "attemptCount": 1,
+      "title": "Connect Claude to NotebookLM in less than 5 MINUTES! Full Automation UNLOCKED!",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:29:58.244Z",
+      "processedAt": "2026-01-15T14:30:09.939Z"
+    },
+    "0hdFJA-ho3c": {
+      "videoId": "0hdFJA-ho3c",
+      "status": "success",
+      "createdAt": "2026-01-15T14:30:39.946Z",
+      "updatedAt": "2026-01-15T14:30:39.946Z",
+      "attemptCount": 1,
+      "title": "Claude Code is all you need in 2026",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:30:39.945Z",
+      "processedAt": "2026-01-15T14:31:03.578Z"
+    },
+    "CRRjFHytZ6Y": {
+      "videoId": "CRRjFHytZ6Y",
+      "status": "success",
+      "createdAt": "2026-01-15T14:31:33.587Z",
+      "updatedAt": "2026-01-15T14:31:33.587Z",
+      "attemptCount": 1,
+      "title": "Andrej Karpathy devastates AI optimists...",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:31:33.585Z",
+      "processedAt": "2026-01-15T14:31:52.610Z"
+    },
+    "_wHSZHHaXbc": {
+      "videoId": "_wHSZHHaXbc",
+      "status": "success",
+      "createdAt": "2026-01-15T14:32:22.617Z",
+      "updatedAt": "2026-01-15T14:32:22.617Z",
+      "attemptCount": 1,
+      "title": "EVERY Google AI Tool Explained (in 8 Minutes)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:32:22.616Z",
+      "processedAt": "2026-01-15T14:32:45.771Z"
+    },
+    "be-hvAgT2Ac": {
+      "videoId": "be-hvAgT2Ac",
+      "status": "success",
+      "createdAt": "2026-01-15T14:33:15.782Z",
+      "updatedAt": "2026-01-15T14:33:15.782Z",
+      "attemptCount": 1,
+      "title": "Apple Picks Gemini AI in Win for Google’s Tensor Chip",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:33:15.781Z",
+      "processedAt": "2026-01-15T14:33:33.055Z"
+    },
+    "vRNHNNliDVM": {
+      "videoId": "vRNHNNliDVM",
+      "status": "success",
+      "createdAt": "2026-01-15T14:34:03.064Z",
+      "updatedAt": "2026-01-15T14:34:03.064Z",
+      "attemptCount": 1,
+      "title": "The SECRET to Stunning AI Video Prompts!",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:34:03.063Z",
+      "processedAt": "2026-01-15T14:34:19.148Z"
+    },
+    "eAtvoGlpeRU": {
+      "videoId": "eAtvoGlpeRU",
+      "status": "success",
+      "createdAt": "2026-01-15T14:34:49.156Z",
+      "updatedAt": "2026-01-15T14:34:49.156Z",
+      "attemptCount": 1,
+      "title": "You're Probably Running Ralph Wiggum Wrong (Do This Instead)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:34:49.155Z",
+      "processedAt": "2026-01-15T14:35:29.080Z"
+    },
+    "qd7V36-UJrw": {
+      "videoId": "qd7V36-UJrw",
+      "status": "success",
+      "createdAt": "2026-01-15T14:35:33.284Z",
+      "updatedAt": "2026-01-15T14:35:33.284Z",
+      "attemptCount": 1,
+      "title": "HelloBooks AI — Automate Your Accounting in Minutes, Not Months",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T14:35:33.283Z",
+      "processedAt": "2026-01-15T14:35:53.319Z"
+    },
+    "5on4zWcjp1M": {
+      "videoId": "5on4zWcjp1M",
+      "status": "success",
+      "createdAt": "2026-01-15T14:35:57.993Z",
+      "updatedAt": "2026-01-15T14:35:57.993Z",
+      "attemptCount": 1,
+      "title": "NVIDIA's Rubin Changes AI Inference Forever (What You Need to Know)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-15T14:35:57.993Z",
+      "processedAt": "2026-01-15T14:36:24.399Z"
+    },
+    "bcVDf7Y91Us": {
+      "videoId": "bcVDf7Y91Us",
+      "status": "success",
+      "createdAt": "2026-01-15T14:36:54.498Z",
+      "updatedAt": "2026-01-15T14:36:54.498Z",
+      "attemptCount": 1,
+      "title": "AI's Water Bill is INSANE",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-15T14:36:54.497Z",
+      "processedAt": "2026-01-15T14:37:20.705Z"
     }
   }
 }
