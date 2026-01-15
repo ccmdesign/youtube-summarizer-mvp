@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-14T16:48:46.789Z",
+  "lastUpdated": "2026-01-15T06:04:48.865Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -1022,17 +1022,15 @@
     },
     "h7dbkDcb3hA": {
       "videoId": "h7dbkDcb3hA",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-14T16:31:25.008Z",
       "updatedAt": "2026-01-14T16:31:25.008Z",
-      "attemptCount": 1,
-      "title": "Anthropic's 10-Day Sprint Just Made Copilot Look Slow--Why YOU Should Care About Claude Cowork",
+      "attemptCount": 2,
+      "title": "Task Queues Are Replacing Chat Interfaces. Here's Why (plus a Claude Cowork Demo)",
       "source": "channel",
-      "lastAttemptAt": "2026-01-14T16:31:25.001Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent: fetch failed",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-15T06:02:00.536Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-15T06:02:59.715Z"
     },
     "HnBdvSC0Syo": {
       "videoId": "HnBdvSC0Syo",
@@ -1066,6 +1064,149 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-14T16:40:08.405Z",
       "processedAt": "2026-01-14T16:48:46.787Z"
+    },
+    "TVsounscj4U": {
+      "videoId": "TVsounscj4U",
+      "status": "success",
+      "createdAt": "2026-01-15T05:52:59.174Z",
+      "updatedAt": "2026-01-15T05:52:59.174Z",
+      "attemptCount": 1,
+      "title": "The New Siri is... Google (Explained)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:52:59.173Z",
+      "processedAt": "2026-01-15T05:53:13.157Z"
+    },
+    "H-uwnpmziGA": {
+      "videoId": "H-uwnpmziGA",
+      "status": "success",
+      "createdAt": "2026-01-15T05:53:43.162Z",
+      "updatedAt": "2026-01-15T05:53:43.162Z",
+      "attemptCount": 1,
+      "title": "How To Give Claude UNLIMITED Memory! Without Writing Code",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:53:43.162Z",
+      "processedAt": "2026-01-15T05:53:57.375Z"
+    },
+    "VP-Lp9ZsjPY": {
+      "videoId": "VP-Lp9ZsjPY",
+      "status": "success",
+      "createdAt": "2026-01-15T05:54:27.383Z",
+      "updatedAt": "2026-01-15T05:54:27.383Z",
+      "attemptCount": 1,
+      "title": "Libraries & tech stack I'm excited about (for 2026)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:54:27.382Z",
+      "processedAt": "2026-01-15T05:54:38.373Z"
+    },
+    "8Q8L5x2oBBg": {
+      "videoId": "8Q8L5x2oBBg",
+      "status": "success",
+      "createdAt": "2026-01-15T05:55:08.380Z",
+      "updatedAt": "2026-01-15T05:55:08.380Z",
+      "attemptCount": 1,
+      "title": "Claude Code just EVOLVED",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:55:08.380Z",
+      "processedAt": "2026-01-15T05:55:27.498Z"
+    },
+    "xcHyfiMItCM": {
+      "videoId": "xcHyfiMItCM",
+      "status": "success",
+      "createdAt": "2026-01-15T05:55:57.505Z",
+      "updatedAt": "2026-01-15T05:55:57.505Z",
+      "attemptCount": 1,
+      "title": "8 Insane Claude Cowork Use Cases! (endless possibilities)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:55:57.505Z",
+      "processedAt": "2026-01-15T05:56:11.930Z"
+    },
+    "lQ0mtbFxzn8": {
+      "videoId": "lQ0mtbFxzn8",
+      "status": "success",
+      "createdAt": "2026-01-15T05:56:41.939Z",
+      "updatedAt": "2026-01-15T05:56:41.939Z",
+      "attemptCount": 1,
+      "title": "Anthropic just dropped Claude Cowork... (SO GOOD)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:56:41.939Z",
+      "processedAt": "2026-01-15T05:56:52.042Z"
+    },
+    "yAE3ONleUas": {
+      "videoId": "yAE3ONleUas",
+      "status": "success",
+      "createdAt": "2026-01-15T05:57:22.049Z",
+      "updatedAt": "2026-01-15T05:57:22.049Z",
+      "attemptCount": 1,
+      "title": "Stop Using The Ralph Loop Plugin",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:57:22.048Z",
+      "processedAt": "2026-01-15T05:57:47.629Z"
+    },
+    "B6C-MWCFfAg": {
+      "videoId": "B6C-MWCFfAg",
+      "status": "success",
+      "createdAt": "2026-01-15T05:58:17.635Z",
+      "updatedAt": "2026-01-15T05:58:17.635Z",
+      "attemptCount": 1,
+      "title": "It’s time to change your database",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:58:17.635Z",
+      "processedAt": "2026-01-15T05:59:01.383Z"
+    },
+    "Tlncshs047Y": {
+      "videoId": "Tlncshs047Y",
+      "status": "success",
+      "createdAt": "2026-01-15T05:59:31.390Z",
+      "updatedAt": "2026-01-15T05:59:31.390Z",
+      "attemptCount": 1,
+      "title": "(Re)introducing MAX with Chris Lattner",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T05:59:31.388Z",
+      "processedAt": "2026-01-15T05:59:54.099Z"
+    },
+    "SpqqWaDZ3ys": {
+      "videoId": "SpqqWaDZ3ys",
+      "status": "success",
+      "createdAt": "2026-01-15T06:00:24.109Z",
+      "updatedAt": "2026-01-15T06:00:24.109Z",
+      "attemptCount": 1,
+      "title": "Anthropic's Cowork: Claude Code for the Rest of Your Work",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T06:00:24.107Z",
+      "processedAt": "2026-01-15T06:00:53.247Z"
+    },
+    "itP_47lbb0s": {
+      "videoId": "itP_47lbb0s",
+      "status": "success",
+      "createdAt": "2026-01-15T06:00:57.462Z",
+      "updatedAt": "2026-01-15T06:00:57.462Z",
+      "attemptCount": 1,
+      "title": "The State Of THE DIVISION 3 In 2026",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-15T06:00:57.462Z",
+      "processedAt": "2026-01-15T06:01:57.502Z"
+    },
+    "Smh50q7UTcY": {
+      "videoId": "Smh50q7UTcY",
+      "status": "success",
+      "createdAt": "2026-01-15T06:03:01.125Z",
+      "updatedAt": "2026-01-15T06:03:01.125Z",
+      "attemptCount": 1,
+      "title": "ChatGPT 5.5 Rumors Start to Bubble",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-15T06:03:01.124Z",
+      "processedAt": "2026-01-15T06:03:54.981Z"
+    },
+    "s1D5rzfM1cw": {
+      "videoId": "s1D5rzfM1cw",
+      "status": "success",
+      "createdAt": "2026-01-15T06:03:56.422Z",
+      "updatedAt": "2026-01-15T06:03:56.422Z",
+      "attemptCount": 1,
+      "title": "99% of Developers Are STILL Coding Wrong in 2026",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-15T06:03:56.422Z",
+      "processedAt": "2026-01-15T06:04:48.864Z"
     }
   }
 }
