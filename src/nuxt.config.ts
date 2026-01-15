@@ -33,8 +33,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     '@nuxt/content',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
+    'nuxt-gtag'
   ],
+  gtag: {
+    id: 'G-2CHWGY0HJ8'
+  },
   runtimeConfig: {
     // Private keys (server-only) - set via NUXT_CRON_SECRET env var
     cronSecret: process.env.CRON_SECRET || '',
