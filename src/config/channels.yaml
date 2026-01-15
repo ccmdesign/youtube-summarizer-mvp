@@ -34,9 +34,53 @@ channels:
     name: "AI Engineer"
     enabled: true
 
+  - id: "UC_x36zCEGilGpB1m-V4gmjg"
+    name: "IndyDevDan"
+    enabled: true
 
+  - id: "UCSxPE9PHHxQUEt6ajGmQyMA"
+    name: "Brian Casel"
+    enabled: true
 
+  - id: "UCR9j1jqqB5Rse69wjUnbYwA"
+    name: "All About AI"
+    enabled: true
 
+  - id: "UCelfWQr9sXVMTvBzviPGlFw"
+    name: "AI LABS"
+    enabled: true
+
+  - id: "UCNHIUc6KE64sUe5G0eP70aQ"
+    name: "Den Delimarsky"
+    enabled: true
+
+  - id: "UCkCnraWwlnBw1_i7C9-3p0w"
+    name: "Dive Club"
+    enabled: true
+
+  - id: "UCPjNBjflYl0-HQtUvOx0Ibw"
+    name: "Greg Isenberg"
+    enabled: true
+
+  - id: "UCaIm6rTg-RXb6rB19fYJgTg"
+    name: "JeredBlu"
+    enabled: true
+
+  - id: "UCO9epahzfdOtOQP3WLN4ELQ"
+    name: "Reinike AI"
+    enabled: true
+
+  - id: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+    name: "Smashing Magazine"
+    enabled: true
+
+  - id: "UCGtXqPiNV8YC0GMUzY-EUFg"
+    name: "Marketing Against the Grain"
+    enabled: true
+
+  - id: "UCl-Zrl0QhF66lu1aGXaTbfw"
+    name: "Neil Patel"
+    enabled: true
 
   # Example channels (uncomment and replace with your own):
   #
