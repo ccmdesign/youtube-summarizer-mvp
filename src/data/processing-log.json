@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-16T15:35:11.474Z",
+  "lastUpdated": "2026-01-17T17:08:14.895Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -1816,17 +1816,15 @@
     },
     "4jcPaaSqjXQ": {
       "videoId": "4jcPaaSqjXQ",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-15T18:02:56.689Z",
       "updatedAt": "2026-01-15T18:02:56.689Z",
-      "attemptCount": 2,
+      "attemptCount": 3,
       "title": "Accessibility That Scales with MARCEL BERTRAM —  Smashing Meets Easy Accessibility, Dec 11, 2025",
       "source": "channel",
-      "lastAttemptAt": "2026-01-16T15:33:35.253Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-17T17:07:22.323Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-17T17:07:44.555Z"
     },
     "BtRL52_00wk": {
       "videoId": "BtRL52_00wk",
@@ -2092,6 +2090,171 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-16T15:29:16.460Z",
       "processedAt": "2026-01-16T15:30:04.840Z"
+    },
+    "Yr9O6KFwbW4": {
+      "videoId": "Yr9O6KFwbW4",
+      "status": "success",
+      "createdAt": "2026-01-17T16:59:21.482Z",
+      "updatedAt": "2026-01-17T16:59:21.482Z",
+      "attemptCount": 1,
+      "title": "We need to talk about Ralph",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-17T16:59:21.481Z",
+      "processedAt": "2026-01-17T16:59:37.274Z"
+    },
+    "fY3-YeveBgA": {
+      "videoId": "fY3-YeveBgA",
+      "status": "success",
+      "createdAt": "2026-01-17T17:00:07.288Z",
+      "updatedAt": "2026-01-17T17:00:07.288Z",
+      "attemptCount": 1,
+      "title": "Qwen3 Multimodal Embeddings: Finally, RAG That Sees",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-17T17:00:07.287Z",
+      "processedAt": "2026-01-17T17:00:22.736Z"
+    },
+    "Xs2CkHEpIrM": {
+      "videoId": "Xs2CkHEpIrM",
+      "status": "success",
+      "createdAt": "2026-01-17T17:00:52.745Z",
+      "updatedAt": "2026-01-17T17:00:52.745Z",
+      "attemptCount": 1,
+      "title": "Why I Stopped Using MCPs in Claude Code (And What I Use Instead)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-17T17:00:52.744Z",
+      "processedAt": "2026-01-17T17:01:08.214Z"
+    },
+    "m1Tc5Xzw1tM": {
+      "videoId": "m1Tc5Xzw1tM",
+      "status": "success",
+      "createdAt": "2026-01-17T17:01:38.226Z",
+      "updatedAt": "2026-01-17T17:01:38.226Z",
+      "attemptCount": 1,
+      "title": "Before You Build Another Agent, Understand This MIT Paper",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-17T17:01:38.222Z",
+      "processedAt": "2026-01-17T17:01:58.455Z"
+    },
+    "4hUI2GF90nQ": {
+      "videoId": "4hUI2GF90nQ",
+      "status": "success",
+      "createdAt": "2026-01-17T17:02:28.465Z",
+      "updatedAt": "2026-01-17T17:02:28.465Z",
+      "attemptCount": 1,
+      "title": "Why opencode is totally underappreciated",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-17T17:02:28.463Z",
+      "processedAt": "2026-01-17T17:02:45.769Z"
+    },
+    "RgQtTvneqPY": {
+      "videoId": "RgQtTvneqPY",
+      "status": "success",
+      "createdAt": "2026-01-17T17:02:52.187Z",
+      "updatedAt": "2026-01-17T17:02:52.187Z",
+      "attemptCount": 1,
+      "title": "LeCun Said LLMs Are a Dead End—Then Revealed Meta Fudged Their Benchmarks. Both Matter - Here's Why.",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:02:52.185Z",
+      "processedAt": "2026-01-17T17:03:13.499Z"
+    },
+    "txGHMzgH1SY": {
+      "videoId": "txGHMzgH1SY",
+      "status": "success",
+      "createdAt": "2026-01-17T17:03:43.605Z",
+      "updatedAt": "2026-01-17T17:03:43.605Z",
+      "attemptCount": 1,
+      "title": "Reading Pseudocode Will Future-Proof Your Career #ai #artificialintelligence #appdesign #pseudocode",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:03:43.603Z",
+      "processedAt": "2026-01-17T17:03:57.274Z"
+    },
+    "U_9GWSjooF0": {
+      "videoId": "U_9GWSjooF0",
+      "status": "success",
+      "createdAt": "2026-01-17T17:04:27.498Z",
+      "updatedAt": "2026-01-17T17:04:27.498Z",
+      "attemptCount": 1,
+      "title": "AI Designed an Alien UI From 8 Tokens?! #ai #artificialintelligence #json #uidesign #uxdesign",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:04:27.495Z",
+      "processedAt": "2026-01-17T17:04:47.474Z"
+    },
+    "9UWShopAFaE": {
+      "videoId": "9UWShopAFaE",
+      "status": "success",
+      "createdAt": "2026-01-17T17:04:48.665Z",
+      "updatedAt": "2026-01-17T17:04:48.665Z",
+      "attemptCount": 1,
+      "title": "Why CEOs Need to Lead AI Strategy",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:04:48.664Z",
+      "processedAt": "2026-01-17T17:05:02.692Z"
+    },
+    "745RLzVSrWo": {
+      "videoId": "745RLzVSrWo",
+      "status": "success",
+      "createdAt": "2026-01-17T17:05:03.886Z",
+      "updatedAt": "2026-01-17T17:05:03.886Z",
+      "attemptCount": 1,
+      "title": "This Tiny Regex Error Hijacked the AWS Console #cybersecurity #aws #hackernews",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:05:03.885Z",
+      "processedAt": "2026-01-17T17:05:24.573Z"
+    },
+    "dMpaPgLYj_U": {
+      "videoId": "dMpaPgLYj_U",
+      "status": "success",
+      "createdAt": "2026-01-17T17:05:29.691Z",
+      "updatedAt": "2026-01-17T17:05:29.691Z",
+      "attemptCount": 1,
+      "title": "Claude Code Let's Build: AI Video Editor",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:05:29.689Z",
+      "processedAt": "2026-01-17T17:05:43.463Z"
+    },
+    "pdQTLbPAkgc": {
+      "videoId": "pdQTLbPAkgc",
+      "status": "success",
+      "createdAt": "2026-01-17T17:06:13.537Z",
+      "updatedAt": "2026-01-17T17:06:13.537Z",
+      "attemptCount": 1,
+      "title": "Solo Building an AI Native Business: Viral Success and More Building (Week 2)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:06:13.535Z",
+      "processedAt": "2026-01-17T17:06:27.887Z"
+    },
+    "e4giCKHIJy8": {
+      "videoId": "e4giCKHIJy8",
+      "status": "success",
+      "createdAt": "2026-01-17T17:06:29.340Z",
+      "updatedAt": "2026-01-17T17:06:29.340Z",
+      "attemptCount": 1,
+      "title": "Google Antigravity is Looking Pretty Good Now",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:06:29.339Z",
+      "processedAt": "2026-01-17T17:06:42.820Z"
+    },
+    "5uCDHmr0xdE": {
+      "videoId": "5uCDHmr0xdE",
+      "status": "success",
+      "createdAt": "2026-01-17T17:06:46.413Z",
+      "updatedAt": "2026-01-17T17:06:46.413Z",
+      "attemptCount": 1,
+      "title": "I Spent $289 So AI Could Build My Business",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:06:46.411Z",
+      "processedAt": "2026-01-17T17:07:17.903Z"
+    },
+    "QzxNTewqass": {
+      "videoId": "QzxNTewqass",
+      "status": "success",
+      "createdAt": "2026-01-17T17:07:45.770Z",
+      "updatedAt": "2026-01-17T17:07:45.770Z",
+      "attemptCount": 1,
+      "title": "Why we miscommunicate",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-17T17:07:45.769Z",
+      "processedAt": "2026-01-17T17:08:14.892Z"
     }
   }
 }
