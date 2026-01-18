@@ -1,45 +1,51 @@
 ---
-title: "The New Siri is... Google (Explained)"
-videoId: "TVsounscj4U"
-channel: "Marques Brownlee"
-channelId: "UCBJycsmduvYEL83R_U4JriQ"
-duration: "PT8M23S"
-publishedAt: "2026-01-13T00:26:17Z"
+metadata:
+  videoId: "TVsounscj4U"
+  title: "The New Siri is... Google (Explained)"
+  description: "Siri by Google. Makes you think.
+
+
+    Apple AI video: https://youtu.be/hz6oys4Eem4?si=v362Nuiwg8y_pPPL
+
+
+    MKBHD Merch: http://shop.MKBHD.com
+
+
+    Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+
+
+    ~
+
+    http://twitter.com/MKBHD
+
+    http://instagram.com/MKBHD
+
+    http://facebook.com/MKBHD"
+  channel: "Marques Brownlee"
+  channelId: "UCBJycsmduvYEL83R_U4JriQ"
+  duration: "PT8M23S"
+  publishedAt: "2026-01-13T00:26:17Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/TVsounscj4U/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=TVsounscj4U"
 processedAt: "2026-01-15T05:53:13.155Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/TVsounscj4U/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=TVsounscj4U"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Siri by Google. Makes you think.
-  
-  Apple AI video: https://youtu.be/hz6oys4Eem4?si=v362Nuiwg8y_pPPL
-  
-  MKBHD Merch: http://shop.MKBHD.com
-  
-  Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
-  
-  ~
-  http://twitter.com/MKBHD
-  http://instagram.com/MKBHD
-  http://facebook.com/MKBHD
-tldr: |
-  Apple has officially confirmed that a revamped Siri, powered by **Google’s foundation models**, will launch in 2026 to address its ongoing AI crisis.
+tldr: "Apple has officially confirmed that a revamped Siri, powered by **Google’s foundation models**, will launch in 2026 to address its ongoing AI crisis.
+
   - **Strategic Partnership**: Apple is prioritizing user experience over proprietary models to stop users from switching to Android
-  - **Feature Parity**: The move may finally bring Android-exclusive tools like **Circle to Search** to the iPhone ecosys
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2417
-outputTokens: 878
-totalTokens: 4628
-processingTimeMs: 13581
+
+  - **Feature Parity**: The move may finally bring Android-exclusive tools like **Circle to Search** to the iPhone ecosys\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2417
+  outputTokens: 878
+  totalTokens: 4628
+  processingTimeMs: 13581
 ---
 
 ## Key Takeaways

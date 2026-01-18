@@ -1,41 +1,45 @@
 ---
-title: "Why opencode is totally underappreciated"
-videoId: "4hUI2GF90nQ"
-channel: "marimo"
-channelId: "UCKSXs4jiLetyWsW5Lba3ZjQ"
-duration: "PT10M58S"
-publishedAt: "2026-01-16T15:34:35Z"
+metadata:
+  videoId: "4hUI2GF90nQ"
+  title: "Why opencode is totally underappreciated"
+  description: "Opencode matters more than you might think. Not only does it look stellar, but it also gives us an alternative to go to if any of the big LLM providers start charging too much for their tokens.\ 
+
+
+    So in this video we'll do a small deep dive on how to set it up with ollama and with marimo.\ 
+
+
+    00:00 What is opencode
+
+    00:58 Opencode demo
+
+    02:25 Ollama in opencode
+
+    06:25 Opencode in marimo"
+  channel: "marimo"
+  channelId: "UCKSXs4jiLetyWsW5Lba3ZjQ"
+  duration: "PT10M58S"
+  publishedAt: "2026-01-16T15:34:35Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/4hUI2GF90nQ/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=4hUI2GF90nQ"
 processedAt: "2026-01-17T17:02:45.767Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/4hUI2GF90nQ/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=4hUI2GF90nQ"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Opencode matters more than you might think. Not only does it look stellar, but it also gives us an alternative to go to if any of the big LLM providers start charging too much for their tokens. 
-  
-  So in this video we'll do a small deep dive on how to set it up with ollama and with marimo. 
-  
-  00:00 What is opencode
-  00:58 Opencode demo
-  02:25 Ollama in opencode
-  06:25 Opencode in marimo
-tldr: |
-  Open code is a terminal-based AI coding agent offering an open-source alternative to proprietary tools. It provides an **insurance policy** against vendor lock-in by supporting local and open models.
+tldr: "Open code is a terminal-based AI coding agent offering an open-source alternative to proprietary tools. It provides an **insurance policy** against vendor lock-in by supporting local and open models.
+
   - **Local LLM support**: Connects to **Ollama** for privacy and cost savings.
-  - **Tool Integration**: Uses protocol-based connections to act as an agent within editors like **Mimo**.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3594
-outputTokens: 778
-totalTokens: 6000
-processingTimeMs: 17003
+
+  - **Tool Integration**: Uses protocol-based connections to act as an agent within editors like **Mimo**.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3594
+  outputTokens: 778
+  totalTokens: 6000
+  processingTimeMs: 17003
 ---
 
 ## Key Takeaways

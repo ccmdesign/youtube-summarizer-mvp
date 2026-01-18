@@ -1,70 +1,97 @@
 ---
-title: "The trick to AI prototyping with your design system"
-videoId: "CqMZTg7L-wE"
-channel: "Dive Club 🤿"
-channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
-duration: "PT52M57S"
-publishedAt: "2026-01-02T13:22:26Z"
+metadata:
+  videoId: "CqMZTg7L-wE"
+  title: "The trick to AI prototyping with your design system"
+  description: "We talk a lot about using AI at startups…
+
+
+    But what are more established companies doing to scale AI prototyping?
+
+
+    What are the best ways to use AI to prototype with your design system?
+
+
+    That's what today's episode is all about because we're talking with Lewis Healey (https://www.linkedin.com/in/lewis-healey-b2457826/) and Kylor Hall (https://www.linkedin.com/in/kylorhall/) about how they scaled AI prototyping at Atlassian.
+
+
+    Some highlights 👇
+
+
+    - Their vision for a truly AI-native design system
+
+    - What's worked to scale AI prototyping adoption
+
+    - Tips for reducing hallucinations when prototyping
+
+    - ways to help AI make sense of your design system
+
+    - Their novel approach to prototyping with “templates”
+
+    - How the role of design system designers is changing with AI
+
+    - + a *lot* more
+
+
+    - Atlassian Design System (https://atlassian.design/)
+
+    - Figma Make (https://www.figma.com/make/?gad_campaignid=23356954992&gbraid=0AAAABCTX0ItGAe7RZBBeUOUindISLe0Un) (AI prototyping tool)
+
+    - AI Builders Week (Atlassian internal program) (https://www.atlassian.com/blog/inside-atlassian/ai-product-builders-week)
+
+
+    Chapters
+
+    0:00 Intro
+
+    1:20 Atlassian's goals with AI prototyping
+
+    6:51 Why templates are Atlassian's secret sauce
+
+    11:09 Adding \"recipes\" to templates\ 
+
+    13:17 Their process to integrating the design system
+
+    16:28 Writing effective instructions for AI
+
+    22:42 Closing hallucination gaps
+
+    27:19 How to drive adoption at your org\ 
+
+    32:47 Strategies for maintaining the system
+
+    41:48 How the role of design system designer is changing
+
+    45:57 Where prototyping with AI is headed next
+
+
+    Dive is where the best designers never stop learning 🤿
+
+
+    🌐 dive.club
+
+    🐦 twitter.com/joindiveclub
+
+
+    Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
+  channel: "Dive Club 🤿"
+  channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
+  duration: "PT52M57S"
+  publishedAt: "2026-01-02T13:22:26Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/CqMZTg7L-wE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=CqMZTg7L-wE"
 processedAt: "2026-01-16T15:27:28.778Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/CqMZTg7L-wE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=CqMZTg7L-wE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  We talk a lot about using AI at startups…
-  
-  But what are more established companies doing to scale AI prototyping?
-  
-  What are the best ways to use AI to prototype with your design system?
-  
-  That's what today's episode is all about because we're talking with Lewis Healey (https://www.linkedin.com/in/lewis-healey-b2457826/) and Kylor Hall (https://www.linkedin.com/in/kylorhall/) about how they scaled AI prototyping at Atlassian.
-  
-  Some highlights 👇
-  
-  - Their vision for a truly AI-native design system
-  - What's worked to scale AI prototyping adoption
-  - Tips for reducing hallucinations when prototyping
-  - ways to help AI make sense of your design system
-  - Their novel approach to prototyping with “templates”
-  - How the role of design system designers is changing with AI
-  - + a *lot* more
-  
-  - Atlassian Design System (https://atlassian.design/)
-  - Figma Make (https://www.figma.com/make/?gad_campaignid=23356954992&gbraid=0AAAABCTX0ItGAe7RZBBeUOUindISLe0Un) (AI prototyping tool)
-  - AI Builders Week (Atlassian internal program) (https://www.atlassian.com/blog/inside-atlassian/ai-product-builders-week)
-  
-  Chapters
-  0:00 Intro
-  1:20 Atlassian's goals with AI prototyping
-  6:51 Why templates are Atlassian's secret sauce
-  11:09 Adding "recipes" to templates 
-  13:17 Their process to integrating the design system
-  16:28 Writing effective instructions for AI
-  22:42 Closing hallucination gaps
-  27:19 How to drive adoption at your org 
-  32:47 Strategies for maintaining the system
-  41:48 How the role of design system designer is changing
-  45:57 Where prototyping with AI is headed next
-  
-  Dive is where the best designers never stop learning 🤿
-  
-  🌐 dive.club
-  🐦 twitter.com/joindiveclub
-  
-  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
-tldr: |
-  Atlassian's Louis Healey and Kyler Hall reveal how they scaled AI prototyping by integrating their design system directly into LLM workflows. They argue that successful AI prototyping requires moving beyond human-centric docs toward **hybrid templates** and **machine-optimized instructions**. Their strategy centers on providing pre-coded shells to prevent UI hallucinations and mapping standard CSS
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 12914
-outputTokens: 1327
-totalTokens: 15032
-processingTimeMs: 22389
+tldr: "Atlassian's Louis Healey and Kyler Hall reveal how they scaled AI prototyping by integrating their design system directly into LLM workflows. They argue that successful AI prototyping requires moving beyond human-centric docs toward **hybrid templates** and **machine-optimized instructions**. Their strategy centers on providing pre-coded shells to prevent UI hallucinations and mapping standard CSS\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 12914
+  outputTokens: 1327
+  totalTokens: 15032
+  processingTimeMs: 22389
 ---
 
 ## Key Takeaways

@@ -1,53 +1,70 @@
 ---
-title: "Goodbye, Stack Overflow... (this one hurts)"
-videoId: "dsfqyVYkrbM"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT8M18S"
-publishedAt: "2026-01-10T17:01:05Z"
+metadata:
+  videoId: "dsfqyVYkrbM"
+  title: "Goodbye, Stack Overflow... (this one hurts)"
+  description: "Stack Overflow went from essential to irrelevant. AI played a role, but the real story started years earlier. Let’s break down the graph, the moderation, and why the future of the web feels… worse.
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    0:00 Intro
+
+    0:30 Rapid Growth
+
+    1:10 Moderation Problems
+
+    4:09 Covid Peak + Faster Decline
+
+    5:26 Stack Overflow Sold
+
+    5:45 AI's Impact
+
+    6:20 The Problem"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT8M18S"
+  publishedAt: "2026-01-10T17:01:05Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/dsfqyVYkrbM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=dsfqyVYkrbM"
 processedAt: "2026-01-11T17:16:36.675Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/dsfqyVYkrbM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=dsfqyVYkrbM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Stack Overflow went from essential to irrelevant. AI played a role, but the real story started years earlier. Let’s break down the graph, the moderation, and why the future of the web feels… worse.
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  0:00 Intro
-  0:30 Rapid Growth
-  1:10 Moderation Problems
-  4:09 Covid Peak + Faster Decline
-  5:26 Stack Overflow Sold
-  5:45 AI's Impact
-  6:20 The Problem
-tldr: |
-  Stack Overflow’s decline to 2008 activity levels highlights a crisis in the open web:
+tldr: "Stack Overflow’s decline to 2008 activity levels highlights a crisis in the open web:
+
   - Aggressive moderation since 2014 alienated beginners
+
   - Knowledge is becoming siloed in non-searchable Discord/Slack communities
-  - AI tools like ChatGPT are replacing the platform by using the very data Stack Overflow users spent 17 years curating.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2635
-outputTokens: 908
-totalTokens: 4768
-processingTimeMs: 15140
+
+  - AI tools like ChatGPT are replacing the platform by using the very data Stack Overflow users spent 17 years curating.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2635
+  outputTokens: 908
+  totalTokens: 4768
+  processingTimeMs: 15140
 ---
 
 ## Key Takeaways

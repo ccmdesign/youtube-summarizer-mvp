@@ -1,52 +1,63 @@
 ---
-title: "Run Multiple Claude Code Agents Without Git Conflicts (Vibe Kanban)"
-videoId: "W45XJWZiwPM"
-channel: "Zen van Riel"
-channelId: "UC7TUInmEJ4NmYb-krFz-SuA"
-duration: "PT9M27S"
-publishedAt: "2026-01-07T18:15:02Z"
+metadata:
+  videoId: "W45XJWZiwPM"
+  title: "Run Multiple Claude Code Agents Without Git Conflicts (Vibe Kanban)"
+  description: "🎁 FREE newsletter to stay ahead in AI coding: https://zenvanriel.nl/newsletter
+
+    Vibe Kanban (open source): https://github.com/BloopAI/vibe-kanban
+
+
+    ⚡ Master AI and become a high-paid AI Engineer: https://aiengineer.community/join
+
+
+    Parallel AI coding agents running in isolated git worktrees. Vibe Kanban is an open-source tool for orchestrating multiple AI Agents and fixing issues in parallel faster.
+
+    Each agent works on its own feature branch. Spec-driven development with human-in-the-loop code review. Full Kanban board for AI task management.
+
+
+    This video covers the complete parallel coding workflow: creating tasks, running 3+ agentic coding sessions simultaneously, inline code review and commenting, AI-powered merge conflict resolution, and safely merging branches into main.
+
+
+    Works with Claude Code, Cursor, Codex, Copilot and other AI coding agents.
+
+
+    Timestamps:
+
+    0:00 Why parallel AI agents often fail
+
+    0:58 Vibe Kanban Overview
+
+    3:41 Git worktrees for isolated branches
+
+    5:19 Code review and commenting
+
+    7:15 AI-powered merge conflict resolution
+
+    8:23 Testing and merging to main
+
+
+    Sponsorships & Business Inquiries: business@aiengineer.community"
+  channel: "Zen van Riel"
+  channelId: "UC7TUInmEJ4NmYb-krFz-SuA"
+  duration: "PT9M27S"
+  publishedAt: "2026-01-07T18:15:02Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/W45XJWZiwPM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=W45XJWZiwPM"
 processedAt: "2026-01-13T15:57:50.765Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/W45XJWZiwPM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=W45XJWZiwPM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  🎁 FREE newsletter to stay ahead in AI coding: https://zenvanriel.nl/newsletter
-  Vibe Kanban (open source): https://github.com/BloopAI/vibe-kanban
-  
-  ⚡ Master AI and become a high-paid AI Engineer: https://aiengineer.community/join
-  
-  Parallel AI coding agents running in isolated git worktrees. Vibe Kanban is an open-source tool for orchestrating multiple AI Agents and fixing issues in parallel faster.
-  Each agent works on its own feature branch. Spec-driven development with human-in-the-loop code review. Full Kanban board for AI task management.
-  
-  This video covers the complete parallel coding workflow: creating tasks, running 3+ agentic coding sessions simultaneously, inline code review and commenting, AI-powered merge conflict resolution, and safely merging branches into main.
-  
-  Works with Claude Code, Cursor, Codex, Copilot and other AI coding agents.
-  
-  Timestamps:
-  0:00 Why parallel AI agents often fail
-  0:58 Vibe Kanban Overview
-  3:41 Git worktrees for isolated branches
-  5:19 Code review and commenting
-  7:15 AI-powered merge conflict resolution
-  8:23 Testing and merging to main
-  
-  Sponsorships & Business Inquiries: business@aiengineer.community
-tldr: |
-  Manage multiple Claude Code agents effectively using **Vibe Kanban**, an open-source orchestration tool. It prevents merge conflicts by isolating tasks into **feature branches**, enables **human-in-the-loop reviews** through a visual interface, and supports **AI-assisted rebasing** to maintain code quality while scaling development.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3026
-outputTokens: 797
-totalTokens: 4714
-processingTimeMs: 12324
+tldr: "Manage multiple Claude Code agents effectively using **Vibe Kanban**, an open-source orchestration tool. It prevents merge conflicts by isolating tasks into **feature branches**, enables **human-in-the-loop reviews** through a visual interface, and supports **AI-assisted rebasing** to maintain code quality while scaling development.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3026
+  outputTokens: 797
+  totalTokens: 4714
+  processingTimeMs: 12324
 ---
 
 ## Key Takeaways

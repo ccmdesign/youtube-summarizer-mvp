@@ -131,79 +131,64 @@ export class ContentWriterService {
 
   /**
    * Generate markdown content with frontmatter
+   * Uses nested structure: metadata (from YouTube), ai (processing metrics)
    */
   private generateMarkdown(input: MarkdownInput): string {
-    const { videoId, metadata, summary, lengthCategory, playlist } = input;
+    const { videoId, metadata, summary, playlist } = input;
     const { metrics } = summary;
 
-    // Build taxonomy section (only include if defined)
-    const taxonomyLines: string[] = [];
-    if (lengthCategory) {
-      taxonomyLines.push(`lengthCategory: "${lengthCategory}"`);
-    }
+    // Build the frontmatter object for clean YAML generation
+    const frontmatter: Record<string, unknown> = {
+      // Video metadata from YouTube API (nested under 'metadata')
+      metadata: {
+        videoId: metadata.videoId,
+        title: metadata.title,
+        ...(metadata.description && { description: metadata.description }),
+        channel: metadata.channel,
+        channelId: metadata.channelId,
+        duration: metadata.duration,
+        publishedAt: metadata.publishedAt,
+        thumbnailUrl: metadata.thumbnailUrl,
+        youtubeUrl: `https://www.youtube.com/watch?v=${videoId}`
+      },
+      // Processing info
+      processedAt: new Date().toISOString(),
+      source: 'youtube',
+      // Playlist/category info (only include if defined)
+      ...(playlist?.playlistId && { playlistId: playlist.playlistId }),
+      ...(playlist?.playlistName && { playlistName: playlist.playlistName }),
+      ...(playlist?.category && { category: playlist.category }),
+      // AI-generated TLDR
+      tldr: summary.tldr,
+      // AI processing metrics (nested under 'ai')
+      ai: {
+        provider: metrics.provider,
+        model: summary.modelUsed,
+        apiCalls: metrics.apiCalls,
+        fallbackAttempts: metrics.fallbackAttempts,
+        ...(metrics.inputTokens !== undefined && { inputTokens: metrics.inputTokens }),
+        ...(metrics.outputTokens !== undefined && { outputTokens: metrics.outputTokens }),
+        ...(metrics.totalTokens !== undefined && { totalTokens: metrics.totalTokens }),
+        processingTimeMs: metrics.processingTimeMs
+      }
+    };
 
-    // Build metrics section (only include defined values)
-    const metricsLines: string[] = [];
-    metricsLines.push(`aiProvider: "${metrics.provider}"`);
-    metricsLines.push(`apiCalls: ${metrics.apiCalls}`);
-    metricsLines.push(`fallbackAttempts: ${metrics.fallbackAttempts}`);
-    if (metrics.inputTokens !== undefined) {
-      metricsLines.push(`inputTokens: ${metrics.inputTokens}`);
+    // Use default playlistId from env if not provided
+    if (!frontmatter.playlistId && process.env.YOUTUBE_PLAYLIST_ID) {
+      frontmatter.playlistId = process.env.YOUTUBE_PLAYLIST_ID;
     }
-    if (metrics.outputTokens !== undefined) {
-      metricsLines.push(`outputTokens: ${metrics.outputTokens}`);
-    }
-    if (metrics.totalTokens !== undefined) {
-      metricsLines.push(`totalTokens: ${metrics.totalTokens}`);
-    }
-    metricsLines.push(`processingTimeMs: ${metrics.processingTimeMs}`);
 
     // Assemble markdown body from structured sections
-    // We control the headers, AI provides the content
     const body = this.assembleMarkdownBody(summary);
 
-    // Build taxonomy section string
-    const taxonomySection = taxonomyLines.length > 0
-      ? `# Video Taxonomy\n${taxonomyLines.join('\n')}\n`
-      : '';
+    // Generate YAML with proper formatting
+    const yamlContent = YAML.stringify(frontmatter, {
+      lineWidth: 0, // Don't wrap lines
+      defaultStringType: 'QUOTE_DOUBLE',
+      defaultKeyType: 'PLAIN'
+    });
 
-    // Build playlist metadata lines (only include if defined)
-    const playlistLines: string[] = [];
-    const playlistId = playlist?.playlistId || process.env.YOUTUBE_PLAYLIST_ID || '';
-    playlistLines.push(`playlistId: "${playlistId}"`);
-    if (playlist?.playlistName) {
-      playlistLines.push(`playlistName: "${this.escapeYaml(playlist.playlistName)}"`);
-    }
-    if (playlist?.category) {
-      playlistLines.push(`category: "${this.escapeYaml(playlist.category)}"`);
-    }
-
-    // Build description line if available
-    const descriptionLine = metadata.description
-      ? `description: |\n${this.formatMultilineYaml(metadata.description)}\n`
-      : '';
-
-    return `---
-title: "${this.escapeYaml(metadata.title)}"
-videoId: "${videoId}"
-channel: "${this.escapeYaml(metadata.channel)}"
-channelId: "${metadata.channelId}"
-duration: "${metadata.duration}"
-publishedAt: "${metadata.publishedAt}"
-processedAt: "${new Date().toISOString()}"
-source: "youtube"
-${playlistLines.join('\n')}
-thumbnailUrl: "${metadata.thumbnailUrl}"
-youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
-modelUsed: "${summary.modelUsed}"
-${descriptionLine}tldr: |
-${this.formatMultilineYaml(summary.tldr)}
-${taxonomySection}# AI Processing Metrics
-${metricsLines.join('\n')}
----
-
-${body}
-`;
+    return `---\n${yamlContent}---\n\n${body}`;
   }
 
   /**
@@ -259,23 +244,6 @@ ${body}
     return normalized;
   }
 
-  /**
-   * Escape special characters in YAML strings
-   */
-  private escapeYaml(str: string): string {
-    return str.replace(/"/g, '\\"').replace(/\n/g, ' ');
-  }
-
-  /**
-   * Format a string for YAML literal block scalar (|)
-   * Indents each line by 2 spaces for valid YAML
-   */
-  private formatMultilineYaml(str: string): string {
-    return str
-      .split('\n')
-      .map(line => `  ${line}`)
-      .join('\n');
-  }
 }
 
 /**

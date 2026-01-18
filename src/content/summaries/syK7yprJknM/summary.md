@@ -1,61 +1,79 @@
 ---
-title: "OpenCode just killed all vibe coding apps (it’s insane)"
-videoId: "syK7yprJknM"
-channel: "David Ondrej"
-channelId: "UCPGrgwfbkjTIgPoOh2q1BAg"
-duration: "PT1H38S"
-publishedAt: "2026-01-13T23:07:05Z"
+metadata:
+  videoId: "syK7yprJknM"
+  title: "OpenCode just killed all vibe coding apps (it’s insane)"
+  description: "Learn about the best AI Business models here - https://www.youtube.com/watch?v=Ta5g-OxjPO4
+
+
+    Wanna learn how to code with AI? Go here: https://www.skool.com/new-society
+
+
+    Follow me on Instagram - https://www.instagram.com/davidondrej1/
+
+    Follow me on Twitter - https://x.com/DavidOndrej1
+
+
+    Host your n8n agents on Hostinger: https://www.hostinger.com/david
+
+
+    Subscribe if you're serious about AI.
+
+
+    Build anything with Open Code, just watch
+
+
+    timestamps:
+
+    00:00:00 - Introduction
+
+    00:00:33 - Setting up OpenCode
+
+    00:02:47 - Comparing OpenCode and Claud Code
+
+    00:04:47 - OpenCode's Response to Claud Code Block
+
+    00:05:58 - Building a CRM Dashboard with OpenCode
+
+    00:09:48 - Understanding OpenCode
+
+    00:12:18 - Building a Web-based Drawing and Design Editor
+
+    00:21:05 - OpenCode's CLI Experience
+
+    00:22:25 - Building an Encrypted and Private File Manager
+
+    00:34:31 - Understanding the Encryption Process
+
+    00:38:23 - Exploring OpenCode's Versatility
+
+    00:41:09 - Starting a New Build
+
+    00:49:01 - Understanding OpenCode's Modes: Plan and Build"
+  channel: "David Ondrej"
+  channelId: "UCPGrgwfbkjTIgPoOh2q1BAg"
+  duration: "PT1H38S"
+  publishedAt: "2026-01-13T23:07:05Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/syK7yprJknM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=syK7yprJknM"
 processedAt: "2026-01-16T15:17:29.708Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/syK7yprJknM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=syK7yprJknM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Learn about the best AI Business models here - https://www.youtube.com/watch?v=Ta5g-OxjPO4
-  
-  Wanna learn how to code with AI? Go here: https://www.skool.com/new-society
-  
-  Follow me on Instagram - https://www.instagram.com/davidondrej1/
-  Follow me on Twitter - https://x.com/DavidOndrej1
-  
-  Host your n8n agents on Hostinger: https://www.hostinger.com/david
-  
-  Subscribe if you're serious about AI.
-  
-  Build anything with Open Code, just watch
-  
-  timestamps:
-  00:00:00 - Introduction
-  00:00:33 - Setting up OpenCode
-  00:02:47 - Comparing OpenCode and Claud Code
-  00:04:47 - OpenCode's Response to Claud Code Block
-  00:05:58 - Building a CRM Dashboard with OpenCode
-  00:09:48 - Understanding OpenCode
-  00:12:18 - Building a Web-based Drawing and Design Editor
-  00:21:05 - OpenCode's CLI Experience
-  00:22:25 - Building an Encrypted and Private File Manager
-  00:34:31 - Understanding the Encryption Process
-  00:38:23 - Exploring OpenCode's Versatility
-  00:41:09 - Starting a New Build
-  00:49:01 - Understanding OpenCode's Modes: Plan and Build
-tldr: |
-  David Ondrej presents **OpenCode**, an open-source AI coding agent designed to replace Claude Code by offering superior flexibility and privacy. 
+tldr: "David Ondrej presents **OpenCode**, an open-source AI coding agent designed to replace Claude Code by offering superior flexibility and privacy.\ 
+
   - **Multi-Model Integration**: Connects to 70+ models including **Claude Opus 4.5**, **GPT-5.2 Codex**, and **Gemini 3 Pro**.
-  - **Cost-Saving**: Users can leverage existing **ChatGPT Plus/Pro** or **GitHub Copilot** subscriptions to run agents for free.
-  
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 15612
-outputTokens: 1585
-totalTokens: 18452
-processingTimeMs: 22854
+
+  - **Cost-Saving**: Users can leverage existing **ChatGPT Plus/Pro** or **GitHub Copilot** subscriptions to run agents for free.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 15612
+  outputTokens: 1585
+  totalTokens: 18452
+  processingTimeMs: 22854
 ---
 
 ## Key Takeaways

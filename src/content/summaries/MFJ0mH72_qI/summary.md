@@ -1,47 +1,57 @@
 ---
-title: "ShadCN is Way too Powerful Now"
-videoId: "MFJ0mH72_qI"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT9M43S"
-publishedAt: "2026-01-07T14:00:40Z"
+metadata:
+  videoId: "MFJ0mH72_qI"
+  title: "ShadCN is Way too Powerful Now"
+  description: "Building with shadcn ui can break your apps during vibe coding sessions. Learn how context engineering with cursor ai and claude code creates reliable agentic workflows that actually complete your tasks autonomously.
+
+
+
+    In this video, I break down one of the biggest challenges in ai coding today—getting AI agents to finish complex UI implementations without breaking other parts of your app. If you're looking for the best ai for coding workflows, especially with component libraries, this is for you.
+
+
+    I walk through how Anthropic's Ralph loop plugin works with claude code to create an ai coding workflow that doesn't quit halfway through. This is a claude code tutorial where you'll learn real claude code skills like implementing test-driven development (TDD) with Playwright for automated screenshot verification.
+
+
+    We compare different approaches to ai ide coding, showing why combining agentic loops with proper testing beats traditional methods. Whether you're coding for beginners or an experienced developer exploring coding with ai, you'll see exactly how to set this up.
+
+
+    The video covers building a command palette and Kanban board feature, demonstrating programming concepts, artificial intelligence applications in software engineering, and how to debug when your ai agent outputs premature completion promises.
+
+
+    You'll learn how to use claude code with specific prompts that prevent early task abandonment—making it superior to basic implementations. This isn't just about claude code vs cursor or cursor vs claude code debates. It's about understanding how claude code agents work and leveraging agentic ai patterns with mcp server integrations and ai tools to build reliable applications.
+
+
+    Whether you use chatgpt, openai models, or Claude, these principles apply to any ai agent workflow.
+
+
+    Hashtags:
+
+    #agenticai #aiagent #chatgpt #openai #ai #vibecoding #mcpserver #aitools #claudecode #shadcnui #tdd #programming"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT9M43S"
+  publishedAt: "2026-01-07T14:00:40Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/MFJ0mH72_qI/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=MFJ0mH72_qI"
 processedAt: "2026-01-08T18:26:47.211Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/MFJ0mH72_qI/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=MFJ0mH72_qI"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Building with shadcn ui can break your apps during vibe coding sessions. Learn how context engineering with cursor ai and claude code creates reliable agentic workflows that actually complete your tasks autonomously.
-  
-  
-  In this video, I break down one of the biggest challenges in ai coding today—getting AI agents to finish complex UI implementations without breaking other parts of your app. If you're looking for the best ai for coding workflows, especially with component libraries, this is for you.
-  
-  I walk through how Anthropic's Ralph loop plugin works with claude code to create an ai coding workflow that doesn't quit halfway through. This is a claude code tutorial where you'll learn real claude code skills like implementing test-driven development (TDD) with Playwright for automated screenshot verification.
-  
-  We compare different approaches to ai ide coding, showing why combining agentic loops with proper testing beats traditional methods. Whether you're coding for beginners or an experienced developer exploring coding with ai, you'll see exactly how to set this up.
-  
-  The video covers building a command palette and Kanban board feature, demonstrating programming concepts, artificial intelligence applications in software engineering, and how to debug when your ai agent outputs premature completion promises.
-  
-  You'll learn how to use claude code with specific prompts that prevent early task abandonment—making it superior to basic implementations. This isn't just about claude code vs cursor or cursor vs claude code debates. It's about understanding how claude code agents work and leveraging agentic ai patterns with mcp server integrations and ai tools to build reliable applications.
-  
-  Whether you use chatgpt, openai models, or Claude, these principles apply to any ai agent workflow.
-  
-  Hashtags:
-  #agenticai #aiagent #chatgpt #openai #ai #vibecoding #mcpserver #aitools #claudecode #shadcnui #tdd #programming
-tldr: |
-  ShadCN has evolved from a simple component collection into a comprehensive AI-driven UI ecosystem featuring
+tldr: "ShadCN has evolved from a simple component collection into a comprehensive AI-driven UI ecosystem featuring
+
   - **ShadCN Registry** for building and publishing custom component libraries
+
   - **Blocks** for rapid full-page assembly
-  - Native integration with AI tools like **v0.dev** to automate the path from design prompt to production-ready code.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 406
-outputTokens: 844
-totalTokens: 2086
-processingTimeMs: 12216
+
+  - Native integration with AI tools like **v0.dev** to automate the path from design prompt to production-ready code.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 406
+  outputTokens: 844
+  totalTokens: 2086
+  processingTimeMs: 12216
 ---
 
 ## Key Takeaways

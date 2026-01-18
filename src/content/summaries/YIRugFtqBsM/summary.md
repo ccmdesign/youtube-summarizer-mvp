@@ -1,43 +1,54 @@
 ---
-title: "Tailwind is Dying... (this is bad!)"
-videoId: "YIRugFtqBsM"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT8M18S"
-publishedAt: "2026-01-08T10:00:55Z"
+metadata:
+  videoId: "YIRugFtqBsM"
+  title: "Tailwind is Dying... (this is bad!)"
+  description: "AI is reshaping open source, and Tailwind CSS might be one of its biggest warning signs. What does this mean for the future of open source sustainability.\ 
+
+
+    Tailwind site: https://tailwindcss.com/
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT8M18S"
+  publishedAt: "2026-01-08T10:00:55Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/YIRugFtqBsM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=YIRugFtqBsM"
 processedAt: "2026-01-10T18:05:31.161Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/YIRugFtqBsM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=YIRugFtqBsM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  AI is reshaping open source, and Tailwind CSS might be one of its biggest warning signs. What does this mean for the future of open source sustainability. 
-  
-  Tailwind site: https://tailwindcss.com/
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-tldr: |
-  Tailwind CSS is facing a sustainability crisis as AI usage triggered an 80% revenue drop and forced a 75% reduction in their engineering team.
+tldr: "Tailwind CSS is facing a sustainability crisis as AI usage triggered an 80% revenue drop and forced a 75% reduction in their engineering team.
+
   - Traffic to documentation is down 40% as developers use LLMs for vibe coding, bypassing the ads for paid components that fund development.
-  - The project faces becoming abandoned ware if a new revenue model is not found.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2740
-outputTokens: 790
-totalTokens: 5542
-processingTimeMs: 18585
+
+  - The project faces becoming abandoned ware if a new revenue model is not found.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2740
+  outputTokens: 790
+  totalTokens: 5542
+  processingTimeMs: 18585
 ---
 
 ## Key Takeaways

@@ -1,59 +1,81 @@
 ---
-title: "Security in 2026 Is Going to Look Very Different"
-videoId: "__izQwBMqw0"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT6M32S"
-publishedAt: "2026-01-17T21:47:49Z"
+metadata:
+  videoId: "__izQwBMqw0"
+  title: "Security in 2026 Is Going to Look Very Different"
+  description: "Security is moving faster than ever, with thousands of new vulnerabilities appearing each year and attackers now exploiting bugs within hours of disclosure. This video breaks down what is driving this surge, how AI is changing both hacking and defense, and why choices like memory-safe languages and fewer dependencies matter more than ever. You will also see what to expect from cybersecurity in 2026 and how to prepare your stack before the next wave hits.
+
+
+    🔗 Relevant Links
+
+    DeepStrike Blog Post: https://deepstrike.io/blog/vulnerability-statistics-2025
+
+    The Stack Blog Post: https://www.thestack.technology/cves-in-2025-analysis
+
+    Google Security Blog Post: https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    00:00 Intro
+
+    00:30 Hackers Now Exploit Bugs in 24 Hours
+
+    01:24 XSS, SQLi, and Why WordPress Gets Hit
+
+    02:24 Which Languages Are Most Secure?
+
+    03:10 Code Density: Rust vs C and C++
+
+    03:53 Most Vulnerable Operating Systems
+
+    04:22 How to Protect Ourselves
+
+    04:36 The 3 Pillars of Security for 2026"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT6M32S"
+  publishedAt: "2026-01-17T21:47:49Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/__izQwBMqw0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=__izQwBMqw0"
 processedAt: "2026-01-18T16:38:05.108Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/__izQwBMqw0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=__izQwBMqw0"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Security is moving faster than ever, with thousands of new vulnerabilities appearing each year and attackers now exploiting bugs within hours of disclosure. This video breaks down what is driving this surge, how AI is changing both hacking and defense, and why choices like memory-safe languages and fewer dependencies matter more than ever. You will also see what to expect from cybersecurity in 2026 and how to prepare your stack before the next wave hits.
-  
-  🔗 Relevant Links
-  DeepStrike Blog Post: https://deepstrike.io/blog/vulnerability-statistics-2025
-  The Stack Blog Post: https://www.thestack.technology/cves-in-2025-analysis
-  Google Security Blog Post: https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  00:00 Intro
-  00:30 Hackers Now Exploit Bugs in 24 Hours
-  01:24 XSS, SQLi, and Why WordPress Gets Hit
-  02:24 Which Languages Are Most Secure?
-  03:10 Code Density: Rust vs C and C++
-  03:53 Most Vulnerable Operating Systems
-  04:22 How to Protect Ourselves
-  04:36 The 3 Pillars of Security for 2026
-tldr: |
-  The cybersecurity landscape in 2026 is defined by **machine-to-machine warfare**, with 48,000+ annual CVEs and 24-hour exploit windows.
+tldr: "The cybersecurity landscape in 2026 is defined by **machine-to-machine warfare**, with 48,000+ annual CVEs and 24-hour exploit windows.
+
   - **Shift to memory-safe languages** like Rust to reduce vulnerability density by up to 1,000x
+
   - **Automate monitoring** with AI-native tools to counter rapid, AI-driven exploits
-  - **Aggressively trim supply chains**, especially in plugin-heavy ecosystems like Wor
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1605
-outputTokens: 955
-totalTokens: 3996
-processingTimeMs: 15663
+
+  - **Aggressively trim supply chains**, especially in plugin-heavy ecosystems like Wor\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1605
+  outputTokens: 955
+  totalTokens: 3996
+  processingTimeMs: 15663
 ---
 
 ## Key Takeaways

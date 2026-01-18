@@ -1,59 +1,80 @@
 ---
-title: "The Free Open Source Jira Killer Devs Love"
-videoId: "pgWHATQzkHk"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT4M41S"
-publishedAt: "2026-01-10T12:01:38Z"
+metadata:
+  videoId: "pgWHATQzkHk"
+  title: "The Free Open Source Jira Killer Devs Love"
+  description: "Is this a Free Alternative to Jira and Linear?
+
+
+    In this video, we take a quick look at Plane — a free, open-source project management tool built with TypeScript, React, Django, and PostgreSQL. Plane is designed for modern engineering teams that want speed, flexibility, and full control over their workflow.
+
+
+    🔗 Relevant Links
+
+    Plane Repo - https://github.com/makeplane/plane
+
+    Plane - https://plane.so/
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    00:00 – The problem with modern PM tools
+
+    00:31 – What is Plane? (Open-source Jira & Linear alternative)
+
+    00:45 – Self-hosting Plane locally with Docker (2-minute setup)
+
+    01:30 – Creating issues, workflows, and Kanban boards in Plane
+
+    02:30 – Self Hosting with Docker and Kubernetes
+
+    02:48 – Pros & cons of Plane for developer teams
+
+    03:55 – Plane vs Jira vs Linear vs ClickUp (which should you use?)
+
+    04:20 – Who Plane is best for + final thoughts"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT4M41S"
+  publishedAt: "2026-01-10T12:01:38Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/pgWHATQzkHk/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=pgWHATQzkHk"
 processedAt: "2026-01-10T19:54:26.333Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/pgWHATQzkHk/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=pgWHATQzkHk"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Is this a Free Alternative to Jira and Linear?
-  
-  In this video, we take a quick look at Plane — a free, open-source project management tool built with TypeScript, React, Django, and PostgreSQL. Plane is designed for modern engineering teams that want speed, flexibility, and full control over their workflow.
-  
-  🔗 Relevant Links
-  Plane Repo - https://github.com/makeplane/plane
-  Plane - https://plane.so/
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  00:00 – The problem with modern PM tools
-  00:31 – What is Plane? (Open-source Jira & Linear alternative)
-  00:45 – Self-hosting Plane locally with Docker (2-minute setup)
-  01:30 – Creating issues, workflows, and Kanban boards in Plane
-  02:30 – Self Hosting with Docker and Kubernetes
-  02:48 – Pros & cons of Plane for developer teams
-  03:55 – Plane vs Jira vs Linear vs ClickUp (which should you use?)
-  04:20 – Who Plane is best for + final thoughts
-tldr: |
-  Plane is a free, open-source project management tool that offers a modern "Jira meets Linear" experience with Docker-based self-hosting.
+tldr: "Plane is a free, open-source project management tool that offers a modern \"Jira meets Linear\" experience with Docker-based self-hosting.
+
   - Deployment takes under 2 minutes and provides full data ownership.
-  - Key features include AI-driven work summaries, cycles (sprints), and a React/Django tech stack, though advanced features like SSO and local AI integration require a commercial license.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1592
-outputTokens: 816
-totalTokens: 3636
-processingTimeMs: 12720
+
+  - Key features include AI-driven work summaries, cycles (sprints), and a React/Django tech stack, though advanced features like SSO and local AI integration require a commercial license.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1592
+  outputTokens: 816
+  totalTokens: 3636
+  processingTimeMs: 12720
 ---
 
 ## Key Takeaways

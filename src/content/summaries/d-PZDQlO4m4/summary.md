@@ -1,63 +1,86 @@
 ---
-title: "Automate all your NotebookLM Research and content creation with this Ultimate MCP"
-videoId: "d-PZDQlO4m4"
-channel: "Gen AI Spotlight"
-channelId: "UCmElaQGQUojeNGu3Xg9urbg"
-duration: "PT15M58S"
-publishedAt: "2025-12-31T16:04:31Z"
+metadata:
+  videoId: "d-PZDQlO4m4"
+  title: "Automate all your NotebookLM Research and content creation with this Ultimate MCP"
+  description: "Unlock the full power of Google NotebookLM directly from your IDE or AI tools with this new MCP. This custom MCP server lets you automate research, generate podcasts and infographics, and manage notes using AI agents like Claude Code, Codex, or Gemini CLI.
+
+
+    In this video, I demonstrate my latest open-source project: a custom-built Model Context Protocol (MCP) server for NotebookLM. I'll walk you through the full installation process, the unique authentication method, and real-time demos of creating notebooks, syncing Google Drive sources, and generating AI audio overviews purely through command-line prompts.\ 
+
+
+    Whether you're a developer or a \"vibe coder,\" this tool bridges the gap between your code editor and your knowledge base, allowing for powerful automated workflows.
+
+
+    Key Takeaways
+
+    - How to install, configure, and authenticate the unofficial NotebookLM MCP server.
+
+    - How to programmatically create notebooks, import sources, and generate complex study guides.
+
+    - Live demos of using Claude Code + Wisper Flow to automate all NotebookLM activities without using the UI
+
+
+    Resources:
+
+    GitHub repo: https://github.com/jacob-bd/notebooklm-mcp
+
+
+    CHAPTERS:
+
+    00:00 - Intro & What is NotebookLM MCP\ 
+
+    01:10 - Installation & Setup Guide\ 
+
+    01:21 - Connecting MCP to Claude Code\ 
+
+    02:14 - Authentication Process Explained\ 
+
+    03:35 - Listing & Managing Notebooks via Claude Code\ 
+
+    04:13 - Analyzing Content Without Opening Browser\ 
+
+    05:12 - Syncing Google Drive Sources Automatically\ 
+
+    07:11 - Demo: Fast Web Research Workflow\ 
+
+    07:54 - Generating Audio Overviews & Study Aids\ 
+
+    09:40 - Creating Data Tables, Quiz & Infographics\ 
+
+    10:48 - Sending a query to the NotebookLM\ 
+
+    11:50 - Example: Rust Programming Language Research workflow
+
+    12:30 - Deleting Notebooks\ 
+
+    13:12 - Final Thoughts & Open Source Info"
+  channel: "Gen AI Spotlight"
+  channelId: "UCmElaQGQUojeNGu3Xg9urbg"
+  duration: "PT15M58S"
+  publishedAt: "2025-12-31T16:04:31Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/d-PZDQlO4m4/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=d-PZDQlO4m4"
 processedAt: "2026-01-14T16:25:24.265Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/d-PZDQlO4m4/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=d-PZDQlO4m4"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Unlock the full power of Google NotebookLM directly from your IDE or AI tools with this new MCP. This custom MCP server lets you automate research, generate podcasts and infographics, and manage notes using AI agents like Claude Code, Codex, or Gemini CLI.
-  
-  In this video, I demonstrate my latest open-source project: a custom-built Model Context Protocol (MCP) server for NotebookLM. I'll walk you through the full installation process, the unique authentication method, and real-time demos of creating notebooks, syncing Google Drive sources, and generating AI audio overviews purely through command-line prompts. 
-  
-  Whether you're a developer or a "vibe coder," this tool bridges the gap between your code editor and your knowledge base, allowing for powerful automated workflows.
-  
-  Key Takeaways
-  - How to install, configure, and authenticate the unofficial NotebookLM MCP server.
-  - How to programmatically create notebooks, import sources, and generate complex study guides.
-  - Live demos of using Claude Code + Wisper Flow to automate all NotebookLM activities without using the UI
-  
-  Resources:
-  GitHub repo: https://github.com/jacob-bd/notebooklm-mcp
-  
-  CHAPTERS:
-  00:00 - Intro & What is NotebookLM MCP 
-  01:10 - Installation & Setup Guide 
-  01:21 - Connecting MCP to Claude Code 
-  02:14 - Authentication Process Explained 
-  03:35 - Listing & Managing Notebooks via Claude Code 
-  04:13 - Analyzing Content Without Opening Browser 
-  05:12 - Syncing Google Drive Sources Automatically 
-  07:11 - Demo: Fast Web Research Workflow 
-  07:54 - Generating Audio Overviews & Study Aids 
-  09:40 - Creating Data Tables, Quiz & Infographics 
-  10:48 - Sending a query to the NotebookLM 
-  11:50 - Example: Rust Programming Language Research workflow
-  12:30 - Deleting Notebooks 
-  13:12 - Final Thoughts & Open Source Info
-tldr: |
-  Notebook MCP Server:
+tldr: "Notebook MCP Server:
+
   - **31 automated tools** for NotebookLM using internal RPC calls rather than brittle browser automation
+
   - **Content creation suite** for generating audio overviews, quizzes, infographics, and data tables via chat
-  - **Dynamic synchronization** of Google Drive sources and automated deep-web research integration
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3577
-outputTokens: 860
-totalTokens: 5655
-processingTimeMs: 14328
+
+  - **Dynamic synchronization** of Google Drive sources and automated deep-web research integration\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3577
+  outputTokens: 860
+  totalTokens: 5655
+  processingTimeMs: 14328
 ---
 
 ## Key Takeaways

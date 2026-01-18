@@ -1,47 +1,57 @@
 ---
-title: "Google Antigravity is Looking Pretty Good Now"
-videoId: "e4giCKHIJy8"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT13M38S"
-publishedAt: "2026-01-17T14:02:22Z"
+metadata:
+  videoId: "e4giCKHIJy8"
+  title: "Google Antigravity is Looking Pretty Good Now"
+  description: "Antigravity from Google is changing how developers code with AI. This Google Antigravity tutorial covers the new agent harness with Gemini 3 Pro, showing you workflows that rival the best tools. Google Antigravity vs Cursor? We break it down.
+
+
+
+
+    Visit https://lumalabs.ai/ailabs to try Ray 3 Modify yourself!\ 
+
+    Article: https://cursor.com/blog/agent-best-practices
+
+
+    Google Antigravity has quickly become a favorite among developers since its release, and for good reason. In this Antigravity Google deep dive, we take the agent harness principles that Cursor recently published and apply them to Google's newest AI coding tool.
+
+    This Google Antigravity tutorial walks you through every component that makes the harness work: instructions, tools, and user interaction patterns. We cover Plan Mode, which lets you comment directly on generated plans for easy revisions. Context management is another major focus, showing you why you should let agents grep for what they need instead of manually tagging files.
+
+    The Antigravity Google tutorial continues with rules and skills that extend agent capabilities using the open standard from Anthropic. You'll see how to set up project-specific guidelines and load specialized skills dynamically to keep context clean.
+
+    For those wondering how to use Google Antigravity effectively, we demonstrate test-driven development workflows, image-based prompting for UI implementation, and parallel agent execution across branches. The debug mode skill section shows an evidence-based approach to squashing bugs systematically.
+
+    Google Antigravity vs Cursor comes down to specific features like inline plan commenting and workspace sharing between agents. Google Antigravity vs Claude Code is also worth considering since Claude Code with Opus remains the most capable but costs more. This Google Antigravity review covers practical workflows that work regardless of which tool you choose.
+
+    Whether you're coming from Cursor, Claude Code, or just starting with AI coding, these harness principles will transform your development process.
+
+    Hashtags
+
+    #ai #claudecode #3iatlas #antigravity #chatgpt #vibecoding #googleaistudio #cursor #aiautomation #coding"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT13M38S"
+  publishedAt: "2026-01-17T14:02:22Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/e4giCKHIJy8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=e4giCKHIJy8"
 processedAt: "2026-01-17T17:06:42.818Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/e4giCKHIJy8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=e4giCKHIJy8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Antigravity from Google is changing how developers code with AI. This Google Antigravity tutorial covers the new agent harness with Gemini 3 Pro, showing you workflows that rival the best tools. Google Antigravity vs Cursor? We break it down.
-  
-  
-  
-  Visit https://lumalabs.ai/ailabs to try Ray 3 Modify yourself! 
-  Article: https://cursor.com/blog/agent-best-practices
-  
-  Google Antigravity has quickly become a favorite among developers since its release, and for good reason. In this Antigravity Google deep dive, we take the agent harness principles that Cursor recently published and apply them to Google's newest AI coding tool.
-  This Google Antigravity tutorial walks you through every component that makes the harness work: instructions, tools, and user interaction patterns. We cover Plan Mode, which lets you comment directly on generated plans for easy revisions. Context management is another major focus, showing you why you should let agents grep for what they need instead of manually tagging files.
-  The Antigravity Google tutorial continues with rules and skills that extend agent capabilities using the open standard from Anthropic. You'll see how to set up project-specific guidelines and load specialized skills dynamically to keep context clean.
-  For those wondering how to use Google Antigravity effectively, we demonstrate test-driven development workflows, image-based prompting for UI implementation, and parallel agent execution across branches. The debug mode skill section shows an evidence-based approach to squashing bugs systematically.
-  Google Antigravity vs Cursor comes down to specific features like inline plan commenting and workspace sharing between agents. Google Antigravity vs Claude Code is also worth considering since Claude Code with Opus remains the most capable but costs more. This Google Antigravity review covers practical workflows that work regardless of which tool you choose.
-  Whether you're coming from Cursor, Claude Code, or just starting with AI coding, these harness principles will transform your development process.
-  Hashtags
-  #ai #claudecode #3iatlas #antigravity #chatgpt #vibecoding #googleaistudio #cursor #aiautomation #coding
-tldr: |
-  Maximize **Google Antigravity (Gemini 3)** performance by implementing an **agent harness** methodology. 
+tldr: "Maximize **Google Antigravity (Gemini 3)** performance by implementing an **agent harness** methodology.\ 
+
   - **Strict Context Management**: Use agent search/grep tools instead of manual file tagging to prevent context bloat.
+
   - **Planning-First Workflow**: Refine logic in planning mode before execution.
-  - **Custom Agent Skills**: Use the `aagent` folder to define specialized scripts and rules.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3570
-outputTokens: 955
-totalTokens: 5404
-processingTimeMs: 13237
+
+  - **Custom Agent Skills**: Use the `aagent` folder to define specialized scripts and rules.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3570
+  outputTokens: 955
+  totalTokens: 5404
+  processingTimeMs: 13237
 ---
 
 ## Key Takeaways

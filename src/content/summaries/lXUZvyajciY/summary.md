@@ -1,55 +1,71 @@
 ---
-title: "Andrej Karpathy — “We’re summoning ghosts, not building animals”"
-videoId: "lXUZvyajciY"
-channel: "Dwarkesh Patel"
-channelId: "UCXl4i9dYBrFOabk0xGmbkRA"
-duration: "PT2H26M8S"
-publishedAt: "2025-10-17T17:15:45Z"
+metadata:
+  videoId: "lXUZvyajciY"
+  title: "Andrej Karpathy — “We’re summoning ghosts, not building animals”"
+  description: "The Andrej Karpathy episode. During this interview, Andrej explains why reinforcement learning is terrible (but everything else is much worse), why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. It was a pleasure chatting with him.
+
+
+    𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒
+
+    * Transcript: https://dwarkesh.substack.com/p/andrej-karpathy
+
+    * Apple Podcasts: https://podcasts.apple.com/us/podcast/andrej-karpathy-agi-is-still-a-decade-away/id1516093381?i=1000732326311
+
+    * Spotify: https://open.spotify.com/episode/3iIYVmmhXwh3fOumypWVpC?si=33d37708b2b44e2f
+
+
+    𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒
+
+    * Labelbox helps you get data that is more detailed, more accurate, and higher signal than you could get by default, no matter your domain or training paradigm. Reach out today at https://labelbox.com/dwarkesh
+
+    * Mercury helps you run your business better. It’s the banking platform we use for the podcast — we love that we can see our accounts, cash flows, AR, and AP all in one place. Apply online in minutes at https://mercury.com
+
+    * Google’s Veo 3.1 update is a notable improvement to an already great model. Veo 3.1’s generations are more coherent and the audio is even higher-quality. If you have a Google AI Pro or Ultra plan, you can try it in Gemini today by visiting https://gemini.google
+
+
+    To sponsor a future episode, visit https://dwarkesh.com/advertise
+
+
+    𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒
+
+    00:00:00 – AGI is still a decade away
+
+    00:30:33 – LLM cognitive deficits
+
+    00:40:53 – RL is terrible
+
+    00:50:26 – How do humans learn?
+
+    01:07:13 – AGI will blend into 2% GDP growth
+
+    01:18:24 – ASI
+
+    01:33:38 – Evolution of intelligence & culture
+
+    01:43:43 - Why self driving took so long
+
+    01:57:08 - Future of education"
+  channel: "Dwarkesh Patel"
+  channelId: "UCXl4i9dYBrFOabk0xGmbkRA"
+  duration: "PT2H26M8S"
+  publishedAt: "2025-10-17T17:15:45Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/lXUZvyajciY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=lXUZvyajciY"
 processedAt: "2026-01-12T23:27:09.655Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/lXUZvyajciY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=lXUZvyajciY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  The Andrej Karpathy episode. During this interview, Andrej explains why reinforcement learning is terrible (but everything else is much worse), why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. It was a pleasure chatting with him.
-  
-  𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒
-  * Transcript: https://dwarkesh.substack.com/p/andrej-karpathy
-  * Apple Podcasts: https://podcasts.apple.com/us/podcast/andrej-karpathy-agi-is-still-a-decade-away/id1516093381?i=1000732326311
-  * Spotify: https://open.spotify.com/episode/3iIYVmmhXwh3fOumypWVpC?si=33d37708b2b44e2f
-  
-  𝐒𝐏𝐎𝐍𝐒𝐎𝐑𝐒
-  * Labelbox helps you get data that is more detailed, more accurate, and higher signal than you could get by default, no matter your domain or training paradigm. Reach out today at https://labelbox.com/dwarkesh
-  * Mercury helps you run your business better. It’s the banking platform we use for the podcast — we love that we can see our accounts, cash flows, AR, and AP all in one place. Apply online in minutes at https://mercury.com
-  * Google’s Veo 3.1 update is a notable improvement to an already great model. Veo 3.1’s generations are more coherent and the audio is even higher-quality. If you have a Google AI Pro or Ultra plan, you can try it in Gemini today by visiting https://gemini.google
-  
-  To sponsor a future episode, visit https://dwarkesh.com/advertise
-  
-  𝐓𝐈𝐌𝐄𝐒𝐓𝐀𝐌𝐏𝐒
-  00:00:00 – AGI is still a decade away
-  00:30:33 – LLM cognitive deficits
-  00:40:53 – RL is terrible
-  00:50:26 – How do humans learn?
-  01:07:13 – AGI will blend into 2% GDP growth
-  01:18:24 – ASI
-  01:33:38 – Evolution of intelligence & culture
-  01:43:43 - Why self driving took so long
-  01:57:08 - Future of education
-tldr: |
-  Andrej Karpathy argues that the current era is the **decade of agents**, rather than a single year, due to bottlenecks in continual learning and reliability. He posits that we are building **digital ghosts** (human mimics) rather than **animals** (evolved intelligences). The path forward requires moving beyond **outcome-based RL** and focusing on a **cognitive core** stripped of redundant memory.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 43220
-outputTokens: 1681
-totalTokens: 45820
-processingTimeMs: 18896
+tldr: "Andrej Karpathy argues that the current era is the **decade of agents**, rather than a single year, due to bottlenecks in continual learning and reliability. He posits that we are building **digital ghosts** (human mimics) rather than **animals** (evolved intelligences). The path forward requires moving beyond **outcome-based RL** and focusing on a **cognitive core** stripped of redundant memory.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 43220
+  outputTokens: 1681
+  totalTokens: 45820
+  processingTimeMs: 18896
 ---
 
 ## Key Takeaways

@@ -1,56 +1,73 @@
 ---
-title: "Dessn - Is this the future of AI prototyping?"
-videoId: "nws1e9waqi8"
-channel: "Dive Club 🤿"
-channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
-duration: "PT34M15S"
-publishedAt: "2026-01-14T13:01:37Z"
+metadata:
+  videoId: "nws1e9waqi8"
+  title: "Dessn - Is this the future of AI prototyping?"
+  description: "Gab (https://www.linkedin.com/in/gabriella-hachem/) and Nim (https://www.linkedin.com/in/nim-cheema/) are the co-founders of a startup called Dessn (https://join.dive.club/dessn-content) which allows designers to prototype in the context of their production codebase (without any of the setup).
+
+
+    So I asked them to hook it up to the Inflight (https://www.inflight.co/) repo and give me a little demo to see what’s possible.
+
+
+    I’m pretty sold 👀
+
+
+    Dive is where the best designers never stop learning 🤿
+
+
+    🌐 dive.club
+
+    🐦 twitter.com/joindiveclub
+
+
+    Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
+
+
+    Chapters
+
+    0:00 Intro
+
+    0:45 Creating an animation playground in Dessn
+
+    5:10 The power of designing in production
+
+    6:07 Prototyping Inflight using Dessn
+
+    9:05 The aura of inevitability designing in code
+
+    14:24 How Dessn works under the hood
+
+    16:29 Scaling explorations and leaning into curation
+
+    19:05 Prompting vs. pixel pushing
+
+    25:09 Previewing Dessn's canvas UX\ 
+
+    27:31 What tomorrow's design tools mean for the role of designer
+
+    28:55 Figuring out what to ship
+
+    30:54 The importance of design in an AI world
+
+    32:49 Dessn's upcoming milestones"
+  channel: "Dive Club 🤿"
+  channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
+  duration: "PT34M15S"
+  publishedAt: "2026-01-14T13:01:37Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/nws1e9waqi8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=nws1e9waqi8"
 processedAt: "2026-01-15T17:29:10.499Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/nws1e9waqi8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=nws1e9waqi8"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Gab (https://www.linkedin.com/in/gabriella-hachem/) and Nim (https://www.linkedin.com/in/nim-cheema/) are the co-founders of a startup called Dessn (https://join.dive.club/dessn-content) which allows designers to prototype in the context of their production codebase (without any of the setup).
-  
-  So I asked them to hook it up to the Inflight (https://www.inflight.co/) repo and give me a little demo to see what’s possible.
-  
-  I’m pretty sold 👀
-  
-  Dive is where the best designers never stop learning 🤿
-  
-  🌐 dive.club
-  🐦 twitter.com/joindiveclub
-  
-  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
-  
-  Chapters
-  0:00 Intro
-  0:45 Creating an animation playground in Dessn
-  5:10 The power of designing in production
-  6:07 Prototyping Inflight using Dessn
-  9:05 The aura of inevitability designing in code
-  14:24 How Dessn works under the hood
-  16:29 Scaling explorations and leaning into curation
-  19:05 Prompting vs. pixel pushing
-  25:09 Previewing Dessn's canvas UX 
-  27:31 What tomorrow's design tools mean for the role of designer
-  28:55 Figuring out what to ship
-  30:54 The importance of design in an AI world
-  32:49 Dessn's upcoming milestones
-tldr: |
-  Desen introduces an AI-powered design tool allowing designers to prototype directly within their production codebase, eliminating setup costs and ensuring consistency. This fundamentally shifts the design process from recreating components to **exploring and curating production-ready variants** at speed. It empowers non-technical designers to experiment with live code, elevating their role to stra
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 9363
-outputTokens: 1513
-totalTokens: 11837
-processingTimeMs: 50963
+tldr: "Desen introduces an AI-powered design tool allowing designers to prototype directly within their production codebase, eliminating setup costs and ensuring consistency. This fundamentally shifts the design process from recreating components to **exploring and curating production-ready variants** at speed. It empowers non-technical designers to experiment with live code, elevating their role to stra\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 9363
+  outputTokens: 1513
+  totalTokens: 11837
+  processingTimeMs: 50963
 ---
 
 ## Key Takeaways

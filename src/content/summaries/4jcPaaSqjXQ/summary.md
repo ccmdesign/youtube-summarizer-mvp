@@ -1,28 +1,26 @@
 ---
-title: "Accessibility That Scales with MARCEL BERTRAM —  Smashing Meets Easy Accessibility, Dec 11, 2025"
-videoId: "4jcPaaSqjXQ"
-channel: "Smashing Magazine"
-channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
-duration: "PT47M27S"
-publishedAt: "2025-12-18T09:17:07Z"
+metadata:
+  videoId: "4jcPaaSqjXQ"
+  title: "Accessibility That Scales with MARCEL BERTRAM —  Smashing Meets Easy Accessibility, Dec 11, 2025"
+  channel: "Smashing Magazine"
+  channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+  duration: "PT47M27S"
+  publishedAt: "2025-12-18T09:17:07Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/4jcPaaSqjXQ/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=4jcPaaSqjXQ"
 processedAt: "2026-01-17T17:07:44.554Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/4jcPaaSqjXQ/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=4jcPaaSqjXQ"
-modelUsed: "gemini-3-flash-preview"
-tldr: |
-  Marcel Bertram argues that **digital accessibility** must shift from a reactive, fear-based compliance task to a proactive, scalable business strategy. By integrating automated testing into the **design and development workflow** (the "Shift Left" approach) and using advanced tools like **AI-powered MCP servers**, organizations can move beyond manual checklists to sustainable, empathy-driven pract
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 8458
-outputTokens: 1137
-totalTokens: 10393
-processingTimeMs: 21846
+tldr: "Marcel Bertram argues that **digital accessibility** must shift from a reactive, fear-based compliance task to a proactive, scalable business strategy. By integrating automated testing into the **design and development workflow** (the \"Shift Left\" approach) and using advanced tools like **AI-powered MCP servers**, organizations can move beyond manual checklists to sustainable, empathy-driven pract\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 8458
+  outputTokens: 1137
+  totalTokens: 10393
+  processingTimeMs: 21846
 ---
 
 ## Key Takeaways

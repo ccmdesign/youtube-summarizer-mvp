@@ -1,66 +1,91 @@
 ---
-title: "Henry Modisett - Inside Perplexity's design culture"
-videoId: "Vt3oTBvx7xw"
-channel: "Dive Club 🤿"
-channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
-duration: "PT47M41S"
-publishedAt: "2026-01-09T13:01:08Z"
+metadata:
+  videoId: "Vt3oTBvx7xw"
+  title: "Henry Modisett - Inside Perplexity's design culture"
+  description: "Someone asked me recently... if you had to join a design team, who would you want to work for?
+
+
+    And my answer was easy... Perplexity
+
+
+    So today's episode with Henry Modisett (https://x.com/henrymodis) (Perplexity's VP of Design) is a deep dive into what makes their design culture so special.
+
+
+    Some highlights:
+
+
+    - How to create a culture of decisiveness
+
+    - What signals Henry is looking for in designers
+
+    - Factors that influence Henry’s leadership style
+
+    - How to lay the right foundation for your design org
+
+    - Why Henry is doing feedback differently at Perplexity
+
+    - Henry’s strategies for building world class design teams
+
+    - + a *lot* more
+
+
+    Chapters
+
+    0:00 Intro
+
+    1:13 What's changed for Henry and Perplexity
+
+    6:44 The current state of Perplexity's design team
+
+    8:49 Henry's strategies for building design teams
+
+    12:31 What signals Henry is looking for in designers
+
+    14:37 Why Henry just hired a new design intern
+
+    18:39 How to lay the right foundation for your design team
+
+    26:22 Where Henry drew inspiration as a leader
+
+    31:11 Letting the problems dictate the process
+
+    34:17 Building a culture of decisiveness
+
+    38:35 How Perplexity thinks about design collaboration\ 
+
+    41:55 How feedback happens at Perplexity
+
+    43:15 Navigating the challenges of scale
+
+
+    Dive is where the best designers never stop learning 🤿
+
+
+    🌐 dive.club
+
+    🐦 twitter.com/joindiveclub
+
+
+    Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
+  channel: "Dive Club 🤿"
+  channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
+  duration: "PT47M41S"
+  publishedAt: "2026-01-09T13:01:08Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Vt3oTBvx7xw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Vt3oTBvx7xw"
 processedAt: "2026-01-15T17:30:13.784Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/Vt3oTBvx7xw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Vt3oTBvx7xw"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Someone asked me recently... if you had to join a design team, who would you want to work for?
-  
-  And my answer was easy... Perplexity
-  
-  So today's episode with Henry Modisett (https://x.com/henrymodis) (Perplexity's VP of Design) is a deep dive into what makes their design culture so special.
-  
-  Some highlights:
-  
-  - How to create a culture of decisiveness
-  - What signals Henry is looking for in designers
-  - Factors that influence Henry’s leadership style
-  - How to lay the right foundation for your design org
-  - Why Henry is doing feedback differently at Perplexity
-  - Henry’s strategies for building world class design teams
-  - + a *lot* more
-  
-  Chapters
-  0:00 Intro
-  1:13 What's changed for Henry and Perplexity
-  6:44 The current state of Perplexity's design team
-  8:49 Henry's strategies for building design teams
-  12:31 What signals Henry is looking for in designers
-  14:37 Why Henry just hired a new design intern
-  18:39 How to lay the right foundation for your design team
-  26:22 Where Henry drew inspiration as a leader
-  31:11 Letting the problems dictate the process
-  34:17 Building a culture of decisiveness
-  38:35 How Perplexity thinks about design collaboration 
-  41:55 How feedback happens at Perplexity
-  43:15 Navigating the challenges of scale
-  
-  Dive is where the best designers never stop learning 🤿
-  
-  🌐 dive.club
-  🐦 twitter.com/joindiveclub
-  
-  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
-tldr: |
-  Henry Modisett, VP of Design at Perplexity, reveals how they cultivate a top-tier design culture by treating design as a **strategic weapon** for market advantage and talent acquisition. Key principles include: - **Challenging conventional processes** to maintain agility and velocity. - **Hiring for diverse skills and personalities** that thrive in ambiguity and startup chaos. - Empowering designe
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 12939
-outputTokens: 2364
-totalTokens: 16291
-processingTimeMs: 32866
+tldr: "Henry Modisett, VP of Design at Perplexity, reveals how they cultivate a top-tier design culture by treating design as a **strategic weapon** for market advantage and talent acquisition. Key principles include: - **Challenging conventional processes** to maintain agility and velocity. - **Hiring for diverse skills and personalities** that thrive in ambiguity and startup chaos. - Empowering designe\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 12939
+  outputTokens: 2364
+  totalTokens: 16291
+  processingTimeMs: 32866
 ---
 
 ## Key Takeaways

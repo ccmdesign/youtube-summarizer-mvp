@@ -1,58 +1,73 @@
 ---
-title: "High protein dish from just lentils! You won't believe how amazing this lentil recipe is!"
-videoId: "LaMwuhdrqpM"
-channel: "We Cook Vegan"
-channelId: "UCF0yxeCMkXjUhXgmOnsvs8w"
-duration: "PT3M15S"
-publishedAt: "2025-10-19T17:00:32Z"
+metadata:
+  videoId: "LaMwuhdrqpM"
+  title: "High protein dish from just lentils! You won't believe how amazing this lentil recipe is!"
+  description: "Unbelievable! Mix 1 cup lentils with water to surprise everyone! Incredibly simple and delicious lentil recipe! This lentil tofu tastes better than meat and is high protein. Incredibly tasty way to cook lentils! My whole family and friends like it so much! Watch the video and learn the new way how to cook lentils at home, it’s easy, highly nutritious! Everyone will be delighted with its taste! Happy cooking and wishing you a wonderful day! 😊 💖
+
+
+    ❤️ SUBSCRIBE to see new recipes: https://www.youtube.com/@WeCookVegan
+
+
+    🥣 Ingredients:
+
+    1 cup red lentils (7oz | 200g)
+
+    3 cups boiling water (24fl oz | 700ml)
+
+    1/2tsp salt (optional)
+
+
+    🧑‍🍳 Cooking tips:\ 
+
+    ℹ️ Feel free to add your favourite dried herbs and spices to get the flavour you enjoy the most.
+
+    ℹ️ You can store lentil tofu in an air-tight container in the fridge for up to 4 days.
+
+    ℹ️ You can add sauce to lentils tofu or season with spices, whatever you prefer. You can also stir fry it or bake in the oven and enjoy in a salad or a rice dish.\ 
+
+
+    ✅ℹ️ On my cooking channel you will find many more easy vegan recipes!  You will learn how to cook delicious plant based dishes with little time and on a budget with ingredients anyone can afford.
+
+
+    My friends, if you like this video you can help to grow the channel:
+
+    👍 Rate the video ❤️
+
+
+    ✍️ WRITE A COMMENT, ask me a question and share your cooking ideas! I will be more than happy to answer all comments.\ 
+
+
+    Thank you so much for watching and see you again soon! 💚 😊 💖
+
+
+    #recipe #vegan #lentils #cooking"
+  channel: "We Cook Vegan"
+  channelId: "UCF0yxeCMkXjUhXgmOnsvs8w"
+  duration: "PT3M15S"
+  publishedAt: "2025-10-19T17:00:32Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/LaMwuhdrqpM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=LaMwuhdrqpM"
 processedAt: "2026-01-16T15:19:15.971Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/LaMwuhdrqpM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=LaMwuhdrqpM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Unbelievable! Mix 1 cup lentils with water to surprise everyone! Incredibly simple and delicious lentil recipe! This lentil tofu tastes better than meat and is high protein. Incredibly tasty way to cook lentils! My whole family and friends like it so much! Watch the video and learn the new way how to cook lentils at home, it’s easy, highly nutritious! Everyone will be delighted with its taste! Happy cooking and wishing you a wonderful day! 😊 💖
-  
-  ❤️ SUBSCRIBE to see new recipes: https://www.youtube.com/@WeCookVegan
-  
-  🥣 Ingredients:
-  1 cup red lentils (7oz | 200g)
-  3 cups boiling water (24fl oz | 700ml)
-  1/2tsp salt (optional)
-  
-  🧑‍🍳 Cooking tips: 
-  ℹ️ Feel free to add your favourite dried herbs and spices to get the flavour you enjoy the most.
-  ℹ️ You can store lentil tofu in an air-tight container in the fridge for up to 4 days.
-  ℹ️ You can add sauce to lentils tofu or season with spices, whatever you prefer. You can also stir fry it or bake in the oven and enjoy in a salad or a rice dish. 
-  
-  ✅ℹ️ On my cooking channel you will find many more easy vegan recipes!  You will learn how to cook delicious plant based dishes with little time and on a budget with ingredients anyone can afford.
-  
-  My friends, if you like this video you can help to grow the channel:
-  👍 Rate the video ❤️
-  
-  ✍️ WRITE A COMMENT, ask me a question and share your cooking ideas! I will be more than happy to answer all comments. 
-  
-  Thank you so much for watching and see you again soon! 💚 😊 💖
-  
-  #recipe #vegan #lentils #cooking
-tldr: |
-  Create a high-protein soy-free tofu using only red lentils and water:
+tldr: "Create a high-protein soy-free tofu using only red lentils and water:
+
   - **Preparation**: Soak 1 cup rinsed red lentils in 3 cups boiling water for 30 minutes, then blend smooth.
+
   - **Cooking**: Whisk constantly over heat for 7-10 minutes until thick, then set in the fridge overnight.
-  - **Finishing**: Slice into cubes and air fry at 400°F (200°C) for 15 minutes for a crispy texture.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 807
-outputTokens: 800
-totalTokens: 2354
-processingTimeMs: 11064
+
+  - **Finishing**: Slice into cubes and air fry at 400°F (200°C) for 15 minutes for a crispy texture.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 807
+  outputTokens: 800
+  totalTokens: 2354
+  processingTimeMs: 11064
 ---
 
 ## Key Takeaways

@@ -1,68 +1,91 @@
 ---
-title: "My 3-Step Claude Skill for Perfect UX Design"
-videoId: "nDHXLnwlIaY"
-channel: "Sean Kochel"
-channelId: "UCFig7skuwYrCIGy0tuZHA2Q"
-duration: "PT18M8S"
-publishedAt: "2026-01-12T17:05:34Z"
+metadata:
+  videoId: "nDHXLnwlIaY"
+  title: "My 3-Step Claude Skill for Perfect UX Design"
+  description: "Get the prompts and skills from the video for free here: https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
+
+
+    In this video, I show you my 3-step Claude Skill workflow for creating professional UX design that actually looks polished—not the generic vanilla UI that most AI builders end up with.\ 
+
+
+    If you've been wondering how to use Claude Skills to level up your app development, this tutorial breaks down exactly how to create Claude Skills that generate detailed user experience documentation before you write a single line of code.
+
+
+
+    ⌚ Timestamps:
+
+    0:00 - The problem with vanilla AI-generated UIs
+
+    0:50 - Step 1: Creating the PRD
+
+    3:04 - Why this isn't enough (the step most builders skip)
+
+    4:28 - Step 2: Defining the user experience
+
+    5:41 - What goes into professional UX documentation
+
+    8:15 - Running the Claude Skill workflow
+
+    11:49 - Step 3: Building the prototype prompt by prompt
+
+    14:03 - Final result walkthrough
+
+    16:26 - Before vs After comparison
+
+
+    🗄️ Resources:
+
+
+    Claude Skills + Prompts → https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
+
+
+    💪 Who Am I?
+
+
+    My name is Sean... I'm a biotech consultant turned tech bootcamp bro-coder turned tech company sales engineer turned digital marketing entrepreneur turned back into a tech bro entrepreneur.
+
+    Learning all I can about AI and trying to communicate some knowledge along the way.
+
+
+    The singularity is near!
+
+
+    👇 My Other social accounts
+
+    📸 Instagram: https://www.instagram.com/seankochel/
+
+    🐦 X/Twitter: https://x.com/IAmSeanKochel
+
+    👨‍💻 Linkedin: https://www.linkedin.com/in/sean-kochel/
+
+    🎥 Facebook: https://www.facebook.com/realseankochel"
+  channel: "Sean Kochel"
+  channelId: "UCFig7skuwYrCIGy0tuZHA2Q"
+  duration: "PT18M8S"
+  publishedAt: "2026-01-12T17:05:34Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/nDHXLnwlIaY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=nDHXLnwlIaY"
 processedAt: "2026-01-14T16:28:53.549Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/nDHXLnwlIaY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=nDHXLnwlIaY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Get the prompts and skills from the video for free here: https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
-  
-  In this video, I show you my 3-step Claude Skill workflow for creating professional UX design that actually looks polished—not the generic vanilla UI that most AI builders end up with. 
-  
-  If you've been wondering how to use Claude Skills to level up your app development, this tutorial breaks down exactly how to create Claude Skills that generate detailed user experience documentation before you write a single line of code.
-  
-  
-  ⌚ Timestamps:
-  0:00 - The problem with vanilla AI-generated UIs
-  0:50 - Step 1: Creating the PRD
-  3:04 - Why this isn't enough (the step most builders skip)
-  4:28 - Step 2: Defining the user experience
-  5:41 - What goes into professional UX documentation
-  8:15 - Running the Claude Skill workflow
-  11:49 - Step 3: Building the prototype prompt by prompt
-  14:03 - Final result walkthrough
-  16:26 - Before vs After comparison
-  
-  🗄️ Resources:
-  
-  Claude Skills + Prompts → https://www.skool.com/tech-snack/classroom/0ca89703?md=f88e1774a2c249029057f3e5298e9d47
-  
-  💪 Who Am I?
-  
-  My name is Sean... I'm a biotech consultant turned tech bootcamp bro-coder turned tech company sales engineer turned digital marketing entrepreneur turned back into a tech bro entrepreneur.
-  Learning all I can about AI and trying to communicate some knowledge along the way.
-  
-  The singularity is near!
-  
-  👇 My Other social accounts
-  📸 Instagram: https://www.instagram.com/seankochel/
-  🐦 X/Twitter: https://x.com/IAmSeanKochel
-  👨‍💻 Linkedin: https://www.linkedin.com/in/sean-kochel/
-  🎥 Facebook: https://www.facebook.com/realseankochel
-tldr: |
-  Eliminate generic 'vanilla' AI-generated interfaces by implementing a structured 3-step planning workflow in Claude. This method moves beyond basic functionality to professional-grade design:
+tldr: "Eliminate generic 'vanilla' AI-generated interfaces by implementing a structured 3-step planning workflow in Claude. This method moves beyond basic functionality to professional-grade design:
+
   - **Define a PRD** to establish core logic and MVP features
+
   - **Generate a UX Specification** covering mental models, information architecture, and affordances
-  - **Execute a Build Order** via sequential promp
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4554
-outputTokens: 924
-totalTokens: 6272
-processingTimeMs: 12861
+
+  - **Execute a Build Order** via sequential promp\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4554
+  outputTokens: 924
+  totalTokens: 6272
+  processingTimeMs: 12861
 ---
 
 ## Key Takeaways

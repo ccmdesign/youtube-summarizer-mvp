@@ -1,36 +1,38 @@
 ---
-title: "Identity for AI Agents - Patrick Riley & Carlos Galan, Auth0"
-videoId: "VSdV-AdSlis"
-channel: "AI Engineer"
-channelId: "UCLKPca3kwwd-B59HNr-_lvA"
-duration: "PT1H22M12S"
-publishedAt: "2026-01-14T15:03:01Z"
+metadata:
+  videoId: "VSdV-AdSlis"
+  title: "Identity for AI Agents - Patrick Riley & Carlos Galan, Auth0"
+  description: "Implementing secure identity and access management for AI agents with Okta!
+
+
+    https://www.linkedin.com/in/patmriley/
+
+    https://www.linkedin.com/posts/cgcladera_auth0-for-ai-agents-secure-agentic-apps-activity-7399029829565579264-9Gdf/"
+  channel: "AI Engineer"
+  channelId: "UCLKPca3kwwd-B59HNr-_lvA"
+  duration: "PT1H22M12S"
+  publishedAt: "2026-01-14T15:03:01Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/VSdV-AdSlis/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=VSdV-AdSlis"
 processedAt: "2026-01-14T16:48:46.785Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/VSdV-AdSlis/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=VSdV-AdSlis"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Implementing secure identity and access management for AI agents with Okta!
-  
-  https://www.linkedin.com/in/patmriley/
-  https://www.linkedin.com/posts/cgcladera_auth0-for-ai-agents-secure-agentic-apps-activity-7399029829565579264-9Gdf/
-tldr: |
-  Auth0's Patrick Riley and Carlos Galan present a framework for securing **AI agents** by evolving traditional identity protocols. 
+tldr: "Auth0's Patrick Riley and Carlos Galan present a framework for securing **AI agents** by evolving traditional identity protocols.\ 
+
   - **Token Vault** manages upstream API access securely.
+
   - **Async Auth (CIBA)** enables real-time human-in-the-loop approvals for risky actions.
-  - **MCP Integration** provides a standardized way to authorize tools and resources.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 15401
-outputTokens: 1261
-totalTokens: 17582
-processingTimeMs: 518135
+
+  - **MCP Integration** provides a standardized way to authorize tools and resources.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 15401
+  outputTokens: 1261
+  totalTokens: 17582
+  processingTimeMs: 518135
 ---
 
 ## Key Takeaways

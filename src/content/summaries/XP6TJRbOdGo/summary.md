@@ -1,55 +1,65 @@
 ---
-title: "I Wasn't Ready For What This Does"
-videoId: "XP6TJRbOdGo"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT9M37S"
-publishedAt: "2026-01-12T14:01:14Z"
+metadata:
+  videoId: "XP6TJRbOdGo"
+  title: "I Wasn't Ready For What This Does"
+  description: "Gemini 3 has changed the game. In this gemini 3 review, I combine gemini veo 3, google ai studio tools, and whisk ai into one powerful workflow to build professional landing pages with smooth scroll animations.
+
+
+
+
+    Google Whisk: https://labs.google/fx/tools/whisk\ 
+
+
+    Google Flow: https://labs.google/flow/about\ 
+
+
+    Hero UI: https://www.heroui.com/\ 
+
+
+    Motion: https://motion.dev/\ 
+
+
+    21st.dev: https://21st.dev/
+
+
+
+    Google Gemini 3 powers some incredible experimental tools that most people don't know how to use together. Whether you've seen the debates around gpt 5.2 vs gemini 3 or chatgpt 5.2 vs gemini 3, the real question isn't which model wins on benchmarks. It's about what you can actually build.
+
+    In this video, I walk through a complete workflow using Whisk (powered by Nano Banana Pro for image generation and Gemini 3 for prompt enhancement), Google Flow with gemini veo 3 for video creation, and Claude Code for implementation. You'll see how to generate consistent keyframes, create smooth transitions between them, convert assets for web performance, and build a polished landing page with Hero UI and Motion.dev.
+
+    This isn't vibe coding where you hope for the best. It's a structured approach that combines AI tools strategically. While discussions about gemini 3 pro vs gpt 5.1 or gemini 3 vs gpt 5.2 dominate AI news, I'm focused on showing you practical applications with tools like gemini 3 flash, gemini 3 pro, and gemini 3 deep think capabilities through Google AI Studio.
+
+    I also show you how to use 21st.dev for component inspiration and how Claude Code automatically adapts components to fit your project without explicit instructions.
+
+
+    Hashtags:
+
+    #ai #gemini #claudecode #chatgpt #googleaistudio #ainews #vibecoding #nanabananapro #antigravity #googleantigravity"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT9M37S"
+  publishedAt: "2026-01-12T14:01:14Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/XP6TJRbOdGo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=XP6TJRbOdGo"
 processedAt: "2026-01-14T16:23:10.424Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/XP6TJRbOdGo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=XP6TJRbOdGo"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Gemini 3 has changed the game. In this gemini 3 review, I combine gemini veo 3, google ai studio tools, and whisk ai into one powerful workflow to build professional landing pages with smooth scroll animations.
-  
-  
-  
-  Google Whisk: https://labs.google/fx/tools/whisk 
-  
-  Google Flow: https://labs.google/flow/about 
-  
-  Hero UI: https://www.heroui.com/ 
-  
-  Motion: https://motion.dev/ 
-  
-  21st.dev: https://21st.dev/
-  
-  
-  Google Gemini 3 powers some incredible experimental tools that most people don't know how to use together. Whether you've seen the debates around gpt 5.2 vs gemini 3 or chatgpt 5.2 vs gemini 3, the real question isn't which model wins on benchmarks. It's about what you can actually build.
-  In this video, I walk through a complete workflow using Whisk (powered by Nano Banana Pro for image generation and Gemini 3 for prompt enhancement), Google Flow with gemini veo 3 for video creation, and Claude Code for implementation. You'll see how to generate consistent keyframes, create smooth transitions between them, convert assets for web performance, and build a polished landing page with Hero UI and Motion.dev.
-  This isn't vibe coding where you hope for the best. It's a structured approach that combines AI tools strategically. While discussions about gemini 3 pro vs gpt 5.1 or gemini 3 vs gpt 5.2 dominate AI news, I'm focused on showing you practical applications with tools like gemini 3 flash, gemini 3 pro, and gemini 3 deep think capabilities through Google AI Studio.
-  I also show you how to use 21st.dev for component inspiration and how Claude Code automatically adapts components to fit your project without explicit instructions.
-  
-  Hashtags:
-  #ai #gemini #claudecode #chatgpt #googleaistudio #ainews #vibecoding #nanabananapro #antigravity #googleantigravity
-tldr: |
-  Building professional, high-performance landing pages requires a **multi-tool AI workflow** rather than single-shot prompts. 
+tldr: "Building professional, high-performance landing pages requires a **multi-tool AI workflow** rather than single-shot prompts.\ 
+
   - **Google Whisk & Flow**: Use these for consistent asset generation and keyframe-based animations via the **VO 3.1** model.
-  - **Optimized Implementation**: Convert video to **WEBP** for scroll-mapping and use **Claude** with XML-structured prompts to integrate libraries li
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2655
-outputTokens: 863
-totalTokens: 4322
-processingTimeMs: 12117
+
+  - **Optimized Implementation**: Convert video to **WEBP** for scroll-mapping and use **Claude** with XML-structured prompts to integrate libraries li\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2655
+  outputTokens: 863
+  totalTokens: 4322
+  processingTimeMs: 12117
 ---
 
 ## Key Takeaways

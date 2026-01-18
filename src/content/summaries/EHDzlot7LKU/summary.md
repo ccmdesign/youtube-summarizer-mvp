@@ -1,41 +1,50 @@
 ---
-title: "The Last Claude Code Tutorial You'll Ever Need"
-videoId: "EHDzlot7LKU"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT8M44S"
-publishedAt: "2026-01-04T13:00:33Z"
+metadata:
+  videoId: "EHDzlot7LKU"
+  title: "The Last Claude Code Tutorial You'll Ever Need"
+  description: "Master ai coding workflows with context engineering—the real principles behind every vibe coding framework. Whether you use Claude Code or Cursor AI, these fundamentals will transform how you build apps.
+
+
+
+    Stop relying on pre-made frameworks that don't fit your projects. In this video, we break down the core principles that make ai coding workflows actually work—progressive disclosure, structured note-taking, attention budgets, subagents, and more.
+
+    If you're looking for the best ai for coding or wondering what the best coding ai approach is, this guide reveals why coding with ai fails for most people: they don't understand context window management. Whether you're doing ai ide coding with Claude Code or Cursor AI, these principles apply universally.
+
+    This isn't just another claude code tutorial. We dive deep into claude code skills, claude code agents, and how to use claude code effectively for long-horizon tasks. Wondering about claude code vs cursor? Both tools use these same fundamentals—the difference is how you apply them.
+
+    You'll learn token-effective file formats, Git strategies for ai coding workflow management, slash commands for reusable prompts, and when to use MCP servers for external data. Perfect for software engineering professionals and coding for beginners alike.
+
+    These programming and artificial intelligence principles work with any agentic ai system. Whether you're using ai tools like ChatGPT, OpenAI models, or dedicated ai agents, understanding context engineering is non-negotiable for serious coding with ai.
+
+
+    Hashtags
+
+    #agenticai #aiagent #chatgpt #openai #ai #vibecoding #mcpserver #aitools #claudecode"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT8M44S"
+  publishedAt: "2026-01-04T13:00:33Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/EHDzlot7LKU/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=EHDzlot7LKU"
 processedAt: "2026-01-08T01:14:01.726Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/EHDzlot7LKU/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=EHDzlot7LKU"
-modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
-description: |
-  Master ai coding workflows with context engineering—the real principles behind every vibe coding framework. Whether you use Claude Code or Cursor AI, these fundamentals will transform how you build apps.
-  
-  
-  Stop relying on pre-made frameworks that don't fit your projects. In this video, we break down the core principles that make ai coding workflows actually work—progressive disclosure, structured note-taking, attention budgets, subagents, and more.
-  If you're looking for the best ai for coding or wondering what the best coding ai approach is, this guide reveals why coding with ai fails for most people: they don't understand context window management. Whether you're doing ai ide coding with Claude Code or Cursor AI, these principles apply universally.
-  This isn't just another claude code tutorial. We dive deep into claude code skills, claude code agents, and how to use claude code effectively for long-horizon tasks. Wondering about claude code vs cursor? Both tools use these same fundamentals—the difference is how you apply them.
-  You'll learn token-effective file formats, Git strategies for ai coding workflow management, slash commands for reusable prompts, and when to use MCP servers for external data. Perfect for software engineering professionals and coding for beginners alike.
-  These programming and artificial intelligence principles work with any agentic ai system. Whether you're using ai tools like ChatGPT, OpenAI models, or dedicated ai agents, understanding context engineering is non-negotiable for serious coding with ai.
-  
-  Hashtags
-  #agenticai #aiagent #chatgpt #openai #ai #vibecoding #mcpserver #aitools #claudecode
-tldr: |
-  Claude's **Code Assist feature** enables efficient coding by:
+tldr: "Claude's **Code Assist feature** enables efficient coding by:
+
   - Generating production-ready code in **multiple languages**
+
   - Providing **real-time debugging** with step-by-step explanations
-  - Allowing **natural language prompts** for iterative refinement
-# AI Processing Metrics
-aiProvider: "openrouter"
-apiCalls: 5
-fallbackAttempts: 4
-inputTokens: 486
-outputTokens: 1493
-totalTokens: 1979
-processingTimeMs: 77412
+
+  - Allowing **natural language prompts** for iterative refinement\n"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-r1-0528:free"
+  apiCalls: 5
+  fallbackAttempts: 4
+  inputTokens: 486
+  outputTokens: 1493
+  totalTokens: 1979
+  processingTimeMs: 77412
 ---
 
 ## Key Takeaways

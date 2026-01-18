@@ -1,20 +1,26 @@
 ---
-title: "A Better Way to Use Your Phone"
-videoId: "Ha5mtqtHboY"
-channel: "Sam Harris"
-channelId: "UCNAxrHudMfdzNi6NxruKPLw"
-duration: "PT8M21S"
-publishedAt: "2026-01-01T14:30:11Z"
+metadata:
+  videoId: "Ha5mtqtHboY"
+  title: "A Better Way to Use Your Phone"
+  description: "Get 30 Days Of Waking Up Free\r
+
+    https://www.wakingup.com/makingsense"
+  channel: "Sam Harris"
+  channelId: "UCNAxrHudMfdzNi6NxruKPLw"
+  duration: "PT8M21S"
+  publishedAt: "2026-01-01T14:30:11Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Ha5mtqtHboY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Ha5mtqtHboY"
 processedAt: "2026-01-01T23:34:38.231Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/Ha5mtqtHboY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Ha5mtqtHboY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Get 30 Days Of Waking Up Free
-  https://www.wakingup.com/makingsense
 tldr: "Reclaim your attention by treating your smartphone as a tool rather than a source of entertainment; disable non-human notifications and use intentionality to break reactive dopamine loops."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 The modern smartphone has evolved into a "digital slot machine" that exploits human neurobiology to capture and hold attention. The central conflict of the digital age is that our devices are designed by thousands of engineers to be as addictive as possible, creating a state of perpetual distraction that erodes our ability to be present, think deeply, and maintain mental clarity.

@@ -1,52 +1,64 @@
 ---
-title: "\"okay, but I want Gemini3 to perform 10x for my specific use case\" - Here is how"
-videoId: "UuyaeSLRTkE"
-channel: "AI Jason"
-channelId: "UCrXSVX9a1mj8l0CMLwKgMVw"
-duration: "PT12M33S"
-publishedAt: "2025-11-23T10:45:05Z"
+metadata:
+  videoId: "UuyaeSLRTkE"
+  title: "\"okay, but I want Gemini3 to perform 10x for my specific use case\" - Here is how"
+  description: "Best Claude/Gemini prompt collection: https://clickhubspot.com/f99e63
+
+
+    🔗 Links
+
+    - Try Superdesign agent: http://superdesign.dev/
+
+    - Get the UI design prompt: https://www.aibuilderclub.com/
+
+    - Follow me on twitter: https://twitter.com/jasonzhou1993
+
+
+    ⏱️ Timestamps
+
+    0:00 Gemini3 prompt examples
+
+    0:32 How Anthropic 10x Sonnet 4.5 frontend design skill
+
+    04:55 3 step prompt guide process
+
+    07:25 Case study - train model excalidraw generation
+
+
+
+    👋🏻 About Me
+
+    My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
+
+
+    #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk"
+  channel: "AI Jason"
+  channelId: "UCrXSVX9a1mj8l0CMLwKgMVw"
+  duration: "PT12M33S"
+  publishedAt: "2025-11-23T10:45:05Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/UuyaeSLRTkE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=UuyaeSLRTkE"
 processedAt: "2026-01-12T23:31:59.609Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/UuyaeSLRTkE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=UuyaeSLRTkE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Best Claude/Gemini prompt collection: https://clickhubspot.com/f99e63
-  
-  🔗 Links
-  - Try Superdesign agent: http://superdesign.dev/
-  - Get the UI design prompt: https://www.aibuilderclub.com/
-  - Follow me on twitter: https://twitter.com/jasonzhou1993
-  
-  ⏱️ Timestamps
-  0:00 Gemini3 prompt examples
-  0:32 How Anthropic 10x Sonnet 4.5 frontend design skill
-  04:55 3 step prompt guide process
-  07:25 Case study - train model excalidraw generation
-  
-  
-  👋🏻 About Me
-  My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
-  
-  #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk
-tldr: |
-  Maximize **Gemini 3** and reasoning models by moving beyond context-heavy prompting toward systematic steerability. 
+tldr: "Maximize **Gemini 3** and reasoning models by moving beyond context-heavy prompting toward systematic steerability.\ 
+
   - **Identify Convergent Defaults**: Target the model's 'boring' baseline behaviors
+
   - **Root Cause Analysis**: Use 'debug mode' to understand why the model fails
-  - **Right Altitude**: Provide logical reasoning principles rather than rigid, over-fitted rules
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3220
-outputTokens: 859
-totalTokens: 5383
-processingTimeMs: 14759
+
+  - **Right Altitude**: Provide logical reasoning principles rather than rigid, over-fitted rules\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3220
+  outputTokens: 859
+  totalTokens: 5383
+  processingTimeMs: 14759
 ---
 
 ## Key Takeaways

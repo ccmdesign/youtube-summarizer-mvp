@@ -1,30 +1,44 @@
 ---
-title: "Claude Code 'Interview' Mode in 6 Minutes"
-videoId: "vgHBEju4kGE"
-channel: "Developers Digest"
-channelId: "UCuE6iwZKgGz8s6kznBRI9LQ"
-duration: "PT5M47S"
-publishedAt: "2026-01-01T17:19:40Z"
+metadata:
+  videoId: "vgHBEju4kGE"
+  title: "Claude Code 'Interview' Mode in 6 Minutes"
+  description: "Effortless Project Planning: Mastering Spec-Driven Development with Claude Code
+
+
+    Kick off the new year with a fresh approach to project planning using Claude Code! In this video, learn how to achieve better project outcomes by focusing on a spec-driven development process. Inspired by Tariq from Claude Code, this method emphasizes slowing down to speed up by having Claude interview you before diving into coding. Discover how the 'Ask User Question' tool can lead to more detailed and well-thought-out specifications, ultimately saving you time and improving your code quality. Perfect for developers tackling large features, this video reveals the power of an interview-first, spec-second, code-last approach.
+
+
+    00:00 Introduction: Kickstarting the Year with Claude Code
+
+    00:06 The Concept of Spec-Driven Development
+
+    00:59 Using the Ask User Tool
+
+    03:08 Practical Demonstration: Building a Next.js App
+
+    03:54 Plan Mode vs. Interview Mode
+
+    04:14 Implementing the Interview Skill
+
+    04:44 Benefits of Spec-Driven Development
+
+    05:25 Conclusion and Final Thoughts"
+  channel: "Developers Digest"
+  channelId: "UCuE6iwZKgGz8s6kznBRI9LQ"
+  duration: "PT5M47S"
+  publishedAt: "2026-01-01T17:19:40Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/vgHBEju4kGE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=vgHBEju4kGE"
 processedAt: "2026-01-01T23:34:14.905Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/vgHBEju4kGE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=vgHBEju4kGE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Effortless Project Planning: Mastering Spec-Driven Development with Claude Code
-  
-  Kick off the new year with a fresh approach to project planning using Claude Code! In this video, learn how to achieve better project outcomes by focusing on a spec-driven development process. Inspired by Tariq from Claude Code, this method emphasizes slowing down to speed up by having Claude interview you before diving into coding. Discover how the 'Ask User Question' tool can lead to more detailed and well-thought-out specifications, ultimately saving you time and improving your code quality. Perfect for developers tackling large features, this video reveals the power of an interview-first, spec-second, code-last approach.
-  
-  00:00 Introduction: Kickstarting the Year with Claude Code
-  00:06 The Concept of Spec-Driven Development
-  00:59 Using the Ask User Tool
-  03:08 Practical Demonstration: Building a Next.js App
-  03:54 Plan Mode vs. Interview Mode
-  04:14 Implementing the Interview Skill
-  04:44 Benefits of Spec-Driven Development
-  05:25 Conclusion and Final Thoughts
 tldr: "Claude Code’s Interview mode transforms the CLI from a task executor into a proactive mentor that uses your specific codebase to facilitate deep technical reviews and mock interview practice."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 Claude Code is Anthropic’s command-line interface (CLI) tool designed for agentic coding. While its primary use is writing and refactoring code, the "Interview" mode is a specialized setting focused on knowledge transfer, architectural understanding, and professional development.

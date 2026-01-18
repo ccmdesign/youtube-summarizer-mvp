@@ -1,67 +1,93 @@
 ---
-title: "Gemini Conductor: NEW Google Toolkit Ends Vibe Coding! 100x Better Than Vibe Coding (Full Tutorial)"
-videoId: "rLu_3hpG0b8"
-channel: "WorldofAI"
-channelId: "UC2WmuBuFq6gL08QYG-JjXKw"
-duration: "PT10M13S"
-publishedAt: "2025-12-20T05:47:20Z"
+metadata:
+  videoId: "rLu_3hpG0b8"
+  title: "Gemini Conductor: NEW Google Toolkit Ends Vibe Coding! 100x Better Than Vibe Coding (Full Tutorial)"
+  description: "🔗 My Links:
+
+    Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com
+
+    🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi
+
+    🧠 Follow me on Twitter: https://twitter.com/intheworldofai\ 
+
+    🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ\ 
+
+    👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)
+
+    🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/
+
+    👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
+
+
+    [Must Watch]:
+
+    Gemini 3.0 Flash: Google's Greatest Model Ever? Most Powerful, Cheapest, & Fastest Model! (Tested): https://www.youtube.com/watch?v=izXjYxKTI_k&pp=2AYB
+
+    Google NotebookLM Is INSANELY GOOD! Deep Research UPDATE!: https://www.youtube.com/watch?v=1nPspomVwNM
+
+    Neo: AI Web Browser Can DO ANYTHING & Automate Your Life! Chrome Killer?: https://www.youtube.com/watch?v=ztUwEI0oksY
+
+
+    📌 LINKS & RESOURCES
+
+    Github Repo: https://github.com/gemini-cli-extensions/conductor
+
+    Blog: https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/
+
+    Gemini CLI: https://geminicli.com/
+
+    Conductor Extension: https://geminicli.com/extensions/?name=gemini-cli-extensionsconductor
+
+
+    Learn how to:
+
+    Set up your project context ✅
+
+    Create specs and actionable plans 📄
+
+    Execute code reliably with AI agents 🤖
+
+    Work seamlessly on existing codebases (brownfield projects) 💻
+
+    Keep your team’s workflow consistent and scalable 👥
+
+
+    Don’t miss this tutorial if you want to level up your AI coding game with Google’s Conductor!
+
+
+    Hashtags:
+
+    #GeminiConductor #GoogleAI #ContextDrivenDevelopment #AIProductivity #AICoding #SpecDrivenDevelopment #GeminiCLI #AIWorkflow #BrownfieldProjects #CodingWithAI #TechTutorial #DeveloperTools #AIForDevelopers #AgenticDevelopment
+
+
+    Tags (comma-separated):
+
+    Gemini Conductor, Google AI, AI coding, Gemini CLI, context-driven development, spec-driven development, AI productivity, Vibe Coding alternative, AI workflow, brownfield projects, AI for developers, agentic development, coding tutorial, developer tools, AI project management"
+  channel: "WorldofAI"
+  channelId: "UC2WmuBuFq6gL08QYG-JjXKw"
+  duration: "PT10M13S"
+  publishedAt: "2025-12-20T05:47:20Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/rLu_3hpG0b8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=rLu_3hpG0b8"
 processedAt: "2026-01-12T14:24:20.860Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/rLu_3hpG0b8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=rLu_3hpG0b8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  🔗 My Links:
-  Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com
-  🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi
-  🧠 Follow me on Twitter: https://twitter.com/intheworldofai 
-  🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ 
-  👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)
-  🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/
-  👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
-  
-  [Must Watch]:
-  Gemini 3.0 Flash: Google's Greatest Model Ever? Most Powerful, Cheapest, & Fastest Model! (Tested): https://www.youtube.com/watch?v=izXjYxKTI_k&pp=2AYB
-  Google NotebookLM Is INSANELY GOOD! Deep Research UPDATE!: https://www.youtube.com/watch?v=1nPspomVwNM
-  Neo: AI Web Browser Can DO ANYTHING & Automate Your Life! Chrome Killer?: https://www.youtube.com/watch?v=ztUwEI0oksY
-  
-  📌 LINKS & RESOURCES
-  Github Repo: https://github.com/gemini-cli-extensions/conductor
-  Blog: https://developers.googleblog.com/conductor-introducing-context-driven-development-for-gemini-cli/
-  Gemini CLI: https://geminicli.com/
-  Conductor Extension: https://geminicli.com/extensions/?name=gemini-cli-extensionsconductor
-  
-  Learn how to:
-  Set up your project context ✅
-  Create specs and actionable plans 📄
-  Execute code reliably with AI agents 🤖
-  Work seamlessly on existing codebases (brownfield projects) 💻
-  Keep your team’s workflow consistent and scalable 👥
-  
-  Don’t miss this tutorial if you want to level up your AI coding game with Google’s Conductor!
-  
-  Hashtags:
-  #GeminiConductor #GoogleAI #ContextDrivenDevelopment #AIProductivity #AICoding #SpecDrivenDevelopment #GeminiCLI #AIWorkflow #BrownfieldProjects #CodingWithAI #TechTutorial #DeveloperTools #AIForDevelopers #AgenticDevelopment
-  
-  Tags (comma-separated):
-  Gemini Conductor, Google AI, AI coding, Gemini CLI, context-driven development, spec-driven development, AI productivity, Vibe Coding alternative, AI workflow, brownfield projects, AI for developers, agentic development, coding tutorial, developer tools, AI project management
-tldr: |
-  Google's Gemini Conductor is a free, spec-driven framework for the Gemini CLI that eliminates 'vibe coding' by transforming prompts into persistent markdown files.
+tldr: "Google's Gemini Conductor is a free, spec-driven framework for the Gemini CLI that eliminates 'vibe coding' by transforming prompts into persistent markdown files.
+
   - Uses /conductor setup to create a living 'source of truth' within the repo.
-  - Enables autonomous code implementation via /conductor implement while maintaining architectural consistency across brownfield projects.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2585
-outputTokens: 960
-totalTokens: 4076
-processingTimeMs: 11418
+
+  - Enables autonomous code implementation via /conductor implement while maintaining architectural consistency across brownfield projects.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2585
+  outputTokens: 960
+  totalTokens: 4076
+  processingTimeMs: 11418
 ---
 
 ## Key Takeaways

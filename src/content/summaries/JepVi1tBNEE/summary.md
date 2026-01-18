@@ -1,53 +1,68 @@
 ---
-title: "Introducing Agent Skills in VS Code"
-videoId: "JepVi1tBNEE"
-channel: "Visual Studio Code"
-channelId: "UCs5Y5_7XK8HLDX0SLNwkd3w"
-duration: "PT5M11S"
-publishedAt: "2026-01-09T20:10:27Z"
+metadata:
+  videoId: "JepVi1tBNEE"
+  title: "Introducing Agent Skills in VS Code"
+  description: "Unlock the power of Agent Skills in VS Code! In this video, we break down what Agent Skills are, why they’re game‑changing for developers, and how to create your first skill in minutes.
+
+
+    🔎 Chapters:
+
+    00:00 Agent Skills in VS Code
+
+    00:41 Demo
+
+    04:45 In Summary
+
+    05:07 Wrap
+
+
+    🔗 Links:
+
+    Agent Skills Docs: https://code.visualstudio.com/docs/copilot/customization/agent-skills
+
+    Agent Skills: https://agentskills.io
+
+
+    🎙️ Featuring: James Montgemagno (@JamesMontemagno)
+
+
+    📲 Follow VS Code:
+
+    * X: https://x.com/code
+
+    * Bluesky: https://bsky.app/profile/vscode.dev
+
+    * YouTube: https://youtube.com/code
+
+    * LinkedIn: https://www.linkedin.com/showcase/104107263
+
+    * GitHub: https://github.com/microsoft/vscode
+
+
+    #vscode #agentskills"
+  channel: "Visual Studio Code"
+  channelId: "UCs5Y5_7XK8HLDX0SLNwkd3w"
+  duration: "PT5M11S"
+  publishedAt: "2026-01-09T20:10:27Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/JepVi1tBNEE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=JepVi1tBNEE"
 processedAt: "2026-01-10T19:52:52.655Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/JepVi1tBNEE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=JepVi1tBNEE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Unlock the power of Agent Skills in VS Code! In this video, we break down what Agent Skills are, why they’re game‑changing for developers, and how to create your first skill in minutes.
-  
-  🔎 Chapters:
-  00:00 Agent Skills in VS Code
-  00:41 Demo
-  04:45 In Summary
-  05:07 Wrap
-  
-  🔗 Links:
-  Agent Skills Docs: https://code.visualstudio.com/docs/copilot/customization/agent-skills
-  Agent Skills: https://agentskills.io
-  
-  🎙️ Featuring: James Montgemagno (@JamesMontemagno)
-  
-  📲 Follow VS Code:
-  * X: https://x.com/code
-  * Bluesky: https://bsky.app/profile/vscode.dev
-  * YouTube: https://youtube.com/code
-  * LinkedIn: https://www.linkedin.com/showcase/104107263
-  * GitHub: https://github.com/microsoft/vscode
-  
-  #vscode #agentskills
-tldr: |
-  Agent skills are portable, action-oriented folders (instructions, scripts, and resources) that load on demand to automate domain-specific tasks.
+tldr: "Agent skills are portable, action-oriented folders (instructions, scripts, and resources) that load on demand to automate domain-specific tasks.
+
   - They utilize an open standard compatible with VS Code, GitHub Copilot, and CLI.
-  - Unlike static instructions, skills enable complex workflows like PRD drafting, image manipulation, and CI setup through progressive loading.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1473
-outputTokens: 840
-totalTokens: 3600
-processingTimeMs: 13168
+
+  - Unlike static instructions, skills enable complex workflows like PRD drafting, image manipulation, and CI setup through progressive loading.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1473
+  outputTokens: 840
+  totalTokens: 3600
+  processingTimeMs: 13168
 ---
 
 ## Key Takeaways

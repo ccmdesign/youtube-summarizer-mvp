@@ -1,69 +1,95 @@
 ---
-title: "Claude Code is Amazing... Until It DELETES Production"
-videoId: "VqDs46A8pqE"
-channel: "IndyDevDan"
-channelId: "UC_x36zCEGilGpB1m-V4gmjg"
-duration: "PT22M23S"
-publishedAt: "2026-01-05T14:00:52Z"
+metadata:
+  videoId: "VqDs46A8pqE"
+  title: "Claude Code is Amazing... Until It DELETES Production"
+  description: "Your agents are ALWAYS ONE hallucination away from DESTROYING everything you've built. 🔥💀🔴
+
+
+    🤖 PROTECT YOUR CODEBASE ⬇️
+
+    Damage Control Skill: https://github.com/disler/claude-code-damage-control
+
+
+    🎥 Video References:
+
+    - Claude Code Prompt Hooks: https://code.claude.com/docs/en/hooks#how-prompt-based-hooks-work
+
+    - Tactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=VqDs46A8pqE
+
+    - Agent Sandbox Video (Opus 4.5): https://youtu.be/3kgx0YxCriM
+
+    - Agent Sandbox Video (Gemini 3): https://youtu.be/V5IhsHEHXOg
+
+
+    It doesn't matter how powerful your AI agents are or how autonomous your agentic coding workflow has become. One bad command, one hallucination, one misinterpreted prompt - and MONTHS of hard work can vanish in an instant. Claude Code hooks are your insurance policy against catastrophic, irreversible damage.
+
+
+    🛠️ In this video, we dive deep into Claude Code damage control - the essential safety layer every agentic engineer needs. Learn how to set up local hooks, global hooks, and the powerful prompt hook that catches dangerous commands your agent has NEVER seen before. Whether you're running Opus 4.5 in Yolo mode or building production-scale AI agents, this damage control system is the armor your code base desperately needs.
+
+
+    💡 We break down a complete Claude skill installation workflow that makes protecting your assets as easy as typing /install. See how the patterns.yaml file gives you granular control over blocked commands, ask permissions, and path protections. From zero-access paths to read-only restrictions, you'll have complete control over what your AI agents can and cannot touch.
+
+
+    🚀 Key takeaways:
+
+    - PreToolUse hooks for catching bash commands before they execute
+
+    - Prompt hooks that use AI to detect dangerous commands you didn't explicitly block
+
+    - Ask patterns that pause your agent and request confirmation for sensitive operations
+
+    - Path protection levels: zero access, read only, and no delete configurations
+
+    - Global hooks that protect EVERY code base on your machine
+
+    - A reusable agent skill that installs in seconds
+
+
+    🔥 This isn't about slowing down your agentic workflows - it's about building TRUST with your AI agents. The best engineers don't just move fast; they move fast with insurance. Clone the damage control skill, run /install, and never worry about your agents destroying your production database or deleting your entire repository again.
+
+
+    Stay focused and keep building.
+
+
+    📖 Chapters
+
+    00:00 Claude Code Damage Control
+
+    02:13 Four Claude Hook Capabilities
+
+    04:14 PreToolUse Prompt Hook
+
+    06:37 PreToolUse Command + patterns.yaml
+
+    08:18 PreTooluse + Ask
+
+    10:03 Delete, Update, Read File Restrictions
+
+    14:30 Damage Control Skill
+
+    17:13 Global Hooks
+
+
+    #claudecode #aiagents #agenticcoding"
+  channel: "IndyDevDan"
+  channelId: "UC_x36zCEGilGpB1m-V4gmjg"
+  duration: "PT22M23S"
+  publishedAt: "2026-01-05T14:00:52Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/VqDs46A8pqE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=VqDs46A8pqE"
 processedAt: "2026-01-12T23:39:53.128Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/VqDs46A8pqE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=VqDs46A8pqE"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Your agents are ALWAYS ONE hallucination away from DESTROYING everything you've built. 🔥💀🔴
-  
-  🤖 PROTECT YOUR CODEBASE ⬇️
-  Damage Control Skill: https://github.com/disler/claude-code-damage-control
-  
-  🎥 Video References:
-  - Claude Code Prompt Hooks: https://code.claude.com/docs/en/hooks#how-prompt-based-hooks-work
-  - Tactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=VqDs46A8pqE
-  - Agent Sandbox Video (Opus 4.5): https://youtu.be/3kgx0YxCriM
-  - Agent Sandbox Video (Gemini 3): https://youtu.be/V5IhsHEHXOg
-  
-  It doesn't matter how powerful your AI agents are or how autonomous your agentic coding workflow has become. One bad command, one hallucination, one misinterpreted prompt - and MONTHS of hard work can vanish in an instant. Claude Code hooks are your insurance policy against catastrophic, irreversible damage.
-  
-  🛠️ In this video, we dive deep into Claude Code damage control - the essential safety layer every agentic engineer needs. Learn how to set up local hooks, global hooks, and the powerful prompt hook that catches dangerous commands your agent has NEVER seen before. Whether you're running Opus 4.5 in Yolo mode or building production-scale AI agents, this damage control system is the armor your code base desperately needs.
-  
-  💡 We break down a complete Claude skill installation workflow that makes protecting your assets as easy as typing /install. See how the patterns.yaml file gives you granular control over blocked commands, ask permissions, and path protections. From zero-access paths to read-only restrictions, you'll have complete control over what your AI agents can and cannot touch.
-  
-  🚀 Key takeaways:
-  - PreToolUse hooks for catching bash commands before they execute
-  - Prompt hooks that use AI to detect dangerous commands you didn't explicitly block
-  - Ask patterns that pause your agent and request confirmation for sensitive operations
-  - Path protection levels: zero access, read only, and no delete configurations
-  - Global hooks that protect EVERY code base on your machine
-  - A reusable agent skill that installs in seconds
-  
-  🔥 This isn't about slowing down your agentic workflows - it's about building TRUST with your AI agents. The best engineers don't just move fast; they move fast with insurance. Clone the damage control skill, run /install, and never worry about your agents destroying your production database or deleting your entire repository again.
-  
-  Stay focused and keep building.
-  
-  📖 Chapters
-  00:00 Claude Code Damage Control
-  02:13 Four Claude Hook Capabilities
-  04:14 PreToolUse Prompt Hook
-  06:37 PreToolUse Command + patterns.yaml
-  08:18 PreTooluse + Ask
-  10:03 Delete, Update, Read File Restrictions
-  14:30 Damage Control Skill
-  17:13 Global Hooks
-  
-  #claudecode #aiagents #agenticcoding
-tldr: |
-  Claude Code's new damage control skill prevents AI agents from **deleting production assets** through a layered hook system. It employs:- **Prompt hooks** for non-deterministic blocking of unknown dangerous commands.- **Deterministic pre-tool use hooks** with configurable patterns for known risky actions.- **Path protection** (zero access, read-only, no delete) and **ask permission** flags for gra
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 5949
-outputTokens: 1244
-totalTokens: 9555
-processingTimeMs: 26915
+tldr: "Claude Code's new damage control skill prevents AI agents from **deleting production assets** through a layered hook system. It employs:- **Prompt hooks** for non-deterministic blocking of unknown dangerous commands.- **Deterministic pre-tool use hooks** with configurable patterns for known risky actions.- **Path protection** (zero access, read-only, no delete) and **ask permission** flags for gra\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 5949
+  outputTokens: 1244
+  totalTokens: 9555
+  processingTimeMs: 26915
 ---
 
 ## Key Takeaways

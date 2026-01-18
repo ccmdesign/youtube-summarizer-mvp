@@ -1,31 +1,32 @@
 ---
-title: "Why So Many Users Hate Windows 11 #microsoft #windows11 #technews"
-videoId: "uzMveQCQa7k"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT1M20S"
-publishedAt: "2026-01-18T13:01:44Z"
+metadata:
+  videoId: "uzMveQCQa7k"
+  title: "Why So Many Users Hate Windows 11 #microsoft #windows11 #technews"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT1M20S"
+  publishedAt: "2026-01-18T13:01:44Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/uzMveQCQa7k/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=uzMveQCQa7k"
 processedAt: "2026-01-18T16:36:36.024Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/uzMveQCQa7k/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=uzMveQCQa7k"
-modelUsed: "gemini-3-flash-preview"
-tldr: |
-  Windows 11 faces an adoption crisis with only 31% market share due to aggressive hardware and software shifts:
+tldr: "Windows 11 faces an adoption crisis with only 31% market share due to aggressive hardware and software shifts:
+
   - **TPM 2.0 mandates** have rendered 400 million PCs obsolete.
+
   - **Mandatory accounts** and the **Recall AI feature** have triggered privacy and security backlashes.
-  - **Performance regressions** and forced cloud syncing are driving users toward Linux alternatives.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 737
-outputTokens: 861
-totalTokens: 2896
-processingTimeMs: 15595
+
+  - **Performance regressions** and forced cloud syncing are driving users toward Linux alternatives.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 737
+  outputTokens: 861
+  totalTokens: 2896
+  processingTimeMs: 15595
 ---
 
 ## Key Takeaways

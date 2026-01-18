@@ -1,60 +1,82 @@
 ---
-title: "Claude Code Can Now Control Your Browser (Thanks to Vercel)"
-videoId: "P7JrP57AxR0"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT6M52S"
-publishedAt: "2026-01-13T15:00:57Z"
+metadata:
+  videoId: "P7JrP57AxR0"
+  title: "Claude Code Can Now Control Your Browser (Thanks to Vercel)"
+  description: "Agent Browser is a headless browser automation CLI that Vercel developed for AI agents (like Claude Code), created by Chris Tate in just a single weekend.\ 
+
+
+    This powerful tool combines a fast Rust CLI with Node.js to give AI agents complete control over web browsers through simple commands like open, click, fill, and snapshot, all with a unique ref-based system that makes element selection deterministic and AI-friendly. With support for multiple browser engines, session management, and seamless integration into existing AI workflows, Agent Browser provides a robust solution for web automation that works perfectly with tools like Claude Code and other AI agents.
+
+
+    🔗 Relevant Links
+
+    Tweet from Chris Tate - https://x.com/ctatedev/status/2010400005887082907
+
+    Agent browser GH - https://github.com/vercel-labs/agent-browser
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    0:00 Intro
+
+    0:22 Agents are taking over in 2026
+
+    0:52 Introducing agent-browser by Vercel
+
+    1:30 Agent browser demo 1 on React + Vite proj
+
+    3:00 Agent browser fixes form validation
+
+    4:17 How agent browser works
+
+    5:06 Agent browser vs Browser Use vs Playwright MCP
+
+    6:30 My thoughts on agent-browser"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT6M52S"
+  publishedAt: "2026-01-13T15:00:57Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/P7JrP57AxR0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=P7JrP57AxR0"
 processedAt: "2026-01-13T15:59:35.110Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/P7JrP57AxR0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=P7JrP57AxR0"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Agent Browser is a headless browser automation CLI that Vercel developed for AI agents (like Claude Code), created by Chris Tate in just a single weekend. 
-  
-  This powerful tool combines a fast Rust CLI with Node.js to give AI agents complete control over web browsers through simple commands like open, click, fill, and snapshot, all with a unique ref-based system that makes element selection deterministic and AI-friendly. With support for multiple browser engines, session management, and seamless integration into existing AI workflows, Agent Browser provides a robust solution for web automation that works perfectly with tools like Claude Code and other AI agents.
-  
-  🔗 Relevant Links
-  Tweet from Chris Tate - https://x.com/ctatedev/status/2010400005887082907
-  Agent browser GH - https://github.com/vercel-labs/agent-browser
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  0:00 Intro
-  0:22 Agents are taking over in 2026
-  0:52 Introducing agent-browser by Vercel
-  1:30 Agent browser demo 1 on React + Vite proj
-  3:00 Agent browser fixes form validation
-  4:17 How agent browser works
-  5:06 Agent browser vs Browser Use vs Playwright MCP
-  6:30 My thoughts on agent-browser
-tldr: |
-  Vercel's Chris Tate released **Agent Browser**, a lightweight, open-source CLI tool that enables AI agents to control web browsers directly from the terminal. 
+tldr: "Vercel's Chris Tate released **Agent Browser**, a lightweight, open-source CLI tool that enables AI agents to control web browsers directly from the terminal.\ 
+
   - **Accessibility snapshots** allow agents to 'see' DOM elements via text trees.
+
   - **Rust-driven architecture** ensures high performance and session persistence.
-  - **CLI-first design** simplifies integration with agents like Claude Code or 
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2051
-outputTokens: 910
-totalTokens: 3409
-processingTimeMs: 10377
+
+  - **CLI-first design** simplifies integration with agents like Claude Code or\ \n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2051
+  outputTokens: 910
+  totalTokens: 3409
+  processingTimeMs: 10377
 ---
 
 ## Key Takeaways

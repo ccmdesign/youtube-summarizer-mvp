@@ -1,42 +1,49 @@
 ---
-title: "Microsoft's Plan to Make People Less Angry About AI and Electricity"
-videoId: "fk89VMo88tI"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT6M45S"
-publishedAt: "2026-01-16T15:05:31Z"
+metadata:
+  videoId: "fk89VMo88tI"
+  title: "Microsoft's Plan to Make People Less Angry About AI and Electricity"
+  description: "Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use, create jobs, increase tax revenue, and fund AI training and nonprofits. Chip export controls, possible bans on NVIDIA H200 shipments, major chip startup fundraising, and OpenAI's acquisition of Torch underscore geopolitical and market tensions around AI and healthcare data.
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT6M45S"
+  publishedAt: "2026-01-16T15:05:31Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/fk89VMo88tI/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=fk89VMo88tI"
 processedAt: "2026-01-16T15:20:55.088Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/fk89VMo88tI/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=fk89VMo88tI"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use, create jobs, increase tax revenue, and fund AI training and nonprofits. Chip export controls, possible bans on NVIDIA H200 shipments, major chip startup fundraising, and OpenAI's acquisition of Torch underscore geopolitical and market tensions around AI and healthcare data.
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  Microsoft is launching a "Community First AI Infrastructure" plan to address political and economic concerns regarding AI energy consumption. 
-  - **Economic Shielding**: Microsoft will pay higher utility rates to ensure data centers do not increase local residential electricity bills. 
-  - **Resource Stewardship**: The plan commits to water replenishment and local tax base contributions. 
-  - **Geopoli
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2186
-outputTokens: 894
-totalTokens: 4958
-processingTimeMs: 32952
+tldr: "Microsoft is launching a \"Community First AI Infrastructure\" plan to address political and economic concerns regarding AI energy consumption.\ 
+
+  - **Economic Shielding**: Microsoft will pay higher utility rates to ensure data centers do not increase local residential electricity bills.\ 
+
+  - **Resource Stewardship**: The plan commits to water replenishment and local tax base contributions.\ 
+
+  - **Geopoli\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2186
+  outputTokens: 894
+  totalTokens: 4958
+  processingTimeMs: 32952
 ---
 
 ## Key Takeaways

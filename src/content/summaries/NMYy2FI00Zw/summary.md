@@ -1,28 +1,26 @@
 ---
-title: "Pricing 101 (How to price your product)"
-videoId: "NMYy2FI00Zw"
-channel: "Greg Isenberg"
-channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
-duration: "PT1M11S"
-publishedAt: "2026-01-02T18:35:48Z"
+metadata:
+  videoId: "NMYy2FI00Zw"
+  title: "Pricing 101 (How to price your product)"
+  channel: "Greg Isenberg"
+  channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
+  duration: "PT1M11S"
+  publishedAt: "2026-01-02T18:35:48Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/NMYy2FI00Zw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=NMYy2FI00Zw"
 processedAt: "2026-01-15T17:41:40.368Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/NMYy2FI00Zw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=NMYy2FI00Zw"
-modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
-tldr: |
-  Charge one-tenth of your product's value, then raise prices by 5% until losing 20% of customers to escape the $2,000-$25,000/year 'garbage zone' where startups struggle with slow sales and mismatched positioning.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "openrouter"
-apiCalls: 5
-fallbackAttempts: 4
-inputTokens: 757
-outputTokens: 999
-totalTokens: 1756
-processingTimeMs: 93867
+tldr: "Charge one-tenth of your product's value, then raise prices by 5% until losing 20% of customers to escape the $2,000-$25,000/year 'garbage zone' where startups struggle with slow sales and mismatched positioning.\n"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-r1-0528:free"
+  apiCalls: 5
+  fallbackAttempts: 4
+  inputTokens: 757
+  outputTokens: 999
+  totalTokens: 1756
+  processingTimeMs: 93867
 ---
 
 ## Key Takeaways

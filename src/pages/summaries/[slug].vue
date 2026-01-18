@@ -6,15 +6,15 @@
     <div v-else>
       <div class="center">
         <nuxt-link to="/">Back to summaries</nuxt-link>
-        <h1>{{ summary.title }}</h1>
+        <h1>{{ summary.metadata.title }}</h1>
         <p class="video-link">
-          <a :href="`https://www.youtube.com/watch?v=${summary.videoId}`" target="_blank" rel="noopener">Watch on YouTube</a>
+          <a :href="summary.metadata.youtubeUrl" target="_blank" rel="noopener">Watch on YouTube</a>
         </p>
 
         <!-- Video Description Section -->
-        <details v-if="summary.description" class="video-description">
+        <details v-if="summary.metadata.description" class="video-description">
           <summary class="video-description__toggle">Video Description</summary>
-          <div class="video-description__content">{{ summary.description }}</div>
+          <div class="video-description__content">{{ summary.metadata.description }}</div>
         </details>
 
         <ContentRenderer :value="summary" class="prose-layout | prose" />
@@ -43,10 +43,10 @@ const { data: summary, pending, error } = useAsyncData(
       result = await queryCollection('summaries').path(`/summaries/${slug}`).first()
     }
 
-    // Final fallback to videoId filter
+    // Final fallback to videoId filter (using nested metadata.videoId)
     if (!result) {
       const all = await queryCollection('summaries').all()
-      result = all.find((item: any) => item.videoId === slug) || null
+      result = all.find((item: any) => item.metadata?.videoId === slug) || null
     }
     return result
   }

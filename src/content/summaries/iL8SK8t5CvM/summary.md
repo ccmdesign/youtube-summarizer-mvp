@@ -1,48 +1,57 @@
 ---
-title: "How to Master Social Media SEO in 2026 (Complete Guide)"
-videoId: "iL8SK8t5CvM"
-channel: "Neil Patel"
-channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
-duration: "PT14M23S"
-publishedAt: "2025-12-30T16:30:16Z"
+metadata:
+  videoId: "iL8SK8t5CvM"
+  title: "How to Master Social Media SEO in 2026 (Complete Guide)"
+  description: "People aren’t just searching on Google anymore. They’re searching on Instagram, TikTok, and YouTube—and that shift is redefining SEO in 2026. In this video, I break down how social platforms have become the new search engines, how discovery now starts in the feed, and why creators and brands must optimize for social search to stay visible.
+
+
+    You’ll learn which platforms matter most for B2B vs B2C, how people actually search using full questions (not keywords), how to structure content so algorithms can index it, and why on-platform actions like saves, DMs, and native checkout now influence reach and rankings. If you want to be found where attention actually lives, this is the complete playbook.
+
+
+    What You’ll Learn in This Video
+
+
+    - Why Instagram, TikTok, and YouTube are now primary search engines
+
+    - How feed-based discovery replaces traditional intent-based search
+
+    - How to optimize captions, hooks, and on-screen text for social SEO
+
+    - The role of structure, metadata, and subtitles in algorithmic ranking
+
+    - Why on-platform conversions boost reach and visibility
+
+    - How social content influences AI search tools like ChatGPT and Perplexity
+
+
+    Watch till the end to understand how social media SEO compounds across search, social, and AI discovery in 2026."
+  channel: "Neil Patel"
+  channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
+  duration: "PT14M23S"
+  publishedAt: "2025-12-30T16:30:16Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/iL8SK8t5CvM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=iL8SK8t5CvM"
 processedAt: "2026-01-16T15:12:55.216Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/iL8SK8t5CvM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=iL8SK8t5CvM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  People aren’t just searching on Google anymore. They’re searching on Instagram, TikTok, and YouTube—and that shift is redefining SEO in 2026. In this video, I break down how social platforms have become the new search engines, how discovery now starts in the feed, and why creators and brands must optimize for social search to stay visible.
-  
-  You’ll learn which platforms matter most for B2B vs B2C, how people actually search using full questions (not keywords), how to structure content so algorithms can index it, and why on-platform actions like saves, DMs, and native checkout now influence reach and rankings. If you want to be found where attention actually lives, this is the complete playbook.
-  
-  What You’ll Learn in This Video
-  
-  - Why Instagram, TikTok, and YouTube are now primary search engines
-  - How feed-based discovery replaces traditional intent-based search
-  - How to optimize captions, hooks, and on-screen text for social SEO
-  - The role of structure, metadata, and subtitles in algorithmic ranking
-  - Why on-platform conversions boost reach and visibility
-  - How social content influences AI search tools like ChatGPT and Perplexity
-  
-  Watch till the end to understand how social media SEO compounds across search, social, and AI discovery in 2026.
-tldr: |
-  Social media SEO in 2026 shifts from keyword-stuffing to **semantic discovery** and **platform retention**.
+tldr: "Social media SEO in 2026 shifts from keyword-stuffing to **semantic discovery** and **platform retention**.
+
   - **Natural Language**: Optimize for full-sentence questions in captions and on-screen text to match user search habits.
-  - **Closed-Loop Ecosystems**: Use native checkouts and lead forms to avoid "exit signals."
-  - **AI Citations**: Build social authority to be cited by ChatGPT and Perplexity
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3591
-outputTokens: 898
-totalTokens: 5351
-processingTimeMs: 13596
+
+  - **Closed-Loop Ecosystems**: Use native checkouts and lead forms to avoid \"exit signals.\"
+
+  - **AI Citations**: Build social authority to be cited by ChatGPT and Perplexity\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3591
+  outputTokens: 898
+  totalTokens: 5351
+  processingTimeMs: 13596
 ---
 
 ## Key Takeaways

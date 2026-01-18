@@ -1,31 +1,32 @@
 ---
-title: "This Tiny Regex Error Hijacked the AWS Console #cybersecurity #aws #hackernews"
-videoId: "745RLzVSrWo"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT1M30S"
-publishedAt: "2026-01-16T20:35:48Z"
+metadata:
+  videoId: "745RLzVSrWo"
+  title: "This Tiny Regex Error Hijacked the AWS Console #cybersecurity #aws #hackernews"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT1M30S"
+  publishedAt: "2026-01-16T20:35:48Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/745RLzVSrWo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=745RLzVSrWo"
 processedAt: "2026-01-17T17:05:24.571Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/745RLzVSrWo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=745RLzVSrWo"
-modelUsed: "gemini-3-flash-preview"
-tldr: |
-  Researchers from Wiz exploited a **regex vulnerability** in AWS CodeBuild named 'Codeback.'
+tldr: "Researchers from Wiz exploited a **regex vulnerability** in AWS CodeBuild named 'Codeback.'
+
   • **Unanchored regex** on actor ID filters allowed unauthorized GitHub users to bypass security via substring matching.
+
   • This enabled an **Eclipse event** where brute-forced IDs gained admin access to the **AWS JavaScript SDK** repository.
-  • AWS patched the flaw within 48 hours of disclosure.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 760
-outputTokens: 871
-totalTokens: 3721
-processingTimeMs: 20482
+
+  • AWS patched the flaw within 48 hours of disclosure.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 760
+  outputTokens: 871
+  totalTokens: 3721
+  processingTimeMs: 20482
 ---
 
 ## Key Takeaways

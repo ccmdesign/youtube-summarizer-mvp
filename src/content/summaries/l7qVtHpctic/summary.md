@@ -1,68 +1,93 @@
 ---
-title: "Claude Code's MCP Problem Just Got Fixed"
-videoId: "l7qVtHpctic"
-channel: "Kenny Liao"
-channelId: "UCOEqiv0-yg_hx0nJiaWJK4Q"
-duration: "PT28M24S"
-publishedAt: "2026-01-17T21:24:09Z"
+metadata:
+  videoId: "l7qVtHpctic"
+  title: "Claude Code's MCP Problem Just Got Fixed"
+  description: "Anthropic just fixed the biggest issue with using MCP servers with Claude Code. Connecting MCP servers directly to Claude Code was the fastest way to consume the entire context window, degrading Claude Code's performance and leaving less space for working conversation. In this video, I'm going to break down everything you need to know about the new MCP Search Tool that allows Claude Code to efficiently discover and use MCP tools without pre-loading all of the MCP tool definitions into the context window, saving you 10s of thousands of tokens!
+
+
+    **NOTE**: I made a mistake in the CC version, the MCP Search Tool was released with v2.1.9 not v2.1.7! See the full change log here: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
+
+
+    🎥 Watch Next
+
+    1. Why I stopped using MCP Servers in Claude Code (until now): https://youtu.be/Xs2CkHEpIrM
+
+    2. Context Engineering for Claude Code: https://youtu.be/ySA9tJ8RfVM
+
+    3. Complete Claude Skills Guide:  https://youtu.be/421T2iWTQio
+
+    4. Turn Claude Code into a Personal Assistant: https://youtu.be/aYAVSG4Ra40
+
+
+    Support me making more content and sharing free tools!
+
+    https://buymeacoffee.com/kennyliao
+
+    Thank you so much for your support!
+
+
+    AI Launchpad Community waitlist. Free to join.
+
+    https://kenneth-liao.kit.com/join
+
+
+    🛠️ Resources
+
+    1. MCP Launchpad: https://github.com/kenneth-liao/mcp-launchpad
+
+    2. Get any of my plugins, free! https://github.com/kenneth-liao/ai-launchpad-marketplace
+
+
+    🕒 Sections 
+
+    00:00 - Intro
+
+    00:43 - MCP Tool Search Release Tweet
+
+    01:35 - Problem with MCPs in Skills & Subagents
+
+    02:43 - Problem with Docker MCP Toolkit
+
+    04:41 - Problem with MCPs in Claude Code
+
+    07:50 - Enable new MCP Search Tool
+
+    10:25 - How new MCP Search Tool Works
+
+
+    ✉️ For Business Inquiries:\ 
+
+    kennyliao@theailaunchpad.io
+
+
+    #claudecode #mcp #aiagents"
+  channel: "Kenny Liao"
+  channelId: "UCOEqiv0-yg_hx0nJiaWJK4Q"
+  duration: "PT28M24S"
+  publishedAt: "2026-01-17T21:24:09Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/l7qVtHpctic/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=l7qVtHpctic"
 processedAt: "2026-01-18T16:35:26.181Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/l7qVtHpctic/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=l7qVtHpctic"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Anthropic just fixed the biggest issue with using MCP servers with Claude Code. Connecting MCP servers directly to Claude Code was the fastest way to consume the entire context window, degrading Claude Code's performance and leaving less space for working conversation. In this video, I'm going to break down everything you need to know about the new MCP Search Tool that allows Claude Code to efficiently discover and use MCP tools without pre-loading all of the MCP tool definitions into the context window, saving you 10s of thousands of tokens!
-  
-  **NOTE**: I made a mistake in the CC version, the MCP Search Tool was released with v2.1.9 not v2.1.7! See the full change log here: https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md
-  
-  🎥 Watch Next
-  1. Why I stopped using MCP Servers in Claude Code (until now): https://youtu.be/Xs2CkHEpIrM
-  2. Context Engineering for Claude Code: https://youtu.be/ySA9tJ8RfVM
-  3. Complete Claude Skills Guide:  https://youtu.be/421T2iWTQio
-  4. Turn Claude Code into a Personal Assistant: https://youtu.be/aYAVSG4Ra40
-  
-  Support me making more content and sharing free tools!
-  https://buymeacoffee.com/kennyliao
-  Thank you so much for your support!
-  
-  AI Launchpad Community waitlist. Free to join.
-  https://kenneth-liao.kit.com/join
-  
-  🛠️ Resources
-  1. MCP Launchpad: https://github.com/kenneth-liao/mcp-launchpad
-  2. Get any of my plugins, free! https://github.com/kenneth-liao/ai-launchpad-marketplace
-  
-  🕒 Sections 
-  00:00 - Intro
-  00:43 - MCP Tool Search Release Tweet
-  01:35 - Problem with MCPs in Skills & Subagents
-  02:43 - Problem with Docker MCP Toolkit
-  04:41 - Problem with MCPs in Claude Code
-  07:50 - Enable new MCP Search Tool
-  10:25 - How new MCP Search Tool Works
-  
-  ✉️ For Business Inquiries: 
-  kennyliao@theailaunchpad.io
-  
-  #claudecode #mcp #aiagents
-tldr: |
-  Anthropic introduced **lazy loading** in Claude Code 2.17 to eliminate MCP context bloat.
+tldr: "Anthropic introduced **lazy loading** in Claude Code 2.17 to eliminate MCP context bloat.
+
   - **Enable tool search** by setting `enable_tool_search: true` in `settings.json`.
+
   - **Reduces token usage** from tens of thousands to near zero by fetching schemas on demand.
-  - **Maintains performance** by injecting specific tools only when identified by name or keyword.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 5863
-outputTokens: 792
-totalTokens: 11552
-processingTimeMs: 37736
+
+  - **Maintains performance** by injecting specific tools only when identified by name or keyword.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 5863
+  outputTokens: 792
+  totalTokens: 11552
+  processingTimeMs: 37736
 ---
 
 ## Key Takeaways

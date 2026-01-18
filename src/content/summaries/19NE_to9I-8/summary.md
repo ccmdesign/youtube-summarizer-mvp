@@ -1,42 +1,49 @@
 ---
-title: "AI at CES is Not Just Cheesy Gadgets Anymore"
-videoId: "19NE_to9I-8"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT15M56S"
-publishedAt: "2026-01-07T17:59:36Z"
+metadata:
+  videoId: "19NE_to9I-8"
+  title: "AI at CES is Not Just Cheesy Gadgets Anymore"
+  description: "CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung and Amazon announced chips, device integrations and ambient-assistant initiatives demonstrating a race for infrastructure, consumer devices and everyday AI experiences.
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT15M56S"
+  publishedAt: "2026-01-07T17:59:36Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/19NE_to9I-8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=19NE_to9I-8"
 processedAt: "2026-01-11T17:15:32.959Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/19NE_to9I-8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=19NE_to9I-8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung and Amazon announced chips, device integrations and ambient-assistant initiatives demonstrating a race for infrastructure, consumer devices and everyday AI experiences.
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  CES 2026 marks a shift from gimmicky gadgets to market-defining infrastructure and products.
+tldr: "CES 2026 marks a shift from gimmicky gadgets to market-defining infrastructure and products.
+
   - Nvidia’s **Vera Rubin** chips promise a 90% drop in token costs and 5x faster inference.
+
   - Amazon is leveraging its 600 million Alexa devices to offer **Alexa Plus** as a family-centric AI assistant.
-  - Google and Samsung aim to reach 800 million AI-enabled handsets by the end of 2026.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4132
-outputTokens: 983
-totalTokens: 6035
-processingTimeMs: 13832
+
+  - Google and Samsung aim to reach 800 million AI-enabled handsets by the end of 2026.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4132
+  outputTokens: 983
+  totalTokens: 6035
+  processingTimeMs: 13832
 ---
 
 ## Key Takeaways

@@ -1,45 +1,53 @@
 ---
-title: "Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)"
-videoId: "vslYkSGWUmM"
-channel: "All About AI"
-channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
-duration: "PT13M32S"
-publishedAt: "2026-01-09T16:01:40Z"
+metadata:
+  videoId: "vslYkSGWUmM"
+  title: "Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)"
+  description: "Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)
+
+
+    My AI Video Course:
+
+    https://www.theaivideocourse.com/
+
+
+    👊 Become a YouTube Member to Support Me:
+
+    https://www.youtube.com/c/AllAboutAI/join
+
+
+    🔥Open GH:
+
+    https://github.com/AllAboutAI-YT/
+
+
+    Business Inquiries:
+
+    kbfseo@gmail.com"
+  channel: "All About AI"
+  channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
+  duration: "PT13M32S"
+  publishedAt: "2026-01-09T16:01:40Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/vslYkSGWUmM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=vslYkSGWUmM"
 processedAt: "2026-01-16T15:23:54.431Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/vslYkSGWUmM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=vslYkSGWUmM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Solo Building an AI Native Business: The AI Video Agents Bet (Week 1)
-  
-  My AI Video Course:
-  https://www.theaivideocourse.com/
-  
-  👊 Become a YouTube Member to Support Me:
-  https://www.youtube.com/c/AllAboutAI/join
-  
-  🔥Open GH:
-  https://github.com/AllAboutAI-YT/
-  
-  Business Inquiries:
-  kbfseo@gmail.com
-tldr: |
-  Chris from All About AI has launched a series on building AI-native micro-businesses. Key developments include:
+tldr: "Chris from All About AI has launched a series on building AI-native micro-businesses. Key developments include:
+
   - **Claude Code** is utilized as the primary agentic coding tool to build a custom SaaS template with Stripe and OAuth
+
   - **NPC Creative** is a new AI video agency offering UGC-style marketing videos for $49/month, disrupting the traditional $2,000 influencer market
-  - **Agent Networks** a
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3748
-outputTokens: 1002
-totalTokens: 5772
-processingTimeMs: 21879
+
+  - **Agent Networks** a\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3748
+  outputTokens: 1002
+  totalTokens: 5772
+  processingTimeMs: 21879
 ---
 
 ## Key Takeaways

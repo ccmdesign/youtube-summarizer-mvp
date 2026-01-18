@@ -1,54 +1,74 @@
 ---
-title: "RAG: The $40B AI Technique 80% of Enterpises Use—Finally Explained"
-videoId: "z8-0INxN_Hg"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT23M23S"
-publishedAt: "2025-07-02T13:02:05Z"
+metadata:
+  videoId: "z8-0INxN_Hg"
+  title: "RAG: The $40B AI Technique 80% of Enterpises Use—Finally Explained"
+  description: "The story: https://open.substack.com/pub/natesnewsletter/p/rag-the-complete-guide-to-retrieval?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+
+    My site: https://natebjones.com/
+
+    My links: https://linktr.ee/natebjones
+
+    My substack: https://natesnewsletter.substack.com/
+
+
+    Takeaways
+
+    \ 1. RAG Fixes LLM Blind Spots: By pairing vector search with large-language models, Retrieval-Augmented Generation eliminates knowledge cut-offs, slashes hallucinations, and securely injects company data into answers.
+
+    \ 2. Explosive Enterprise Adoption: The RAG market is climbing from today’s ~$2 B to a forecast $40 B by 2035, with roughly 80 % of enterprises choosing RAG over fine-tuning for real-time data access.
+
+    \ 3. Data & Chunking Decide Success: Clean text, smart metadata, and overlapping semantic chunks (not model size) make or break retrieval accuracy—bad chunking is the #1 RAG killer.
+
+    \ 4. Roadmap from Prototype to Planet-Scale: Simple FAQ bots stand up in a week, but scaling to multimodal, agentic, enterprise-grade RAG demands hybrid search, sharded vector DBs, caching, cost controls, and rigorous security/compliance.
+
+    \ 5. Know When Not to RAG: Skip it for high-volatility data, creative writing, ultra-low-latency workflows, or tiny datasets where the next model upgrade suffices—several firms learned this the expensive way.
+
+    \ 6. The Future Is Agentic & Connected: Million-token context windows, Model Context Protocol, and agentic planning will merge with RAG, not replace it, keeping retrieval as the precision memory layer of AI systems.
+
+
+    Quotes:
+
+    “We’re giving LLMs an open-book exam instead of a closed book, and the score difference is enormous.”
+
+    “Bad chunking ruins more RAG projects than bad models—data discipline beats model size every time.”
+
+    “RAG isn’t a magic bullet; use it where your proprietary data matters and skip it where the next model update will suffice.”
+
+
+    Summary:
+
+    In this video I break down Retrieval-Augmented Generation as the pragmatic fix for large-language-model blind spots. I explain how RAG pairs embeddings, smart chunking and vector search to ground answers in real data, share enterprise wins like LinkedIn’s faster support and RBC’s compliant agent assist, and map a five-level roadmap from simple FAQ bots to multimodal, agentic, enterprise-grade systems. I warn where RAG backfires—volatile data, creative writing, trivial tasks—and stress disciplined data pipelines, evaluation and security from day one. Looking ahead, bigger context windows and MCP will fuse with RAG, not replace it, keeping retrieval central to real-world AI.
+
+
+    Keywords:
+
+    RAG, Retrieval Augmented Generation, embeddings, vector database, chunking, cosine similarity, hybrid search, multimodal RAG, agentic RAG, MCP, context windows, hallucination mitigation, enterprise AI, fine-tuning, data pipelines"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT23M23S"
+  publishedAt: "2025-07-02T13:02:05Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/z8-0INxN_Hg/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=z8-0INxN_Hg"
 processedAt: "2026-01-08T18:25:13.606Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/z8-0INxN_Hg/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=z8-0INxN_Hg"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  The story: https://open.substack.com/pub/natesnewsletter/p/rag-the-complete-guide-to-retrieval?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  
-  My site: https://natebjones.com/
-  My links: https://linktr.ee/natebjones
-  My substack: https://natesnewsletter.substack.com/
-  
-  Takeaways
-   1. RAG Fixes LLM Blind Spots: By pairing vector search with large-language models, Retrieval-Augmented Generation eliminates knowledge cut-offs, slashes hallucinations, and securely injects company data into answers.
-   2. Explosive Enterprise Adoption: The RAG market is climbing from today’s ~$2 B to a forecast $40 B by 2035, with roughly 80 % of enterprises choosing RAG over fine-tuning for real-time data access.
-   3. Data & Chunking Decide Success: Clean text, smart metadata, and overlapping semantic chunks (not model size) make or break retrieval accuracy—bad chunking is the #1 RAG killer.
-   4. Roadmap from Prototype to Planet-Scale: Simple FAQ bots stand up in a week, but scaling to multimodal, agentic, enterprise-grade RAG demands hybrid search, sharded vector DBs, caching, cost controls, and rigorous security/compliance.
-   5. Know When Not to RAG: Skip it for high-volatility data, creative writing, ultra-low-latency workflows, or tiny datasets where the next model upgrade suffices—several firms learned this the expensive way.
-   6. The Future Is Agentic & Connected: Million-token context windows, Model Context Protocol, and agentic planning will merge with RAG, not replace it, keeping retrieval as the precision memory layer of AI systems.
-  
-  Quotes:
-  “We’re giving LLMs an open-book exam instead of a closed book, and the score difference is enormous.”
-  “Bad chunking ruins more RAG projects than bad models—data discipline beats model size every time.”
-  “RAG isn’t a magic bullet; use it where your proprietary data matters and skip it where the next model update will suffice.”
-  
-  Summary:
-  In this video I break down Retrieval-Augmented Generation as the pragmatic fix for large-language-model blind spots. I explain how RAG pairs embeddings, smart chunking and vector search to ground answers in real data, share enterprise wins like LinkedIn’s faster support and RBC’s compliant agent assist, and map a five-level roadmap from simple FAQ bots to multimodal, agentic, enterprise-grade systems. I warn where RAG backfires—volatile data, creative writing, trivial tasks—and stress disciplined data pipelines, evaluation and security from day one. Looking ahead, bigger context windows and MCP will fuse with RAG, not replace it, keeping retrieval central to real-world AI.
-  
-  Keywords:
-  RAG, Retrieval Augmented Generation, embeddings, vector database, chunking, cosine similarity, hybrid search, multimodal RAG, agentic RAG, MCP, context windows, hallucination mitigation, enterprise AI, fine-tuning, data pipelines
-tldr: |
-  Retrieval-Augmented Generation (RAG) is the enterprise standard for AI implementation, solving hallucinations by grounding LLMs in private data. Key components include:
+tldr: "Retrieval-Augmented Generation (RAG) is the enterprise standard for AI implementation, solving hallucinations by grounding LLMs in private data. Key components include:
+
   - Embedding models for semantic data conversion
+
   - Vector databases (e.g., Pinecone, Milvus) for efficient search
-  - Prompt orchestration that prioritizes external documents over internal training weights.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 428
-outputTokens: 820
-totalTokens: 2027
-processingTimeMs: 11147
+
+  - Prompt orchestration that prioritizes external documents over internal training weights.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 428
+  outputTokens: 820
+  totalTokens: 2027
+  processingTimeMs: 11147
 ---
 
 ## Key Takeaways

@@ -1,42 +1,45 @@
 ---
-title: "AI Periodic Table Explained: Mapping LLMs, RAG & AI Agent Frameworks"
-videoId: "ESBMgZHzfG0"
-channel: "IBM Technology"
-channelId: "UCKWaEZ-_VweaEx1j62do_vQ"
-duration: "PT16M51S"
-publishedAt: "2026-01-05T12:00:34Z"
+metadata:
+  videoId: "ESBMgZHzfG0"
+  title: "AI Periodic Table Explained: Mapping LLMs, RAG & AI Agent Frameworks"
+  description: "Ready to become a certified watsonx Data Scientist - Associate? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbTRQ
+
+
+    Learn more about AI Frameworks here → https://ibm.biz/BdbhiJ
+
+
+    What if AI had its own periodic table? 🧩 Martin Keen introduces the AI Periodic Table, breaking down LLMs, RAG, AI agents, and frameworks into a clear, simple structure. Discover how these elements connect to power smarter, scalable AI systems, and rethink how AI fits together.
+
+
+    AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdbhiA
+
+
+    #ai #llm #retrievalaugmentedgeneration #aiagents #aiframeworks"
+  channel: "IBM Technology"
+  channelId: "UCKWaEZ-_VweaEx1j62do_vQ"
+  duration: "PT16M51S"
+  publishedAt: "2026-01-05T12:00:34Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/ESBMgZHzfG0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=ESBMgZHzfG0"
 processedAt: "2026-01-15T17:09:48.424Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/ESBMgZHzfG0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=ESBMgZHzfG0"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Ready to become a certified watsonx Data Scientist - Associate? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbTRQ
-  
-  Learn more about AI Frameworks here → https://ibm.biz/BdbhiJ
-  
-  What if AI had its own periodic table? 🧩 Martin Keen introduces the AI Periodic Table, breaking down LLMs, RAG, AI agents, and frameworks into a clear, simple structure. Discover how these elements connect to power smarter, scalable AI systems, and rethink how AI fits together.
-  
-  AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdbhiA
-  
-  #ai #llm #retrievalaugmentedgeneration #aiagents #aiframeworks
-tldr: |
-  The AI Periodic Table categorizes AI terminology into five functional families and four levels of complexity to help decode any AI architecture.
+tldr: "The AI Periodic Table categorizes AI terminology into five functional families and four levels of complexity to help decode any AI architecture.
+
   • **The Grid System** maps components from atomic Primitives (Prompts, LLMs) to Emerging technologies (Thinking Models, Multi-agent systems).
-  • **AI Reactions** allow users to visualize how elements like RAG and Agents interact to form production-ready sy
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3348
-outputTokens: 917
-totalTokens: 5752
-processingTimeMs: 16932
+
+  • **AI Reactions** allow users to visualize how elements like RAG and Agents interact to form production-ready sy\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3348
+  outputTokens: 917
+  totalTokens: 5752
+  processingTimeMs: 16932
 ---
 
 ## Key Takeaways

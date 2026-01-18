@@ -1,39 +1,57 @@
 ---
-title: "How I Build Beautiful Websites With AI"
-videoId: "1cB2iqz_vnM"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT10M25S"
-publishedAt: "2025-09-28T14:16:11Z"
+metadata:
+  videoId: "1cB2iqz_vnM"
+  title: "How I Build Beautiful Websites With AI"
+  description: "Discover how AI transforms UI editing with Drawbridge - the open-source tool that batch-fixes all your interface issues at once. Works with Claude Code and Cursor for revolutionary ai coding workflows. Better than Figma to Cursor, this visual editor is like Codex CLI but for UI fixes.
+
+
+
+    Try Lumi Today: http://bit.ly/4fL1fP2
+
+    Exclusive -5% discount code: 7MMNSZL3
+
+
+    Drawbridge GitHub repo: https://github.com/breschio/drawbridge
+
+    TweakCN (ShadCN themes): https://tweakcn.com/
+
+
+    In this tutorial, I demonstrate how AI agents handle multiple UI fixes simultaneously through Drawbridge's innovative task queue system. Unlike traditional prompt engineering where you fix errors one by one, this tool revolutionizes coding by letting artificial intelligence process batches of changes efficiently.
+
+    The video covers how Cursor AI sometimes struggles with file detection (as I discovered during testing), while Claude performs flawlessly with the same workflow. This comparison shows why choosing the right AI automation tool matters for your development process.
+
+
+    Two game-changing use cases for AI agents:
+
+    1. Landing Page Builder - Non-technical users can vibe coding by selecting sections and describing what they want. The AI agent builds each component based on your specifications, perfect for rapid prototyping without complex prompt engineering.
+
+    2. Client Collaboration - Transform how clients provide feedback by letting them visually select elements and queue changes. Your AI handles the implementation, streamlining the revision process through intelligent automation.
+
+
+    I also show how to integrate design systems for consistent styling, making your artificial intelligence assistant follow specific design languages. This approach to coding with AI eliminates the back-and-forth typically required when fixing multiple UI issues.
+
+    Whether you're using Cursor or Claude Code, this visual approach to AI automation changes everything. The tool's ability to track element positions means your prompts don't need complex descriptions - the AI knows exactly what you're referencing.
+
+    Perfect for developers tired of repetitive prompt engineering and anyone looking to streamline their AI coding workflow.
+
+
+    #ai #vibecoding #aiagents #promptengineering #aiautomation #aiagent #cursor #cursorai #coding #claude #artificialintelligence"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT10M25S"
+  publishedAt: "2025-09-28T14:16:11Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/1cB2iqz_vnM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=1cB2iqz_vnM"
 processedAt: "2026-01-01T23:34:05.804Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/1cB2iqz_vnM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=1cB2iqz_vnM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Discover how AI transforms UI editing with Drawbridge - the open-source tool that batch-fixes all your interface issues at once. Works with Claude Code and Cursor for revolutionary ai coding workflows. Better than Figma to Cursor, this visual editor is like Codex CLI but for UI fixes.
-  
-  
-  Try Lumi Today: http://bit.ly/4fL1fP2
-  Exclusive -5% discount code: 7MMNSZL3
-  
-  Drawbridge GitHub repo: https://github.com/breschio/drawbridge
-  TweakCN (ShadCN themes): https://tweakcn.com/
-  
-  In this tutorial, I demonstrate how AI agents handle multiple UI fixes simultaneously through Drawbridge's innovative task queue system. Unlike traditional prompt engineering where you fix errors one by one, this tool revolutionizes coding by letting artificial intelligence process batches of changes efficiently.
-  The video covers how Cursor AI sometimes struggles with file detection (as I discovered during testing), while Claude performs flawlessly with the same workflow. This comparison shows why choosing the right AI automation tool matters for your development process.
-  
-  Two game-changing use cases for AI agents:
-  1. Landing Page Builder - Non-technical users can vibe coding by selecting sections and describing what they want. The AI agent builds each component based on your specifications, perfect for rapid prototyping without complex prompt engineering.
-  2. Client Collaboration - Transform how clients provide feedback by letting them visually select elements and queue changes. Your AI handles the implementation, streamlining the revision process through intelligent automation.
-  
-  I also show how to integrate design systems for consistent styling, making your artificial intelligence assistant follow specific design languages. This approach to coding with AI eliminates the back-and-forth typically required when fixing multiple UI issues.
-  Whether you're using Cursor or Claude Code, this visual approach to AI automation changes everything. The tool's ability to track element positions means your prompts don't need complex descriptions - the AI knows exactly what you're referencing.
-  Perfect for developers tired of repetitive prompt engineering and anyone looking to streamline their AI coding workflow.
-  
-  #ai #vibecoding #aiagents #promptengineering #aiautomation #aiagent #cursor #cursorai #coding #claude #artificialintelligence
 tldr: "Modern web design leverages generative AI for visual layouts and AI-powered coding tools to transform high-level prompts into functional, responsive websites in minutes rather than days."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 The video outlines a fundamental shift in web development, moving from a manual, syntax-heavy process to an "AI-first" workflow. The creator emphasizes that the barrier to entry for building professional, high-performance websites has effectively vanished for those who can master AI orchestration.

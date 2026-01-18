@@ -1,55 +1,70 @@
 ---
-title: "Avoiding the Middle-Income Trap || Peter Zeihan"
-videoId: "oAAxdIwZAXs"
-channel: "Zeihan on Geopolitics"
-channelId: "UCsy9I56PY3IngCf_VGjunMQ"
-duration: "PT6M4S"
-publishedAt: "2025-09-05T09:45:07Z"
+metadata:
+  videoId: "oAAxdIwZAXs"
+  title: "Avoiding the Middle-Income Trap || Peter Zeihan"
+  description: "There's a point in many nations' timelines where the per capita income stalls. This is known as the middle-income trap...
+
+
+    Join the Patreon here: https://www.patreon.com/PeterZeihan
+
+
+    Full Newsletter: https://mailchi.mp/zeihan/avoiding-the-middle-income-trap
+
+
+    Where to find more?
+
+    Join the Patreon: https://www.patreon.com/PeterZeihan
+
+    Subscribe to the Newsletter: https://bit.ly/3NyQu4l
+
+    Subscribe to the YouTube Channel: https://bit.ly/3Ny9UXb
+
+    Listen to the Podcast: https://spoti.fi/3iJyNEe
+
+    Zeihan on Geopolitics website: https://zeihan.com/
+
+    Purchase the Webinars Here: https://zeihan-on-geopolitics.myshopify.com/collections/all
+
+
+    Where to find me on Social Media?
+
+    Patreon: https://bit.ly/3ZKMm9D
+
+    Twitter: https://bit.ly/3E1E95D
+
+    LinkedIn: https://bit.ly/3zJAW8b
+
+    Instagram: http://bit.ly/3IW2mgp
+
+    Facebook: http://bit.ly/3ZIAjHk
+
+
+    #income #economy #manufacturing"
+  channel: "Zeihan on Geopolitics"
+  channelId: "UCsy9I56PY3IngCf_VGjunMQ"
+  duration: "PT6M4S"
+  publishedAt: "2025-09-05T09:45:07Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/oAAxdIwZAXs/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=oAAxdIwZAXs"
 processedAt: "2026-01-12T14:30:33.312Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUYCpJcOL5XVeJicf9X1nGS"
 playlistName: "Geopolitics"
 category: "geopolitics"
-thumbnailUrl: "https://i.ytimg.com/vi/oAAxdIwZAXs/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=oAAxdIwZAXs"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  There's a point in many nations' timelines where the per capita income stalls. This is known as the middle-income trap...
-  
-  Join the Patreon here: https://www.patreon.com/PeterZeihan
-  
-  Full Newsletter: https://mailchi.mp/zeihan/avoiding-the-middle-income-trap
-  
-  Where to find more?
-  Join the Patreon: https://www.patreon.com/PeterZeihan
-  Subscribe to the Newsletter: https://bit.ly/3NyQu4l
-  Subscribe to the YouTube Channel: https://bit.ly/3Ny9UXb
-  Listen to the Podcast: https://spoti.fi/3iJyNEe
-  Zeihan on Geopolitics website: https://zeihan.com/
-  Purchase the Webinars Here: https://zeihan-on-geopolitics.myshopify.com/collections/all
-  
-  Where to find me on Social Media?
-  Patreon: https://bit.ly/3ZKMm9D
-  Twitter: https://bit.ly/3E1E95D
-  LinkedIn: https://bit.ly/3zJAW8b
-  Instagram: http://bit.ly/3IW2mgp
-  Facebook: http://bit.ly/3ZIAjHk
-  
-  #income #economy #manufacturing
-tldr: |
-  Countries often stall at the $10,000–$12,000 income per person threshold due to the **middle-income trap**.
+tldr: "Countries often stall at the $10,000–$12,000 income per person threshold due to the **middle-income trap**.
+
   - Transitioning to advanced status requires three core pillars: **open capital markets**, **creative education**, and the **Rule of Law**.
-  - A fourth critical factor is **demographics**; without replacement birth rates, even advanced economies face eventual collapse.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1874
-outputTokens: 900
-totalTokens: 3631
-processingTimeMs: 13076
+
+  - A fourth critical factor is **demographics**; without replacement birth rates, even advanced economies face eventual collapse.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1874
+  outputTokens: 900
+  totalTokens: 3631
+  processingTimeMs: 13076
 ---
 
 ## Key Takeaways

@@ -1,31 +1,44 @@
 ---
-title: "All About AI In 2026 - What Now?"
-videoId: "6iyhM6_7I6g"
-channel: "All About AI"
-channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
-duration: "PT6M23S"
-publishedAt: "2026-01-02T16:00:24Z"
+metadata:
+  videoId: "6iyhM6_7I6g"
+  title: "All About AI In 2026 - What Now?"
+  description: "All About AI In 2026 - What Now?
+
+
+    My AI Video Course:
+
+    https://www.theaivideocourse.com/
+
+
+    👊 Become a YouTube Member to Support Me:
+
+    https://www.youtube.com/c/AllAboutAI/join
+
+
+    🔥Open GH:
+
+    https://github.com/AllAboutAI-YT/
+
+
+    Business Inquiries:
+
+    kbfseo@gmail.com"
+  channel: "All About AI"
+  channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
+  duration: "PT6M23S"
+  publishedAt: "2026-01-02T16:00:24Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/6iyhM6_7I6g/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=6iyhM6_7I6g"
 processedAt: "2026-01-04T00:38:46.622Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/6iyhM6_7I6g/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=6iyhM6_7I6g"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  All About AI In 2026 - What Now?
-  
-  My AI Video Course:
-  https://www.theaivideocourse.com/
-  
-  👊 Become a YouTube Member to Support Me:
-  https://www.youtube.com/c/AllAboutAI/join
-  
-  🔥Open GH:
-  https://github.com/AllAboutAI-YT/
-  
-  Business Inquiries:
-  kbfseo@gmail.com
 tldr: "The AI landscape has shifted from \"chatting\" to \"orchestrating,\" where the primary skill is no longer prompt engineering but managing autonomous agents within integrated, personalized workflows."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 As of early 2026, the artificial intelligence industry has transitioned from the "Experimental Phase" to the "Agentic Era." The video reflects on the rapid evolution of 2025, highlighting that the novelty of LLMs (Large Language Models) has been replaced by the functional utility of autonomous agents that execute multi-step tasks with minimal human intervention.

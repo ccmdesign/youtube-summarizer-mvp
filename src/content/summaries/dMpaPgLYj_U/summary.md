@@ -1,43 +1,50 @@
 ---
-title: "Claude Code Let's Build: AI Video Editor"
-videoId: "dMpaPgLYj_U"
-channel: "All About AI"
-channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
-duration: "PT16M7S"
-publishedAt: "2026-01-17T16:00:56Z"
+metadata:
+  videoId: "dMpaPgLYj_U"
+  title: "Claude Code Let's Build: AI Video Editor"
+  description: "Claude Code Let's Build: AI Video Editor
+
+    👊 Become a YouTube Member to Support Me:
+
+    https://www.youtube.com/c/AllAboutAI/join
+
+
+    My AI Video Course:
+
+    https://www.theaivideocourse.com/
+
+
+    🔥Open GH:
+
+    https://github.com/AllAboutAI-YT/
+
+
+    Business Inquiries:
+
+    kbfseo@gmail.com"
+  channel: "All About AI"
+  channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
+  duration: "PT16M7S"
+  publishedAt: "2026-01-17T16:00:56Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/dMpaPgLYj_U/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=dMpaPgLYj_U"
 processedAt: "2026-01-17T17:05:43.461Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/dMpaPgLYj_U/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=dMpaPgLYj_U"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Claude Code Let's Build: AI Video Editor
-  👊 Become a YouTube Member to Support Me:
-  https://www.youtube.com/c/AllAboutAI/join
-  
-  My AI Video Course:
-  https://www.theaivideocourse.com/
-  
-  🔥Open GH:
-  https://github.com/AllAboutAI-YT/
-  
-  Business Inquiries:
-  kbfseo@gmail.com
-tldr: |
-  Build a semi-autonomous video editor using **Claude Code** to orchestrate local and cloud tools. 
+tldr: "Build a semi-autonomous video editor using **Claude Code** to orchestrate local and cloud tools.\ 
+
   - **Key Tech Stack**: Uses **ffmpeg** for video processing, **Whisper** for local transcription, and **Gemini 1.5 Flash** for natural language logic.
-  - **Outcome**: A functional Next.js app capable of manual timeline editing and "semantic editing" via text prompts like "keep only clips about money."
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4076
-outputTokens: 923
-totalTokens: 5738
-processingTimeMs: 13443
+
+  - **Outcome**: A functional Next.js app capable of manual timeline editing and \"semantic editing\" via text prompts like \"keep only clips about money.\"\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4076
+  outputTokens: 923
+  totalTokens: 5738
+  processingTimeMs: 13443
 ---
 
 ## Key Takeaways

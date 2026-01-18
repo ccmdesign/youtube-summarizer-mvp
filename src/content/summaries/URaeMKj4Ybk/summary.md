@@ -1,28 +1,26 @@
 ---
-title: "How 3 brothers built a billion dollar empire"
-videoId: "URaeMKj4Ybk"
-channel: "Greg Isenberg"
-channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
-duration: "PT1M12S"
-publishedAt: "2025-12-27T18:57:12Z"
+metadata:
+  videoId: "URaeMKj4Ybk"
+  title: "How 3 brothers built a billion dollar empire"
+  channel: "Greg Isenberg"
+  channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
+  duration: "PT1M12S"
+  publishedAt: "2025-12-27T18:57:12Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/URaeMKj4Ybk/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=URaeMKj4Ybk"
 processedAt: "2026-01-15T17:42:32.501Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/URaeMKj4Ybk/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=URaeMKj4Ybk"
-modelUsed: "gemini-2.5-flash"
-tldr: |
-  The German brothers built a billion-dollar empire by demonstrating that **building and owning a system** is key to wealth. Their method involved: - **Cloning successful US online businesses** (e.g., eBay) in underserved foreign markets. - **Rapidly scaling** these ventures to achieve market dominance. - **Selling them back** to the original companies for huge profits, turning borrowed brilliance i
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 662
-outputTokens: 744
-totalTokens: 2947
-processingTimeMs: 21454
+tldr: "The German brothers built a billion-dollar empire by demonstrating that **building and owning a system** is key to wealth. Their method involved: - **Cloning successful US online businesses** (e.g., eBay) in underserved foreign markets. - **Rapidly scaling** these ventures to achieve market dominance. - **Selling them back** to the original companies for huge profits, turning borrowed brilliance i\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 662
+  outputTokens: 744
+  totalTokens: 2947
+  processingTimeMs: 21454
 ---
 
 ## Key Takeaways

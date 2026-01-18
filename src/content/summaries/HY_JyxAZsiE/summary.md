@@ -1,31 +1,30 @@
 ---
-title: "Spec-Driven Development: Sharpening your AI toolbox - Al Harris, Amazon Kiro"
-videoId: "HY_JyxAZsiE"
-channel: "AI Engineer"
-channelId: "UCLKPca3kwwd-B59HNr-_lvA"
-duration: "PT1H3M50S"
-publishedAt: "2026-01-09T15:15:06Z"
+metadata:
+  videoId: "HY_JyxAZsiE"
+  title: "Spec-Driven Development: Sharpening your AI toolbox - Al Harris, Amazon Kiro"
+  description: "In the AI coding era, we have powerful tools, but tools still require honing to work effectively. Spec-Driven Development allows for reproducible and reliable delivery, but spending time up-front to improve the spec process will yield the best approach. Learn how the Kiro team does this, and how you can too!
+
+
+    https://www.linkedin.com/in/al-harris-7a755640/"
+  channel: "AI Engineer"
+  channelId: "UCLKPca3kwwd-B59HNr-_lvA"
+  duration: "PT1H3M50S"
+  publishedAt: "2026-01-09T15:15:06Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/HY_JyxAZsiE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=HY_JyxAZsiE"
 processedAt: "2026-01-11T17:16:59.707Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/HY_JyxAZsiE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=HY_JyxAZsiE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  In the AI coding era, we have powerful tools, but tools still require honing to work effectively. Spec-Driven Development allows for reproducible and reliable delivery, but spending time up-front to improve the spec process will yield the best approach. Learn how the Kiro team does this, and how you can too!
-  
-  https://www.linkedin.com/in/al-harris-7a755640/
 tldr: "Al Harris introduces Amazon Kiro, an agentic IDE that replaces 'vibe coding' with Spec-Driven Development (SDD), utilizing structured natural language (EARS) and property-based testing to create reproducible, high-quality software through a rigorous SDLC workflow that integrates external data via MCP and maintains long-term reliability through steering."
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 14919
-outputTokens: 1410
-totalTokens: 17631
-processingTimeMs: 20587
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 14919
+  outputTokens: 1410
+  totalTokens: 17631
+  processingTimeMs: 20587
 ---
 
 ## Key Takeaways

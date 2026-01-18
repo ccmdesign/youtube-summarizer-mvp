@@ -1,59 +1,77 @@
 ---
-title: "Oats, Apple & Banana! Healthy Cake Without Flour or Sugar — Made in a Frying Pan!"
-videoId: "nOT4OfMkyFc"
-channel: "Süße Backwaren"
-channelId: "UCnbsE2Sam-lH3fWdhk58nXQ"
-duration: "PT10M13S"
-publishedAt: "2025-09-26T19:00:49Z"
+metadata:
+  videoId: "nOT4OfMkyFc"
+  title: "Oats, Apple & Banana! Healthy Cake Without Flour or Sugar — Made in a Frying Pan!"
+  description: "🍫 Oatmeal Brownie Cake — Flourless, Moist & Chocolatey! This healthy twist on a classic brownie is made with rolled oats, banana, apple, dried fruits, and walnuts, then topped with a rich homemade chocolate glaze. Soft, tender, and full of natural sweetness — the perfect guilt-free dessert!
+
+
+    Ingredients:
+
+    1 cup (100g) rolled oats.
+
+    3 tbsp cocoa powder.
+
+    3/4 cup (180 ml) hot milk.
+
+    2 eggs.
+
+    Sweetener to taste.
+
+    Banana.
+
+    Raisins.
+
+    Prunes.
+
+    1 tsp baking soda.
+
+
+    1 tbsp coconut oil.
+
+    Apple.
+
+    Walnuts.
+
+
+    1/3 cup (80ml) milk.
+
+    2 tbsp cocoa powder.
+
+    1/2 tbsp coconut oil.
+
+
+
+    💬 Like, comment, and subscribe for more healthy baking ideas!
+
+
+    #Süße_Backwaren  #Recipe #brownie #oatmealcake #flourless #healthydessert #chocolaterecipe #easybaking"
+  channel: "Süße Backwaren"
+  channelId: "UCnbsE2Sam-lH3fWdhk58nXQ"
+  duration: "PT10M13S"
+  publishedAt: "2025-09-26T19:00:49Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/nOT4OfMkyFc/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=nOT4OfMkyFc"
 processedAt: "2026-01-12T14:31:34.898Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/nOT4OfMkyFc/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=nOT4OfMkyFc"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  🍫 Oatmeal Brownie Cake — Flourless, Moist & Chocolatey! This healthy twist on a classic brownie is made with rolled oats, banana, apple, dried fruits, and walnuts, then topped with a rich homemade chocolate glaze. Soft, tender, and full of natural sweetness — the perfect guilt-free dessert!
-  
-  Ingredients:
-  1 cup (100g) rolled oats.
-  3 tbsp cocoa powder.
-  3/4 cup (180 ml) hot milk.
-  2 eggs.
-  Sweetener to taste.
-  Banana.
-  Raisins.
-  Prunes.
-  1 tsp baking soda.
-  
-  1 tbsp coconut oil.
-  Apple.
-  Walnuts.
-  
-  1/3 cup (80ml) milk.
-  2 tbsp cocoa powder.
-  1/2 tbsp coconut oil.
-  
-  
-  💬 Like, comment, and subscribe for more healthy baking ideas!
-  
-  #Süße_Backwaren  #Recipe #brownie #oatmealcake #flourless #healthydessert #chocolaterecipe #easybaking
-tldr: |
-  Create a flourless, sugar-free chocolate cake using rolled oats, banana, and apple slices prepared directly in a frying pan.
+tldr: "Create a flourless, sugar-free chocolate cake using rolled oats, banana, and apple slices prepared directly in a frying pan.
+
   - Soak 100g ground oats in 180ml hot milk for 15 minutes.
+
   - Blend with eggs and mashed banana for the base.
-  - Cook on low heat for 20 minutes over a layer of sliced apples and walnuts before topping with a homemade cocoa-milk glaze.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 993
-outputTokens: 848
-totalTokens: 3040
-processingTimeMs: 13718
+
+  - Cook on low heat for 20 minutes over a layer of sliced apples and walnuts before topping with a homemade cocoa-milk glaze.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 993
+  outputTokens: 848
+  totalTokens: 3040
+  processingTimeMs: 13718
 ---
 
 ## Key Takeaways

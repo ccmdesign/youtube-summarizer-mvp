@@ -1,39 +1,41 @@
 ---
-title: "Automating Large Scale Refactors with Parallel Agents - Robert Brennan, AllHands"
-videoId: "rcsliSIy_YU"
-channel: "AI Engineer"
-channelId: "UCLKPca3kwwd-B59HNr-_lvA"
-duration: "PT1H16M21S"
-publishedAt: "2026-01-08T16:30:23Z"
+metadata:
+  videoId: "rcsliSIy_YU"
+  title: "Automating Large Scale Refactors with Parallel Agents - Robert Brennan, AllHands"
+  description: "Today's agents are best at small, atomic coding tasks. Much larger tasks--like major refactors and breaking dependency updates--are highly automatable but hard to one-shot.
+
+
+    In this session, we'll discuss patterns for orchestrating large-scale code changes with swarms of agents and a human in the loop.
+
+
+    We'll also work through a concrete example: migrating an entire codebase from one React state management library to another.
+
+
+    https://twitter.com/RobertBrennan
+
+
+    Slides: https://dub.sh/openhands-workshop"
+  channel: "AI Engineer"
+  channelId: "UCLKPca3kwwd-B59HNr-_lvA"
+  duration: "PT1H16M21S"
+  publishedAt: "2026-01-08T16:30:23Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/rcsliSIy_YU/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=rcsliSIy_YU"
 processedAt: "2026-01-11T17:18:42.798Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/rcsliSIy_YU/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=rcsliSIy_YU"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Today's agents are best at small, atomic coding tasks. Much larger tasks--like major refactors and breaking dependency updates--are highly automatable but hard to one-shot.
-  
-  In this session, we'll discuss patterns for orchestrating large-scale code changes with swarms of agents and a human in the loop.
-  
-  We'll also work through a concrete example: migrating an entire codebase from one React state management library to another.
-  
-  https://twitter.com/RobertBrennan
-  
-  Slides: https://dub.sh/openhands-workshop
-tldr: |
-  Robert Brennan of AllHands introduces Open Hands, an open-source agent framework that achieves 30x productivity gains by orchestrating fleets of parallel agents to tackle massive technical debt.
-  - The central thesis is that the next frontier of AI engineering isn't better autocomplete, but breaking down 'toil' tasks—like CVE remediation and framework migrations—into PR-sized chunks for parallel ex
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 12266
-outputTokens: 1258
-totalTokens: 14902
-processingTimeMs: 20983
+tldr: "Robert Brennan of AllHands introduces Open Hands, an open-source agent framework that achieves 30x productivity gains by orchestrating fleets of parallel agents to tackle massive technical debt.
+
+  - The central thesis is that the next frontier of AI engineering isn't better autocomplete, but breaking down 'toil' tasks—like CVE remediation and framework migrations—into PR-sized chunks for parallel ex\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 12266
+  outputTokens: 1258
+  totalTokens: 14902
+  processingTimeMs: 20983
 ---
 
 ## Key Takeaways

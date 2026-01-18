@@ -1,43 +1,47 @@
 ---
-title: "What is Langflow? Build AI Workflows with Python, Gen AI, & MCP Tools"
-videoId: "xz00BbW1z6M"
-channel: "IBM Technology"
-channelId: "UCKWaEZ-_VweaEx1j62do_vQ"
-duration: "PT6M18S"
-publishedAt: "2026-01-12T12:01:50Z"
+metadata:
+  videoId: "xz00BbW1z6M"
+  title: "What is Langflow? Build AI Workflows with Python, Gen AI, & MCP Tools"
+  description: "Ready to become a certified watsonx AI Assistant Engineer? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbtwX
+
+
+    Learn more about LangFlow here → https://ibm.biz/BdbtwH
+
+
+    What if building AI workflows was as simple as drag-and-drop? 🚀 David Jones-Gilardi introduces Langflow, the open-source tool for creating Agentic RAG, Generative AI, and MCP workflows. 🔥 See how Langflow empowers developers to integrate AI models and tools, all without endless coding!
+
+
+    AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/Bdb6T9
+
+
+    #langflow #generativeai #python #aiworkflow"
+  channel: "IBM Technology"
+  channelId: "UCKWaEZ-_VweaEx1j62do_vQ"
+  duration: "PT6M18S"
+  publishedAt: "2026-01-12T12:01:50Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/xz00BbW1z6M/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=xz00BbW1z6M"
 processedAt: "2026-01-15T17:16:01.722Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/xz00BbW1z6M/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=xz00BbW1z6M"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Ready to become a certified watsonx AI Assistant Engineer? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbtwX
-  
-  Learn more about LangFlow here → https://ibm.biz/BdbtwH
-  
-  What if building AI workflows was as simple as drag-and-drop? 🚀 David Jones-Gilardi introduces Langflow, the open-source tool for creating Agentic RAG, Generative AI, and MCP workflows. 🔥 See how Langflow empowers developers to integrate AI models and tools, all without endless coding!
-  
-  AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/Bdb6T9
-  
-  #langflow #generativeai #python #aiworkflow
-tldr: |
-  Langflow is an open-source visual studio enabling developers to **rapidly build agentic RAG and gen AI workflows** via a drag-and-drop, low-code interface. Key features include:
+tldr: "Langflow is an open-source visual studio enabling developers to **rapidly build agentic RAG and gen AI workflows** via a drag-and-drop, low-code interface. Key features include:
+
   - **Model/vector store agnosticism** with broad provider support.
+
   - **Python extensibility** for custom component creation.
-  - **API access** for full programmatic control and easy integration.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 1770
-outputTokens: 983
-totalTokens: 4508
-processingTimeMs: 22019
+
+  - **API access** for full programmatic control and easy integration.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 1770
+  outputTokens: 983
+  totalTokens: 4508
+  processingTimeMs: 22019
 ---
 
 ## Key Takeaways

@@ -1,54 +1,68 @@
 ---
-title: "Gesundes Linsenbrot in 5 Minuten! KEIN Mehl und KEINE Hefe!"
-videoId: "i5QxpVhR4ik"
-channel: "BROT GESUND"
-channelId: "UCugGGFrkBh_11P-OuXZ8ZfA"
-duration: "PT8M23S"
-publishedAt: "2025-10-28T14:23:12Z"
+metadata:
+  videoId: "i5QxpVhR4ik"
+  title: "Gesundes Linsenbrot in 5 Minuten! KEIN Mehl und KEINE Hefe!"
+  description: "5-Minuten-Linsenbrot mit vielen Vorteilen: Reduziert den Zuckergehalt und verbessert die Verdauung!
+
+
+    Ein unglaublich einfaches und gesundes Rezept ohne Mehl, Hefe oder Gluten.
+
+    Nur wenige Zutaten – und Sie erhalten ein duftendes, nahrhaftes Brot, reich an Proteinen, Eisen und Ballaststoffen.
+
+
+    Warum Sie es probieren sollten:
+
+    — Hilft, den Blutzuckerspiegel zu stabilisieren
+
+    — Verbessert die Verdauung und hält länger satt
+
+    — Geeignet für gesunde und vegane Ernährung
+
+    — Fertig in nur 5 Minuten
+
+
+    Dieses Brot ist leicht, luftig und sehr sättigend. Probieren Sie es einmal und Sie werden nie wieder gekauftes Brot wollen!
+
+
+    ZUTATEN:
+
+    350 g getrocknete rote Linsen
+
+    3 EL Flohsamen
+
+    1 TL Backpulver
+
+    5 EL Olivenöl
+
+    1 EL Apfelessig
+
+    Salz
+
+    Sesamsamen (oder andere Samen)
+
+
+    ABONNIEREN @BrotGesund"
+  channel: "BROT GESUND"
+  channelId: "UCugGGFrkBh_11P-OuXZ8ZfA"
+  duration: "PT8M23S"
+  publishedAt: "2025-10-28T14:23:12Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/i5QxpVhR4ik/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=i5QxpVhR4ik"
 processedAt: "2026-01-12T23:33:10.273Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/i5QxpVhR4ik/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=i5QxpVhR4ik"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  5-Minuten-Linsenbrot mit vielen Vorteilen: Reduziert den Zuckergehalt und verbessert die Verdauung!
-  
-  Ein unglaublich einfaches und gesundes Rezept ohne Mehl, Hefe oder Gluten.
-  Nur wenige Zutaten – und Sie erhalten ein duftendes, nahrhaftes Brot, reich an Proteinen, Eisen und Ballaststoffen.
-  
-  Warum Sie es probieren sollten:
-  — Hilft, den Blutzuckerspiegel zu stabilisieren
-  — Verbessert die Verdauung und hält länger satt
-  — Geeignet für gesunde und vegane Ernährung
-  — Fertig in nur 5 Minuten
-  
-  Dieses Brot ist leicht, luftig und sehr sättigend. Probieren Sie es einmal und Sie werden nie wieder gekauftes Brot wollen!
-  
-  ZUTATEN:
-  350 g getrocknete rote Linsen
-  3 EL Flohsamen
-  1 TL Backpulver
-  5 EL Olivenöl
-  1 EL Apfelessig
-  Salz
-  Sesamsamen (oder andere Samen)
-  
-  ABONNIEREN @BrotGesund
-tldr: |
-  A high-protein, gluten-free bread recipe using red lentils: \n- Soak **350g red lentils** overnight and blend with **olive oil**, **vinegar**, and **psyllium husk**.\n- No flour or yeast required; bake at **180°C (350°F)** for 60–70 minutes.\n- Provides a nutrient-dense alternative rich in **fiber and iron** to support digestion.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 784
-outputTokens: 772
-totalTokens: 3713
-processingTimeMs: 17928
+tldr: "A high-protein, gluten-free bread recipe using red lentils: \\n- Soak **350g red lentils** overnight and blend with **olive oil**, **vinegar**, and **psyllium husk**.\\n- No flour or yeast required; bake at **180°C (350°F)** for 60–70 minutes.\\n- Provides a nutrient-dense alternative rich in **fiber and iron** to support digestion.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 784
+  outputTokens: 772
+  totalTokens: 3713
+  processingTimeMs: 17928
 ---
 
 ## Key Takeaways

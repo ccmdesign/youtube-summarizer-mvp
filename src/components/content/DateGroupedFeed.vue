@@ -18,7 +18,7 @@ defineProps<{
         <span class="date-segment__count">({{ segment.items.length }})</span>
       </h2>
       <ul class="date-segment__list">
-        <li v-for="item in segment.items" :key="item.videoId">
+        <li v-for="item in segment.items" :key="item.metadata?.videoId">
           <SummaryCard :summary="item" />
         </li>
       </ul>

@@ -1,51 +1,60 @@
 ---
-title: "WTF Anthropic"
-videoId: "guuGl34HI3Q"
-channel: "The PrimeTime"
-channelId: "UCUyeluBRhGPCW4rPe_UvBZQ"
-duration: "PT16M45S"
-publishedAt: "2026-01-13T14:14:39Z"
+metadata:
+  videoId: "guuGl34HI3Q"
+  title: "WTF Anthropic"
+  description: "Thank you again g2i for sponsoring this video:
+
+    Need to hire?  You must check out https://trm.sh/g2i for all of your needs.  7 Days from first interview to first PR.
+
+
+    ARCH CHRISTMAS SWEATER??? https://theprimeagen-shop.fourthwall.com/products/i-use-arch-btw
+
+
+    https://twitch.tv/ThePrimeagen - I Stream on Twitch
+
+
+    https://twitter.com/terminaldotshop - Want to order coffee over SSH?
+
+    ssh terminal.shop
+
+
+    Become Backend Dev: https://boot.dev/prime
+
+    (plus i make courses for them)
+
+
+    This is also the best way to support me is to support yourself becoming a better backend engineer. \ 
+
+
+    Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
+
+
+    Kinesis Advantage 360: https://bit.ly/Prime-Kinesis"
+  channel: "The PrimeTime"
+  channelId: "UCUyeluBRhGPCW4rPe_UvBZQ"
+  duration: "PT16M45S"
+  publishedAt: "2026-01-13T14:14:39Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/guuGl34HI3Q/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=guuGl34HI3Q"
 processedAt: "2026-01-14T16:30:11.275Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/guuGl34HI3Q/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=guuGl34HI3Q"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Thank you again g2i for sponsoring this video:
-  Need to hire?  You must check out https://trm.sh/g2i for all of your needs.  7 Days from first interview to first PR.
-  
-  ARCH CHRISTMAS SWEATER??? https://theprimeagen-shop.fourthwall.com/products/i-use-arch-btw
-  
-  https://twitch.tv/ThePrimeagen - I Stream on Twitch
-  
-  https://twitter.com/terminaldotshop - Want to order coffee over SSH?
-  ssh terminal.shop
-  
-  Become Backend Dev: https://boot.dev/prime
-  (plus i make courses for them)
-  
-  This is also the best way to support me is to support yourself becoming a better backend engineer.  
-  
-  Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
-  
-  Kinesis Advantage 360: https://bit.ly/Prime-Kinesis
-tldr: |
-  Anthropic is enforcing a strict "walled garden" by blocking Claude Pro subscriptions from being used in third-party tools like Cursor and Open Code.
+tldr: "Anthropic is enforcing a strict \"walled garden\" by blocking Claude Pro subscriptions from being used in third-party tools like Cursor and Open Code.
+
   - **Claude Code** is now the only authorized way to use subscription tokens; all other tools must use the 10x more expensive API.
-  - Critics argue that the official tool remains buggy and unpolished compared to open-source alternatives.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4799
-outputTokens: 955
-totalTokens: 7152
-processingTimeMs: 17130
+
+  - Critics argue that the official tool remains buggy and unpolished compared to open-source alternatives.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4799
+  outputTokens: 955
+  totalTokens: 7152
+  processingTimeMs: 17130
 ---
 
 ## Key Takeaways

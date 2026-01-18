@@ -1,49 +1,61 @@
 ---
-title: "Reading Pseudocode Will Future-Proof Your Career #ai #artificialintelligence #appdesign #pseudocode"
-videoId: "txGHMzgH1SY"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT1M7S"
-publishedAt: "2026-01-17T04:01:00Z"
+metadata:
+  videoId: "txGHMzgH1SY"
+  title: "Reading Pseudocode Will Future-Proof Your Career #ai #artificialintelligence #appdesign #pseudocode"
+  description: "My site: https://natebjones.com
+
+    Full Story w/ Prompt: https://natesnewsletter.substack.com/p/no-one-wrote-a-pro-grade-control?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+    My substack: https://natesnewsletter.substack.com/
+
+    _______________________
+
+    What's really happening with prompt engineering for AI image generation? The common story is that natural language prompts are enough — but the reality is more complicated.
+
+
+    In this video, I share the inside scoop on using JSON schemas to unlock precision with NanoBanana Pro:
+
+
+    - Why JSON prompting works for high-stakes visual outputs
+
+    - How structured schemas give you compositional control over scenes
+
+    - What makes NanoBanana Pro a renderer instead of a vibes machine
+
+    - Where JSON turns image generation into a reproducible, testable tool
+
+
+    For builders and operators, learning to read pseudocode and structured inputs is becoming one of the most valuable skills for working effectively with LLMs.
+
+
+    Subscribe for daily AI strategy and news.
+
+    For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT1M7S"
+  publishedAt: "2026-01-17T04:01:00Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/txGHMzgH1SY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=txGHMzgH1SY"
 processedAt: "2026-01-17T17:03:57.266Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/txGHMzgH1SY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=txGHMzgH1SY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  My site: https://natebjones.com
-  Full Story w/ Prompt: https://natesnewsletter.substack.com/p/no-one-wrote-a-pro-grade-control?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  My substack: https://natesnewsletter.substack.com/
-  _______________________
-  What's really happening with prompt engineering for AI image generation? The common story is that natural language prompts are enough — but the reality is more complicated.
-  
-  In this video, I share the inside scoop on using JSON schemas to unlock precision with NanoBanana Pro:
-  
-  - Why JSON prompting works for high-stakes visual outputs
-  - How structured schemas give you compositional control over scenes
-  - What makes NanoBanana Pro a renderer instead of a vibes machine
-  - Where JSON turns image generation into a reproducible, testable tool
-  
-  For builders and operators, learning to read pseudocode and structured inputs is becoming one of the most valuable skills for working effectively with LLMs.
-  
-  Subscribe for daily AI strategy and news.
-  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
-tldr: |
-  Learning to read **pseudocode** like JSON schemas is a vital skill for building AI-driven applications.
+tldr: "Learning to read **pseudocode** like JSON schemas is a vital skill for building AI-driven applications.
+
   - **LLMs translate prompts** into structured blueprints for screens and layouts
+
   - **Reviewing JSON blobs** allows for surgical precision by swapping single fields
-  - **Structured inputs** are the primary way to communicate complex intent to modern AI tools
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 703
-outputTokens: 758
-totalTokens: 2686
-processingTimeMs: 13361
+
+  - **Structured inputs** are the primary way to communicate complex intent to modern AI tools\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 703
+  outputTokens: 758
+  totalTokens: 2686
+  processingTimeMs: 13361
 ---
 
 ## Key Takeaways

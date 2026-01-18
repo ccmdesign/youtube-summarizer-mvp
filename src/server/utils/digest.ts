@@ -87,12 +87,14 @@ function isDateInPeriod(date: Date, period: DigestPeriod): boolean {
  */
 export function groupVideosByPeriod(
   summaries: Array<{
-    title?: string
-    videoId?: string
-    channel?: string
+    metadata?: {
+      title?: string
+      videoId?: string
+      channel?: string
+      youtubeUrl?: string
+    }
     tldr?: string
     processedAt?: string
-    youtubeUrl?: string
   }>,
   periods: DigestPeriod[],
   siteUrl: string
@@ -109,17 +111,18 @@ export function groupVideosByPeriod(
     if (!summary.processedAt) continue
 
     const processedDate = new Date(summary.processedAt)
+    const videoId = summary.metadata?.videoId || ''
 
     for (const period of periods) {
       if (isDateInPeriod(processedDate, period)) {
         const videos = periodMap.get(period.periodId)!
         videos.push({
-          title: summary.title || 'Untitled',
-          videoId: summary.videoId || '',
-          channel: summary.channel || 'Unknown',
+          title: summary.metadata?.title || 'Untitled',
+          videoId,
+          channel: summary.metadata?.channel || 'Unknown',
           tldr: summary.tldr || null,
-          summaryUrl: `${siteUrl}/summaries/${summary.videoId}`,
-          youtubeUrl: summary.youtubeUrl || `https://youtube.com/watch?v=${summary.videoId}`
+          summaryUrl: `${siteUrl}/summaries/${videoId}`,
+          youtubeUrl: summary.metadata?.youtubeUrl || `https://youtube.com/watch?v=${videoId}`
         })
         break // Each video belongs to only one period
       }
@@ -137,8 +140,8 @@ export function groupVideosByPeriod(
         period,
         videos: videos.sort((a, b) => {
           // Find original summaries to get processedAt
-          const aSummary = summaries.find(s => s.videoId === a.videoId)
-          const bSummary = summaries.find(s => s.videoId === b.videoId)
+          const aSummary = summaries.find(s => s.metadata?.videoId === a.videoId)
+          const bSummary = summaries.find(s => s.metadata?.videoId === b.videoId)
           const aDate = aSummary?.processedAt || ''
           const bDate = bSummary?.processedAt || ''
           return aDate.localeCompare(bDate) // Chronological order

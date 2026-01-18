@@ -1,42 +1,49 @@
 ---
-title: "What Happens When AI Obliterates Your Business Model?"
-videoId: "nflqTdNvUGs"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT9M46S"
-publishedAt: "2026-01-11T16:57:46Z"
+metadata:
+  videoId: "nflqTdNvUGs"
+  title: "What Happens When AI Obliterates Your Business Model?"
+  description: "AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes include corporate sponsorships, platform acquisitions, enterprise integrations, and built-in token contributions to sustain open-source digital infrastructure.
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT9M46S"
+  publishedAt: "2026-01-11T16:57:46Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/nflqTdNvUGs/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=nflqTdNvUGs"
 processedAt: "2026-01-11T17:13:57.707Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/nflqTdNvUGs/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=nflqTdNvUGs"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes include corporate sponsorships, platform acquisitions, enterprise integrations, and built-in token contributions to sustain open-source digital infrastructure.
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  Tailwind CSS's 80% revenue crash—despite record-high adoption—serves as a warning that AI can destroy business models by bypassing documentation funnels.
+tldr: "Tailwind CSS's 80% revenue crash—despite record-high adoption—serves as a warning that AI can destroy business models by bypassing documentation funnels.
+
   - AI agents ingest technical docs directly, preventing users from seeing paid offerings.
+
   - Stack Overflow queries collapsed from 300k to 6.8k monthly.
-  - The crisis highlights a shift from discovery-based marketing to a need for recurring-revenue
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2934
-outputTokens: 916
-totalTokens: 4576
-processingTimeMs: 12485
+
+  - The crisis highlights a shift from discovery-based marketing to a need for recurring-revenue\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2934
+  outputTokens: 916
+  totalTokens: 4576
+  processingTimeMs: 12485
 ---
 
 ## Key Takeaways

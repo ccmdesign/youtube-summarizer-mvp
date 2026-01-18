@@ -1,66 +1,93 @@
 ---
-title: "LeCun Said LLMs Are a Dead End—Then Revealed Meta Fudged Their Benchmarks. Both Matter - Here's Why."
-videoId: "RgQtTvneqPY"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT23M3S"
-publishedAt: "2026-01-17T16:00:40Z"
+metadata:
+  videoId: "RgQtTvneqPY"
+  title: "LeCun Said LLMs Are a Dead End—Then Revealed Meta Fudged Their Benchmarks. Both Matter - Here's Why."
+  description: "My site: https://natebjones.com
+
+    Full Story: https://natesnewsletter.substack.com/p/i-read-200-ai-announcements-so-you?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+    _______________________
+
+    What's really happening with AI this week? The common story is that healthcare launches are about consumer demand and robotics is still coming soon — but the reality is more complicated.
+
+
+    In this video, I share the inside scoop on five stories that actually matter from the last week:
+
+
+    \ • Why OpenAI and Anthropic healthcare launches are really about IPO narratives
+
+    \ • What Yan LeCun's departure from Meta signals about the LLM scaling debate
+
+    \ • How physical AI crossed from coming soon to here now
+
+    \ • Why OpenAI is paying contractors to upload real work from past employers
+
+
+    The training data is exhausted. The public internet has been scraped. The next frontier requires data that doesn't exist in accessible form — the actual work products people create in their jobs. Meanwhile, ChatGPT built a browser from scratch in one week with three million lines of code.
+
+
+    For builders and leaders, the capability curve has tipped over — the question now is what compounds into real value.
+
+
+    Chapters
+
+    00:00 Five stories that actually matter this week
+
+    00:10 The healthcare race: OpenAI and Anthropic launch
+
+    02:28 Healthcare as IPO narrative positioning
+
+    04:28 What happens to healthcare AI startups now
+
+    06:38 What Yan LeCun's departure actually means
+
+    08:45 LeCun says LLMs are a dead end to superintelligence
+
+    10:45 Physical AI: the ChatGPT moment for robotics
+
+    12:54 Edge inference chips change everything
+
+    14:43 Is physical AI actually closer now?
+
+    16:10 The training data is exhausted
+
+    18:17 Your internal data is now strategically valuable
+
+    18:52 The Claude Code explosion explained
+
+    19:46 Running 5-10 Claude instances in parallel
+
+    21:53 ChatGPT built a browser in one week
+
+
+    Subscribe for daily AI strategy and news.
+
+    For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT23M3S"
+  publishedAt: "2026-01-17T16:00:40Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/RgQtTvneqPY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=RgQtTvneqPY"
 processedAt: "2026-01-17T17:03:13.497Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/RgQtTvneqPY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=RgQtTvneqPY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  My site: https://natebjones.com
-  Full Story: https://natesnewsletter.substack.com/p/i-read-200-ai-announcements-so-you?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  _______________________
-  What's really happening with AI this week? The common story is that healthcare launches are about consumer demand and robotics is still coming soon — but the reality is more complicated.
-  
-  In this video, I share the inside scoop on five stories that actually matter from the last week:
-  
-   • Why OpenAI and Anthropic healthcare launches are really about IPO narratives
-   • What Yan LeCun's departure from Meta signals about the LLM scaling debate
-   • How physical AI crossed from coming soon to here now
-   • Why OpenAI is paying contractors to upload real work from past employers
-  
-  The training data is exhausted. The public internet has been scraped. The next frontier requires data that doesn't exist in accessible form — the actual work products people create in their jobs. Meanwhile, ChatGPT built a browser from scratch in one week with three million lines of code.
-  
-  For builders and leaders, the capability curve has tipped over — the question now is what compounds into real value.
-  
-  Chapters
-  00:00 Five stories that actually matter this week
-  00:10 The healthcare race: OpenAI and Anthropic launch
-  02:28 Healthcare as IPO narrative positioning
-  04:28 What happens to healthcare AI startups now
-  06:38 What Yan LeCun's departure actually means
-  08:45 LeCun says LLMs are a dead end to superintelligence
-  10:45 Physical AI: the ChatGPT moment for robotics
-  12:54 Edge inference chips change everything
-  14:43 Is physical AI actually closer now?
-  16:10 The training data is exhausted
-  18:17 Your internal data is now strategically valuable
-  18:52 The Claude Code explosion explained
-  19:46 Running 5-10 Claude instances in parallel
-  21:53 ChatGPT built a browser in one week
-  
-  Subscribe for daily AI strategy and news.
-  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
-tldr: |
-  The AI landscape is shifting from general model development to vertical integration and the acquisition of private corporate data.
+tldr: "The AI landscape is shifting from general model development to vertical integration and the acquisition of private corporate data.
+
   - **Verticalization**: OpenAI and Anthropic are entering Healthcare to build public market narratives.
+
   - **The Scaling Wall**: Yann LeCun's exit from Meta underscores a rift regarding whether LLMs can reach AGI.
-  - **Physical AI**: Robotics has hit a tipping point.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 5228
-outputTokens: 915
-totalTokens: 8280
-processingTimeMs: 21058
+
+  - **Physical AI**: Robotics has hit a tipping point.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 5228
+  outputTokens: 915
+  totalTokens: 8280
+  processingTimeMs: 21058
 ---
 
 ## Key Takeaways

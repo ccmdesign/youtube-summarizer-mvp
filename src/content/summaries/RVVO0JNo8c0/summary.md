@@ -1,41 +1,47 @@
 ---
-title: "How People Are Using AI for Health"
-videoId: "RVVO0JNo8c0"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT12M4S"
-publishedAt: "2026-01-10T21:24:36Z"
+metadata:
+  videoId: "RVVO0JNo8c0"
+  title: "How People Are Using AI for Health"
+  description: "OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, especially in rural and underserved areas. Discussions focus on clinical adoption, potential to streamline care and build a health-data moat, and worries about privacy, regulation, and startup disruption.
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT12M4S"
+  publishedAt: "2026-01-10T21:24:36Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/RVVO0JNo8c0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=RVVO0JNo8c0"
 processedAt: "2026-01-11T17:14:46.259Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/RVVO0JNo8c0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=RVVO0JNo8c0"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, especially in rural and underserved areas. Discussions focus on clinical adoption, potential to streamline care and build a health-data moat, and worries about privacy, regulation, and startup disruption.
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  OpenAI has launched **ChatGPT Health**, a dedicated and encrypted workspace for medical data integration.
+tldr: "OpenAI has launched **ChatGPT Health**, a dedicated and encrypted workspace for medical data integration.
+
   - Driven by data showing 40 million weekly users already seek health advice, it connects to **Apple Health** and **Electronic Health Records**.
-  - Key benefits include biometric correlation and assisting overworked doctors in identifying medical risks that often go overlooked.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3469
-outputTokens: 849
-totalTokens: 5733
-processingTimeMs: 16988
+
+  - Key benefits include biometric correlation and assisting overworked doctors in identifying medical risks that often go overlooked.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3469
+  outputTokens: 849
+  totalTokens: 5733
+  processingTimeMs: 16988
 ---
 
 ## Key Takeaways

@@ -1,44 +1,48 @@
 ---
-title: "It’s time to change your database"
-videoId: "B6C-MWCFfAg"
-channel: "Theo - t3․gg"
-channelId: "UCbRP3c757lWg9M-U7TyEkXA"
-duration: "PT39M44S"
-publishedAt: "2026-01-13T13:07:28Z"
+metadata:
+  videoId: "B6C-MWCFfAg"
+  title: "It’s time to change your database"
+  description: "There's a reason everyone's moving from Firebase, Supabase, and all the other dbs, straight to Convex
+
+
+    Thank you Tuple for sponsoring! Check them out at: https://soydev.link/tuple
+
+
+    SOURCES
+
+    https://x.com/steipete/status/2008417546677219828
+
+    https://www.youtube.com/watch?v=h6ffyfabfa8
+
+
+    Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
+
+
+    Check out my Twitch, Twitter, Discord more at https://t3.gg
+
+
+    S/O Ph4se0n3 for the awesome edit 🙏"
+  channel: "Theo - t3․gg"
+  channelId: "UCbRP3c757lWg9M-U7TyEkXA"
+  duration: "PT39M44S"
+  publishedAt: "2026-01-13T13:07:28Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/B6C-MWCFfAg/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=B6C-MWCFfAg"
 processedAt: "2026-01-15T05:59:01.382Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/B6C-MWCFfAg/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=B6C-MWCFfAg"
-modelUsed: "gemini-2.5-flash"
-description: |
-  There's a reason everyone's moving from Firebase, Supabase, and all the other dbs, straight to Convex
-  
-  Thank you Tuple for sponsoring! Check them out at: https://soydev.link/tuple
-  
-  SOURCES
-  https://x.com/steipete/status/2008417546677219828
-  https://www.youtube.com/watch?v=h6ffyfabfa8
-  
-  Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
-  
-  Check out my Twitch, Twitter, Discord more at https://t3.gg
-  
-  S/O Ph4se0n3 for the awesome edit 🙏
-tldr: |
-  Theo argues developers should switch to **Convex** from traditional databases like **Superbase** due to its superior developer experience, especially for AI-assisted app building. Convex offers generous free tiers, a code-first approach with full TypeScript type safety, automatic real-time sync, and powerful components, simplifying complex backend tasks and improving productivity.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 10307
-outputTokens: 2358
-totalTokens: 16031
-processingTimeMs: 43370
+tldr: "Theo argues developers should switch to **Convex** from traditional databases like **Superbase** due to its superior developer experience, especially for AI-assisted app building. Convex offers generous free tiers, a code-first approach with full TypeScript type safety, automatic real-time sync, and powerful components, simplifying complex backend tasks and improving productivity.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 10307
+  outputTokens: 2358
+  totalTokens: 16031
+  processingTimeMs: 43370
 ---
 
 ## Key Takeaways

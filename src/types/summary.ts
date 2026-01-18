@@ -20,30 +20,52 @@ export interface MarkdownInput {
   playlist?: PlaylistMetadata;
 }
 
-export interface MarkdownFrontmatter {
-  title: string;
+/**
+ * Video metadata from YouTube API
+ * Stored under the 'metadata' key in frontmatter
+ */
+export interface FrontmatterMetadata {
   videoId: string;
+  title: string;
+  description?: string;
   channel: string;
   channelId: string;
   duration: string;
   publishedAt: string;
-  processedAt: string;
-  source: 'youtube';
-  playlistId: string;
-  playlistName?: string;
-  category?: string;
   thumbnailUrl: string;
   youtubeUrl: string;
-  modelUsed: string;
-  tldr: string;
-  // Video Taxonomy
-  lengthCategory?: LengthCategory;
-  // AI Processing Metrics
-  aiProvider: string;
+}
+
+/**
+ * AI processing metrics
+ * Stored under the 'ai' key in frontmatter
+ */
+export interface FrontmatterAiMetrics {
+  provider: string;
+  model: string;
   apiCalls: number;
   fallbackAttempts: number;
   inputTokens?: number;
   outputTokens?: number;
   totalTokens?: number;
   processingTimeMs: number;
+}
+
+/**
+ * Frontmatter structure for summary markdown files
+ */
+export interface MarkdownFrontmatter {
+  // Video metadata from YouTube (nested)
+  metadata: FrontmatterMetadata;
+  // Processing info
+  processedAt: string;
+  source: 'youtube';
+  // Playlist/category info
+  playlistId?: string;
+  playlistName?: string;
+  category?: string;
+  // AI-generated content
+  tldr: string;
+  // AI processing metrics (nested)
+  ai: FrontmatterAiMetrics;
 }

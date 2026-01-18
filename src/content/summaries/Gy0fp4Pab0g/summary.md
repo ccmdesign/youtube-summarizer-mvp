@@ -1,42 +1,50 @@
 ---
-title: "Prepare your goodbyes"
-videoId: "Gy0fp4Pab0g"
-channel: "The PrimeTime"
-channelId: "UCUyeluBRhGPCW4rPe_UvBZQ"
-duration: "PT7M32S"
-publishedAt: "2026-01-09T12:27:42Z"
+metadata:
+  videoId: "Gy0fp4Pab0g"
+  title: "Prepare your goodbyes"
+  description: "https://twitch.tv/ThePrimeagen - I Stream on Twitch
+
+
+    https://twitter.com/terminaldotshop - Want to order coffee over SSH?
+
+    ssh terminal.shop
+
+
+    Become Backend Dev: https://boot.dev/prime
+
+    (plus i make courses for them)
+
+
+    This is also the best way to support me is to support yourself becoming a better backend engineer. \ 
+
+
+    Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
+
+
+    Kinesis Advantage 360: https://bit.ly/Prime-Kinesis"
+  channel: "The PrimeTime"
+  channelId: "UCUyeluBRhGPCW4rPe_UvBZQ"
+  duration: "PT7M32S"
+  publishedAt: "2026-01-09T12:27:42Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Gy0fp4Pab0g/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Gy0fp4Pab0g"
 processedAt: "2026-01-10T18:10:00.225Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/Gy0fp4Pab0g/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Gy0fp4Pab0g"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  https://twitch.tv/ThePrimeagen - I Stream on Twitch
-  
-  https://twitter.com/terminaldotshop - Want to order coffee over SSH?
-  ssh terminal.shop
-  
-  Become Backend Dev: https://boot.dev/prime
-  (plus i make courses for them)
-  
-  This is also the best way to support me is to support yourself becoming a better backend engineer.  
-  
-  Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
-  
-  Kinesis Advantage 360: https://bit.ly/Prime-Kinesis
-tldr: |
-  - Stack Overflow has officially regressed to 2008 activity levels, with monthly questions dropping from peak heights to approximately 3,862 in December 2025.
-  - While AI tools captured the market, the platform's death is attributed to a toxic moderation culture of "Dev Karens" who alienated users.
-  - The shift marks a bittersweet end for a site that defined a generation of web development.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2337
-outputTokens: 873
-totalTokens: 4244
-processingTimeMs: 13805
+tldr: "- Stack Overflow has officially regressed to 2008 activity levels, with monthly questions dropping from peak heights to approximately 3,862 in December 2025.
+
+  - While AI tools captured the market, the platform's death is attributed to a toxic moderation culture of \"Dev Karens\" who alienated users.
+
+  - The shift marks a bittersweet end for a site that defined a generation of web development.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2337
+  outputTokens: 873
+  totalTokens: 4244
+  processingTimeMs: 13805
 ---
 
 ## Key Takeaways

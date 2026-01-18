@@ -1,43 +1,47 @@
 ---
-title: "Claude Just Solved Their Biggest Problem"
-videoId: "opZpIN8g_6M"
-channel: "AI LABS"
-channelId: "UCelfWQr9sXVMTvBzviPGlFw"
-duration: "PT9M24S"
-publishedAt: "2025-11-21T13:45:11Z"
+metadata:
+  videoId: "opZpIN8g_6M"
+  title: "Claude Just Solved Their Biggest Problem"
+  description: "Claude MCP as code revolutionizes how we handle tool calls by preventing context window bloat. This approach leverages Claude Code's capabilities to transform MCPs into efficient backend APIs. Discover how Claude Skills combined with MCP as code enables progressive disclosure, smarter workflows, and better state management for AI development.
+
+
+    Claude MCP as code revolutionizes how we handle tool calls by preventing context window bloat. This approach leverages Claude Code's capabilities to transform MCPs into efficient backend APIs. Discover how Claude Skills combined with MCP as code enables progressive disclosure, smarter workflows, and better state management for AI development.
+
+
+    In this video, I break down Anthropic's paper on solving MCP context window problems. You'll learn why traditional MCPs consume 10%+ of your context before you even start working, and how converting them to code fixes this issue. I cover progressive disclosure for loading only what you need, context-efficient tool results that prevent data bloat, powerful control flow that reduces hallucinations, privacy-preserving operations for sensitive data, and state persistence using Claude's filesystem-based approach.
+
+
+    Whether you're building with Claude or just curious about optimizing AI workflows, this video shows you practical solutions that software engineers have used for years—now applied to AI agents. Perfect for developers working with Model Context Protocol and anyone looking to maximize their AI agent's efficiency.
+
+
+    #ClaudeAI #MCP #AIAgents #ClaudeCode #ModelContextProtocol #AICoding #Anthropic #ClaudeSkills #AIWorkflow #SoftwareDevelopment #AITools #MachineLearning #CodingWithAI #AIAutomation #DeveloperTools"
+  channel: "AI LABS"
+  channelId: "UCelfWQr9sXVMTvBzviPGlFw"
+  duration: "PT9M24S"
+  publishedAt: "2025-11-21T13:45:11Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/opZpIN8g_6M/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=opZpIN8g_6M"
 processedAt: "2026-01-13T15:53:22.433Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/opZpIN8g_6M/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=opZpIN8g_6M"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Claude MCP as code revolutionizes how we handle tool calls by preventing context window bloat. This approach leverages Claude Code's capabilities to transform MCPs into efficient backend APIs. Discover how Claude Skills combined with MCP as code enables progressive disclosure, smarter workflows, and better state management for AI development.
-  
-  Claude MCP as code revolutionizes how we handle tool calls by preventing context window bloat. This approach leverages Claude Code's capabilities to transform MCPs into efficient backend APIs. Discover how Claude Skills combined with MCP as code enables progressive disclosure, smarter workflows, and better state management for AI development.
-  
-  In this video, I break down Anthropic's paper on solving MCP context window problems. You'll learn why traditional MCPs consume 10%+ of your context before you even start working, and how converting them to code fixes this issue. I cover progressive disclosure for loading only what you need, context-efficient tool results that prevent data bloat, powerful control flow that reduces hallucinations, privacy-preserving operations for sensitive data, and state persistence using Claude's filesystem-based approach.
-  
-  Whether you're building with Claude or just curious about optimizing AI workflows, this video shows you practical solutions that software engineers have used for years—now applied to AI agents. Perfect for developers working with Model Context Protocol and anyone looking to maximize their AI agent's efficiency.
-  
-  #ClaudeAI #MCP #AIAgents #ClaudeCode #ModelContextProtocol #AICoding #Anthropic #ClaudeSkills #AIWorkflow #SoftwareDevelopment #AITools #MachineLearning #CodingWithAI #AIAutomation #DeveloperTools
-tldr: |
-  Anthropic's new **MCP as Code** strategy solves context window bloat by replacing static tool calls with a file-based TypeScript API.
+tldr: "Anthropic's new **MCP as Code** strategy solves context window bloat by replacing static tool calls with a file-based TypeScript API.
+
   - **Progressive Disclosure**: Loads only necessary tool definitions on demand instead of all at once.
+
   - **Data Filtering**: Uses code to aggregate results, preventing token overflow from large datasets.
-  - **Logic Control**: Moves execution flow to code to reduce hal
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2446
-outputTokens: 931
-totalTokens: 4811
-processingTimeMs: 14356
+
+  - **Logic Control**: Moves execution flow to code to reduce hal\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2446
+  outputTokens: 931
+  totalTokens: 4811
+  processingTimeMs: 14356
 ---
 
 ## Key Takeaways

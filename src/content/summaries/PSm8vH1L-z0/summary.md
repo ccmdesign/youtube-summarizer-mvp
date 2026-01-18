@@ -1,37 +1,39 @@
 ---
-title: "We Tested 20 Coding AIs: Top Winners Inside"
-videoId: "PSm8vH1L-z0"
-channel: "Brokk AI"
-channelId: "UCdQsictbnd4O9ZxwRsa4h7w"
-duration: "PT38M27S"
-publishedAt: "2026-01-08T21:00:34Z"
+metadata:
+  videoId: "PSm8vH1L-z0"
+  title: "We Tested 20 Coding AIs: Top Winners Inside"
+  description: "We spent $10,000+ testing 20 coding LLMs on real enterprise codebases. Haiku 4.5 destroyed the competition—but the results might surprise you.
+
+    In this deep-dive, Brokk founder Jonathan Ellis (Apache Cassandra creator, DataStax co-founder) and Developer Advocate Dylan Turnbull reveal the December 2024 Brokk Power Rankings—the only LLM benchmark testing FRESH code that hasn't contaminated training data.
+
+
+    🏆 KEY FINDINGS:
+
+    Haiku 4.5 claims S-tier alone (fastest + smartest above 45%)Gemini 3 Pro disappoints in C-tier despite hypeGrok Code Fast 1 dominates budget categoryGPT-5 Mini outperforms Sonnet 4.5 (controversial)Open source models catching up fast (6-month gap)📊 WHAT MAKES THIS DIFFERENT: Unlike SWE-bench, we test: ✅ Fresh, uncontaminated problems from real repos ✅ Multi-file, enterprise-scale tasks ✅ Speed + Cost + Intelligence (not just pass/fail)
+
+
+    ⏱️ TIMESTAMPS: 0:00 - Why existing benchmarks fail 4:07 - S-Tier: Haiku 4.5 dominance explained 15:08 - Gemini 3 Pro's shocking failure 18:50 - Budget winners: Grok Code Fast 1 22:37 - Open source vs closed models 32:33 - Speed: The final frontier"
+  channel: "Brokk AI"
+  channelId: "UCdQsictbnd4O9ZxwRsa4h7w"
+  duration: "PT38M27S"
+  publishedAt: "2026-01-08T21:00:34Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/PSm8vH1L-z0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=PSm8vH1L-z0"
 processedAt: "2026-01-12T14:23:39.024Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/PSm8vH1L-z0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=PSm8vH1L-z0"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  We spent $10,000+ testing 20 coding LLMs on real enterprise codebases. Haiku 4.5 destroyed the competition—but the results might surprise you.
-  In this deep-dive, Brokk founder Jonathan Ellis (Apache Cassandra creator, DataStax co-founder) and Developer Advocate Dylan Turnbull reveal the December 2024 Brokk Power Rankings—the only LLM benchmark testing FRESH code that hasn't contaminated training data.
-  
-  🏆 KEY FINDINGS:
-  Haiku 4.5 claims S-tier alone (fastest + smartest above 45%)Gemini 3 Pro disappoints in C-tier despite hypeGrok Code Fast 1 dominates budget categoryGPT-5 Mini outperforms Sonnet 4.5 (controversial)Open source models catching up fast (6-month gap)📊 WHAT MAKES THIS DIFFERENT: Unlike SWE-bench, we test: ✅ Fresh, uncontaminated problems from real repos ✅ Multi-file, enterprise-scale tasks ✅ Speed + Cost + Intelligence (not just pass/fail)
-  
-  ⏱️ TIMESTAMPS: 0:00 - Why existing benchmarks fail 4:07 - S-Tier: Haiku 4.5 dominance explained 15:08 - Gemini 3 Pro's shocking failure 18:50 - Budget winners: Grok Code Fast 1 22:37 - Open source vs closed models 32:33 - Speed: The final frontier
 tldr: "The Brokk Power Ranking identifies Claude Haiku 45 as the sole S-tier coding AI due to its superior speed and 'good enough' intelligence, while exposing widespread benchmark poisoning in models like Gemini 3 Pro and various open-source contenders. The ranking prioritizes a 45% intelligence threshold, speed for maintaining developer flow, and cost-effectiveness over raw pass rates."
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 8864
-outputTokens: 1409
-totalTokens: 11303
-processingTimeMs: 26526
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 8864
+  outputTokens: 1409
+  totalTokens: 11303
+  processingTimeMs: 26526
 ---
 
 ## Key Takeaways

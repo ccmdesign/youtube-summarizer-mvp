@@ -1,27 +1,38 @@
 ---
-title: "This Automation Teaches You to Write Award-Winning Short Stories"
-videoId: "s8sSmquiQZo"
-channel: "The Nerdy Novelist"
-channelId: "UCeAKdCMMS4I9waww0LDLqng"
-duration: "PT12M54S"
-publishedAt: "2025-12-30T12:31:30Z"
+metadata:
+  videoId: "s8sSmquiQZo"
+  title: "This Automation Teaches You to Write Award-Winning Short Stories"
+  description: "Write more books with AI (12+ in a year). Join the Story Hacker waitlist and get the actual prompts I use for FREE while you wait: https://www.skool.com/story-hacker/about
+
+
+    My Favorite Tools for Authors (UPDATED):
+
+
+    N8N (via Hostinger) for Automations: https://storytellingdb.com/go/n8n-hostinger
+
+    Novelcrafter (for hands-on authors): https://storytellingdb.com/go/novelcrafter
+
+    RaptorWrite (for authors on a budget): https://storytellingdb.com/go/raptorwrite
+
+    Autocrit (best editing program): https://storytellingdb.com/go/autocritlifetime
+
+    Perplexity (best chatbot): https://storytellingdb.com/go/perplexity"
+  channel: "The Nerdy Novelist"
+  channelId: "UCeAKdCMMS4I9waww0LDLqng"
+  duration: "PT12M54S"
+  publishedAt: "2025-12-30T12:31:30Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/s8sSmquiQZo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=s8sSmquiQZo"
 processedAt: "2026-01-04T00:39:31.798Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/s8sSmquiQZo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=s8sSmquiQZo"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Write more books with AI (12+ in a year). Join the Story Hacker waitlist and get the actual prompts I use for FREE while you wait: https://www.skool.com/story-hacker/about
-  
-  My Favorite Tools for Authors (UPDATED):
-  
-  N8N (via Hostinger) for Automations: https://storytellingdb.com/go/n8n-hostinger
-  Novelcrafter (for hands-on authors): https://storytellingdb.com/go/novelcrafter
-  RaptorWrite (for authors on a budget): https://storytellingdb.com/go/raptorwrite
-  Autocrit (best editing program): https://storytellingdb.com/go/autocritlifetime
-  Perplexity (best chatbot): https://storytellingdb.com/go/perplexity
 tldr: "Use AI-driven structural analysis to compare your drafts against the narrative DNA of award-winning fiction, identifying specific gaps in pacing, emotional resonance, and thematic density."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 The video introduces a sophisticated automation workflow designed to move beyond generic AI writing and toward the specific, high-caliber craft required for award-winning short fiction (e.g., Hugo, Nebula, or Shirley Jackson awards). The core premise is that "award-winning" writing follows identifiable patterns of psychological resonance and structural precision that can be mapped and emulated.

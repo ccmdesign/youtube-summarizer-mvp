@@ -1,60 +1,78 @@
 ---
-title: "Anthropic just dropped Claude Cowork... (SO GOOD)"
-videoId: "lQ0mtbFxzn8"
-channel: "Matthew Berman"
-channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
-duration: "PT6M55S"
-publishedAt: "2026-01-13T18:11:03Z"
+metadata:
+  videoId: "lQ0mtbFxzn8"
+  title: "Anthropic just dropped Claude Cowork... (SO GOOD)"
+  description: "Check out the Dell Pro Max Workstation with the NVIDIA RTX PRO! https://bit.ly/dell-ai-factory-with-nvidia
+
+
+    Download The Subtle Art of Not Being Replaced 👇🏼
+
+    http://bit.ly/3WLNzdV
+
+
+    Download Humanities Last Prompt Engineering Guide 👇🏼
+
+    https://bit.ly/4kFhajz
+
+
+    Join My Newsletter for Regular AI Updates 👇🏼
+
+    https://forwardfuture.ai
+
+
+    Discover The Best AI Tools👇🏼
+
+    https://tools.forwardfuture.ai
+
+
+    My Links 🔗
+
+    👉🏻 X: https://x.com/matthewberman
+
+    👉🏻 Forward Future X: https://x.com/forwardfuture
+
+    👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+
+    👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+
+
+    Media/Sponsorship Inquiries ✅\ 
+
+    https://bit.ly/44TC45V
+
+
+    Links:
+
+    https://claude.com/blog/cowork-research-preview
+
+    https://x.com/bcherny/status/2010809450844831752"
+  channel: "Matthew Berman"
+  channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
+  duration: "PT6M55S"
+  publishedAt: "2026-01-13T18:11:03Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/lQ0mtbFxzn8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=lQ0mtbFxzn8"
 processedAt: "2026-01-15T05:56:52.040Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/lQ0mtbFxzn8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=lQ0mtbFxzn8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Check out the Dell Pro Max Workstation with the NVIDIA RTX PRO! https://bit.ly/dell-ai-factory-with-nvidia
-  
-  Download The Subtle Art of Not Being Replaced 👇🏼
-  http://bit.ly/3WLNzdV
-  
-  Download Humanities Last Prompt Engineering Guide 👇🏼
-  https://bit.ly/4kFhajz
-  
-  Join My Newsletter for Regular AI Updates 👇🏼
-  https://forwardfuture.ai
-  
-  Discover The Best AI Tools👇🏼
-  https://tools.forwardfuture.ai
-  
-  My Links 🔗
-  👉🏻 X: https://x.com/matthewberman
-  👉🏻 Forward Future X: https://x.com/forwardfuture
-  👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
-  👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
-  
-  Media/Sponsorship Inquiries ✅ 
-  https://bit.ly/44TC45V
-  
-  Links:
-  https://claude.com/blog/cowork-research-preview
-  https://x.com/bcherny/status/2010809450844831752
-tldr: |
-  Anthropic's new **Claude Co-work** translates the agentic power of Claude Code into a consumer-friendly tool for general knowledge work. 
+tldr: "Anthropic's new **Claude Co-work** translates the agentic power of Claude Code into a consumer-friendly tool for general knowledge work.\ 
+
   - **Key features** include native Mac OS integration, browser automation, and file system management.
+
   - **Safety-first design** utilizes virtual machines (VMs) for isolation and granular permission controls.
-  - **Availability** is currently limited to Claude Max 
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1693
-outputTokens: 876
-totalTokens: 2956
-processingTimeMs: 9805
+
+  - **Availability** is currently limited to Claude Max\ \n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1693
+  outputTokens: 876
+  totalTokens: 2956
+  processingTimeMs: 9805
 ---
 
 ## Key Takeaways

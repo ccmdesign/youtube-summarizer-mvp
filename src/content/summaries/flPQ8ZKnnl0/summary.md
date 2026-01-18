@@ -1,28 +1,26 @@
 ---
-title: "Beyond the Happy Path with EMILY ANDERSON— Smashing Meets Easy Accessibility — December 11th, 2025"
-videoId: "flPQ8ZKnnl0"
-channel: "Smashing Magazine"
-channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
-duration: "PT45M23S"
-publishedAt: "2025-12-18T09:17:01Z"
+metadata:
+  videoId: "flPQ8ZKnnl0"
+  title: "Beyond the Happy Path with EMILY ANDERSON— Smashing Meets Easy Accessibility — December 11th, 2025"
+  channel: "Smashing Magazine"
+  channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+  duration: "PT45M23S"
+  publishedAt: "2025-12-18T09:17:01Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/flPQ8ZKnnl0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=flPQ8ZKnnl0"
 processedAt: "2026-01-15T18:08:14.408Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/flPQ8ZKnnl0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=flPQ8ZKnnl0"
-modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
-tldr: |
-  Emily Anderson argues that designing solely for 'delightful' user experiences ignores the complexity of human emotions; true inclusive design requires anticipating 'unhappy paths' and edge cases by understanding users' context, behaviors, and diverse emotional states.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "openrouter"
-apiCalls: 5
-fallbackAttempts: 4
-inputTokens: 10187
-outputTokens: 1434
-totalTokens: 11621
-processingTimeMs: 105002
+tldr: "Emily Anderson argues that designing solely for 'delightful' user experiences ignores the complexity of human emotions; true inclusive design requires anticipating 'unhappy paths' and edge cases by understanding users' context, behaviors, and diverse emotional states.\n"
+ai:
+  provider: "openrouter"
+  model: "openrouter/deepseek/deepseek-r1-0528:free"
+  apiCalls: 5
+  fallbackAttempts: 4
+  inputTokens: 10187
+  outputTokens: 1434
+  totalTokens: 11621
+  processingTimeMs: 105002
 ---
 
 ## Key Takeaways

@@ -1,59 +1,78 @@
 ---
-title: "Qwen3 Multimodal Embeddings: Finally, RAG That Sees"
-videoId: "fY3-YeveBgA"
-channel: "Sam Witteveen"
-channelId: "UC55ODQSvARtgSyc8ThfiepQ"
-duration: "PT19M29S"
-publishedAt: "2026-01-15T13:01:29Z"
+metadata:
+  videoId: "fY3-YeveBgA"
+  title: "Qwen3 Multimodal Embeddings: Finally, RAG That Sees"
+  description: "In this video, I look at the recent release of Qwen3 VL embeddings and re-rankers and look at how multimodal embeddings work, including a code example.\ 
+
+
+    Blog: https://qwen.ai/blog?id=qwen3-vl-embedding
+
+    HF: https://huggingface.co/collections/Qwen/qwen3-vl-embedding
+
+    Colab: https://dripl.ink/ReqOF
+
+
+    For more tutorials on using LLMs and building agents, check out my Patreon
+
+    Patreon: https://www.patreon.com/SamWitteveen
+
+    Twitter: https://x.com/Sam_Witteveen
+
+
+    🕵️ Interested in building LLM Agents? Fill out the form below
+
+    Building LLM Agents Form: https://drp.li/dIMes
+
+
+    👨‍💻Github:
+
+    https://github.com/samwit/llm-tutorials
+
+
+    ⏱️Time Stamps:
+
+    00:00 Intro
+
+    00:47 Embeddings Refresher
+
+    04:40 Qwen3-VL-Embeddings and Rerankers Blog
+
+    05:57 Key Features
+
+    06:42 Qwen3-VL Embeddings and Qwen3-VL Rerankers
+
+    08:55 MMEB Leaderboard
+
+    09:47 Use Cases
+
+    10:48 Colab Demo"
+  channel: "Sam Witteveen"
+  channelId: "UC55ODQSvARtgSyc8ThfiepQ"
+  duration: "PT19M29S"
+  publishedAt: "2026-01-15T13:01:29Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/fY3-YeveBgA/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=fY3-YeveBgA"
 processedAt: "2026-01-17T17:00:22.732Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/fY3-YeveBgA/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=fY3-YeveBgA"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  In this video, I look at the recent release of Qwen3 VL embeddings and re-rankers and look at how multimodal embeddings work, including a code example. 
-  
-  Blog: https://qwen.ai/blog?id=qwen3-vl-embedding
-  HF: https://huggingface.co/collections/Qwen/qwen3-vl-embedding
-  Colab: https://dripl.ink/ReqOF
-  
-  For more tutorials on using LLMs and building agents, check out my Patreon
-  Patreon: https://www.patreon.com/SamWitteveen
-  Twitter: https://x.com/Sam_Witteveen
-  
-  🕵️ Interested in building LLM Agents? Fill out the form below
-  Building LLM Agents Form: https://drp.li/dIMes
-  
-  👨‍💻Github:
-  https://github.com/samwit/llm-tutorials
-  
-  ⏱️Time Stamps:
-  00:00 Intro
-  00:47 Embeddings Refresher
-  04:40 Qwen3-VL-Embeddings and Rerankers Blog
-  05:57 Key Features
-  06:42 Qwen3-VL Embeddings and Qwen3-VL Rerankers
-  08:55 MMEB Leaderboard
-  09:47 Use Cases
-  10:48 Colab Demo
-tldr: |
-  Qwen3 VL embedding models (2B and 8B) enable true multimodal RAG by mapping text, images, and video into the same semantic vector space.
+tldr: "Qwen3 VL embedding models (2B and 8B) enable true multimodal RAG by mapping text, images, and video into the same semantic vector space.
+
   - **Top Benchmark Performance**: Qwen3 8B currently leads the MMEB leaderboard for multimodal embeddings.
+
   - **Matrioska Embeddings**: Supports variable vector dimensions (e.g., 4096 down to 64) to optimize search speed and storage.
-  - **Optimized Workflow**: Combi
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4673
-outputTokens: 1087
-totalTokens: 6825
-processingTimeMs: 14917
+
+  - **Optimized Workflow**: Combi\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4673
+  outputTokens: 1087
+  totalTokens: 6825
+  processingTimeMs: 14917
 ---
 
 ## Key Takeaways

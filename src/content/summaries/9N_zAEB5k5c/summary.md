@@ -1,73 +1,104 @@
 ---
-title: "The Truth About People Who Notice Too Much | Psychology Explained"
-videoId: "9N_zAEB5k5c"
-channel: "Unveiled Man"
-channelId: "UCBmK8Nujcwuv4IU5MM9QByg"
-duration: "PT3M9S"
-publishedAt: "2025-12-22T15:00:27Z"
+metadata:
+  videoId: "9N_zAEB5k5c"
+  title: "The Truth About People Who Notice Too Much | Psychology Explained"
+  description: "The Truth About People Who Notice Too Much | Psychology Explained
+
+    Do you notice every small detail that others miss? The slight change in someone's voice, the crooked picture frame, the tension in a room no one acknowledges? You're not overthinking—you're deeply observant. This video explores the psychology behind people who notice everything and why this trait is both a gift and a challenge.
+
+    If you've ever felt exhausted from seeing too much, or wondered why your brain won't stop analyzing every little thing, this is for you. Learn why you're wired differently, what psychologists say about high sensory processing sensitivity, and how to embrace your observant nature as a superpower.
+
+    You're not broken. You're just tuned to a frequency most people don't hear. And the world needs people like you.
+
+    If this resonates with you, subscribe for more psychology insights and real talk about the human mind.
+
+    psychology of observant people
+
+    people who notice everything
+
+    highly sensitive person
+
+    HSP
+
+    overthinker
+
+    noticing small details
+
+    emotional intelligence
+
+    psychology explained
+
+    mental health awareness
+
+    self awareness
+
+    deep thinker
+
+    empath
+
+    sensory processing sensitivity
+
+    why do I notice everything
+
+    observant personality
+
+    psychology facts
+
+    human behavior
+
+    personal growth
+
+    self improvement
+
+    motivational video
+
+    life lessons
+
+    understanding yourself
+
+    introvert traits
+
+    emotional awareness
+
+    psychology videos
+
+
+    #Psychology #MentalHealth #Observant #HighlySensitivePerson #HSP #SelfAwareness #Overthinking #EmotionalIntelligence #Mindfulness #PersonalGrowth #SelfImprovement #MentalHealthAwareness #DeepThinker #Introvert #Empath #PsychologyFacts #HumanBehavior #SelfDiscovery #Motivation #LifeLessons
+
+
+
+
+
+
+    DISCLAIMER: This content is for educational and entertainment purposes only. It is not a substitute for professional psychological advice, diagnosis, or treatment.
+
+
+    © 2025 Unveiled Man. All rights reserved."
+  channel: "Unveiled Man"
+  channelId: "UCBmK8Nujcwuv4IU5MM9QByg"
+  duration: "PT3M9S"
+  publishedAt: "2025-12-22T15:00:27Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/9N_zAEB5k5c/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=9N_zAEB5k5c"
 processedAt: "2026-01-12T14:33:48.500Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/9N_zAEB5k5c/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=9N_zAEB5k5c"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  The Truth About People Who Notice Too Much | Psychology Explained
-  Do you notice every small detail that others miss? The slight change in someone's voice, the crooked picture frame, the tension in a room no one acknowledges? You're not overthinking—you're deeply observant. This video explores the psychology behind people who notice everything and why this trait is both a gift and a challenge.
-  If you've ever felt exhausted from seeing too much, or wondered why your brain won't stop analyzing every little thing, this is for you. Learn why you're wired differently, what psychologists say about high sensory processing sensitivity, and how to embrace your observant nature as a superpower.
-  You're not broken. You're just tuned to a frequency most people don't hear. And the world needs people like you.
-  If this resonates with you, subscribe for more psychology insights and real talk about the human mind.
-  psychology of observant people
-  people who notice everything
-  highly sensitive person
-  HSP
-  overthinker
-  noticing small details
-  emotional intelligence
-  psychology explained
-  mental health awareness
-  self awareness
-  deep thinker
-  empath
-  sensory processing sensitivity
-  why do I notice everything
-  observant personality
-  psychology facts
-  human behavior
-  personal growth
-  self improvement
-  motivational video
-  life lessons
-  understanding yourself
-  introvert traits
-  emotional awareness
-  psychology videos
-  
-  #Psychology #MentalHealth #Observant #HighlySensitivePerson #HSP #SelfAwareness #Overthinking #EmotionalIntelligence #Mindfulness #PersonalGrowth #SelfImprovement #MentalHealthAwareness #DeepThinker #Introvert #Empath #PsychologyFacts #HumanBehavior #SelfDiscovery #Motivation #LifeLessons
-  
-  
-  
-  
-  
-  DISCLAIMER: This content is for educational and entertainment purposes only. It is not a substitute for professional psychological advice, diagnosis, or treatment.
-  
-  © 2025 Unveiled Man. All rights reserved.
-tldr: |
-  - High sensory processing sensitivity is a neurological trait where the brain processes micro-details, emotional shifts, and inconsistencies that others miss.
-  - This often leads to "perceptual exhaustion" but serves as a vital tool for deep empathy and truth-seeking.
-  - The trait transforms from a social burden into a superpower when used to see through masks and connect authentically with others.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1238
-outputTokens: 809
-totalTokens: 3163
-processingTimeMs: 14301
+tldr: "- High sensory processing sensitivity is a neurological trait where the brain processes micro-details, emotional shifts, and inconsistencies that others miss.
+
+  - This often leads to \"perceptual exhaustion\" but serves as a vital tool for deep empathy and truth-seeking.
+
+  - The trait transforms from a social burden into a superpower when used to see through masks and connect authentically with others.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1238
+  outputTokens: 809
+  totalTokens: 3163
+  processingTimeMs: 14301
 ---
 
 ## Key Takeaways

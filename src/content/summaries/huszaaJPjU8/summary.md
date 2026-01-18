@@ -1,57 +1,72 @@
 ---
-title: "MIT Researchers DESTROY the Context Window Limit"
-videoId: "huszaaJPjU8"
-channel: "Matthew Berman"
-channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
-duration: "PT17M44S"
-publishedAt: "2026-01-17T19:44:17Z"
+metadata:
+  videoId: "huszaaJPjU8"
+  title: "MIT Researchers DESTROY the Context Window Limit"
+  description: "Try Zapier’s AI orchestration platform for free today: https://bit.ly/4qSsFXA
+
+
+    Paper: https://arxiv.org/pdf/2512.24601
+
+
+    Download The Subtle Art of Not Being Replaced 👇🏼
+
+    http://bit.ly/3WLNzdV
+
+
+    Download Humanities Last Prompt Engineering Guide 👇🏼
+
+    https://bit.ly/4kFhajz
+
+
+    Join My Newsletter for Regular AI Updates 👇🏼
+
+    https://forwardfuture.ai
+
+
+    Discover The Best AI Tools👇🏼
+
+    https://tools.forwardfuture.ai
+
+
+    My Links 🔗
+
+    👉🏻 X: https://x.com/matthewberman
+
+    👉🏻 Forward Future X: https://x.com/forwardfuture
+
+    👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+
+    👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+
+
+    Media/Sponsorship Inquiries ✅\ 
+
+    https://bit.ly/44TC45V"
+  channel: "Matthew Berman"
+  channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
+  duration: "PT17M44S"
+  publishedAt: "2026-01-17T19:44:17Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/huszaaJPjU8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=huszaaJPjU8"
 processedAt: "2026-01-18T16:34:17.960Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/huszaaJPjU8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=huszaaJPjU8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Try Zapier’s AI orchestration platform for free today: https://bit.ly/4qSsFXA
-  
-  Paper: https://arxiv.org/pdf/2512.24601
-  
-  Download The Subtle Art of Not Being Replaced 👇🏼
-  http://bit.ly/3WLNzdV
-  
-  Download Humanities Last Prompt Engineering Guide 👇🏼
-  https://bit.ly/4kFhajz
-  
-  Join My Newsletter for Regular AI Updates 👇🏼
-  https://forwardfuture.ai
-  
-  Discover The Best AI Tools👇🏼
-  https://tools.forwardfuture.ai
-  
-  My Links 🔗
-  👉🏻 X: https://x.com/matthewberman
-  👉🏻 Forward Future X: https://x.com/forwardfuture
-  👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
-  👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
-  
-  Media/Sponsorship Inquiries ✅ 
-  https://bit.ly/44TC45V
-tldr: |
-  MIT researchers introduced **Recursive Language Models (RLMs)** to bypass physical context window limits.
-  - **Ripple environment:** Stores 10M+ tokens as external variables, avoiding performance-degrading "context rot."
-  - **Recursive Search:** Uses Python and Regex tools to selectively query data, outperforming traditional methods by 29% while reducing costs.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 4109
-outputTokens: 934
-totalTokens: 6349
-processingTimeMs: 15636
+tldr: "MIT researchers introduced **Recursive Language Models (RLMs)** to bypass physical context window limits.
+
+  - **Ripple environment:** Stores 10M+ tokens as external variables, avoiding performance-degrading \"context rot.\"
+
+  - **Recursive Search:** Uses Python and Regex tools to selectively query data, outperforming traditional methods by 29% while reducing costs.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 4109
+  outputTokens: 934
+  totalTokens: 6349
+  processingTimeMs: 15636
 ---
 
 ## Key Takeaways

@@ -1,45 +1,52 @@
 ---
-title: "This one AI skill multiplies all the others"
-videoId: "y26WQAQS6dY"
-channel: "Brian Casel"
-channelId: "UCSxPE9PHHxQUEt6ajGmQyMA"
-duration: "PT1M2S"
-publishedAt: "2025-12-19T16:01:41Z"
+metadata:
+  videoId: "y26WQAQS6dY"
+  title: "This one AI skill multiplies all the others"
+  description: "Knowing when to use Claude vs ChatGPT, terminal vs IDE, subagents vs main context—that's workflow orchestration. Build this intuition and you're not just reacting to AI tools, you're directing them.
+
+
+    👇 **Your Builder Briefing (free)**
+
+    https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
+
+
+    👇 **Use Agent OS** (free open source):
+
+    https://buildermethods.com/agent-os
+
+
+    👇 **Join Builder Methods Pro**
+
+    https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
+
+
+    ▶️ Related videos:
+
+
+    💬 Drop a comment with your questions and requests for upcoming videos!"
+  channel: "Brian Casel"
+  channelId: "UCSxPE9PHHxQUEt6ajGmQyMA"
+  duration: "PT1M2S"
+  publishedAt: "2025-12-19T16:01:41Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/y26WQAQS6dY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=y26WQAQS6dY"
 processedAt: "2026-01-15T17:19:33.162Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/y26WQAQS6dY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=y26WQAQS6dY"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Knowing when to use Claude vs ChatGPT, terminal vs IDE, subagents vs main context—that's workflow orchestration. Build this intuition and you're not just reacting to AI tools, you're directing them.
-  
-  👇 **Your Builder Briefing (free)**
-  https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
-  
-  👇 **Use Agent OS** (free open source):
-  https://buildermethods.com/agent-os
-  
-  👇 **Join Builder Methods Pro**
-  https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
-  
-  ▶️ Related videos:
-  
-  💬 Drop a comment with your questions and requests for upcoming videos!
-tldr: |
-  The most crucial AI skill is **workflow orchestration**, which is developing your intuition for selecting the right tool for every situation.
+tldr: "The most crucial AI skill is **workflow orchestration**, which is developing your intuition for selecting the right tool for every situation.
+
   - It involves understanding your personal workflow drivers and the nuances of various **frontier models**.
-  - You must build the muscle to **quickly evaluate new tools** to see if they genuinely improve your process.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 640
-outputTokens: 644
-totalTokens: 2194
-processingTimeMs: 24535
+
+  - You must build the muscle to **quickly evaluate new tools** to see if they genuinely improve your process.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 640
+  outputTokens: 644
+  totalTokens: 2194
+  processingTimeMs: 24535
 ---
 
 ## Key Takeaways

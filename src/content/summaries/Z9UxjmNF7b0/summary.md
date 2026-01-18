@@ -1,44 +1,48 @@
 ---
-title: "You're falling behind. It's time to catch up."
-videoId: "Z9UxjmNF7b0"
-channel: "Theo - t3․gg"
-channelId: "UCbRP3c757lWg9M-U7TyEkXA"
-duration: "PT32M45S"
-publishedAt: "2026-01-12T03:31:56Z"
+metadata:
+  videoId: "Z9UxjmNF7b0"
+  title: "You're falling behind. It's time to catch up."
+  description: "Things are changing absurdly fast, to the point where a lot of people feel like they're falling behind. While I do disagree, there's still a lot to talk about here...
+
+
+    Thank you Depot for sponsoring! Check them out at: https://soydev.link/depot
+
+
+    SOURCES
+
+    https://x.com/rahulgs/status/2006090208823910573
+
+    https://x.com/karpathy/status/2004607146781278521
+
+
+    Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
+
+
+    Check out my Twitch, Twitter, Discord more at https://t3.gg
+
+
+    S/O Ph4se0n3 for the awesome edit 🙏"
+  channel: "Theo - t3․gg"
+  channelId: "UCbRP3c757lWg9M-U7TyEkXA"
+  duration: "PT32M45S"
+  publishedAt: "2026-01-12T03:31:56Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Z9UxjmNF7b0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Z9UxjmNF7b0"
 processedAt: "2026-01-14T16:22:27.879Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/Z9UxjmNF7b0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Z9UxjmNF7b0"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Things are changing absurdly fast, to the point where a lot of people feel like they're falling behind. While I do disagree, there's still a lot to talk about here...
-  
-  Thank you Depot for sponsoring! Check them out at: https://soydev.link/depot
-  
-  SOURCES
-  https://x.com/rahulgs/status/2006090208823910573
-  https://x.com/karpathy/status/2004607146781278521
-  
-  Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
-  
-  Check out my Twitch, Twitter, Discord more at https://t3.gg
-  
-  S/O Ph4se0n3 for the awesome edit 🙏
-tldr: |
-  Theo argues that developers are significantly behind in adopting AI, which is now capable of writing the majority of code. It's crucial to stop delaying and immediately begin **experimenting with advanced AI tools** (like Claude Code, Cursor) to push their limits, rewire your problem-solving approach, and embrace orchestration. Organizations must also empower engineers with these agents and adapt 
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 8956
-outputTokens: 2277
-totalTokens: 12015
-processingTimeMs: 166467
+tldr: "Theo argues that developers are significantly behind in adopting AI, which is now capable of writing the majority of code. It's crucial to stop delaying and immediately begin **experimenting with advanced AI tools** (like Claude Code, Cursor) to push their limits, rewire your problem-solving approach, and embrace orchestration. Organizations must also empower engineers with these agents and adapt\ \n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 8956
+  outputTokens: 2277
+  totalTokens: 12015
+  processingTimeMs: 166467
 ---
 
 ## Key Takeaways

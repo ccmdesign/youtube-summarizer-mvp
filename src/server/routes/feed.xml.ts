@@ -22,12 +22,12 @@ export default defineEventHandler(async (event) => {
       return bDate.localeCompare(aDate)
     })
     .map(summary => ({
-      title: summary.title || 'Untitled',
-      videoId: summary.videoId || '',
-      channel: summary.channel || 'Unknown',
+      title: summary.metadata?.title || 'Untitled',
+      videoId: summary.metadata?.videoId || '',
+      channel: summary.metadata?.channel || 'Unknown',
       tldr: summary.tldr,
       processedAt: summary.processedAt || new Date().toISOString(),
-      youtubeUrl: summary.youtubeUrl
+      youtubeUrl: summary.metadata?.youtubeUrl
     }))
 
   // Generate RSS XML

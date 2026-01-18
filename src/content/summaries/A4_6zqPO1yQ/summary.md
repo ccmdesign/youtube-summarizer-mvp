@@ -1,86 +1,134 @@
 ---
-title: "MAID Runner x Claude Code: The Ultimate Workflow (Building an MCP Server)"
-videoId: "A4_6zqPO1yQ"
-channel: "AI-Driven Coder"
-channelId: "UCaKXP3w-FW_1iBR9uzKkxwg"
-duration: "PT16M18S"
-publishedAt: "2026-01-02T17:00:17Z"
+metadata:
+  videoId: "A4_6zqPO1yQ"
+  title: "MAID Runner x Claude Code: The Ultimate Workflow (Building an MCP Server)"
+  description: "Master the MAID Runner methodology for AI-assisted development! This comprehensive tutorial demonstrates the complete MAID workflow using Claude Code - from exploration to parallel implementation.
+
+
+    Learn how to structure AI-driven development with manifests, behavioral tests, and custom Claude Code sub-agents. I walk through each phase of the MAID methodology (Manifest → Behavioral Tests → Implementation) using a real project as demonstration.
+
+
+    🎯 WHAT YOU'LL LEARN:
+
+    • MAID Runner CLI setup and project initialization
+
+    • Using the spike command to explore requirements
+
+    • Creating manifests for each development task
+
+    • Writing behavioral tests before implementation
+
+    • Custom Claude Code slash commands and sub-agents
+
+    • Sequential task implementation workflow
+
+    • Parallel implementation with multiple Claude Code agents
+
+    • Integration and validation patterns
+
+
+    ⚙️ METHODOLOGY PHASES DEMONSTRATED:
+
+    1. Spike - Explore and validate ideas
+
+    2. Manifest Generation - Define scope and artifacts
+
+    3. Behavioral Tests - Specify expected behavior
+
+    4. Implementation - AI-assisted coding with validation
+
+    5. Integration - Combine completed tasks
+
+
+    💡 DEMO PROJECT:
+
+    I build a MAID Runner MCP server to demonstrate the methodology in action. The focus is on HOW to use MAID Runner, not what we're building.
+
+
+    ⏱️ TIMESTAMPS:
+
+    0:00 Introduction and Overview
+
+    0:38 Installing MAID Runner CLI Tool
+
+    1:03 Project Structure and Issue Setup
+
+    1:40 Initializing MAID in the Project
+
+    3:02 Using Spike Command to Explore Ideas
+
+    4:16 Generating Manifest for Task 001
+
+    5:05 Creating Behavioral Tests with TDD
+
+    6:23 Implementing Code with MAID Developer Agent
+
+    7:43 Manual Validation and Testing Process
+
+    8:28 Claude Code Forking Technique
+
+    10:10 Implementing Multiple Tasks Sequentially
+
+    12:32 Using MAID-Run Command for Complete Workflow
+
+    13:08 Parallel Implementation of Tasks 5-8
+
+    14:10 Final Integration Task and Server Testing
+
+    15:33 Recap and Closing Remarks
+
+
+    🔗 RESOURCES
+
+    - MAID Runner: https://github.com/mamertofabian/maid-runner
+
+    - MAID Runner MCP Server: https://github.com/mamertofabian/maid-runner-mcp
+
+
+    💬 Questions? Drop them in the comments below!
+
+    👍 Like and subscribe for more AI-assisted development tutorials!
+
+
+    ---
+
+    📺 AI-Driven Coder: https://www.youtube.com/@AIDrivenCoder
+
+    💬 Discord: https://aidrivencoder.com/discord
+
+    🌐 Website: https://aidrivencoder.com
+
+    🐙 GitHub: https://github.com/aidrivencoder/
+
+    💼 Codefrost: https://codefrost.com
+
+    📅 Book a call: https://calendly.com/mamerto/30min
+
+
+    #MAIDRunner #ClaudeCode #AIAssistedDevelopment #TDD #ManifestDriven #AIWorkflow #DeveloperTools"
+  channel: "AI-Driven Coder"
+  channelId: "UCaKXP3w-FW_1iBR9uzKkxwg"
+  duration: "PT16M18S"
+  publishedAt: "2026-01-02T17:00:17Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/A4_6zqPO1yQ/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=A4_6zqPO1yQ"
 processedAt: "2026-01-08T18:21:26.126Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/A4_6zqPO1yQ/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=A4_6zqPO1yQ"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Master the MAID Runner methodology for AI-assisted development! This comprehensive tutorial demonstrates the complete MAID workflow using Claude Code - from exploration to parallel implementation.
-  
-  Learn how to structure AI-driven development with manifests, behavioral tests, and custom Claude Code sub-agents. I walk through each phase of the MAID methodology (Manifest → Behavioral Tests → Implementation) using a real project as demonstration.
-  
-  🎯 WHAT YOU'LL LEARN:
-  • MAID Runner CLI setup and project initialization
-  • Using the spike command to explore requirements
-  • Creating manifests for each development task
-  • Writing behavioral tests before implementation
-  • Custom Claude Code slash commands and sub-agents
-  • Sequential task implementation workflow
-  • Parallel implementation with multiple Claude Code agents
-  • Integration and validation patterns
-  
-  ⚙️ METHODOLOGY PHASES DEMONSTRATED:
-  1. Spike - Explore and validate ideas
-  2. Manifest Generation - Define scope and artifacts
-  3. Behavioral Tests - Specify expected behavior
-  4. Implementation - AI-assisted coding with validation
-  5. Integration - Combine completed tasks
-  
-  💡 DEMO PROJECT:
-  I build a MAID Runner MCP server to demonstrate the methodology in action. The focus is on HOW to use MAID Runner, not what we're building.
-  
-  ⏱️ TIMESTAMPS:
-  0:00 Introduction and Overview
-  0:38 Installing MAID Runner CLI Tool
-  1:03 Project Structure and Issue Setup
-  1:40 Initializing MAID in the Project
-  3:02 Using Spike Command to Explore Ideas
-  4:16 Generating Manifest for Task 001
-  5:05 Creating Behavioral Tests with TDD
-  6:23 Implementing Code with MAID Developer Agent
-  7:43 Manual Validation and Testing Process
-  8:28 Claude Code Forking Technique
-  10:10 Implementing Multiple Tasks Sequentially
-  12:32 Using MAID-Run Command for Complete Workflow
-  13:08 Parallel Implementation of Tasks 5-8
-  14:10 Final Integration Task and Server Testing
-  15:33 Recap and Closing Remarks
-  
-  🔗 RESOURCES
-  - MAID Runner: https://github.com/mamertofabian/maid-runner
-  - MAID Runner MCP Server: https://github.com/mamertofabian/maid-runner-mcp
-  
-  💬 Questions? Drop them in the comments below!
-  👍 Like and subscribe for more AI-assisted development tutorials!
-  
-  ---
-  📺 AI-Driven Coder: https://www.youtube.com/@AIDrivenCoder
-  💬 Discord: https://aidrivencoder.com/discord
-  🌐 Website: https://aidrivencoder.com
-  🐙 GitHub: https://github.com/aidrivencoder/
-  💼 Codefrost: https://codefrost.com
-  📅 Book a call: https://calendly.com/mamerto/30min
-  
-  #MAIDRunner #ClaudeCode #AIAssistedDevelopment #TDD #ManifestDriven #AIWorkflow #DeveloperTools
-tldr: |
-  - Streamline **Model Context Protocol (MCP)** server development by combining **Claude Code's** agentic coding capabilities with **MAID Runner's** local execution environment.
+tldr: "- Streamline **Model Context Protocol (MCP)** server development by combining **Claude Code's** agentic coding capabilities with **MAID Runner's** local execution environment.
+
   - Automate boilerplate generation, dependency management, and iterative debugging.
-  - Create secure, local-first tools that allow AI agents to interact directly with private databases and filesystems.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 418
-outputTokens: 765
-totalTokens: 2325
-processingTimeMs: 13764
+
+  - Create secure, local-first tools that allow AI agents to interact directly with private databases and filesystems.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 418
+  outputTokens: 765
+  totalTokens: 2325
+  processingTimeMs: 13764
 ---
 
 ## Key Takeaways

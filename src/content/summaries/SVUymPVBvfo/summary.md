@@ -1,36 +1,38 @@
 ---
-title: "Context Graphs: AI's Next Big Idea"
-videoId: "SVUymPVBvfo"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT14M17S"
-publishedAt: "2026-01-06T01:32:06Z"
+metadata:
+  videoId: "SVUymPVBvfo"
+  title: "Context Graphs: AI's Next Big Idea"
+  description: "Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessible decision lineage for reliable automation. Implications include context engineering, organizational change management, and design approaches enabling agents to discover organizational schema from real usage rather than predefined schemas.
+
+
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT14M17S"
+  publishedAt: "2026-01-06T01:32:06Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/SVUymPVBvfo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=SVUymPVBvfo"
 processedAt: "2026-01-11T17:16:19.644Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/SVUymPVBvfo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=SVUymPVBvfo"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessible decision lineage for reliable automation. Implications include context engineering, organizational change management, and design approaches enabling agents to discover organizational schema from real usage rather than predefined schemas.
-  
-  
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
 tldr: "Context graphs represent the next evolution in AI by capturing “decision traces”—the “why” behind business actions that currently live in Slack threads and tribal knowledge. By transforming these historical exceptions, overrides, and cross-system contexts into a queryable graph, organizations can transition from fragile data systems to autonomous agents capable of nuanced judgment."
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3558
-outputTokens: 907
-totalTokens: 5327
-processingTimeMs: 13876
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3558
+  outputTokens: 907
+  totalTokens: 5327
+  processingTimeMs: 13876
 ---
 
 ## Key Takeaways

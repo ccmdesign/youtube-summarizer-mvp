@@ -1,44 +1,52 @@
 ---
-title: "This Agentic Coding Setup is Ahead of Its Time (42k Commits in 45 days is ABSURD)"
-videoId: "mLAjiilAcUg"
-channel: "Parker Rex"
-channelId: "UCcuaQecz84wTuxKzr1Yxi4Q"
-duration: "PT14M"
-publishedAt: "2026-01-08T16:56:09Z"
+metadata:
+  videoId: "mLAjiilAcUg"
+  title: "This Agentic Coding Setup is Ahead of Its Time (42k Commits in 45 days is ABSURD)"
+  description: "References:\ 
+
+    https://steipete.me/posts/2025/shipping-at-inference-speed
+
+    https://www.parkerrex.com/writing/prompts-2026#spec-interviews
+
+
+    00:00 Introduction and Background\ 
+
+    00:21 Exploring Agent Scripts\ 
+
+    01:35 Practical Applications and Examples\ 
+
+    03:46 Advanced Configurations and Tools\ 
+
+    09:23 Refactoring and Optimization\ 
+
+    10:48 Networking and Community Insights\ 
+
+    13:27 Conclusion and Recommendations"
+  channel: "Parker Rex"
+  channelId: "UCcuaQecz84wTuxKzr1Yxi4Q"
+  duration: "PT14M"
+  publishedAt: "2026-01-08T16:56:09Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/mLAjiilAcUg/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=mLAjiilAcUg"
 processedAt: "2026-01-15T17:14:19.947Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/mLAjiilAcUg/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=mLAjiilAcUg"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  References: 
-  https://steipete.me/posts/2025/shipping-at-inference-speed
-  https://www.parkerrex.com/writing/prompts-2026#spec-interviews
-  
-  00:00 Introduction and Background 
-  00:21 Exploring Agent Scripts 
-  01:35 Practical Applications and Examples 
-  03:46 Advanced Configurations and Tools 
-  09:23 Refactoring and Optimization 
-  10:48 Networking and Community Insights 
-  13:27 Conclusion and Recommendations
-tldr: |
-  Centralizing agent configurations into a single **agent-scripts** folder allows developers to operationalize AI agents across multiple projects without repeating instructions. 
+tldr: "Centralizing agent configurations into a single **agent-scripts** folder allows developers to operationalize AI agents across multiple projects without repeating instructions.\ 
+
   - **Key Technique**: Use a central repository of 'skills' and configurations that projects point to for consistent behavior.
-  - **Main Tool**: Leveraging **Codex** and **Claude** with advanced prompts like 'feature analysis'
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3553
-outputTokens: 894
-totalTokens: 5064
-processingTimeMs: 15033
+
+  - **Main Tool**: Leveraging **Codex** and **Claude** with advanced prompts like 'feature analysis'\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3553
+  outputTokens: 894
+  totalTokens: 5064
+  processingTimeMs: 15033
 ---
 
 ## Key Takeaways

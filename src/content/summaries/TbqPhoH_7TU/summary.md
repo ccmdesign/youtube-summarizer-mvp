@@ -1,62 +1,82 @@
 ---
-title: "AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION)"
-videoId: "TbqPhoH_7TU"
-channel: "Matthew Berman"
-channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
-duration: "PT8M16S"
-publishedAt: "2026-01-12T23:02:21Z"
+metadata:
+  videoId: "TbqPhoH_7TU"
+  title: "AI just solved one of the hardest math problems... (INTELLIGENCE EXPLOSION)"
+  description: "Start fine-tuning with HPC-AI here: http://bit.ly/4aFU766
+
+    Use my referral link to get $10 in free credits (approx. 150M tokens)
+
+
+    Download The Subtle Art of Not Being Replaced 👇🏼
+
+    http://bit.ly/3WLNzdV
+
+
+    Download Humanities Last Prompt Engineering Guide 👇🏼
+
+    https://bit.ly/4kFhajz
+
+
+    Join My Newsletter for Regular AI Updates 👇🏼
+
+    https://forwardfuture.ai
+
+
+    Discover The Best AI Tools👇🏼
+
+    https://tools.forwardfuture.ai
+
+
+    My Links 🔗
+
+    👉🏻 X: https://x.com/matthewberman
+
+    👉🏻 Forward Future X: https://x.com/forwardfuture
+
+    👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+
+    👉🏻 Discord: https://discord.gg/xxysSXBxFW
+
+    👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+
+
+    Media/Sponsorship Inquiries ✅\ 
+
+    https://bit.ly/44TC45V
+
+
+    Links:
+
+    https://x.com/neelsomani/status/2010215162146607128
+
+    https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems"
+  channel: "Matthew Berman"
+  channelId: "UCawZsQWqfGSbCI5yjkdVkTA"
+  duration: "PT8M16S"
+  publishedAt: "2026-01-12T23:02:21Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/TbqPhoH_7TU/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=TbqPhoH_7TU"
 processedAt: "2026-01-14T16:26:39.756Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/TbqPhoH_7TU/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=TbqPhoH_7TU"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Start fine-tuning with HPC-AI here: http://bit.ly/4aFU766
-  Use my referral link to get $10 in free credits (approx. 150M tokens)
-  
-  Download The Subtle Art of Not Being Replaced 👇🏼
-  http://bit.ly/3WLNzdV
-  
-  Download Humanities Last Prompt Engineering Guide 👇🏼
-  https://bit.ly/4kFhajz
-  
-  Join My Newsletter for Regular AI Updates 👇🏼
-  https://forwardfuture.ai
-  
-  Discover The Best AI Tools👇🏼
-  https://tools.forwardfuture.ai
-  
-  My Links 🔗
-  👉🏻 X: https://x.com/matthewberman
-  👉🏻 Forward Future X: https://x.com/forwardfuture
-  👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
-  👉🏻 Discord: https://discord.gg/xxysSXBxFW
-  👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
-  
-  Media/Sponsorship Inquiries ✅ 
-  https://bit.ly/44TC45V
-  
-  Links:
-  https://x.com/neelsomani/status/2010215162146607128
-  https://github.com/teorth/erdosproblems/wiki/AI-contributions-to-Erd%C5%91s-problems
-tldr: |
-  AI has entered a phase of recursive self-improvement after GPT-5.2 solved Erdős problem 397 in just 15 minutes.
+tldr: "AI has entered a phase of recursive self-improvement after GPT-5.2 solved Erdős problem 397 in just 15 minutes.
+
   - **Scientific Breakthrough**: AI recently solved six open Erdős math problems, verified by Terrence Tao.
+
   - **Recursive Loops**: AI is now optimizing its own core matrix multiplication algorithms.
-  - **Intelligence Explosion**: Mathematical discovery is the catalyst for unbounded AI growt
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1997
-outputTokens: 879
-totalTokens: 3991
-processingTimeMs: 14874
+
+  - **Intelligence Explosion**: Mathematical discovery is the catalyst for unbounded AI growt\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1997
+  outputTokens: 879
+  totalTokens: 3991
+  processingTimeMs: 14874
 ---
 
 ## Key Takeaways

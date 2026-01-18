@@ -1,60 +1,78 @@
 ---
-title: "Claude Code Q&A - 5 Questions I Get Asked All The Time"
-videoId: "663aUMIZsYE"
-channel: "All About AI"
-channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
-duration: "PT21M39S"
-publishedAt: "2026-01-11T16:00:08Z"
+metadata:
+  videoId: "663aUMIZsYE"
+  title: "Claude Code Q&A - 5 Questions I Get Asked All The Time"
+  description: "Claude Code Q&A - 5 Questions I Get Asked All The Time
+
+
+    Nvidia DXG Update:
+
+    https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/
+
+
+    Huggingface:
+
+    https://huggingface.co/collections/mistralai/ministral-3
+
+
+    👊 Become a YouTube Member to Support Me:
+
+    https://www.youtube.com/c/AllAboutAI/join
+
+
+    My AI Video Course:
+
+    https://www.theaivideocourse.com/
+
+
+    🔥Open GH:
+
+    https://github.com/AllAboutAI-YT/
+
+
+    Business Inquiries:
+
+    kbfseo@gmail.com
+
+
+    00:00 Intro
+
+    00:40 Claude Code in Parallel?
+
+    03:07 Claude Code for non coding tasks?
+
+    06:09 Nvidia DGX Spark Update
+
+    07:38 Claude Code Skills?
+
+    11:40 Claude Code Subagents?
+
+    14:25 Claude Code running in auto mode?"
+  channel: "All About AI"
+  channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
+  duration: "PT21M39S"
+  publishedAt: "2026-01-11T16:00:08Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/663aUMIZsYE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=663aUMIZsYE"
 processedAt: "2026-01-12T14:30:50.673Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/663aUMIZsYE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=663aUMIZsYE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Claude Code Q&A - 5 Questions I Get Asked All The Time
-  
-  Nvidia DXG Update:
-  https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/
-  
-  Huggingface:
-  https://huggingface.co/collections/mistralai/ministral-3
-  
-  👊 Become a YouTube Member to Support Me:
-  https://www.youtube.com/c/AllAboutAI/join
-  
-  My AI Video Course:
-  https://www.theaivideocourse.com/
-  
-  🔥Open GH:
-  https://github.com/AllAboutAI-YT/
-  
-  Business Inquiries:
-  kbfseo@gmail.com
-  
-  00:00 Intro
-  00:40 Claude Code in Parallel?
-  03:07 Claude Code for non coding tasks?
-  06:09 Nvidia DGX Spark Update
-  07:38 Claude Code Skills?
-  11:40 Claude Code Subagents?
-  14:25 Claude Code running in auto mode?
-tldr: |
-  - Run Claude Code in parallel across multiple terminal windows to execute tasks simultaneously and halve development time.
+tldr: "- Run Claude Code in parallel across multiple terminal windows to execute tasks simultaneously and halve development time.
+
   - Use Skills for local, repetitive tasks to minimize context overhead compared to MCP.
-  - Enable fully autonomous execution with the `--dangerously-skip-permissions` flag, but exercise extreme caution as it can accidentally delete entire home directories.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 5269
-outputTokens: 824
-totalTokens: 7405
-processingTimeMs: 14837
+
+  - Enable fully autonomous execution with the `--dangerously-skip-permissions` flag, but exercise extreme caution as it can accidentally delete entire home directories.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 5269
+  outputTokens: 824
+  totalTokens: 7405
+  processingTimeMs: 14837
 ---
 
 ## Key Takeaways

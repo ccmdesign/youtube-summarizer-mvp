@@ -1,32 +1,31 @@
 ---
-title: "AI's Water Bill is INSANE"
-videoId: "bcVDf7Y91Us"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT1M9S"
-publishedAt: "2026-01-15T11:30:43Z"
+metadata:
+  videoId: "bcVDf7Y91Us"
+  title: "AI's Water Bill is INSANE"
+  description: "Sam Altman claims a single GPT request uses just 1/15 of a teaspoon of water, but that deceptive figure ignores the massive water consumption from training massive models, the energy-hungry reasoning processes that power every response, and the sheer scale of billions of queries running 24/7 in data centres worldwide. When you account for the real costs - cooling systems, server maintenance, and the infrastructure supporting AI at scale - the actual water footprint becomes mind-boggling."
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT1M9S"
+  publishedAt: "2026-01-15T11:30:43Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/bcVDf7Y91Us/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=bcVDf7Y91Us"
 processedAt: "2026-01-15T14:37:20.703Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/bcVDf7Y91Us/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=bcVDf7Y91Us"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Sam Altman claims a single GPT request uses just 1/15 of a teaspoon of water, but that deceptive figure ignores the massive water consumption from training massive models, the energy-hungry reasoning processes that power every response, and the sheer scale of billions of queries running 24/7 in data centres worldwide. When you account for the real costs - cooling systems, server maintenance, and the infrastructure supporting AI at scale - the actual water footprint becomes mind-boggling.
-tldr: |
-  AI's environmental footprint is projected to reach **one trillion liters of water** annually by 2028.
+tldr: "AI's environmental footprint is projected to reach **one trillion liters of water** annually by 2028.
+
   - **Training Costs**: GPT-3 alone consumed 5 million liters before answering a single prompt.
-  - **Evaporative Loss**: Data center cooling systems lose water to the atmosphere, unlike electricity which can be cycled back into the grid.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 699
-outputTokens: 802
-totalTokens: 2382
-processingTimeMs: 25893
+
+  - **Evaporative Loss**: Data center cooling systems lose water to the atmosphere, unlike electricity which can be cycled back into the grid.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 699
+  outputTokens: 802
+  totalTokens: 2382
+  processingTimeMs: 25893
 ---
 
 ## Key Takeaways

@@ -1,48 +1,56 @@
 ---
-title: "How I'd Get Traffic to a New Website if I Had to Start Over (2026)"
-videoId: "Qs_p21vLp1A"
-channel: "Ahrefs"
-channelId: "UCWquNQV8Y0_defMKnGKrFOQ"
-duration: "PT9M37S"
-publishedAt: "2026-01-07T13:01:03Z"
+metadata:
+  videoId: "Qs_p21vLp1A"
+  title: "How I'd Get Traffic to a New Website if I Had to Start Over (2026)"
+  description: "If I had to start over today, here's the exact playbook I'd use to build website traffic to a brand new site, before AI and social siphon your clicks.
+
+
+    Additional Resources:
+
+    ► https://www.youtube.com/watch?v=e8wJBq6vOAI
+
+    ► https://www.youtube.com/watch?v=xsVTqzratPs
+
+    ► https://www.youtube.com/watch?v=CF3Uk2jc_ig
+
+
+    Getting traffic is harder than ever, but new sites are not doomed. In this video, I walk you through a practical plan for earning early attention, growing your brand, and compounding organic traffic even if you are starting from zero. We begin with a simple discovery play: submit your site to the right directories so Google, AI assistants, and real customers can find and trust you. I show you how to use Ahrefs Site Explorer and Link Intersect to mine competitor citations, then prioritize the listings that actually move the needle like Google Business Profile, Yelp, Apple Maps, plus niche hubs like TripAdvisor, Houzz, and Avvo.
+
+
+    Next, we build free tools that people actually search for, because tool queries rarely trigger AI Overviews, which means clicks still go to websites. Using Ahrefs Keywords Explorer, you will find data-backed ideas by pairing your niche with modifiers like calculator, checker, and converter, then spin up lightweight tools with a developer or ChatGPT. I share examples, a workflow for promoting them, and a simple backlink building process from our SEO for Beginners playbook so your tool ranks, earns links, and drives consistent website traffic.
+
+
+    Then we turn that attention into owned traffic with an email list, complete with smart lead magnets that qualify visitors and bring them back to your site, your videos, and your products. You will see how to tap forums and Reddit the right way, including a method to find threads that already rank in Google using the Organic keywords report in Ahrefs, so your thoughtful replies keep sending visitors for months. Finally, we cover sweat equity partnerships that trade skills for exposure, co-branded tools that earn mentions and links, plus experience-driven content, the human layer that competitors cannot copy and the piece that makes every tactic work better.
+
+
+    If you are launching a new site or rebuilding after a setback, this is the streamlined system I would use today. Watch now to grab the playbook and start compounding website traffic before the next algorithm shift hits."
+  channel: "Ahrefs"
+  channelId: "UCWquNQV8Y0_defMKnGKrFOQ"
+  duration: "PT9M37S"
+  publishedAt: "2026-01-07T13:01:03Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Qs_p21vLp1A/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Qs_p21vLp1A"
 processedAt: "2026-01-15T14:29:28.233Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/Qs_p21vLp1A/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Qs_p21vLp1A"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  If I had to start over today, here's the exact playbook I'd use to build website traffic to a brand new site, before AI and social siphon your clicks.
-  
-  Additional Resources:
-  ► https://www.youtube.com/watch?v=e8wJBq6vOAI
-  ► https://www.youtube.com/watch?v=xsVTqzratPs
-  ► https://www.youtube.com/watch?v=CF3Uk2jc_ig
-  
-  Getting traffic is harder than ever, but new sites are not doomed. In this video, I walk you through a practical plan for earning early attention, growing your brand, and compounding organic traffic even if you are starting from zero. We begin with a simple discovery play: submit your site to the right directories so Google, AI assistants, and real customers can find and trust you. I show you how to use Ahrefs Site Explorer and Link Intersect to mine competitor citations, then prioritize the listings that actually move the needle like Google Business Profile, Yelp, Apple Maps, plus niche hubs like TripAdvisor, Houzz, and Avvo.
-  
-  Next, we build free tools that people actually search for, because tool queries rarely trigger AI Overviews, which means clicks still go to websites. Using Ahrefs Keywords Explorer, you will find data-backed ideas by pairing your niche with modifiers like calculator, checker, and converter, then spin up lightweight tools with a developer or ChatGPT. I share examples, a workflow for promoting them, and a simple backlink building process from our SEO for Beginners playbook so your tool ranks, earns links, and drives consistent website traffic.
-  
-  Then we turn that attention into owned traffic with an email list, complete with smart lead magnets that qualify visitors and bring them back to your site, your videos, and your products. You will see how to tap forums and Reddit the right way, including a method to find threads that already rank in Google using the Organic keywords report in Ahrefs, so your thoughtful replies keep sending visitors for months. Finally, we cover sweat equity partnerships that trade skills for exposure, co-branded tools that earn mentions and links, plus experience-driven content, the human layer that competitors cannot copy and the piece that makes every tactic work better.
-  
-  If you are launching a new site or rebuilding after a setback, this is the streamlined system I would use today. Watch now to grab the playbook and start compounding website traffic before the next algorithm shift hits.
-tldr: |
-  In an AI-driven search era, new websites must pivot from pure SEO to a utility-and-community ecosystem:
+tldr: "In an AI-driven search era, new websites must pivot from pure SEO to a utility-and-community ecosystem:
+
   - **Build Free Tools**: Create calculators and checkers that AI cannot easily replicate in search overviews.
+
   - **Own the Audience**: Convert anonymous traffic into email subscribers to bypass algorithm shifts.
-  - **Experience-Driven Content**: Focus on unique, human-led storytelling that AI canno
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2561
-outputTokens: 920
-totalTokens: 4410
-processingTimeMs: 39986
+
+  - **Experience-Driven Content**: Focus on unique, human-led storytelling that AI canno\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2561
+  outputTokens: 920
+  totalTokens: 4410
+  processingTimeMs: 39986
 ---
 
 ## Key Takeaways

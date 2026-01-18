@@ -1,62 +1,82 @@
 ---
-title: "Claude Skills Just Fixed MCP's Biggest Problem (First Impressions)"
-videoId: "A-ZScvLMd-U"
-channel: "JeredBlu"
-channelId: "UCaIm6rTg-RXb6rB19fYJgTg"
-duration: "PT5M28S"
-publishedAt: "2025-10-18T00:54:40Z"
+metadata:
+  videoId: "A-ZScvLMd-U"
+  title: "Claude Skills Just Fixed MCP's Biggest Problem (First Impressions)"
+  description: "Anthropic just released Claude Skills — and it might be the fix we've been waiting for to solve MCP's context window problem.
+
+
+    Skills use progressive disclosure to only load information when Claude actually needs it, instead of filling up your entire context window before you even start. They're easier to build than MCP servers, can run code externally, and include a built-in skill creator to help you build your own.
+
+
+    In this video, I share my first impressions — what it is, how it compares to MCP, why it's kinda MCP 2.0, and whether it actually solves the rate limit and context issues we've been dealing with.
+
+
+
+    ⏱️ TIMESTAMPS
+
+    0:00 – Intro: Claude Skills Released
+
+    0:06 – The Problem: MCP's Context Window Issue
+
+    0:18 – What Skills Are (Custom Instructions + Progressive Disclosure)
+
+    0:47 – Why This Matters: MCP Fills Context Before You Start
+
+    1:06 – How to Enable Skills
+
+    2:37 – Progressive Disclosure Explained\ 
+
+    4:11 – Best Practices for Building Skills
+
+    4:56 – Final Thoughts + Resources
+
+
+    🔗 RELEVANT LINKS
+
+    https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview
+
+    https://github.com/anthropics/claude-cookbooks/tree/main/skills
+
+    https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_a4222fa77b
+
+    https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+
+    https://www.anthropic.com/news/skills
+
+
+    Book a call with me → https://yedatechs.com/#container06
+
+    Sponsorship inquiries → hi@yedatechs.com
+
+
+    #ClaudeSkills #MCP #MCPServer #Anthropic #ClaudeAI #AgentSkills #ProgressiveDisclosure #ContextWindow #AIAgents #DeveloperTools #ClaudeDesktop #claudecode  #AIWorkflow #AIDevelopment #FirstImpressions"
+  channel: "JeredBlu"
+  channelId: "UCaIm6rTg-RXb6rB19fYJgTg"
+  duration: "PT5M28S"
+  publishedAt: "2025-10-18T00:54:40Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/A-ZScvLMd-U/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=A-ZScvLMd-U"
 processedAt: "2026-01-12T14:29:31.964Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/A-ZScvLMd-U/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=A-ZScvLMd-U"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Anthropic just released Claude Skills — and it might be the fix we've been waiting for to solve MCP's context window problem.
-  
-  Skills use progressive disclosure to only load information when Claude actually needs it, instead of filling up your entire context window before you even start. They're easier to build than MCP servers, can run code externally, and include a built-in skill creator to help you build your own.
-  
-  In this video, I share my first impressions — what it is, how it compares to MCP, why it's kinda MCP 2.0, and whether it actually solves the rate limit and context issues we've been dealing with.
-  
-  
-  ⏱️ TIMESTAMPS
-  0:00 – Intro: Claude Skills Released
-  0:06 – The Problem: MCP's Context Window Issue
-  0:18 – What Skills Are (Custom Instructions + Progressive Disclosure)
-  0:47 – Why This Matters: MCP Fills Context Before You Start
-  1:06 – How to Enable Skills
-  2:37 – Progressive Disclosure Explained 
-  4:11 – Best Practices for Building Skills
-  4:56 – Final Thoughts + Resources
-  
-  🔗 RELEVANT LINKS
-  https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview
-  https://github.com/anthropics/claude-cookbooks/tree/main/skills
-  https://support.claude.com/en/articles/12512180-using-skills-in-claude#h_a4222fa77b
-  https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
-  https://www.anthropic.com/news/skills
-  
-  Book a call with me → https://yedatechs.com/#container06
-  Sponsorship inquiries → hi@yedatechs.com
-  
-  #ClaudeSkills #MCP #MCPServer #Anthropic #ClaudeAI #AgentSkills #ProgressiveDisclosure #ContextWindow #AIAgents #DeveloperTools #ClaudeDesktop #claudecode  #AIWorkflow #AIDevelopment #FirstImpressions
-tldr: |
-  Anthropic's new "Agent Skills" feature fixes the Model Context Protocol's (MCP) biggest issue—context window bloat—by utilizing "progressive disclosure" to load tool information only when relevant.
+tldr: "Anthropic's new \"Agent Skills\" feature fixes the Model Context Protocol's (MCP) biggest issue—context window bloat—by utilizing \"progressive disclosure\" to load tool information only when relevant.
+
   - Reduces token usage by avoiding massive tool descriptions.
+
   - Built using simple folders with a skill.md file and executable scripts.
-  - Available for Claude Pro/Max users in preview.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1826
-outputTokens: 821
-totalTokens: 3323
-processingTimeMs: 12054
+
+  - Available for Claude Pro/Max users in preview.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1826
+  outputTokens: 821
+  totalTokens: 3323
+  processingTimeMs: 12054
 ---
 
 ## Key Takeaways

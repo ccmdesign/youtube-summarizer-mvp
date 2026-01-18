@@ -1,52 +1,65 @@
 ---
-title: "Stop Selling Like It’s 2025: 5 Massive Shifts Coming in 2026"
-videoId: "88uBJx7Ak4s"
-channel: "Neil Patel"
-channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
-duration: "PT12M53S"
-publishedAt: "2026-01-14T13:00:16Z"
+metadata:
+  videoId: "88uBJx7Ak4s"
+  title: "Stop Selling Like It’s 2025: 5 Massive Shifts Coming in 2026"
+  description: "Your customers aren't finding you the way they used to. Traditional funnels—landing pages, email sequences, and retargeting ads—are being replaced by a new, fragmented journey. If you’re still marketing like it’s 2023, you’re invisible to your customers.
+
+
+    In this video, I’m breaking down the 5 major consumer trends for 2026 that are fundamentally shifting how people research and buy products. From visual search taking over Google to AI becoming the first destination for shoppers, you’ll learn exactly what you need to do to stay competitive.
+
+
+    What You Will Learn:
+
+
+    - Visual Search Mastery: Why 20 billion monthly searches on Google Lens mean your product imagery is now your most important SEO asset.
+
+    - Live Shopping Strategies: How to compress the decision timeline and turn browsers into instant buyers using platforms like TikTok and Instagram.
+
+    - AEO (Answer Engine Optimization): How to structure your brand’s data so ChatGPT, Rufus, and Perplexity actually recommend your products.
+
+    - Conditional Loyalty: Why 60% of consumers switched brands in 2025 and how to build \"Value-Exchange\" loyalty that lasts.
+
+    - Search Everywhere Optimization: The blueprint for ranking across TikTok, YouTube, Instagram, and AI tools—not just Google.
+
+
+    Chapters:
+
+    0:00 The Death of the Traditional Marketing Funnel
+
+    0:45 Trend #1: Visual Search vs. Text Search (Google Lens & Amazon)
+
+    02:30 Trend #2: Live Shopping and the Compressed Decision Timeline
+
+    04:15 Trend #3: Why AI is the New First Research Destination
+
+    06:00 Trend #4: Comparison Shopping is the New Default
+
+    07:45 Trend #5: Search Everywhere Optimization (SEO 2.0)
+
+    09:20 The Paradox of \"Trend Loyalty\" in 2026
+
+    10:30 Final Verdict: How to Win the New Consumer Journey"
+  channel: "Neil Patel"
+  channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
+  duration: "PT12M53S"
+  publishedAt: "2026-01-14T13:00:16Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/88uBJx7Ak4s/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=88uBJx7Ak4s"
 processedAt: "2026-01-16T15:09:15.230Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/88uBJx7Ak4s/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=88uBJx7Ak4s"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Your customers aren't finding you the way they used to. Traditional funnels—landing pages, email sequences, and retargeting ads—are being replaced by a new, fragmented journey. If you’re still marketing like it’s 2023, you’re invisible to your customers.
-  
-  In this video, I’m breaking down the 5 major consumer trends for 2026 that are fundamentally shifting how people research and buy products. From visual search taking over Google to AI becoming the first destination for shoppers, you’ll learn exactly what you need to do to stay competitive.
-  
-  What You Will Learn:
-  
-  - Visual Search Mastery: Why 20 billion monthly searches on Google Lens mean your product imagery is now your most important SEO asset.
-  - Live Shopping Strategies: How to compress the decision timeline and turn browsers into instant buyers using platforms like TikTok and Instagram.
-  - AEO (Answer Engine Optimization): How to structure your brand’s data so ChatGPT, Rufus, and Perplexity actually recommend your products.
-  - Conditional Loyalty: Why 60% of consumers switched brands in 2025 and how to build "Value-Exchange" loyalty that lasts.
-  - Search Everywhere Optimization: The blueprint for ranking across TikTok, YouTube, Instagram, and AI tools—not just Google.
-  
-  Chapters:
-  0:00 The Death of the Traditional Marketing Funnel
-  0:45 Trend #1: Visual Search vs. Text Search (Google Lens & Amazon)
-  02:30 Trend #2: Live Shopping and the Compressed Decision Timeline
-  04:15 Trend #3: Why AI is the New First Research Destination
-  06:00 Trend #4: Comparison Shopping is the New Default
-  07:45 Trend #5: Search Everywhere Optimization (SEO 2.0)
-  09:20 The Paradox of "Trend Loyalty" in 2026
-  10:30 Final Verdict: How to Win the New Consumer Journey
-tldr: |
-  Marketing's 2026 shifts: customers use **visual search** (Google Lens: 20B/month), **live shopping** for instant buys, and **AI chatbots** (ChatGPT shopping) for product research. Comparison is default, and search happens across **all platforms** (TikTok, Instagram). Brands must adapt their content and data for these new discovery and purchase ecosystems.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 3255
-outputTokens: 1336
-totalTokens: 9015
-processingTimeMs: 66107
+tldr: "Marketing's 2026 shifts: customers use **visual search** (Google Lens: 20B/month), **live shopping** for instant buys, and **AI chatbots** (ChatGPT shopping) for product research. Comparison is default, and search happens across **all platforms** (TikTok, Instagram). Brands must adapt their content and data for these new discovery and purchase ecosystems.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 3255
+  outputTokens: 1336
+  totalTokens: 9015
+  processingTimeMs: 66107
 ---
 
 ## Key Takeaways

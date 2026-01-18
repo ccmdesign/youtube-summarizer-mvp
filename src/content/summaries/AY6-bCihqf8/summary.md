@@ -1,35 +1,35 @@
 ---
-title: "Vibe Coding by Steve Yegge & Gene Kim"
-videoId: "AY6-bCihqf8"
-channel: "Blinkist Book Summaries"
-channelId: "UCKRFDaRCDQJ4azjoE-7gG9g"
-duration: "PT17M36S"
-publishedAt: "2025-11-23T12:30:13Z"
+metadata:
+  videoId: "AY6-bCihqf8"
+  title: "Vibe Coding by Steve Yegge & Gene Kim"
+  description: "This is a video about Vibe Coding by Steve Yegge & Gene Kim"
+  channel: "Blinkist Book Summaries"
+  channelId: "UCKRFDaRCDQJ4azjoE-7gG9g"
+  duration: "PT17M36S"
+  publishedAt: "2025-11-23T12:30:13Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/AY6-bCihqf8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=AY6-bCihqf8"
 processedAt: "2026-01-12T23:27:54.430Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/AY6-bCihqf8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=AY6-bCihqf8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  This is a video about Vibe Coding by Steve Yegge & Gene Kim
-tldr: |
-  Vibe coding is the evolution from manual syntax-wrangling to AI-orchestrated software creation.
+tldr: "Vibe coding is the evolution from manual syntax-wrangling to AI-orchestrated software creation.
+
   - **FO Framework**: Projects become Faster, Ambitious, Autonomous, Fun, and Optional.
-  - **Head Chef Mindset**: Developers shift from "chopping" code to directing AI "sous-chefs."
-  - **Discipline**: Use Task Decomposition and Checkpointing to prevent "cardboard muffin" errors.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3428
-outputTokens: 908
-totalTokens: 5757
-processingTimeMs: 14277
+
+  - **Head Chef Mindset**: Developers shift from \"chopping\" code to directing AI \"sous-chefs.\"
+
+  - **Discipline**: Use Task Decomposition and Checkpointing to prevent \"cardboard muffin\" errors.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3428
+  outputTokens: 908
+  totalTokens: 5757
+  processingTimeMs: 14277
 ---
 
 ## Key Takeaways

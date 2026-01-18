@@ -1,77 +1,108 @@
 ---
-title: "Side Hustle King: 6 $60K/Mo Businesses Nobody's Doing"
-videoId: "loNrCpi5dkw"
-channel: "Greg Isenberg"
-channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
-duration: "PT55M8S"
-publishedAt: "2026-01-12T19:01:01Z"
+metadata:
+  videoId: "loNrCpi5dkw"
+  title: "Side Hustle King: 6 $60K/Mo Businesses Nobody's Doing"
+  description: "In this episode, I sat down with Chris Koerner and we go through a set of approachable startup ideas that start low-friction but can scale if you get distribution right. We start with a potential “app ecosystem” opportunity around Facebook Marketplace, plus a product-studio framework that combines short-form video, AI, and 3D printing to validate “dumb” products via demand before you invest. We then jump to more grounded, local-first ideas—bike washing/maintenance subscriptions, bar anti-spike stickers, and even vending-machine concepts like “shiny rock” drops at trailheads. We close with a weird Pokémon-card “meme + supply control” play inspired by the Kabuto King, including Chris’s own collecting “big reveal.” From there, I dig into why PSA-style grading feels slow and expensive, and we workshop a more modern grading experience (including a livestream/packaging angle and an AI-from-photo approach).
+
+
+    Timestamps
+
+    00:00 – Intro
+
+    02:28 – Startup Idea 1: Facebook Marketplace App Studio
+
+    07:43 – Startup Idea 2: DTC Product Studio
+
+    17:05 – Startup Idea 3: Bike Washing/Maintenance Subscription
+
+    24:29 – Startup Idea 4: Anti-Drink-Spike Stickers
+
+    31:55 – Startup Idea 5: Shiny Rock Vending Machines
+
+    36:37 – Startup Idea 6: The Kabuto King and Card Grading
+
+
+    Key Points
+
+
+    * I look for “alpha” where people are already obsessing, but the market structure is still primitive (like collectibles + grading).
+
+    * I treat “distribution” as the multiplier—short-form can make “dumb” products viable if the content loop is strong.
+
+    * I push for starting manually first (prove demand), then upgrading into infrastructure, subscriptions, and scale.
+
+    * I pay attention to marketplaces with huge usage but weak third-party tooling—there’s often a platform-layer opportunity there.
+
+    * I keep coming back to “repackaging” as a business model: same underlying thing, new wrapper, new buyer, new channel.
+
+
+    Numbered Section Summaries
+
+
+    1. Facebook Marketplace: Massive Demand, Weak Tooling
+
+    I react to Chris’s point that Facebook Marketplace is enormous, and the weird part is how few legit third-party tools exist—especially compared to ecosystems like eBay. We talk about seller tooling ideas (alerts, scanning, arbitrage workflows) and why “edge” is worth paying for if you make your living in Marketplace.
+
+
+    2. The Product Studio Loop: Short-Form + AI + 3D Printers
+
+    Chris lays out a framework I like: short-form video is the distribution engine, AI helps you generate and iterate concepts, and 3D printing lets you prototype fast—then you don’t invest real money until you’ve got demand (preorders) and a simple storefront. I also push on the cultural angle: people “hate AI,” so you can intentionally add one “pointless AI” feature that sparks comments and fuels distribution.
+
+
+    3. Local-First, Cash-Flow Ideas: Bikes, Bars, And Vending
+
+    We get more grounded: I ask how you’d start a bike-washing or maintenance concept, and Chris argues you don’t need manufacturing—start with a rented trailer and a cheap pressure washer, prove it manually, then scale into subscriptions and repeatable ops. We also cover bar-focused anti-spike stickers (cheap unit economics + subscriptions + optional ads) and end with trailhead vending-machine ideas like “shiny rocks,” where the product is simple and the placement does the heavy lifting.
+
+
+    4. The Kabuto King Play: Make A Meme, Control Supply
+
+    I walk through the Kabuto King story with Chris: an anonymous collector buys up a “lame” first-edition card, tweets about it, and turns the character into a meme—then the price moves because attention + accumulation becomes the product.
+
+
+    The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
+
+
+    LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
+
+
+    The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
+
+
+    FIND ME ON SOCIAL
+
+    X/Twitter: https://twitter.com/gregisenberg
+
+    Instagram: https://instagram.com/gregisenberg/
+
+    LinkedIn: https://www.linkedin.com/in/gisenberg/
+
+
+    FIND CHRIS ON SOCIAL:
+
+    X/Twitter: https://x.com/mhp_guy
+
+    Instagram: https://www.instagram.com/thekoerneroffice/
+
+    Youtube: https://www.youtube.com/@thekoerneroffice"
+  channel: "Greg Isenberg"
+  channelId: "UCPjNBjflYl0-HQtUvOx0Ibw"
+  duration: "PT55M8S"
+  publishedAt: "2026-01-12T19:01:01Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/loNrCpi5dkw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=loNrCpi5dkw"
 processedAt: "2026-01-16T15:27:57.751Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/loNrCpi5dkw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=loNrCpi5dkw"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  In this episode, I sat down with Chris Koerner and we go through a set of approachable startup ideas that start low-friction but can scale if you get distribution right. We start with a potential “app ecosystem” opportunity around Facebook Marketplace, plus a product-studio framework that combines short-form video, AI, and 3D printing to validate “dumb” products via demand before you invest. We then jump to more grounded, local-first ideas—bike washing/maintenance subscriptions, bar anti-spike stickers, and even vending-machine concepts like “shiny rock” drops at trailheads. We close with a weird Pokémon-card “meme + supply control” play inspired by the Kabuto King, including Chris’s own collecting “big reveal.” From there, I dig into why PSA-style grading feels slow and expensive, and we workshop a more modern grading experience (including a livestream/packaging angle and an AI-from-photo approach).
-  
-  Timestamps
-  00:00 – Intro
-  02:28 – Startup Idea 1: Facebook Marketplace App Studio
-  07:43 – Startup Idea 2: DTC Product Studio
-  17:05 – Startup Idea 3: Bike Washing/Maintenance Subscription
-  24:29 – Startup Idea 4: Anti-Drink-Spike Stickers
-  31:55 – Startup Idea 5: Shiny Rock Vending Machines
-  36:37 – Startup Idea 6: The Kabuto King and Card Grading
-  
-  Key Points
-  
-  * I look for “alpha” where people are already obsessing, but the market structure is still primitive (like collectibles + grading).
-  * I treat “distribution” as the multiplier—short-form can make “dumb” products viable if the content loop is strong.
-  * I push for starting manually first (prove demand), then upgrading into infrastructure, subscriptions, and scale.
-  * I pay attention to marketplaces with huge usage but weak third-party tooling—there’s often a platform-layer opportunity there.
-  * I keep coming back to “repackaging” as a business model: same underlying thing, new wrapper, new buyer, new channel.
-  
-  Numbered Section Summaries
-  
-  1. Facebook Marketplace: Massive Demand, Weak Tooling
-  I react to Chris’s point that Facebook Marketplace is enormous, and the weird part is how few legit third-party tools exist—especially compared to ecosystems like eBay. We talk about seller tooling ideas (alerts, scanning, arbitrage workflows) and why “edge” is worth paying for if you make your living in Marketplace.
-  
-  2. The Product Studio Loop: Short-Form + AI + 3D Printers
-  Chris lays out a framework I like: short-form video is the distribution engine, AI helps you generate and iterate concepts, and 3D printing lets you prototype fast—then you don’t invest real money until you’ve got demand (preorders) and a simple storefront. I also push on the cultural angle: people “hate AI,” so you can intentionally add one “pointless AI” feature that sparks comments and fuels distribution.
-  
-  3. Local-First, Cash-Flow Ideas: Bikes, Bars, And Vending
-  We get more grounded: I ask how you’d start a bike-washing or maintenance concept, and Chris argues you don’t need manufacturing—start with a rented trailer and a cheap pressure washer, prove it manually, then scale into subscriptions and repeatable ops. We also cover bar-focused anti-spike stickers (cheap unit economics + subscriptions + optional ads) and end with trailhead vending-machine ideas like “shiny rocks,” where the product is simple and the placement does the heavy lifting.
-  
-  4. The Kabuto King Play: Make A Meme, Control Supply
-  I walk through the Kabuto King story with Chris: an anonymous collector buys up a “lame” first-edition card, tweets about it, and turns the character into a meme—then the price moves because attention + accumulation becomes the product.
-  
-  The #1 tool to find startup ideas/trends - https://www.ideabrowser.com/
-  
-  LCA helps Fortune 500s and fast-growing startups build their future - from Warner Music to Fortnite to Dropbox. We turn 'what if' into reality with AI, apps, and next-gen products https://latecheckout.agency/
-  
-  The Vibe Marketer - Resources for people into vibe marketing/marketing with AI: https://www.thevibemarketer.com/
-  
-  FIND ME ON SOCIAL
-  X/Twitter: https://twitter.com/gregisenberg
-  Instagram: https://instagram.com/gregisenberg/
-  LinkedIn: https://www.linkedin.com/in/gisenberg/
-  
-  FIND CHRIS ON SOCIAL:
-  X/Twitter: https://x.com/mhp_guy
-  Instagram: https://www.instagram.com/thekoerneroffice/
-  Youtube: https://www.youtube.com/@thekoerneroffice
-tldr: |
-  Entrepreneur Greg Isenberg and guest Chris Kerner reveal six high-potential business models designed for modern distribution. The central thesis is that **low-friction, high-margin side hustles** can scale into eight-figure enterprises by leveraging **short-form video algorithms**, underutilized APIs like **Facebook Marketplace**, and the growing market for **niche physical services**.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 14567
-outputTokens: 1229
-totalTokens: 16684
-processingTimeMs: 27568
+tldr: "Entrepreneur Greg Isenberg and guest Chris Kerner reveal six high-potential business models designed for modern distribution. The central thesis is that **low-friction, high-margin side hustles** can scale into eight-figure enterprises by leveraging **short-form video algorithms**, underutilized APIs like **Facebook Marketplace**, and the growing market for **niche physical services**.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 14567
+  outputTokens: 1229
+  totalTokens: 16684
+  processingTimeMs: 27568
 ---
 
 ## Key Takeaways

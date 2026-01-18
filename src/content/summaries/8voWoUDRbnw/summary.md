@@ -1,48 +1,59 @@
 ---
-title: "Building AI Products: The Tricky PM Role Explained #ai #aiproduct #productmanagement #aistrategy"
-videoId: "8voWoUDRbnw"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT1M"
-publishedAt: "2026-01-16T04:00:06Z"
+metadata:
+  videoId: "8voWoUDRbnw"
+  title: "Building AI Products: The Tricky PM Role Explained #ai #aiproduct #productmanagement #aistrategy"
+  description: "My site: https://natebjones.com
+
+    Full Story w/ Prompt: https://natesnewsletter.substack.com/p/pms-have-it-worst-in-the-al-era-but?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+    My substack: https://natesnewsletter.substack.com/
+
+    _______________________
+
+    What's really happening inside product management as AI reshapes the role? The common story is that AI simply makes PMs faster — but the reality is more complicated.
+
+
+    In this video, I share the inside scoop on why product managers face a unique AI crisis:
+
+
+    - Why PMs face threats on multiple axes simultaneously
+
+    - How building AI products differs from traditional product work
+
+    - What core PM skills AI cannot replace or erode
+
+    - Where to focus when everything feels like it's changing
+
+
+    Product managers who ground themselves in technical AI fluency while protecting their product intuition will navigate this transition — those who outsource judgment to AI won't.
+
+
+    Subscribe for daily AI strategy and news.
+
+    For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT1M"
+  publishedAt: "2026-01-16T04:00:06Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/8voWoUDRbnw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=8voWoUDRbnw"
 processedAt: "2026-01-16T15:20:20.604Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/8voWoUDRbnw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=8voWoUDRbnw"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  My site: https://natebjones.com
-  Full Story w/ Prompt: https://natesnewsletter.substack.com/p/pms-have-it-worst-in-the-al-era-but?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  My substack: https://natesnewsletter.substack.com/
-  _______________________
-  What's really happening inside product management as AI reshapes the role? The common story is that AI simply makes PMs faster — but the reality is more complicated.
-  
-  In this video, I share the inside scoop on why product managers face a unique AI crisis:
-  
-  - Why PMs face threats on multiple axes simultaneously
-  - How building AI products differs from traditional product work
-  - What core PM skills AI cannot replace or erode
-  - Where to focus when everything feels like it's changing
-  
-  Product managers who ground themselves in technical AI fluency while protecting their product intuition will navigate this transition — those who outsource judgment to AI won't.
-  
-  Subscribe for daily AI strategy and news.
-  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
-tldr: |
-  AI Product Management requires a fundamental shift from deterministic frameworks to **probabilistic thinking**. 
+tldr: "AI Product Management requires a fundamental shift from deterministic frameworks to **probabilistic thinking**.\ 
+
   - **Probabilistic Nature**: AI products have unpredictable edge cases, making traditional fixed requirements obsolete.
-  - **Deadline Friction**: PMs must bridge the gap between executive demands for speed and engineering’s inability to provide firm timelines for R&D-heavy tasks.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 632
-outputTokens: 690
-totalTokens: 2469
-processingTimeMs: 13674
+
+  - **Deadline Friction**: PMs must bridge the gap between executive demands for speed and engineering’s inability to provide firm timelines for R&D-heavy tasks.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 632
+  outputTokens: 690
+  totalTokens: 2469
+  processingTimeMs: 13674
 ---
 
 ## Key Takeaways

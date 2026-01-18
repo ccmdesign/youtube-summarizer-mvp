@@ -1,33 +1,33 @@
 ---
-title: "Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize"
-videoId: "SbcQYbrvAfI"
-channel: "AI Engineer"
-channelId: "UCLKPca3kwwd-B59HNr-_lvA"
-duration: "PT52M8S"
-publishedAt: "2026-01-06T17:30:06Z"
+metadata:
+  videoId: "SbcQYbrvAfI"
+  title: "Build a Prompt Learning Loop - SallyAnn DeLucia & Fuad Ali, Arize"
+  description: "Following from Aparna's talk: https://www.youtube.com/watch?v=pP_dSNz_EdQ
+
+
+    Learn how to create a feedback loop to continuously improve your AI prompts and responses.
+
+
+    https://www.linkedin.com/in/sallyann-delucia-59a381172/"
+  channel: "AI Engineer"
+  channelId: "UCLKPca3kwwd-B59HNr-_lvA"
+  duration: "PT52M8S"
+  publishedAt: "2026-01-06T17:30:06Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/SbcQYbrvAfI/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=SbcQYbrvAfI"
 processedAt: "2026-01-11T17:20:09.897Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/SbcQYbrvAfI/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=SbcQYbrvAfI"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Following from Aparna's talk: https://www.youtube.com/watch?v=pP_dSNz_EdQ
-  
-  Learn how to create a feedback loop to continuously improve your AI prompts and responses.
-  
-  https://www.linkedin.com/in/sallyann-delucia-59a381172/
 tldr: "Prompt Learning offers a data-driven framework for optimizing AI agents by using 'English feedback'—detailed textual explanations of failures—to iteratively refine system instructions. This method achieved a 15% performance increase in coding agents without fine-tuning, rivaling state-of-the-art models like GPT-4.5 at a significantly lower cost while outperforming Genetic Algorithm (GA) optimizers"
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 12826
-outputTokens: 1522
-totalTokens: 15954
-processingTimeMs: 25720
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 12826
+  outputTokens: 1522
+  totalTokens: 15954
+  processingTimeMs: 25720
 ---
 
 ## Key Takeaways

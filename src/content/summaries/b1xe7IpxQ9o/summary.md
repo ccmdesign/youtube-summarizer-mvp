@@ -1,35 +1,34 @@
 ---
-title: "NEW in Claude Code: MCPs Won't \"Eat\" So Much Context"
-videoId: "b1xe7IpxQ9o"
-channel: "AI Coding Daily"
-channelId: "UCIuDdCJXnKZb4CUzhVO-DcQ"
-duration: "PT8M20S"
-publishedAt: "2026-01-15T11:32:05Z"
+metadata:
+  videoId: "b1xe7IpxQ9o"
+  title: "NEW in Claude Code: MCPs Won't \"Eat\" So Much Context"
+  description: "A new improvement in Claude Code v2.1.7: Tool Search for MCPs.
+
+
+    Original tweet: https://x.com/trq212/status/2011523109871108570
+
+    More AI Coding news and experiments: https://aicodingdaily.com"
+  channel: "AI Coding Daily"
+  channelId: "UCIuDdCJXnKZb4CUzhVO-DcQ"
+  duration: "PT8M20S"
+  publishedAt: "2026-01-15T11:32:05Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/b1xe7IpxQ9o/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=b1xe7IpxQ9o"
 processedAt: "2026-01-15T17:15:09.339Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/b1xe7IpxQ9o/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=b1xe7IpxQ9o"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  A new improvement in Claude Code v2.1.7: Tool Search for MCPs.
-  
-  Original tweet: https://x.com/trq212/status/2011523109871108570
-  More AI Coding news and experiments: https://aicodingdaily.com
-tldr: |
-  Claude Code 2.1.7 introduces **automatic MCP tool search** to prevent 'context pollution.' When tool descriptions exceed **10% of the context window**, Claude now searches for tools on-demand rather than loading all descriptions upfront. This reduces hallucinations and token waste, especially when using heavy servers like **Playwright** or **GitHub**.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2006
-outputTokens: 833
-totalTokens: 4439
-processingTimeMs: 19008
+tldr: "Claude Code 2.1.7 introduces **automatic MCP tool search** to prevent 'context pollution.' When tool descriptions exceed **10% of the context window**, Claude now searches for tools on-demand rather than loading all descriptions upfront. This reduces hallucinations and token waste, especially when using heavy servers like **Playwright** or **GitHub**.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2006
+  outputTokens: 833
+  totalTokens: 4439
+  processingTimeMs: 19008
 ---
 
 ## Key Takeaways

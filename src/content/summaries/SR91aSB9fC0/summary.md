@@ -1,55 +1,71 @@
 ---
-title: "The Future of Writing: Five 2026 Trends You NEED to Know"
-videoId: "SR91aSB9fC0"
-channel: "Bookfox"
-channelId: "UCWp90fsJtx4BScXsxRoCMoA"
-duration: "PT17M27S"
-publishedAt: "2026-01-06T15:14:29Z"
+metadata:
+  videoId: "SR91aSB9fC0"
+  title: "The Future of Writing: Five 2026 Trends You NEED to Know"
+  description: "COACHING:
+
+    Join my coaching program for writers, BOOKFOX LAB:
+
+    https://thejohnfox.com/bookfox-lab/
+
+
+    COURSES:
+
+    Use my 10 courses in Bookfox Academy, with 230+ videos, to write your novel:
+
+    https://thejohnfox.com/writing-courses/
+
+
+    EMAILS:
+
+    Get emails about writing from me: https://thejohnfox.com/subscribe/
+
+
+    MY BOOK:
+
+    Buy my book, \"The Linchpin Writer\": https://amzn.to/3U5ul14
+
+
+    Timeline:
+
+    0:00 Intro
+
+    0:15 Selling Direct is the Future
+
+    4:39 How to Deal with AI Explosion
+
+    10:02 Growth of Deluxe Editions and Collectibles
+
+    11:56 Booktok is the Goliath in the Room
+
+    14:18 The Audiobook Takeover"
+  channel: "Bookfox"
+  channelId: "UCWp90fsJtx4BScXsxRoCMoA"
+  duration: "PT17M27S"
+  publishedAt: "2026-01-06T15:14:29Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/SR91aSB9fC0/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=SR91aSB9fC0"
 processedAt: "2026-01-15T14:27:26.989Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/SR91aSB9fC0/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=SR91aSB9fC0"
-modelUsed: "gemini-2.5-flash"
-description: |
-  COACHING:
-  Join my coaching program for writers, BOOKFOX LAB:
-  https://thejohnfox.com/bookfox-lab/
-  
-  COURSES:
-  Use my 10 courses in Bookfox Academy, with 230+ videos, to write your novel:
-  https://thejohnfox.com/writing-courses/
-  
-  EMAILS:
-  Get emails about writing from me: https://thejohnfox.com/subscribe/
-  
-  MY BOOK:
-  Buy my book, "The Linchpin Writer": https://amzn.to/3U5ul14
-  
-  Timeline:
-  0:00 Intro
-  0:15 Selling Direct is the Future
-  4:39 How to Deal with AI Explosion
-  10:02 Growth of Deluxe Editions and Collectibles
-  11:56 Booktok is the Goliath in the Room
-  14:18 The Audiobook Takeover
-tldr: |
-  Main insights for writers in 2026:
+tldr: "Main insights for writers in 2026:
+
   - **Audiobooks** are the fastest-growing market segment, surpassing ebooks in revenue; prioritize them.
+
   - Leverage **BookTok** (7% of sales) for marketing and consider **direct sales** to readers for higher profit margins.
-  - Differentiate from AI by marketing as **"all natural"** and focusing on unique human elements like emotion, humor, and personal style.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 5021
-outputTokens: 1123
-totalTokens: 10114
-processingTimeMs: 47674
+
+  - Differentiate from AI by marketing as **\"all natural\"** and focusing on unique human elements like emotion, humor, and personal style.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 5021
+  outputTokens: 1123
+  totalTokens: 10114
+  processingTimeMs: 47674
 ---
 
 ## Key Takeaways

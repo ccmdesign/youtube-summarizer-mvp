@@ -1,48 +1,63 @@
 ---
-title: "The Open Models Have Caught Up (MiniMax M2.1 & GLM 4.7 Review)"
-videoId: "TsdFAwOcvTM"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT8M17S"
-publishedAt: "2026-01-07T10:00:48Z"
+metadata:
+  videoId: "TsdFAwOcvTM"
+  title: "The Open Models Have Caught Up (MiniMax M2.1 & GLM 4.7 Review)"
+  description: "Open-weight models are no longer “almost good.” Minimax and GLM are now competing with Claude and Gemini, and for way less money.\ 
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+
+    0:00 Intro
+
+    0:30 UI Test
+
+    2:25 Complex Head-to-Head
+
+    6:52 vs Opus & Gemini!?"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT8M17S"
+  publishedAt: "2026-01-07T10:00:48Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/TsdFAwOcvTM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=TsdFAwOcvTM"
 processedAt: "2026-01-10T18:04:42.162Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/TsdFAwOcvTM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=TsdFAwOcvTM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Open-weight models are no longer “almost good.” Minimax and GLM are now competing with Claude and Gemini, and for way less money. 
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  
-  0:00 Intro
-  0:30 UI Test
-  2:25 Complex Head-to-Head
-  6:52 vs Opus & Gemini!?
-tldr: |
-  - Open-weight models MiniMax M2.1 and GLM 4.7 have achieved performance parity with Claude 4.5 Sonnet in UI design and development tasks at a fraction of the cost.
+tldr: "- Open-weight models MiniMax M2.1 and GLM 4.7 have achieved performance parity with Claude 4.5 Sonnet in UI design and development tasks at a fraction of the cost.
+
   - MiniMax M2.1 successfully built a functional NextJS application for $0.33, compared to $5.22 for the same result from Claude 4.5 Sonnet.
-  - Top-tier closed models like Claude 4.5 Opus still maintain a lead in 'one-shot' reliability.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3006
-outputTokens: 1019
-totalTokens: 4801
-processingTimeMs: 11670
+
+  - Top-tier closed models like Claude 4.5 Opus still maintain a lead in 'one-shot' reliability.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3006
+  outputTokens: 1019
+  totalTokens: 4801
+  processingTimeMs: 11670
 ---
 
 ## Key Takeaways

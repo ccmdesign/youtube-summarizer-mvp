@@ -1,57 +1,74 @@
 ---
-title: "Google's New Universal Commerce Protocol"
-videoId: "yDKpF6CjBUo"
-channel: "Sam Witteveen"
-channelId: "UC55ODQSvARtgSyc8ThfiepQ"
-duration: "PT11M7S"
-publishedAt: "2026-01-12T14:01:44Z"
+metadata:
+  videoId: "yDKpF6CjBUo"
+  title: "Google's New Universal Commerce Protocol"
+  description: "In this video, we look at Google's New Universal Commerce Protocol for enabling agentic commerce. What it is, how it works, and some of the places that you might end up seeing it being used.
+
+
+    Blog: https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/
+
+    Blog: https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/
+
+
+    For more tutorials on using LLMs and building agents, check out my Patreon
+
+    Patreon: https://www.patreon.com/SamWitteveen
+
+    Twitter: https://x.com/Sam_Witteveen
+
+
+    🕵️ Interested in building LLM Agents? Fill out the form below
+
+    Building LLM Agents Form: https://drp.li/dIMes
+
+
+    👨‍💻Github:
+
+    https://github.com/samwit/llm-tutorials
+
+
+    ⏱️Time Stamps:
+
+    00:00 Intro
+
+    00:09 Universal Commerce Protocol
+
+    00:40 Sundar's Announcement
+
+    01:37 UCP Components
+
+    02:56 OpenAI own Agent Commerce Protocol
+
+    05:27 Retailers using UCP
+
+    07:20 UCP Documentation"
+  channel: "Sam Witteveen"
+  channelId: "UC55ODQSvARtgSyc8ThfiepQ"
+  duration: "PT11M7S"
+  publishedAt: "2026-01-12T14:01:44Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/yDKpF6CjBUo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=yDKpF6CjBUo"
 processedAt: "2026-01-14T16:27:24.931Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/yDKpF6CjBUo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=yDKpF6CjBUo"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  In this video, we look at Google's New Universal Commerce Protocol for enabling agentic commerce. What it is, how it works, and some of the places that you might end up seeing it being used.
-  
-  Blog: https://blog.google/products/ads-commerce/agentic-commerce-ai-tools-protocol-retailers-platforms/
-  Blog: https://blog.google/company-news/inside-google/message-ceo/nrf-2026-remarks/
-  
-  For more tutorials on using LLMs and building agents, check out my Patreon
-  Patreon: https://www.patreon.com/SamWitteveen
-  Twitter: https://x.com/Sam_Witteveen
-  
-  🕵️ Interested in building LLM Agents? Fill out the form below
-  Building LLM Agents Form: https://drp.li/dIMes
-  
-  👨‍💻Github:
-  https://github.com/samwit/llm-tutorials
-  
-  ⏱️Time Stamps:
-  00:00 Intro
-  00:09 Universal Commerce Protocol
-  00:40 Sundar's Announcement
-  01:37 UCP Components
-  02:56 OpenAI own Agent Commerce Protocol
-  05:27 Retailers using UCP
-  07:20 UCP Documentation
-tldr: |
-  Google's Universal Commerce Protocol (UCP) is an open standard designed to enable seamless **Agentic Commerce** across retail platforms.
+tldr: "Google's Universal Commerce Protocol (UCP) is an open standard designed to enable seamless **Agentic Commerce** across retail platforms.
+
   - **Product Discovery**: Standardizes how AI agents find and interact with retail inventory.
-  - **Full Transaction Loop**: Supports everything from "add to cart" to payments via integration with systems like **AP2**.
-  - **Ecosystem Partners**: Co-developed with gia
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2673
-outputTokens: 921
-totalTokens: 4954
-processingTimeMs: 14854
+
+  - **Full Transaction Loop**: Supports everything from \"add to cart\" to payments via integration with systems like **AP2**.
+
+  - **Ecosystem Partners**: Co-developed with gia\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2673
+  outputTokens: 921
+  totalTokens: 4954
+  processingTimeMs: 14854
 ---
 
 ## Key Takeaways

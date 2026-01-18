@@ -1,39 +1,47 @@
 ---
-title: "Why Everyone Is Obsessed with Claude Code"
-videoId: "_WXyavHYb5c"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT25M25S"
-publishedAt: "2026-01-09T00:35:56Z"
+metadata:
+  videoId: "_WXyavHYb5c"
+  title: "Why Everyone Is Obsessed with Claude Code"
+  description: "Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating AI agents. Opportunities range from rapid indie app creation and personal software to major economic shifts and job redefinition driven by automation.
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT25M25S"
+  publishedAt: "2026-01-09T00:35:56Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/_WXyavHYb5c/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=_WXyavHYb5c"
 processedAt: "2026-01-10T18:07:49.684Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/_WXyavHYb5c/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=_WXyavHYb5c"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating AI agents. Opportunities range from rapid indie app creation and personal software to major economic shifts and job redefinition driven by automation.
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  Anthropic’s Opus 4.5 and the Claude Code tool represent a fundamental shift in AI capability, moving from incremental autocomplete to autonomous agency.
+tldr: "Anthropic’s Opus 4.5 and the Claude Code tool represent a fundamental shift in AI capability, moving from incremental autocomplete to autonomous agency.
+
   - 'Vibe Coding' allows both developers and non-coders to build complex, production-grade apps using natural language outcomes.
-  - This 'Software Renaissance' marks a transition to agent-native architectures where features are prompts, not code.
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 6807
-outputTokens: 977
-totalTokens: 8990
-processingTimeMs: 15693
+
+  - This 'Software Renaissance' marks a transition to agent-native architectures where features are prompts, not code.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 6807
+  outputTokens: 977
+  totalTokens: 8990
+  processingTimeMs: 15693
 ---
 
 ## Key Takeaways

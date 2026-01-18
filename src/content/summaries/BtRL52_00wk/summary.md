@@ -1,28 +1,26 @@
 ---
-title: "Panel Discussion with GEOFF GRAHAM — Smashing Meets Easy Accessibility — December 11th, 2025"
-videoId: "BtRL52_00wk"
-channel: "Smashing Magazine"
-channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
-duration: "PT32M19S"
-publishedAt: "2025-12-18T09:17:04Z"
+metadata:
+  videoId: "BtRL52_00wk"
+  title: "Panel Discussion with GEOFF GRAHAM — Smashing Meets Easy Accessibility — December 11th, 2025"
+  channel: "Smashing Magazine"
+  channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+  duration: "PT32M19S"
+  publishedAt: "2025-12-18T09:17:04Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/BtRL52_00wk/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=BtRL52_00wk"
 processedAt: "2026-01-16T15:35:11.471Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/BtRL52_00wk/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=BtRL52_00wk"
-modelUsed: "gemini-2.5-flash"
-tldr: |
-  Panelists discuss practical accessibility and AI's role: - **Tab key navigation** and **asking questions** are immediate steps for self-assessment. - **Learning core concepts** and user testing videos foster awareness. - AI tools require **critical scrutiny**; they can perpetuate biases if not carefully trained on curated data. - Overcoming budget issues means **recalibrating intent** and integrat
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 7323
-outputTokens: 1936
-totalTokens: 12367
-processingTimeMs: 35342
+tldr: "Panelists discuss practical accessibility and AI's role: - **Tab key navigation** and **asking questions** are immediate steps for self-assessment. - **Learning core concepts** and user testing videos foster awareness. - AI tools require **critical scrutiny**; they can perpetuate biases if not carefully trained on curated data. - Overcoming budget issues means **recalibrating intent** and integrat\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 7323
+  outputTokens: 1936
+  totalTokens: 12367
+  processingTimeMs: 35342
 ---
 
 ## Key Takeaways

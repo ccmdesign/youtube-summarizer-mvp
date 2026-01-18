@@ -1,19 +1,24 @@
 ---
-title: "What is A2UI - AI for UI ?"
-videoId: "RqSt0onjvGI"
-channel: "Techies Lounge"
-channelId: "UCfNbsanh2gJN54-xhaoj0Kw"
-duration: "PT7M23S"
-publishedAt: "2025-12-29T15:12:47Z"
+metadata:
+  videoId: "RqSt0onjvGI"
+  title: "What is A2UI - AI for UI ?"
+  description: "What is A2UI - AI for UI ? #ui #development #softwaredevelopment #coding #ai #artificialintelligence"
+  channel: "Techies Lounge"
+  channelId: "UCfNbsanh2gJN54-xhaoj0Kw"
+  duration: "PT7M23S"
+  publishedAt: "2025-12-29T15:12:47Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/RqSt0onjvGI/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=RqSt0onjvGI"
 processedAt: "2026-01-02T20:52:40.336Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/RqSt0onjvGI/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=RqSt0onjvGI"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  What is A2UI - AI for UI ? #ui #development #softwaredevelopment #coding #ai #artificialintelligence
 tldr: "A2UI shifts software interaction from static, manual navigation to dynamic, intent-driven interfaces where AI generates or adapts UI components in real-time to fulfill specific user goals."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 A2UI (AI for User Interface) represents a fundamental paradigm shift in how humans interact with digital systems. Rather than requiring users to navigate pre-defined menus and rigid workflows, A2UI leverages artificial intelligence to bridge the gap between human intent and functional interface elements.

@@ -1,45 +1,53 @@
 ---
-title: "DeepSeek-V3.2: How Open Source Just Caught Up with GPT-5"
-videoId: "nUqpFdOHp1M"
-channel: "Reinike AI"
-channelId: "UCO9epahzfdOtOQP3WLN4ELQ"
-duration: "PT10M31S"
-publishedAt: "2025-12-27T03:54:23Z"
+metadata:
+  videoId: "nUqpFdOHp1M"
+  title: "DeepSeek-V3.2: How Open Source Just Caught Up with GPT-5"
+  description: "DeepSeek-V3.2 has officially dropped, and it is rewriting the rules for Open Source LLMs. 🚀
+
+    In this deep dive, we break down how DeepSeek's new \"Sparse Attention\" (DSA) architecture and massive Reinforcement Learning scaling allow it to rival GPT-5 and match Gemini 3.0 Pro in reasoning and coding tasks. We analyze the specific engineering breakthroughs that made this possible and what developers can learn from their agentic workflows.
+
+
+    In this video, we cover:
+
+    🔹 The Architecture: How DSA achieves linear complexity and breaks the quadratic barrier.
+
+    🔹 The Training: Why allocating over 10% of compute to Post-Training RL is the new standard.
+
+    🔹 The Agents: How a \"Synthetic Data Factory\" created Gold-Medal coding agents.
+
+    🔹 The Blueprint: Practical lessons on Context Management and \"Cold Start\" prompting for your apps.
+
+
+    If you are an AI engineer or developer, you need to understand the mechanics inside this paper.
+
+
+    👇 Don't forget to Like & Subscribe for more deep dives into the latest AI Research!
+
+
+    #DeepSeek #ArtificialIntelligence #LLM #MachineLearning #OpenSourceAI #GPT5 #ReinforcementLearning #AIResearch #CodingAgent #TechNews"
+  channel: "Reinike AI"
+  channelId: "UCO9epahzfdOtOQP3WLN4ELQ"
+  duration: "PT10M31S"
+  publishedAt: "2025-12-27T03:54:23Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/nUqpFdOHp1M/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=nUqpFdOHp1M"
 processedAt: "2026-01-16T15:30:58.281Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/nUqpFdOHp1M/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=nUqpFdOHp1M"
-modelUsed: "gemini-2.5-flash"
-description: |
-  DeepSeek-V3.2 has officially dropped, and it is rewriting the rules for Open Source LLMs. 🚀
-  In this deep dive, we break down how DeepSeek's new "Sparse Attention" (DSA) architecture and massive Reinforcement Learning scaling allow it to rival GPT-5 and match Gemini 3.0 Pro in reasoning and coding tasks. We analyze the specific engineering breakthroughs that made this possible and what developers can learn from their agentic workflows.
-  
-  In this video, we cover:
-  🔹 The Architecture: How DSA achieves linear complexity and breaks the quadratic barrier.
-  🔹 The Training: Why allocating over 10% of compute to Post-Training RL is the new standard.
-  🔹 The Agents: How a "Synthetic Data Factory" created Gold-Medal coding agents.
-  🔹 The Blueprint: Practical lessons on Context Management and "Cold Start" prompting for your apps.
-  
-  If you are an AI engineer or developer, you need to understand the mechanics inside this paper.
-  
-  👇 Don't forget to Like & Subscribe for more deep dives into the latest AI Research!
-  
-  #DeepSeek #ArtificialIntelligence #LLM #MachineLearning #OpenSourceAI #GPT5 #ReinforcementLearning #AIResearch #CodingAgent #TechNews
-tldr: |
-  DeepSeek V3.2 revolutionizes open-source AI by closing the gap with GPT-5 and Gemini 3.0 Pro, achieving state-of-the-art performance through three core innovations:
+tldr: "DeepSeek V3.2 revolutionizes open-source AI by closing the gap with GPT-5 and Gemini 3.0 Pro, achieving state-of-the-art performance through three core innovations:
+
   - **DeepSeek Sparse Attention (DSA)**: Reduces attention complexity from quadratic to linear, enabling efficient long context handling.
-  - **Scalable RL Framework**: Utilizes advanced GRPO with unbiased KL estimates for stable, high-com
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 2210
-outputTokens: 1284
-totalTokens: 4651
-processingTimeMs: 22944
+
+  - **Scalable RL Framework**: Utilizes advanced GRPO with unbiased KL estimates for stable, high-com\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 2210
+  outputTokens: 1284
+  totalTokens: 4651
+  processingTimeMs: 22944
 ---
 
 ## Key Takeaways

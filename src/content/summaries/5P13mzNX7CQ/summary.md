@@ -1,45 +1,53 @@
 ---
-title: "Shipmas Day 18: How I Get Claude Code Max $200 For \"Free\""
-videoId: "5P13mzNX7CQ"
-channel: "All About AI"
-channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
-duration: "PT11M33S"
-publishedAt: "2025-12-23T16:00:13Z"
+metadata:
+  videoId: "5P13mzNX7CQ"
+  title: "Shipmas Day 18: How I Get Claude Code Max $200 For \"Free\""
+  description: "Shipmas Day 18: How I Get Claude Code Max $200 For \"Free\"
+
+
+    My AI Video Course:
+
+    https://www.theaivideocourse.com/
+
+
+    👊 Become a YouTube Member to Support Me:
+
+    https://www.youtube.com/c/AllAboutAI/join
+
+
+    🔥Open GH:
+
+    https://github.com/AllAboutAI-YT/
+
+
+    Business Inquiries:
+
+    kbfseo@gmail.com"
+  channel: "All About AI"
+  channelId: "UCR9j1jqqB5Rse69wjUnbYwA"
+  duration: "PT11M33S"
+  publishedAt: "2025-12-23T16:00:13Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/5P13mzNX7CQ/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=5P13mzNX7CQ"
 processedAt: "2026-01-16T15:26:06.355Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/5P13mzNX7CQ/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=5P13mzNX7CQ"
-modelUsed: "gemini-2.5-flash"
-description: |
-  Shipmas Day 18: How I Get Claude Code Max $200 For "Free"
-  
-  My AI Video Course:
-  https://www.theaivideocourse.com/
-  
-  👊 Become a YouTube Member to Support Me:
-  https://www.youtube.com/c/AllAboutAI/join
-  
-  🔥Open GH:
-  https://github.com/AllAboutAI-YT/
-  
-  Business Inquiries:
-  kbfseo@gmail.com
-tldr: |
-  Leverage **Claude Code Max $200** for "free" by completing simple freelance jobs on platforms like **Upwork**.
+tldr: "Leverage **Claude Code Max $200** for \"free\" by completing simple freelance jobs on platforms like **Upwork**.
+
   - **Automate tasks** such as web scraping or data extraction ($25-$100 gigs) using Claude.
+
   - **Manage 2-3 jobs in parallel**, spending minimal time (e.g., 30 mins/week) to cover subscription costs.
-  - **Focus on quick, automatable jobs** that AI can handle with minimal oversight.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 3217
-outputTokens: 1198
-totalTokens: 6991
-processingTimeMs: 28906
+
+  - **Focus on quick, automatable jobs** that AI can handle with minimal oversight.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 3217
+  outputTokens: 1198
+  totalTokens: 6991
+  processingTimeMs: 28906
 ---
 
 ## Key Takeaways

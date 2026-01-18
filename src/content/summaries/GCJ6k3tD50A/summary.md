@@ -1,34 +1,33 @@
 ---
-title: "Designing For Complex UIs"
-videoId: "GCJ6k3tD50A"
-channel: "Smashing Magazine"
-channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
-duration: "PT2H16M16S"
-publishedAt: "2026-01-07T21:01:39Z"
+metadata:
+  videoId: "GCJ6k3tD50A"
+  title: "Designing For Complex UIs"
+  description: "Complex UIs don't have to be complicated. When complex navigation, search, tables or forms must work in real life, the last thing we can do is to oversimplify it. Let's see how we can use reliable patterns to improve efficiency and accuracy — along with more accessible and clear UX.
+
+
+    😻 Join Vitaly's Maven course on Design For AI 2026 UX Training at Maven: https://maven.com/web-adventures/design-patterns-ai-interfaces/. Receive a 20% discount with the code MEOW.\ 
+
+
+    Vitaly is the author, co-author and editor of Smashing Books, and a curator of Smashing Conferences. He is the UX lead with the European Parliament and Smashing Magazine and senior UX consultant in Europe and abroad, working with large and small companies and organizations like European Parliament, Alliander, Haufe-Lexware, Axel-Springer and many others."
+  channel: "Smashing Magazine"
+  channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+  duration: "PT2H16M16S"
+  publishedAt: "2026-01-07T21:01:39Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/GCJ6k3tD50A/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=GCJ6k3tD50A"
 processedAt: "2026-01-15T18:00:04.240Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/GCJ6k3tD50A/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=GCJ6k3tD50A"
-modelUsed: "openrouter/google/gemini-2.0-flash-exp:free"
-description: |
-  Complex UIs don't have to be complicated. When complex navigation, search, tables or forms must work in real life, the last thing we can do is to oversimplify it. Let's see how we can use reliable patterns to improve efficiency and accuracy — along with more accessible and clear UX.
-  
-  😻 Join Vitaly's Maven course on Design For AI 2026 UX Training at Maven: https://maven.com/web-adventures/design-patterns-ai-interfaces/. Receive a 20% discount with the code MEOW. 
-  
-  Vitaly is the author, co-author and editor of Smashing Books, and a curator of Smashing Conferences. He is the UX lead with the European Parliament and Smashing Magazine and senior UX consultant in Europe and abroad, working with large and small companies and organizations like European Parliament, Alliander, Haufe-Lexware, Axel-Springer and many others.
-tldr: |
-  Designing complex UIs requires understanding the user's environment and workflows, prioritizing essential complexity over accidental complexity, and leveraging design patterns for navigation, filtering, tables, and dashboards to maximize clarity and minimize mistakes, rather than oversimplifying.
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "openrouter"
-apiCalls: 5
-fallbackAttempts: 4
-inputTokens: 26794
-outputTokens: 1620
-totalTokens: 28414
-processingTimeMs: 56852
+tldr: "Designing complex UIs requires understanding the user's environment and workflows, prioritizing essential complexity over accidental complexity, and leveraging design patterns for navigation, filtering, tables, and dashboards to maximize clarity and minimize mistakes, rather than oversimplifying.\n"
+ai:
+  provider: "openrouter"
+  model: "openrouter/google/gemini-2.0-flash-exp:free"
+  apiCalls: 5
+  fallbackAttempts: 4
+  inputTokens: 26794
+  outputTokens: 1620
+  totalTokens: 28414
+  processingTimeMs: 56852
 ---
 
 ## Key Takeaways

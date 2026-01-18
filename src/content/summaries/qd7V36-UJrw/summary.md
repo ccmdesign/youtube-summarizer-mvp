@@ -1,50 +1,59 @@
 ---
-title: "HelloBooks AI — Automate Your Accounting in Minutes, Not Months"
-videoId: "qd7V36-UJrw"
-channel: "HelloBooks AI"
-channelId: "UCfcohejMs3SJUbQQmT37Z2w"
-duration: "PT3M38S"
-publishedAt: "2026-01-10T06:19:17Z"
+metadata:
+  videoId: "qd7V36-UJrw"
+  title: "HelloBooks AI — Automate Your Accounting in Minutes, Not Months"
+  description: "Stop drowning in bookkeeping. HelloBooks AI handles transaction categorization, document processing, and compliance; so you can focus on growing your business.
+
+
+    Features:
+
+    • Auto-categorizes transactions using AI that learns your patterns
+
+    • Extracts invoice data in seconds — no manual entry
+
+    • Syncs with QuickBooks, Xero, and Tally
+
+    • Handles GST, VAT, and tax compliance across 7 countries
+
+    • Generates financial reports in one click
+
+
+    Built for businesses operating globally — Countries like US, UK, Australia, Canada, India, Singapore, UAE and many more.
+
+
+    Try HelloBooks AI → https://hellobooks.ai
+
+
+
+
+    #accounting #ai #bookkeeping #aiaccounting #aiagentaccountant #startup #fintech"
+  channel: "HelloBooks AI"
+  channelId: "UCfcohejMs3SJUbQQmT37Z2w"
+  duration: "PT3M38S"
+  publishedAt: "2026-01-10T06:19:17Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/qd7V36-UJrw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=qd7V36-UJrw"
 processedAt: "2026-01-15T14:35:53.318Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R"
 playlistName: "Personal"
 category: "personal"
-thumbnailUrl: "https://i.ytimg.com/vi/qd7V36-UJrw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=qd7V36-UJrw"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Stop drowning in bookkeeping. HelloBooks AI handles transaction categorization, document processing, and compliance; so you can focus on growing your business.
-  
-  Features:
-  • Auto-categorizes transactions using AI that learns your patterns
-  • Extracts invoice data in seconds — no manual entry
-  • Syncs with QuickBooks, Xero, and Tally
-  • Handles GST, VAT, and tax compliance across 7 countries
-  • Generates financial reports in one click
-  
-  Built for businesses operating globally — Countries like US, UK, Australia, Canada, India, Singapore, UAE and many more.
-  
-  Try HelloBooks AI → https://hellobooks.ai
-  
-  
-  
-  #accounting #ai #bookkeeping #aiaccounting #aiagentaccountant #startup #fintech
-tldr: |
-  HelloBooks.ai is an AI-first bookkeeping platform that automates manual accounting tasks for SMBs and startups.
+tldr: "HelloBooks.ai is an AI-first bookkeeping platform that automates manual accounting tasks for SMBs and startups.
+
   - **Efficiency Gains**: Reduces bookkeeping time by over 60% through automated categorization and reconciliation.
+
   - **Error Reduction**: Uses **OCR technology** and smart cleanup tools to eliminate manual entry errors and duplicates.
-  - **Real-Time Visibility**: Provides instant financial
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1038
-outputTokens: 788
-totalTokens: 2842
-processingTimeMs: 19721
+
+  - **Real-Time Visibility**: Provides instant financial\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1038
+  outputTokens: 788
+  totalTokens: 2842
+  processingTimeMs: 19721
 ---
 
 ## Key Takeaways

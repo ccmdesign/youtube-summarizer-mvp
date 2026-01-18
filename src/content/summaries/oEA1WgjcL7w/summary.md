@@ -1,58 +1,75 @@
 ---
-title: "Claude Skills are Game Changing"
-videoId: "oEA1WgjcL7w"
-channel: "Web Dev Cody"
-channelId: "UCsrVDPJBYeXItETFHG0qzyw"
-duration: "PT6M15S"
-publishedAt: "2026-01-08T15:19:44Z"
+metadata:
+  videoId: "oEA1WgjcL7w"
+  title: "Claude Skills are Game Changing"
+  description: "Buy the course now: https://agenticjumpstart.com?utm=yt
+
+    Join the Agentic Jumpstart community: https://discord.gg/JUDWZDN3VT
+
+
+    Checkout Automaker.app\ 
+
+    https://automaker.app/
+
+    https://github.com/AutoMaker-Org/automaker
+
+
+    ---------
+
+
+    Have a video suggestion? Post it here:\ 
+
+    https://suggestions.webdevcody.com/
+
+
+    My Game
+
+    https://survivethenightgame.com/
+
+
+    My Courses
+
+    🤖 https://agenticjumpstart.com
+
+    ⚛️ https://beginner-react-challenges.webdevcody.com
+
+
+    Useful Links
+
+    💬 Discord: https://discord.gg/N2uEyp7Rfu
+
+    🔔 Newsletter: https://newsletter.webdevcody.com/
+
+    📁 GitHub: https://github.com/webdevcody
+
+    📺 Twitch: https://www.twitch.tv/webdevcody
+
+    🤖 Website: https://webdevcody.com"
+  channel: "Web Dev Cody"
+  channelId: "UCsrVDPJBYeXItETFHG0qzyw"
+  duration: "PT6M15S"
+  publishedAt: "2026-01-08T15:19:44Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/oEA1WgjcL7w/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=oEA1WgjcL7w"
 processedAt: "2026-01-13T15:57:07.979Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/oEA1WgjcL7w/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=oEA1WgjcL7w"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Buy the course now: https://agenticjumpstart.com?utm=yt
-  Join the Agentic Jumpstart community: https://discord.gg/JUDWZDN3VT
-  
-  Checkout Automaker.app 
-  https://automaker.app/
-  https://github.com/AutoMaker-Org/automaker
-  
-  ---------
-  
-  Have a video suggestion? Post it here: 
-  https://suggestions.webdevcody.com/
-  
-  My Game
-  https://survivethenightgame.com/
-  
-  My Courses
-  🤖 https://agenticjumpstart.com
-  ⚛️ https://beginner-react-challenges.webdevcody.com
-  
-  Useful Links
-  💬 Discord: https://discord.gg/N2uEyp7Rfu
-  🔔 Newsletter: https://newsletter.webdevcody.com/
-  📁 GitHub: https://github.com/webdevcody
-  📺 Twitch: https://www.twitch.tv/webdevcody
-  🤖 Website: https://webdevcody.com
-tldr: |
-  Claude Code **Skills** allow developers to extend the AI's capabilities through specialized directories containing a `skill.md` file. 
+tldr: "Claude Code **Skills** allow developers to extend the AI's capabilities through specialized directories containing a `skill.md` file.\ 
+
   - **Progressive Disclosure** keeps context windows small by only loading deeper documentation or scripts when needed.
-  - Skills enable **reproducible workflows** by linking AI instructions to local scripts (Node, Python) and can be shared via global marketplaces.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2204
-outputTokens: 803
-totalTokens: 3745
-processingTimeMs: 11938
+
+  - Skills enable **reproducible workflows** by linking AI instructions to local scripts (Node, Python) and can be shared via global marketplaces.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2204
+  outputTokens: 803
+  totalTokens: 3745
+  processingTimeMs: 11938
 ---
 
 ## Key Takeaways

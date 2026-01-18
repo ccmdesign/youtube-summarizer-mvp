@@ -1,59 +1,81 @@
 ---
-title: "You're Missing an Crucial Step in Prompting! #ai #artificialintelligence #heypresto #openai"
-videoId: "HnBdvSC0Syo"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT1M26S"
-publishedAt: "2026-01-14T04:00:12Z"
+metadata:
+  videoId: "HnBdvSC0Syo"
+  title: "You're Missing an Crucial Step in Prompting! #ai #artificialintelligence #heypresto #openai"
+  description: "My site: https://natebjones.com
+
+    HeyPresto: https://www.heypresto.ai/
+
+    Full Story w/ Tools: https://natesnewsletter.substack.com/p/the-complete-prompt-tooling-ecosystem?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+    ________________________________
+
+    What’s really happening inside prompt engineering and the full lifecycle behind it?
+
+    The common story is that prompting is just writing clever text — but the reality is more complicated.
+
+
+    In this video, I share the inside scoop on the real prompt lifecycle:
+
+    • Why intent formation is the missing first stage
+
+    • How LLMs help shape, version, and test high-leverage prompts
+
+    • What separates individual tinkering from production-grade evaluation
+
+    • Where AI agents and deployment workflows demand rigorous prompt tooling
+
+
+    Chapters:
+
+    00:00 The Wild West of Prompting
+
+    02:50 Authoring and Drafting Prompts
+
+    05:27 Versioning and Testing Prompts
+
+    08:01 Intent Formation and Discovery
+
+    10:26 Introducing Hey Presto
+
+    12:37 Pricing and Community Engagement
+
+    13:52 Understanding the Prompt Lifecycle
+
+    15:44 The Importance of Intent Formulation
+
+
+    Teams and operators who understand the lifecycle can move faster without sacrificing reliability.
+
+
+    Subscribe for daily AI strategy and news.
+
+    For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT1M26S"
+  publishedAt: "2026-01-14T04:00:12Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/HnBdvSC0Syo/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=HnBdvSC0Syo"
 processedAt: "2026-01-14T16:39:47.760Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/HnBdvSC0Syo/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=HnBdvSC0Syo"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  My site: https://natebjones.com
-  HeyPresto: https://www.heypresto.ai/
-  Full Story w/ Tools: https://natesnewsletter.substack.com/p/the-complete-prompt-tooling-ecosystem?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  ________________________________
-  What’s really happening inside prompt engineering and the full lifecycle behind it?
-  The common story is that prompting is just writing clever text — but the reality is more complicated.
-  
-  In this video, I share the inside scoop on the real prompt lifecycle:
-  • Why intent formation is the missing first stage
-  • How LLMs help shape, version, and test high-leverage prompts
-  • What separates individual tinkering from production-grade evaluation
-  • Where AI agents and deployment workflows demand rigorous prompt tooling
-  
-  Chapters:
-  00:00 The Wild West of Prompting
-  02:50 Authoring and Drafting Prompts
-  05:27 Versioning and Testing Prompts
-  08:01 Intent Formation and Discovery
-  10:26 Introducing Hey Presto
-  12:37 Pricing and Community Engagement
-  13:52 Understanding the Prompt Lifecycle
-  15:44 The Importance of Intent Formulation
-  
-  Teams and operators who understand the lifecycle can move faster without sacrificing reliability.
-  
-  Subscribe for daily AI strategy and news.
-  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
-tldr: |
-  The critical missing stage in AI prompting is **Intent Formation and Discovery**, which must occur before actual drafting.
+tldr: "The critical missing stage in AI prompting is **Intent Formation and Discovery**, which must occur before actual drafting.
+
   - **Stage One** involves refining 'fuzzy goals' into structured objectives.
+
   - **Stage Two** is the actual authoring and drafting of the prompt.
-  - Moving from ambiguous requests to **high-lever prompts** requires clarifying constraints and specific operational steps.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 736
-outputTokens: 767
-totalTokens: 3103
-processingTimeMs: 16211
+
+  - Moving from ambiguous requests to **high-lever prompts** requires clarifying constraints and specific operational steps.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 736
+  outputTokens: 767
+  totalTokens: 3103
+  processingTimeMs: 16211
 ---
 
 ## Key Takeaways

@@ -1,47 +1,57 @@
 ---
-title: "Gemini 3 and GPT 5.1"
-videoId: "tLIX3CFEFqA"
-channel: "Caleb Writes Code"
-channelId: "UCuU9jE4MHHEIyYMbDfUPSew"
-duration: "PT5M54S"
-publishedAt: "2025-11-20T07:48:48Z"
+metadata:
+  videoId: "tLIX3CFEFqA"
+  title: "Gemini 3 and GPT 5.1"
+  description: "Gemini 3 from Google and GPT-5.1 from OpenAI are now available as American models compete with Chinese open AI models. LLMs are also getting closer and closer to AGI, but how? How exactly will large language models reach artificial general intelligence?
+
+    How will automation and AI add to AI training and could that transform and disrupt the industry?
+
+
+    #ai #llm #gemini3 #gpt #openai\ 
+
+
+    Chapters
+
+    00:00 Gemini 3 & GPT-5.1
+
+    01:27 Why matters
+
+    02:11 Google MOAT
+
+    02:35 OpenAI GPT-5.1
+
+    02:55 AGI
+
+    04:36 Benchmark
+
+    05:16 Conclusion"
+  channel: "Caleb Writes Code"
+  channelId: "UCuU9jE4MHHEIyYMbDfUPSew"
+  duration: "PT5M54S"
+  publishedAt: "2025-11-20T07:48:48Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/tLIX3CFEFqA/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=tLIX3CFEFqA"
 processedAt: "2026-01-13T15:54:07.101Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/tLIX3CFEFqA/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=tLIX3CFEFqA"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Gemini 3 from Google and GPT-5.1 from OpenAI are now available as American models compete with Chinese open AI models. LLMs are also getting closer and closer to AGI, but how? How exactly will large language models reach artificial general intelligence?
-  How will automation and AI add to AI training and could that transform and disrupt the industry?
-  
-  #ai #llm #gemini3 #gpt #openai 
-  
-  Chapters
-  00:00 Gemini 3 & GPT-5.1
-  01:27 Why matters
-  02:11 Google MOAT
-  02:35 OpenAI GPT-5.1
-  02:55 AGI
-  04:36 Benchmark
-  05:16 Conclusion
-tldr: |
-  The release of Gemini 3 and GPT 5.1 marks a pivotal shift in the AI race toward hardware independence and model credibility. Key insights include:
+tldr: "The release of Gemini 3 and GPT 5.1 marks a pivotal shift in the AI race toward hardware independence and model credibility. Key insights include:
+
   - **Gemini 3** demonstrates that state-of-the-art models can be trained entirely on **Google TPUs**, reducing reliance on Nvidia.
+
   - **GPT 5.1 Pro** was strategically released 24 hours after Gemini 3 to maintain OpenAI's market dominance.
-  - The **Omnisci
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1779
-outputTokens: 1048
-totalTokens: 3785
-processingTimeMs: 14278
+
+  - The **Omnisci\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1779
+  outputTokens: 1048
+  totalTokens: 3785
+  processingTimeMs: 14278
 ---
 
 ## Key Takeaways

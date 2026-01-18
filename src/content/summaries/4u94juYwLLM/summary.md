@@ -1,53 +1,67 @@
 ---
-title: "Why Designers Can No Longer Trust the Design Process"
-videoId: "4u94juYwLLM"
-channel: "Hatch Conference"
-channelId: "UC2fWPPz3TVhVWcqWT-D6ufA"
-duration: "PT25M21S"
-publishedAt: "2025-12-29T07:00:06Z"
+metadata:
+  videoId: "4u94juYwLLM"
+  title: "Why Designers Can No Longer Trust the Design Process"
+  description: "For years, designers have been told to trust the process.
+
+    Research first. Personas. Journey maps. Problem statements. Then solutions.
+
+
+    In this talk from Hatch Conference, Jenny Wen, Design Lead at Anthropic and former Director of Design at Figma, explains why that model no longer fits the reality of modern design work.
+
+
+    With AI accelerating prototyping, smaller teams doing more, and craft becoming a key differentiator, rigid processes are failing designers. Jenny shares real examples from Figma and Anthropic that show how great work actually gets made today. Starting from solutions, caring deeply about details, building intuition, skipping steps, and designing for delight.
+
+
+    This is not a rejection of research or strategy.
+
+    It is a call to stop worshipping process artifacts and start trusting designer judgment again.
+
+
+    You will learn
+
+    • Why the traditional design process breaks down in an AI driven world
+
+    • How AI changes who prototypes and how fast teams move
+
+    • Why craft, taste, and quality are becoming more important
+
+    • When starting from a solution leads to better outcomes
+
+    • How intuition is built and why it matters
+
+    • Why great design often comes from breaking the rules
+
+
+    Recorded live in Berlin.
+
+
+    Watch more talks at hatchconference.com"
+  channel: "Hatch Conference"
+  channelId: "UC2fWPPz3TVhVWcqWT-D6ufA"
+  duration: "PT25M21S"
+  publishedAt: "2025-12-29T07:00:06Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/4u94juYwLLM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=4u94juYwLLM"
 processedAt: "2026-01-10T19:51:26.298Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/4u94juYwLLM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=4u94juYwLLM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  For years, designers have been told to trust the process.
-  Research first. Personas. Journey maps. Problem statements. Then solutions.
-  
-  In this talk from Hatch Conference, Jenny Wen, Design Lead at Anthropic and former Director of Design at Figma, explains why that model no longer fits the reality of modern design work.
-  
-  With AI accelerating prototyping, smaller teams doing more, and craft becoming a key differentiator, rigid processes are failing designers. Jenny shares real examples from Figma and Anthropic that show how great work actually gets made today. Starting from solutions, caring deeply about details, building intuition, skipping steps, and designing for delight.
-  
-  This is not a rejection of research or strategy.
-  It is a call to stop worshipping process artifacts and start trusting designer judgment again.
-  
-  You will learn
-  • Why the traditional design process breaks down in an AI driven world
-  • How AI changes who prototypes and how fast teams move
-  • Why craft, taste, and quality are becoming more important
-  • When starting from a solution leads to better outcomes
-  • How intuition is built and why it matters
-  • Why great design often comes from breaking the rules
-  
-  Recorded live in Berlin.
-  
-  Watch more talks at hatchconference.com
-tldr: |
-  Jenny Wen argues that rigid design processes are outdated in the AI era, where tools allow non-designers to prototype quickly and designers to code. To stay relevant, practitioners must:
+tldr: "Jenny Wen argues that rigid design processes are outdated in the AI era, where tools allow non-designers to prototype quickly and designers to code. To stay relevant, practitioners must:
+
   - Prioritize **craft and end-user experience** over process artifacts
+
   - Build **intuition** through constant feedback loops
-  - Embrace **solution-first design** to leverage new technology capabilities.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 6907
-outputTokens: 1004
-totalTokens: 8954
-processingTimeMs: 14235
+
+  - Embrace **solution-first design** to leverage new technology capabilities.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 6907
+  outputTokens: 1004
+  totalTokens: 8954
+  processingTimeMs: 14235
 ---
 
 ## Key Takeaways

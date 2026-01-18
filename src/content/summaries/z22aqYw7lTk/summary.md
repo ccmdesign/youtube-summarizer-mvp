@@ -1,28 +1,26 @@
 ---
-title: "Start Talking to Disabled Users Now with MICHELE WILLIAMS — Meets Easy Accessibility, Dec 11, 2025"
-videoId: "z22aqYw7lTk"
-channel: "Smashing Magazine"
-channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
-duration: "PT45M34S"
-publishedAt: "2025-12-18T09:17:12Z"
+metadata:
+  videoId: "z22aqYw7lTk"
+  title: "Start Talking to Disabled Users Now with MICHELE WILLIAMS — Meets Easy Accessibility, Dec 11, 2025"
+  channel: "Smashing Magazine"
+  channelId: "UCSDtqcJ8ZXviPrEcj1vuLiQ"
+  duration: "PT45M34S"
+  publishedAt: "2025-12-18T09:17:12Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/z22aqYw7lTk/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=z22aqYw7lTk"
 processedAt: "2026-01-16T15:33:05.132Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/z22aqYw7lTk/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=z22aqYw7lTk"
-modelUsed: "gemini-2.5-flash"
-tldr: |
-  Michele Williams argues for **proactive inclusion of disabled users** in UX research, challenging the fallacy of being "unequipped." The key is to **stop waiting for perfect tools** or explicit requests, as inclusion is a process choice. Recruit diversely, adapt moderation flexibly using accessible alternatives, and integrate accessibility insights into every report, normalizing diverse feedback. 
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 10070
-outputTokens: 1862
-totalTokens: 13546
-processingTimeMs: 64999
+tldr: "Michele Williams argues for **proactive inclusion of disabled users** in UX research, challenging the fallacy of being \"unequipped.\" The key is to **stop waiting for perfect tools** or explicit requests, as inclusion is a process choice. Recruit diversely, adapt moderation flexibly using accessible alternatives, and integrate accessibility insights into every report, normalizing diverse feedback.\ \n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 10070
+  outputTokens: 1862
+  totalTokens: 13546
+  processingTimeMs: 64999
 ---
 
 ## Key Takeaways

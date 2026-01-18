@@ -1,68 +1,94 @@
 ---
-title: "8 Insane Claude Cowork Use Cases! (endless possibilities)"
-videoId: "xcHyfiMItCM"
-channel: "Samin Yasar"
-channelId: "UCzGcYErpBX4ldvv0l7MWLfw"
-duration: "PT14M51S"
-publishedAt: "2026-01-13T12:01:56Z"
+metadata:
+  videoId: "xcHyfiMItCM"
+  title: "8 Insane Claude Cowork Use Cases! (endless possibilities)"
+  description: "🤝 Work with me 👉 https://calendly.com/samin-yasar12/how-can-i-help
+
+    🛠️ Build Agents like me 👉 https://bookedin.ai
+
+    New Claude Community: https://www.skool.com/claude/
+
+
+    -----------------------------
+
+    ✉️  For Business Inquiries: samin@bookedin.ai
+
+
+    Hi 👋 I'm Samin.  This channel is for you if you’re a business owner who wants to:
+
+    → Build a complete client acquisition system\ 
+
+    → Attract high-ticket clients
+
+    → Scale your revenue while working less
+
+
+    You may be feeling stuck, trying to figure out how to attract consistent leads, increase your sales, and grow your business without burning out.
+
+
+    If that sounds like you I can help.\ 
+
+
+    But why even listen to me?
+
+    - I’ve have helped 200+ business use AI Automations generating and saving them millions (look at my case studies)
+
+    - My company was featured in Bloomberg business week for innovative use of AI Agents.
+
+    - I’m an Ex-Amazon software engineer with over 6 years of experience\ 
+
+    - I have a computer science degree from NYU
+
+
+    More about bookedin: https://www.youtube.com/channel/UCwUgatPkBj-CROEB_MJAh5A
+
+
+    ⏰ TIMESTAMPS
+
+    00:00 — Activating the Claude Co-worker agent
+
+    00:52 — Use Case #1: Desktop file organization
+
+    02:15 — Use Case #2: Branded Google Slides creation
+
+    04:30 — Use Case #3: Video automation for social media
+
+    06:10 — Use Case #4: Recording and scheduling browser workflows
+
+    08:22 — Use Case #5: Data fetching and metrics analysis
+
+    10:45 — Use Case #6: Claude image generation
+
+    12:15 — Use Case #7: Using Claude Skills skills
+
+    13:50 — Use Case #8: CRM, administrative, and calendar tasks"
+  channel: "Samin Yasar"
+  channelId: "UCzGcYErpBX4ldvv0l7MWLfw"
+  duration: "PT14M51S"
+  publishedAt: "2026-01-13T12:01:56Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/xcHyfiMItCM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=xcHyfiMItCM"
 processedAt: "2026-01-15T05:56:11.928Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/xcHyfiMItCM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=xcHyfiMItCM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  🤝 Work with me 👉 https://calendly.com/samin-yasar12/how-can-i-help
-  🛠️ Build Agents like me 👉 https://bookedin.ai
-  New Claude Community: https://www.skool.com/claude/
-  
-  -----------------------------
-  ✉️  For Business Inquiries: samin@bookedin.ai
-  
-  Hi 👋 I'm Samin.  This channel is for you if you’re a business owner who wants to:
-  → Build a complete client acquisition system 
-  → Attract high-ticket clients
-  → Scale your revenue while working less
-  
-  You may be feeling stuck, trying to figure out how to attract consistent leads, increase your sales, and grow your business without burning out.
-  
-  If that sounds like you I can help. 
-  
-  But why even listen to me?
-  - I’ve have helped 200+ business use AI Automations generating and saving them millions (look at my case studies)
-  - My company was featured in Bloomberg business week for innovative use of AI Agents.
-  - I’m an Ex-Amazon software engineer with over 6 years of experience 
-  - I have a computer science degree from NYU
-  
-  More about bookedin: https://www.youtube.com/channel/UCwUgatPkBj-CROEB_MJAh5A
-  
-  ⏰ TIMESTAMPS
-  00:00 — Activating the Claude Co-worker agent
-  00:52 — Use Case #1: Desktop file organization
-  02:15 — Use Case #2: Branded Google Slides creation
-  04:30 — Use Case #3: Video automation for social media
-  06:10 — Use Case #4: Recording and scheduling browser workflows
-  08:22 — Use Case #5: Data fetching and metrics analysis
-  10:45 — Use Case #6: Claude image generation
-  12:15 — Use Case #7: Using Claude Skills skills
-  13:50 — Use Case #8: CRM, administrative, and calendar tasks
-tldr: |
-  Claude Co-work transforms the AI from a chatbot into an agentic "second pair of hands" capable of direct computer control. 
-  - **Workflow Automation**: Use the "Teach Claude" feature to record and replicate manual browser actions on a schedule.
+tldr: "Claude Co-work transforms the AI from a chatbot into an agentic \"second pair of hands\" capable of direct computer control.\ 
+
+  - **Workflow Automation**: Use the \"Teach Claude\" feature to record and replicate manual browser actions on a schedule.
+
   - **Local File Management**: Organize hundreds of files or create branded presentations using local assets.
-  - **Extensibility**: Integrate custom APIs for n
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 3564
-outputTokens: 938
-totalTokens: 5575
-processingTimeMs: 13988
+
+  - **Extensibility**: Integrate custom APIs for n\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 3564
+  outputTokens: 938
+  totalTokens: 5575
+  processingTimeMs: 13988
 ---
 
 ## Key Takeaways

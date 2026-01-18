@@ -1,30 +1,27 @@
 ---
-title: "99% of Developers Are STILL Coding Wrong in 2026"
-videoId: "s1D5rzfM1cw"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT1M1S"
-publishedAt: "2026-01-14T18:31:32Z"
+metadata:
+  videoId: "s1D5rzfM1cw"
+  title: "99% of Developers Are STILL Coding Wrong in 2026"
+  description: "While legendary developers like Linus Torvalds and Antirez have embraced AI-assisted coding, most coders are still stuck writing manual code in 2026. I break down the anti-AI hype and reveal the exact tools top developers use to build software faster than ever. Stop fighting the future—your career depends on it."
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT1M1S"
+  publishedAt: "2026-01-14T18:31:32Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/s1D5rzfM1cw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=s1D5rzfM1cw"
 processedAt: "2026-01-15T06:04:48.863Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/s1D5rzfM1cw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=s1D5rzfM1cw"
-modelUsed: "gemini-2.5-flash"
-description: |
-  While legendary developers like Linus Torvalds and Antirez have embraced AI-assisted coding, most coders are still stuck writing manual code in 2026. I break down the anti-AI hype and reveal the exact tools top developers use to build software faster than ever. Stop fighting the future—your career depends on it.
-tldr: |
-  The era of manual coding is over. **AI models** like Opus 4.5 and GPT 5.2 are now highly proficient at coding, enabling developers to achieve in hours what previously took weeks. Experts like Linus Torvalds and Anti-Res advocate for developers to stop "crafting code" by hand and instead focus on **designing systems to write code** to multiply their productivity on large projects.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 3
-fallbackAttempts: 2
-inputTokens: 686
-outputTokens: 897
-totalTokens: 3022
-processingTimeMs: 52182
+tldr: "The era of manual coding is over. **AI models** like Opus 4.5 and GPT 5.2 are now highly proficient at coding, enabling developers to achieve in hours what previously took weeks. Experts like Linus Torvalds and Anti-Res advocate for developers to stop \"crafting code\" by hand and instead focus on **designing systems to write code** to multiply their productivity on large projects.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+  apiCalls: 3
+  fallbackAttempts: 2
+  inputTokens: 686
+  outputTokens: 897
+  totalTokens: 3022
+  processingTimeMs: 52182
 ---
 
 ## Key Takeaways

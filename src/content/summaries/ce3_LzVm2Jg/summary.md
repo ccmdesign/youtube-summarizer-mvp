@@ -1,46 +1,73 @@
 ---
-title: "I Let AI Argue About a Stock"
-videoId: "ce3_LzVm2Jg"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT5M6S"
-publishedAt: "2025-12-31T12:01:23Z"
+metadata:
+  videoId: "ce3_LzVm2Jg"
+  title: "I Let AI Argue About a Stock"
+  description: "We look at TradingAgents, a popular open-source GitHub project that simulates a trading firm using a team of AI agents.
+
+
+    Instead of one AI model making a decision, this uses multiple specialized AI agents that analyze a stock from different angles like fundamentals, sentiment, technical analysis, bullish vs bearish research. They then debate before producing a final simulated trade decision.
+
+
+    🔗 Relevant Links
+
+    TradingAgents - https://tradingagents-ai.github.io/
+
+    GitHub Repo - https://github.com/TauricResearch/TradingAgents
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    0:00 AI agents debate stocks (TradingAgents intro)
+
+    0:36 What is TradingAgents? Multi-agent trading framework
+
+    1:25 Install + setup (Python 3.13, conda, API keys)
+
+    1:52 CLI demo: run a ticker + date + LLM
+
+    2:57 Python: customize config + run the graph
+
+    3:39 Pros: modular agents, learning, backtesting, open-source
+
+    4:09 Cons: token costs, rate limits, inconsistent outputs
+
+    4:33 What’s next: why multi-agent AI matters for devs"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT5M6S"
+  publishedAt: "2025-12-31T12:01:23Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/ce3_LzVm2Jg/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=ce3_LzVm2Jg"
 processedAt: "2026-01-01T23:57:46.865Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/ce3_LzVm2Jg/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=ce3_LzVm2Jg"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  We look at TradingAgents, a popular open-source GitHub project that simulates a trading firm using a team of AI agents.
-  
-  Instead of one AI model making a decision, this uses multiple specialized AI agents that analyze a stock from different angles like fundamentals, sentiment, technical analysis, bullish vs bearish research. They then debate before producing a final simulated trade decision.
-  
-  🔗 Relevant Links
-  TradingAgents - https://tradingagents-ai.github.io/
-  GitHub Repo - https://github.com/TauricResearch/TradingAgents
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  0:00 AI agents debate stocks (TradingAgents intro)
-  0:36 What is TradingAgents? Multi-agent trading framework
-  1:25 Install + setup (Python 3.13, conda, API keys)
-  1:52 CLI demo: run a ticker + date + LLM
-  2:57 Python: customize config + run the graph
-  3:39 Pros: modular agents, learning, backtesting, open-source
-  4:09 Cons: token costs, rate limits, inconsistent outputs
-  4:33 What’s next: why multi-agent AI matters for devs
 tldr: "Leverage multi-agent AI debates to stress-test investment theses, forcing the identification of blind spots and counterarguments that individual human analysis often ignores due to bias."
+ai:
+  provider: "unknown"
+  model: "gemini-3-flash-preview"
+  apiCalls: 0
+  fallbackAttempts: 0
+  processingTimeMs: 0
 ---
 
 The video explores a technical experiment using large language models (LLMs) to conduct a "Bull vs. Bear" debate regarding a specific stock. The primary goal is to demonstrate how a multi-agent AI framework can be used to remove human confirmation bias and provide a more balanced view of financial markets.

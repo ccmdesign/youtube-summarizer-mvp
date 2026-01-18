@@ -11,15 +11,20 @@ marked.use({
   }
 })
 
+// Summary with nested metadata structure
+interface SummaryMetadata {
+  videoId: string
+  title: string
+  channel: string
+  publishedAt: string
+  thumbnailUrl: string
+  youtubeUrl: string
+}
+
 defineProps<{
   summary: {
-    title: string
-    videoId: string
-    channel: string
-    publishedAt: string
+    metadata: SummaryMetadata
     processedAt: string
-    thumbnailUrl?: string
-    youtubeUrl?: string
     tldr?: string
   }
 }>()
@@ -28,19 +33,19 @@ defineProps<{
 <template>
   <article class="summary-card">
     <img
-      v-if="summary.thumbnailUrl"
-      :src="summary.thumbnailUrl"
-      :alt="`Thumbnail for ${summary.title}`"
+      v-if="summary.metadata.thumbnailUrl"
+      :src="summary.metadata.thumbnailUrl"
+      :alt="`Thumbnail for ${summary.metadata.title}`"
       class="summary-card__thumb"
       loading="lazy"
     />
     <div class="summary-card__content">
       <div class="summary-card__meta | cluster">
-        <a :href="`/channels/${summary.channel}`" class="summary-card__channel">{{ summary.channel }}</a>
+        <a :href="`/channels/${summary.metadata.channel}`" class="summary-card__channel">{{ summary.metadata.channel }}</a>
         <span class="summary-card__separator">|</span>
-        <span class="summary-card__date">{{ formatDate(summary.publishedAt) }}</span>
+        <span class="summary-card__date">{{ formatDate(summary.metadata.publishedAt) }}</span>
         <a
-          :href="`https://www.youtube.com/watch?v=${summary.videoId}`"
+          :href="summary.metadata.youtubeUrl"
           target="_blank"
           rel="noopener"
           class="summary-card__youtube"
@@ -49,8 +54,8 @@ defineProps<{
         </a>
       </div>
       <h3 class="summary-card__title">
-        <NuxtLink :to="`/summaries/${summary.videoId}`">
-          {{ summary.title }}
+        <NuxtLink :to="`/summaries/${summary.metadata.videoId}`">
+          {{ summary.metadata.title }}
         </NuxtLink>
       </h3>
       <div

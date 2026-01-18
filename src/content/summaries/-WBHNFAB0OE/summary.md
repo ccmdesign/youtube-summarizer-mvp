@@ -1,73 +1,99 @@
 ---
-title: "AGENT THREADS. How to SHIP like Boris Cherny. Ralph Wiggnum in Claude Code."
-videoId: "-WBHNFAB0OE"
-channel: "IndyDevDan"
-channelId: "UC_x36zCEGilGpB1m-V4gmjg"
-duration: "PT31M1S"
-publishedAt: "2026-01-12T14:00:01Z"
+metadata:
+  videoId: "-WBHNFAB0OE"
+  title: "AGENT THREADS. How to SHIP like Boris Cherny. Ralph Wiggnum in Claude Code."
+  description: "How do you KNOW you're improving as an engineer in the age of AI? Thread Based Engineering is the answer.
+
+
+    Even Andrej Karpathy feels left behind. If one of the greatest engineers of our generation struggles to keep up, what hope do the rest of us have? The answer is simpler than you think: MEASURE YOUR THREADS.
+
+
+    🔥 VIDEO REFERENCES
+
+    • Tactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=-WBHNFAB0OE
+
+
+    • How Boris Cherny uses CC Tweet:\ 
+
+    https://x.com/bcherny/status/2007179832300581177
+
+
+    • Andrej Karpathy Tweet: https://x.com/karpathy/status/2004607146781278521
+
+
+    • Ralph Wiggum Original Post by Geoffrey Huntly: https://ghuntley.com/ralph/
+
+
+    • Multi Process Terminal Tool (mprocs): https://github.com/pvolok/mprocs
+
+
+    🚀 In this video, we introduce thread based engineering, a powerful mental framework for understanding and improving your agentic coding abilities. A thread is a unit of engineering work over time driven by you and your agents. You show up at the beginning with the prompt and at the end with the review. Everything in between? That's your AI agents doing the heavy lifting through tool calls.
+
+
+    🛠️ We break down SIX essential thread types for mastering agentic engineering:
+
+    - Base Thread: Your fundamental unit of work
+
+    - P Thread: Parallel execution for scaling output
+
+    - C Thread: Chained work for production-sensitive tasks
+
+    - F Thread: Fusion threads for rapid prototyping and confidence
+
+    - B Thread: Meta structures with agents prompting agents
+
+    - L Thread: Long duration, high autonomy workflows
+
+
+    💡 Learn how Boris Cherny, creator of Claude Code, runs FIVE parallel Claude instances in his terminal and another 5-10 in the background. This is thread engineering in action. We also explore the Ralph Wiggum technique, showing how code plus agents outperforms agents alone.
+
+
+    🔥 Four concrete ways to know you're improving:
+
+    - Run MORE threads of work
+
+    - Run LONGER threads with increased autonomy
+
+    - Run THICKER threads with nested sub-agents
+
+    - Run FEWER human-in-the-loop checkpoints
+
+
+    🌟 Whether you're a senior engineer shipping to production with every prompt or just getting started with AI coding, understanding thread based engineering will transform your productivity. Master context engineering, prompt engineering, and principled AI coding to unlock the full potential of multi-agent workflows.
+
+
+    💡 The future belongs to engineers who can scale their compute through parallel threads, fusion chains, and agentic prompt engineering. Don't get left behind in the agentic horizon. Start thinking in threads today.
+
+
+    Stay focused and Keep Building.
+
+
+    #aicoding #agenticcoding #claudecode"
+  channel: "IndyDevDan"
+  channelId: "UC_x36zCEGilGpB1m-V4gmjg"
+  duration: "PT31M1S"
+  publishedAt: "2026-01-12T14:00:01Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/-WBHNFAB0OE/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=-WBHNFAB0OE"
 processedAt: "2026-01-12T23:38:55.792Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/-WBHNFAB0OE/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=-WBHNFAB0OE"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  How do you KNOW you're improving as an engineer in the age of AI? Thread Based Engineering is the answer.
-  
-  Even Andrej Karpathy feels left behind. If one of the greatest engineers of our generation struggles to keep up, what hope do the rest of us have? The answer is simpler than you think: MEASURE YOUR THREADS.
-  
-  🔥 VIDEO REFERENCES
-  • Tactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=-WBHNFAB0OE
-  
-  • How Boris Cherny uses CC Tweet: 
-  https://x.com/bcherny/status/2007179832300581177
-  
-  • Andrej Karpathy Tweet: https://x.com/karpathy/status/2004607146781278521
-  
-  • Ralph Wiggum Original Post by Geoffrey Huntly: https://ghuntley.com/ralph/
-  
-  • Multi Process Terminal Tool (mprocs): https://github.com/pvolok/mprocs
-  
-  🚀 In this video, we introduce thread based engineering, a powerful mental framework for understanding and improving your agentic coding abilities. A thread is a unit of engineering work over time driven by you and your agents. You show up at the beginning with the prompt and at the end with the review. Everything in between? That's your AI agents doing the heavy lifting through tool calls.
-  
-  🛠️ We break down SIX essential thread types for mastering agentic engineering:
-  - Base Thread: Your fundamental unit of work
-  - P Thread: Parallel execution for scaling output
-  - C Thread: Chained work for production-sensitive tasks
-  - F Thread: Fusion threads for rapid prototyping and confidence
-  - B Thread: Meta structures with agents prompting agents
-  - L Thread: Long duration, high autonomy workflows
-  
-  💡 Learn how Boris Cherny, creator of Claude Code, runs FIVE parallel Claude instances in his terminal and another 5-10 in the background. This is thread engineering in action. We also explore the Ralph Wiggum technique, showing how code plus agents outperforms agents alone.
-  
-  🔥 Four concrete ways to know you're improving:
-  - Run MORE threads of work
-  - Run LONGER threads with increased autonomy
-  - Run THICKER threads with nested sub-agents
-  - Run FEWER human-in-the-loop checkpoints
-  
-  🌟 Whether you're a senior engineer shipping to production with every prompt or just getting started with AI coding, understanding thread based engineering will transform your productivity. Master context engineering, prompt engineering, and principled AI coding to unlock the full potential of multi-agent workflows.
-  
-  💡 The future belongs to engineers who can scale their compute through parallel threads, fusion chains, and agentic prompt engineering. Don't get left behind in the agentic horizon. Start thinking in threads today.
-  
-  Stay focused and Keep Building.
-  
-  #aicoding #agenticcoding #claudecode
-tldr: |
-  Dan introduces **Thread-Based Engineering**, a framework for transitioniing from a 'vibe coder' to a senior engineer shipping to production with AI agents.
+tldr: "Dan introduces **Thread-Based Engineering**, a framework for transitioniing from a 'vibe coder' to a senior engineer shipping to production with AI agents.
+
   - **Six thread types** define different levels of agentic orchestration and autonomy.
+
   - Scaling requires moving from **babysitting** a single agent to running parallel, fused, and meta-threaded workflows.
-  - Success is measured by **total tool c
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 7714
-outputTokens: 1186
-totalTokens: 10840
-processingTimeMs: 20334
+
+  - Success is measured by **total tool c\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 7714
+  outputTokens: 1186
+  totalTokens: 10840
+  processingTimeMs: 20334
 ---
 
 ## Key Takeaways

@@ -1,50 +1,60 @@
 ---
-title: "AI Marketing Isn't As Scary As You Think | The Marketer's Roundtable"
-videoId: "gJ64K91XADY"
-channel: "Neil Patel"
-channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
-duration: "PT56M47S"
-publishedAt: "2025-12-17T14:01:12Z"
+metadata:
+  videoId: "gJ64K91XADY"
+  title: "AI Marketing Isn't As Scary As You Think | The Marketer's Roundtable"
+  description: "If you've been doing SEO, running social ads, or optimizing for any algorithm, you've already been doing AI marketing. The panic around AI agents and machine learning is overblown because marketers have been marketing to machines for over a decade.
+
+
+    In this marketing roundtable, My team and I break down why AI isn't the revolution everyone thinks it is. It's an evolution of what you're already doing. The real difference? Machines are more thorough than humans. They read everything. And that means your data infrastructure needs to be airtight.
+
+
+    Key Takeaways:
+
+
+    - Why SEO and algorithm optimization already prepared you for AI marketing
+
+    - The fundamental shift: marketing to \"Man AND Machines\" has been happening since Google launched
+
+    - How AI agents pull from the same content you've already optimized for search engines
+
+    - Why data feeds and product information need to be more complete than ever
+
+    - The difference between how humans consume content vs. how machines process it
+
+    - Why being \"thorough\" is the new competitive advantage in AI-driven marketing
+
+    - How marketing has evolved (and died) multiple times—and why this is just the next cycle
+
+
+
+    If you need help with AI marketing, visit https://npdigital.com"
+  channel: "Neil Patel"
+  channelId: "UCl-Zrl0QhF66lu1aGXaTbfw"
+  duration: "PT56M47S"
+  publishedAt: "2025-12-17T14:01:12Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/gJ64K91XADY/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=gJ64K91XADY"
 processedAt: "2026-01-16T15:10:59.098Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/gJ64K91XADY/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=gJ64K91XADY"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  If you've been doing SEO, running social ads, or optimizing for any algorithm, you've already been doing AI marketing. The panic around AI agents and machine learning is overblown because marketers have been marketing to machines for over a decade.
-  
-  In this marketing roundtable, My team and I break down why AI isn't the revolution everyone thinks it is. It's an evolution of what you're already doing. The real difference? Machines are more thorough than humans. They read everything. And that means your data infrastructure needs to be airtight.
-  
-  Key Takeaways:
-  
-  - Why SEO and algorithm optimization already prepared you for AI marketing
-  - The fundamental shift: marketing to "Man AND Machines" has been happening since Google launched
-  - How AI agents pull from the same content you've already optimized for search engines
-  - Why data feeds and product information need to be more complete than ever
-  - The difference between how humans consume content vs. how machines process it
-  - Why being "thorough" is the new competitive advantage in AI-driven marketing
-  - How marketing has evolved (and died) multiple times—and why this is just the next cycle
-  
-  
-  If you need help with AI marketing, visit https://npdigital.com
-tldr: |
-  Marketing is shifting from Google-centric SEO to **Search Everywhere Optimization**, where brands must appear across LLMs, social platforms, and community sites. 
+tldr: "Marketing is shifting from Google-centric SEO to **Search Everywhere Optimization**, where brands must appear across LLMs, social platforms, and community sites.\ 
+
   - **ChatGPT** dominates the AI referral space, driving 85-95% of traffic compared to Gemini or Perplexity.
+
   - Traditional SEO and **Generative Engine Optimization (GEO)** only have a 19% crossover in ranking results.
-  - Successful brands m
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 13804
-outputTokens: 1524
-totalTokens: 16388
-processingTimeMs: 22189
+
+  - Successful brands m\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 13804
+  outputTokens: 1524
+  totalTokens: 16388
+  processingTimeMs: 22189
 ---
 
 ## Key Takeaways

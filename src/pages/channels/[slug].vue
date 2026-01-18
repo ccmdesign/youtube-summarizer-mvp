@@ -15,7 +15,7 @@ const { data: allSummaries } = useContentStream('summaries')
 // Find the channel name from slug
 const channelName = computed(() => {
   if (!allSummaries.value) return null
-  const channels = [...new Set(allSummaries.value.map(s => s.channel))]
+  const channels = [...new Set(allSummaries.value.map(s => s.metadata?.channel))]
   return deslugify(route.params.slug as string, channels)
 })
 
@@ -29,7 +29,7 @@ watchEffect(() => {
 // Filter summaries for this channel
 const summaries = computed(() => {
   if (!allSummaries.value || !channelName.value) return []
-  return allSummaries.value.filter(s => s.channel === channelName.value)
+  return allSummaries.value.filter(s => s.metadata?.channel === channelName.value)
 })
 
 // Group by date

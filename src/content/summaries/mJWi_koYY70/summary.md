@@ -1,39 +1,43 @@
 ---
-title: "Why Claude Cowork is a Big Deal"
-videoId: "mJWi_koYY70"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT24M7S"
-publishedAt: "2026-01-14T01:47:36Z"
+metadata:
+  videoId: "mJWi_koYY70"
+  title: "Why Claude Cowork is a Big Deal"
+  description: "Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection and destructive file actions. Implications include accelerated productization and UI work to reach mainstream users, expanded demand for workplace agents, and market opportunities for startups rather than immediate vendor displacement.
+
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT24M7S"
+  publishedAt: "2026-01-14T01:47:36Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/mJWi_koYY70/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=mJWi_koYY70"
 processedAt: "2026-01-14T16:40:05.439Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/mJWi_koYY70/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=mJWi_koYY70"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection and destructive file actions. Implications include accelerated productization and UI work to reach mainstream users, expanded demand for workplace agents, and market opportunities for startups rather than immediate vendor displacement.
-  
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  Anthropic's release of **Claude Co-work** brings agentic local file access to non-technical users:
+tldr: "Anthropic's release of **Claude Co-work** brings agentic local file access to non-technical users:
+
   - **Local Agency**: Moves beyond chat to edit files, run scripts, and manage APIs directly on your desktop.
+
   - **Mainstream Shift**: Built in just 10 days using **Claude Code**, proving the speed of AI-driven development.
-  - **High Capacity**: Capable of processing massive datasets, like 320+ transcrip
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 7122
-outputTokens: 979
-totalTokens: 9734
-processingTimeMs: 15834
+
+  - **High Capacity**: Capable of processing massive datasets, like 320+ transcrip\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 7122
+  outputTokens: 979
+  totalTokens: 9734
+  processingTimeMs: 15834
 ---
 
 ## Key Takeaways

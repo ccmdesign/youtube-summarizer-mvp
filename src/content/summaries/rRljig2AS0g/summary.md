@@ -1,74 +1,105 @@
 ---
-title: "Emmet Connolly - Transitioning into the next era of design"
-videoId: "rRljig2AS0g"
-channel: "Dive Club 🤿"
-channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
-duration: "PT1H3M34S"
-publishedAt: "2025-06-27T12:01:47Z"
+metadata:
+  videoId: "rRljig2AS0g"
+  title: "Emmet Connolly - Transitioning into the next era of design"
+  description: "You probably know Intercom… but did you know they recently incubated a new startup called Fin (https://fin.ai/) that has already surpassed the core business?\ 
+
+
+    They’ve pulled off a massive transition to an AI-native product and design org so today we’re going behind-the-scenes with their VP of Design Emmet Connolly (https://www.linkedin.com/in/emmetconnolly/).
+
+
+    Some highlights:
+
+
+    - Why Emmet believes designers will own the frontend
+
+    - The opportunity for design systems in an AI-first world
+
+    - What Emmet looks for when hiring designers in the AI era
+
+    - Why liquid glass represents the wrong direction for design
+
+    - How Intercom’s AI product Fin overtook their core business
+
+    - Why the start of an S-curve is the best time to be a designer
+
+    - How AI is flipping the traditional product development process
+
+    - + a *lot* more
+
+
+    - Plato’s cave analogy (https://scholar.harvard.edu/files/seyer/files/plato_republic_514b-518d_allegory-of-the-cave.pdf)
+
+    - OpenAI’s forward deployed engineer role (https://openai.com/careers/forward-deployed-engineer-nyc/)
+
+    - Apple’s liquid glass design (https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/)
+
+    - Fons Mans helped on the design of Fin (https://x.com/fin_ai)
+
+
+    Chapters
+
+    0:00 Intro
+
+    1:29 The backstory of Fin
+
+    8:05 AI Design challenges\ 
+
+    12:32 Figuring out the right guardrails for AI
+
+    15:02 Will we have winner take all products?
+
+    19:12 How the practice of design has evolved at Intercom
+
+    23:24 Product design's goal to ship to production
+
+    27:49 Designers owning the frontend
+
+    34:43 Comparing to the shift from print to web design
+
+    39:08 The value of being optimistic about the future
+
+    46:24 How the product development process changes
+
+    51:09 How the role of research evolves
+
+    53:01 Why Emmett is looking for in design candidates
+
+    55:14 Why design systems designers become more important
+
+    57:05 Agentic by design, CRUD under the hood
+
+
+    Dive is where the best designers never stop learning 🤿
+
+
+    🌐 dive.club
+
+    🐦 twitter.com/joindiveclub
+
+
+    Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪"
+  channel: "Dive Club 🤿"
+  channelId: "UCkCnraWwlnBw1_i7C9-3p0w"
+  duration: "PT1H3M34S"
+  publishedAt: "2025-06-27T12:01:47Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/rRljig2AS0g/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=rRljig2AS0g"
 processedAt: "2026-01-12T23:31:14.302Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/rRljig2AS0g/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=rRljig2AS0g"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  You probably know Intercom… but did you know they recently incubated a new startup called Fin (https://fin.ai/) that has already surpassed the core business? 
-  
-  They’ve pulled off a massive transition to an AI-native product and design org so today we’re going behind-the-scenes with their VP of Design Emmet Connolly (https://www.linkedin.com/in/emmetconnolly/).
-  
-  Some highlights:
-  
-  - Why Emmet believes designers will own the frontend
-  - The opportunity for design systems in an AI-first world
-  - What Emmet looks for when hiring designers in the AI era
-  - Why liquid glass represents the wrong direction for design
-  - How Intercom’s AI product Fin overtook their core business
-  - Why the start of an S-curve is the best time to be a designer
-  - How AI is flipping the traditional product development process
-  - + a *lot* more
-  
-  - Plato’s cave analogy (https://scholar.harvard.edu/files/seyer/files/plato_republic_514b-518d_allegory-of-the-cave.pdf)
-  - OpenAI’s forward deployed engineer role (https://openai.com/careers/forward-deployed-engineer-nyc/)
-  - Apple’s liquid glass design (https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/)
-  - Fons Mans helped on the design of Fin (https://x.com/fin_ai)
-  
-  Chapters
-  0:00 Intro
-  1:29 The backstory of Fin
-  8:05 AI Design challenges 
-  12:32 Figuring out the right guardrails for AI
-  15:02 Will we have winner take all products?
-  19:12 How the practice of design has evolved at Intercom
-  23:24 Product design's goal to ship to production
-  27:49 Designers owning the frontend
-  34:43 Comparing to the shift from print to web design
-  39:08 The value of being optimistic about the future
-  46:24 How the product development process changes
-  51:09 How the role of research evolves
-  53:01 Why Emmett is looking for in design candidates
-  55:14 Why design systems designers become more important
-  57:05 Agentic by design, CRUD under the hood
-  
-  Dive is where the best designers never stop learning 🤿
-  
-  🌐 dive.club
-  🐦 twitter.com/joindiveclub
-  
-  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
-tldr: |
-  Emmet Connolly argues that the AI era requires designers to proactively disrupt themselves by moving closer to code and embracing a **generalist mindset**. Intercom's shift from legacy SaaS to an AI-native leader with **Finn** demonstrates that designers must transition from drawing "pictures of products" in Figma to shipping **production code** to survive the vertical climb of the innovation S-cu
-# Video Taxonomy
-lengthCategory: "longform"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 15440
-outputTokens: 1248
-totalTokens: 17706
-processingTimeMs: 18552
+tldr: "Emmet Connolly argues that the AI era requires designers to proactively disrupt themselves by moving closer to code and embracing a **generalist mindset**. Intercom's shift from legacy SaaS to an AI-native leader with **Finn** demonstrates that designers must transition from drawing \"pictures of products\" in Figma to shipping **production code** to survive the vertical climb of the innovation S-cu\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 15440
+  outputTokens: 1248
+  totalTokens: 17706
+  processingTimeMs: 18552
 ---
 
 ## Key Takeaways

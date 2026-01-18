@@ -1,53 +1,75 @@
 ---
-title: "Anthropic's Latest Move: Why OpenCode Users Are Worried"
-videoId: "vLecpJt_8jM"
-channel: "Better Stack"
-channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
-duration: "PT4M41S"
-publishedAt: "2026-01-09T21:30:25Z"
+metadata:
+  videoId: "vLecpJt_8jM"
+  title: "Anthropic's Latest Move: Why OpenCode Users Are Worried"
+  description: "Anthropic's recent decision to restrict Claude API access to third party tools using their subscription has left OpenCode users scrambling. If you're paying for a Claude subscription hoping to power OpenCode or similar CLI assistants, you're out of luck. Anthropic has effectively killed third-party terminal integrations. In this video, I break down exactly what changed, why Anthropic made this move, and most importantly, what it means for the future of AI coding tools. This is the wake-up call every OpenCode user needs.
+
+
+    🔗 Relevant Links
+
+    OpenCode - https://www.youtube.com/watch?v=SIhToEaIsjQ
+
+    Ralph Wiggum - https://www.youtube.com/watch?v=ny_BAA3eYaI
+
+    OpenCode Fix PR - https://github.com/anomalyco/opencode-anthropic-auth/pull/10
+
+    Anthropic's Response - https://x.com/trq212/status/2009689809875591565
+
+
+    ❤️ More about us
+
+    Radically better observability stack: https://betterstack.com/
+
+    Written tutorials: https://betterstack.com/community/
+
+    Example projects: https://github.com/BetterStackHQ
+
+
+    📱 Socials
+
+    Twitter: https://twitter.com/betterstackhq
+
+    Instagram: https://www.instagram.com/betterstackhq/
+
+    TikTok: https://www.tiktok.com/@betterstack
+
+    LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+    📌 Chapters:
+
+    0:00 Intro
+
+    0:32 What is OpenCode
+
+    1:40 People prefer OpenCode to Claude Code
+
+    2:10 Anthropic's decision makes business sense
+
+    2:50 Anthropic's plan to lock user's in to their Ecosystem
+
+    4:00 Workaround from OpenCode
+
+    4:45 OpenCode team introduces OpenCode Black"
+  channel: "Better Stack"
+  channelId: "UCkVfrGwV-iG9bSsgCbrNPxQ"
+  duration: "PT4M41S"
+  publishedAt: "2026-01-09T21:30:25Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/vLecpJt_8jM/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=vLecpJt_8jM"
 processedAt: "2026-01-10T18:09:16.174Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/vLecpJt_8jM/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=vLecpJt_8jM"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  Anthropic's recent decision to restrict Claude API access to third party tools using their subscription has left OpenCode users scrambling. If you're paying for a Claude subscription hoping to power OpenCode or similar CLI assistants, you're out of luck. Anthropic has effectively killed third-party terminal integrations. In this video, I break down exactly what changed, why Anthropic made this move, and most importantly, what it means for the future of AI coding tools. This is the wake-up call every OpenCode user needs.
-  
-  🔗 Relevant Links
-  OpenCode - https://www.youtube.com/watch?v=SIhToEaIsjQ
-  Ralph Wiggum - https://www.youtube.com/watch?v=ny_BAA3eYaI
-  OpenCode Fix PR - https://github.com/anomalyco/opencode-anthropic-auth/pull/10
-  Anthropic's Response - https://x.com/trq212/status/2009689809875591565
-  
-  ❤️ More about us
-  Radically better observability stack: https://betterstack.com/
-  Written tutorials: https://betterstack.com/community/
-  Example projects: https://github.com/BetterStackHQ
-  
-  📱 Socials
-  Twitter: https://twitter.com/betterstackhq
-  Instagram: https://www.instagram.com/betterstackhq/
-  TikTok: https://www.tiktok.com/@betterstack
-  LinkedIn: https://www.linkedin.com/company/betterstack
-  
-  📌 Chapters:
-  0:00 Intro
-  0:32 What is OpenCode
-  1:40 People prefer OpenCode to Claude Code
-  2:10 Anthropic's decision makes business sense
-  2:50 Anthropic's plan to lock user's in to their Ecosystem
-  4:00 Workaround from OpenCode
-  4:45 OpenCode team introduces OpenCode Black
 tldr: "Anthropic is restricting Claude Pro/Max subscriptions to its proprietary **Claude Code** terminal agent, blocking popular third-party tools like **Open Code**. This move aims to prevent users from bypassing high API costs via subsidized subscriptions and to increase **ecosystem lock-in**. Open Code has implemented a temporary fix using **O_ tool name prefixing** and is launching a $200/mo **Open C"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 1635
-outputTokens: 942
-totalTokens: 3608
-processingTimeMs: 12997
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 1635
+  outputTokens: 942
+  totalTokens: 3608
+  processingTimeMs: 12997
 ---
 
 ## Key Takeaways

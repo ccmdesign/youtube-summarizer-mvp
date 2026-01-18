@@ -1,58 +1,75 @@
 ---
-title: "Replacing my n8n workflow with a Claude Code Skill"
-videoId: "Jo168H2m5lw"
-channel: "Brian Casel"
-channelId: "UCSxPE9PHHxQUEt6ajGmQyMA"
-duration: "PT26M31S"
-publishedAt: "2026-01-12T13:00:46Z"
+metadata:
+  videoId: "Jo168H2m5lw"
+  title: "Replacing my n8n workflow with a Claude Code Skill"
+  description: "I spent a week building a complex n8n workflow for AI image generation — then scrapped it and rebuilt the whole thing as a Claude Code skill in 30 minutes. Here's why automation without intelligence doesn't work, and how Claude Code Skills became my secret weapon for repeatable brand visuals.
+
+
+    👇 **Your Builder Briefing (free)**
+
+    https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
+
+
+    👇 **Build With Claude Code (course + community)**
+
+    https://buildermethods.com/pro/claude-code-course - My upcoming course, included with Builder Methods Pro membership.
+
+
+    ▶️ Related videos:
+
+    Design OS: An AI-first design process: https://youtu.be/2vu-6-lIhAs
+
+    From AI Skeptic to Unfair advantage: https://youtu.be/7JBuA1GHAjQ
+
+
+    💬 Drop a comment with your questions and requests for upcoming videos!
+
+
+    Chapters:
+
+
+    0:00 One-off vs repeatable needs
+
+    1:59 Everything I'm showing today
+
+    4:40 Brand visual guidelines with Claude
+
+    9:54 Testing Google Gemini Image Generation
+
+    11:50 Building the N8N Workflow
+
+    17:33 What's a Claude Skill?
+
+    18:27 Creating the Claude Code Skill
+
+    22:11 Demo: Using the Claude Skill to Generate an Illustration"
+  channel: "Brian Casel"
+  channelId: "UCSxPE9PHHxQUEt6ajGmQyMA"
+  duration: "PT26M31S"
+  publishedAt: "2026-01-12T13:00:46Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/Jo168H2m5lw/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=Jo168H2m5lw"
 processedAt: "2026-01-14T16:28:10.167Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 playlistName: "AI Summaries"
 category: "ai"
-thumbnailUrl: "https://i.ytimg.com/vi/Jo168H2m5lw/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=Jo168H2m5lw"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  I spent a week building a complex n8n workflow for AI image generation — then scrapped it and rebuilt the whole thing as a Claude Code skill in 30 minutes. Here's why automation without intelligence doesn't work, and how Claude Code Skills became my secret weapon for repeatable brand visuals.
-  
-  👇 **Your Builder Briefing (free)**
-  https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
-  
-  👇 **Build With Claude Code (course + community)**
-  https://buildermethods.com/pro/claude-code-course - My upcoming course, included with Builder Methods Pro membership.
-  
-  ▶️ Related videos:
-  Design OS: An AI-first design process: https://youtu.be/2vu-6-lIhAs
-  From AI Skeptic to Unfair advantage: https://youtu.be/7JBuA1GHAjQ
-  
-  💬 Drop a comment with your questions and requests for upcoming videos!
-  
-  Chapters:
-  
-  0:00 One-off vs repeatable needs
-  1:59 Everything I'm showing today
-  4:40 Brand visual guidelines with Claude
-  9:54 Testing Google Gemini Image Generation
-  11:50 Building the N8N Workflow
-  17:33 What's a Claude Skill?
-  18:27 Creating the Claude Code Skill
-  22:11 Demo: Using the Claude Skill to Generate an Illustration
-tldr: |
-  Moving from rigid node-based automation to reasoning-capable **Claude Code Skills** enables high-quality, brand-consistent AI image generation. Key highlights:
+tldr: "Moving from rigid node-based automation to reasoning-capable **Claude Code Skills** enables high-quality, brand-consistent AI image generation. Key highlights:
+
   - Replaced a complex **n8n** workflow with a **Claude Code** system in just 30 minutes.
+
   - Uses **Claude Opus 4.5** for reasoning and **Google Gemini** for final image execution.
-  - Codifies brand identity into a **Visual World** and **Aesthe
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 6474
-outputTokens: 885
-totalTokens: 8380
-processingTimeMs: 14069
+
+  - Codifies brand identity into a **Visual World** and **Aesthe\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 6474
+  outputTokens: 885
+  totalTokens: 8380
+  processingTimeMs: 14069
 ---
 
 ## Key Takeaways

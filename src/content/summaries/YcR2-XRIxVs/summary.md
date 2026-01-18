@@ -1,43 +1,50 @@
 ---
-title: "AI Wearables Round 2: Will Anyone Care This Time?"
-videoId: "YcR2-XRIxVs"
-channel: "The AI Daily Brief: Artificial Intelligence News"
-channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
-duration: "PT7M56S"
-publishedAt: "2026-01-12T14:43:11Z"
+metadata:
+  videoId: "YcR2-XRIxVs"
+  title: "AI Wearables Round 2: Will Anyone Care This Time?"
+  description: "AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollback of nudity safeguards sparked government complaints, and Yann Lecun criticized Meta's LLM-focused AI strategy while founding Advanced Machine Intelligence Labs.
+
+
+
+    Brought to you by:
+
+    KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+
+    Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw\ 
+
+
+    The AI Daily Brief helps you understand the most important news and discussions in AI.\ 
+
+    Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+
+    Get it ad free at\ 
+
+    Join our Discord: https://bit.ly/aibreakdown"
+  channel: "The AI Daily Brief: Artificial Intelligence News"
+  channelId: "UCKelCK4ZaO6HeEI1KQjqzWA"
+  duration: "PT7M56S"
+  publishedAt: "2026-01-12T14:43:11Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/YcR2-XRIxVs/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=YcR2-XRIxVs"
 processedAt: "2026-01-12T23:37:01.341Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/YcR2-XRIxVs/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=YcR2-XRIxVs"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollback of nudity safeguards sparked government complaints, and Yann Lecun criticized Meta's LLM-focused AI strategy while founding Advanced Machine Intelligence Labs.
-  
-  
-  Brought to you by:
-  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
-  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
-  
-  The AI Daily Brief helps you understand the most important news and discussions in AI. 
-  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
-  Get it ad free at 
-  Join our Discord: https://bit.ly/aibreakdown
-tldr: |
-  AI wearables are pivoting toward specialized utility as the research community faces a growing schism over the future of LLMs.
+tldr: "AI wearables are pivoting toward specialized utility as the research community faces a growing schism over the future of LLMs.
+
   - **Focused Utility**: New hardware from Plaude and Switchbot targets note-taking rather than general assistants
+
   - **Safety Crisis**: X's Grock faces global backlash for generating non-consensual explicit content
-  - **Research Rift**: Yann LeCun exits Meta, labeling LLMs a 
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 2411
-outputTokens: 961
-totalTokens: 5030
-processingTimeMs: 17188
+
+  - **Research Rift**: Yann LeCun exits Meta, labeling LLMs a\ \n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 2411
+  outputTokens: 961
+  totalTokens: 5030
+  processingTimeMs: 17188
 ---
 
 ## Key Takeaways

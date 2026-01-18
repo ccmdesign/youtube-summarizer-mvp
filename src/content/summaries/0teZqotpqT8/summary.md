@@ -1,52 +1,64 @@
 ---
-title: "The LinkedIn Strategy Doesn't Work Anymore--Here's What You Should Do Instead (No code required!)"
-videoId: "0teZqotpqT8"
-channel: "AI News & Strategy Daily | Nate B Jones"
-channelId: "UC0C-17n9iuUQPylguM1d-lQ"
-duration: "PT25M57S"
-publishedAt: "2026-01-16T15:00:03Z"
+metadata:
+  videoId: "0teZqotpqT8"
+  title: "The LinkedIn Strategy Doesn't Work Anymore--Here's What You Should Do Instead (No code required!)"
+  description: "My site: https://natebjones.com
+
+    Full Story w/ Lovable Guides: https://natesnewsletter.substack.com/p/grab-the-fit-assessment-prompt-that?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+
+    _______________________
+
+
+    Sample portfolio site from the video: https://sample-ai-resume.lovable.app/
+
+
+    What's really happening with AI and the job market? The common story is that you need to optimize harder for LinkedIn and beat the ATS — but the reality is more complicated.
+
+
+    In this video, I share the inside scoop on why building your own AI interface changes the hiring game entirely:
+
+
+    \ • Why the 0.4% application success rate means you have nothing to lose
+
+    \ • How an AI trained on your work demonstrates depth that resumes cannot
+
+    \ • What a fit assessment tool signals about your confidence and market value
+
+    \ • Why showing beats telling in an era of zero-trust credentialing
+
+
+    The same AI that broke hiring enables a different move. Instead of squeezing through their filters, you create the surface where people encounter you on your own terms. When someone queries your experience and gets substantive answers, they shift from filtering mode to investigation mode — and that shift is worth everything.
+
+
+    For professionals with real depth that keeps getting compressed into bullet points, this approach lets your full shape show.
+
+
+    Subscribe for daily AI strategy and news.
+
+    For deeper playbooks and analysis: https://natesnewsletter.substack.com/"
+  channel: "AI News & Strategy Daily | Nate B Jones"
+  channelId: "UC0C-17n9iuUQPylguM1d-lQ"
+  duration: "PT25M57S"
+  publishedAt: "2026-01-16T15:00:03Z"
+  thumbnailUrl: "https://i.ytimg.com/vi/0teZqotpqT8/hqdefault.jpg"
+  youtubeUrl: "https://www.youtube.com/watch?v=0teZqotpqT8"
 processedAt: "2026-01-16T15:19:36.393Z"
 source: "youtube"
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
-thumbnailUrl: "https://i.ytimg.com/vi/0teZqotpqT8/hqdefault.jpg"
-youtubeUrl: "https://www.youtube.com/watch?v=0teZqotpqT8"
-modelUsed: "gemini-3-flash-preview"
-description: |
-  My site: https://natebjones.com
-  Full Story w/ Lovable Guides: https://natesnewsletter.substack.com/p/grab-the-fit-assessment-prompt-that?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
-  _______________________
-  
-  Sample portfolio site from the video: https://sample-ai-resume.lovable.app/
-  
-  What's really happening with AI and the job market? The common story is that you need to optimize harder for LinkedIn and beat the ATS — but the reality is more complicated.
-  
-  In this video, I share the inside scoop on why building your own AI interface changes the hiring game entirely:
-  
-   • Why the 0.4% application success rate means you have nothing to lose
-   • How an AI trained on your work demonstrates depth that resumes cannot
-   • What a fit assessment tool signals about your confidence and market value
-   • Why showing beats telling in an era of zero-trust credentialing
-  
-  The same AI that broke hiring enables a different move. Instead of squeezing through their filters, you create the surface where people encounter you on your own terms. When someone queries your experience and gets substantive answers, they shift from filtering mode to investigation mode — and that shift is worth everything.
-  
-  For professionals with real depth that keeps getting compressed into bullet points, this approach lets your full shape show.
-  
-  Subscribe for daily AI strategy and news.
-  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
-tldr: |
-  The traditional LinkedIn/ATS hiring process has collapsed into an **AI arms race** with a mere **0.4% success rate**. To stand out, you must:
+tldr: "The traditional LinkedIn/ATS hiring process has collapsed into an **AI arms race** with a mere **0.4% success rate**. To stand out, you must:
+
   - **Build an Interface**: Move from a static resume to an interactive, AI-powered personal site using no-code tools like **Lovable**.
-  - **Show, Don't Tell**: Use queryable context to demonstrate depth rather than making unverified bullet-point claims.
-# Video Taxonomy
-lengthCategory: "standard"
-# AI Processing Metrics
-aiProvider: "gemini"
-apiCalls: 1
-fallbackAttempts: 0
-inputTokens: 6285
-outputTokens: 922
-totalTokens: 8594
-processingTimeMs: 17438
+
+  - **Show, Don't Tell**: Use queryable context to demonstrate depth rather than making unverified bullet-point claims.\n"
+ai:
+  provider: "gemini"
+  model: "gemini-3-flash-preview"
+  apiCalls: 1
+  fallbackAttempts: 0
+  inputTokens: 6285
+  outputTokens: 922
+  totalTokens: 8594
+  processingTimeMs: 17438
 ---
 
 ## Key Takeaways
