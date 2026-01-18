@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-17T17:08:14.895Z",
+  "lastUpdated": "2026-01-18T16:38:05.111Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -2255,6 +2255,72 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-17T17:07:45.769Z",
       "processedAt": "2026-01-17T17:08:14.892Z"
+    },
+    "huszaaJPjU8": {
+      "videoId": "huszaaJPjU8",
+      "status": "success",
+      "createdAt": "2026-01-18T16:34:02.037Z",
+      "updatedAt": "2026-01-18T16:34:02.037Z",
+      "attemptCount": 1,
+      "title": "MIT Researchers DESTROY the Context Window Limit",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-18T16:34:02.036Z",
+      "processedAt": "2026-01-18T16:34:17.962Z"
+    },
+    "l7qVtHpctic": {
+      "videoId": "l7qVtHpctic",
+      "status": "success",
+      "createdAt": "2026-01-18T16:34:47.969Z",
+      "updatedAt": "2026-01-18T16:34:47.969Z",
+      "attemptCount": 1,
+      "title": "Claude Code's MCP Problem Just Got Fixed",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-18T16:34:47.969Z",
+      "processedAt": "2026-01-18T16:35:26.182Z"
+    },
+    "XQWOdQ8GM4w": {
+      "videoId": "XQWOdQ8GM4w",
+      "status": "success",
+      "createdAt": "2026-01-18T16:35:56.192Z",
+      "updatedAt": "2026-01-18T16:35:56.192Z",
+      "attemptCount": 1,
+      "title": "Why your coding agent keeps getting DUMBER.",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-18T16:35:56.190Z",
+      "processedAt": "2026-01-18T16:36:11.538Z"
+    },
+    "uzMveQCQa7k": {
+      "videoId": "uzMveQCQa7k",
+      "status": "success",
+      "createdAt": "2026-01-18T16:36:20.214Z",
+      "updatedAt": "2026-01-18T16:36:20.214Z",
+      "attemptCount": 1,
+      "title": "Why So Many Users Hate Windows 11 #microsoft #windows11 #technews",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-18T16:36:20.213Z",
+      "processedAt": "2026-01-18T16:36:36.026Z"
+    },
+    "96P65wL2zmw": {
+      "videoId": "96P65wL2zmw",
+      "status": "success",
+      "createdAt": "2026-01-18T16:37:06.153Z",
+      "updatedAt": "2026-01-18T16:37:06.153Z",
+      "attemptCount": 1,
+      "title": "This Google Tool Turns Messy Text Into Clean Data",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-18T16:37:06.152Z",
+      "processedAt": "2026-01-18T16:37:18.888Z"
+    },
+    "__izQwBMqw0": {
+      "videoId": "__izQwBMqw0",
+      "status": "success",
+      "createdAt": "2026-01-18T16:37:49.001Z",
+      "updatedAt": "2026-01-18T16:37:49.001Z",
+      "attemptCount": 1,
+      "title": "Security in 2026 Is Going to Look Very Different",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-18T16:37:49.000Z",
+      "processedAt": "2026-01-18T16:38:05.110Z"
     }
   }
 }
