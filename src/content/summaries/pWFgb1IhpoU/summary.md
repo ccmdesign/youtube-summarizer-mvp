@@ -13,6 +13,32 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/pWFgb1IhpoU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pWFgb1IhpoU"
 modelUsed: "gemini-2.5-flash"
+description: |
+  AI search is changing faster than most marketers realize.
+  
+  ChatGPT is evolving from a simple Q&A tool into a full discovery engine, and in 2026, the algorithm is getting its biggest shift yet.
+  
+  In this video, I break down the 8 major SEO updates that I believe ChatGPT will make that will change how brands get ranked, cited, and recommended inside ChatGPT.
+  
+  If you run a business, create content, or rely on AI for visibility… you need to understand these shifts before they happen.
+  
+  What You’ll Learn 
+  
+  - How ChatGPT is changing the way it decides which brands to cite and recommend
+  - Why certain sources (and platforms) will lose authority while others gain power
+  - How video, sentiment, and freshness signals will reshape AI discovery
+  - What brands must start doing now to stay visible in 2026 and beyond
+  
+  Chapters
+  
+  00:45 – Algorithm Update #1
+  02:08 – Algorithm Update #2
+  03:03 – Algorithm Update #3
+  03:56 – Algorithm Update #4
+  05:17 – Algorithm Update #5
+  06:32 – Algorithm Update #6
+  07:41 – Algorithm Update #7
+  08:45 – Algorithm Update #8
 tldr: |
   ChatGPT's algorithm is evolving fast for 2026, shifting from volume to **quality and relevance**.
   - Build **genuine authority** through industry citations, not self-promotion.

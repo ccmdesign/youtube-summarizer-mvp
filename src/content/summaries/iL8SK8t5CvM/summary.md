@@ -13,6 +13,21 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/iL8SK8t5CvM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=iL8SK8t5CvM"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  People aren’t just searching on Google anymore. They’re searching on Instagram, TikTok, and YouTube—and that shift is redefining SEO in 2026. In this video, I break down how social platforms have become the new search engines, how discovery now starts in the feed, and why creators and brands must optimize for social search to stay visible.
+  
+  You’ll learn which platforms matter most for B2B vs B2C, how people actually search using full questions (not keywords), how to structure content so algorithms can index it, and why on-platform actions like saves, DMs, and native checkout now influence reach and rankings. If you want to be found where attention actually lives, this is the complete playbook.
+  
+  What You’ll Learn in This Video
+  
+  - Why Instagram, TikTok, and YouTube are now primary search engines
+  - How feed-based discovery replaces traditional intent-based search
+  - How to optimize captions, hooks, and on-screen text for social SEO
+  - The role of structure, metadata, and subtitles in algorithmic ranking
+  - Why on-platform conversions boost reach and visibility
+  - How social content influences AI search tools like ChatGPT and Perplexity
+  
+  Watch till the end to understand how social media SEO compounds across search, social, and AI discovery in 2026.
 tldr: |
   Social media SEO in 2026 shifts from keyword-stuffing to **semantic discovery** and **platform retention**.
   - **Natural Language**: Optimize for full-sentence questions in captions and on-screen text to match user search habits.

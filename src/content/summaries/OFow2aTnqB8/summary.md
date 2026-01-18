@@ -11,6 +11,29 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/OFow2aTnqB8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=OFow2aTnqB8"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Instead of me recording another demo, I thought I'd spend some time answering some of the community questions around GitHub Spec Kit and Spec-Driven Development (SDD).
+  
+  😺 GitHub repo: https://github.com/github/spec-kit
+  ✍️ Blog post: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
+  📚 Additional details: https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit
+  
+  Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
+  
+  GitHub Copilot CLI: https://github.com/github/copilot-cli
+  
+  For more videos:
+  
+  📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
+  📽️ Overview of Spec Kit: https://youtu.be/a9eR1xsfvHg
+  📽️ Building a MCP registry tracker with Spec Kit: https://youtu.be/pBJYq3BE7tc
+  📽️ Improvements in GitHub Spec Kit: https://youtu.be/Wg-29qf8zR4
+  📽️ GitHub Spec Kit supporting all major agents: https://youtu.be/1HnTGc7tHE4
+  📽️ Analyzing and clarifying with Spec Kit: https://youtu.be/YD66SBpJY2M
+  📽️ Using GitHub Spec Kit for existing projects: https://youtu.be/SGHIQTsPzuY
+  📽️ Using GitHub Spec Kit with GitHub Copilot CLI: https://youtu.be/7tjmA_0pl2c
+  
+  #engineering #github #speckit #opensource #technology
 tldr: |
   Den Delimarsky answers top questions about GitHub Spec Kit:
   - **Spec** is the **sole source of truth**, update it with learnings; plan/tasks are flexible.

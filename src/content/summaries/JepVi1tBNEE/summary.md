@@ -11,6 +11,29 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/JepVi1tBNEE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=JepVi1tBNEE"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Unlock the power of Agent Skills in VS Code! In this video, we break down what Agent Skills are, why they’re game‑changing for developers, and how to create your first skill in minutes.
+  
+  🔎 Chapters:
+  00:00 Agent Skills in VS Code
+  00:41 Demo
+  04:45 In Summary
+  05:07 Wrap
+  
+  🔗 Links:
+  Agent Skills Docs: https://code.visualstudio.com/docs/copilot/customization/agent-skills
+  Agent Skills: https://agentskills.io
+  
+  🎙️ Featuring: James Montgemagno (@JamesMontemagno)
+  
+  📲 Follow VS Code:
+  * X: https://x.com/code
+  * Bluesky: https://bsky.app/profile/vscode.dev
+  * YouTube: https://youtube.com/code
+  * LinkedIn: https://www.linkedin.com/showcase/104107263
+  * GitHub: https://github.com/microsoft/vscode
+  
+  #vscode #agentskills
 tldr: |
   Agent skills are portable, action-oriented folders (instructions, scripts, and resources) that load on demand to automate domain-specific tasks.
   - They utilize an open standard compatible with VS Code, GitHub Copilot, and CLI.

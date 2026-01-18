@@ -11,6 +11,23 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/tTplmSnPIHQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=tTplmSnPIHQ"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  STOP Wasting Time & Master Gemini 3.0 Pro
+  
+  Most people use Gemini 3.0 Pro like a basic chatbot and completely miss what makes it powerful.
+  
+  In this video, I build a real B2B SaaS campaign from scratch and show how Gemini 3.0 actually works when you use Deep Research, native video analysis, Workspace access, and its massive context window together. Instead of generic answers, it produces data backed strategy and real campaign assets in minutes.
+  
+  If you are using Gemini like common chatbot, you are doing it wrong. This is how you actually master it.
+  
+  Watch Next https://youtu.be/gXm4Rp6gjEU
+  Watch Next https://youtu.be/di5E5FG1OT0
+  Watch Next https://youtu.be/4KvTNcGOeMU
+  Watch Next https://youtu.be/SogSf-1p9t4
+  
+  I'm Parker. I started this YouTube Channel with the goal to learn more about AI myself and to then pass on the knowledge to anyone willing to listen.
+  
+  let's work together: parker(at)mediaflow.group
 tldr: "Master Gemini 3.0 Pro by utilizing the **Thinking Mode** for complex logic, the **10-million token context window** for full-project ingestion, and **Native Tool Use** to automate verification via the built-in Python sandbox."
 # AI Processing Metrics
 aiProvider: "gemini"

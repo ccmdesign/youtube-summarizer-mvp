@@ -13,6 +13,29 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/XP6TJRbOdGo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=XP6TJRbOdGo"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Gemini 3 has changed the game. In this gemini 3 review, I combine gemini veo 3, google ai studio tools, and whisk ai into one powerful workflow to build professional landing pages with smooth scroll animations.
+  
+  
+  
+  Google Whisk: https://labs.google/fx/tools/whisk 
+  
+  Google Flow: https://labs.google/flow/about 
+  
+  Hero UI: https://www.heroui.com/ 
+  
+  Motion: https://motion.dev/ 
+  
+  21st.dev: https://21st.dev/
+  
+  
+  Google Gemini 3 powers some incredible experimental tools that most people don't know how to use together. Whether you've seen the debates around gpt 5.2 vs gemini 3 or chatgpt 5.2 vs gemini 3, the real question isn't which model wins on benchmarks. It's about what you can actually build.
+  In this video, I walk through a complete workflow using Whisk (powered by Nano Banana Pro for image generation and Gemini 3 for prompt enhancement), Google Flow with gemini veo 3 for video creation, and Claude Code for implementation. You'll see how to generate consistent keyframes, create smooth transitions between them, convert assets for web performance, and build a polished landing page with Hero UI and Motion.dev.
+  This isn't vibe coding where you hope for the best. It's a structured approach that combines AI tools strategically. While discussions about gemini 3 pro vs gpt 5.1 or gemini 3 vs gpt 5.2 dominate AI news, I'm focused on showing you practical applications with tools like gemini 3 flash, gemini 3 pro, and gemini 3 deep think capabilities through Google AI Studio.
+  I also show you how to use 21st.dev for component inspiration and how Claude Code automatically adapts components to fit your project without explicit instructions.
+  
+  Hashtags:
+  #ai #gemini #claudecode #chatgpt #googleaistudio #ainews #vibecoding #nanabananapro #antigravity #googleantigravity
 tldr: |
   Building professional, high-performance landing pages requires a **multi-tool AI workflow** rather than single-shot prompts. 
   - **Google Whisk & Flow**: Use these for consistent asset generation and keyframe-based animations via the **VO 3.1** model.

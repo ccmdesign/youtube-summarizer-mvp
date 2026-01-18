@@ -11,6 +11,49 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/qulrnI-xgNU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=qulrnI-xgNU"
 modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
+description: |
+  Build and debug n8n workflows using Claude Opus 4.5 (or any MCP enabled client) with this unofficial MCP server that's way more powerful than n8n's official one. 
+  
+  Self-host n8n on Hostinger: https://hostinger.com/jeredblu 
+  (10% off code: JEREDBLU) 
+  
+  While the official server only has 3 tools, that can only work with built out workflows.
+  
+  This one can create workflows, edit them, view executions, and help you debug—all connected directly to Claude Code (or whatever agent you choose).
+  
+  I also compare it to the built in n8n Ai that only comes with the cloud version, and how I am able to achieve all that functionality and more for a fraction of the price using n8n on Hostinger.
+  
+  What You'll Learn:
+  How to upgrade n8n to v2 on self-hosted instances
+  How to connect the unofficial n8n MCP server via Docker
+  How to install Claude Skills for n8n best practices
+  Building complete workflows with Claude Code plan mode
+  Debugging workflows with MCP execution access
+  
+  ⏱️ TIMESTAMPS
+  0:00 – Intro
+  0:34 – Official vs unofficial n8n MCP server
+  2:22 – Why I switched from n8n Cloud to self-hosting
+  2:30 – Setting up n8n on Hostinger
+  4:06 – Upgrading to n8n v2
+  5:07 – Setting up the MCP server
+  5:43 – Creating the mcp.json configuration
+  6:46 – Getting your n8n URL and API key
+  7:23 – Installing Claude Skills for n8n
+  8:03 – Building workflows with Claude Code
+  9:03 – Creating a workflow
+  12:03 – Debugging and refactoring tips
+  13:17 – Recap and final thoughts
+  
+  🔗 RESOURCES
+  My complete guide: https://github.com/JeredBlu/guides/blob/main/Building_n8n_with_agents_via_MCP_and_Skills.md
+  n8n MCP Server: https://github.com/czlonkowski/n8n-mcp
+  n8n Claude Skills: https://github.com/czlonkowski/n8n-skills
+  Docker Desktop: https://www.docker.com/products/docker-desktop/
+  Book a call with me → https://yedatechs.com/#container06
+  Sponsorship inquiries → hi@yedatechs.com
+  
+  #n8n #skills #ClaudeCode #MCP #Hostinger #Automation
 tldr: |
   JeredBlu demonstrates using CZ Lancowski's unofficial n8n MCP server (via Docker) with Cloud Code Opus45 to build/debug workflows efficiently, recommending Hostinger for cost-effective self-hosting.
 # Video Taxonomy

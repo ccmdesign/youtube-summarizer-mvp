@@ -13,6 +13,36 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/itP_47lbb0s/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=itP_47lbb0s"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Another year has passed, yet the anticipation for The Division 3 has only grown. Today we're deep diving on what the current status of the project is, and what updates and new information we have heading into 2026. Let me know your thoughts!
+  
+  Check out the 2025 update video for more info! 👉 https://youtu.be/eB_qc-9NnGE?si=yyWrO7n3HgWTlvTo
+  
+  Intro | 0:00
+  Project Status | 1:52
+  Release Date | 7:18
+  Potential Reveal | 9:46
+  Conclusion | 12:15
+  
+  ——————
+  
+  Support the channel, and get exclusive perks by becoming a Member! 👉 youtube.com/roguegold/join
+  
+  Check out my merch store here! 👉 https://roguegold.store/
+  
+  Use code “ROGUEGOLD” on the Ubisoft Store!
+  
+  Get the ROGUEGOLD ARM PATCH in The Division 2 using this code! | RGE-GLD-ARM-PCH | Redeem at 👉 https://redeem.ubisoft.com/thedivision2/en-US
+  
+  Twitch: https://www.twitch.tv/rogue_gold
+  Twitter: https://www.twitter.com/rogue_gold
+  Discord: https://discord.gg/BCAry6DpWt
+  
+  Get all the official The Division news and support links here! 👉 https://www.linktr.ee/thedivisiongame
+  
+  Music Used: ‘Running Out’ by Patrick Patrikios
+  
+  #TheDivision #TheDivision2 #TheDivision3
 tldr: |
   The Division 3 is still early in development, with **Massive Entertainment now fully focused** on the franchise after other projects wrapped up. Expect little news in 2026, but the **10th anniversary in March 2026** could bring a logo reveal or location details. Release is predicted for **2028 at the earliest**, likely later due to generational leap and reduced external studio support.
 # Video Taxonomy

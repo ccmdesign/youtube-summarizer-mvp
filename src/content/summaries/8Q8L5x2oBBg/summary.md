@@ -13,6 +13,61 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/8Q8L5x2oBBg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=8Q8L5x2oBBg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Code Cowork is the newest version of Claude Code.
+  It's not just for software engineers, but for everyone.
+  Also Google and Apple team up.
+  OpenAI's physical product is leaked.
+  Deepseek v4 is claimed to be better at coding than all Western models.
+  
+  Cowork: Claude Code for the rest of your work
+  https://claude.com/blog/cowork-research-preview
+  
+  Joint Statement: Apple and Google have entered into a multi-year collaboration
+  https://x.com/NewsFromGoogle/status/2010760810751017017
+  
+  Deepseek V4
+  https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?rc=pplyci
+  
+  DeepSeek Founder Fund Surge
+  https://www.bloomberg.com/news/articles/2026-01-12/deepseek-founder-liang-s-funds-surge-57-as-china-quants-boom
+  
+  Hearing fresh detail on Openai "To-go" hardware project from last report. Now confirmed it is a special audio product to replace Airpod, internal code name is "Sweetpea"
+  https://x.com/zhihuipikachu/status/2010745618734759946
+  
+  When I created Claude Code as a side project back in September 2024...
+  https://x.com/bcherny/status/2004887829252317325
+  
+  
+  I've never felt this much behind as a programmer.
+  https://x.com/karpathy/status/2004607146781278521
+  
+  
+  The latest AI News. Learn about LLMs, Gen AI and get ready for the rollout of AGI. Wes Roth covers the latest happenings in the world of OpenAI, Google, Anthropic, NVIDIA and Open Source AI.
+  
+  00:00 AI news
+  01:37 Claude Code Cowork
+  13:18 Google Agentic Shopping - Universal Context Protocol (UCP)
+  22:56 Apple and Google Team Up
+  25:58 Deepseek V4 is the best coder
+  28:48 OpenAI's Product Leak
+  
+  
+  ______________________________________________
+  My Links 🔗
+  ➡️ Twitter: https://x.com/WesRothMoney
+  ➡️ AI Newsletter: https://natural20.beehiiv.com/subscribe
+  
+  Want to work with me?
+  Brand, sponsorship & business inquiries: wesroth@smoothmedia.co
+  
+  Check out my AI Podcast where me and Dylan interview AI experts:
+  https://www.youtube.com/playlist?list=PLb1th0f6y4XSKLYenSVDUXFjSHsZTTfhk
+  ______________________________________________
+  
+  
+  
+  #ai #openai #llm
 tldr: |
   Anthropic’s launch of **Co-work** marks a major shift by bringing autonomous agent capabilities—previously restricted to coders—to everyday users on Mac OS. 
   - **Google's UCP** standardizes "agentic commerce" for frictionless AI-to-AI shopping with major retailers.

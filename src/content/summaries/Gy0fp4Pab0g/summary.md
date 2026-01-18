@@ -11,6 +11,20 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/Gy0fp4Pab0g/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Gy0fp4Pab0g"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  https://twitch.tv/ThePrimeagen - I Stream on Twitch
+  
+  https://twitter.com/terminaldotshop - Want to order coffee over SSH?
+  ssh terminal.shop
+  
+  Become Backend Dev: https://boot.dev/prime
+  (plus i make courses for them)
+  
+  This is also the best way to support me is to support yourself becoming a better backend engineer.  
+  
+  Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
+  
+  Kinesis Advantage 360: https://bit.ly/Prime-Kinesis
 tldr: |
   - Stack Overflow has officially regressed to 2008 activity levels, with monthly questions dropping from peak heights to approximately 3,862 in December 2025.
   - While AI tools captured the market, the platform's death is attributed to a toxic moderation culture of "Dev Karens" who alienated users.

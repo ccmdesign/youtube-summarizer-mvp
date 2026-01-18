@@ -11,6 +11,12 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/MzLLR9gFEZU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=MzLLR9gFEZU"
 modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
+description: |
+  I'm a 30-year veteran of public education. We're all in a tizzy, of course, about how AI is changing our profession right before our eyes. But an excited tizzy, for many of us. AI has a lot of potential to reinvent schooling, to be sure, but the real magic--and perhaps the real purpose--is in what we've always done in schools. That is, we've always worked to prepare students to be collaborative, thoughtful, contributing adults. If we focus, as schools, on using AI for that--empowering adult collaboration rather than just making quizzes or generating text sets--then we'll model the best uses of this crazy technology.
+  
+  In this video, I talk about how I'm using AI to help me manage information. In short, I've vibe coded an Obsidian plugin to help me visualize my knowledge base. Yes ... I've used AI to write computer code to use AI to help me with my voluminous notes.
+  
+  I'll share more on how I made this all happen in a later video.
 tldr: "Jeff Moore demonstrates a proof-of-concept integrating **vibe coding**—AI-driven contextual analysis of language patterns—into knowledge management systems for educational leaders, enabling sentiment-aware content filtering and personalized resource recommendations."
 # AI Processing Metrics
 aiProvider: "openrouter"

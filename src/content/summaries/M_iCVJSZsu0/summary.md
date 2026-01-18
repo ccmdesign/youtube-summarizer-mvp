@@ -11,6 +11,45 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/M_iCVJSZsu0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=M_iCVJSZsu0"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Canvas is a game-changing TUI toolkit that gives Claude Code its own interactive display directly in your terminal! Watch as we explore how Claude Canvas spawns interactive panes for emails, calendars, flight bookings, and more, turning your terminal into a full-featured AI workspace.
+  
+  🔗 My Links:
+  Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com
+  🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi
+  🧠 Follow me on Twitter: https://twitter.com/intheworldofai 
+  🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ 
+  👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)
+  🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/
+  👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
+  
+  [Must Watch]:
+  Claude Code Ralph Loop: Run Claude Code For Hours Autonomously & Code ANYTHING!: https://youtu.be/Yl_GGlAQ4Gc
+  Auto Claude: AI Coding on Steroids! Claude Code Running Autonomous For Hours!: https://youtu.be/eaNA2oOXoUg
+  Claude Code NEW Update IS HUGE! Sub Agents, Claude Ultra, LSPs, & MORE!: https://youtu.be/8izATKqcF-8
+  
+  📌 LINKS & RESOURCES
+  Github Repo: https://github.com/dvdsgl/claude-canvas
+  Forked Github Repo: https://github.com/BEARLY-HODLING/claude-canvas
+  Demo Video: https://x.com/dvdsgl/status/2008685488107139313
+  Claude Code Install: https://github.com/anthropics/claude-code
+  
+  In this video, you’ll see:
+  How to install Claude Canvas
+  Using Bun + tmux/iTerm2 for interactive terminal UIs
+  Demonstrating Claude Code in action with split panes
+  Tips for macOS users vs tmux cross-platform setup
+  Real-world examples of AI-powered workflows
+  
+  Whether you’re a developer, AI enthusiast, or just curious about the latest Claude Code enhancements, this video will show you how Claude Canvas can level up your terminal experience!
+  
+  💡 Don’t forget to like, subscribe, and hit the bell for more AI coding tutorials and demos!
+  
+  Hashtags:
+  #ClaudeCode, #ClaudeCanvas, #AItools, #TerminalUI, #TUI, #tmux, #iTerm2, #AIcoding, #Productivity, #AIAssistant, #NoCodeAI, #DeveloperTools, #MacOSTools, #CodingWorkflow
+  
+  Additional tags:
+  Claude Code, Claude Canvas, AI coding agent, terminal interface, tmux setup, Bun runtime, iTerm2 tutorial, Apple Terminal tips, AI productivity tools, developer workflow, interactive terminal, AI multitasking, split pane terminal, macOS AI tools, AI automation, coding assistant, terminal dashboard, visual terminal UI, AI agent display
 tldr: |
   Claude Canvas is an open-source TUI (Terminal User Interface) toolkit that adds a dedicated visual display to Claude Code using T-Max.
   - It enables AI agents to render interactive interfaces for tasks like email drafting, calendar management, and flight booking.

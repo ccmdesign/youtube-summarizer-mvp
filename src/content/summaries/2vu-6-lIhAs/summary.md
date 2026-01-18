@@ -11,6 +11,40 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/2vu-6-lIhAs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=2vu-6-lIhAs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  AI coding tools build fast—but the results are a hodgepodge. Disconnected screens. Generic UIs. No cohesion. And re-prompting just makes it worse.
+  
+  Design OS fixes this. It's a methodical design process that happens before your coding agent wires up the backend. You design the actual frontend—not mockups—and export production-ready components that any coding agent can implement perfectly.
+  
+  This video is the official demo and walkthrough tutorial.
+  
+  👇 **Use Design OS** (free open source):
+  https://buildermethods.com/design-os
+  
+  👇 **Your Builder Briefing (free)**
+  https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
+  
+  👇 **Use Agent OS** (free open source):
+  https://buildermethods.com/agent-os
+  
+  👇 **Join Builder Methods Pro**
+  https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
+  
+  ▶️ Related videos:
+  AI Skeptic to Unfair Advantage https://youtu.be/7JBuA1GHAjQ
+  
+  💬 Drop a comment with your questions and requests for upcoming videos!
+  
+  Chapters:
+  
+  0:00 What is Design OS?
+  2:39 Installation
+  4:03 Product Vision & Roadmap
+  8:45 Data Model
+  10:38 Design System (Tokens & Shell)
+  15:44 Design Screens
+  27:28 Export Components
+  32:18 Codebase Implementation
 tldr: |
   Brian Casel introduces **Design OS**, a free, open-source framework designed to solve the 'generic UI' problem in AI-built software. It provides a structured, three-phase process to plan products, design cohesive screens, and export production-ready React components. This ensures that AI coding agents work from a **unified vision** rather than building disconnected pages in isolation.
 # Video Taxonomy

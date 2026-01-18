@@ -13,6 +13,28 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/SR91aSB9fC0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=SR91aSB9fC0"
 modelUsed: "gemini-2.5-flash"
+description: |
+  COACHING:
+  Join my coaching program for writers, BOOKFOX LAB:
+  https://thejohnfox.com/bookfox-lab/
+  
+  COURSES:
+  Use my 10 courses in Bookfox Academy, with 230+ videos, to write your novel:
+  https://thejohnfox.com/writing-courses/
+  
+  EMAILS:
+  Get emails about writing from me: https://thejohnfox.com/subscribe/
+  
+  MY BOOK:
+  Buy my book, "The Linchpin Writer": https://amzn.to/3U5ul14
+  
+  Timeline:
+  0:00 Intro
+  0:15 Selling Direct is the Future
+  4:39 How to Deal with AI Explosion
+  10:02 Growth of Deluxe Editions and Collectibles
+  11:56 Booktok is the Goliath in the Room
+  14:18 The Audiobook Takeover
 tldr: |
   Main insights for writers in 2026:
   - **Audiobooks** are the fastest-growing market segment, surpassing ebooks in revenue; prioritize them.

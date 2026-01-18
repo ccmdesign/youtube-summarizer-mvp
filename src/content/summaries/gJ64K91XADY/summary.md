@@ -13,6 +13,23 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/gJ64K91XADY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=gJ64K91XADY"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  If you've been doing SEO, running social ads, or optimizing for any algorithm, you've already been doing AI marketing. The panic around AI agents and machine learning is overblown because marketers have been marketing to machines for over a decade.
+  
+  In this marketing roundtable, My team and I break down why AI isn't the revolution everyone thinks it is. It's an evolution of what you're already doing. The real difference? Machines are more thorough than humans. They read everything. And that means your data infrastructure needs to be airtight.
+  
+  Key Takeaways:
+  
+  - Why SEO and algorithm optimization already prepared you for AI marketing
+  - The fundamental shift: marketing to "Man AND Machines" has been happening since Google launched
+  - How AI agents pull from the same content you've already optimized for search engines
+  - Why data feeds and product information need to be more complete than ever
+  - The difference between how humans consume content vs. how machines process it
+  - Why being "thorough" is the new competitive advantage in AI-driven marketing
+  - How marketing has evolved (and died) multiple times—and why this is just the next cycle
+  
+  
+  If you need help with AI marketing, visit https://npdigital.com
 tldr: |
   Marketing is shifting from Google-centric SEO to **Search Everywhere Optimization**, where brands must appear across LLMs, social platforms, and community sites. 
   - **ChatGPT** dominates the AI referral space, driving 85-95% of traffic compared to Gemini or Perplexity.

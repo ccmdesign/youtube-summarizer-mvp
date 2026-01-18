@@ -13,6 +13,18 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/mLAjiilAcUg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=mLAjiilAcUg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  References: 
+  https://steipete.me/posts/2025/shipping-at-inference-speed
+  https://www.parkerrex.com/writing/prompts-2026#spec-interviews
+  
+  00:00 Introduction and Background 
+  00:21 Exploring Agent Scripts 
+  01:35 Practical Applications and Examples 
+  03:46 Advanced Configurations and Tools 
+  09:23 Refactoring and Optimization 
+  10:48 Networking and Community Insights 
+  13:27 Conclusion and Recommendations
 tldr: |
   Centralizing agent configurations into a single **agent-scripts** folder allows developers to operationalize AI agents across multiple projects without repeating instructions. 
   - **Key Technique**: Use a central repository of 'skills' and configurations that projects point to for consistent behavior.

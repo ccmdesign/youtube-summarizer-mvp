@@ -11,6 +11,8 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/bcVDf7Y91Us/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=bcVDf7Y91Us"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Sam Altman claims a single GPT request uses just 1/15 of a teaspoon of water, but that deceptive figure ignores the massive water consumption from training massive models, the energy-hungry reasoning processes that power every response, and the sheer scale of billions of queries running 24/7 in data centres worldwide. When you account for the real costs - cooling systems, server maintenance, and the infrastructure supporting AI at scale - the actual water footprint becomes mind-boggling.
 tldr: |
   AI's environmental footprint is projected to reach **one trillion liters of water** annually by 2028.
   - **Training Costs**: GPT-3 alone consumed 5 million liters before answering a single prompt.

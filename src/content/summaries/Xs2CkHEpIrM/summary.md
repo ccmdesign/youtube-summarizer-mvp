@@ -13,6 +13,41 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/Xs2CkHEpIrM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Xs2CkHEpIrM"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  There's a really big problem with using MCP servers with Claude Code. In this video I show how connecting just 7 MCP servers consumes 50% of my context window, before I even type a single prompt. I'll show you how you can still give Claude Code access to the same number of MCPs without losing any context.
+  
+  🎥 Watch Next
+  1. Make Claude Code 100x BETTER (Context Engineering)
+  https://youtu.be/ySA9tJ8RfVM
+  2. These 2 Tools Will Change How You Use Claude Code
+  https://youtu.be/imw8MkwW9xw
+  3. How I Turned Claude Code Into My Personal Assistant... You can too!
+  https://youtu.be/aYAVSG4Ra40
+  
+  Support me making more content and free coding projects like this.
+  https://buymeacoffee.com/kennyliao
+  Thank you so much for your support!
+  
+  AI Launchpad Community waitlist. Free to join.
+  https://kenneth-liao.kit.com/join
+  
+  🛠️ Resources
+  1. MCP Launchpad: https://github.com/kenneth-liao/mcp-launchpad
+  2. Get any of my plugins, free! https://github.com/kenneth-liao/ai-launchpad-marketplace
+  
+  🕒 Sections 
+  00:00 - Intro
+  00:27 - The Problem
+  03:35 - The Solution
+  05:32 - MCP Launchpad
+  06:50 - MCP Launchpad Demo
+  12:20 - MCP Launchpad with Claude Code
+  16:07 - MCP Launchpad Setup
+  
+  ✉️ For Business Inquiries: 
+  kennyliao@theailaunchpad.io
+  
+  #claudecode #mcp #aiagents
 tldr: |
   Directly connecting multiple MCP servers to Claude Code bloats the context window, causing **context rot** and performance degradation. **MCP Launchpad** solves this by:
   - Replacing dozens of tool definitions with a single **CLI gateway**

@@ -13,6 +13,30 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/pDUQkfFiM8w/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pDUQkfFiM8w"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Stop losing Google LSA leads to faster competitors.
+  
+  Boost your lead generation with this marketing automation setup. This video shows how to automate responses to Google Local Service Ads using Make.com + OpenAI, so your business replies in seconds, improves conversions, and keeps leads warm—without babysitting your phone.
+  
+  If you run a home service business, speed-to-lead is everything. This Google LSA automation helps you book more calls and automate your workflow with AI, even while you sleep.
+  
+  Tools used: Make.com
+  
+  📲 Get the template + prompt:
+  DM me on Instagram “LSA TEMP” and I’ll send you the full scenario map, filters, and prompt.
+  👉 https://instagram.com/DonToroMIA
+  
+  (Chapters)
+  0:00 Speed-to-Lead: Why You’re Losing Money
+  0:19 Marketing Automation Overview (Make.com + LSA)
+  0:45 Step 1: Gmail Trigger & Google LSA SMS Flow
+  2:55 Step 2: Writing the Human Auto-Reply
+  3:40 Step 2B: Connecting OpenAI to Make.com
+  4:45 Step 2C: Prompt & Model Tuning
+  7:25 Step 3: Human-Like Delay
+  8:00 Step 4: Sending the Automated Reply
+  10:44 Step 5: Testing the Automation
+  14:45 Heads-Up + Free Template & Prompt
 tldr: |
   Automate Google Local Services Ads (LSA) responses to ensure sub-5-minute contact:
   - Use **Make.com** and **Gmail** to trigger replies from "AW Express" leads

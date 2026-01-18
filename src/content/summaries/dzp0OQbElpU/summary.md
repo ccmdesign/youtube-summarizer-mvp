@@ -11,6 +11,47 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/dzp0OQbElpU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=dzp0OQbElpU"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  My site: https://natebjones.com
+  Full Story w/ Prompts: https://natesnewsletter.substack.com/p/my-honest-field-notes-on-how-the?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+  _______________________
+  What's really happening with AI and the job market in 2026? The common story is that the Toby Lutke memo was either visionary leadership or a smokescreen for layoffs — but the reality is more complicated.
+  
+  In this video, I share the inside scoop on how one CEO memo triggered a talent market restructuring:
+  
+   • Why Shopify's Red Queen culture made the AI mandate work
+   • How the copycat wave at Duolingo and Box mostly failed
+   • What a U-shaped talent market actually looks like
+   • Why AI fluency is moving from differentiator to baseline expectation
+  
+  The memo wasn't about productivity — it was about selection pressure. By making AI usage a performance metric, Lutke reshaped who would want to work at Shopify and who would thrive there. Eight months later, the pattern is propagating industry-wide.
+  
+  For professionals navigating this shift, the training gap is becoming a strategic liability — but the tools to skill up have never been more accessible.
+  
+  Chapters:
+  00:00 The memo that fired the starting gun
+  02:23 The Red Queen framework explained
+  03:42 Top developers put out 10 billion tokens last year
+  04:30 This is about selection pressure, not productivity
+  05:13 Shopify had Copilot before ChatGPT existed
+  06:54 MCP-ing everything and the Roast framework
+  07:45 Fastest growing AI users weren't engineers
+  09:03 Using Cursor as your homepage
+  10:06 When experiments become infrastructure
+  10:30 The complicated truth about Shopify headcount
+  12:28 Why hire 1000 interns if AI can do the work
+  14:31 How peers actually know if you're AI native
+  15:02 The copycat wave that mostly failed
+  16:30 Duolingo's AI memo disaster
+  17:14 Box's smarter approach to AI savings
+  18:20 Jensen Huang calls resistance insane
+  19:57 The job market data is now concrete
+  22:13 Why juniors may have the advantage
+  23:29 Where this is heading in 2026
+  25:00 The training gap is a strategic liability
+  
+  Subscribe for daily AI strategy and news.
+  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
 tldr: |
   The 'Red Queen' talent shift:
   - **Mandatory AI**: Companies like Shopify now measure 'AI reflexiveness' in performance reviews.

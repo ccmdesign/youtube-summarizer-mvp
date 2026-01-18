@@ -13,6 +13,25 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/0J_fz6RlqVg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=0J_fz6RlqVg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Get the code → https://goo.gle/4j8NCLk 
+  Agent Development Kit (ADK) →https://goo.gle/4aTg7KQ
+  
+  Your React frontend shouldn't be managing your AI's plumbing. In this video, Amit Maraj shows you how to build the "General Contractor" of your AI system: the Orchestrator. 
+  
+  You'll learn how to use the Agent Development Kit (ADK) to manage remote specialists using RemoteA2aAgent, implement a feedback loop with LoopAgent, and build an EscalationChecker that acts like a building inspector. We'll also cover how to stream real-time status updates to your user, ensuring they aren't staring at a blank screen while your distributed squad gets to work.
+  
+  More resources: 
+  Agent-to-Agent Protocol (A2A) →https://goo.gle/4apT8a2 
+  Google Cloud Run →https://goo.gle/3LbFLjv 
+  Gemini 3 models →https://goo.gle/4aY7zSV
+  
+  Subscribe to Google Cloud Tech → https://goo.gle/GoogleCloudTech
+  
+  #CloudRun #GoogleCloud
+  
+  Speaker: Amit Maraj
+  Products Mentioned: Cloud Run, AI Infrastructure
 tldr: |
   Implement a multi-agent AI architecture using an **orchestrator pattern** to manage complex workflows:
   - **Orchestrator as General Contractor**: Acts as the single entry point, hiding internal complexity from the front-end

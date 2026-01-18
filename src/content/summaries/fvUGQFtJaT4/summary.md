@@ -13,6 +13,29 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/fvUGQFtJaT4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=fvUGQFtJaT4"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  In this video, I look at a new announcement from Anthropic called Claude Skills, but also more generally at the concept of how frontier labs are creating standard operating procedures for agents to be able to use. 
+  
+  Blog for Claude Skills: https://www.anthropic.com/news/skills
+  Best Practices: https://docs.claude.com/en/docs/agents-and-tools/agent-skills/best-practices
+  Github: https://github.com/anthropics/skills/
+  
+  For more tutorials on using LLMs and building agents, check out my Patreon
+  Patreon: https://www.patreon.com/SamWitteveen
+  Twitter: https://x.com/Sam_Witteveen
+  
+  🕵️ Interested in building LLM Agents? Fill out the form below
+  Building LLM Agents Form: https://drp.li/dIMes
+  
+  👨‍💻Github:
+  https://github.com/samwit/llm-tutorials
+  
+  ⏱️Time Stamps:
+  00:00 Intro
+  01:07 Claude Skills
+  01:34 Core Patterns
+  02:34 Introducing Claude Skills Blog
+  10:13 Skill Authoring Best Practices
 tldr: |
   Anthropic's **Claude Skills** introduce a framework for **Standard Operating Procedures (SOPs)** within AI agents. 
   - **Modular Folders**: Use instructions and `skill.md` files to load context only when relevant.

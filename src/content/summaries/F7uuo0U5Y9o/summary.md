@@ -13,6 +13,38 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/F7uuo0U5Y9o/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=F7uuo0U5Y9o"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  🥕 Healthy Oatmeal Carrot Cake with Orange & Cream Cheese Frosting 🍊 In this video, I’m baking a wholesome and flavorful oatmeal carrot cake — no flour, just pure goodness! Packed with juicy carrots, zesty orange, and warm cinnamon, this cake is naturally sweetened and topped with a creamy citrus-infused frosting. Perfect for breakfast, dessert, or a cozy afternoon treat.
+  
+  Ingredients:
+  2 medium carrots (~200g)
+  3 tbsp yogurt or sour cream 
+  2 tbsp olive or coconut oil 
+  Orange zest 
+  Orange juice (~80ml)
+  Sweetener to taste 
+  1 tbsp raisins 
+  3 eggs
+  2 cups (200g) oat flakes 
+  1/2 tbsp ground cinnamon 
+  1 tsp baking soda 
+  A little lemon juice
+  
+  Bake in a preheated oven at 180°C (350°F) for 50 min.
+  
+  1,5 cups (350g) cream cheese ( or cottage cheese or ricotta)
+  1 tbsp yogurt or sour cream 
+  A little lemon juice 
+  1/4 tsp vanillin 
+  
+  Icing:
+  Orange juice (~100ml)
+  2 tbsp cane sugar 
+  1 tbsp almond flakes
+  
+  🎥 Watch the full video for step-by-step instructions and tips for the perfect texture. Don’t forget to like, subscribe, and share with fellow foodies!
+  
+  #Süße_Backwaren  #Recipe
 tldr: |
   Healthy Carrot Oat Cake:
   - **Grain-free alternative**: Uses 200g oat flakes ground into flour instead of wheat.

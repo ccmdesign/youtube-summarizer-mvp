@@ -11,6 +11,37 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/QzxNTewqass/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=QzxNTewqass"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Charles Duhigg (“Supercommunicators”) , on the different ways we communicate during conversations and how understanding that, can help with marketing.
+  
+  Turn visitors into leads today with HubSpot’s free marketing tools.
+  https://clickhubspot.com/u99
+  
+  
+  We’re on Social Media! Follow us for everyday marketing wisdom straight to your feed
+  📲YouTube: ​​https://www.youtube.com/channel/UCGtXqPiNV8YC0GMUzY-EUFg 
+  📲Twitter: https://twitter.com/matgpod 
+  📲TikTok: https://www.tiktok.com/@matgpod 
+  
+  📲 Join our community https://landing.connect.com/matg
+  
+  Thank you for tuning into Marketing Against The Grain!
+  
+  
+  📲Don’t forget to hit subscribe and follow us on Apple Podcasts (so you never miss an episode)! https://podcasts.apple.com/us/podcast/marketing-against-the-grain/id1616700934  
+  
+  📲If you love this show, please leave us a 5-Star Review https://link.chtbl.com/h9_sjBKH and share your favorite episodes with friends.
+  
+  We really appreciate your support.
+  
+  Host Links:
+  📲Kipp Bodnar, https://twitter.com/kippbodnar  
+  📲Kieran Flanagan, https://twitter.com/searchbrat 
+  
+  ‘Marketing Against The Grain’ is a HubSpot Original Podcast // Brought to you by The HubSpot Podcast Network // Produced by Darren Clarke.
+  
+  About the Show
+  Kipp Bodnar, HubSpot’s CMO and Kieran Flanagan Hubspot's SVP of Marketing, lead you down the rabbit hole of marketing trends, growth tactics and innovation. On the way you’ll pick up undiscovered strategies to give you that slight edge for success. These are not your typical twitter thread regurgitated marketing tactics that everyone is doing. These are new methods, with unfiltered examination of successful fresh ideas.
 tldr: |
   Effective communication requires the **Matching Principle**, ensuring all parties are engaged in the same type of conversation simultaneously. Miscommunication occurs when we offer **Practical** solutions to **Emotional** problems. 
   - **Practical**: Problem-solving and logic

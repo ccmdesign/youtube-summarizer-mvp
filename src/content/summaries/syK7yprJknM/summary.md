@@ -13,6 +13,34 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/syK7yprJknM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=syK7yprJknM"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Learn about the best AI Business models here - https://www.youtube.com/watch?v=Ta5g-OxjPO4
+  
+  Wanna learn how to code with AI? Go here: https://www.skool.com/new-society
+  
+  Follow me on Instagram - https://www.instagram.com/davidondrej1/
+  Follow me on Twitter - https://x.com/DavidOndrej1
+  
+  Host your n8n agents on Hostinger: https://www.hostinger.com/david
+  
+  Subscribe if you're serious about AI.
+  
+  Build anything with Open Code, just watch
+  
+  timestamps:
+  00:00:00 - Introduction
+  00:00:33 - Setting up OpenCode
+  00:02:47 - Comparing OpenCode and Claud Code
+  00:04:47 - OpenCode's Response to Claud Code Block
+  00:05:58 - Building a CRM Dashboard with OpenCode
+  00:09:48 - Understanding OpenCode
+  00:12:18 - Building a Web-based Drawing and Design Editor
+  00:21:05 - OpenCode's CLI Experience
+  00:22:25 - Building an Encrypted and Private File Manager
+  00:34:31 - Understanding the Encryption Process
+  00:38:23 - Exploring OpenCode's Versatility
+  00:41:09 - Starting a New Build
+  00:49:01 - Understanding OpenCode's Modes: Plan and Build
 tldr: |
   David Ondrej presents **OpenCode**, an open-source AI coding agent designed to replace Claude Code by offering superior flexibility and privacy. 
   - **Multi-Model Integration**: Connects to 70+ models including **Claude Opus 4.5**, **GPT-5.2 Codex**, and **Gemini 3 Pro**.

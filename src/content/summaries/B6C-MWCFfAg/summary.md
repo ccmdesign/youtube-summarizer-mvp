@@ -13,6 +13,20 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/B6C-MWCFfAg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=B6C-MWCFfAg"
 modelUsed: "gemini-2.5-flash"
+description: |
+  There's a reason everyone's moving from Firebase, Supabase, and all the other dbs, straight to Convex
+  
+  Thank you Tuple for sponsoring! Check them out at: https://soydev.link/tuple
+  
+  SOURCES
+  https://x.com/steipete/status/2008417546677219828
+  https://www.youtube.com/watch?v=h6ffyfabfa8
+  
+  Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
+  
+  Check out my Twitch, Twitter, Discord more at https://t3.gg
+  
+  S/O Ph4se0n3 for the awesome edit 🙏
 tldr: |
   Theo argues developers should switch to **Convex** from traditional databases like **Superbase** due to its superior developer experience, especially for AI-assisted app building. Convex offers generous free tiers, a code-first approach with full TypeScript type safety, automatic real-time sync, and powerful components, simplifying complex backend tasks and improving productivity.
 # Video Taxonomy

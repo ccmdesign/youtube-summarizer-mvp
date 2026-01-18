@@ -11,6 +11,37 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/MsJzacfjzp8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=MsJzacfjzp8"
 modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
+description: |
+  Codex just got Agent Skills support—and the best part? Your existing Claude skills work out of the box. OpenAI adopted Anthropic's open Agent Skills spec, making skills portable with zero config changes.
+  
+  In this video, I walk through how to install skills in Codex using the built-in `$skill-installer`, how to transfer existing Claude skills, and demonstrate a real Claude skill running in Codex that self-corrects when it hits environment differences.
+  
+  **What You'll Learn:**
+  • How to update Codex and access skills (`/skills` command)
+  • Installing skills from GitHub with `$skill-installer`
+  • Transferring Claude skills to Codex 
+  • Why skills are more portable than MCP configs
+  
+  ⏱️ **TIMESTAMPS**
+  0:00 – Codex Gets Agent Skills
+  0:20 – What Are Skills? (Quick Recap)
+  1:22 – Skill Structure Overview
+  2:23 – OpenAI's Available Skills
+  2:41 – Installing My Skill Evaluator from GitHub
+  4:01 – Transferring Existing Claude Skills
+  4:27 – Creating .codex/skills/ Folder
+  4:48 – Both Tools, Same Skill
+  5:40 – Running the Evaluator Skill
+  6:12 – Final Thoughts: Open Standards Win
+  
+  🔗 **RESOURCES**
+  Codex Skills Documentation: https://developers.openai.com/codex/skills/
+  Agent Skills Spec: https://agentskills.io/specification
+  My Skill Evaluator (GitHub): https://github.com/JeredBlu/eval-marketplace
+  Book a call with me → https://yedatechs.com/#container06
+  Sponsorship inquiries → hi@yedatechs.com
+  
+  #Codex #AgentSkills #ClaudeCode #OpenAI #Anthropic #AITools #DeveloperProductivity
 tldr: |
   OpenAI added **agent skills** support to Codex using the open agent skills standard, enabling easy installation of reusable workflows via CLI/extensions to reduce context bloat through **progressive disclosure**.
 # Video Taxonomy

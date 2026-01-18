@@ -11,6 +11,17 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/w9xkk58hT3E/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=w9xkk58hT3E"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  The AI race centers on the battle for personal context. Google Gemini's Personal Intelligence links Gmail, Photos, Search and YouTube to deliver tailored, privacy‑focused recommendations via opt‑in connectors. Anthropic's Claude Cowork and Claude Code surface desktop context and connectors while OpenAI, Apple and additional companies build memory, app ecosystems, hardware and health connectors as competing strategies.
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   The battle for **personal context** is the primary driver of current AI development, as companies race to turn user data into a competitive moat.
   - **Google Gemini** now integrates directly with Gmail, Photos, and YouTube via its 'personal intelligence' upgrade.

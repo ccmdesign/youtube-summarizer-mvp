@@ -13,6 +13,35 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/be-hvAgT2Ac/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=be-hvAgT2Ac"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Apple chooses Google AI in a multiyear deal that highlights the cost advantage of Google’s tensor processing unit chips and Apple’s need to improve AI offerings. Dan Ives, managing director and senior equity analyst at Wedbush, discusses the deal with Caroline Hyde and Ed Ludlow on "Bloomberg Tech."
+  --------
+  Like this video? Subscribe to Bloomberg Technology on YouTube:
+  https://www.youtube.com/channel/UCrM7B7SL_g1edFOnmj-SDKg
+   
+  Watch the latest full episodes of "Bloomberg Technology" with Caroline Hyde and Ed Ludlow here:
+  https://www.youtube.com/playlist?list=PLfAX25ZLrPGTygCwn55voYZ_LYyKjxokJ
+   
+  Get the latest in tech from Silicon Valley and around the world here:
+  https://www.bloomberg.com/technology
+  Connect with us on...
+  X: https://twitter.com/technology
+  Facebook: https://www.facebook.com/BloombergTechnology
+  Instagram: https://www.instagram.com/bloombergbusiness/
+   
+  Follow Ed Ludlow on X here: https://twitter.com/EdLudlow
+  Follow Caroline Hyde on X here: https://twitter.com/CarolineHydeTV
+   
+  Listen to the daily Bloomberg Technology podcast here:
+  https://www.bloomberg.com/podcasts/series/bloomberg-technology
+   
+  More from Bloomberg Business
+  Connect with us on...
+  X: https://twitter.com/business
+  Facebook: https://www.facebook.com/bloombergbusiness
+  Instagram: https://www.instagram.com/bloombergbusiness/
+  LinkedIn: https://www.linkedin.com/company/bloomberg-news/
+  TikTok: https://www.tiktok.com/@bloombergbusiness
 tldr: |
   Apple’s partnership with **Google Gemini** marks a strategic shift to revitalize **Siri** and monetize its 2.4B device install base.
   - **Google Gemini** will underpin Siri's advanced functionality

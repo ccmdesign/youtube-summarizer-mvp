@@ -11,6 +11,20 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/6iyhM6_7I6g/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=6iyhM6_7I6g"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  All About AI In 2026 - What Now?
+  
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+  
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+  
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+  
+  Business Inquiries:
+  kbfseo@gmail.com
 tldr: "The AI landscape has shifted from \"chatting\" to \"orchestrating,\" where the primary skill is no longer prompt engineering but managing autonomous agents within integrated, personalized workflows."
 ---
 

@@ -13,6 +13,15 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/Tlncshs047Y/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Tlncshs047Y"
 modelUsed: "gemini-2.5-flash"
+description: |
+  At our latest Modular community meetup, CEO and Co-Founder Chris Lattner shares Modular’s vision for the future of AI infrastructure and dives into the MAX Framework. As AI workloads grow more complex and hardware more diverse, MAX is designed to break down barriers, bringing together modeling, performance, and portability in a single, open framework built for the modern era. This session explores why Modular is rethinking the AI stack from first principles and how MAX aims to democratize access to high-performance compute for developers everywhere.
+  
+  Join our community 🤝:
+  Forum - https://forum.modular.com/
+  GitHub - https://github.com/modular
+  X (aka Twitter) - https://x.com/modular
+  LinkedIn -  https://www.linkedin.com/company/modular-ai/
+  Reddit - https://www.reddit.com/r/ModularAI/
 tldr: |
   Modular (re)introduces **MAX**, a new GenAI-native AI modeling and serving framework designed to democratize AI compute.
   - **Built from first principles** to unify performance (graphs), ease of use (eager mode), and portability (Mojo) across diverse hardware.

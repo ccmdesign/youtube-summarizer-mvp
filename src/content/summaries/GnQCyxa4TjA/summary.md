@@ -13,6 +13,30 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/GnQCyxa4TjA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=GnQCyxa4TjA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Meta and Harvard just released an open-source coding agent called Confucius Code Agent, built on top of the Confucius SDK, and it proves a scary point: the agent scaffold can matter more than the model itself. Then Abu Dhabi’s TII drops Falcon H1R-7B, a tiny 7B reasoning model with a massive 256K context window that starts outperforming models way bigger than it. And then DeepSeek quietly updates the R1 paper with sixty extra pages of training details like it’s some kind of technical data dump… which has everyone thinking the next release is close.
+  
+  📩 Brand Deals & Partnerships: collabs@nouralabs.com
+  ✉ General Inquiries: airevolutionofficial@gmail.com
+  
+  🧠 What You’ll See
+  0:00 Intro
+  0:34 Meta + Harvard’s Confucius Code Agent and why it matters
+  0:57 The Confucius SDK “scaffold” idea that changes how agents are built
+  2:20 Hierarchical working memory that stops agents from looping and forgetting
+  4:04 Persistent note-taking that builds long-term repo knowledge
+  4:53 Tool extensions with state and recovery logic for real dev workflows
+  6:52 The meta-agent that designs and tunes agents automatically
+  8:00 Falcon H1R-7B’s hybrid Transformer + Mamba2 reasoning architecture
+  9:06 A full 256K context window running in vLLM
+  9:55 Long-form supervised reasoning plus RL training using GRPO
+  11:30 DeepSeek’s expanded R1 training pipeline with Dev1 Dev2 Dev3 checkpoints
+  13:27 Why the 86-page R1 update feels like a prelude to the next model drop
+  
+  🚨 Why It Matters
+  This video shows the real shift happening right now: AI progress is moving from “who has the biggest model” to “who has the best system.” Memory architecture, tool discipline, scaffolding, long-horizon stability, and agent design loops are becoming the new battleground.
+  
+  #AI #DeepSeek #Meta #Claude
 tldr: |
   The shift from model-centric to system-centric AI is accelerating:
   - **Confucius SDK** proves that agent scaffolding (memory/note-taking) allows Claude 4.5 Sonnet to outperform Opus

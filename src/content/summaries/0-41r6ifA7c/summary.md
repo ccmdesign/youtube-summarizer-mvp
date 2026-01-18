@@ -11,6 +11,23 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/0-41r6ifA7c/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=0-41r6ifA7c"
 modelUsed: "openrouter/google/gemini-2.0-flash-exp:free"
+description: |
+  Today's episode goes deep into all of the design details in a new video collaboration tool called Flask (https://flask.do/) .
+  
+  But the reason I’m so inspired by this product goes far beyond the UI/UX…
+  
+  Flask is designed and built by one person— Enrico Tartarotti (https://x.com/EnriTarta) —who was a PM before this so his journey is the perfect example of what it looks like to thrive as a generalist builder.
+  
+  So this episode tells the story of what it took to build a well-crafted product and all of the lessons that he learned along the way.
+  
+  Enrico references the Mom Test (https://www.momtestbook.com/) for user research and the episode with the Supercut Founders (https://www.dive.club/deep-dives/supercut) .
+  
+  Dive is where the best designers never stop learning 🤿
+  
+  🌐 dive.club
+  🐦 twitter.com/joindiveclub
+  
+  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
 tldr: |
   Enrico Tartarotti, a solo builder with a PM background, shares how he designed and built Flask, a video collaboration tool, by leveraging AI, prioritizing user feedback, and strategically systematizing design elements while focusing on core functionality and rapid iteration.
 # Video Taxonomy

@@ -11,6 +11,10 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/1wgN9FtBC3g/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=1wgN9FtBC3g"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  How to Build an Autonomous AI Content Agent (Jasper + Veo-API Blueprint) Description: Stop making low-effort AI videos. In 2026, the algorithm flags "bot" content. To win, you need a system that iterates based on real-time data.
+  
+  I’m breaking down Part 2 of my 24-Hour AI Challenge, focusing on the "Creator Agent." This isn’t just about generating scripts—it’s about building a closed-loop system where data goes in and viral video comes out.
 tldr: "Build authority by replacing basic prompting with integrated technical systems that combine proprietary data, multi-step workflows, and expert logic to produce unique, high-value output."
 ---
 

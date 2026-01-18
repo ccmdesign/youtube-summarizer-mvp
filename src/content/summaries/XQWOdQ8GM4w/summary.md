@@ -13,6 +13,23 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/XQWOdQ8GM4w/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=XQWOdQ8GM4w"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  FREE Skool Community (Get free guidance from over 100 software engineers): https://www.skool.com/the-agentic-lab-6743/about?ref=6be3bb2df7b744df8202baebef624812
+  
+  One of the members in my community, Mika did a 40 page writeup on using ACE for the purposes mentioned in this video. Come say hi in the community and read his post!
+  
+  Reference Paper: https://arxiv.org/pdf/2510.04618
+  
+  
+  
+  
+  
+  
+  
+  
+  Your CLAUDE.md file might be the reason your AI coding agent is getting worse over time. In this video, I break down agentic context engineering — a concept from a recent Stanford paper — and explain why it's a smarter alternative to bloating your config files with instructions.
+  Most developers keep adding rules and preferences to their CLAUDE.md, thinking more context = better results. But this actually poisons your agent's performance. I'll show you how agentic context engineering uses a RAG-like retrieval system to dynamically pull relevant context instead of stuffing everything into one file. Think of it as fine-tuning without the fine-tuning.
+  If you've noticed your Claude Code agent forgetting things, contradicting itself, or just feeling "dumber" than when you started — this is probably why.
 tldr: |
   Prevent **context rot** by moving away from overstuffed `claude.md` files. Instead of naive summarization, which leads to **context collapse**, use **Agentic Context Engineering (ACE)**:
   - Maintain a **lean global config** (3-5 lines) for permanent truths.

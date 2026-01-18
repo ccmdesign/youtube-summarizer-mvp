@@ -11,6 +11,30 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/9hL2kBDmDE0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=9hL2kBDmDE0"
 modelUsed: "gemini-2.5-flash"
+description: |
+  What if I told you that an image uses 20 times less memory than the text inside it? DeepSeek has just released a paper that fundamentally breaks the rules of how we process documents in Large Language Models.
+  The "Context Window Tax" is the enemy of every developer building RAG pipelines or Agents. Text is expensive, and traditional OCR destroys valuable data like charts and layouts. DeepSeek-OCR proposes a radical solution: Contexts Optical Compression.
+  In this video, we break down:
+  Why raw text strings are inefficient for LLMs.
+  The DeepEncoder architecture (the visual "funnel").
+  Deep Parsing: How to turn bar charts and chemical formulas directly into code.
+  The Blueprint: How to implement "Gundam Mode" and optimize your chat history today.
+  
+  📋 Timestamps:
+  0:00 The Context Window Tax
+  0:49 The Insight: Vision vs Text
+  01:01 The Old Ways: OCR and VLM
+  01:53 Optical Compression Explained
+  02:38 DeepEncoder Architecture - The Funnel
+  03:35 Deep Parsing: Structure to Code
+  04:17 Benchmarks: DeepSeek vs MinerU
+  04:53 The Blueprint: Implementation Guide
+  
+  🔗 Links:
+  Paper: https://arxiv.org/abs/2510.18234
+  Repo: github.com/deepseek-ai/DeepSeek-OCR
+  
+  #DeepSeek #Gemini3 #GPT5 #LLM #ArtificialIntelligence #MachineLearning #OCR #RAG #Coding #SoftwareArchitecture
 tldr: |
   DeepSeek OCR introduces **context optical compression**, allowing 1,000 text tokens to be represented by just 64-100 vision tokens with 96% accuracy. This enables a **20x compression ratio**, making images drastically cheaper and more efficient than text for long contexts in LLMs and facilitating **deep parsing** of visual data into structured code.
 # Video Taxonomy

@@ -11,6 +11,17 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/19NE_to9I-8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=19NE_to9I-8"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung and Amazon announced chips, device integrations and ambient-assistant initiatives demonstrating a race for infrastructure, consumer devices and everyday AI experiences.
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   CES 2026 marks a shift from gimmicky gadgets to market-defining infrastructure and products.
   - Nvidia’s **Vera Rubin** chips promise a 90% drop in token costs and 5x faster inference.

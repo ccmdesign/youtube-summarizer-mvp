@@ -13,6 +13,24 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/FIH6dRN22Pg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=FIH6dRN22Pg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Turn a can of chickpeas into the most delicious chocolate truffles. You just need 4 healthy whole food ingredients for our super easy recipe. Loaded with over 40 grams of all natural, plant-based protein without any protein powder. These super tasty chocolate truffles happen to be super healthy snacks - SOOO GOOD!
+  .
+  👨‍🍳 Healthy Truffles Recipe Ingredients
+  1 (15oz) can chickpeas (or 1 ½ cups cooked chickpeas) (250 g)
+  ¼ cup (30 g) cocoa powder
+  6 Medjool dates, pitted (soft and big)
+  2 tablespoons (30 ml) peanut butter
+  80 g dairy-free (sugar-free) dark chocolate
+  .
+  Protein Content Total: 40.46 g plant-based protein
+  1 (15oz) can chickpeas, drained = 17.8 g protein
+  30 g cocoa powder = 6 g protein
+  6 Medjool dates (120 g) = 2.16 g protein
+  30 g peanut butter = 7.3 g protein
+  80 g dark chocolate = 7.2 g protein
+  .
+  #truffles #chocolate #chickpeas
 tldr: |
   High-protein vegan chocolate truffles:
   - **40g protein** recipe using a **chickpea** and **medjool date** base

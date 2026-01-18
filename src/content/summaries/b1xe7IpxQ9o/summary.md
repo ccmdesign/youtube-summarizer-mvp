@@ -13,6 +13,11 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/b1xe7IpxQ9o/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=b1xe7IpxQ9o"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  A new improvement in Claude Code v2.1.7: Tool Search for MCPs.
+  
+  Original tweet: https://x.com/trq212/status/2011523109871108570
+  More AI Coding news and experiments: https://aicodingdaily.com
 tldr: |
   Claude Code 2.1.7 introduces **automatic MCP tool search** to prevent 'context pollution.' When tool descriptions exceed **10% of the context window**, Claude now searches for tools on-demand rather than loading all descriptions upfront. This reduces hallucinations and token waste, especially when using heavy servers like **Playwright** or **GitHub**.
 # Video Taxonomy

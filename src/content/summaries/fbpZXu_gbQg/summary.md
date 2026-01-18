@@ -11,6 +11,24 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/fbpZXu_gbQg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=fbpZXu_gbQg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  My site: https://natebjones.com
+  Full Story: https://natesnewsletter.substack.com/p/i-tested-5-ais-on-black-friday-shopping?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+  My substack: https://natesnewsletter.substack.com/
+  _______________________
+  What’s really happening inside AI-powered deal hunting on Black Friday?
+  The common story is that any large language model can find bargains — but the reality is more complicated.
+  
+  In this video, I share the inside scoop on which AIs actually surface the best deals:
+  • Why intent clarity determines whether LLMs deliver real value
+  • How browsers and models differ in economic search behavior
+  • What ChatGPT 5.1 got right that Claude and Gemini missed
+  • Where prompt engineering shifts the gap between agents and models
+  
+  When the stakes are finding real savings, operators need to know which AI tools are actually reliable.
+  
+  Subscribe for daily AI strategy and news.
+  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
 tldr: |
   Testing AI models (ChatGPT 5.1, Claude 4.5, Gemini 3) against smart browsers (Atlas, Comet) reveals that specific intent is the deciding factor in finding deals.
   - Smart browsers leverage on-page context while LLMs rely on reasoning via web tools.

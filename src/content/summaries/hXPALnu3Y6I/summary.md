@@ -13,6 +13,30 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/hXPALnu3Y6I/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=hXPALnu3Y6I"
 modelUsed: "gemini-2.5-flash"
+description: |
+  If you're still using 2024 marketing tactics, you're already falling behind. Search is fragmenting across Instagram, YouTube, TikTok, ChatGPT, and even browsers. AI is reshaping discovery, targeting, and the entire customer journey. And in this video, I break down the 8 digital marketing trends that will define 2026—so you can stop reacting and start leading. Whether you're a marketer, CEO, founder, or content creator, these shifts will determine who gets visibility… and who disappears. 
+  
+  What You’ll Learn (Key Takeaways)
+  - Why sending traffic off-platform is killing your reach—and how to fix it
+  - How “Search Everywhere Optimization” will replace Google-only SEO
+  - The rise of AI slop and why hallucinations are silently destroying marketing teams
+  - How ChatGPT, Perplexity & Gemini are becoming full discovery engines
+  - Why digital PR is the new SEO—and how to build authority for AI ranking systems
+  
+  CHAPTERS (Timestamps)
+  
+  00:27 — Trend #1: Stop Sending Traffic Off-Platform
+  02:00 — Trend #2: Search Moves Beyond Google (“Search Everywhere Optimization”)
+  04:05 — Trend #3: The AI Slop Problem & Why Teams Are Slower, Not Faster
+  05:58 — How Top Performers Actually Use AI (Not the Way You Think)
+  07:20 — Trend #4: AI Tools Are Becoming Discovery Engines
+  09:14 — Why Digital PR Is Now the #1 SEO Advantage
+  11:45 — Trend #5: ChatGPT Ads Will Behave Like Facebook + Google Combined
+  13:00 — Trend #6: Browsers Are Becoming AI Platforms
+  14:45 — Trend #7: Live Content Is Becoming a Competitive Advantage
+  15:20 — Trend #8: Multi-Language Audio = Global Distribution
+  
+  Ready to grow your brand and business? Visit http://npdigital.com and let my team implement these strategies for you.
 tldr: |
   2026 marketing shifts: **Capture leads on-platform** via DMs. Optimize for **search everywhere** (Instagram, TikTok, AI). Use AI for **first drafts & validation** to avoid 'AI slop'. Prepare for **AI ads** (identity-based) and **AI browsers**. Leverage **live content** and **auto-dubbing** for global reach.
 # Video Taxonomy

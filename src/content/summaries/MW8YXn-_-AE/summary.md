@@ -13,6 +13,61 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/MW8YXn-_-AE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=MW8YXn-_-AE"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Deploy powerful, secure AI agents today with StackAI: https://bit.ly/4lkbvir
+  
+  Download Humanities Last Prompt Engineering Guide (free) 👇🏼
+  https://bit.ly/4kFhajz
+  
+  Download The Matthew Berman Vibe Coding Playbook (free) 👇🏼
+  https://bit.ly/3I2J0YQ
+  
+  Join My Newsletter for Regular AI Updates 👇🏼
+  https://forwardfuture.ai
+  
+  Discover The Best AI Tools👇🏼
+  https://tools.forwardfuture.ai
+  
+  My Links 🔗
+  👉🏻 X: https://x.com/matthewberman
+  👉🏻 Forward Future X: https://x.com/forward_future_
+  👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+  👉🏻 Discord: https://discord.gg/xxysSXBxFW
+  👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+  
+  Media/Sponsorship Inquiries ✅ 
+  https://bit.ly/44TC45V
+  
+  Timestamps:
+  0:00 GPT-6 in 2025
+  0:50 NVIDIA DGX-1
+  2:30 Claude Skills
+  4:26 Sponsor
+  5:25 ChatGPT in the Army
+  6:57 Sign in with ChatGPT
+  8:42 Waymo DDOS
+  9:36 Veo 3.1
+  10:45 Sora 2 update
+  11:06 AI discovering science
+  11:57 Futuristic Military
+  13:06 Datacenters in space
+  14:18 Claude Code Visual
+  14:43 Defining AGI
+  
+  Links:
+  https://www.youtube.com/watch?v=VXVf91RIDX4&t=425s
+  https://x.com/nvidia/status/1978911318842171859
+  https://x.com/alexalbert__/status/1978877498411880550
+  https://x.com/Polymarket/status/1978908761486938512
+  https://x.com/steph_palazzolo/status/1978835849379725350
+  https://x.com/rtwlz/status/1977443969115029847
+  https://blog.google/technology/ai/veo-updates-flow/
+  https://x.com/OpenAI/status/1978661828419822066
+  https://x.com/sundarpichai/status/1978507110477332582?s=46
+  https://x.com/anduriltech/status/1978860623862571113
+  https://x.com/vitrupo/status/1979168223024091473
+  https://x.com/dani_avila7/status/1978510902740877344
+  https://x.com/DanHendrycks/status/1978828377269117007
 tldr: |
   - GPT-6 rumors suggest a late 2025 launch, while NVIDIA’s new DGX Spark delivers 5x the power of its predecessor in a compact form factor.
   - Anthropic's Claude Skills allows users to package specialized knowledge into reusable files that load on-demand.

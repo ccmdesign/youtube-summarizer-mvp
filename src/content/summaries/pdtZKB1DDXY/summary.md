@@ -11,6 +11,19 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/pdtZKB1DDXY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pdtZKB1DDXY"
 modelUsed: "openrouter/google/gemini-2.0-flash-exp:free"
+description: |
+  NVIDIA just changed the game for AI Agents. 🤯
+  
+  Their new paper, ToolOrchestra, proves you don't need a trillion-parameter model for every step of your workflow. By training a small 8B model with Reinforcement Learning (specifically Group Relative Policy Optimization), they beat GPT-5 on complex reasoning tasks while slashing costs by over 70%. 📉
+  
+  In this video, I break down the architecture that kills the "Monolith":
+  🚫 The Bias Problem: Why simple prompt-based routers fail.
+  🧠 The Orchestration Paradigm: How to treat GPT-5 as just another tool.
+  🛠️ GRPO Explained: Training a model to care about your budget.
+  🚀 The Blueprint: How to start building virtualized intelligence today.
+  
+  Stop burning money on massive models. It's time to orchestrate. 👇
+  #NVIDIA #AI #LLM #MachineLearning #AgenticAI #Engineering
 tldr: |
   Nvidia's Tool Orchestrator uses an 8B parameter model trained with reinforcement learning (Group Relative Policy Optimization) to manage larger models (like GPT-5) as tools, achieving superior performance and 2.5x cost efficiency by intelligently routing tasks.
 # Video Taxonomy

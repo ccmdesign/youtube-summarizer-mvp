@@ -13,6 +13,19 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/SpqqWaDZ3ys/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=SpqqWaDZ3ys"
 modelUsed: "gemini-2.5-flash"
+description: |
+  In this video, we dive into Anthropic's newly launched Cowork, a user-friendly extension of Claude Code designed to streamline work for both developers and non-developers. This discussion includes an analysis of the blog post announcement, a review of the product's features, benefits, and potential limitations, and a hands-on demonstration of how Cowork can simplify tasks such as creating presentations and organizing files. We also explore how to leverage Cowork's ability to run tasks autonomously and in parallel, and discuss the importance of developing skills to optimize its use. Join us for an in-depth look at how Cowork can fit into your workflow.
+  
+  00:00 Introduction to Cowork by Anthropic
+  00:29 Overview of Cowork Features
+  00:51 Using Cowork for Non-Code Tasks
+  01:17 Cowork Availability and Development
+  01:39 How Cowork Operates
+  03:46 Creating a Presentation with Cowork
+  06:52 Exploring Additional Cowork Features
+  08:20 Parallel Task Management with Cowork
+  09:37 Leveraging Skills and Feedback in Cowork
+  11:10 Conclusion and Final Thoughts
 tldr: |
   Anthropic's new **Co-work** is a user-friendly wrapper for **Claude Code**, making autonomous AI agents accessible to non-developers. It enables users to:
   - **Delegate complex tasks** like creating presentations or organizing files

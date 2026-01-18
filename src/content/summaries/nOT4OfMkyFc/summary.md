@@ -13,6 +13,32 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/nOT4OfMkyFc/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=nOT4OfMkyFc"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  🍫 Oatmeal Brownie Cake — Flourless, Moist & Chocolatey! This healthy twist on a classic brownie is made with rolled oats, banana, apple, dried fruits, and walnuts, then topped with a rich homemade chocolate glaze. Soft, tender, and full of natural sweetness — the perfect guilt-free dessert!
+  
+  Ingredients:
+  1 cup (100g) rolled oats.
+  3 tbsp cocoa powder.
+  3/4 cup (180 ml) hot milk.
+  2 eggs.
+  Sweetener to taste.
+  Banana.
+  Raisins.
+  Prunes.
+  1 tsp baking soda.
+  
+  1 tbsp coconut oil.
+  Apple.
+  Walnuts.
+  
+  1/3 cup (80ml) milk.
+  2 tbsp cocoa powder.
+  1/2 tbsp coconut oil.
+  
+  
+  💬 Like, comment, and subscribe for more healthy baking ideas!
+  
+  #Süße_Backwaren  #Recipe #brownie #oatmealcake #flourless #healthydessert #chocolaterecipe #easybaking
 tldr: |
   Create a flourless, sugar-free chocolate cake using rolled oats, banana, and apple slices prepared directly in a frying pan.
   - Soak 100g ground oats in 180ml hot milk for 15 minutes.

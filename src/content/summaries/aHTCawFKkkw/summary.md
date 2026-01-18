@@ -11,6 +11,25 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/aHTCawFKkkw/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=aHTCawFKkkw"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Create an HTTP Server from Scratch?  Learn everything from Git?  Checkout https://boot.dev/prime for all your backend education!  I made those 3 courses, and thinking about making more!
+  
+  https://twitch.tv/ThePrimeagen - I Stream on Twitch
+  
+  https://twitter.com/terminaldotshop - Want to order coffee over SSH?
+  ssh terminal.shop
+  
+  ## SOURCES
+  https://x.com/GyenAbubakar/status/2004949978851197046
+  https://x.com/gothburz/status/2004661533339463871?s=20
+  https://github.com/Neo23x0/mongobleed-detector
+  https://www.ox.security/blog/attackers-could-exploit-zlib-to-exfiltrate-data-cve-2025-14847/
+  https://doublepulsar.com/merry-christmas-day-have-a-mongodb-security-incident-9537f54289eb
+  https://github.com/joe-desimone/mongobleed
+  
+  Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
+  
+  Kinesis Advantage 360: https://bit.ly/Prime-Kinesis
 tldr: |
   The **Mongoled** vulnerability (CVE-2025-14847) is a critical 8.7-rated memory leakage flaw affecting MongoDB versions as far back as 3.6 (2017).
   - It exploits **BSON** compression handling to exfiltrate residual server memory, including environment variables and sensitive database content.

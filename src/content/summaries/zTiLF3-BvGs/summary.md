@@ -11,6 +11,30 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/zTiLF3-BvGs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=zTiLF3-BvGs"
 modelUsed: "gemini-2.5-flash"
+description: |
+  GitHub Spec Kit got the next round of updates, and now makes it even easier to corral LLMs to get things done the right way. Commands are better structured, checklists are now there to help you ensure that the right spec details are included, and if you're using Visual Studio Code, the experience just shines there.
+  
+  😺 GitHub repo: https://github.com/github/spec-kit
+  ✍️ Blog post: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
+  📚 Additional details: https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit
+  
+  Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
+  
+  GitHub Copilot CLI: https://github.com/github/copilot-cli
+  
+  For more videos:
+  
+  📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
+  📽️ Overview of Spec Kit: https://youtu.be/a9eR1xsfvHg
+  📽️ Building a MCP registry tracker with Spec Kit: https://youtu.be/pBJYq3BE7tc
+  📽️ Improvements in GitHub Spec Kit: https://youtu.be/Wg-29qf8zR4
+  📽️ GitHub Spec Kit supporting all major agents: https://youtu.be/1HnTGc7tHE4
+  📽️ Analyzing and clarifying with Spec Kit: https://youtu.be/YD66SBpJY2M
+  📽️ Using GitHub Spec Kit for existing projects: https://youtu.be/SGHIQTsPzuY
+  📽️ Using GitHub Spec Kit with GitHub Copilot CLI: https://youtu.be/7tjmA_0pl2c
+  📽️ Answering your Spec Kit questions: https://youtu.be/OFow2aTnqB8
+  
+  #engineering #github #speckit #opensource #technology
 tldr: |
   GitHub Spec Kit introduces significant updates to enhance AI-assisted development: - **CLI init** now supports `.` for in-folder bootstrapping. - **Commands are prefixed** with `specit.` for better clarity and discoverability in VS Code. - **Helper scripts are auto-approved** in Copilot/VS Code to streamline workflow. - New **checklists** (`/checklist [domain]`) help mitigate underspecification by
 # Video Taxonomy

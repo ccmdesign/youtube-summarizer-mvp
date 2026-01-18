@@ -11,6 +11,24 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/U_9GWSjooF0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=U_9GWSjooF0"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  My site: https://natebjones.com
+  Full Story w/ Prompt: https://natesnewsletter.substack.com/p/no-one-wrote-a-pro-grade-control?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+  My substack: https://natesnewsletter.substack.com/
+  _______________________
+  What's really happening with prompt engineering for AI image generation? The common story is that natural language prompts are enough — but the reality is more complicated.
+  
+  In this video, I share the inside scoop on using JSON schemas to unlock precision with NanoBanana Pro:
+  
+  - Why JSON prompting works for high-stakes visual outputs
+  - How structured schemas give you compositional control over scenes
+  - What makes NanoBanana Pro a renderer instead of a vibes machine
+  - Where JSON turns image generation into a reproducible, testable tool
+  
+  For builders and operators, learning to read pseudocode and structured inputs is becoming one of the most valuable skills for working effectively with LLMs.
+  
+  Subscribe for daily AI strategy and news.
+  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
 tldr: |
   Nate B Jones demonstrates a high-fidelity creative UI workflow using just 8 tokens:
   - **JSON Schema generation** acts as a structured blueprint for complex AI designs

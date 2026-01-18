@@ -13,6 +13,33 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/CRRjFHytZ6Y/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=CRRjFHytZ6Y"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Check out the Dell Pro Max Workstation with the NVIDIA RTX PRO! https://bit.ly/dell-ai-factory-with-nvidia
+  
+  Download One Hundred Ways to Use AI Guide 👇🏼
+  http://bit.ly/3WLNzdV
+  
+  Download Humanities Last Prompt Engineering Guide (free) 👇🏼
+  https://bit.ly/4kFhajz
+  
+  Join My Newsletter for Regular AI Updates 👇🏼
+  https://forwardfuture.ai
+  
+  Discover The Best AI Tools👇🏼
+  https://tools.forwardfuture.ai
+  
+  My Links 🔗
+  👉🏻 X: https://x.com/matthewberman
+  👉🏻 Forward Future X: https://x.com/forward_future_
+  👉🏻 Instagram: https://www.instagram.com/matthewberman_ai
+  👉🏻 Discord: https://discord.gg/xxysSXBxFW
+  👉🏻 TikTok: https://www.tiktok.com/@matthewberman_ai
+  
+  Media/Sponsorship Inquiries ✅ 
+  https://bit.ly/44TC45V
+  
+  Links:
+  https://x.com/karpathy/status/1979644538185752935
 tldr: |
   Andrej Karpathy defines 2025–2035 as the **Decade of Agents**, placing AGI 10+ years away.
   - **Learning Paradigms:** He favors **System Prompt Learning** and a **Cognitive Core** (small, reasoning-focused models) over current high-compute **Reinforcement Learning** (RL).

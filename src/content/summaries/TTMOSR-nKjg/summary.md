@@ -11,6 +11,33 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/TTMOSR-nKjg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=TTMOSR-nKjg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  My site: https://natebjones.com
+  Full Story w/ Prompt: https://natesnewsletter.substack.com/p/ai-news-that-matters-for-builders?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+  _______________________
+  What's really happening in AI infrastructure as we enter 2026? The common story is it's just about faster chips — but the reality is more complicated.
+  
+  In this video, I share the inside scoop on 10 AI stories shaping how we build in 2026:
+  - Why NVIDIA's Vera Rubin platform defines the AI factory future
+  - How power constraints became the real compute bottleneck
+  - What Meta's $2B Manus acquisition means for AI agents
+  - Where MCP joining Linux Foundation enables enterprise AI adoption
+  
+  Chapters:
+  00:00 - Introduction: 10 AI Stories That Matter for 2026 
+  00:27 - Story 1: NVIDIA's Vera Rubin Platform at CES 
+  01:37 - Story 2: Meta Acquires Manus for $2B 
+  02:20 - Story 3: AMD's CES Counterpunch and Enterprise Play 
+  04:11 - Story 4: Microsoft Partners with MISO on Grid Modernization 
+  05:55 - Story 5: The Bring Your Own Power Fight 
+  08:05 - Story 6: MCP Joins the Linux Foundation 
+  09:10 - Story 7: Google Launches Managed MCP Servers 
+  10:42 - Story 8: OpenAI Says Prompt Injection Not Solvable 
+  12:20 - Story 9: Cursor Acquires Graphite for Code Review
+  
+  The winners in 2026 won't be who generates code fastest — they'll be who makes AI infrastructure boring, reliable, and governable as power grids, prompt injection battles, and agent security become permanent strategic dependencies.
+  
+  Subscribe for daily AI strategy and news. For deeper playbooks and analysis: https://natesnewsletter.substack.com/
 tldr: |
   - Nvidia is shifting from a chipmaker to a platform company with the Vera Rubin architecture, targeting 10M token context windows.
   - Power constraints have made grid partnerships and “Bring Your Own Power” mandates a strategic priority for scaling.

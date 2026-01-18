@@ -13,6 +13,30 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/rMADSuus6jg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=rMADSuus6jg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  In this video we will look at file search exploration as a potential replacement to RAG. This is built on top of the the fs-explorer from llamaIndex. 
+  
+  LINK to the Repo: https://github.com/PromtEngineer/agentic-file-search
+  
+  My voice to text App: whryte.com
+  Website: https://engineerprompt.ai/
+  RAG Beyond Basics Course:
+  https://prompt-s-site.thinkific.com/courses/rag
+  Signup for Newsletter, localgpt:
+  https://tally.so/r/3y9bb0
+  
+  Let's Connect: 
+  🦾 Discord: https://discord.com/invite/t4eYQRUcXB
+  ☕ Buy me a Coffee: https://ko-fi.com/promptengineering
+  |🔴 Patreon: https://www.patreon.com/PromptEngineering
+  💼Consulting: https://calendly.com/engineerprompt/consulting-call
+  📧 Business Contact: engineerprompt@gmail.com
+  Become Member: http://tinyurl.com/y5h28s6h
+  
+  💻 Pre-configured localGPT VM: https://bit.ly/localGPT (use Code: PromptEngineering for 50% off).  
+  
+  Signup for Newsletter, localgpt:
+  https://tally.so/r/3y9bb0
 tldr: "Agentic File Search moves beyond traditional RAG by using a three-phase strategy—Parallel Scan, Deep Dive, and Backtrack—to navigate document hierarchies. Unlike fixed embeddings that lose context through chunking, this system uses Gemini Flash and Llama Index to follow logical cross-references, making it ideal for complex legal or technical analysis where structural integrity is vital."
 # Video Taxonomy
 lengthCategory: "standard"

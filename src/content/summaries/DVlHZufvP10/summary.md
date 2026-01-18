@@ -11,6 +11,14 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/DVlHZufvP10/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=DVlHZufvP10"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  I asked Claude Code to design a SaaS landing page. Did the official plugin help to make it better?
+  
+  Links mentioned in the video:
+  - Tweet about the frontend-design skill: https://x.com/trq212/status/1989061937590837678
+  - More about Claude Code plugin marketplaces: https://code.claude.com/docs/en/plugin-marketplaces
+  - Skill source on GitHub: https://github.com/anthropics/claude-code/blob/main/plugins/frontend-design/skills/frontend-design/SKILL.md
+  - Get my latest AI Coding experiments in my weekly newsletter: https://aicodingdaily.substack.com/
 tldr: "Claude Code with the frontend-design plugin enables developers to rapidly generate, preview, and iterate on high-fidelity React components using natural language directly within the CLI."
 ---
 

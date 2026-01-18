@@ -11,6 +11,36 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/kMWdmnQtJu0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=kMWdmnQtJu0"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Imagine you’re asked to lead the design of a new project. It’s complex, open-ended, and full of interconnected problems…
+  
+  How do you attack that ambiguity and get momentum quickly?
+  
+  This episode is an attempt to answer that question by unpacking tactics used by designers like:
+  
+  - Jenny Wen (Original designer of Figjam):  https://www.dive.club/deep-dives/jenny-wen
+  - Michael Wandelmaier (Former head of design at Metalab): https://www.dive.club/deep-dives/michael-wandelmaier
+  - Alex Cornell (Director of Design at Meta AI): https://www.dive.club/deep-dives/alex-cornell
+  - Rich Arnold (Design leader at Vine, IG, and Coinbase): https://www.dive.club/deep-dives/rich-arnold
+  - Andrei Herasimchuk (first designer at Adobe and Figma):  Episode coming soon
+  
+  Jenny Wen’s Eigenquestions Figjam template
+  
+  Chapters
+  0:00 Intro
+  0:21 Start with questions
+  1:00 Identify Eigenquestions 
+  1:44 Designing to find answers
+  2:22 Presenting directions - concepts
+  4:53 The importance of having an opinion 
+  9:23 Using "something like this"
+  
+  Dive is where the best designers never stop learning 🤿
+  
+  🌐 dive.club
+  🐦 twitter.com/joindiveclub
+  
+  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
 tldr: "Tackle complex design ambiguity by identifying **eigenquestions**—core questions that unlock multiple downstream answers—and presenting early **straw man** solutions on a **spectrum of extremes**. This strategy moves teams away from \"menu-style\" decision-making toward specific recommendations that force actionable feedback and reveal critical trade-offs."
 # Video Taxonomy
 lengthCategory: "standard"

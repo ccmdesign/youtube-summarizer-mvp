@@ -13,6 +13,27 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/PU8JhgLPxes/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=PU8JhgLPxes"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Connect Claude Desktop directly to Google's NotebookLM using the new NotebookLM MCP.
+  
+  In this tutorial, I will walk you through the newly updated installation process for my NotebookLM MCP server. You will learn how to install the tool directly from PyPI using uv, authenticate with your Google account, and configure the Claude Desktop app on Mac to use the MCP. This guide enables seamless communication between your local AI assistant and your cloud notebooks, allowing you to query notes and generate assets without leaving your desktop.
+  
+  Key Takeaways
+  1️⃣ How to install the NotebookLM MCP server via PyPI using the uv tool.
+  2️⃣ Step-by-step configuration of the Claude Desktop JSON file for MCP Servers.
+  3️⃣ Triggering real-time actions (like generating Infographics) in NotebookLM via chat.
+  
+  Resources:
+  GitHub: https://github.com/jacob-bd/notebooklm-mcp
+  
+  Chapters:
+  00:00 - Intro & MCP Updates 
+  01:20 - Installing with UV
+  02:20 - NotebookLM Authentication Tool 
+  02:50 - Configuring Claude Desktop MCP 
+  04:11 - Testing the MCP Connection 
+  04:53 - Generative Agent Demo: Creating Infographics 
+  05:40 - Future Plans for Perplexity Demo
 tldr: |
   Connect Claude Desktop to NotebookLM in minutes using the updated MCP tool. 
   - **Simplified Installation**: Use PyPI via `uv` or `pip` for a faster setup without manual cloning.

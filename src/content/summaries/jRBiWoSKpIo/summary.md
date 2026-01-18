@@ -11,6 +11,25 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/jRBiWoSKpIo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=jRBiWoSKpIo"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Canvas transforms Claude from a simple text chatbot into a powerful personal assistant that builds custom interactive interfaces. Currently a proof of concept David Siegel, Claude Canvas spawns terminal-based calendars, email previews, and booking systems directly from simple prompts using skills, giving you visual tools to organize your entire life through the command line. This revolutionary TUI toolkit proves that AI can now create its own user interfaces to help you manage schedules, track tasks, and handle daily operations—all while keeping your hands on the keyboard.
+  
+  🔗 Relevant Links
+  INK react tui library - https://www.youtube.com/watch?v=qSZwx5_EmSA
+  Claude Canvas GH - https://github.com/dvdsgl/claude-canvas/tree/main
+  Original Tweet - https://x.com/dvdsgl/status/2008685488107139313
+  iTerm 3 Support - https://github.com/BEARLY-HODLING/claude-canvas
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
 tldr: |
   Claude Canvas, an open-source plugin by the Glide Apps CEO, transforms **Claude Code** into a personal assistant by spawning interactive terminal UIs.
   - It uses **T-mux** and the **Ink** React library to create split-pane displays for tasks like email previews and flight booking.

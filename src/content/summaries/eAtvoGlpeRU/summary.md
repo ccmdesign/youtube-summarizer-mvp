@@ -13,6 +13,39 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/eAtvoGlpeRU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=eAtvoGlpeRU"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  There's a lot of hype about Ralph Wiggum in the AI coding community, and most people are getting it wrong. In this video, I break down how to run long-running autonomous agents safely, efficiently, and cost-effectively—covering both the official Claude Code plugin and the original bash loop method.
+  
+  I share my complete setup: sandboxing, the plan.md, max iterations, and feedback loops so the agent can verify its own work. 
+  
+  The bash loop gives you fresh context windows per iteration—the plugin doesn't, and that matters more than you'd think.
+  
+  ⏱️ TIMESTAMPS
+  0:00 – Introduction & What is Ralph Wiggum
+  1:14 – When to use Ralph Wiggum
+  2:56 – Step 1: Safety with sandboxing
+  4:20 – Step 2: Planning with PRD
+  4:54 – Step 3: Creating plan.md 
+  5:43 – Step 4: Creating activity.md
+  5:54 – Running with the Claude plugin
+  9:31 – Plugin limitations: single context window
+  10:28 – The bash loop method (recommended)
+  12:26 – Wrapping up
+  
+  🔗 RESOURCES
+  GitHub Tutorial: https://github.com/JeredBlu/guides/blob/main/Ralph_Wiggum_Guide.md
+  Original Ralph Wiggum (ghuntley): https://ghuntley.com/ralph/
+  Claude Ralph Plugin: https://github.com/anthropics/claude-code/blob/main/plugins/ralph-wiggum/README.md
+  Anthropic's Long-Running Agents Blog: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
+  Claude Code Sandboxing Docs: https://code.claude.com/docs/en/sandboxing
+  Boris Cherney's post: https://x.com/bcherny/status/2007179858435281082
+  My video on Boris's approach: https://youtu.be/S_pxMm0Qx7c
+  Spec-Driven Development video: https://youtu.be/wKx66sYyyUs
+  PRD Creator Tutorial: https://www.youtube.com/watch?v=0seaP5YjXVM
+  Book a call with me → https://cal.com/jeredblu
+  Sponsorship inquiries → hi@yedatechs.com
+  
+  #RalphWiggum #ClaudeCode #AICoding #MCPServers #LongRunningAgents #AutonomousAgents #SpecDrivenDevelopment
 tldr: |
   Optimize Ralph Wiggum by using a **Bash loop** instead of the official Claude Code plugin to prevent context bloat.
   - **Safety First**: Run in a **sandbox** with auto-allow for long-running autonomous tasks.

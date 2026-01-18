@@ -11,6 +11,16 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/s8sSmquiQZo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=s8sSmquiQZo"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Write more books with AI (12+ in a year). Join the Story Hacker waitlist and get the actual prompts I use for FREE while you wait: https://www.skool.com/story-hacker/about
+  
+  My Favorite Tools for Authors (UPDATED):
+  
+  N8N (via Hostinger) for Automations: https://storytellingdb.com/go/n8n-hostinger
+  Novelcrafter (for hands-on authors): https://storytellingdb.com/go/novelcrafter
+  RaptorWrite (for authors on a budget): https://storytellingdb.com/go/raptorwrite
+  Autocrit (best editing program): https://storytellingdb.com/go/autocritlifetime
+  Perplexity (best chatbot): https://storytellingdb.com/go/perplexity
 tldr: "Use AI-driven structural analysis to compare your drafts against the narrative DNA of award-winning fiction, identifying specific gaps in pacing, emotional resonance, and thematic density."
 ---
 

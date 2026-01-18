@@ -13,6 +13,43 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/YnIWW88l0mc/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=YnIWW88l0mc"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  This video is a guide for data professionals (Data Engineers, Data Scientists, and Analytics Engineers) on adopting AI for development using Claude Code.
+  
+  The main idea: success with Claude Code comes down to managing context and memory well. Claude Code works as an agent—it handles multi-file edits, runs tests, and fixes errors pretty autonomously.
+  
+  The 5 essentials you should understand about Claude Code:
+  1. claude.md - Your main instruction file. It tells Claude your project's rules, frameworks, and design principles from the start.
+  2. Skills - Packages of expertise for specific tasks. Claude automatically pulls these in when they're relevant to what you're asking.
+  3. Commands - Custom shortcuts you trigger manually (like /my_command) for tasks you do repeatedly.
+  4. Subagents - Separate sessions for specific jobs (like writing tests). Keeps your main conversation focused and uncluttered.
+  5. MCP Servers - Plugins that connect Claude to external tools and data sources, like Databricks SQL or a companies internal APIs.
+  
+  This video also applies these concepts for Databricks projects, but these ideas will point you in the right direction for any data platform.
+  
+  Previous video on Cursor: https://www.youtube.com/watch?v=Ii2LuEJ0gpc
+  
+  Article and links to resources available at https://dustinvannoy.com/2026/01/08/claude-code-essentials
+  
+  
+  **All thoughts and opinions are my own**
+  
+  More from Dustin:
+  Website: https://dustinvannoy.com
+  LinkedIn: https:/linkedin.com/in/dustinvannoy
+  Github: https://github.com/datakickstart
+  
+  Outline
+  0:00 Intro
+  2:10 Claude Code + IDEs
+  5:32 Managing Context
+  7:02 CLAUDE.md
+  8:09 Agent Skills
+  10:33 Commands
+  11:23 Subagents
+  12:56 MCP
+  17:27 Comparing the features
+  20:07 Summary
 tldr: |
   Mastering **Claude Code** for data engineering requires managing **context memory** through five architectural components:
   - **CLAUDE.md** for global project standards and design principles.

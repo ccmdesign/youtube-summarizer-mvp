@@ -13,6 +13,14 @@ category: "geopolitics"
 thumbnailUrl: "https://i.ytimg.com/vi/pdkcedVHizo/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pdkcedVHizo"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Mike Baker speaks with Rick de la Torre, former Central Intelligence Agency Chief of Station in Caracas, about why Russia, China, and Iran have so much at stake in Venezuela’s future. De la Torre explains how a post-Maduro shift toward reform threatens years of influence built by U.S. adversaries—and why they may quietly work to undermine any real transition in Caracas.
+  
+  To listen to the show ad-free, become a premium member of The President’s Daily Brief by visiting PDBPremium.com.
+  
+  Please remember to subscribe if you enjoyed this episode of The PDB Situation Report.
+  
+  Watch the full episode: https://youtu.be/rKnVW6piNds
 tldr: |
   Venezuela operates as a state-sponsored criminal enterprise and a geopolitical "aircraft carrier" for US adversaries.
   - The **Cartel de los Soles** is a verified military-run drug syndicate managed by Maduro’s family.

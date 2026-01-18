@@ -11,6 +11,34 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/5on4zWcjp1M/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=5on4zWcjp1M"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  NVIDIA just unveiled Rubin at CES 2026, a next-gen AI platform designed for inference at massive scale. In this video, we break down what Rubin actually is, how it compares to Blackwell, and what it means for developers building LLMs, AI agents, and real-time AI systems.
+  
+  Rubin isn’t just a faster GPU. It’s a rack-scale AI system built from six tightly connected chips, powered by NVLink 6, HBM4 memory, and massive GPU-to-GPU bandwidth. 
+  
+  🔗 Relevant Links
+  Rubin Platform - https://nvidianews.nvidia.com/news/rubin-platform-ai-supercomputer
+  Nvidia Rubin - https://www.nvidia.com/en-us/data-center/technologies/rubin/
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+  
+  📌 Chapters:
+  00:00 NVIDIA Rubin at CES 2026 (Why devs should care)
+  00:34 What Is NVIDIA Rubin? (Vera Rubin explained)
+  00:55 Rubin architecture: GPUs, CPUs, NVLink 6
+  01:29 New HBM4 Memory
+  01:56 Inference costs, fewer GPUs, real dev impact
+  02:20 Observability challenges at Rubin scale
+  02:45 Future-proofing for Rubin
 tldr: |
   NVIDIA’s **Rubin** platform transitions AI from single GPUs to tightly coupled six-chip "supercomputer" systems designed to slash inference costs.
   - **10x cost reduction**: Massive efficiency gains in token costs for long-context reasoning models.

@@ -11,6 +11,28 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/4u94juYwLLM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=4u94juYwLLM"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  For years, designers have been told to trust the process.
+  Research first. Personas. Journey maps. Problem statements. Then solutions.
+  
+  In this talk from Hatch Conference, Jenny Wen, Design Lead at Anthropic and former Director of Design at Figma, explains why that model no longer fits the reality of modern design work.
+  
+  With AI accelerating prototyping, smaller teams doing more, and craft becoming a key differentiator, rigid processes are failing designers. Jenny shares real examples from Figma and Anthropic that show how great work actually gets made today. Starting from solutions, caring deeply about details, building intuition, skipping steps, and designing for delight.
+  
+  This is not a rejection of research or strategy.
+  It is a call to stop worshipping process artifacts and start trusting designer judgment again.
+  
+  You will learn
+  • Why the traditional design process breaks down in an AI driven world
+  • How AI changes who prototypes and how fast teams move
+  • Why craft, taste, and quality are becoming more important
+  • When starting from a solution leads to better outcomes
+  • How intuition is built and why it matters
+  • Why great design often comes from breaking the rules
+  
+  Recorded live in Berlin.
+  
+  Watch more talks at hatchconference.com
 tldr: |
   Jenny Wen argues that rigid design processes are outdated in the AI era, where tools allow non-designers to prototype quickly and designers to code. To stay relevant, practitioners must:
   - Prioritize **craft and end-user experience** over process artifacts

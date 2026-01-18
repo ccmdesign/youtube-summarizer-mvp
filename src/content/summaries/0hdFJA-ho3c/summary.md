@@ -13,6 +13,36 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/0hdFJA-ho3c/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=0hdFJA-ho3c"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Code in 2026 is not what it was when it launched. After a year of building frameworks, custom setups, and elaborate systems to make AI coding work, we've come to a point now where... most of that is overkill.
+  
+  In this video, I'll show you what building with pure vanilla Claude Code actually looks like in 2026. No frameworks. No custom rules. Just Claude Code with Opus 4.5 handling real professional development work.
+  
+  I'll build a real feature in a real app, walking you through plan mode, the clarifying questions flow, and the native features that now do what frameworks used to do.
+  
+  If you're just getting into AI-assisted development, or if you've been layering tools onto your workflow — this video will show you the simpler path forward.
+  
+  👇 **Your Builder Briefing (free)**
+  https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
+  
+  👇 **Build with Claude Code (course)**
+  https://buildermethods.com/pro/claude-code-course -- Launching in Feb 2026 For members of Builder Methods Pro.  Early access workshop happening in January 2026.
+  
+  ▶️ Related videos:
+  AI skills that matter in 2026 https://youtu.be/7JBuA1GHAjQ
+  Design OS for AI-first design process https://youtu.be/2vu-6-lIhAs
+  
+  💬 Drop a comment with your questions and requests for upcoming videos!
+  
+  Chapters:
+  
+  0:00 - The Claude Code scene in 2026
+  5:09 - Claude Code Ask User Questions tool
+  8:23 - What Changed for 2026
+  9:27 - Reviewing Claude Code's Build
+  11:13 - Core Features in Claude Code
+  11:52 - The Skill That Still Matters
+  12:49 - When Frameworks Still Help
 tldr: |
   In 2026, **Claude Code** with **Opus 4.5** has rendered most external AI frameworks obsolete for 90% of professional development.
   - **Spec-driven development** and sub-agent coordination are now native, first-class features

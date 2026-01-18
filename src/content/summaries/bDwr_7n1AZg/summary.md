@@ -11,6 +11,33 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/bDwr_7n1AZg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=bDwr_7n1AZg"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Build web, desktop, iOS, and Android apps from a single Rust codebase using Dioxus. In this video, we walk through what Dioxus is, how it works, and build a real cross-platform app in just a few minutes. If you’re curious about Rust, UI frameworks, or building once and shipping everywhere, this one is for you.
+  
+  🔗 Relevant Links
+  Dioxus: https://dioxuslabs.com/
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+  
+  📌 Chapters:
+  00:00 Intro
+  00:35 What Is Dioxus and Why It Matters
+  01:08 What’s New in Dioxus 0.7
+  01:50 Setting Up Dioxus
+  02:52 Running Your First Dioxus App
+  03:40 Building for iOS, Android and Web
+  04:16 Fetching Data in Dioxus
+  06:11 Rendering Our App
+  06:30 Final Result and Thoughts
 tldr: |
   Dioxus is a high-performance Rust framework for building native-speed web, mobile, and desktop apps from a single codebase.
   - Employs RSX (JSX-like syntax) and a component-based architecture for rapid development.

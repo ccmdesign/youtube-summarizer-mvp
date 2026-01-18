@@ -13,6 +13,25 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/iC9loBJjduM/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=iC9loBJjduM"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Cursor just shipped native context management for ai coding. This cursor ai tutorial shows how to use cursor ai's new system and apply the same methods to claude code today.
+  
+  
+  Discover how ZenRows can simplify web data extraction—explore now: 
+  https://zenrows.com/?utm_campaign=247868614-Influencer&utm_source=youtube&utm_medium=paidsocial&utm_content=ai_labs
+  
+  
+  Context engineering determines whether your ai tools give you garbage or gold. This video breaks down Cursor's five new dynamic context methods and shows you how to implement them yourself.
+  If you're looking for a cursor ai tutorial or claude code tutorial, this covers both. I walk through the exact claude.md instructions for claude code skills and show how to use claude code with custom context management before Cursor's features fully roll out.
+  
+  Whether you're on cursor ai free, testing a cursor ai pro trial, or hunting for cursor ai free unlimited workarounds, these techniques help you get more from every token. The principles work the same way in chatgpt, google ai studio, or any ai agent you're building.
+  
+  This isn't vibe coding. It's systematic context control that makes artificial intelligence actually useful for coding. Consider this your starter story for building better with ai agents.
+  
+  What's covered: MCP response logging, chat history as retrieval, the hidden experimental MCP CLI flag in Claude Code, terminal session files, and how skills cut context usage by 46.9%.
+  
+  Hashtags:
+  #ai #chatgpt #vibecoding #googleaistudio #cursor #starterstory #claude #coding #aitools #aiagents #artificialintelligence #aiagent
 tldr: |
   Dynamic Context Discovery is the next evolution in AI coding agents, focusing on minimizing active context to improve output quality. Key strategies include:
   - **Moving long tool responses and terminal logs into files** to prevent context bloat

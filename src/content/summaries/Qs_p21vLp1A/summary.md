@@ -13,6 +13,21 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/Qs_p21vLp1A/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Qs_p21vLp1A"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  If I had to start over today, here's the exact playbook I'd use to build website traffic to a brand new site, before AI and social siphon your clicks.
+  
+  Additional Resources:
+  ► https://www.youtube.com/watch?v=e8wJBq6vOAI
+  ► https://www.youtube.com/watch?v=xsVTqzratPs
+  ► https://www.youtube.com/watch?v=CF3Uk2jc_ig
+  
+  Getting traffic is harder than ever, but new sites are not doomed. In this video, I walk you through a practical plan for earning early attention, growing your brand, and compounding organic traffic even if you are starting from zero. We begin with a simple discovery play: submit your site to the right directories so Google, AI assistants, and real customers can find and trust you. I show you how to use Ahrefs Site Explorer and Link Intersect to mine competitor citations, then prioritize the listings that actually move the needle like Google Business Profile, Yelp, Apple Maps, plus niche hubs like TripAdvisor, Houzz, and Avvo.
+  
+  Next, we build free tools that people actually search for, because tool queries rarely trigger AI Overviews, which means clicks still go to websites. Using Ahrefs Keywords Explorer, you will find data-backed ideas by pairing your niche with modifiers like calculator, checker, and converter, then spin up lightweight tools with a developer or ChatGPT. I share examples, a workflow for promoting them, and a simple backlink building process from our SEO for Beginners playbook so your tool ranks, earns links, and drives consistent website traffic.
+  
+  Then we turn that attention into owned traffic with an email list, complete with smart lead magnets that qualify visitors and bring them back to your site, your videos, and your products. You will see how to tap forums and Reddit the right way, including a method to find threads that already rank in Google using the Organic keywords report in Ahrefs, so your thoughtful replies keep sending visitors for months. Finally, we cover sweat equity partnerships that trade skills for exposure, co-branded tools that earn mentions and links, plus experience-driven content, the human layer that competitors cannot copy and the piece that makes every tactic work better.
+  
+  If you are launching a new site or rebuilding after a setback, this is the streamlined system I would use today. Watch now to grab the playbook and start compounding website traffic before the next algorithm shift hits.
 tldr: |
   In an AI-driven search era, new websites must pivot from pure SEO to a utility-and-community ecosystem:
   - **Build Free Tools**: Create calculators and checkers that AI cannot easily replicate in search overviews.

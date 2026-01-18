@@ -13,6 +13,25 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/guuGl34HI3Q/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=guuGl34HI3Q"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Thank you again g2i for sponsoring this video:
+  Need to hire?  You must check out https://trm.sh/g2i for all of your needs.  7 Days from first interview to first PR.
+  
+  ARCH CHRISTMAS SWEATER??? https://theprimeagen-shop.fourthwall.com/products/i-use-arch-btw
+  
+  https://twitch.tv/ThePrimeagen - I Stream on Twitch
+  
+  https://twitter.com/terminaldotshop - Want to order coffee over SSH?
+  ssh terminal.shop
+  
+  Become Backend Dev: https://boot.dev/prime
+  (plus i make courses for them)
+  
+  This is also the best way to support me is to support yourself becoming a better backend engineer.  
+  
+  Great News?  Want me to research and create video????: https://www.reddit.com/r/ThePrimeagen
+  
+  Kinesis Advantage 360: https://bit.ly/Prime-Kinesis
 tldr: |
   Anthropic is enforcing a strict "walled garden" by blocking Claude Pro subscriptions from being used in third-party tools like Cursor and Open Code.
   - **Claude Code** is now the only authorized way to use subscription tokens; all other tools must use the 10x more expensive API.

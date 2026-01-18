@@ -11,6 +11,36 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/y__qEgqXcF4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=y__qEgqXcF4"
 modelUsed: "gemini-2.5-flash"
+description: |
+  The AI Awards 2025 - Best LLM? Biggest Moment in AI? Best Agentic Coder?
+  
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+  
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+  
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+  
+  Business Inquiries:
+  kbfseo@gmail.com
+  
+  00:00 Intro
+  01:08 Best Vibe Coding Platform
+  02:23 Best AI IDE
+  03:34 Best Agentic Coder
+  05:16 Best Open Source Company
+  06:42 Best Open Source LLM
+  08:22 Best Image Model
+  10:20 Best AI Video Model
+  12:09 Biggest Disappointment
+  14:00 Biggest Surprise
+  15:32 Best AI Startup
+  17:51 AI Person of the Year
+  19:00 Biggest Moment in AI
+  20:13 Best LLM
+  22:45 Outro
 tldr: |
   The "All About AI" channel's 2025 AI Awards recognized top performers across 13 categories, highlighting key advancements and shifts.\n- **Opus 4.5** (Anthropic) named Best LLM for its performance in coding.\n- **Google** made Biggest Surprise comeback with Gemini 3 Flash, VO3, and Nano Banana.\n- **DeepSeek R1** was the Biggest Moment, impacting markets and China's AI standing.
 # Video Taxonomy

@@ -13,6 +13,50 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/pzBSYMCrYMk/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pzBSYMCrYMk"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Try cubic on your next pull request.
+  Go to https://www.cubic.dev/ — it’s free for open source and takes about two minutes to set up
+  
+  Claude Code is already a remarkable AI coding tool, but with the Ralph Loop TUI, it becomes fully autonomous, iteratively improving projects without stopping until completion. In this video, I show how Ralph Loop TUI transforms Claude Code from a single-pass AI into a relentlessly self-improving coding powerhouse.
+  
+  🔗 My Links:
+  Sponsor a Video or Do a Demo of Your Product, Contact me: intheworldzofai@gmail.com
+  🔥 Become a Patron (Private Discord): https://patreon.com/WorldofAi
+  🧠 Follow me on Twitter: https://twitter.com/intheworldofai 
+  🚨 Subscribe To The SECOND Channel: https://www.youtube.com/@UCYwLV1gDwzGbg7jXQ52bVnQ 
+  👩🏻‍🏫 Learn to code with Scrimba – from fullstack to AI https://scrimba.com/?via=worldofai (20% OFF)
+  🚨 Subscribe To The FREE AI Newsletter For Regular AI Updates: https://intheworldofai.com/
+  👾 Join the World of AI Discord! : https://discord.gg/NPf8FCn4cD
+  
+  [Must Watch]:
+  Claude Code Ralph Loop: Run Claude Code For Hours Autonomously & Code ANYTHING!: https://youtu.be/Yl_GGlAQ4Gc
+  Auto Claude: AI Coding on Steroids! Claude Code Running Autonomous For Hours!: https://youtu.be/eaNA2oOXoUg
+  Claude Code NEW Update IS HUGE! Sub Agents, Claude Ultra, LSPs, & MORE!: https://youtu.be/8izATKqcF-8
+  
+  📌 LINKS & RESOURCES
+  Github Repo: https://github.com/subsy/ralph-tui
+  Docs: https://ralph-tui.com/docs/getting-started/introduction
+  Website: https://ralph-tui.com/
+  Claude Code: https://code.claude.com/docs/en/desktop
+  OpenCode: https://opencode.ai/
+  
+  💡 What you’ll see in this video:
+  How Claude Code works and its default single-pass limitation
+  The magic of Ralph Loop: persistent, self-referential coding loops
+  Why Ralph Loop TUI is a game-changer: real-time task tracking, sub-agent orchestration, and live output streaming
+  Step-by-step demo of building and improving a project autonomously
+  How to safely run long sessions with session persistence and iteration limits
+  
+  Whether you’re a developer, AI enthusiast, or just curious about autonomous AI coding, this demo shows the next level of productivity and innovation!
+  
+  
+  Don’t forget to like, comment, and subscribe for more AI coding tutorials!
+  
+  Additional Tags / Keywords
+  Claude Code, Ralph Loop TUI, Autonomous AI Coding, Agentic AI, AI Programming, Iterative AI, Full Stack AI, AI Code Automation, AI Developer Tools, Self-Improving AI, AI Coding Workflow, AI Projects, AI App Builder, AI Coding Demo, Programming with AI, AI Automation Tools
+  
+  Hashtags
+  #ClaudeCode #RalphLoop #RalphLoopTUI #AutonomousAI #AgenticAI #AIProgramming #AIProjects #AIInnovation #IterativeAI #AICoding
 tldr: |
   Ralph TUI is an orchestration layer for the Ralph Loop framework that transforms Claude Code into a fully autonomous, visual development engine. 
   - **Persistent Iteration**: Uses the 'Ralph Loop' logic to relentlessly debug and refine code until a project is functional.

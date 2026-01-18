@@ -11,6 +11,20 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/5P13mzNX7CQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=5P13mzNX7CQ"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Shipmas Day 18: How I Get Claude Code Max $200 For "Free"
+  
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+  
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+  
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+  
+  Business Inquiries:
+  kbfseo@gmail.com
 tldr: |
   Leverage **Claude Code Max $200** for "free" by completing simple freelance jobs on platforms like **Upwork**.
   - **Automate tasks** such as web scraping or data extraction ($25-$100 gigs) using Claude.

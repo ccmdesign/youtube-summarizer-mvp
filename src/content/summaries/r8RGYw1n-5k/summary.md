@@ -13,6 +13,72 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/r8RGYw1n-5k/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=r8RGYw1n-5k"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  If you want us to build a MOONSHOT Summit, email my team: moonshots@diamandis.com 
+  
+  Get access to metatrends 10+ years before anyone else - https://qr.diamandis.com/metatrends  
+  
+  Salim Ismail is the founder of OpenExO
+  
+  Dave Blundin is the founder & GP of Link Ventures
+  
+  Dr. Alexander Wissner-Gross is a computer scientist and founder of Reified
+  
+  Chapters:
+  00:00 - The Rise of Gemini 3 and AI Super Intelligence
+  05:46 - Gemini 3: A Game Changer in AI Technology
+  08:27 - Benchmarking AI Performance: The Vending Machine Experiment
+  11:16 - The Future of AI-Driven Businesses
+  13:58 - Creating with AI: The New Era of Game Development
+  16:43 - Advancements in Voice Interaction and Translation
+  19:29 - Google's Competitive Edge in AI Technology
+  26:38 - AI Shopping Revolution
+  36:57 - The Future of AI and Biosecurity
+  43:42 - AI in Bio-Weapon Prevention
+  53:16 - The Arms Race of AI Safety
+  56:18 - Understanding Cursor: The AI Coding Assistant
+  58:50 - Project Prometheus: AI in Engineering and Manufacturing
+  01:02:37 - The Future of AI: From Superintelligence to Industrial Agents
+  01:07:06 - Concrete Milestones for an Abundant Future
+  01:14:36 - The Path to Universal Happiness with AI
+  
+  –
+  My companies:
+  
+  Apply to Dave's and my new fund: https://qr.diamandis.com/linkventureslanding  
+  
+  Go to Blitzy to book a free demo and start building today: https://qr.diamandis.com/blitzy 
+  
+  Join Salim's Workshop to build your ExO https://openexo.com/10x-shift?video=PeterD062625
+  
+  Grab dinner with MOONSHOT listeners: https://moonshots.dnnr.io/
+  
+  _
+  Connect with Peter:
+  X: https://qr.diamandis.com/twitter 
+  
+  Connect with Dave:
+  X: https://x.com/davidblundin 
+  LinkedIn: https://www.linkedin.com/in/david-blundin/ 
+  
+  Connect with Salim:
+  X: https://x.com/salimismail 
+  Join Salim's Workshop to build your ExO https://openexo.com/10x-shift?video=PeterD062625
+  
+  Connect with Alex
+  Web: https://www.alexwg.org
+  LinkedIn: https://www.linkedin.com/in/alexwg/
+  X: https://x.com/alexwg
+  Email: alexwg@alexwg.org
+  
+  Listen to MOONSHOTS:
+  
+  Apple: https://qr.diamandis.com/applepodcast 
+  Spotify: https://qr.diamandis.com/spotifypodcast 
+  
+  –
+  *Recorded on November 19, 2025
+  *The views expressed by me and all guests are personal opinions and do not constitute Financial, Medical, or Legal advice.
 tldr: |
   Gemini 3 marks a step-function leap in AI from reactive tools to autonomous economic agents, demonstrating near-PhD level reasoning and massive profitability in simulated business management. Main insights include:
   - **Vending Bench** success shows Gemini 3 generating 3,000% more profit than competitors

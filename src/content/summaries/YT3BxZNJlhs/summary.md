@@ -13,6 +13,52 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/YT3BxZNJlhs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=YT3BxZNJlhs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Miracles don’t exist in biology, mechanisms do. GLP1 medications (Ozempic, Wegovy, Mounjaro, Zepbound) are no exception. And every time you override a biological system that took two million years to evolve, you are making a trade. Every trade has an invoice.
+  I’m Dr. Amin Hedayat, a triple board-certified physician and clinical assistant professor of medicine. In this video, we move past the media hype and fear-mongering to look at the evidence-based truth written inside your cells. We are breaking down exactly how GLP-1 medications (Ozempic, Wegovy, Mounjaro, Zepbound) work, why they are so effective, and the specific biological costs from muscle loss to the "flatness" effect that patients need to understand.
+  In this video, we cover:
+  • The "Evolutionary Trap" that makes modern weight loss so difficult.
+  • The Gila Monster discovery that changed metabolic medicine.
+  • The difference between Semaglutide and Tirzepatide.
+  • The Invoice: The real risks regarding the stomach, anesthesia, and thyroid.
+  • The Protocol: How to come off these drugs safely without the "Rebound."
+  If you want clarity over confusion, please like this video and subscribe for more mechanism-first medical breakdowns.
+  
+  0:00 The "Invoice" of Weight Loss
+  2:34 The Evolutionary Trap: Why You Can’t Lose Weight
+  4:04 The Lizard Brain: Ghrelin vs. Leptin
+  5:37 The Discovery
+  6:45 The Gila Monster Discovery
+  7:41 Engineering the 7-Day Hormone (Semaglutide)
+  8:54 Why Mounjaro Is Different (Tirzepatide)
+  10:10 The Trade-Offs: Stomach Issues & Gastroparesis
+  11:40 The Anesthesia Risk (Must Know)
+  12:36 Pancreas & Thyroid Warning Box
+  14:56 The Muscle Loss Crisis
+  16:27 "Ozempic Face" Explained
+  17:12 The "Flatness" Effect (Anhedonia)
+  18:34 The Rebound: Why Weight Comes Back
+  21:12 The Protocol: 5 Steps for Safe Use & Exit
+  26:28 A New Paradigm for Obesity
+  
+  📚 REFERENCES & CITATIONS:
+  • Evolutionary Medicine Review (NEJM, 2020)
+  • Hunger & Willpower (Nature Reviews Endocrinology)
+  • The Incretin Effect (Journal of Clinical Investigation)
+  • Semaglutide Mechanisms (Nature Chemical Biology, 2017)
+  • Tirzepatide vs Semaglutide (NEJM, 2022)
+  • Gastric Emptying Risks (Clinical Gastroenterology and Hepatology, 2023)
+  • Muscle Loss & Rebound (Obesity Journal, 2023 / Endocrine Reviews, 2021)
+  • Dopamine & Reward Pathways (Translational Psychiatry, 2024)
+  Connect with Dr. Amin Hedayat: 
+  Instagram/tiktok/youtube: @draminhedayat
+  Website: www.draminhedayat.com
+  
+  MEDICAL DISCLAIMER
+  Educational Use Only: This video is for informational purposes only and does not constitute medical advice, diagnosis, or treatment.
+  No Doctor-Patient Relationship: Although Dr. Amin Hedayat is a board-certified physician, consuming this content does not establish a doctor-patient relationship.
+  Do Not Change Your Meds: This video discusses mechanisms and protocols, but you should never stop, taper, or alter your dosage of GLP-1 medications (e.g., Ozempic, Mounjaro) without direct supervision from your prescribing physician. Always consult your doctor before making changes to your health plan.
+  #Ozempic #Mounjaro #Pathology #MetabolicHealth #WeightLossScience #Medicine #GLP1 #DrAminHedayat #weightloss #losingfat #fat #wellness #doctorexplains #journey #doctor #metabolic #health #gainweight #science #usingozempic
 tldr: |
   GLP-1 medications (Ozempic/Mounjaro) override 2 million years of evolutionary fat-storage wiring, but carry a "biological invoice" that must be managed. 
   - **Muscle Loss:** Rapid weight loss without strength training destroys the metabolic engine.

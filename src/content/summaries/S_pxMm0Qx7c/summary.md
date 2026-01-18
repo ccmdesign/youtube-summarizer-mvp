@@ -11,6 +11,34 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/S_pxMm0Qx7c/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=S_pxMm0Qx7c"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Boris Cherny, the creator of Claude Code, just shared how he and his team at Anthropic actually use Claude Code—and it's surprisingly vanilla. In this video, I break down his 13 tips and filter them for users who don't have unlimited tokens.
+  
+  What's interesting: he barely mentions MCP servers or skills. Instead, he focuses on plan mode, slash commands, subagents, hooks, and permission management. I add my own take on what's practical for the rest of us who are "usage engineering" to avoid burning through limits.
+  
+  ⏱️ TIMESTAMPS
+  0:00 – Boris Shares His Setup
+  0:27 – Take This With a Grain of Salt
+  1:01 – Boris's Journey & Claude Code Origins
+  1:33 – Tip 1-2: Running Multiple Instances
+  2:08 – Tip 3-4: Opus 4.5 & Shared Claude MD
+  2:55 – Tip 5: GitHub Action for Claude MD
+  3:55 – Tip 6: Plan Mode First (My Favorite)
+  4:27 – Tip 7-8: Slash Commands & Subagents
+  5:29 – Tip 9: Hooks for Formatting
+  5:46 – Tip 10: Skip YOLO Mode, Use Permissions
+  6:22 – Tip 11: Tool Use (MCP, CLI, BigQuery)
+  6:55 – Tip 12: Long-Running Tasks & Ralph Wiggin
+  7:22 – Tip 13: Feedback Loops Are Everything
+  8:28 – My Takeaways
+  
+  🔗 RESOURCES
+  Boris's Threads Post: https://www.threads.com/@boris_cherny/post/DTBVlMIkpcm
+  Boris's X Post: https://x.com/i/status/2007179832300581177
+  Book a call with me → https://yedatechs.com/#container06
+  Sponsorship inquiries → hi@yedatechs.com
+  
+  #ClaudeCode #Anthropic #BorisCherny #AITools #DeveloperProductivity #CodingAgents
 tldr: |
   Boris Churnney, Claude Code's creator, reveals a "vanilla" setup that emphasizes workflow over customization, though it leverages significant parallel usage due to unlimited tokens.
   - **Parallel sessions**: Runs multiple Claude Code instances across terminals, web, and mobile concurrently.

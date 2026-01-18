@@ -13,6 +13,25 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/UuyaeSLRTkE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=UuyaeSLRTkE"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Best Claude/Gemini prompt collection: https://clickhubspot.com/f99e63
+  
+  🔗 Links
+  - Try Superdesign agent: http://superdesign.dev/
+  - Get the UI design prompt: https://www.aibuilderclub.com/
+  - Follow me on twitter: https://twitter.com/jasonzhou1993
+  
+  ⏱️ Timestamps
+  0:00 Gemini3 prompt examples
+  0:32 How Anthropic 10x Sonnet 4.5 frontend design skill
+  04:55 3 step prompt guide process
+  07:25 Case study - train model excalidraw generation
+  
+  
+  👋🏻 About Me
+  My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
+  
+  #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk
 tldr: |
   Maximize **Gemini 3** and reasoning models by moving beyond context-heavy prompting toward systematic steerability. 
   - **Identify Convergent Defaults**: Target the model's 'boring' baseline behaviors

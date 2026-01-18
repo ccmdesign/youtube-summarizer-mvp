@@ -13,6 +13,19 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/TVsounscj4U/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=TVsounscj4U"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Siri by Google. Makes you think.
+  
+  Apple AI video: https://youtu.be/hz6oys4Eem4?si=v362Nuiwg8y_pPPL
+  
+  MKBHD Merch: http://shop.MKBHD.com
+  
+  Playlist of MKBHD Intro music: https://goo.gl/B3AWV5
+  
+  ~
+  http://twitter.com/MKBHD
+  http://instagram.com/MKBHD
+  http://facebook.com/MKBHD
 tldr: |
   Apple has officially confirmed that a revamped Siri, powered by **Google’s foundation models**, will launch in 2026 to address its ongoing AI crisis.
   - **Strategic Partnership**: Apple is prioritizing user experience over proprietary models to stop users from switching to Android

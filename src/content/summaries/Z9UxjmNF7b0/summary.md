@@ -13,6 +13,20 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/Z9UxjmNF7b0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Z9UxjmNF7b0"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Things are changing absurdly fast, to the point where a lot of people feel like they're falling behind. While I do disagree, there's still a lot to talk about here...
+  
+  Thank you Depot for sponsoring! Check them out at: https://soydev.link/depot
+  
+  SOURCES
+  https://x.com/rahulgs/status/2006090208823910573
+  https://x.com/karpathy/status/2004607146781278521
+  
+  Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
+  
+  Check out my Twitch, Twitter, Discord more at https://t3.gg
+  
+  S/O Ph4se0n3 for the awesome edit 🙏
 tldr: |
   Theo argues that developers are significantly behind in adopting AI, which is now capable of writing the majority of code. It's crucial to stop delaying and immediately begin **experimenting with advanced AI tools** (like Claude Code, Cursor) to push their limits, rewire your problem-solving approach, and embrace orchestration. Organizations must also empower engineers with these agents and adapt 
 # Video Taxonomy

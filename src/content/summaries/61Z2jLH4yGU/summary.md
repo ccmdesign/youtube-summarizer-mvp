@@ -11,6 +11,25 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/61Z2jLH4yGU/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=61Z2jLH4yGU"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Using Claude Code to build stunning AI-powered websites? This claude code tutorial walks you through ai coding workflows, claude code setup essentials, and vibe coding techniques that actually work.
+  
+  
+  Design OS: https://buildermethods.com/design-os
+  Vizcom: https://www.vizcom.com/
+  Google Mixboard: https://mixboard.google.com/projects
+  Magic Animator: https://magicanimator.com/
+  Lottie Files: https://lottiefiles.com/plugins/figma
+  Html to design: https://html.to.design/home
+  
+  In this video, I reveal the AI design tools that genuinely transformed my workflow—from planning and asset generation to animation and design conversion.
+  First up is Design OS, an open-source planning tool that works seamlessly with claude code, Cursor, and Copilot. Whether you're exploring claude code vs cursor or cursor vs claude code debates, Design OS bridges the gap with its structured approach. Learn how to use claude code alongside these claude code skills to turn messy ideas into technical blueprints.
+  I also cover Vizcom and Mixboard for asset generation, GoFullPage for competitor analysis, and how Claude extracts UI details using prompt engineering techniques. From there, claude code best practices come into play as it generates entire websites from your specifications.
+  For animation, Magic Animator and LottieFiles add motion to your designs. Plus, the HTML2Design plugin with MCP integration connects your ai coding agents directly to Figma—perfect for those interested in claude code agents and claude code subagents workflows.
+  Whether you're using claude code desktop, claude code vscode, or looking for claude code free options, this crash course in artificial intelligence and coding covers it all. No chatgpt or openai required—just pure claude power for your next project.
+  
+  Hashtags
+  #ai #chatgpt #vibecoding #cursor #crashcourse #openai #coding #claude #promptengineering #artificialintelligence #claudecode #aidesign #webdesign #figma
 tldr: |
   The move from monolithic UI libraries to a localized component model represents a paradigm shift:
   - **Component ownership** via Shadcn UI allows for full codebase control without dependency lock-in

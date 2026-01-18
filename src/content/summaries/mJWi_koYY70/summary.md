@@ -11,6 +11,14 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/mJWi_koYY70/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=mJWi_koYY70"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection and destructive file actions. Implications include accelerated productization and UI work to reach mainstream users, expanded demand for workplace agents, and market opportunities for startups rather than immediate vendor displacement.
+  
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   Anthropic's release of **Claude Co-work** brings agentic local file access to non-technical users:
   - **Local Agency**: Moves beyond chat to edit files, run scripts, and manage APIs directly on your desktop.

@@ -11,6 +11,36 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/0hpn9mn9vSs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=0hpn9mn9vSs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Luke from Factory AI builds Droid, and I asked him straight up: where is AI coding actually headed?
+  
+  His answer surprised me. The next evolution isn't about more powerful models. It's about AI that enforces software engineering best practices by default - linting, testing, CI/CD, proper architecture, all baked in.
+  
+  He went deeper on monorepos becoming standard, migrations completely changing and self-hostable models making this affordable for solo devs.
+  
+  If these predictions land, it's a massive shift for how we ship software.
+  
+  GET THE TOOLS
+  Discord: https://rfer.me/discord
+  Free Weekly Workshops: https://startmy.ai
+  
+  
+  Key moments
+  00:00 Where is AI coding actually headed?
+  00:33 The next evolution: AI that enforces software engineering best practices by default
+  02:30 Prediction: The rise of monorepos to ensure CI passes
+  03:34 Prediction: The era of traditional migrations is changing
+  05:18 The problem with legacy code in large companies
+  06:35 How to keep track of and manage AI agents
+  07:07 Prediction: The future is self-hostable, open-weight models
+  08:33 Recap of predictions for the future of AI development
+  
+  
+  CONNECT WITH RAY
+  X (Twitter): https://x.com/RayFernando1337
+  
+  
+  #FactoryAI #Droid #AICoding #SoftwareEngineering #AIAgents #DevTools #Cursor #ClaudeCode #Monorepo #CICD
 tldr: "AI development is shifting from passive code completion to autonomous agents that manage entire project contexts, moving the developer's role from writing syntax to high-level system architecture."
 ---
 

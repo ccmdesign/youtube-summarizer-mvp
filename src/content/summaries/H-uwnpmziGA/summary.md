@@ -13,6 +13,34 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/H-uwnpmziGA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=H-uwnpmziGA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  WORK WITH ME
+  📲 25-Min AI Strategy Call (Biz Owners/Leaders): https://cal.com/dylan-davis-d04ip9/25-min-ai-strategy-call-biz-owners-leaders?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=strategy_call
+  🔍 AI Community: https://community.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=ai_community
+  💪 AI Coaching: https://ai-coaching.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=ai_coaching
+  🛠️ Custom AI Solutions: https://custom-solutions.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=custom_ai_solutions
+  
+  FREE STUFF
+  💌 30-Day AI Insights: https://insights.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=Infinite_memory&utm_content=ai_insights
+  
+  SOCIALS
+  LinkedIn: https://www.linkedin.com/in/dylantdavis/
+  
+  📚RESOURCES
+  Presentation: https://d-squared70.github.io/I-Analyzed-50-Meeting-Transcripts-in-30-Minutes-with-Claude-Code-No-code-/
+  Download Claude Desktop: https://claude.com/download
+  
+  —
+  Chapters
+  00:00 - Intro
+  00:26 - The problem
+  01:36 - The fix
+  03:47 - Getting setup
+  05:40 - Example 1
+  10:23 - Example 2
+  12:13 - Common prompt structure
+  14:11 - Recap 
+  14:42 - Outro
 tldr: |
   Extend Claude's memory indefinitely using the **Context-Todos-Insights** framework. By running **Claude for Desktop** in **'Act' mode**, the AI manages three local markdown files to track goals, progress, and findings. This enables the error-free analysis of 50+ transcripts or large email archives without manual intervention or data loss.
 # Video Taxonomy

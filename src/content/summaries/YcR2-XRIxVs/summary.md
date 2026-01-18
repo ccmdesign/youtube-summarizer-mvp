@@ -11,6 +11,18 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/YcR2-XRIxVs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=YcR2-XRIxVs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollback of nudity safeguards sparked government complaints, and Yann Lecun criticized Meta's LLM-focused AI strategy while founding Advanced Machine Intelligence Labs.
+  
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   AI wearables are pivoting toward specialized utility as the research community faces a growing schism over the future of LLMs.
   - **Focused Utility**: New hardware from Plaude and Switchbot targets note-taking rather than general assistants

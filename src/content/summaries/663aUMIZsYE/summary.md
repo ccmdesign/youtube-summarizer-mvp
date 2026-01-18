@@ -13,6 +13,34 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/663aUMIZsYE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=663aUMIZsYE"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Claude Code Q&A - 5 Questions I Get Asked All The Time
+  
+  Nvidia DXG Update:
+  https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/
+  
+  Huggingface:
+  https://huggingface.co/collections/mistralai/ministral-3
+  
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+  
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+  
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+  
+  Business Inquiries:
+  kbfseo@gmail.com
+  
+  00:00 Intro
+  00:40 Claude Code in Parallel?
+  03:07 Claude Code for non coding tasks?
+  06:09 Nvidia DGX Spark Update
+  07:38 Claude Code Skills?
+  11:40 Claude Code Subagents?
+  14:25 Claude Code running in auto mode?
 tldr: |
   - Run Claude Code in parallel across multiple terminal windows to execute tasks simultaneously and halve development time.
   - Use Skills for local, repetitive tasks to minimize context overhead compared to MCP.

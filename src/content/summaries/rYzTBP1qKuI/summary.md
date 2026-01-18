@@ -11,6 +11,33 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/rYzTBP1qKuI/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=rYzTBP1qKuI"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Debugging JSON doesn’t have to mean endless scrolling, guessing, and frustration.
+  
+  In this video, I walk through JSON Crack, a free open-source tool that helps developers visualize JSON as interactive graphs instead of raw text. If you’ve ever worked with large API responses, deeply nested JSON, or messy data structures, this tool can save you a ton of time.
+  
+  🔗 Relevant Links
+  Json Crack Editor - https://jsoncrack.com/
+  Json Crack Repo - https://github.com/AykutSarac/jsoncrack.com
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+  
+  📌 Chapters:
+  0:00 Debugging JSON Is Painful (The Problem)
+  0:36 What Is JSON Crack? (Quick Overview)
+  1:16 Live Demo: Visualizing JSON Instantly
+  2:00 Convert to CSV, YAML, JSON
+  2:16 VS Code Integration & Advanced Features
+  2:41 Why Developers Use JSON Crack Daily
 tldr: |
   JSON Crack is a high-performance visualization tool that transforms JSON, YAML, and CSV into **interactive graphs**.
   - **Visual Mapping:** Replaces scrolling through text with expandable, searchable node trees.

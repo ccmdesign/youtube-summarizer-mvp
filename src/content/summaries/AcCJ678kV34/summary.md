@@ -11,6 +11,32 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/AcCJ678kV34/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=AcCJ678kV34"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Docker just made a major shift by opening up their hardened images to everyone. This video breaks down why your base image matters more than you think, and how hidden vulnerabilities sneak in from the very first line of your Dockerfile. We'll show you how Docker Hardened Images work, how easy they are to use, and why they are becoming the safest default for modern container builds.
+  
+  🔗 Relevant Links
+  Docker Hardened Images: https://www.docker.com/products/hardened-images/
+  Docker's Announcement: https://www.docker.com/blog/docker-hardened-images-for-every-developer/
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+  
+  📌 Chapters:
+  00:00 Intro
+  00:27 What Are Docker Hardened Images
+  01:00 Are Base Images A Security Risk?
+  02:18 How to Use Hardened Images in Real Projects
+  03:02 Why Things Might Break and How to Fix Them
+  03:38 Hardened Helm Charts and Kubernetes
+  04:07 Final Thoughts and Takeaways
 tldr: |
   Docker has released over 1,000 **Hardened Images (DHI)** as free and open-source under the **Apache 2.0 license** to combat supply chain vulnerabilities.
   - **Security by default:** Swapping standard base images for DHI versions significantly reduces the **attack surface** by removing unnecessary packages.

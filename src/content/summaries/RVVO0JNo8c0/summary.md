@@ -11,6 +11,17 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/RVVO0JNo8c0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=RVVO0JNo8c0"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, especially in rural and underserved areas. Discussions focus on clinical adoption, potential to streamline care and build a health-data moat, and worries about privacy, regulation, and startup disruption.
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   OpenAI has launched **ChatGPT Health**, a dedicated and encrypted workspace for medical data integration.
   - Driven by data showing 40 million weekly users already seek health advice, it connects to **Apple Health** and **Electronic Health Records**.

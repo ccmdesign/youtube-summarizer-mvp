@@ -13,6 +13,15 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/4hUI2GF90nQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=4hUI2GF90nQ"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Opencode matters more than you might think. Not only does it look stellar, but it also gives us an alternative to go to if any of the big LLM providers start charging too much for their tokens. 
+  
+  So in this video we'll do a small deep dive on how to set it up with ollama and with marimo. 
+  
+  00:00 What is opencode
+  00:58 Opencode demo
+  02:25 Ollama in opencode
+  06:25 Opencode in marimo
 tldr: |
   Open code is a terminal-based AI coding agent offering an open-source alternative to proprietary tools. It provides an **insurance policy** against vendor lock-in by supporting local and open models.
   - **Local LLM support**: Connects to **Ollama** for privacy and cost savings.

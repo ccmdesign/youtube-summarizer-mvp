@@ -11,6 +11,17 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/nflqTdNvUGs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=nflqTdNvUGs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes include corporate sponsorships, platform acquisitions, enterprise integrations, and built-in token contributions to sustain open-source digital infrastructure.
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   Tailwind CSS's 80% revenue crash—despite record-high adoption—serves as a warning that AI can destroy business models by bypassing documentation funnels.
   - AI agents ingest technical docs directly, preventing users from seeing paid offerings.

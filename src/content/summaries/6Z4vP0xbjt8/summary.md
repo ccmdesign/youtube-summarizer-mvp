@@ -11,6 +11,29 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/6Z4vP0xbjt8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=6Z4vP0xbjt8"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  A2UI is an open protocol from Google that lets AI agents generate real, interactive user interfaces without writing code. Instead of generating React or Vue that you can't trust in production, AI describes UI as declarative JSON that your application renders using your own design system components.
+  
+  In this video, I explain:
+  - Why current approaches to AI-generated UI fall short
+  - How A2UI's declarative protocol actually works
+  - The security model that makes it production-ready
+  - How it differs from tools like Lovable and v0
+  - A2UI Bridge: our open-source React implementation
+  
+  Full article: https://southleft.com/insights/ai/a2ui-how-ai-agents-build-real-user-interfaces/
+  Try the live demo: https://a2ui.southleft.com/demo
+  GitHub repo: https://github.com/southleft/a2ui-bridge
+  Official A2UI spec: https://a2ui.org
+  Google's announcement: https://developers.googleblog.com/introducing-a2ui-an-open-project-for-agent-driven-interfaces/
+  
+  A2UI Bridge includes 75+ component adapters for both Mantine and ShadCN, so you can see the same AI-generated JSON rendered with different design systems.
+  
+  ---
+  
+  Southleft is a design engineering consultancy specializing in AI-powered design systems and front-end development. Learn more: https://southleft.com
+  
+  And if you're interested in learning more about AI & design systems, please sign up for our AI & Design Systems course - http://aianddesign.systems/
 tldr: "A2UI is an open, declarative protocol that allows AI agents to generate structured JSON “recipes” rather than raw code, enabling the real-time rendering of production-safe UI components directly from an organization's existing design system."
 # Video Taxonomy
 lengthCategory: "standard"

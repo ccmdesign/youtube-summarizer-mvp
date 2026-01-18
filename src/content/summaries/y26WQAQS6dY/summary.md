@@ -11,6 +11,21 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/y26WQAQS6dY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=y26WQAQS6dY"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Knowing when to use Claude vs ChatGPT, terminal vs IDE, subagents vs main context—that's workflow orchestration. Build this intuition and you're not just reacting to AI tools, you're directing them.
+  
+  👇 **Your Builder Briefing (free)**
+  https://buildermethods.com - Your free, 5-minute read to keep up with the latest tools & workflows for building with AI.
+  
+  👇 **Use Agent OS** (free open source):
+  https://buildermethods.com/agent-os
+  
+  👇 **Join Builder Methods Pro**
+  https://buildermethods.com/pro - The membership for professionals (and soon-to-be-pros) for building with AI.  Private discord.  Video training library.  Official support for Agent OS.
+  
+  ▶️ Related videos:
+  
+  💬 Drop a comment with your questions and requests for upcoming videos!
 tldr: |
   The most crucial AI skill is **workflow orchestration**, which is developing your intuition for selecting the right tool for every situation.
   - It involves understanding your personal workflow drivers and the nuances of various **frontier models**.

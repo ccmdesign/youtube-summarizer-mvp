@@ -13,6 +13,29 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/JYsR6pNEma4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=JYsR6pNEma4"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Want to make your AI agent smarter without reprogramming it? In this video, I break down Skills in Google Antigravity—a powerful way to give your agent extra knowledge and specialized capabilities.
+  
+  While "Tools" let an agent execute code, "Skills" give them the instructions and best practices they need to handle specific workflows exactly how you want them to.
+  
+  I'll walk through a real-world demo: creating a custom Skill that encourages the agent to generate consistent, emoji-filled Git commit messages for your team.
+  
+  🚀 Try Antigravity today: https://antigravity.google/
+  
+  In this video, we cover:
+  0:00 - Intro: What are AI Skills?
+  0:10 - Agents vs. Skills vs. Tools
+  0:48 - The Scenario: Automating Git Commit messages
+  1:25 - Creating a SKILL.md file
+  1:55 - Workspace vs. Global Skills
+  2:25 - Demo: Generating a "Sparkly" Commit Message
+  
+  Learn more about:
+  * Extending agent capabilities with Markdown
+  * Setting up SKILL.md with YAML frontmatter
+  * Customizing developer workflows
+  
+  #GoogleAntigravity #AIAgents #CodingTools #DevWorkflow #AI
 tldr: |
   Introducing AI agent skills with Google Antigravity, which enhances agents' knowledge without reprogramming.
   - **Skills** provide agents with specific training to shape their responses.

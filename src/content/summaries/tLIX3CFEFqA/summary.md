@@ -13,6 +13,20 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/tLIX3CFEFqA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=tLIX3CFEFqA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Gemini 3 from Google and GPT-5.1 from OpenAI are now available as American models compete with Chinese open AI models. LLMs are also getting closer and closer to AGI, but how? How exactly will large language models reach artificial general intelligence?
+  How will automation and AI add to AI training and could that transform and disrupt the industry?
+  
+  #ai #llm #gemini3 #gpt #openai 
+  
+  Chapters
+  00:00 Gemini 3 & GPT-5.1
+  01:27 Why matters
+  02:11 Google MOAT
+  02:35 OpenAI GPT-5.1
+  02:55 AGI
+  04:36 Benchmark
+  05:16 Conclusion
 tldr: |
   The release of Gemini 3 and GPT 5.1 marks a pivotal shift in the AI race toward hardware independence and model credibility. Key insights include:
   - **Gemini 3** demonstrates that state-of-the-art models can be trained entirely on **Google TPUs**, reducing reliance on Nvidia.

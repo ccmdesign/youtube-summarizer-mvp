@@ -13,6 +13,22 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/VP-Lp9ZsjPY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=VP-Lp9ZsjPY"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  It's a new year - time for a new tech stack! Well, not really. But there ARE a couple of libraries and technologies I'm currently using about which I'm really quite excited!
+  
+  Buildmygraphic: https://buildmygraphic.com/
+  Modern Node.js Article: https://maximilian-schwarzmueller.com/articles/modern-nodejs-can-do-that
+  Website: https://maximilian-schwarzmueller.com/
+  
+  Socials:
+  👉 Twitch: https://www.twitch.tv/maxedapps
+  👉 X: https://x.com/maxedapps
+  👉 Udemy: https://www.udemy.com/user/maximilian-schwarzmuller/
+  👉 LinkedIn: https://www.linkedin.com/in/maximilian-schwarzmueller/
+  
+  Want to become a web developer or expand your web development knowledge?
+  I have multiple bestselling online courses on React, Angular, NodeJS, Docker & much more!
+  👉 https://academind.com/courses
 tldr: |
   Maximize development efficiency in 2026 by leveraging the **AI-favorite stack** (TypeScript, React, Tailwind) while adopting high-performance modern tools:
   - **TanStack Start** as a faster, simpler alternative to Next.js

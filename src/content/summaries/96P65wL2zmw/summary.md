@@ -11,6 +11,34 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/96P65wL2zmw/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=96P65wL2zmw"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Most apps struggle with the same problem: messy text. A huge chunk of real-world data that's unstructured, and turning it into something usable is harder than it should be.
+  
+  In this video, I walk through LangExtract, a free, open-source tool from Google that helps developers extract structured, traceable data from unstructured text using large language models.
+  
+  🔗 Relevant Links
+  LangExtract Repo - https://github.com/google/langextract
+  Google LangExtract - https://developers.googleblog.com/introducing-langextract-a-gemini-powered-information-extraction-library/
+  
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+  
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+  
+  📌 Chapters:
+  00:00 – Why Messy Text Breaks Real Data Pipelines
+  00:35 – What Is LangExtract (And Why Devs Are Switching)
+  00:51 – The Big Difference: Grounded, Traceable Extraction
+  01:27– Demo: From Raw Text to Structured JSON
+  02:29 – The Killer Feature: Linking Output Back to Text
+  03:00 – Pros, Cons, and When You Should Use It
+  04:00 – Final Verdict on it
 tldr: |
   **Lang Extract** is a free, Google open-source Python library that converts messy, unstructured text into structured JSON data. It uniquely solves the LLM trust problem by providing **grounded extractions**, where every data point is linked back to its specific source sentence for auditability. It features an **interactive HTML viewer** for visual verification and supports batch processing.
 # Video Taxonomy

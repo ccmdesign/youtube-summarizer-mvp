@@ -13,6 +13,22 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/1WImBwiA7RA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=1WImBwiA7RA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Join upcoming weekly workshop on claude skills: http://aibuilderclub.com
+  
+  🔗 Links
+  - Follow me on twitter: https://twitter.com/jasonzhou1993
+  
+  ⏱️ Timestamps
+  0:00 What is Agent Skills
+  1:25 Why is better than MCP
+  2:46 Example Skills
+  3:40 Build skills for your own codebase
+  
+  👋🏻 About Me
+  My name is Jason Zhou, a product designer who shares interesting AI experiments & products. Email me if you need help building AI apps! ask@ai-jason.com
+  
+  #cursor #generativeai #gpt5 #autogen #gpt4 #playwright  #ai #artificialintelligence #tutorial #stepbystep #openai #llm #chatgpt  #largelanguagemodels #largelanguagemodel #bestaiagent #chatgpt #agentgpt #agent #babyagi #vercelaisdk
 tldr: |
   Claude Skills are a new framework for agent SOPs that outperform MCP by reducing token usage (e.g., from 4,200 to 70 tokens) while providing specific execution instructions.
   - Uses a mandatory skill.md file to trigger context-aware workflows.

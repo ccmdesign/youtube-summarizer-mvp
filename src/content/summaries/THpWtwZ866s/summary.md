@@ -11,6 +11,31 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/THpWtwZ866s/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=THpWtwZ866s"
 modelUsed: "gemini-2.5-flash"
+description: |
+  We're bringing something new to you today - an unreleased feature that we're ACTUALLY very excited about because it means less typing of everything from scratch and keeping track of all the commands that you might need to use with GitHub Spec Kit.
+  
+  Handoffs are available today in Visual Studio Code Insiders (https://code.visualstudio.com/insiders/)
+  
+  😺 GitHub repo: https://github.com/github/spec-kit
+  ✍️ Blog post: https://github.blog/ai-and-ml/generative-ai/spec-driven-development-with-ai-get-started-with-a-new-open-source-toolkit/
+  📚 Additional details: https://devblogs.microsoft.com/blog/spec-driven-development-spec-kit
+  
+  Brand-new Spec Kit documentation: https://github.github.io/spec-kit/
+  
+  For more videos:
+  
+  📽️ Under the hood of Spec Kit: https://youtu.be/o6SYjY1Bkzo
+  📽️ Overview of Spec Kit: https://youtu.be/a9eR1xsfvHg
+  📽️ Building a MCP registry tracker with Spec Kit: https://youtu.be/pBJYq3BE7tc
+  📽️ Improvements in GitHub Spec Kit: https://youtu.be/Wg-29qf8zR4
+  📽️ GitHub Spec Kit supporting all major agents: https://youtu.be/1HnTGc7tHE4
+  📽️ Analyzing and clarifying with Spec Kit: https://youtu.be/YD66SBpJY2M
+  📽️ Using GitHub Spec Kit for existing projects: https://youtu.be/SGHIQTsPzuY
+  📽️ Using GitHub Spec Kit with GitHub Copilot CLI: https://youtu.be/7tjmA_0pl2c
+  📽️ Answering your Spec Kit questions: https://youtu.be/OFow2aTnqB8
+  📽️ Checklists in GitHub Spec Kit: https://youtu.be/zTiLF3-BvGs
+  
+  #engineering #github #speckit #opensource #technology
 tldr: |
   Spec Kit introduces **Agent Handoffs** in VS Code Insiders, streamlining developer workflows with AI agents. - **Chat modes** act as programmable system prompts, triggered by simple commands. - **Handoffs** provide intuitive next-step buttons, automatically switching agents and pre-filling prompts based on task completion. - This reduces **command sprawl** and cognitive load, making multi-step pro
 # Video Taxonomy

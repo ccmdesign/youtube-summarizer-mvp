@@ -11,6 +11,12 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/SbcQYbrvAfI/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=SbcQYbrvAfI"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Following from Aparna's talk: https://www.youtube.com/watch?v=pP_dSNz_EdQ
+  
+  Learn how to create a feedback loop to continuously improve your AI prompts and responses.
+  
+  https://www.linkedin.com/in/sallyann-delucia-59a381172/
 tldr: "Prompt Learning offers a data-driven framework for optimizing AI agents by using 'English feedback'—detailed textual explanations of failures—to iteratively refine system instructions. This method achieved a 15% performance increase in coding agents without fine-tuning, rivaling state-of-the-art models like GPT-4.5 at a significantly lower cost while outperforming Genetic Algorithm (GA) optimizers"
 # Video Taxonomy
 lengthCategory: "longform"

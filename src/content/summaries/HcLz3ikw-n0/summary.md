@@ -11,6 +11,42 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/HcLz3ikw-n0/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=HcLz3ikw-n0"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Kyle Zantos is leading the new UX Tools Labs where he's responsible for figuring out what matters for new design tools and workflows.
+  
+  As a result, he's pretty quickly become my go-to source as I transition into more of a builder with AI.
+  
+  So this conversation is a deep dive into very specific tactics you can use on your own design engineering journey.
+  
+  We'll go through recommended tools, workflows, and Kyle's process for building a design engineering "Skill" using Claude Code.
+  
+  - Kyle’s portfolio site: https://zantos.co (https://zantos.co/)
+  - Leva control panel: https://threejsresources.com/tool/leva
+  - Compound Engineering plugin: https://github.com/EveryInc/compound-engineering-plugin
+  
+  - Jhey Tompkins: https://x.com/jh3yy
+  - Derek Briggs: https://x.com/PixelJanitor
+  - Will King: https://x.com/willking
+  - Emil Kowalski: https://x.com/emilkowalski
+  - Jakub Krehel:  https://jakub.kr/
+  
+  Dive is where the best designers never stop learning 🤿
+  
+  Chapters
+  0:00 intro
+  1:26 Tinkering with Cursor's new updates
+  10:35 Building an audio animation tool
+  14:04 Using external inspiration inside of Claude
+  19:08 Creating a design engineering skill in Claude
+  29:01 Using Leva control panels
+  34:53 The strategy for your global Claude guideline file
+  41:19 How to think about your tool stack
+  45:01 Kyle's personal system for learning
+  
+  🌐 dive.club
+  🐦 twitter.com/joindiveclub
+  
+  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
 tldr: |
   Claude Code empowers designers to act as design engineers by using a CLI-based agent to bridge Figma designs and React/Tailwind codebases.
   - Utilizes Model Context Protocol (MCP) to access design specs and local documentation

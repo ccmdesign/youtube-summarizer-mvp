@@ -11,6 +11,16 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/Tud9HLTk8hg/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Tud9HLTk8hg"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Ready to become a certified watsonx Generative AI Engineer - Associate? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdeNvw
+  
+  Learn more about A2A protocol (Agent2Agent) here → https://ibm.biz/Bdewcc
+  
+  🤖 How do AI agents communicate to solve complex tasks? Martin Keen explains the Agent-to-Agent (A2A) Protocol, a framework enabling seamless discovery, authentication, and communication between autonomous systems. Learn how A2A leverages JSON RPC, SSE, and privacy standards to transform AI collaboration!
+  
+  AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/BdeNv2
+  
+  #aiagents #agenticai #aicommunication
 tldr: "The A2A Protocol (Agent2Agent) by IBM facilitates seamless **AI agent collaboration** through a standardized communication framework, enabling agents to share information, delegate tasks, and collectively solve complex problems far beyond individual agent capabilities."
 # AI Processing Metrics
 aiProvider: "gemini"

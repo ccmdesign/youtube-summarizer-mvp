@@ -11,6 +11,14 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/Smh50q7UTcY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Smh50q7UTcY"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Leaked signals point to major updates, including a rumored GPT‑5.3 "Garlic", a full GPT‑5 rollout after the 5.2 checkpoint, and DeepSeek V4 aimed at superior coding and long‑context handling. Gemini 3, ChatGPT Images, GPT‑5.2 and Claude Opus 4.5 shifted momentum toward Anthropic and Google and prompted OpenAI to refocus on core models. OpenAI hardware leak SweetPea, Google's video "ingredients" feature, and Anthropic lab expansion underscore intensifying competition across multimodal, coding, and consumer AI hardware.
+  
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   ChatGPT 5.5 rumors are bubbling, hinting at a major OpenAI release soon.
   - **GPT-5.3 "Garlic"** is expected with enhanced reasoning and pre-training.

@@ -13,6 +13,23 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/Yr9O6KFwbW4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Yr9O6KFwbW4"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  What if we put Claude Code in a while loop?
+  
+  Thank you WorkOS for sponsoring! Check them out at: https://soydev.link/workos
+  
+  SOURCES
+  https://ghuntley.com/ralph/
+  https://www.youtube.com/watch?v=4Nna09dG_c0
+  https://x.com/ryancarson/status/2008548371712135632
+  https://github.com/snarktank/ralph
+  https://steipete.me/posts/2025/shipping-at-inference-speed
+  
+  Want to sponsor a video? Learn more here: https://soydev.link/sponsor-me
+  
+  Check out my Twitch, Twitter, Discord more at https://t3.gg
+  
+  S/O Ph4se0n3 for the awesome edit 🙏
 tldr: |
   Ralph loops are a method for executing AI agents in a **continuous bash loop** to bypass **context rot**. Key insights:
   - **Fresh Context**: Instead of long chat histories, agents start new sessions using persistent files like `PRD.json` to avoid memory bloat.

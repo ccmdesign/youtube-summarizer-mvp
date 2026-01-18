@@ -13,6 +13,53 @@ category: "yy"
 thumbnailUrl: "https://i.ytimg.com/vi/b5fTnZRsuhI/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=b5fTnZRsuhI"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Alex Rampell is a General Partner at Andressen Horowitz, where he leads their $1.7BN apps fund. Just last week, a16z announced they had raised $15BN for their latest funds, over 20% of all capital raised by venture firms. At a16z, Alex has led deals into Plaid, Mercury and OpenDoor to name a few.
+  -----------------------------------------------
+  
+  Timestamps:
+  
+  00:00 Intro
+  01:26 How to Do 5x on a $15BN Fund Pool?
+  04:15 What Two Groups of Funds Will Win the Next Decade in VC?
+  15:13 What Three Things Are the Best Founders Able to Do?
+  20:35 The Best Companies Have Hostages, Not Customers
+  32:15 The Two Types of Deals You Want To Do In VC
+  37:18 The Importance of Founder/Capital Fit
+  40:20 Multiple Successive Rounds Are Dangerous… Here is Why?
+  44:01 The Importance of Ownership in Deals
+  57:19 Is Triple, Triple, Double, Double Dead?
+  58:46 Advice on Selling Companies
+  01:08:42 Quick-Fire Round
+  01:13:26 What is the Future of Venture Capital
+  -----------------------------------------------
+  
+  Subscribe on Spotify:
+  https://open.spotify.com/show/3j2KMcZTtgTNBKwtZBMHvl?si=85bc9196860e4466
+  
+  Subscribe on Apple Podcasts:
+  https://podcasts.apple.com/us/podcast/the-twenty-minute-vc-20vc-venture-capital-startup/id958230465
+  
+  Follow Harry Stebbings on X:
+  https://twitter.com/HarryStebbings
+  
+  Follow Alex Rampell on X:
+  https://twitter.com/arampell
+  
+  Follow 20VC on Instagram:
+  https://www.instagram.com/20vchq
+  
+  Follow 20VC on TikTok:
+  https://www.tiktok.com/@20vc_tok
+  
+  Visit our Website:
+  https://www.20vc.com
+  
+  Subscribe to our Newsletter:
+  https://www.thetwentyminutevc.com/contact
+  -----------------------------------------------
+  
+  #20vc #harrystebbings #alexrampell #a16z #vc #founders #revenue #megafunds #investing
 tldr: |
   Alex Rampell explores the shifting venture landscape, arguing that the best founders 'materialize' labor, capital, and customers through high agency and domain expertise. 
   - **Hostages vs. Customers:** The most enduring software companies turn users into 'hostages' via high switching costs.

@@ -13,6 +13,48 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/BVJUmJKrZKA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=BVJUmJKrZKA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Mig Reyes is the VP of Product Experience at Duolingo (and a design director at Instagram before that).
+  
+  In this episode he shared a behind-the-scenes of how design operates at Duolingo (as well as some harsh truths designers need to hear).
+  
+  - Common portfolio review mistakes
+  - How communication skills build influence
+  - Mig’s strategy behind hiring junior designers
+  - How to succeed in executive product reviews
+  - Mig’s mandate to raise the design bar at Duolingo
+  - How Mig revamped design management at Duolingo
+  - Why Duolingo changed from “UX” to “Product Experience”
+  - + a *lot* more
+  
+  - Jacob Nielsen (commented on LinkedIn post)(https://www.linkedin.com/in/jakobnielsenphd?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+  - Brett Westervelt (VP of Design at Instagram) (https://x.com/westervelt?lang=en)
+  - Ryan Sims (Chief Design Officer at Duolingo) (https://x.com/simmy?lang=en)
+  - Luis (CEO of Duolingo) (https://x.com/LuisvonAhn)
+  - Companies mentioned: Instagram, Airbnb, Coinbase, Meta, OpenAI, Figma
+  
+  Chapters
+  0:00 Intro
+  1:41 Why Duolingo went away from the label "UX"
+  11:08 The mandate leadership gave Miggi
+  13:52 Reshaping design management at Duolingo
+  17:52 What it looks like to be an exceptional design manager
+  22:00 Duolingo's strategy of hiring lots of junior talent 
+  26:03 How early career designers grow at Duolingo 
+  30:18 What makes for a great design community
+  34:24 How to succeed in product reviews
+  37:22 How Mig has evolved the way he gives feedback
+  43:19 How to get really good at communication
+  49:06 What designers need to hear about hiring
+  52:15 Where designers go wrong in portfolio reviews
+  
+  
+  Dive is where the best designers never stop learning 🤿
+  
+  🌐 dive.club
+  🐦 twitter.com/joindiveclub
+  
+  Now you can join advanced courses taught by the top designers to help you take a huge leap forward in your career 💪
 tldr: |
   Mig Reyes, VP of Product Experience at **Duolingo**, argues that **UX design** is an archaic term, urging a shift toward **product ownership** where high-level craft and business metrics coexist. 
   - **Visual design** is the primary filter in hiring; if execution is weak, the candidate is dismissed.

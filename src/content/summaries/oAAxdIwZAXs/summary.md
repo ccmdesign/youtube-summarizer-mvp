@@ -13,6 +13,29 @@ category: "geopolitics"
 thumbnailUrl: "https://i.ytimg.com/vi/oAAxdIwZAXs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=oAAxdIwZAXs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  There's a point in many nations' timelines where the per capita income stalls. This is known as the middle-income trap...
+  
+  Join the Patreon here: https://www.patreon.com/PeterZeihan
+  
+  Full Newsletter: https://mailchi.mp/zeihan/avoiding-the-middle-income-trap
+  
+  Where to find more?
+  Join the Patreon: https://www.patreon.com/PeterZeihan
+  Subscribe to the Newsletter: https://bit.ly/3NyQu4l
+  Subscribe to the YouTube Channel: https://bit.ly/3Ny9UXb
+  Listen to the Podcast: https://spoti.fi/3iJyNEe
+  Zeihan on Geopolitics website: https://zeihan.com/
+  Purchase the Webinars Here: https://zeihan-on-geopolitics.myshopify.com/collections/all
+  
+  Where to find me on Social Media?
+  Patreon: https://bit.ly/3ZKMm9D
+  Twitter: https://bit.ly/3E1E95D
+  LinkedIn: https://bit.ly/3zJAW8b
+  Instagram: http://bit.ly/3IW2mgp
+  Facebook: http://bit.ly/3ZIAjHk
+  
+  #income #economy #manufacturing
 tldr: |
   Countries often stall at the $10,000–$12,000 income per person threshold due to the **middle-income trap**.
   - Transitioning to advanced status requires three core pillars: **open capital markets**, **creative education**, and the **Rule of Law**.

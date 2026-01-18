@@ -11,6 +11,30 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/pdQTLbPAkgc/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=pdQTLbPAkgc"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Solo Building an AI Native Business: Viral Success and More Building (Week 2)
+  
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+  
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+  
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+  
+  Business Inquiries:
+  kbfseo@gmail.com
+  
+  00:00 Intro
+  01:07 Revenue January Reveal
+  03:01 Viral AI YT Short
+  04:27 Claude Code Email Agent
+  11:40 Gmail Agent Test
+  13:31 Claude Cowork Test
+  18:23 AI Video Workflow
+  20:44 Qwen3-VL Embeddings
+  23:31 Marketing & Outro
 tldr: |
   Building AI-native micro-businesses requires mastering the attention economy and agentic tools:
   - **Viral Growth:** A new AI-automated Shorts channel achieved 500k views in 15 hours, demonstrating massive reach potential.

@@ -13,6 +13,40 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/PQhcHrCyU8M/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=PQhcHrCyU8M"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Ryo Lu spent years watching his designs die in meetings. Then he discovered the tool that lets designers ship code at the speed of thought: Cursor, the company where Ryo is now Head of Design. In this episode, a16z General Partner Jennifer Li sits down with Ryo to discuss why "taste" is the wrong framework for understanding the future, why purposeful apps are "selfish," how System 7 holds secrets about AI interfaces, and the radical bet that one codebase can serve everyone if you design the concepts right instead of the buttons.
+  
+  Timecodes
+  00:00 - Introduction
+  01:45 - Design Becomes Approachable to Everyone
+  02:36 - From Years to Minutes: Product Feedback Loops Collapse
+  07:54 - "Each role used their own tool...their own lingo"
+  13:15 - "If you don't have an opinion, you’ll get AI slop"
+  17:18 - The Lost Art of Being a Complete Builder
+  21:42 - Design Is Not About Aesthetics
+  28:57 - User-Centric vs System-Centric Philosophy
+  34:00 - AI as Universal Interface, Not Chat Box
+  38:42 - "Simplicity is the Biggest Constraint"
+  43:42 - "I Don't Sit in Figma All Day Making Mocks"
+  46:33 - RyoOS: Building A Personal Operating System
+  48:45 - "We've been doing the same thing since 1984"
+  
+  Follow Ryo Lu on X: https://x.com/ryolu_
+  Check Out Ryo’s Website: 
+  Follow Jennifer Li on X: https://x.com/JenniferHli
+  Follow Erik Torenberg on X: https://x.com/eriktorenberg
+  
+  Stay Updated:
+  If you enjoyed this episode, be sure to like, subscribe, and share with your friends!
+  
+  Find a16z on X: https://x.com/a16z
+  Find a16z on LinkedIn: https://www.linkedin.com/company/a16z
+  
+  Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX
+  
+  Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711
+  
+  Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures.
 tldr: |
   Main insight here:
   - **AI agents are collapsing traditional software silos** by enabling designers and PMs to interact directly with the codebase, the "ultimate truth" of software.

@@ -11,6 +11,44 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/M9TJizOxNFk/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=M9TJizOxNFk"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  My site: https://natebjones.com
+  Full Story w/ Prompts: https://natesnewsletter.substack.com/p/two-ai-strategies-are-competing-for?r=1z4sm5&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true
+  _______________________
+  
+  What's really happening with AI strategy in 2026? The common story is that one company cares about safety and one does not — but the reality is more complicated.
+  
+  In this video, I share the inside scoop on why OpenAI and Anthropic have diverged so completely:
+  
+   • Why Sam Altman and Dario Amodei have fundamentally different theories of safety
+   • How YC training shaped OpenAI's ship-fast philosophy
+   • What Anthropic's scientist-founder learned from personal tragedy
+   • Why we're now in two AI economies, not one
+  
+  Both leaders believe safety matters. Sam believes safety emerges from deployment — the public teaches you what internal testing cannot. Dario believes safety is a precondition — you prove it works before putting it in people's hands. These different epistemologies have produced entirely different products.
+  
+  For professionals choosing their AI tools, the question is no longer which model is better — it's what kind of work you're doing.
+  
+  Chapters:
+  00:00 Two theories of how to build AI safely
+  01:59 Stop asking which model is better
+  02:21 The paths forked and kept forking
+  03:30 Dario Amodei: the scientist who became an entrepreneur
+  04:38 The Princeton tragedy that shaped everything
+  05:51 Sam Altman: the entrepreneur who became a tech leader
+  07:51 Different theories of how progress happens
+  09:30 Sam's YC framework applied to AI safety
+  10:47 Dario's safety as precondition philosophy
+  13:10 What happened when Google launched Gemini
+  14:53 Dario's first attempt at an AI safety company
+  15:26 Intelligence as vertical vs horizontal interface
+  17:36 ChatGPT as consumer super app
+  18:28 Two AI economies operating under different rules
+  20:47 Codex vs Claude Code: different visions for engineers
+  22:38 Stop asking which AI is better
+  
+  Subscribe for daily AI strategy and news.
+  For deeper playbooks and analysis: https://natesnewsletter.substack.com/
 tldr: |
   The AI industry has split into two distinct philosophies based on its leaders' backgrounds:
   • **Sam Altman (OpenAI)** applies a Y Combinator "ship-and-iterate" model, treating the public as a red team to build a consumer super-app.

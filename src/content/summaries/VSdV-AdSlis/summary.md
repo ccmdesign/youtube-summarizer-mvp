@@ -11,6 +11,11 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/VSdV-AdSlis/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=VSdV-AdSlis"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Implementing secure identity and access management for AI agents with Okta!
+  
+  https://www.linkedin.com/in/patmriley/
+  https://www.linkedin.com/posts/cgcladera_auth0-for-ai-agents-secure-agentic-apps-activity-7399029829565579264-9Gdf/
 tldr: |
   Auth0's Patrick Riley and Carlos Galan present a framework for securing **AI agents** by evolving traditional identity protocols. 
   - **Token Vault** manages upstream API access securely.

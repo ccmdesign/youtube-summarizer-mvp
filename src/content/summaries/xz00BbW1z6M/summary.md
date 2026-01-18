@@ -13,6 +13,16 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/xz00BbW1z6M/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=xz00BbW1z6M"
 modelUsed: "gemini-2.5-flash"
+description: |
+  Ready to become a certified watsonx AI Assistant Engineer? Register now and use code IBMTechYT20 for 20% off of your exam → https://ibm.biz/BdbtwX
+  
+  Learn more about LangFlow here → https://ibm.biz/BdbtwH
+  
+  What if building AI workflows was as simple as drag-and-drop? 🚀 David Jones-Gilardi introduces Langflow, the open-source tool for creating Agentic RAG, Generative AI, and MCP workflows. 🔥 See how Langflow empowers developers to integrate AI models and tools, all without endless coding!
+  
+  AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → https://ibm.biz/Bdb6T9
+  
+  #langflow #generativeai #python #aiworkflow
 tldr: |
   Langflow is an open-source visual studio enabling developers to **rapidly build agentic RAG and gen AI workflows** via a drag-and-drop, low-code interface. Key features include:
   - **Model/vector store agnosticism** with broad provider support.

@@ -13,6 +13,8 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/AY6-bCihqf8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=AY6-bCihqf8"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  This is a video about Vibe Coding by Steve Yegge & Gene Kim
 tldr: |
   Vibe coding is the evolution from manual syntax-wrangling to AI-orchestrated software creation.
   - **FO Framework**: Projects become Faster, Ambitious, Autonomous, Fun, and Optional.

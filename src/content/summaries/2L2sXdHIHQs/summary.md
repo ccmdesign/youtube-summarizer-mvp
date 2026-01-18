@@ -11,6 +11,25 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/2L2sXdHIHQs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=2L2sXdHIHQs"
 modelUsed: "openrouter/deepseek/deepseek-r1-0528:free"
+description: |
+  Community isn’t a “nice to have.” It’s the hardest — and most powerful — marketing advantage you can build.
+  
+  In this video, I break down why brands like Apple and Nike don’t panic over algorithm changes, rising ad costs, or platform shifts. They don’t rent attention — they own relationships.
+  
+  Most companies think they’re building community when they’re really just collecting followers, Slack members, or Discord sign-ups that never interact. Real community is different. It compounds over time, lowers customer acquisition costs, increases retention, and becomes a competitive moat your competitors can’t copy.
+  
+  I walk through the exact framework for building a community that actually works — without hype, parties, or vanity metrics.
+  
+  In this video, you’ll learn:
+  
+  -Why audiences are rented but communities are owned
+  - The WordPress model most marketers completely ignore
+  - How to define a shared problem instead of promoting your product
+  - Why small, recurring gatherings beat big events every time
+  - How to create member-to-member value (not a fan club)
+  - Why difficulty is the entire point — and the advantage
+  
+  If you want a marketing strategy that survives algorithm changes and compounds long-term, this is where it starts.
 tldr: |
   Top brands like Apple and Nike bypass algorithm dependence by building genuine communities where members solve shared problems—reducing acquisition costs and boosting retention through 3 steps: define a shared challenge, host small recurring gatherings, and facilitate member-to-member value creation.
 # Video Taxonomy

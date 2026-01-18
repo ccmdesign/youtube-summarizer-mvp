@@ -11,6 +11,17 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/9UWShopAFaE/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=9UWShopAFaE"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Recent enterprise surveys show CEOs taking direct control of AI strategy as investments rise and ROI horizons shorten. Agent deployments are moving from experimentation to production while complexity, governance and cybersecurity challenges grow. Surveyed leaders report new AI-specific roles, shifting hiring priorities, and a move toward orchestrated agent ecosystems that demand CEO-led transformation.
+  
+  Brought to you by:
+  KPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.
+  Vanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw 
+  
+  The AI Daily Brief helps you understand the most important news and discussions in AI. 
+  Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614
+  Get it ad free at 
+  Join our Discord: https://bit.ly/aibreakdown
 tldr: |
   Recent enterprise surveys reveal a massive shift toward **CEO-led AI strategy**, moving ownership away from IT departments. 
   - **ROI expectations** have accelerated, with 63% of leaders now expecting returns within 1–3 years.

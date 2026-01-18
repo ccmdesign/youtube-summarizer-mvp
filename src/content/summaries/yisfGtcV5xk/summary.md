@@ -13,6 +13,56 @@ category: "yy"
 thumbnailUrl: "https://i.ytimg.com/vi/yisfGtcV5xk/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=yisfGtcV5xk"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  In this “Ask Me Anything” (AMA) episode, Peter brings together his most up-to-date thinking on cardiorespiratory fitness into a single, practical guide designed to help listeners structure training for maximal impact on healthspan, lifespan, and long-term independence. He explains why cardiorespiratory fitness is one of the strongest modifiable predictors of longevity, clarifies what zone 2 training actually represents and how it differs from higher-intensity work, and addresses persistent confusion around exercise volume, intensity, and time constraints. The discussion covers how to measure and track progress in zone 2, VO₂ max targets and age-adjusted goals, planning for the marginal decade, and how to balance zone 2 with higher-intensity training across different weekly volumes. Peter also outlines how cardio training should be tailored for beginners, experienced trainees, and older adults, with special considerations for women and guidance on avoiding the most common cardio-training mistakes.
+  
+  View show notes here: https://bit.ly/3NFJUwQ
+  Become a member to receive exclusive content: https://peterattiamd.com/subscribe/
+  Sign up to receive Peter's email newsletter: https://peterattiamd.com/newsletter/
+  
+  00:10 - Rational for discussing cardiorespiratory fitness, zone 2, & VO₂ max despite having covered the topic extensively
+  05:54 - Why cardiorespiratory fitness & VO₂ max are powerful & modifiable predictors of all-cause mortality compared with other health metrics
+  11:40 - How age-related declines in VO₂ max constrain healthspan & everyday physical function
+  13:25 - The cardiorespiratory fitness triangle: how different training intensities contribute to building the aerobic base, the aerobic peak, & overall aerobic capacity
+  18:50 - The cellular mechanics of cardiorespiratory fitness: mitochondria, lactate, muscle fiber recruitment, & intensity thresholds
+  28:34 - The debate over whether zone 2 training has unique benefits or whether higher-intensity exercise alone is sufficient
+  34:20 - Balancing intensity & sustainability as training volume increases, & the important role of zone 2 training
+  
+  In the full episode, we also discuss:
+  How to identify, measure, & track improvements for your zone 2 training & VO2 Max
+  How to set meaningful VO₂ max targets based on age, sex, & desired physical capabilities later in life
+  How to structure & execute a zone 2 workout and VO2 max workout
+  How to balance zone 2 & VO₂ max training
+  How to structure training for someone limited to 150 minutes per week of total exercise
+  Why spreading aerobic training across the week beats compressing volume into one session
+  How beginners & metabolically unhealthy individuals should start cardiorespiratory training
+  How “training age” determines the intensity & workload needed to continue improving cardiorespiratory fitness
+  Why zone 2 training still matters for women (including postmenopausal women)
+  How cardiorespiratory training should adapt with aging
+  The most common mistakes people make; and
+  More.
+  
+  --------
+  About:
+  
+  The Peter Attia Drive is a deep-dive podcast focusing on maximizing longevity, and all that goes into that from physical to cognitive to emotional health. With over 90 million episodes downloaded, it features topics including exercise, nutritional biochemistry, cardiovascular disease, Alzheimer’s disease, cancer, mental health, and much more.
+  
+  Peter Attia is the founder of Early Medical, a medical practice that applies the principles of Medicine 3.0 to patients with the goal of lengthening their lifespan and simultaneously improving their healthspan. 
+  
+  Learn more: https://peterattiamd.com
+  
+  Connect with Peter on:
+  Facebook: http://bit.ly/PeterAttiaMDFB
+  Twitter: http://bit.ly/PeterAttiaMDTW
+  Instagram: http://bit.ly/PeterAttiaMDIG
+  
+  Subscribe to The Drive:
+  Apple Podcast: http://bit.ly/TheDriveApplePodcasts
+  Overcast: http://bit.ly/TheDriveOvercast
+  Spotify: http://bit.ly/TheDriveSpotify
+  Google Podcasts: http://bit.ly/TheDriveGoogle
+  
+  Disclaimer: This podcast is for general informational purposes only and does not constitute the practice of medicine, nursing, or other professional healthcare services, including the giving of medical advice. No doctor-patient relationship is formed. The use of this information and the materials linked to this podcast is at the user's own risk. The content on this podcast is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Users should not disregard or delay in obtaining medical advice for any medical condition they have, and they should seek the assistance of their healthcare professionals for any such conditions. I take conflicts of interest very seriously. For all of my disclosures and the companies I invest in or advise, please visit my website where I keep an up-to-date and active list of such companies. For a full list of our registered and unregistered trademarks, trade names, and service marks, please review our Terms of Use: https://peterattiamd.com/terms-of-use/
 tldr: "Cardiorespiratory fitness (CRF), measured via VO2 max and Zone 2 efficiency, is the strongest modifiable predictor of all-cause mortality, surpassing markers like smoking and cholesterol. Dr. Peter Attia argues that while high-intensity training is efficient for those with limited time, a high volume of Zone 2 training is essential for building the metabolic base required for longevity."
 # Video Taxonomy
 lengthCategory: "longform"

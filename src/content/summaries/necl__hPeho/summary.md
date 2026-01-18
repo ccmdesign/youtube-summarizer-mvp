@@ -13,6 +13,48 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/necl__hPeho/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=necl__hPeho"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  From Chaos to System: Structured AI Development Workflows
+  
+  Hit context limits mid-task? Lose project context when switching features? There's a better way.
+  
+  Claude Code Plugins transforms AI-assisted development from chaotic conversations into structured, repeatable workflows.
+  
+  🎯 THE PROBLEM
+  • Context window limits force conversation restarts
+  • No systematic approach to complex features
+  • Quality inconsistencies
+  • Knowledge doesn't persist across sessions
+  
+  ⚡ THE SOLUTION
+  Structured workflow framework with:
+  ✅ 30+ commands across 5 plugins
+  ✅ Persistent memory management
+  ✅ Quality automation (safe commits, validation gates)
+  ✅ MCP integration (70-90% token reduction)
+  
+  📦 CORE PLUGINS
+  • Workflow: explore → plan → next → ship
+  • Development: analyze, test, fix, run, review
+  • Memory: Persistent context management
+  • Git: Safe version control
+  • Core: System utilities
+  
+  🚀 QUICK START
+  1. Install: github.com/applied-artificial-intelligence/claude-code-plugins
+  2. Configure your project
+  3. Run: /explore → /plan → /next → /ship
+  
+  Battle-tested on:
+  • 500+ page technical books
+  • Quantitative research infrastructure
+  • Full-stack applications
+  
+  📚 FREE & OPEN SOURCE
+  MIT License - Free for personal and commercial use
+  Full documentation, tutorials, examples included
+  
+  #ClaudeCode #AIAssistedDevelopment #DeveloperTools #OpenSource #WorkflowAutomation
 tldr: |
   The Four-Phase AI Coding Workflow:
   - **Explore & Plan**: Use `/explore` and `/pl` to create a persistent implementation blueprint and `exploration.md` file.

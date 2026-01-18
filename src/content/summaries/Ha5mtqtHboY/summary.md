@@ -11,6 +11,9 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/Ha5mtqtHboY/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=Ha5mtqtHboY"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Get 30 Days Of Waking Up Free
+  https://www.wakingup.com/makingsense
 tldr: "Reclaim your attention by treating your smartphone as a tool rather than a source of entertainment; disable non-human notifications and use intentionality to break reactive dopamine loops."
 ---
 

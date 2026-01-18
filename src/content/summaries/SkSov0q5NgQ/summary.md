@@ -13,6 +13,71 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/SkSov0q5NgQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=SkSov0q5NgQ"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  💫 Download my Protein PlayBook (women 40+): https://cleananddelicious.kit.com/bc171d509e 💫
+  5 protein-packed breakfasts, powders that actually taste good, and a printable protein food list - all in one place!
+  
+  This rich, creamy chocolate cottage cheese mousse is a delicious, high-protein dessert that's low in sugar and low in calories. Made with just a handful of simple, wholesome ingredients (including cottage cheese for that silky, high-protein base), it comes together in minutes and satisfies any chocolate craving.
+  
+  Perfect for a healthy dessert, an afternoon treat, or a post-dinner sweet that fits into your clean-eating lifestyle. You’ll never believe this dreamy, high-protein mousse is actually good for you!
+  
+  As a 50-year-old health, weight-loss, and eating psychology coach who loves to eat, I’m all about helping you make healthy eating easy while building a mindset and lifestyle that aligns with your goals. 
+  
+  👉🏻 Sign up for my emails (& never miss a recipe or inside tip!): https://cleananddelicious.ck.page/weeklynewsletter
+  
+  🖨️ Print the Recipe HERE: https://cleananddelicious.com/double-chocolate-cottage-cheese-mousse/
+  
+  📚 Order my Clean & Delicious Cookbook: https://amzn.to/3oxfBMS
+  
+  🍲 Favorite Foods & Kitchen Tools:
+  My Kitchen Knife: https://amzn.to/3MVREVT
+  Favorite Sea Salt: https://amzn.to/3Qr6Mzt
+  4-Ounce Mason Jar: https://amzn.to/4i8d3fk
+  Mini Food Processor: https://amzn.to/48mkEDT
+  Lily's Chocolate Chips: https://amzn.to/4a5t6IV
+  
+  💛 Let's Connect:
+  Website: https://cleananddelicious.com/
+  Instagram:  https://www.instagram.com/clean_and_delicious/
+  Facebook:  https://www.facebook.com/CleanAndDeliciousWithDaniSpies/
+  Pinterest:  https://www.pinterest.com/danispies/
+  Twitter:  https://twitter.com/DaniSpies
+  
+  Timestamp
+  0:00 Open
+  0:17 Intro
+  0:29 Ingredient Rundown
+  1:17 Combining the Ingredients
+  3:25 One of My Favorite Chocolate Chips
+  4:08 Blend It Up
+  5:46 Serving and Storing
+  7:46 Enjoy!
+  
+  
+  HIGH-PROTEIN DOUBLE CHOCOLATE COTTAGE CHEESE MOUSSE
+  1 cup + 2 tablespoons (250 g) cottage cheese (full-fat or low-fat)
+  1.5 tablespoons (7.5 g) cocoa powder
+  1 teaspoon vanilla extract
+  2 tablespoons (30 g) chocolate chips (I use Lily’s low-sugar chips)
+  
+  Optional toppings:
+  Toppings: Greek yogurt, whipped cream, shaved chocolate, cacao nibs, or mini chocolate chips!
+  
+  INSTRUCTIONS:
+  Add the cottage cheese, cocoa powder, and vanilla extract to a food processor or high-speed blender. Blend everything, scraping down the sides as needed, until the mixture is silky smooth.
+  
+  Melt chocolate in the microwave in 20-second increments, stirring in between to ensure it doesn’t burn (it’s ok to remove when there’s a bit of unmelted chocolate left, stir it, and the residual heat will finish the melting without burning).
+  
+  Add the melted chocolate to the food processor (or blender) and blend again until combined.
+  Divide between two 4-ounce mason jars, pop on the lids, and refrigerate for at least 1 hour.
+  
+  Serve with a dollop of Greek yogurt and some shaved chocolate or mini chips and enjoy!
+  
+  Makes 2 servings | Nutrition Per Serving:
+  Calories: 211 | Carbohydrates: 20g | Protein: 18g | Fat: 12g | Fiber: 8g | Sugar: 4g
+  
+  Disclaimer: Product links may include affiliate links.
+  #chocolatemousse #highproteindessert #healthydessert #cottagecheesemousse #cleaneating #proteinrecipes #danispies
 tldr: |
   Create a high-protein chocolate mousse using a simple 4-ingredient cottage cheese base:
   - **Blend** 250g cottage cheese with cocoa powder, vanilla, and melted sugar-free chocolate chips.

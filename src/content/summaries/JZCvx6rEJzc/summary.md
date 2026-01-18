@@ -13,6 +13,26 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/JZCvx6rEJzc/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=JZCvx6rEJzc"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  #AI, #AndrewNg, #UnstructuredData, #PDFExtraction, #AIAutomation, #WorkflowAutomation, #DataLayer, #EnterpriseAIStrategy, #AIAdoption, #ProductivityInnovation
+  
+  ▶ Guest:  Andrew Ng / Founder of Google Brain
+  
+  ▶ Youtube Chapter
+  00:00 Context
+  00:59 PDFs, The New Goldmine of the AI Era
+  02:10 What matters more than cost: real user-needed features
+  03:27 Own your data layer
+  
+  Original Video Link : https://youtu.be/-HWNc-Hd90U?list=TLGG4xaEHLIAfO4wMzEyMjAyNQ
+  
+  If you are B2B Tech Vendor who is willing to activate Korean market,
+  we can help you for attravtive contents productio and an effective webinar.
+  ▶️ e-mail:  talkit@talkit.tv 
+  
+  TalkIT is the #1 B2B Tech webinar platform in Korea and we have B2B Tech youtube channel. 
+  ▶️ Korean Youtube channel: https://www.youtube.com/c/Talkitonair
+  ▶️ Korean webinar platform:  https://TalkIT.tv
 tldr: |
   Andrew Ng identifies **PDF files** as the single most valuable form of "dark data" for enterprise AI. 
   - **Agentic document extraction** is the key to unlocking structured value from these archives

@@ -13,6 +13,18 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/TJ-vWGCosdQ/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=TJ-vWGCosdQ"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Paper: https://arxiv.org/abs/2511.09030
+  
+  A revolutionary paper just dropped (November 2025) that changes everything we know about building AI Agents. We’ve been obsessed with bigger context windows and smarter models, but the "MAKER Framework" proves we were wrong.
+  This breakdown explains how researchers achieved 1,000,000 logical steps with ZERO errors using "dumb" models and a brilliant new architecture.
+  
+  In this video:
+  Why your agents fail at long tasks (The Math of Failure).
+  The "MAKER" Framework explained visually.
+  Why "Stateless" agents beat long-context models.
+  The Scaling Law: Why Small Models + Voting is cheaper than GPT-4.
+  #AI #LLM #MachineLearning #Agents #SoftwareArchitecture #gemini-3
 tldr: |
   The MAKER framework enables LLMs to complete 1M+ steps with zero errors by treating agents as stateless functions. Key techniques include:
   - **Maximal Decomposition**: Removing chat history to prevent context drift.

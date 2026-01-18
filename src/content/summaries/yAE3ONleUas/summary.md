@@ -13,6 +13,34 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/yAE3ONleUas/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=yAE3ONleUas"
 modelUsed: "gemini-2.5-flash"
+description: |
+  ⚡Build Your AI Agency & Land Your First Client ⚡
+  https://www.skool.com/chase-ai
+  
+  🔥 FREE Skool community with 100+ Templates! 🔥 
+  https://www.skool.com/chase-ai-community
+  
+  💻 Need custom work? Book a consult 💻
+  https://chaseai.io
+  
+  In this video, I break down what a Ralph Loop is, why the Claude Code Ralph Loop plugin misses the mark, and how to create your own Ralph loops inside of Claude Code.
+  
+  Shoutout to the Ralph creator: https://www.youtube.com/@UCZxTgsCnBrKi6QBW9srZzWQ 
+  
+  ⏰TIMESTAMPS:
+  0:00 - The Hype
+  0:50 - What is a Ralph Loop
+  8:34 - Ralph Loop In Practice
+  14:03 - Final Thoughts
+  
+  RESOURCES FROM THIS VIDEO:
+  ➡️ Get started with n8n: https://n8n.partnerlinks.io/bfumg8i8y8nc
+  ➡️ Learn More About AI Agents: https://www.skool.com/chase-ai
+  ➡️ My Website: https://www.chaseai.io
+  ➡️ OG Ralph GH: https://github.com/snarktank/ralph
+  ➡️ CC Ralph Plugin: https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
+  
+  #ai #claudecode #ralph
 tldr: |
   The "Ralph Wiggum plugin" for Cloud Code is *not* the true Ralph Loop. The **original Ralph Loop** requires starting a **new session** with a **fresh context window** for each task to avoid **context rot**, ensuring optimal LLM performance. The plugin fails to do this, leading to diminished effectiveness by staying in a single, increasingly burdened context.
 # Video Taxonomy

@@ -13,6 +13,32 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/fY3-YeveBgA/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=fY3-YeveBgA"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  In this video, I look at the recent release of Qwen3 VL embeddings and re-rankers and look at how multimodal embeddings work, including a code example. 
+  
+  Blog: https://qwen.ai/blog?id=qwen3-vl-embedding
+  HF: https://huggingface.co/collections/Qwen/qwen3-vl-embedding
+  Colab: https://dripl.ink/ReqOF
+  
+  For more tutorials on using LLMs and building agents, check out my Patreon
+  Patreon: https://www.patreon.com/SamWitteveen
+  Twitter: https://x.com/Sam_Witteveen
+  
+  🕵️ Interested in building LLM Agents? Fill out the form below
+  Building LLM Agents Form: https://drp.li/dIMes
+  
+  👨‍💻Github:
+  https://github.com/samwit/llm-tutorials
+  
+  ⏱️Time Stamps:
+  00:00 Intro
+  00:47 Embeddings Refresher
+  04:40 Qwen3-VL-Embeddings and Rerankers Blog
+  05:57 Key Features
+  06:42 Qwen3-VL Embeddings and Qwen3-VL Rerankers
+  08:55 MMEB Leaderboard
+  09:47 Use Cases
+  10:48 Colab Demo
 tldr: |
   Qwen3 VL embedding models (2B and 8B) enable true multimodal RAG by mapping text, images, and video into the same semantic vector space.
   - **Top Benchmark Performance**: Qwen3 8B currently leads the MMEB leaderboard for multimodal embeddings.

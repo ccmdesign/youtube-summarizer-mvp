@@ -13,6 +13,23 @@ category: "personal"
 thumbnailUrl: "https://i.ytimg.com/vi/qd7V36-UJrw/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=qd7V36-UJrw"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Stop drowning in bookkeeping. HelloBooks AI handles transaction categorization, document processing, and compliance; so you can focus on growing your business.
+  
+  Features:
+  • Auto-categorizes transactions using AI that learns your patterns
+  • Extracts invoice data in seconds — no manual entry
+  • Syncs with QuickBooks, Xero, and Tally
+  • Handles GST, VAT, and tax compliance across 7 countries
+  • Generates financial reports in one click
+  
+  Built for businesses operating globally — Countries like US, UK, Australia, Canada, India, Singapore, UAE and many more.
+  
+  Try HelloBooks AI → https://hellobooks.ai
+  
+  
+  
+  #accounting #ai #bookkeeping #aiaccounting #aiagentaccountant #startup #fintech
 tldr: |
   HelloBooks.ai is an AI-first bookkeeping platform that automates manual accounting tasks for SMBs and startups.
   - **Efficiency Gains**: Reduces bookkeeping time by over 60% through automated categorization and reconciliation.

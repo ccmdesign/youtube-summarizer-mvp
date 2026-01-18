@@ -13,6 +13,27 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/eLDq5TfIHys/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=eLDq5TfIHys"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  In this video, Claude finally shows how to fix basic AI-designed UIs using powerful Claude Skills inside Claude Code. I also test Claude AI in real projects, using Claude Code VSCode setups to see how creative it can actually get.
+  
+  🔗 Resources Mentioned
+  
+  Improving Front-End Design Through Skills
+  https://www.claude.com/blog/improving-frontend-design-through-skills
+  
+  Claude Skills Explained
+  https://www.claude.com/blog/skills-explained
+  
+  Web Artifacts Builder Skill (GitHub)
+  https://github.com/anthropics/skills/blob/main/web-artifacts-builder/SKILL.md
+  
+  In this video, we take a deep dive into how Claude approaches front-end design and why so many AI-generated UIs still look basic. Using Claude Skills, Claude Code, and the new design-focused features from Claude AI, I break down how you can push your AI to create genuinely aesthetic layouts instead of the usual safe, generic outputs.
+  
+  We explore real examples, test Skills inside actual projects, and compare how these instructions reshape everything—from typography to themes, gradients, and component structure. If you're into AI coding, vibe coding, or building full projects with an AI partner, this video shows how far you can push design quality with the right system prompts.
+  
+  You'll also see how Claude behaves inside Claude Code VSCode, what works, what breaks, and how the MCP ecosystem ties into all of this. I also compare Claude vs ChatGPT and explain how tools like Claude Code MCP and Claude MCP help load specialized expertise exactly when the model needs it.
+  
+  Whether you’re experimenting with AI tools, exploring new artificial intelligence workflows, or just want to learn how to use Claude for front-end design, this breakdown shows how the new Claude 4 models actually perform when put to the test.
 tldr: |
   Claude's new **Skills** feature addresses the "AI slop" problem in UI design caused by **distributional convergence**. 
   - **Modular expertise** allows Claude to load high-level design principles (typography, themes) only when needed.

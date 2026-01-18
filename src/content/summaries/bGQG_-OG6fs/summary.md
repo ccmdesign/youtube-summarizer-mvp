@@ -13,6 +13,24 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/bGQG_-OG6fs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=bGQG_-OG6fs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  It feels like online marketing changes every day.
+  
+  New growth hacks emerge, and old tactics fade off in the distance.
+  
+  Our daily tactics shift because consumer behaviors shift.
+  
+  People get tired of the same-old same-old.
+  
+  They start ignoring the same ad they’ve seen multiple times. They start ignoring the same old e-book lead magnet that they’ve seen for nearly a decade.
+  
+  Thankfully, there are actually still a few constants. There are some underlying principles that will continue to stick around despite how often the tactics change.
+  
+  The future of online marketing will be a combination of the most successful techniques of the past mixed with the growing need to personalize everything.
+  
+  ►Subscribe: https://goo.gl/ScRTwc to learn more secret SEO tips.
+  Find me on Facebook: https://www.facebook.com/neilkpatel/
+  Read more on my blog: https://neilpatel.com/blog
 tldr: |
   Neil Patel argues that the future of marketing relies on an **omnichannel approach** and aggressive **conversion rate optimization (CRO)** as traditional channels become saturated.
   - **Personalization and user metrics** (like CTR and comments) are the primary signals for beating search and social algorithms.

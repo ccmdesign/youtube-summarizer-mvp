@@ -13,6 +13,35 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/VmP6YS7uaf4/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=VmP6YS7uaf4"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Most marketers think the Gemini vs ChatGPT debate is about which AI writes better copy. It’s not. This is a platform war, not a chatbot comparison—and the decision you make now affects cost, speed, leverage, and long-term growth.
+  
+  In this video, I break down why Google Gemini has structural advantages OpenAI ChatGPT can’t easily replicate: decades of search and behavioral data, native distribution across Search, YouTube, Ads, and Workspace, proprietary TPU hardware, and the ability to subsidize AI pricing to protect Google’s ecosystem.
+  
+  At the same time, ChatGPT is far from obsolete. In practice, the best marketing teams don’t pick sides—they build multi-model workflows.
+  They use Gemini for research, SEO, analytics, and ecosystem-native insights—and ChatGPT for persuasive writing, storytelling, and client-facing communication.
+  
+  The real danger isn’t choosing the “wrong” AI. It’s locking your workflows into a single platform and paying the lock-in tax for years. The next 12 months will decide who stays flexible—and who gets trapped.
+  
+  
+  What You’ll Learn in This Video:
+  
+  - Why Gemini vs ChatGPT is a platform decision, not a copywriting debate
+  - How Google’s data + distribution + hardware create a structural AI advantage
+  - Why Google can subsidize AI pricing in ways OpenAI can’t
+  - Where ChatGPT still clearly outperforms (tone, persuasion, storytelling)
+  - How elite teams design multi-model AI workflows
+  - Why platform lock-in is the biggest hidden risk in AI adoption
+  - How to train teams on AI principles, not just tools
+  - What smart marketers should do right now to stay future-proof
+  
+  Chapters: 
+  
+  00:39 – Chapter 1: The Platform War Nobody Realizes They’re In
+  02:26 – Chapter 2: Why Google Has an Unfair Advantage
+  05:48 – Chapter 3: The Pricing Strategy That Changes Everything
+  08:31 – Chapter 4: The Multi-Model Workflow Winning Teams Use
+  11:35 – Chapter 5: Why the Next 12 Months Will Decide the Next 5 Years
 tldr: |
   Google is positioned for long-term AI dominance due to its massive data moats and proprietary hardware, but the best strategy is remaining **platform agnostic**. 
   - **Structural Advantages**: Google owns the data (Search/YouTube) and the chips (TPUs).

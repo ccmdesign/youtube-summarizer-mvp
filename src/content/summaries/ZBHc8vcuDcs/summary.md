@@ -13,6 +13,32 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/ZBHc8vcuDcs/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=ZBHc8vcuDcs"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  PAID STUFF
+  📲 25-Min AI Strategy Call (Biz Owners/Leaders): https://cal.com/dylan-davis-d04ip9/25-min-ai-strategy-call-biz-owners-leaders?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=ai_strat_call
+  🔍 AI Community: https://community.gradientlabs.co/
+  💪 AI Coaching: https://ai-coaching.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=ai_coaching
+  🛠️ Custom AI Solutions: https://custom-solutions.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=custom_ai_solutions
+  
+  FREE STUFF
+  💌 30-Day AI Insights: https://insights.gradientlabs.co/?utm_source=youtube&utm_medium=video&utm_campaign=GPT5_Trick&utm_content=ai_insights
+  
+  SOCIALS
+  LinkedIn: https://www.linkedin.com/in/dylantdavis/
+  
+  RESOURCES
+  OpenAI Prompt Optimizer: https://platform.openai.com/chat/edit?models=gpt-5
+  Anthropics Prompt Optimizer: https://console.anthropic.com/dashboard
+  Asking ChatGPT to create a prompt: https://chatgpt.com/share/68c2ca06-ebf4-8011-8d66-959e9d2e30cf
+  
+  —
+  Chapters
+  00:00 - Intro
+  00:33 - Simply ask AI
+  04:34 - Reverse AI Interview
+  06:44 - Prompt optimizer tools
+  13:37 - Meta skill
+  14:06 - Outro
 tldr: |
   Stop writing prompts from scratch by using AI to optimize them:
   - Use the **Simple Method** by asking AI to research its own best practices for its specific model version.

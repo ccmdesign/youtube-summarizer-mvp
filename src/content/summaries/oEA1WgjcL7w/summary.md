@@ -13,6 +13,32 @@ category: "ai"
 thumbnailUrl: "https://i.ytimg.com/vi/oEA1WgjcL7w/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=oEA1WgjcL7w"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  Buy the course now: https://agenticjumpstart.com?utm=yt
+  Join the Agentic Jumpstart community: https://discord.gg/JUDWZDN3VT
+  
+  Checkout Automaker.app 
+  https://automaker.app/
+  https://github.com/AutoMaker-Org/automaker
+  
+  ---------
+  
+  Have a video suggestion? Post it here: 
+  https://suggestions.webdevcody.com/
+  
+  My Game
+  https://survivethenightgame.com/
+  
+  My Courses
+  🤖 https://agenticjumpstart.com
+  ⚛️ https://beginner-react-challenges.webdevcody.com
+  
+  Useful Links
+  💬 Discord: https://discord.gg/N2uEyp7Rfu
+  🔔 Newsletter: https://newsletter.webdevcody.com/
+  📁 GitHub: https://github.com/webdevcody
+  📺 Twitch: https://www.twitch.tv/webdevcody
+  🤖 Website: https://webdevcody.com
 tldr: |
   Claude Code **Skills** allow developers to extend the AI's capabilities through specialized directories containing a `skill.md` file. 
   - **Progressive Disclosure** keeps context windows small by only loading deeper documentation or scripts when needed.

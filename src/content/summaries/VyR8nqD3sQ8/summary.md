@@ -11,6 +11,47 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/VyR8nqD3sQ8/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=VyR8nqD3sQ8"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  The one-person business is changing.
+  
+  Eden – The AI canvas & drive: https://eden.so/dan-yt
+  
+  Read my letters on similar topics here: https://letters.thedankoe.com
+  
+  2 Hour Content Ecosystem: https://letters.thedankoe.com/p/how-to-build-a-world-the-2-hour-content
+  
+  The One-Person Business Launchpad: https://letters.thedankoe.com/p/full-course-the-one-person-business
+  
+  Example prompt: https://letters.thedankoe.com/p/a-prompt-to-reset-your-life-in-30
+  
+  If you'd rather watch these on Spotify: https://open.spotify.com/show/3lZRG3LCFZxKkQVSsCwoyN
+  
+  How I use AI better than 99% of people: https://youtu.be/xgpLjLHB5sA
+  
+  ––– My Books –––
+  
+  The Art of Focus: https://theartoffocusbook.com
+  
+  Purpose & Profit: https://thedankoe.com/purpose
+  
+  ––– Socials –––
+  
+  Twitter: https://twitter.com/thedankoe
+  Instagram: https://instagram.com/thedankoe
+  YouTube: https://youtube.com/c/DanKoeTalks
+  LinkedIn: https://linkedin.com/in/thedankoe
+  
+  ––– Chapters –––
+  
+  0:00 Everything is changing
+  1:54 I – The one-person business model is evolving
+  6:58 II – Why info products are dying
+  11:43 III – The future of education products
+  14:19 IV – How this actually works
+  21:29 V – How to build a micro SaaS (non-exhaustive)
+  25:36 VI – How to actually build the software
+  
+  #onepersonbusiness #selfimprovement #skillacquisition
 tldr: |
   The **Value Creator Model** shifts focus from narrow niches to building a personal brand around your own evolution and problem-solving.
   - Master the 'High-Value Trinity' of **Writing, Marketing, and Sales** to remain AI-proof.

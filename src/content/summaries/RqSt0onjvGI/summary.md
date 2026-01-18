@@ -11,6 +11,8 @@ playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
 thumbnailUrl: "https://i.ytimg.com/vi/RqSt0onjvGI/hqdefault.jpg"
 youtubeUrl: "https://www.youtube.com/watch?v=RqSt0onjvGI"
 modelUsed: "gemini-3-flash-preview"
+description: |
+  What is A2UI - AI for UI ? #ui #development #softwaredevelopment #coding #ai #artificialintelligence
 tldr: "A2UI shifts software interaction from static, manual navigation to dynamic, intent-driven interfaces where AI generates or adapts UI components in real-time to fulfill specific user goals."
 ---
 
