@@ -178,6 +178,11 @@ export class ContentWriterService {
       playlistLines.push(`category: "${this.escapeYaml(playlist.category)}"`);
     }
 
+    // Build description line if available
+    const descriptionLine = metadata.description
+      ? `description: |\n${this.formatMultilineYaml(metadata.description)}\n`
+      : '';
+
     return `---
 title: "${this.escapeYaml(metadata.title)}"
 videoId: "${videoId}"
@@ -191,7 +196,7 @@ ${playlistLines.join('\n')}
 thumbnailUrl: "${metadata.thumbnailUrl}"
 youtubeUrl: "https://www.youtube.com/watch?v=${videoId}"
 modelUsed: "${summary.modelUsed}"
-tldr: |
+${descriptionLine}tldr: |
 ${this.formatMultilineYaml(summary.tldr)}
 ${taxonomySection}# AI Processing Metrics
 ${metricsLines.join('\n')}

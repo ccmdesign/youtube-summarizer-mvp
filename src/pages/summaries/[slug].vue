@@ -12,9 +12,9 @@
         </p>
 
         <!-- Video Description Section -->
-        <details v-if="metadata?.description" class="video-description">
+        <details v-if="summary.description" class="video-description">
           <summary class="video-description__toggle">Video Description</summary>
-          <div class="video-description__content">{{ metadata.description }}</div>
+          <div class="video-description__content">{{ summary.description }}</div>
         </details>
 
         <ContentRenderer :value="summary" class="prose-layout | prose" />
@@ -24,8 +24,6 @@
 </template>
 
 <script setup lang="ts">
-import YAML from 'yaml';
-
 definePageMeta({
   hero: false,
   footer: false
@@ -52,28 +50,6 @@ const { data: summary, pending, error } = useAsyncData(
     }
     return result
   }
-)
-
-// Fetch metadata.yml for video description
-const { data: metadata } = useAsyncData(
-  `metadata-${slug}`,
-  async () => {
-    try {
-      // Try fetching metadata.yml from the video folder
-      const response = await $fetch<string>(`/summaries/${slug}/metadata.yml`, {
-        baseURL: '/content',
-        responseType: 'text'
-      }).catch(() => null);
-
-      if (response) {
-        return YAML.parse(response);
-      }
-    } catch {
-      // Metadata not available for older/legacy entries
-    }
-    return null;
-  },
-  { server: false } // Client-side only to avoid SSR issues with static files
 )
 </script>
 
