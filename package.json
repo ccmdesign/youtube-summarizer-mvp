@@ -23,7 +23,9 @@
     "dryrun": "tsx scripts/dryrun.ts",
     "video:skip": "tsx scripts/video-skip.ts",
     "video:retry": "tsx scripts/video-retry.ts",
-    "video:status": "tsx scripts/video-status.ts"
+    "video:status": "tsx scripts/video-status.ts",
+    "migrate:folders": "tsx scripts/migrate-to-folders.ts",
+    "backfill": "tsx scripts/backfill-video-data.ts"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",

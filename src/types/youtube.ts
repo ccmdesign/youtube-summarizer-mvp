@@ -7,6 +7,7 @@ export interface PlaylistItem {
 export interface VideoMetadata {
   videoId: string;
   title: string;
+  description: string;
   channel: string;
   channelId: string;
   duration: string; // ISO 8601 format (e.g., "PT3M33S")

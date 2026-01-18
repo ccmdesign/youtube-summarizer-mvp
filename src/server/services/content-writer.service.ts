@@ -1,23 +1,43 @@
 import fs from 'fs/promises';
 import path from 'path';
+import YAML from 'yaml';
 import type { MarkdownInput } from '~/types/summary';
+import type { VideoMetadata } from '~/types/youtube';
+import type { TranscriptData } from '~/types/transcript';
 import { logger } from '~/server/utils/logger';
+
+export interface MetadataExtra {
+  playlistId?: string;
+  playlistName?: string;
+  category?: string;
+  processedAt?: string;
+  lengthCategory?: string;
+  modelUsed?: string;
+  aiProvider?: string;
+  apiCalls?: number;
+  fallbackAttempts?: number;
+  inputTokens?: number;
+  outputTokens?: number;
+  totalTokens?: number;
+  processingTimeMs?: number;
+}
 
 export class ContentWriterService {
   constructor(private outputDir: string = 'src/content/summaries') {}
 
   /**
-   * Write a markdown file with frontmatter
+   * Write a markdown file with frontmatter to folder structure
+   * Creates: {outputDir}/{videoId}/summary.md
    */
   async writeMarkdown(input: MarkdownInput): Promise<string> {
-    const { videoId, metadata, summary } = input;
+    const { videoId } = input;
 
-    // Ensure output directory exists
-    const fullPath = path.join(process.cwd(), this.outputDir);
-    await fs.mkdir(fullPath, { recursive: true });
+    // Create video folder
+    const videoDir = path.join(process.cwd(), this.outputDir, videoId);
+    await fs.mkdir(videoDir, { recursive: true });
 
     const content = this.generateMarkdown(input);
-    const filePath = path.join(fullPath, `${videoId}.md`);
+    const filePath = path.join(videoDir, 'summary.md');
 
     await fs.writeFile(filePath, content, 'utf-8');
 
@@ -30,13 +50,79 @@ export class ContentWriterService {
   }
 
   /**
+   * Write transcript data to JSON file
+   * Creates: {outputDir}/{videoId}/transcript.json
+   */
+  async writeTranscript(videoId: string, transcript: TranscriptData): Promise<string> {
+    const videoDir = path.join(process.cwd(), this.outputDir, videoId);
+    await fs.mkdir(videoDir, { recursive: true });
+
+    const transcriptPath = path.join(videoDir, 'transcript.json');
+    await fs.writeFile(
+      transcriptPath,
+      JSON.stringify(transcript, null, 2),
+      'utf-8'
+    );
+
+    logger.info(`Written transcript for ${videoId}`, {
+      filePath: transcriptPath,
+      segments: transcript.segments.length
+    });
+
+    return transcriptPath;
+  }
+
+  /**
+   * Write metadata to YAML file
+   * Creates: {outputDir}/{videoId}/metadata.yml
+   */
+  async writeMetadata(videoId: string, metadata: VideoMetadata, extra?: MetadataExtra): Promise<string> {
+    const videoDir = path.join(process.cwd(), this.outputDir, videoId);
+    await fs.mkdir(videoDir, { recursive: true });
+
+    const metadataContent = {
+      videoId: metadata.videoId,
+      title: metadata.title,
+      description: metadata.description,
+      channel: metadata.channel,
+      channelId: metadata.channelId,
+      duration: metadata.duration,
+      publishedAt: metadata.publishedAt,
+      thumbnailUrl: metadata.thumbnailUrl,
+      youtubeUrl: `https://www.youtube.com/watch?v=${videoId}`,
+      ...extra
+    };
+
+    const metadataPath = path.join(videoDir, 'metadata.yml');
+    await fs.writeFile(
+      metadataPath,
+      YAML.stringify(metadataContent),
+      'utf-8'
+    );
+
+    logger.info(`Written metadata for ${videoId}`, { filePath: metadataPath });
+
+    return metadataPath;
+  }
+
+  /**
    * Check if a summary file already exists
+   * Checks both new folder format and legacy flat file format
    */
   async exists(videoId: string): Promise<boolean> {
-    const fullPath = path.join(process.cwd(), this.outputDir, `${videoId}.md`);
-
+    // Check new folder format first
+    const newPath = path.join(process.cwd(), this.outputDir, videoId, 'summary.md');
     try {
-      await fs.access(fullPath);
+      await fs.access(newPath);
+      return true;
+    } catch {
+      // Not found in new format, check legacy format
+    }
+
+    // Check legacy flat file format
+    const oldPath = path.join(process.cwd(), this.outputDir, `${videoId}.md`);
+    try {
+      await fs.access(oldPath);
       return true;
     } catch {
       return false;

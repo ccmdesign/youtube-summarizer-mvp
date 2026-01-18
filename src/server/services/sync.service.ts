@@ -1,5 +1,6 @@
 import type { SyncResult } from '~/types/config';
 import type { PlaylistMetadata } from '~/types/summary';
+import type { TranscriptData } from '~/types/transcript';
 import { loadConfig } from '~/server/utils/config';
 import { logger } from '~/server/utils/logger';
 import { classifyVideo } from '~/server/prompts';
@@ -204,6 +205,12 @@ export async function syncPlaylist(onProgress?: SyncProgressCallback): Promise<S
 /**
  * Process a single video
  * Exported for reuse by channel monitoring service and playlist sync service
+ *
+ * Creates folder structure:
+ *   {videoId}/
+ *     summary.md      - AI-generated summary
+ *     transcript.json - Full transcript with timestamps
+ *     metadata.yml    - Video metadata including description
  */
 export async function processVideo(
   videoId: string,
@@ -213,16 +220,18 @@ export async function processVideo(
   contentWriter: ReturnType<typeof createContentWriterService>,
   playlist?: PlaylistMetadata
 ): Promise<void> {
-  // 1. Get video metadata
+  // 1. Get video metadata (now includes description)
   const metadata = await youtubeService.getVideoMetadata(videoId);
 
-  // 2. Get transcript (if in transcript mode)
+  // 2. Get transcript with timestamps (if in transcript mode)
+  let transcriptData: TranscriptData | undefined;
   let transcript: string | undefined;
   let processingMode = config.processingMode;
 
   if (processingMode === 'transcript') {
     try {
-      transcript = await youtubeService.getTranscript(videoId);
+      transcriptData = await youtubeService.getTranscriptWithTimestamps(videoId);
+      transcript = transcriptData.fullText;
     } catch (error) {
       // If transcript unavailable and Pro fallback is enabled
       if (config.enableProFallback && config.geminiModel.includes('pro')) {
@@ -248,7 +257,31 @@ export async function processVideo(
     mode: processingMode
   });
 
-  // 5. Write markdown file (filesystem is source of truth for "processed")
+  // 5. Write all files to video folder
+
+  // 5a. Write transcript.json (if available)
+  if (transcriptData) {
+    await contentWriter.writeTranscript(videoId, transcriptData);
+  }
+
+  // 5b. Write metadata.yml
+  await contentWriter.writeMetadata(videoId, metadata, {
+    playlistId: playlist?.playlistId || process.env.YOUTUBE_PLAYLIST_ID,
+    playlistName: playlist?.playlistName,
+    category: playlist?.category,
+    processedAt: new Date().toISOString(),
+    lengthCategory: taxonomy.length,
+    modelUsed: summary.modelUsed,
+    aiProvider: summary.metrics.provider,
+    apiCalls: summary.metrics.apiCalls,
+    fallbackAttempts: summary.metrics.fallbackAttempts,
+    inputTokens: summary.metrics.inputTokens,
+    outputTokens: summary.metrics.outputTokens,
+    totalTokens: summary.metrics.totalTokens,
+    processingTimeMs: summary.metrics.processingTimeMs
+  });
+
+  // 5c. Write summary.md (filesystem is source of truth for "processed")
   await contentWriter.writeMarkdown({
     videoId,
     metadata,

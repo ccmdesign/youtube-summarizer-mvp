@@ -11,13 +11,14 @@ export default defineContentConfig({
     summaries: defineCollection({
       type: 'page',
       source: {
-        include: 'summaries/*.md',
+        include: 'summaries/*/summary.md',
         cwd: contentDir
       },
       schema: z.object({
         title: z.string(),
         videoId: z.string(),
         channel: z.string(),
+        description: z.string().optional(),
         publishedAt: z.string(),
         processedAt: z.string(),
         playlistId: z.string().optional(),
