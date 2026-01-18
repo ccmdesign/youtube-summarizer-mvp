@@ -9,9 +9,8 @@ import { createOpenRouterService, OPENROUTER_FREE_MODELS } from './openrouter.se
 // Gemini models fallback ladder (best to most available)
 // Model IDs from: https://ai.google.dev/gemini-api/docs/models
 const GEMINI_FALLBACK_MODELS = [
-  'gemini-2.5-pro',     // Best quality, 5 RPM free tier
-  'gemini-2.5-flash',   // Good balance, 10 RPM free tier
-  'gemini-2.0-flash'    // Most available, 15 RPM free tier
+  'gemini-2.5-flash',   // Primary choice, good balance
+  'gemini-2.5-pro'      // Best quality fallback
 ] as const;
 
 // Delay between model attempts to avoid burning rate limits (ms)

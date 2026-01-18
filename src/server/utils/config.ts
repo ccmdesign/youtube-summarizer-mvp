@@ -22,7 +22,7 @@ export function loadConfig(): AppConfig {
     youtubeApiKey: process.env.YOUTUBE_API_KEY,
     youtubePlaylistId: process.env.YOUTUBE_PLAYLIST_ID,
     geminiApiKey: process.env.GEMINI_API_KEY,
-    geminiModel: process.env.GEMINI_MODEL || 'gemini-2.0-flash-exp',
+    geminiModel: process.env.GEMINI_MODEL || 'gemini-2.5-flash',
     openRouterApiKey: process.env.OPEN_ROUTER_API_KEY || undefined,
     processingMode: process.env.PROCESSING_MODE || 'transcript',
     maxVideosPerRun: parseInt(process.env.MAX_VIDEOS_PER_RUN || '10', 10),
