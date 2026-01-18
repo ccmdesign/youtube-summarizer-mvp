@@ -1,0 +1,86 @@
+videoId: B-UXpneKw6M
+title: The One Rule Claude Code's Creator Never Breaks
+description: >-
+  This claude code tutorial reveals how Boris (the actual creator of Claude Code
+  at Anthropic) uses it daily. Learn his claude code setup, essential claude
+  code tips for vibe coding, and exactly how to use claude code like a pro
+  developer.
+
+
+  Links
+
+  Claude Browser Extension Video:
+
+  https://youtu.be/NuKrtiJqW3Y?si=7Hi_ubVdlC8jalFC
+
+
+  Ralph Wiggum Plugin Video:
+
+  https://youtu.be/MFJ0mH72_qI?si=8GN4_7kMy0D9HVip
+
+
+
+
+  We sat down with Boris from Anthropic to learn the claude code skills that
+  separate beginners from power users. This claude code tutorial covers
+  everything from verification techniques to running parallel sessions.
+
+
+  You'll discover how to use claude code as a full orchestration system, not
+  just for coding. Boris explains his claude code agents workflow, running 5
+  sessions simultaneously and using background agents for long-running tasks. We
+  cover claude code subagents for automating architecture verification,
+  refactoring, and build validation.
+
+
+  Wondering about claude code vs cursor? While cursor has its place, claude code
+  desktop and claude code vscode integrations offer unique advantages for AI
+  assisted development. We also address whether claude code free options exist
+  and how to maximize value.
+
+
+  Key topics include:
+
+
+  The claude.md file structure Boris uses (only 2.5k tokens)
+
+  MCP server integrations with Slack, Notion, and more
+
+  Plan mode vs Auto Accept vs permissions management
+
+  Using Opus 4.5 with Thinking for fewer errors
+
+  GitHub Actions for automated PR reviews
+
+  Verification led development with ai agents
+
+
+  This isn't just prompt engineering theory. It's real artificial intelligence
+  workflow from someone building ai tools at the frontier. Whether you're into
+  chatgpt, cursor, openai products, or claude specifically, these coding
+  techniques apply across the board.
+
+
+  Hashtags
+
+  #ai #vibecoding #chatgpt #cursor #coding #claude #openai #promptengineering
+  #aiagents #artificialintelligence #aitools #claudecode #claudecodetutorial
+channel: AI LABS
+channelId: UCelfWQr9sXVMTvBzviPGlFw
+duration: PT9M55S
+publishedAt: 2026-01-09T14:02:22Z
+thumbnailUrl: https://i.ytimg.com/vi/B-UXpneKw6M/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=B-UXpneKw6M
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-10T19:50:41.772Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2952
+outputTokens: 921
+totalTokens: 4729
+processingTimeMs: 13505
+migratedAt: 2026-01-18T18:06:34.067Z

@@ -1,0 +1,63 @@
+videoId: JepVi1tBNEE
+title: Introducing Agent Skills in VS Code
+description: >-
+  Unlock the power of Agent Skills in VS Code! In this video, we break down what
+  Agent Skills are, why they’re game‑changing for developers, and how to create
+  your first skill in minutes.
+
+
+  🔎 Chapters:
+
+  00:00 Agent Skills in VS Code
+
+  00:41 Demo
+
+  04:45 In Summary
+
+  05:07 Wrap
+
+
+  🔗 Links:
+
+  Agent Skills Docs:
+  https://code.visualstudio.com/docs/copilot/customization/agent-skills
+
+  Agent Skills: https://agentskills.io
+
+
+  🎙️ Featuring: James Montgemagno (@JamesMontemagno)
+
+
+  📲 Follow VS Code:
+
+  * X: https://x.com/code
+
+  * Bluesky: https://bsky.app/profile/vscode.dev
+
+  * YouTube: https://youtube.com/code
+
+  * LinkedIn: https://www.linkedin.com/showcase/104107263
+
+  * GitHub: https://github.com/microsoft/vscode
+
+
+  #vscode #agentskills
+channel: Visual Studio Code
+channelId: UCs5Y5_7XK8HLDX0SLNwkd3w
+duration: PT5M11S
+publishedAt: 2026-01-09T20:10:27Z
+thumbnailUrl: https://i.ytimg.com/vi/JepVi1tBNEE/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=JepVi1tBNEE
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-10T19:52:52.655Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1473
+outputTokens: 840
+totalTokens: 3600
+processingTimeMs: 13168
+migratedAt: 2026-01-18T18:06:34.089Z

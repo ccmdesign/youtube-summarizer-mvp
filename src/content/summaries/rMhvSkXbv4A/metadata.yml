@@ -1,0 +1,128 @@
+videoId: rMhvSkXbv4A
+title: Tool definitions are the new Prompt Engineering
+description: >-
+  Alex Salazar is the CEO and Co-Founder of Arcade.dev, working on secure AI
+  agents and real-world automation integrations.
+
+
+  Chiara Caratelli is a Data Scientist at Prosus Group, working on AI agents,
+  web automation, and evaluation of robust multimodal models.
+
+
+  Join the Community: https://go.mlops.community/YTJoinIn
+
+  Get the newsletter: https://go.mlops.community/YTNewsletter
+
+  MLOps GPU Guide: https://go.mlops.community/gpuguide
+
+
+  // Abstract
+
+  Agents sound smart until millions of users show up. A real talk on tools, UX,
+  and why autonomy is overrated.
+
+
+  // Bio
+
+  Chiara Caratelli
+
+  Chiara is a Data Scientist at Prosus, where she develops AI-driven solutions
+  with a focus on AI agents, multimodal models, and new user experiences. With a
+  PhD in Computational Science and a background in machine learning engineering
+  and data science, she has worked on deploying AI-powered applications at
+  scale, collaborating with Prosus portfolio companies to drive real-world
+  impact.
+
+
+  Beyond her work at Prosus, she enjoys experimenting with generative AI and
+  art. She is also an avid climber and book reader, always eager to explore new
+  ideas and share knowledge with the AI and ML community.
+
+
+  Alex Salazar
+
+  Alex is the CEO and co-founder of Arcade.dev, the unified agent action
+  platform that makes AI agents production-ready. Previously, Salazar co-founded
+  Stormpath, the first authentication API for developers, which was acquired by
+  Okta. At Okta, he led developer products, accounting for 25% of total
+  bookings, and launched a new auth-centric proxy server product that reached
+  $9M in revenue within a year. He also managed Okta's network of over 7,000
+  auth integrations. Alex holds a computer science degree from Georgia Tech and
+  an MBA from Stanford University.
+
+
+  // Related Links
+
+  Website: https://www.prosus.com/
+
+  Website: https://www.arcade.dev/
+
+
+  ~~~~~~~~ ✌️Connect With Us ✌️ ~~~~~~~
+
+  Catch all episodes, blogs, newsletters, and more:
+  https://go.mlops.community/TYExplore
+
+  Join our Slack community [https://go.mlops.community/slack]
+
+  Follow us on X/Twitter [@mlopscommunity](https://x.com/mlopscommunity) or
+  [LinkedIn](https://go.mlops.community/linkedin)] 
+
+  Sign up for the next meetup: [https://go.mlops.community/register]
+
+  MLOps Swag/Merch: [https://shop.mlops.community/]
+
+  MLOps GPU Guide: https://go.mlops.community/gpuguide
+
+
+  Connect with Demetrios on LinkedIn: /dpbrinkm
+
+  Connect with Alex on LinkedIn: /alexsalazar/
+
+  Connect with Chiara on LinkedIn: /chiara-caratelli/
+
+
+  Timestamps:
+
+  [00:00] Intro
+
+  [00:15] Insights from iFood
+
+  [06:22] API vs agent intention
+
+  [09:45] Tool definition clarity
+
+  [15:37] Preemptive context loading
+
+  [27:50] Contextualizing agent data
+
+  [33:27] Prompt bloat in payments
+
+  [41:33] Agent building evolution
+
+  [50:09] Agent program scalability
+
+  [55:29] Why multi-agent is a dead end
+
+  [56:17] Wrap up
+channel: MLOps.community
+channelId: UCG6qpjVnBTTT8wLGBygANOQ
+duration: PT57M12S
+publishedAt: 2026-01-09T15:00:06Z
+thumbnailUrl: https://i.ytimg.com/vi/rMhvSkXbv4A/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=rMhvSkXbv4A
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-01-14T16:24:39.487Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: longform
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 12127
+outputTokens: 1121
+totalTokens: 15445
+processingTimeMs: 58537
+migratedAt: 2026-01-18T18:06:34.206Z

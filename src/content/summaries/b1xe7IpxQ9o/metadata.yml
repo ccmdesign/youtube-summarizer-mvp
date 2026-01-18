@@ -1,0 +1,28 @@
+videoId: b1xe7IpxQ9o
+title: "NEW in Claude Code: MCPs Won't \"Eat\" So Much Context"
+description: |-
+  A new improvement in Claude Code v2.1.7: Tool Search for MCPs.
+
+  Original tweet: https://x.com/trq212/status/2011523109871108570
+  More AI Coding news and experiments: https://aicodingdaily.com
+channel: AI Coding Daily
+channelId: UCIuDdCJXnKZb4CUzhVO-DcQ
+duration: PT8M20S
+publishedAt: 2026-01-15T11:32:05Z
+thumbnailUrl: https://i.ytimg.com/vi/b1xe7IpxQ9o/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=b1xe7IpxQ9o
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-01-15T17:15:09.339Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2006
+outputTokens: 833
+totalTokens: 4439
+processingTimeMs: 19008
+migratedAt: 2026-01-18T18:06:34.151Z

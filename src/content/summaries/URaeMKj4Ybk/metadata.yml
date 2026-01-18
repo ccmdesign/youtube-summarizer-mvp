@@ -1,0 +1,24 @@
+videoId: URaeMKj4Ybk
+title: How 3 brothers built a billion dollar empire
+description: ""
+channel: Greg Isenberg
+channelId: UCPjNBjflYl0-HQtUvOx0Ibw
+duration: PT1M12S
+publishedAt: 2025-12-27T18:57:12Z
+thumbnailUrl: https://i.ytimg.com/vi/URaeMKj4Ybk/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=URaeMKj4Ybk
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-15T17:42:32.501Z
+modelUsed: gemini-2.5-flash
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 3
+fallbackAttempts: 2
+inputTokens: 662
+outputTokens: 744
+totalTokens: 2947
+processingTimeMs: 21454
+migratedAt: 2026-01-18T18:06:34.126Z
+_migrationNote: Migrated from flat file structure. Description and
+  transcript.json not available.

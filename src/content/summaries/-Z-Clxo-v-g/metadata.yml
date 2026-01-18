@@ -1,0 +1,82 @@
+videoId: -Z-Clxo-v-g
+title: I Ran Whisper 100% Offline… Here’s What Actually Happened
+description: >-
+  Transcribing audio offline without sending your data to the cloud is harder
+  than it should be. Most tools are slow, expensive, or require uploading
+  private audio to third-party services.
+
+
+  In this video, I test Buzz, a free, open-source desktop app powered by
+  OpenAI’s Whisper model, that lets you transcribe and translate audio 100%
+  locally on your own machine. No cloud, no API keys, no subscriptions.
+
+
+  🔗 Relevant Links
+
+  Buzz Repo - https://github.com/chidiwilliams/buzz?tab=readme-ov-file
+
+  Buzz Docs - https://chidiwilliams.github.io/buzz/docs
+
+  Buzz Captions - https://buzzcaptions.com/
+
+  Buzz UI Download - https://sourceforge.net/projects/buzz-captions/
+
+
+  ❤️ More about us
+
+  Radically better observability stack: https://betterstack.com/
+
+  Written tutorials: https://betterstack.com/community/
+
+  Example projects: https://github.com/BetterStackHQ
+
+
+  📱 Socials
+
+  Twitter: https://twitter.com/betterstackhq
+
+  Instagram: https://www.instagram.com/betterstackhq/
+
+  TikTok: https://www.tiktok.com/@betterstack
+
+  LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+  📌 Chapters:
+
+  0:00 – Offline Transcription Problems (Privacy, Cost, Speed)
+
+  0:29 – What Is Buzz? Offline Whisper Speech-to-Text Explained
+
+  1:14 – Buzz Demo: Offline Audio to Text in Action
+
+  1:38– Generating TXT, SRT, VTT & Word-Level Timestamps
+
+  2:06 – Translating Audio Locally (French to English Example)
+
+  2:30 – Buzz Desktop UI vs Terminal Workflow
+
+  2:52– Why Developers Care About Local Transcription (Pros & Cons)
+
+  3:37 – Performance, Model Size, and Hardware Requirements
+
+  4:05– Final Verdict: Is Buzz Worth Using for Developers?
+channel: Better Stack
+channelId: UCkVfrGwV-iG9bSsgCbrNPxQ
+duration: PT4M48S
+publishedAt: 2026-01-12T12:00:01Z
+thumbnailUrl: https://i.ytimg.com/vi/-Z-Clxo-v-g/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=-Z-Clxo-v-g
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-12T14:36:54.721Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1598
+outputTokens: 887
+totalTokens: 3652
+processingTimeMs: 15851
+migratedAt: 2026-01-18T18:06:34.022Z

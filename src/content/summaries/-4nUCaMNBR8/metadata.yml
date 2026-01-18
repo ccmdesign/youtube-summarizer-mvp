@@ -1,0 +1,47 @@
+videoId: -4nUCaMNBR8
+title: Self-Improving Skills in Claude Code
+description: >-
+  Setting Up Self-Improving Skills in Claude Code: Manual & Automatic Methods
+
+
+  In this video, you'll learn how to set up self-improving skills within Claude
+  Code. The tutorial addresses the key problem of Large Language Models (LLMs)
+  not learning from previous interactions, causing repeated corrections in
+  coding tasks. The solution involves creating a reflex skill that can analyze
+  sessions, extract corrections, and update skill files. The video outlines both
+  manual and automatic methods to implement these skills, leveraging Git version
+  control for iterative improvements. By the end of this tutorial, you'll be
+  able to continuously improve your coding harness, ensuring more efficient and
+  less redundant coding sessions.
+
+
+  Repo and links coming shortly!
+
+
+  00:00 Introduction to Self-Improving Skills in Claude Code
+
+  00:03 The Problem with Current LLMs
+
+  02:11 Manual Skill Reflection
+
+  04:51 Automating Skill Reflection
+
+  06:26 Benefits and Conclusion
+channel: Developers Digest
+channelId: UCuE6iwZKgGz8s6kznBRI9LQ
+duration: PT8M36S
+publishedAt: 2026-01-05T04:04:20Z
+thumbnailUrl: https://i.ytimg.com/vi/-4nUCaMNBR8/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=-4nUCaMNBR8
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-08T18:20:41.498Z
+modelUsed: gemini-3-flash-preview
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 405
+outputTokens: 749
+totalTokens: 2223
+processingTimeMs: 13413
+migratedAt: 2026-01-18T18:06:34.017Z

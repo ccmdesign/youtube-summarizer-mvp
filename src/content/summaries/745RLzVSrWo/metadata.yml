@@ -1,0 +1,25 @@
+videoId: 745RLzVSrWo
+title: "This Tiny Regex Error Hijacked the AWS Console #cybersecurity #aws
+  #hackernews"
+description: ""
+channel: Better Stack
+channelId: UCkVfrGwV-iG9bSsgCbrNPxQ
+duration: PT1M30S
+publishedAt: 2026-01-16T20:35:48Z
+thumbnailUrl: https://i.ytimg.com/vi/745RLzVSrWo/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=745RLzVSrWo
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-17T17:05:24.571Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 760
+outputTokens: 871
+totalTokens: 3721
+processingTimeMs: 20482
+migratedAt: 2026-01-18T18:06:34.053Z
+_migrationNote: Migrated from flat file structure. Description and
+  transcript.json not available.

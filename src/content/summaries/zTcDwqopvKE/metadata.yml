@@ -1,0 +1,132 @@
+videoId: zTcDwqopvKE
+title: "Agent Experts: Finally, Agents That ACTUALLY Learn"
+description: >-
+  THIS is THE massive problem holding back AI agents today.
+
+
+  ---
+
+
+  IndyDevDan here, super excited to say: Agentic Horizon Lesson 5 (TAC 13) is
+  officially live on (link below).
+
+  Huge thanks to every engineer that's a member and has taken Tactical Agentic
+  Coding and Agentic Horizon - your feedback and votes were key to making this
+  lesson happen (and the FINAL LESSON as well).
+
+
+  For all non-members, this video is a sneak peak of the full lesson available
+  to Agentic Horizon members.
+
+  If you're interesting you can unlock this lesson and others by purchasing
+  Tactical Agentic Coding AND Agentic Horizon.
+
+  Let me be clear, TAC and AH is not for beginners. See the landing page for
+  more details.
+
+
+  ---
+
+
+  🎥 VIDEO REFERENCES
+
+  • Tactical Agentic Cooking:
+  https://agenticengineer.com/tactical-agentic-coding?y=zTcDwqopvKE
+
+
+  🤖 Traditional software gets smarter with every use - storing analytics,
+  patterns, and data that power better algorithms. But AI agents today? They
+  execute and forget. Every. Single. Time.
+
+
+  The real problem isn't bad context engineering or weak prompt engineering.
+  It's that your agents don't learn. Memory files force global context but
+  require manual updates. Prime prompts, sub-agents, and skills are powerful but
+  YOU have to manually steer them every time you want to add new information.
+
+
+  🔥 What if your agents could turn actions into expertise automatically? What
+  if they could learn WITHOUT human intervention? That's the difference between
+  generic agents and agent experts.
+
+
+  Generic agents execute and forget. Agent experts execute and LEARN.
+
+
+  💡 In this game-changing video, we reveal how to build agents that act, learn,
+  and reuse expertise at runtime with NO human in the loop. Real experts don't
+  relearn their craft every time - they have a mental model that evolves with
+  each useful action. That's exactly what we're building here.
+
+
+  🛠️ We dive deep into meta agentics - the atoms that make up agent experts.
+  You'll learn how to build meta prompts (prompts that write prompts), meta
+  agents (agents that build agents), and meta skills (skills that create
+  skills). These are the foundational tools every agentic engineer needs in
+  their arsenal.
+
+
+  🚀 Watch as we demonstrate our orchestrator agent operating a multi-agent
+  system where WebSocket experts and database experts maintain their own
+  expertise files - concrete mental models of their problem space. These agents
+  validate their understanding against the actual code, update automatically,
+  and become more proficient with zero manual intervention.
+
+
+  ⚡ We'll show you how to scale compute by deploying three, five, or ten agent
+  experts against a single question to co-locate on the right answer. See how
+  tactical agentic coding transforms from one-shot prompts to self-improving
+  systems that handle planning, building, AND learning.
+
+
+  🌟 This is the future of agentic coding - where agents don't just execute your
+  commands, they accumulate expertise around the specific problems that matter
+  most to you, your business, and your customers. This is how you build agents
+  that improve as they're used, just like traditional software, but powered by
+  AI.
+
+
+  Key insights:
+
+  - Build self-improving template metaprompts that learn at runtime
+
+  - Create expertise files that serve as mental models for your agents
+
+  - Use multi-agent orchestration to validate answers with high confidence
+
+  - Implement the three-step workflow: plan, build, self-improve
+
+  - Scale up compute by deploying multiple experts against critical problems
+
+  - Understand why the code is ALWAYS the source of truth (not docs, not
+  comments)
+
+
+  💼 The game never ends except when your agents stop learning. I don't know
+  about you, but I want experts operating my codebase and products - not generic
+  agents I have to manually manage every single time.
+
+
+  Stay focused and keep building.
+
+
+  #aiagents #agenticcoding #aicoding
+channel: IndyDevDan
+channelId: UC_x36zCEGilGpB1m-V4gmjg
+duration: PT18M54S
+publishedAt: 2025-12-15T14:01:49Z
+thumbnailUrl: https://i.ytimg.com/vi/zTcDwqopvKE/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=zTcDwqopvKE
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-12T23:42:35.053Z
+modelUsed: gemini-2.5-flash
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 3
+fallbackAttempts: 2
+inputTokens: 4522
+outputTokens: 1150
+totalTokens: 7538
+processingTimeMs: 23789
+migratedAt: 2026-01-18T18:06:34.228Z

@@ -1,0 +1,72 @@
+videoId: bDwr_7n1AZg
+title: This Framework Might Be the FUTURE of Cross-Platform Apps (Dioxus)
+description: >-
+  Build web, desktop, iOS, and Android apps from a single Rust codebase using
+  Dioxus. In this video, we walk through what Dioxus is, how it works, and build
+  a real cross-platform app in just a few minutes. If you’re curious about Rust,
+  UI frameworks, or building once and shipping everywhere, this one is for you.
+
+
+  🔗 Relevant Links
+
+  Dioxus: https://dioxuslabs.com/
+
+
+  ❤️ More about us
+
+  Radically better observability stack: https://betterstack.com/
+
+  Written tutorials: https://betterstack.com/community/
+
+  Example projects: https://github.com/BetterStackHQ
+
+
+  📱 Socials
+
+  Twitter: https://twitter.com/betterstackhq
+
+  Instagram: https://www.instagram.com/betterstackhq/
+
+  TikTok: https://www.tiktok.com/@betterstack
+
+  LinkedIn: https://www.linkedin.com/company/betterstack
+
+
+  📌 Chapters:
+
+  00:00 Intro
+
+  00:35 What Is Dioxus and Why It Matters
+
+  01:08 What’s New in Dioxus 0.7
+
+  01:50 Setting Up Dioxus
+
+  02:52 Running Your First Dioxus App
+
+  03:40 Building for iOS, Android and Web
+
+  04:16 Fetching Data in Dioxus
+
+  06:11 Rendering Our App
+
+  06:30 Final Result and Thoughts
+channel: Better Stack
+channelId: UCkVfrGwV-iG9bSsgCbrNPxQ
+duration: PT7M19S
+publishedAt: 2026-01-11T02:00:44Z
+thumbnailUrl: https://i.ytimg.com/vi/bDwr_7n1AZg/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=bDwr_7n1AZg
+source: youtube
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-11T17:11:46.476Z
+modelUsed: gemini-3-flash-preview
+lengthCategory: standard
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1970
+outputTokens: 848
+totalTokens: 5604
+processingTimeMs: 24257
+migratedAt: 2026-01-18T18:06:34.153Z
