@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-18T16:38:05.111Z",
+  "lastUpdated": "2026-01-19T16:21:24.172Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -2321,6 +2321,111 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-18T16:37:49.000Z",
       "processedAt": "2026-01-18T16:38:05.110Z"
+    },
+    "_gPODg6br5w": {
+      "videoId": "_gPODg6br5w",
+      "status": "success",
+      "createdAt": "2026-01-19T16:15:44.326Z",
+      "updatedAt": "2026-01-19T16:15:44.326Z",
+      "attemptCount": 1,
+      "title": "The Architecture Matters: 4 Principles That Work Whether You Use Zapier, Claude Code, or Python",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:15:44.325Z",
+      "processedAt": "2026-01-19T16:16:10.925Z"
+    },
+    "Nt7vzMiE0mY": {
+      "videoId": "Nt7vzMiE0mY",
+      "status": "success",
+      "createdAt": "2026-01-19T16:16:41.119Z",
+      "updatedAt": "2026-01-19T16:16:41.119Z",
+      "attemptCount": 1,
+      "title": "Stop Treating Image Generation Like a Design Tool--The Hidden Bottleneck Limiting Your AI ROI",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:16:41.117Z",
+      "processedAt": "2026-01-19T16:16:57.128Z"
+    },
+    "9QmH6DDyLCQ": {
+      "videoId": "9QmH6DDyLCQ",
+      "status": "success",
+      "createdAt": "2026-01-19T16:16:59.665Z",
+      "updatedAt": "2026-01-19T16:16:59.665Z",
+      "attemptCount": 1,
+      "title": "Is Reflex the BEST Python Framework for Full-Stack Web Apps?",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:16:59.664Z",
+      "processedAt": "2026-01-19T16:17:27.365Z"
+    },
+    "vpbNP4loCiE": {
+      "videoId": "vpbNP4loCiE",
+      "status": "success",
+      "createdAt": "2026-01-19T16:17:57.497Z",
+      "updatedAt": "2026-01-19T16:17:57.497Z",
+      "attemptCount": 1,
+      "title": "Astro is Joining Cloudflare (Here's Why)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:17:57.495Z",
+      "processedAt": "2026-01-19T16:18:25.269Z"
+    },
+    "k1t2xyWMUdY": {
+      "videoId": "k1t2xyWMUdY",
+      "status": "failed",
+      "createdAt": "2026-01-19T16:18:26.638Z",
+      "updatedAt": "2026-01-19T16:18:26.638Z",
+      "attemptCount": 1,
+      "title": "How METR measures Long Tasks and Experienced Open Source Dev Productivity - Joel Becker, METR",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:18:26.637Z",
+      "errorType": "transient",
+      "errorCode": "UNKNOWN_ERROR",
+      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
+      "skipPermanently": false
+    },
+    "u5GkG71PkR0": {
+      "videoId": "u5GkG71PkR0",
+      "status": "success",
+      "createdAt": "2026-01-19T16:19:14.446Z",
+      "updatedAt": "2026-01-19T16:19:14.446Z",
+      "attemptCount": 1,
+      "title": "The Claude Code Feature Senior Engineers KEEP MISSING",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:19:14.445Z",
+      "processedAt": "2026-01-19T16:19:30.633Z"
+    },
+    "Eq0XJy_AlDc": {
+      "videoId": "Eq0XJy_AlDc",
+      "status": "success",
+      "createdAt": "2026-01-19T16:19:32.680Z",
+      "updatedAt": "2026-01-19T16:19:32.680Z",
+      "attemptCount": 1,
+      "title": "Arvid Kahl’s SaaS is 98% Coded by Claude",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:19:32.679Z",
+      "processedAt": "2026-01-19T16:19:54.086Z"
+    },
+    "eD4CEZ-_-sk": {
+      "videoId": "eD4CEZ-_-sk",
+      "status": "failed",
+      "createdAt": "2026-01-19T16:19:55.482Z",
+      "updatedAt": "2026-01-19T16:19:55.482Z",
+      "attemptCount": 1,
+      "title": "Claude Code Let's Build: The Ralph Loop Easy Setup Testing",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:19:55.481Z",
+      "errorType": "transient",
+      "errorCode": "UNKNOWN_ERROR",
+      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
+      "skipPermanently": false
+    },
+    "Y0n6F9VlLVc": {
+      "videoId": "Y0n6F9VlLVc",
+      "status": "success",
+      "createdAt": "2026-01-19T16:20:29.164Z",
+      "updatedAt": "2026-01-19T16:20:29.164Z",
+      "attemptCount": 1,
+      "title": "The 2026 AI Design Field Report (tools, process, and what's working)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-19T16:20:29.163Z",
+      "processedAt": "2026-01-19T16:21:24.160Z"
     }
   }
 }

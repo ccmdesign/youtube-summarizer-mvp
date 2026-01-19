@@ -1,0 +1,59 @@
+videoId: u5GkG71PkR0
+title: The Claude Code Feature Senior Engineers KEEP MISSING
+description: |-
+  If your agents can't VALIDATE their own work, you're wasting your most valuable engineering resource: TIME.
+
+  Specialized self-validating agents are HERE, and most engineers have completely missed this game-changing release from Claude Code.
+
+  🎥 VIDEO REFERENCES
+  • Agentic Finance Review Codebase: https://github.com/disler/agentic-finance-review?tab=readme-ov-file
+  • Tactical Agentic Coding: https://agenticengineer.com/tactical-agentic-coding?y=u5GkG71PkR0
+  • Claude Code Hooks: https://code.claude.com/docs/en/hooks#hooks-in-skills,-agents,-and-slash-commands
+  • Subagent Hooks: https://code.claude.com/docs/en/sub-agents#define-hooks-for-subagents
+  • Skill Hooks: https://code.claude.com/docs/en/skills#define-hooks-for-skills
+  • Custom Slash Command Hooks: https://code.claude.com/docs/en/slash-commands#define-hooks-for-commands
+
+  🚀 In this video, we break down the new most powerful feature hiding in Claude Code's latest release: hooks in skills, subagents, and custom slash commands. This isn't just another update - this is the key to building specialized self-validating agents that you can actually TRUST. Learn how to embed deterministic validation directly into your agentic workflows and watch your engineering confidence skyrocket.
+
+  🛠️ We walk through building a CSV edit agent from scratch, showing you exactly how to implement post-tool use hooks that validate work in real-time. Watch as our agent automatically detects and FIXES a broken CSV file without any manual intervention. This is what specialized self-validation looks like in action - your agents catching their own mistakes before you ever have to.
+
+  💡 The core four - context, model, prompt, tools - is all you need to understand. Every abstraction, every framework, every agent pattern boils down to these fundamentals. When you master hooks in Claude Code, you're adding a deterministic layer of trust that transforms how you work with AI coding assistants. Focused agents that do one thing extraordinarily well will ALWAYS outperform unfocused agents trying to do everything.
+
+  🔥 Key takeaways from this deep dive:
+
+  Hooks in Skills: Embed self-validation directly into your specialized skills for guaranteed quality
+  Hooks in Subagents: Scale your validation across parallel agent workflows with confidence
+  Hooks in Prompts: Turn every custom slash command into a closed-loop, self-correcting system
+  Agentic Engineering: Build the system that builds the system - work ON your agents, not in your application
+  Self-Validation: The difference between agents you hope work and agents you KNOW work
+
+  ⚡ Stop vibe coding and start building agents that validate their own work. The engineers who master specialized hooks will build systems that scale to tens, hundreds, thousands, and millions of runs with consistent, reliable results. This is agentic coding at its finest.
+
+  🌟 Whether you're building AI coding assistants, financial processors, or any agentic workflow, understanding Claude Code hooks is essential. Don't delegate learning to your agents - read the documentation, understand the patterns, and teach your agents to engineer like you would.
+
+  Stay focused and keep building.
+
+  📖 Chapters
+  00:00 Specialized Self-Validating Agents
+  01:50 Custom Slash Command Hooks
+  13:23 Subagent & Skill Hooks
+  22:34 Finance Review Agent Pipeline
+
+  #claudecode #agenticcoding #aicoding
+channel: IndyDevDan
+channelId: UC_x36zCEGilGpB1m-V4gmjg
+duration: PT27M29S
+publishedAt: 2026-01-19T14:00:00Z
+thumbnailUrl: https://i.ytimg.com/vi/u5GkG71PkR0/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=u5GkG71PkR0
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-19T16:19:30.611Z
+lengthCategory: standard
+modelUsed: gemini-3-flash-preview
+aiProvider: gemini
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 7369
+outputTokens: 896
+totalTokens: 9500
+processingTimeMs: 15816
