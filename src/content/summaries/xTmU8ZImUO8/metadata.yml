@@ -1,0 +1,100 @@
+videoId: xTmU8ZImUO8
+title: LangChain Explained in 10 Minutes (Components Breakdown + Build Your
+  First AI Chatbot)
+description: >-
+  🧪Try LangChain Hands-on Labs for Free: https://kode.wiki/462mo31
+
+
+  Building a company chatbot that remembers conversations, accesses your
+  knowledge base, and provides intelligent responses seems overwhelming - but
+  LangChain makes it surprisingly simple.
+
+
+  In this comprehensive video, you'll discover why LangChain has become the
+  go-to framework for building production-ready AI agents. We break down the key
+  differences between raw LLMs and intelligent agents, showing you exactly why
+  traditional approaches fall short when building real-world applications.
+
+
+  🎯 What You'll Learn:
+
+  • The critical components every AI agent needs (LLM, memory, tools, vector
+  database, RAG)
+
+  • How LangChain simplifies complex AI workflows
+
+  • Why vendor independence matters (easily switch from OpenAI to Anthropic to
+  Gemini)
+
+  • Building chat pipelines with LangChain Expression Language (LCEL)
+
+  • RAG implementation for knowledge retrieval from company documents
+
+  • Complete deployment process for production-ready chatbots
+
+
+  🚀 Hands-On Labs Included:
+
+  Follow along with our free interactive labs where you'll build a complete
+  chatbot from installation to deployment. We cover prompt piping, model
+  chaining, memory systems, and RAG implementation with real code examples you
+  can run immediately.
+
+
+  🧪Try LangChain Hands-on Labs for Free: https://kode.wiki/462mo31
+
+
+  📌 Learn more about RAG here: https://youtu.be/_HQ2H_0Ayy0
+
+
+  ⏰ VIDEO TIMESTAMPS:
+
+  00:00 - Introduction: Why You Need LangChain?
+
+  00:58 - LLMs vs AI Agents Explained  
+
+  02:05 - Traditional Software vs Agentic Software
+
+  02:29 - LangChain Core Components
+
+  03:36 - Traditional Software vs Agentic Software 
+
+  04:47 - Practical Lab Demo Introduction
+
+  05:20 - Demo - Install LangChain Ecosystem
+
+  06:00 - Demo - Prompt Templates
+
+  08:49 - Demo - LCEL (LangChain Expression Language)
+
+  10:00 - Demo - Memory Systems & RAG Implementation
+
+  11:14 - Deploying Your Production Chatbot
+
+
+  🔔 SUBSCRIBE for cutting-edge AI tutorials that actually matter!
+
+
+
+  #LangChain #AIAgents #AIchatbot #OpenAI #AI #Chatbot #PythonProgramming
+  #Langgraph #LangChaintutorial # #LLM #AIagents #Anthropic #BuildChatbot
+  #AItools  #kodekloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT12M28S
+publishedAt: 2025-08-19T14:36:52Z
+thumbnailUrl: https://i.ytimg.com/vi/xTmU8ZImUO8/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=xTmU8ZImUO8
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-01-20T16:53:20.155Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 3978
+outputTokens: 866
+totalTokens: 4844
+processingTimeMs: 68051

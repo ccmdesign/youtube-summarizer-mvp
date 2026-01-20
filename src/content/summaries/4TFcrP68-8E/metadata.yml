@@ -1,0 +1,46 @@
+videoId: 4TFcrP68-8E
+title: AWS Solutions Architect Question of the Day | Question 21 of 65
+description: >-
+  Struggling with automatic credential rotation? Let's break it down step by
+  step!
+
+
+  The scenario: A company needs to rotate RDS MySQL credentials every 30 days
+  automatically.
+
+
+  The challenge: How do you design this securely without downtime or exposing
+  passwords to developers?
+
+
+  The solution: AWS Secrets Manager 🔐
+
+
+  👉 Ready to ace your AWS Solutions Architect certification? Enroll in our
+  comprehensive course with hands-on labs, practice exams, and expert guidance:
+  https://kode.wiki/3YIuZUE
+
+
+  💾 Save this series for your certification journey!
+
+
+  #AWS #CloudComputing #SecretsManager #AWSSolutions #CloudCertification
+  #SolutionsArchitect #CloudSecurity #CloudCareer #ITJobs #TechLearning
+  #CertificationPrep #CloudEngineer #CareerDevelopment #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT2M14S
+publishedAt: 2026-01-20T06:03:28Z
+thumbnailUrl: https://i.ytimg.com/vi/4TFcrP68-8E/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=4TFcrP68-8E
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-20T17:06:16.230Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 955
+outputTokens: 783
+totalTokens: 1738
+processingTimeMs: 23279

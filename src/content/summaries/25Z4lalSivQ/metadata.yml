@@ -1,0 +1,43 @@
+videoId: 25Z4lalSivQ
+title: AWS Solutions Architect Question of the Day | Question 31 of 65
+description: >-
+  Struggling with Lambda hitting concurrency limits? Let's break it down step by
+  step!
+
+
+  The scenario: A retail company's SQS queue grows to 100K messages during flash
+  sales while Lambda can't keep up.
+
+
+  The challenge: How do you increase throughput when concurrency is the
+  bottleneck without losing messages?
+
+
+  The solution: Reserved concurrency + larger batch sizes 🎯
+
+
+  👆 Check out the full video to know why!
+
+  👉 Save this series for your certification journey!
+
+
+  #AWS #CloudComputing #Lambda #AWSSolutions #CloudCertification
+  #SolutionsArchitect #Serverless #CloudCareer #ITJobs #TechLearning
+  #CertificationPrep #CloudEngineer #CareerDevelopment #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT2M27S
+publishedAt: 2026-01-20T15:30:02Z
+thumbnailUrl: https://i.ytimg.com/vi/25Z4lalSivQ/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=25Z4lalSivQ
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-20T17:05:22.492Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1049
+outputTokens: 593
+totalTokens: 1642
+processingTimeMs: 42812

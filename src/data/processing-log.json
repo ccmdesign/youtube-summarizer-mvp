@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-20T15:53:58.359Z",
+  "lastUpdated": "2026-01-20T17:14:29.968Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -2368,17 +2368,15 @@
     },
     "k1t2xyWMUdY": {
       "videoId": "k1t2xyWMUdY",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-19T16:18:26.638Z",
       "updatedAt": "2026-01-19T16:18:26.638Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "How METR measures Long Tasks and Experienced Open Source Dev Productivity - Joel Becker, METR",
       "source": "channel",
-      "lastAttemptAt": "2026-01-19T16:18:26.637Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-20T17:00:22.715Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-20T17:01:07.469Z"
     },
     "u5GkG71PkR0": {
       "videoId": "u5GkG71PkR0",
@@ -2404,17 +2402,15 @@
     },
     "eD4CEZ-_-sk": {
       "videoId": "eD4CEZ-_-sk",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-19T16:19:55.482Z",
       "updatedAt": "2026-01-19T16:19:55.482Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "Claude Code Let's Build: The Ralph Loop Easy Setup Testing",
       "source": "channel",
-      "lastAttemptAt": "2026-01-19T16:19:55.481Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-20T17:02:29.464Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-20T17:02:56.711Z"
     },
     "Y0n6F9VlLVc": {
       "videoId": "Y0n6F9VlLVc",
@@ -2429,27 +2425,294 @@
     },
     "LOjwfOf39mg": {
       "videoId": "LOjwfOf39mg",
-      "status": "failed",
+      "status": "success",
       "createdAt": "2026-01-20T15:52:55.713Z",
       "updatedAt": "2026-01-20T15:52:55.713Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "Claude Code Debacle: OpenCode, AI Coding",
       "source": "playlist",
-      "lastAttemptAt": "2026-01-20T15:52:55.712Z",
-      "errorType": "transient",
-      "errorCode": "UNKNOWN_ERROR",
-      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
-      "skipPermanently": false
+      "lastAttemptAt": "2026-01-20T16:48:52.323Z",
+      "skipPermanently": false,
+      "processedAt": "2026-01-20T16:49:15.437Z"
     },
     "qBfkZCYUeGc": {
       "videoId": "qBfkZCYUeGc",
-      "status": "processing",
+      "status": "success",
       "createdAt": "2026-01-20T15:53:58.358Z",
       "updatedAt": "2026-01-20T15:53:58.358Z",
-      "attemptCount": 1,
+      "attemptCount": 2,
       "title": "I Stopped Wasting Hours Debugging AI Agents. Here’s My Claude + Comet Workflow",
       "source": "playlist",
-      "lastAttemptAt": "2026-01-20T15:53:58.356Z"
+      "lastAttemptAt": "2026-01-20T16:49:45.445Z",
+      "processedAt": "2026-01-20T16:50:07.877Z"
+    },
+    "iHB649dceu4": {
+      "videoId": "iHB649dceu4",
+      "status": "success",
+      "createdAt": "2026-01-20T16:50:37.886Z",
+      "updatedAt": "2026-01-20T16:50:37.886Z",
+      "attemptCount": 1,
+      "title": "How Cursor Works Internally (Context, Models, Speculative Decoding)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T16:50:37.884Z",
+      "processedAt": "2026-01-20T16:50:59.039Z"
+    },
+    "VVNYQKDLY5s": {
+      "videoId": "VVNYQKDLY5s",
+      "status": "success",
+      "createdAt": "2026-01-20T16:51:29.055Z",
+      "updatedAt": "2026-01-20T16:51:29.055Z",
+      "attemptCount": 1,
+      "title": "How does a Vector Database work?",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T16:51:29.053Z",
+      "processedAt": "2026-01-20T16:51:41.645Z"
+    },
+    "xTmU8ZImUO8": {
+      "videoId": "xTmU8ZImUO8",
+      "status": "success",
+      "createdAt": "2026-01-20T16:52:11.655Z",
+      "updatedAt": "2026-01-20T16:52:11.655Z",
+      "attemptCount": 1,
+      "title": "LangChain Explained in 10 Minutes (Components Breakdown + Build Your First AI Chatbot)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T16:52:11.653Z",
+      "processedAt": "2026-01-20T16:53:20.163Z"
+    },
+    "j8wdu5VTozs": {
+      "videoId": "j8wdu5VTozs",
+      "status": "success",
+      "createdAt": "2026-01-20T16:53:50.174Z",
+      "updatedAt": "2026-01-20T16:53:50.174Z",
+      "attemptCount": 1,
+      "title": "How to Use Google Antigravity Better than 99% of People! (8 hacks)",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T16:53:50.172Z",
+      "processedAt": "2026-01-20T16:54:26.983Z"
+    },
+    "ra7nYJe86GI": {
+      "videoId": "ra7nYJe86GI",
+      "status": "success",
+      "createdAt": "2026-01-20T16:54:34.642Z",
+      "updatedAt": "2026-01-20T16:54:34.642Z",
+      "attemptCount": 1,
+      "title": "Disposable Software: The Trend 90% of People are Getting Wrong--The Hidden Costs We Need to Consider",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:54:34.640Z",
+      "processedAt": "2026-01-20T16:55:01.874Z"
+    },
+    "AB4qPdYKEvQ": {
+      "videoId": "AB4qPdYKEvQ",
+      "status": "success",
+      "createdAt": "2026-01-20T16:55:32.001Z",
+      "updatedAt": "2026-01-20T16:55:32.001Z",
+      "attemptCount": 1,
+      "title": "AI Lacks Gut Feeling: Why Emotions Rule Decisions! #AI #ReinforcementLearning #EmotionalIntelligence",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:55:32.001Z",
+      "processedAt": "2026-01-20T16:56:09.361Z"
+    },
+    "6gnaAZL7HBA": {
+      "videoId": "6gnaAZL7HBA",
+      "status": "success",
+      "createdAt": "2026-01-20T16:56:39.449Z",
+      "updatedAt": "2026-01-20T16:56:39.449Z",
+      "attemptCount": 1,
+      "title": "AI Is Genius But A Useful Idiot - The Bug Fix Paradox #aI #artificialIntelligence #aimodels #llm",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:56:39.448Z",
+      "processedAt": "2026-01-20T16:56:59.915Z"
+    },
+    "b7LNP1RZemI": {
+      "videoId": "b7LNP1RZemI",
+      "status": "success",
+      "createdAt": "2026-01-20T16:57:01.423Z",
+      "updatedAt": "2026-01-20T16:57:01.423Z",
+      "attemptCount": 1,
+      "title": "How to Make ChatGPT Ads Not Suck",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:57:01.422Z",
+      "processedAt": "2026-01-20T16:58:17.630Z"
+    },
+    "ltPO1ZgH4yw": {
+      "videoId": "ltPO1ZgH4yw",
+      "status": "success",
+      "createdAt": "2026-01-20T16:58:47.723Z",
+      "updatedAt": "2026-01-20T16:58:47.723Z",
+      "attemptCount": 1,
+      "title": "You Can Now Vibecode Mobile Apps",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:58:47.722Z",
+      "processedAt": "2026-01-20T16:59:53.062Z"
+    },
+    "YKjl2f5-ZSE": {
+      "videoId": "YKjl2f5-ZSE",
+      "status": "success",
+      "createdAt": "2026-01-20T16:59:55.161Z",
+      "updatedAt": "2026-01-20T16:59:55.161Z",
+      "attemptCount": 1,
+      "title": "This Keyboard Tool is BETTER Than Karabiner (Here's Why)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T16:59:55.160Z",
+      "processedAt": "2026-01-20T17:00:21.347Z"
+    },
+    "UApd-gjQ6nM": {
+      "videoId": "UApd-gjQ6nM",
+      "status": "success",
+      "createdAt": "2026-01-20T17:01:11.919Z",
+      "updatedAt": "2026-01-20T17:01:11.919Z",
+      "attemptCount": 1,
+      "title": "Local AI on a Laptop in 2026 (AMD Ryzen AI PRO 128GB)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:01:11.918Z",
+      "processedAt": "2026-01-20T17:01:59.358Z"
+    },
+    "3FZIdRZsUMM": {
+      "videoId": "3FZIdRZsUMM",
+      "status": "success",
+      "createdAt": "2026-01-20T17:02:58.794Z",
+      "updatedAt": "2026-01-20T17:02:58.794Z",
+      "attemptCount": 1,
+      "title": "Design the Intent... 90% of AI Coding is Unnecessary Now",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:02:58.793Z",
+      "processedAt": "2026-01-20T17:03:22.840Z"
+    },
+    "zxMjOqM7DFs": {
+      "videoId": "zxMjOqM7DFs",
+      "status": "success",
+      "createdAt": "2026-01-20T17:03:26.709Z",
+      "updatedAt": "2026-01-20T17:03:26.709Z",
+      "attemptCount": 1,
+      "title": "Claude Code Clearly Explained (and how to use it)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:03:26.707Z",
+      "processedAt": "2026-01-20T17:04:19.259Z"
+    },
+    "Q_9TlecCFUA": {
+      "videoId": "Q_9TlecCFUA",
+      "status": "success",
+      "createdAt": "2026-01-20T17:04:21.253Z",
+      "updatedAt": "2026-01-20T17:04:21.253Z",
+      "attemptCount": 1,
+      "title": "Claude Can Finally Chain Multiple MCPs + Skills Without Killing the Context",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:04:21.251Z",
+      "processedAt": "2026-01-20T17:04:32.917Z"
+    },
+    "rhK4Y1eibvE": {
+      "videoId": "rhK4Y1eibvE",
+      "status": "skipped",
+      "createdAt": "2026-01-20T17:04:37.794Z",
+      "updatedAt": "2026-01-20T17:04:37.794Z",
+      "attemptCount": 1,
+      "title": "AI Is a Tool, Not a Strategy: The New Marketing Framework",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:04:37.793Z",
+      "errorType": "permanent",
+      "errorCode": "TRANSCRIPT_UNAVAILABLE",
+      "errorMessage": "TRANSCRIPT_UNAVAILABLE",
+      "skipPermanently": true,
+      "skipReason": "Permanent error: TRANSCRIPT_UNAVAILABLE"
+    },
+    "25Z4lalSivQ": {
+      "videoId": "25Z4lalSivQ",
+      "status": "success",
+      "createdAt": "2026-01-20T17:04:39.392Z",
+      "updatedAt": "2026-01-20T17:04:39.392Z",
+      "attemptCount": 1,
+      "title": "AWS Solutions Architect Question of the Day | Question 31 of 65",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:04:39.391Z",
+      "processedAt": "2026-01-20T17:05:22.499Z"
+    },
+    "4TFcrP68-8E": {
+      "videoId": "4TFcrP68-8E",
+      "status": "success",
+      "createdAt": "2026-01-20T17:05:52.627Z",
+      "updatedAt": "2026-01-20T17:05:52.627Z",
+      "attemptCount": 1,
+      "title": "AWS Solutions Architect Question of the Day | Question 21 of 65",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:05:52.626Z",
+      "processedAt": "2026-01-20T17:06:16.236Z"
+    },
+    "HuYiv-D3KD0": {
+      "videoId": "HuYiv-D3KD0",
+      "status": "success",
+      "createdAt": "2026-01-20T17:06:46.356Z",
+      "updatedAt": "2026-01-20T17:06:46.356Z",
+      "attemptCount": 1,
+      "title": "AWS Solutions Architect Question of the Day | Question 20 of 65",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:06:46.354Z",
+      "processedAt": "2026-01-20T17:07:06.503Z"
+    },
+    "7eP8U2CnKdA": {
+      "videoId": "7eP8U2CnKdA",
+      "status": "success",
+      "createdAt": "2026-01-20T17:07:36.609Z",
+      "updatedAt": "2026-01-20T17:07:36.609Z",
+      "attemptCount": 1,
+      "title": "Learn 10 AWS Services by Building a Photo Sharing App | Real System Design Project 2026",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:07:36.605Z",
+      "processedAt": "2026-01-20T17:08:23.553Z"
+    },
+    "cElrGIyVzHg": {
+      "videoId": "cElrGIyVzHg",
+      "status": "success",
+      "createdAt": "2026-01-20T17:08:53.658Z",
+      "updatedAt": "2026-01-20T17:08:53.658Z",
+      "attemptCount": 1,
+      "title": "SSH Key Generation Made Easy | Works on Windows, Mac & Linux",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:08:53.656Z",
+      "processedAt": "2026-01-20T17:09:36.920Z"
+    },
+    "k7PvscqGD24": {
+      "videoId": "k7PvscqGD24",
+      "status": "success",
+      "createdAt": "2026-01-20T17:09:38.132Z",
+      "updatedAt": "2026-01-20T17:09:38.132Z",
+      "attemptCount": 1,
+      "title": "AI & Education: Generative AI & the Future of Critical Thinking",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:09:38.131Z",
+      "processedAt": "2026-01-20T17:10:45.473Z"
+    },
+    "3dWPbNilBhI": {
+      "videoId": "3dWPbNilBhI",
+      "status": "success",
+      "createdAt": "2026-01-20T17:11:15.577Z",
+      "updatedAt": "2026-01-20T17:11:15.577Z",
+      "attemptCount": 1,
+      "title": "Will Gemini replace Siri?",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:11:15.575Z",
+      "processedAt": "2026-01-20T17:11:56.506Z"
+    },
+    "w__y7508704": {
+      "videoId": "w__y7508704",
+      "status": "success",
+      "createdAt": "2026-01-20T17:12:26.692Z",
+      "updatedAt": "2026-01-20T17:12:26.692Z",
+      "attemptCount": 1,
+      "title": "Understanding AI Concepts: Machine Learning, Gen AI, NLP, & More",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:12:26.689Z",
+      "processedAt": "2026-01-20T17:13:21.033Z"
+    },
+    "Xc8ZuxM5YIk": {
+      "videoId": "Xc8ZuxM5YIk",
+      "status": "success",
+      "createdAt": "2026-01-20T17:13:51.125Z",
+      "updatedAt": "2026-01-20T17:13:51.125Z",
+      "attemptCount": 1,
+      "title": "Ethical Hacking War Stories: Zero Trust, IAM & Advanced C2 Tactics",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-20T17:13:51.124Z",
+      "processedAt": "2026-01-20T17:14:29.966Z"
     }
   }
 }

@@ -1,0 +1,55 @@
+videoId: iHB649dceu4
+title: How Cursor Works Internally (Context, Models, Speculative Decoding)
+description: >-
+  Cursor feels magical — but there’s no magic here.
+
+
+  In this video, we break down how Cursor actually works internally — from
+  editor instrumentation and context selection to embeddings, speculative
+  decoding, model orchestration, and safety layers.
+
+
+  You’ll learn:
+
+  - How Cursor infers developer intent from editor signals
+
+  - How it selects relevant context under strict token limits
+
+  - How codebase indexing and semantic search work
+
+  - How multiple AI models are orchestrated in real time
+
+  - Why speculative decoding makes Cursor feel fast
+
+  - How safety layers like shadow workspaces prevent bad edits
+
+
+  This video is designed for developers, engineers, and anyone curious about how
+  modern AI-powered IDEs are built.
+
+
+  If you enjoy deep dives into systems, AI, and real-world engineering — do
+  consider subscribing.
+
+
+  #ai #aiagents #llm #ml #datascience #system #systemdesign #aiexplained #tech
+  #techexplained #cursor #programming #artificialintelligence
+channel: Techie Explains Tech
+channelId: UCENebHfj-T1u_TO63_-o-2g
+duration: PT9M7S
+publishedAt: 2026-01-19T19:00:43Z
+thumbnailUrl: https://i.ytimg.com/vi/iHB649dceu4/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=iHB649dceu4
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-01-20T16:50:59.033Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2138
+outputTokens: 698
+totalTokens: 2836
+processingTimeMs: 20732

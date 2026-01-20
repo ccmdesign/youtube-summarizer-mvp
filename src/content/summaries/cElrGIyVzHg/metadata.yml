@@ -1,0 +1,36 @@
+videoId: cElrGIyVzHg
+title: SSH Key Generation Made Easy | Works on Windows, Mac & Linux
+description: >-
+  The fastest way to generate SSH keys with one simple command. This tutorial
+  explains the ssh-keygen process, the difference between public and private
+  keys, and how to secure your keys with encryption. No complicated setup
+  required!
+
+
+  Perfect tutorial for beginners! No prior experience needed. 💻
+
+
+  Save this tutorial for when you need it! 💾
+
+
+  #SSHKeys #GitHubTutorial #DevOps #CodingTutorial #Programming
+  #WebDevelopment  #TechTips #LearnToCode #DeveloperTools #LinuxTutorial
+  #CyberSecurity #ServerManagement #SSH  #SoftwareDevelopment #ITTips
+  #CloudServer #DevLife #ProgrammingTips #KodeKloud
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT1M26S
+publishedAt: 2026-01-16T15:45:03Z
+thumbnailUrl: https://i.ytimg.com/vi/cElrGIyVzHg/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=cElrGIyVzHg
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-20T17:09:36.916Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 893
+outputTokens: 691
+totalTokens: 1584
+processingTimeMs: 42945

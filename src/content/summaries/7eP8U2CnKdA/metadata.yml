@@ -1,0 +1,114 @@
+videoId: 7eP8U2CnKdA
+title: Learn 10 AWS Services by Building a Photo Sharing App | Real System
+  Design Project 2026
+description: >-
+  🔥 Access FREE AWS Labs (No Credit Card Required): https://kode.wiki/3LPsM7s
+
+
+  Learn the 10 most important AWS services by building a real-world photo
+  sharing application similar to Instagram! This hands-on AWS tutorial covers
+  VPC, IAM, EC2, RDS, S3, Lambda, ALB, KMS, Secrets Manager, and CloudWatch with
+  FREE practice labs 
+
+
+  In this video, you'll understand cloud architecture by building a complete
+  application from scratch. Unlike other tutorial videos, this course includes
+  interactive labs where you can practice what you learn with instant feedback.
+
+
+  📚 What You'll Learn:
+
+  ✅ AWS Regions, Availability Zones & VPC Architecture
+
+  ✅ IAM Roles & Security Best Practices
+
+  ✅ EC2 Instances & Application Deployment
+
+  ✅ RDS Database Configuration & Multi-AZ Setup
+
+  ✅ S3 Object Storage & Pre-Signed URLs
+
+  ✅ Lambda Serverless Functions & Event-Driven Architecture
+
+  ✅ Application Load Balancer & Traffic Distribution
+
+  ✅ KMS Encryption & Secrets Manager
+
+  ✅ CloudWatch Monitoring & Alarms
+
+
+  📚 Timestamps:
+
+  00:00 - Introduction
+
+  00:44 - AWS Regions & Availability Zones
+
+  01:36 - VPC (Virtual Private Cloud)
+
+  02:14 - Subnets (Public & Private)
+
+  03:34 - IAM (Identity & Access Management)
+
+  05:24 - EC2 (Elastic Compute Cloud)
+
+  06:50 -  EBS Volumes
+
+  07:38 - RDS (Relational Database Service)
+
+  10:05 - S3 (Simple Storage Service)
+
+  11:44 - Practice Lab Instructions
+
+  12:22 - Lambda (Serverless Functions)
+
+  14:16 - Application Load Balancer (ALB)
+
+  16:35 - KMS (Key Management Service)
+
+  17:36 - AWS Secrets Manager
+
+  19:37 - CloudWatch (Monitoring & Logging)
+
+  20:54 - Conclusion & Next Steps
+
+
+  🔥 Access FREE AWS Labs (No Credit Card Required): https://kode.wiki/3LPsM7s
+
+
+  Perfect for cloud computing beginners, DevOps engineers, and developers
+  looking to master AWS services through hands-on projects 
+
+
+  💡 Why This Tutorial is Different:
+
+  - Learn by BUILDING, not just watching
+
+  - Free AWS lab environment (no hidden costs)
+
+  - Real-time feedback on your work
+
+  - Production-ready architecture patterns
+
+
+  👉 Don't forget to LIKE, SUBSCRIBE, and turn on notifications for more AWS
+  tutorials!
+
+
+  #AWS #CloudComputing #AWSServices #AWSTutorial #LearnAWS
+channel: KodeKloud
+channelId: UCSWj8mqQCcrcBlXPi4ThRDQ
+duration: PT21M39S
+publishedAt: 2026-01-19T14:02:29Z
+thumbnailUrl: https://i.ytimg.com/vi/7eP8U2CnKdA/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=7eP8U2CnKdA
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-20T17:08:23.549Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 5561
+outputTokens: 2388
+totalTokens: 7949
+processingTimeMs: 46506
