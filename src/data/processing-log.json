@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-19T16:21:24.172Z",
+  "lastUpdated": "2026-01-20T15:53:58.359Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -2426,6 +2426,30 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-19T16:20:29.163Z",
       "processedAt": "2026-01-19T16:21:24.160Z"
+    },
+    "LOjwfOf39mg": {
+      "videoId": "LOjwfOf39mg",
+      "status": "failed",
+      "createdAt": "2026-01-20T15:52:55.713Z",
+      "updatedAt": "2026-01-20T15:52:55.713Z",
+      "attemptCount": 1,
+      "title": "Claude Code Debacle: OpenCode, AI Coding",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T15:52:55.712Z",
+      "errorType": "transient",
+      "errorCode": "UNKNOWN_ERROR",
+      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
+      "skipPermanently": false
+    },
+    "qBfkZCYUeGc": {
+      "videoId": "qBfkZCYUeGc",
+      "status": "processing",
+      "createdAt": "2026-01-20T15:53:58.358Z",
+      "updatedAt": "2026-01-20T15:53:58.358Z",
+      "attemptCount": 1,
+      "title": "I Stopped Wasting Hours Debugging AI Agents. Here’s My Claude + Comet Workflow",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-20T15:53:58.356Z"
     }
   }
 }

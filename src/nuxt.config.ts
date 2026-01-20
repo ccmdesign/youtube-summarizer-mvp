@@ -78,8 +78,7 @@ export default defineNuxtConfig({
       'postcss-preset-env': {
         stage: 1,
         features: {
-          'nesting-rules': true,
-          'cascade-layers': false
+          'nesting-rules': true
         }
       }
     }
