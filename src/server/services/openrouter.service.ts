@@ -4,11 +4,12 @@ import { retryWithBackoff } from '~/server/utils/retry';
 import { buildPromptForVideo, type SummaryResponse } from '~/server/prompts';
 
 // OpenRouter free models ordered by preference
+// Note: Model IDs updated January 2026 - `:free` suffix deprecated
 export const OPENROUTER_FREE_MODELS = [
-  'google/gemini-2.0-flash-exp:free',
-  'deepseek/deepseek-r1-0528:free',
-  'meta-llama/llama-3.3-70b-instruct:free',
-  'google/gemma-3-27b-it:free'
+  'deepseek/deepseek-v3.2-20251201',
+  'google/gemini-2.5-flash',
+  'meta-llama/llama-3.1-8b-instruct',
+  'google/gemini-2.0-flash-001'
 ] as const;
 
 export type OpenRouterModel = typeof OPENROUTER_FREE_MODELS[number];
@@ -79,16 +80,16 @@ export class OpenRouterService {
         return result;
       } catch (error) {
         lastError = error as Error;
-        const isQuotaError = this.isQuotaExceeded(error);
+        const isRecoverable = this.isRecoverableError(error);
 
         logger.warn(`OpenRouter model ${model} failed`, {
           videoId: input.metadata.videoId,
           error: lastError.message,
-          isQuotaError
+          isRecoverable
         });
 
-        // Only try next model if it's a quota error
-        if (!isQuotaError) {
+        // Only try next model if it's a recoverable error
+        if (!isRecoverable) {
           throw error;
         }
       }
@@ -150,7 +151,24 @@ Do not include any text outside the JSON object.`;
         throw error;
       }
 
-      return response.json() as Promise<OpenRouterResponse>;
+      const json = await response.json();
+
+      // Check for error response from OpenRouter (can return 200 with error body)
+      if (json.error) {
+        logger.warn('OpenRouter returned error in response body', {
+          videoId: input.metadata.videoId,
+          model,
+          errorMessage: json.error.message,
+          errorCode: json.error.code,
+          provider: json.error.metadata?.provider_name
+        });
+        const error = new Error(`OpenRouter provider error: ${json.error.message}`);
+        (error as any).status = json.error.code || 502;
+        (error as any).provider = json.error.metadata?.provider_name;
+        throw error;
+      }
+
+      return json as OpenRouterResponse;
     }, {
       maxRetries: 1,
       baseDelay: 2000,
@@ -163,9 +181,23 @@ Do not include any text outside the JSON object.`;
       }
     });
 
+    // Validate response structure
+    if (!result.choices || !Array.isArray(result.choices) || result.choices.length === 0) {
+      logger.error('Invalid OpenRouter response structure', {
+        videoId: input.metadata.videoId,
+        model,
+        responseKeys: Object.keys(result)
+      });
+      const error = new Error('MALFORMED_OPENROUTER_RESPONSE: No choices in response');
+      (error as any).status = 502;
+      throw error;
+    }
+
     const text = result.choices[0]?.message?.content;
     if (!text) {
-      throw new Error('Empty response from OpenRouter');
+      const error = new Error('MALFORMED_OPENROUTER_RESPONSE: Empty content');
+      (error as any).status = 502;
+      throw error;
     }
 
     const parsed = this.parseResponse(text);
@@ -223,12 +255,13 @@ Do not include any text outside the JSON object.`;
     }
   }
 
-  private isQuotaExceeded(error: unknown): boolean {
+  private isRecoverableError(error: unknown): boolean {
     if (error instanceof Error) {
       const status = (error as any).status;
       const message = error.message.toLowerCase();
 
-      return (
+      // Quota/rate limit errors
+      const isQuotaError = (
         status === 429 ||
         status === 402 ||
         message.includes('rate limit') ||
@@ -236,6 +269,14 @@ Do not include any text outside the JSON object.`;
         message.includes('exceeded') ||
         message.includes('too many requests')
       );
+
+      // Malformed response errors (try next model)
+      const isMalformedResponse = (
+        status === 502 ||
+        message.includes('malformed_openrouter_response')
+      );
+
+      return isQuotaError || isMalformedResponse;
     }
     return false;
   }

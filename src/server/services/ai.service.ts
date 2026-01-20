@@ -49,16 +49,62 @@ export class AIService {
 
   /**
    * Generate a summary with automatic fallback on quota exhaustion
-   * Fallback chain: Primary Model → Gemini Fallbacks → OpenRouter Free Models
+   * Fallback chain: OpenRouter (DeepSeek R1) → Gemini Fallbacks
    */
   async generateSummary(input: SummaryInput): Promise<SummaryOutput> {
     const startTime = Date.now();
-    const modelsToTry = this.buildFallbackChain();
     let lastError: Error | null = null;
     let apiCalls = 0;
     let fallbackAttempts = 0;
 
-    // Try Gemini models first
+    // Try OpenRouter first (DeepSeek R1 is primary)
+    if (this.openRouterApiKey) {
+      try {
+        logger.info('Attempting OpenRouter (primary)', {
+          videoId: input.metadata.videoId,
+          mode: input.mode
+        });
+
+        apiCalls++;
+        const openRouterService = createOpenRouterService(this.openRouterApiKey);
+        const result = await openRouterService.generateSummary(input);
+
+        const metrics: SummaryMetrics = {
+          modelUsed: result.modelUsed,
+          apiCalls,
+          fallbackAttempts,
+          inputTokens: result.inputTokens,
+          outputTokens: result.outputTokens,
+          totalTokens: result.totalTokens,
+          processingTimeMs: Date.now() - startTime,
+          provider: 'openrouter'
+        };
+
+        logger.info('Summary generated with metrics', {
+          videoId: input.metadata.videoId,
+          ...metrics
+        });
+
+        return {
+          tldr: result.tldr,
+          keyTakeaways: result.keyTakeaways,
+          summary: result.summary,
+          context: result.context,
+          modelUsed: result.modelUsed,
+          metrics
+        };
+      } catch (error) {
+        lastError = error as Error;
+        fallbackAttempts++;
+        logger.warn('OpenRouter (primary) failed, falling back to Gemini', {
+          videoId: input.metadata.videoId,
+          error: lastError.message
+        });
+      }
+    }
+
+    // Fallback to Gemini models
+    const modelsToTry = this.buildFallbackChain();
     for (const modelName of modelsToTry) {
       try {
         logger.info(`Attempting Gemini model: ${modelName}`, {
@@ -117,53 +163,9 @@ export class AIService {
       }
     }
 
-    // If all Gemini models failed with recoverable errors, try OpenRouter
-    if (this.openRouterApiKey && this.enableFallback) {
-      logger.info('All Gemini models exhausted, falling back to OpenRouter', {
-        videoId: input.metadata.videoId,
-        apiCalls,
-        fallbackAttempts
-      });
-
-      try {
-        apiCalls++;
-        const openRouterService = createOpenRouterService(this.openRouterApiKey);
-        const result = await openRouterService.generateSummary(input);
-
-        // Add metrics from OpenRouter call
-        const metrics: SummaryMetrics = {
-          modelUsed: result.modelUsed,
-          apiCalls,
-          fallbackAttempts,
-          inputTokens: result.inputTokens,
-          outputTokens: result.outputTokens,
-          totalTokens: result.totalTokens,
-          processingTimeMs: Date.now() - startTime,
-          provider: 'openrouter'
-        };
-
-        return {
-          tldr: result.tldr,
-          keyTakeaways: result.keyTakeaways,
-          summary: result.summary,
-          context: result.context,
-          modelUsed: result.modelUsed,
-          metrics
-        };
-      } catch (error) {
-        logger.error('OpenRouter fallback also failed', {
-          videoId: input.metadata.videoId,
-          error: (error as Error).message,
-          apiCalls,
-          fallbackAttempts
-        });
-        throw error;
-      }
-    }
-
     throw new Error(
       `All AI models exhausted after ${apiCalls} API calls and ${fallbackAttempts} fallback attempts. ` +
-      `Last error: ${lastError?.message}. Configure OPEN_ROUTER_API_KEY for additional fallback options.`
+      `Last error: ${lastError?.message}`
     );
   }
 
@@ -320,11 +322,12 @@ export class AIService {
 
   /**
    * Get available models info for diagnostics
+   * Returns in priority order: OpenRouter (primary) → Gemini (fallback)
    */
-  getAvailableModels(): { gemini: string[]; openRouter: string[] } {
+  getAvailableModels(): { primary: string[]; fallback: string[] } {
     return {
-      gemini: this.buildFallbackChain(),
-      openRouter: this.openRouterApiKey ? [...OPENROUTER_FREE_MODELS] : []
+      primary: this.openRouterApiKey ? [...OPENROUTER_FREE_MODELS] : [],
+      fallback: this.buildFallbackChain()
     };
   }
 }
