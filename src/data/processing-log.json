@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-01-20T17:14:29.968Z",
+  "lastUpdated": "2026-01-21T22:53:20.992Z",
   "entries": {
     "GMICxu7dtO4": {
       "videoId": "GMICxu7dtO4",
@@ -2713,6 +2713,222 @@
       "source": "channel",
       "lastAttemptAt": "2026-01-20T17:13:51.124Z",
       "processedAt": "2026-01-20T17:14:29.966Z"
+    },
+    "oBho3hZ7MHM": {
+      "videoId": "oBho3hZ7MHM",
+      "status": "success",
+      "createdAt": "2026-01-21T19:15:29.837Z",
+      "updatedAt": "2026-01-21T19:15:29.837Z",
+      "attemptCount": 1,
+      "title": "Claude Code for product managers: research, writing, context libraries, custom to-do system, more",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:15:29.836Z",
+      "processedAt": "2026-01-21T19:17:42.280Z"
+    },
+    "4PJEl89ImL8": {
+      "videoId": "4PJEl89ImL8",
+      "status": "success",
+      "createdAt": "2026-01-21T19:18:12.288Z",
+      "updatedAt": "2026-01-21T19:18:12.288Z",
+      "attemptCount": 1,
+      "title": "Top AI-Agent Projects : Sled, Colloqio, Binary, Notto, Snaply AI, Vellum, Knowns CLI & Hal9",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:18:12.287Z",
+      "processedAt": "2026-01-21T19:18:36.874Z"
+    },
+    "htZRCE2GgIs": {
+      "videoId": "htZRCE2GgIs",
+      "status": "success",
+      "createdAt": "2026-01-21T19:19:06.882Z",
+      "updatedAt": "2026-01-21T19:19:06.882Z",
+      "attemptCount": 1,
+      "title": "The 10% of AI Tools that Drive 90% of My Results",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:19:06.881Z",
+      "processedAt": "2026-01-21T19:19:31.204Z"
+    },
+    "b-BzeHF6WLA": {
+      "videoId": "b-BzeHF6WLA",
+      "status": "success",
+      "createdAt": "2026-01-21T19:20:01.211Z",
+      "updatedAt": "2026-01-21T19:20:01.211Z",
+      "attemptCount": 1,
+      "title": "Open Responses - The NEW Standard API for Open Models",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:20:01.210Z",
+      "processedAt": "2026-01-21T19:21:06.539Z"
+    },
+    "hbGQaAXZ5UU": {
+      "videoId": "hbGQaAXZ5UU",
+      "status": "success",
+      "createdAt": "2026-01-21T19:21:36.548Z",
+      "updatedAt": "2026-01-21T19:21:36.548Z",
+      "attemptCount": 1,
+      "title": "How to Build a Product that Hits PMF on Day 1 | Granola, Christopher Pedregal",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:21:36.546Z",
+      "processedAt": "2026-01-21T19:22:05.053Z"
+    },
+    "SmYNK0kqaDI": {
+      "videoId": "SmYNK0kqaDI",
+      "status": "success",
+      "createdAt": "2026-01-21T19:22:35.062Z",
+      "updatedAt": "2026-01-21T19:22:35.062Z",
+      "attemptCount": 1,
+      "title": "AI Subscription vs H100",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:22:35.061Z",
+      "processedAt": "2026-01-21T19:24:05.405Z"
+    },
+    "0kARDVL2nZg": {
+      "videoId": "0kARDVL2nZg",
+      "status": "success",
+      "createdAt": "2026-01-21T19:24:09.676Z",
+      "updatedAt": "2026-01-21T19:24:09.676Z",
+      "attemptCount": 1,
+      "title": "How To Get Your First Users",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:24:09.675Z",
+      "processedAt": "2026-01-21T19:24:33.239Z"
+    },
+    "T__1QViXUxk": {
+      "videoId": "T__1QViXUxk",
+      "status": "success",
+      "createdAt": "2026-01-21T19:25:03.245Z",
+      "updatedAt": "2026-01-21T19:25:03.245Z",
+      "attemptCount": 1,
+      "title": "Ex-Google Recruiter Explains Why \"Lying\" Gets You Hired",
+      "source": "playlist",
+      "lastAttemptAt": "2026-01-21T19:25:03.244Z",
+      "processedAt": "2026-01-21T19:25:30.824Z"
+    },
+    "hDpjMJw3flk": {
+      "videoId": "hDpjMJw3flk",
+      "status": "success",
+      "createdAt": "2026-01-21T19:25:33.978Z",
+      "updatedAt": "2026-01-21T19:25:33.978Z",
+      "attemptCount": 1,
+      "title": "The Skill That Separates AI Power Users From Everyone Else (Why \"Clear\" Specs Produce Broken Output)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T19:25:33.977Z",
+      "processedAt": "2026-01-21T20:26:38.547Z"
+    },
+    "4cxOm3_8AYc": {
+      "videoId": "4cxOm3_8AYc",
+      "status": "success",
+      "createdAt": "2026-01-21T20:27:09.828Z",
+      "updatedAt": "2026-01-21T20:27:09.828Z",
+      "attemptCount": 1,
+      "title": "The 3 Dials of Focus That Actually Work #ai #deepwork",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T20:27:09.827Z",
+      "processedAt": "2026-01-21T21:26:48.572Z"
+    },
+    "YDQ4Fpcv4Z8": {
+      "videoId": "YDQ4Fpcv4Z8",
+      "status": "success",
+      "createdAt": "2026-01-21T21:26:49.956Z",
+      "updatedAt": "2026-01-21T21:26:49.956Z",
+      "attemptCount": 1,
+      "title": "The Whole World Gets Claude-Pilled",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T21:26:49.955Z",
+      "processedAt": "2026-01-21T21:27:16.384Z"
+    },
+    "XVAhQ-EcrWA": {
+      "videoId": "XVAhQ-EcrWA",
+      "status": "failed",
+      "createdAt": "2026-01-21T21:27:17.809Z",
+      "updatedAt": "2026-01-21T21:27:17.809Z",
+      "attemptCount": 1,
+      "title": "I Can't Believe Anthropic Messed Up The Ralph Wiggum",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T21:27:17.807Z",
+      "errorType": "transient",
+      "errorCode": "UNKNOWN_ERROR",
+      "errorMessage": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent: [503 Service Unavailable] The model is overloaded. Please try again later.",
+      "skipPermanently": false
+    },
+    "vDBUf533e_M": {
+      "videoId": "vDBUf533e_M",
+      "status": "success",
+      "createdAt": "2026-01-21T22:14:53.285Z",
+      "updatedAt": "2026-01-21T22:14:53.285Z",
+      "attemptCount": 1,
+      "title": "Skills.sh - LEVEL UP Your Claude Code Agents!",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:14:53.284Z",
+      "processedAt": "2026-01-21T22:21:09.744Z"
+    },
+    "hI1vsPhHAFs": {
+      "videoId": "hI1vsPhHAFs",
+      "status": "skipped",
+      "createdAt": "2026-01-21T22:21:14.535Z",
+      "updatedAt": "2026-01-21T22:21:14.535Z",
+      "attemptCount": 1,
+      "title": "Matt Sellers - What a top 1% design portfolio looks like",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:21:14.534Z",
+      "errorType": "permanent",
+      "errorCode": "TRANSCRIPT_UNAVAILABLE",
+      "errorMessage": "TRANSCRIPT_UNAVAILABLE",
+      "skipPermanently": true,
+      "skipReason": "Permanent error: TRANSCRIPT_UNAVAILABLE"
+    },
+    "nlJ-hcsPlDM": {
+      "videoId": "nlJ-hcsPlDM",
+      "status": "success",
+      "createdAt": "2026-01-21T22:21:21.128Z",
+      "updatedAt": "2026-01-21T22:21:21.128Z",
+      "attemptCount": 1,
+      "title": "Marketing is Already Dead, You Just Don't Know It",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:21:21.127Z",
+      "processedAt": "2026-01-21T22:27:24.351Z"
+    },
+    "JlB8hmWVNsc": {
+      "videoId": "JlB8hmWVNsc",
+      "status": "success",
+      "createdAt": "2026-01-21T22:27:25.745Z",
+      "updatedAt": "2026-01-21T22:27:25.745Z",
+      "attemptCount": 1,
+      "title": "My Actual Personal Brand Strategy For 2026",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:27:25.744Z",
+      "processedAt": "2026-01-21T22:31:38.321Z"
+    },
+    "ZVwpa-SVo1I": {
+      "videoId": "ZVwpa-SVo1I",
+      "status": "success",
+      "createdAt": "2026-01-21T22:31:40.665Z",
+      "updatedAt": "2026-01-21T22:31:40.665Z",
+      "attemptCount": 1,
+      "title": "AWS Solutions Architect Question of the Day | Question 22 of 65",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:31:40.664Z",
+      "processedAt": "2026-01-21T22:38:11.518Z"
+    },
+    "0dQx0TzBuQc": {
+      "videoId": "0dQx0TzBuQc",
+      "status": "success",
+      "createdAt": "2026-01-21T22:45:57.410Z",
+      "updatedAt": "2026-01-21T22:45:57.410Z",
+      "attemptCount": 1,
+      "title": "The BEST OSI Model Explanation You'll Ever Watch (Networking Fundamentals)",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:45:57.408Z",
+      "processedAt": "2026-01-21T22:47:06.235Z"
+    },
+    "l0XwNeGGPnQ": {
+      "videoId": "l0XwNeGGPnQ",
+      "status": "success",
+      "createdAt": "2026-01-21T22:47:07.421Z",
+      "updatedAt": "2026-01-21T22:47:07.421Z",
+      "attemptCount": 1,
+      "title": "Most cybersecurity training doesn’t work. Can we change that?",
+      "source": "channel",
+      "lastAttemptAt": "2026-01-21T22:47:07.420Z",
+      "processedAt": "2026-01-21T22:53:20.991Z"
     }
   }
 }
