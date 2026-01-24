@@ -1,0 +1,36 @@
+videoId: L_p5GxGSB_I
+title: "Agent Skills, Rules, Subagents: Explained!"
+description: >-
+  There's a lot of new terms for how you manage context with coding agents. I
+  don't think it needs to be this complicated. Here's what you need to know, and
+  some history on how we've gotten here.
+
+
+  https://cursor.com/blog/dynamic-context-discovery
+
+  https://cursor.com/docs/context/skills
+
+  https://cursor.com/docs/context/subagents
+
+  https://cursor.com/docs/context/rules
+
+  https://cursor.com/docs/agent/hooks
+channel: leerob
+channelId: UCZMli3czZnd1uoc1ShTouQw
+duration: PT7M17S
+publishedAt: 2026-01-15T14:39:14Z
+thumbnailUrl: https://i.ytimg.com/vi/L_p5GxGSB_I/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=L_p5GxGSB_I
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+playlistName: AI Summaries
+category: ai
+processedAt: 2026-01-24T16:05:03.030Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2151
+outputTokens: 824
+totalTokens: 2975
+processingTimeMs: 148978

@@ -1,0 +1,47 @@
+videoId: PkeC2hNQ9Zw
+title: How I Made Claude Code WAY Better With Vercel Agent Skills
+description: |-
+  The AI development landscape just got turned upside down. Vercel's new Agent Skills ecosystem is fundamentally changing how we work with Claude Code and other coding agents. The skills CLI tool let's you install skills with a single command, and the skills.sh marketplace let's you discover skills. But Cloudflare just dropped a competing RFC proposing (Agent Skills Discovery via Well-Known URIs) a completely different approach using .well-known URIs that could make Vercel's entire centralized directory model obsolete.
+
+  🔗 Relevant Links
+  Cloudflare proposal - https://github.com/cloudflare/agent-skills-discovery-rfc?tab=readme-ov-file
+  Vercel skills - https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem
+  Intro frontend design by shades 2134 - https://www.reddit.com/user/shades2134/
+  Remotion example from Magnus - https://x.com/mamagnus00/status/2014459283560358034
+
+  ❤️ More about us
+  Radically better observability stack: https://betterstack.com/
+  Written tutorials: https://betterstack.com/community/
+  Example projects: https://github.com/BetterStackHQ
+
+  📱 Socials
+  Twitter: https://twitter.com/betterstackhq
+  Instagram: https://www.instagram.com/betterstackhq/
+  TikTok: https://www.tiktok.com/@betterstack
+  LinkedIn: https://www.linkedin.com/company/betterstack
+
+  📌 Chapters:
+  0:00 Intro
+  0:26 Agent Skills Recap
+  2:05 Vercel's add-skill project
+  2:58 Skills.sh for skill discovery
+  4:00 Cloudflare's Proposal
+  4:21 How Cloudflare's Proposal Works
+  5:11 Problems with the proposal
+channel: Better Stack
+channelId: UCkVfrGwV-iG9bSsgCbrNPxQ
+duration: PT6M27S
+publishedAt: 2026-01-24T10:00:39Z
+thumbnailUrl: https://i.ytimg.com/vi/PkeC2hNQ9Zw/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=PkeC2hNQ9Zw
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-24T16:10:07.745Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 1804
+outputTokens: 2709
+totalTokens: 4513
+processingTimeMs: 48710

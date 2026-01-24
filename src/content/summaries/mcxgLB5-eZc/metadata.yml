@@ -1,0 +1,101 @@
+videoId: mcxgLB5-eZc
+title: "Agent OS v3: Leaner & Smarter for Building in 2026"
+description: >-
+  Agent OS v3 is here — rebuilt from the ground up for how we actually build in
+  2026.
+
+
+  I stripped out 70% of the framework. What's left: a leaner system for
+  discovering, documenting, and injecting your coding standards into AI-powered,
+  spec-driven development.
+
+
+  In this video, I'll show you:
+
+
+  - The new 'discover-standards' command for surfacing your opinionated patterns
+  and documenting standards.
+
+  - The new smart injection system for using your standards... anywhere,
+  anytime.
+
+  - The new way to write better, more aligned specs—without changing how you
+  build with Claude Code or Cursor.
+
+  - Using profiles for managing different standards across project types
+
+
+  👇 **Your Builder Briefing (free)**
+
+  https://buildermethods.com - Your free, 5-minute read to keep up with the
+  latest tools & workflows for building with AI.
+
+
+  👇 **Use Agent OS** (free open source):
+
+  https://buildermethods.com/agent-os
+
+
+  👇 **Use Design OS** (free open source):
+
+  https://buildermethods.com/design-os
+
+
+  👇 **Join Builder Methods Pro**
+
+  https://buildermethods.com/pro - The membership for professionals (and
+  soon-to-be-pros) for building with AI.  Private discord.  Video training
+  library.  Official support for Agent OS.
+
+
+  ▶️ Related videos:
+
+  Claude Code is all you need in 2026 https://youtu.be/0hdFJA-ho3c
+
+  Design OS: The AI-first design process https://youtu.be/2vu-6-lIhAs
+
+
+  💬 Drop a comment with your questions and requests for upcoming videos!
+
+
+  Chapters:
+
+
+  0:00 Legacy codebases & AI
+
+  1:28 Spec-driven development
+
+  2:17 Agent OS v3: What's new?
+
+  6:19 Discover Standards
+
+  10:38 Claude Skill vs. Agent OS Standard
+
+  11:25 Injecting Standards (anywhere)
+
+  12:10 Creating a Skill with Standards
+
+  14:41 Shaping a Spec with Agent OS & Plan Mode
+
+  20:06 Injecting standards (anywhere)
+
+  22:41 Who is Agent OS for?
+
+  23:29 Design OS for new products
+channel: Brian Casel
+channelId: UCSxPE9PHHxQUEt6ajGmQyMA
+duration: PT23M54S
+publishedAt: 2026-01-22T13:01:27Z
+thumbnailUrl: https://i.ytimg.com/vi/mcxgLB5-eZc/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=mcxgLB5-eZc
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-24T16:12:49.049Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 5916
+outputTokens: 901
+totalTokens: 6817
+processingTimeMs: 26478

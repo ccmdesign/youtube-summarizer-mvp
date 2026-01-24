@@ -1,0 +1,48 @@
+videoId: 4lNy42BwKqI
+title: "Apple Finally Admits Defeat: the $1b AI deal with Google Explored"
+description: |-
+  Apple ditches its foundational models and joins forces with Google. AI updates explored.
+
+  Stay up to date with the Substack: https://departmentofproduct.substack.com/ 
+
+  Welcome back and happy new year!
+
+  In this episode, dive into Apple's new multi-year partnership with Google, which will see Google's Gemini AI technology power key Apple features, including a significant upgrade to Siri. 
+
+  I analyze the implications for both companies and the larger AI market, and discuss reactions from industry figures like Elon Musk. We also explore OpenAI's new health product, chat about Claude's latest release for non-technical users, and cover new features in Google's AI inbox for Gmail. Additionally, we touch on Tailwind's economic challenges due to AI agent adoption and reveal insights from a study on AI agents in coding. 
+
+  Link to reports:
+
+  AI Agents and Engineering: https://arxiv.org/pdf/2512.14012
+  LinkedIn Jobs on the Rise report:
+  https://www.linkedin.com/pulse/linkedin-jobs-rise-2026-25-fastest-growing-roles-us-linkedin-news-dlb1c/
+  Knowledge Series - How to Use Claude Projects and Skills for Product Health Checks - https://departmentofproduct.substack.com/p/how-to-use-claude-projects-and-skills 
+
+  PS I’ve changed the format slightly by making the intro a bit more personal with a video intro this week - if you prefer it like this (or not) just let me know in the comments below!
+
+  00:00 Introduction: Apple's Major AI Partnership
+  00:49 Apple and Google's Strategic Collaboration
+  04:08 Google's New AI Inbox
+  06:16 OpenAI's Health Product Launch
+  07:14 Claude's New Product: Cowork
+  09:11 AI Agents and Market Trends
+  11:40 Conclusion and Upcoming Trends
+
+   #appleintelligence  #claudecode #chatgpthealth #appleai #claudecowork
+channel: Department of Product
+channelId: UCqGW5G0XWic_KSEH9IcVHAQ
+duration: PT12M10S
+publishedAt: 2026-01-13T20:25:29Z
+thumbnailUrl: https://i.ytimg.com/vi/4lNy42BwKqI/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=4lNy42BwKqI
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-24T16:22:23.008Z
+lengthCategory: standard
+modelUsed: openrouter/google/gemini-2.5-flash
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 3292
+outputTokens: 833
+totalTokens: 4125
+processingTimeMs: 28298

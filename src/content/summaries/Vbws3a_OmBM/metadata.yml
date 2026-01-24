@@ -1,0 +1,33 @@
+videoId: Vbws3a_OmBM
+title: "Claude Code Let's Build: The AI Video Oracle (Qwen3 TTS)"
+description: |-
+  Claude Code Let's Build: The AI Video Oracle (Qwen3 TTS)
+
+  👊 Become a YouTube Member to Support Me:
+  https://www.youtube.com/c/AllAboutAI/join
+
+  My AI Video Course:
+  https://www.theaivideocourse.com/
+
+  🔥Open GH:
+  https://github.com/AllAboutAI-YT/
+
+  Business Inquiries:
+  kbfseo@gmail.com
+channel: All About AI
+channelId: UCR9j1jqqB5Rse69wjUnbYwA
+duration: PT10M5S
+publishedAt: 2026-01-23T19:00:24Z
+thumbnailUrl: https://i.ytimg.com/vi/Vbws3a_OmBM/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=Vbws3a_OmBM
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-24T16:13:15.717Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 2738
+outputTokens: 870
+totalTokens: 3608
+processingTimeMs: 25111

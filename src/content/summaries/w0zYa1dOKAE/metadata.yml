@@ -1,0 +1,42 @@
+videoId: w0zYa1dOKAE
+title: "Stripe’s CEO: This is the “coolest breakthrough since GPT-4”. But what
+  does it mean for SaaS?"
+description: |-
+  Big AI Breakthroughs, YouTube's Bold Roadmap and Spotify’s new growth tactics
+
+  Link to Substack: https://departmentofproduct.substack.com/
+
+  In this week's episode, we dive into the latest AI breakthroughs and industry trends. Stripe's CEO touts Cursor's autonomous AI coding agents as the “coolest innovation since GPT-4”, capable of building complex software autonomously. 
+
+  We also cover YouTube's contradictory AI roadmap for 2026, Gemini's explosive API growth, and Spotify's unconventional new feature. Additionally, we examine the impact of AI on the SaaS industry and ElevenLabs new developments in music and user research. 
+
+  Link to AI Agent deep dive: https://departmentofproduct.substack.com/p/deep-how-spotify-is-using-ai-agents 
+  Links to reports:
+  https://cursor.com/blog/scaling-agents
+  https://graphite.io/five-percent/debunking-the-myth-that-seo-traffic-has-dramatically-declined 
+  Link to Excel clone experiment (still ongoing): github.com/wilson-anysp…
+
+  00:00 Introduction and Overview
+  00:40 Breakthrough in AI Coding: Stripe CEO's Insights
+  04:13 Implications for SaaS and Product Development
+  05:54 YouTube's AI Roadmap and Market Competition
+  07:42 Spotify's New Growth Tactic and 11 Labs Innovations
+  10:14 Gemini's API Growth and Search Engine Trends
+  12:24 Conclusion and Wrap-Up
+channel: Department of Product
+channelId: UCqGW5G0XWic_KSEH9IcVHAQ
+duration: PT12M30S
+publishedAt: 2026-01-22T16:42:54Z
+thumbnailUrl: https://i.ytimg.com/vi/w0zYa1dOKAE/hqdefault.jpg
+youtubeUrl: https://www.youtube.com/watch?v=w0zYa1dOKAE
+playlistId: PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn
+processedAt: 2026-01-24T16:21:24.110Z
+lengthCategory: standard
+modelUsed: openrouter/deepseek/deepseek-v3.2
+aiProvider: openrouter
+apiCalls: 1
+fallbackAttempts: 0
+inputTokens: 3258
+outputTokens: 797
+totalTokens: 4055
+processingTimeMs: 32212
