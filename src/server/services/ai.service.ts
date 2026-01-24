@@ -2,6 +2,7 @@ import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import type { SummaryInput, SummaryOutput, SummaryMetrics } from '~/types/gemini';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
+import { normalizeText, normalizeSingleLine } from '~/server/utils/text-normalizer';
 import { geminiFlashLimiter, geminiProLimiter } from '~/server/utils/rate-limiter';
 import { buildPromptForVideo, summaryResponseSchema, type SummaryResponse } from '~/server/prompts';
 import { createOpenRouterService, OPENROUTER_FREE_MODELS } from './openrouter.service';
@@ -272,14 +273,12 @@ export class AIService {
         throw new Error('MALFORMED_GEMINI_RESPONSE');
       }
 
-      // Gemini sometimes returns literal \n instead of actual newlines
-      const normalize = (s: string) => s.replace(/\\n/g, '\n');
-
+      // Use unified text normalizer to fix broken words and formatting
       return {
-        tldr: parsed.tldr.slice(0, 400),
-        keyTakeaways: normalize(parsed.keyTakeaways),
-        summary: normalize(parsed.summary),
-        context: normalize(parsed.context)
+        tldr: normalizeSingleLine(parsed.tldr).slice(0, 400),
+        keyTakeaways: normalizeText(parsed.keyTakeaways),
+        summary: normalizeText(parsed.summary),
+        context: normalizeText(parsed.context)
       };
     } catch (error) {
       logger.error('Failed to parse Gemini JSON response', { text, error });

@@ -217,8 +217,9 @@ export class ContentWriterService {
   }
 
   /**
-   * Normalize section content to ensure proper line breaks.
-   * Fixes: bullet points on same line, missing paragraph breaks, ### headers.
+   * Normalize section content for markdown structure.
+   * Focuses on structural formatting only - word-level fixes are handled upstream
+   * by text-normalizer.ts in the AI services.
    */
   private normalizeSectionContent(content: string): string {
     let normalized = content.trim();
@@ -230,15 +231,9 @@ export class ContentWriterService {
       .replace(/([a-z])(\s+)([-*])\s/g, '$1\n\n$3 ');   // After lowercase (list continuation)
 
     // Ensure ### headers have blank lines before and after
-    // Add newline before ### if not present
     normalized = normalized.replace(/([^\n])(###\s)/g, '$1\n\n$2');
 
-    // Fix run-together text: lowercase immediately followed by uppercase
-    // Pattern: "StrategyThe" -> "Strategy\n\nThe"
-    // This catches headers running into content and sentences without space
-    normalized = normalized.replace(/([a-z])([A-Z][a-z])/g, '$1\n\n$2');
-
-    // Collapse multiple blank lines
+    // Collapse multiple blank lines (3+ -> 2)
     normalized = normalized.replace(/\n{3,}/g, '\n\n');
 
     return normalized;

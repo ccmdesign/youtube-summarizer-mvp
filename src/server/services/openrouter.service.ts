@@ -1,6 +1,7 @@
 import type { SummaryInput } from '~/types/gemini';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
+import { normalizeText, normalizeSingleLine } from '~/server/utils/text-normalizer';
 import { buildPromptForVideo, type SummaryResponse } from '~/server/prompts';
 
 // OpenRouter free models ordered by preference
@@ -112,6 +113,11 @@ export class OpenRouterService {
     });
 
     const systemPrompt = `You are a helpful assistant that summarizes YouTube videos.
+
+CRITICAL FORMATTING: Never split words or proper nouns across lines.
+Keep compound names intact: WhatsApp, McKinsey, LinkedIn, OpenAI, DevOps.
+Each bullet point must be complete on a single line.
+
 You MUST respond with valid JSON in this exact format:
 {
   "tldr": "A single sentence (max 400 chars) capturing the main point",
@@ -280,22 +286,12 @@ Do not include any text outside the JSON object.`;
         throw new Error('MALFORMED_OPENROUTER_RESPONSE');
       }
 
-      // Normalize and clean each field
-      const cleanField = (s: string) => {
-        // Normalize literal \n to actual newlines
-        let cleaned = s.replace(/\\n/g, '\n');
-        // Remove repetitive patterns within fields
-        cleaned = cleaned.replace(/(\。\s*\n\n){3,}/g, '\n\n');
-        cleaned = cleaned.replace(/(\n\n){5,}/g, '\n\n');
-        cleaned = cleaned.replace(/([。.!?]\s*){5,}/g, '. ');
-        return cleaned.trim();
-      };
-
+      // Normalize and clean each field using unified text normalizer
       return {
-        tldr: cleanField(parsed.tldr).slice(0, 400),
-        keyTakeaways: cleanField(parsed.keyTakeaways),
-        summary: cleanField(parsed.summary),
-        context: cleanField(parsed.context)
+        tldr: normalizeSingleLine(parsed.tldr).slice(0, 400),
+        keyTakeaways: normalizeText(parsed.keyTakeaways),
+        summary: normalizeText(parsed.summary),
+        context: normalizeText(parsed.context)
       };
     } catch (error) {
       logger.error('Failed to parse OpenRouter JSON response', { text, error });
