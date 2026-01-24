@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import type { SummaryInput, SummaryOutput, SummaryMetrics } from '~/types/gemini';
+import type { Tool } from '~/types/summary';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { normalizeText, normalizeSingleLine } from '~/server/utils/text-normalizer';
@@ -23,6 +24,7 @@ interface GeminiResult {
   keyTakeaways: string;
   summary: string;
   context: string;
+  tools: Tool[];
   inputTokens?: number;
   outputTokens?: number;
   totalTokens?: number;
@@ -91,6 +93,7 @@ export class AIService {
           keyTakeaways: result.keyTakeaways,
           summary: result.summary,
           context: result.context,
+          tools: result.tools,
           modelUsed: result.modelUsed,
           metrics
         };
@@ -138,6 +141,7 @@ export class AIService {
           keyTakeaways: result.keyTakeaways,
           summary: result.summary,
           context: result.context,
+          tools: result.tools,
           modelUsed: modelName,
           metrics
         };
@@ -264,7 +268,7 @@ export class AIService {
     };
   }
 
-  private parseGeminiResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string } {
+  private parseGeminiResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string; tools: Tool[] } {
     try {
       const parsed: SummaryResponse = JSON.parse(text);
 
@@ -273,12 +277,21 @@ export class AIService {
         throw new Error('MALFORMED_GEMINI_RESPONSE');
       }
 
+      // Normalize tools array - ensure valid structure and limit to 15
+      const tools: Tool[] = Array.isArray(parsed.tools)
+        ? parsed.tools
+            .filter((t): t is Tool => typeof t === 'object' && t !== null && typeof t.name === 'string')
+            .map(t => ({ name: t.name, url: t.url ?? null }))
+            .slice(0, 15)
+        : [];
+
       // Use unified text normalizer to fix broken words and formatting
       return {
         tldr: normalizeSingleLine(parsed.tldr).slice(0, 400),
         keyTakeaways: normalizeText(parsed.keyTakeaways),
         summary: normalizeText(parsed.summary),
-        context: normalizeText(parsed.context)
+        context: normalizeText(parsed.context),
+        tools
       };
     } catch (error) {
       logger.error('Failed to parse Gemini JSON response', { text, error });

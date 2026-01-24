@@ -1,4 +1,4 @@
-import type { VideoMetadata } from '~/types/summary';
+import type { VideoMetadata, Tool } from '~/types/summary';
 import type { SchemaType } from '@google/generative-ai';
 
 /**
@@ -18,6 +18,7 @@ export interface SummaryResponse {
   keyTakeaways: string;
   summary: string;
   context: string;
+  tools: Tool[];
 }
 
 /**
@@ -47,9 +48,30 @@ export const summaryResponseSchema = {
       type: 'string' as SchemaType.STRING,
       description: 'Background context and why this matters. Use markdown paragraphs. Explain the broader significance, who should care, or how this connects to larger trends. 50-150 words.',
       nullable: false
+    },
+    tools: {
+      type: 'array' as SchemaType.ARRAY,
+      description: 'Software tools, libraries, frameworks, services, APIs, and platforms mentioned in the video. Max 15 items. Return empty array if no tools mentioned.',
+      items: {
+        type: 'object' as SchemaType.OBJECT,
+        properties: {
+          name: {
+            type: 'string' as SchemaType.STRING,
+            description: 'The canonical/official name of the tool (e.g., "Next.js" not "NextJS")',
+            nullable: false
+          },
+          url: {
+            type: 'string' as SchemaType.STRING,
+            description: 'The official URL if mentioned in the description, otherwise null',
+            nullable: true
+          }
+        },
+        required: ['name', 'url']
+      },
+      nullable: false
     }
   },
-  required: ['tldr', 'keyTakeaways', 'summary', 'context']
+  required: ['tldr', 'keyTakeaways', 'summary', 'context', 'tools']
 };
 
 /**

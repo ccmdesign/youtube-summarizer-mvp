@@ -1,4 +1,5 @@
 import type { VideoMetadata } from './youtube';
+import type { Tool } from './summary';
 
 export interface SummaryInput {
   metadata: VideoMetadata;
@@ -22,6 +23,7 @@ export interface SummaryOutput {
   keyTakeaways: string;
   summary: string;
   context: string;
+  tools: Tool[];
   modelUsed: string;
   metrics: SummaryMetrics;
 }

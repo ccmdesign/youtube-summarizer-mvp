@@ -1,4 +1,5 @@
 import type { SummaryInput } from '~/types/gemini';
+import type { Tool } from '~/types/summary';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { normalizeText, normalizeSingleLine } from '~/server/utils/text-normalizer';
@@ -21,6 +22,7 @@ export interface OpenRouterResult {
   keyTakeaways: string;
   summary: string;
   context: string;
+  tools: Tool[];
   modelUsed: string;
   inputTokens?: number;
   outputTokens?: number;
@@ -123,8 +125,14 @@ You MUST respond with valid JSON in this exact format:
   "tldr": "A single sentence (max 400 chars) capturing the main point",
   "keyTakeaways": "Markdown bullet points with the 2-4 key insights",
   "summary": "Detailed summary paragraphs with markdown formatting",
-  "context": "Background context paragraph explaining why this matters"
+  "context": "Background context paragraph explaining why this matters",
+  "tools": [{"name": "Tool Name", "url": "https://example.com or null"}]
 }
+
+For tools: Extract software tools, libraries, frameworks, services, APIs mentioned in the video.
+Use canonical names (e.g., "Next.js" not "NextJS"). Include URL if mentioned, otherwise null.
+Maximum 15 tools. Return empty array [] if no tools mentioned.
+
 Do not include any text outside the JSON object.`;
 
     const messages: OpenRouterMessage[] = [
@@ -268,7 +276,7 @@ Do not include any text outside the JSON object.`;
     return sanitized.trim();
   }
 
-  private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string } {
+  private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string; tools: Tool[] } {
     try {
       // Sanitize response to remove repetitive garbage
       const sanitized = this.sanitizeResponse(text);
@@ -286,12 +294,21 @@ Do not include any text outside the JSON object.`;
         throw new Error('MALFORMED_OPENROUTER_RESPONSE');
       }
 
+      // Normalize tools array - ensure valid structure and limit to 15
+      const tools: Tool[] = Array.isArray(parsed.tools)
+        ? parsed.tools
+            .filter((t): t is Tool => typeof t === 'object' && t !== null && typeof t.name === 'string')
+            .map(t => ({ name: t.name, url: t.url ?? null }))
+            .slice(0, 15)
+        : [];
+
       // Normalize and clean each field using unified text normalizer
       return {
         tldr: normalizeSingleLine(parsed.tldr).slice(0, 400),
         keyTakeaways: normalizeText(parsed.keyTakeaways),
         summary: normalizeText(parsed.summary),
-        context: normalizeText(parsed.context)
+        context: normalizeText(parsed.context),
+        tools
       };
     } catch (error) {
       logger.error('Failed to parse OpenRouter JSON response', { text, error });

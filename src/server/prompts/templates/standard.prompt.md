@@ -38,4 +38,17 @@ Provide a summary with these four fields:
 - Who should care about this?
 - How does it connect to broader trends or applications?
 
+## tools (array of objects)
+Extract software tools, libraries, frameworks, services, APIs, and platforms mentioned in the video.
+For each tool:
+- `name`: The canonical/official name (e.g., "Next.js" not "NextJS")
+- `url`: The official URL if mentioned in the description, otherwise null
+
+Rules:
+- Only extract specific, named tools (not generic concepts like "AI" or "the cloud")
+- Check the description for URLs - they often contain links to mentioned tools
+- Deduplicate by name, keeping the entry with a URL if available
+- Maximum 15 tools per video
+- If no tools are mentioned, return an empty array
+
 {{formattingRules}}

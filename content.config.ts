@@ -31,6 +31,12 @@ const aiMetricsSchema = z.object({
   processingTimeMs: z.number()
 })
 
+// Tools/resources extracted from video
+const toolSchema = z.object({
+  name: z.string(),
+  url: z.string().url().nullable()
+})
+
 export default defineContentConfig({
   collections: {
     summaries: defineCollection({
@@ -51,6 +57,8 @@ export default defineContentConfig({
         category: z.string().optional(),
         // AI-generated content
         tldr: z.string().optional(),
+        // Extracted tools/resources
+        tools: z.array(toolSchema).optional().default([]),
         // AI processing metrics
         ai: aiMetricsSchema.optional()
       })

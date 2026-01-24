@@ -6,6 +6,14 @@ import type { LengthCategory } from '~/server/prompts/taxonomy';
 export type { VideoMetadata } from './youtube';
 export type { LengthCategory } from '~/server/prompts/taxonomy';
 
+/**
+ * Tool/resource extracted from video transcript and description
+ */
+export interface Tool {
+  name: string;
+  url: string | null;
+}
+
 export interface PlaylistMetadata {
   playlistId: string;
   playlistName?: string;
@@ -66,6 +74,8 @@ export interface MarkdownFrontmatter {
   category?: string;
   // AI-generated content
   tldr: string;
+  // Extracted tools/resources
+  tools: Tool[];
   // AI processing metrics (nested)
   ai: FrontmatterAiMetrics;
 }

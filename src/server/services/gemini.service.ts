@@ -1,5 +1,6 @@
 import { GoogleGenerativeAI, SchemaType } from '@google/generative-ai';
 import type { SummaryInput, SummaryOutput } from '~/types/gemini';
+import type { Tool } from '~/types/summary';
 import { logger } from '~/server/utils/logger';
 import { retryWithBackoff } from '~/server/utils/retry';
 import { geminiFlashLimiter, geminiProLimiter } from '~/server/utils/rate-limiter';
@@ -74,12 +75,20 @@ export class GeminiService {
       tldrLength: parsed.tldr.length,
       keyTakeawaysLength: parsed.keyTakeaways.length,
       summaryLength: parsed.summary.length,
-      contextLength: parsed.context.length
+      contextLength: parsed.context.length,
+      toolsCount: parsed.tools.length
     });
 
     return {
       ...parsed,
-      modelUsed: this.modelName
+      modelUsed: this.modelName,
+      metrics: {
+        modelUsed: this.modelName,
+        apiCalls: 1,
+        fallbackAttempts: 0,
+        processingTimeMs: 0,
+        provider: 'gemini' as const
+      }
     };
   }
 
@@ -96,7 +105,7 @@ export class GeminiService {
   /**
    * Parse Gemini's structured JSON response
    */
-  private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string } {
+  private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string; tools: Tool[] } {
     try {
       const parsed: SummaryResponse = JSON.parse(text);
 
@@ -108,11 +117,20 @@ export class GeminiService {
       // Gemini sometimes returns literal \n instead of actual newlines
       const normalize = (s: string) => s.replace(/\\n/g, '\n');
 
+      // Normalize tools array - ensure valid structure and limit to 15
+      const tools: Tool[] = Array.isArray(parsed.tools)
+        ? parsed.tools
+            .filter((t): t is Tool => typeof t === 'object' && t !== null && typeof t.name === 'string')
+            .map(t => ({ name: t.name, url: t.url ?? null }))
+            .slice(0, 15)
+        : [];
+
       return {
         tldr: parsed.tldr.slice(0, 400),
         keyTakeaways: normalize(parsed.keyTakeaways),
         summary: normalize(parsed.summary),
-        context: normalize(parsed.context)
+        context: normalize(parsed.context),
+        tools
       };
     } catch (error) {
       logger.error('Failed to parse Gemini JSON response', { text, error });

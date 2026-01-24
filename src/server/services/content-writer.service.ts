@@ -160,6 +160,8 @@ export class ContentWriterService {
       ...(playlist?.category && { category: playlist.category }),
       // AI-generated TLDR
       tldr: summary.tldr,
+      // Extracted tools/resources
+      tools: summary.tools || [],
       // AI processing metrics (nested under 'ai')
       ai: {
         provider: metrics.provider,

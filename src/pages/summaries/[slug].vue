@@ -18,6 +18,19 @@
         </details>
 
         <ContentRenderer :value="summary" class="prose-layout | prose" />
+
+        <!-- Tools & Resources Section -->
+        <section v-if="summary.tools?.length" class="tools-section">
+          <h2>Tools & Resources</h2>
+          <ul class="tools-list">
+            <li v-for="tool in summary.tools" :key="tool.name" class="tools-list__item">
+              <a v-if="tool.url" :href="tool.url" target="_blank" rel="noopener">
+                {{ tool.name }}
+              </a>
+              <span v-else>{{ tool.name }}</span>
+            </li>
+          </ul>
+        </section>
       </div>
     </div>
   </ccm-section>
@@ -87,5 +100,45 @@ const { data: summary, pending, error } = useAsyncData(
 
 .video-description[open] .video-description__toggle {
   margin-bottom: var(--space-xs, 0.5rem);
+}
+
+.tools-section {
+  margin-block: var(--space-l, 2rem);
+  padding: var(--space-m, 1rem);
+  background: var(--color-surface-alt, #f5f5f5);
+  border-radius: var(--radius-s, 4px);
+  border: 1px solid var(--color-border, #e0e0e0);
+}
+
+.tools-section h2 {
+  margin-block-start: 0;
+  margin-block-end: var(--space-s, 0.75rem);
+  font-size: var(--step-1, 1.125rem);
+}
+
+.tools-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs, 0.5rem);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tools-list__item {
+  padding: var(--space-2xs, 0.25rem) var(--space-s, 0.75rem);
+  background: var(--color-surface, #fff);
+  border-radius: var(--radius-xs, 3px);
+  border: 1px solid var(--color-border, #e0e0e0);
+  font-size: var(--step--1, 0.875rem);
+}
+
+.tools-list__item a {
+  color: var(--color-link, #0066cc);
+  text-decoration: none;
+}
+
+.tools-list__item a:hover {
+  text-decoration: underline;
 }
 </style>
