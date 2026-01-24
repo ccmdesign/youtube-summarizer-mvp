@@ -11,6 +11,25 @@
           <a :href="summary.metadata.youtubeUrl" target="_blank" rel="noopener">Watch on YouTube</a>
         </p>
 
+        <!-- Tools Section at Beginning -->
+        <section v-if="categorizedTools.length" class="tools-section tools-section--top">
+          <h2>Tools Mentioned</h2>
+          <div v-for="group in categorizedTools" :key="group.category" class="tools-category">
+            <h3 class="tools-category__heading">{{ group.category }}</h3>
+            <div class="tools-category__chips">
+              <ccm-chip
+                v-for="tool in group.tools"
+                :key="tool.name"
+                :label="tool.name"
+                :to="tool.url || undefined"
+                variant="outlined"
+                color="neutral"
+                size="s"
+              />
+            </div>
+          </div>
+        </section>
+
         <!-- Video Description Section -->
         <details v-if="summary.metadata.description" class="video-description">
           <summary class="video-description__toggle">Video Description</summary>
@@ -18,25 +37,14 @@
         </details>
 
         <ContentRenderer :value="summary" class="prose-layout | prose" />
-
-        <!-- Tools & Resources Section -->
-        <section v-if="summary.tools?.length" class="tools-section">
-          <h2>Tools & Resources</h2>
-          <ul class="tools-list">
-            <li v-for="tool in summary.tools" :key="tool.name" class="tools-list__item">
-              <a v-if="tool.url" :href="tool.url" target="_blank" rel="noopener">
-                {{ tool.name }}
-              </a>
-              <span v-else>{{ tool.name }}</span>
-            </li>
-          </ul>
-        </section>
       </div>
     </div>
   </ccm-section>
 </template>
 
 <script setup lang="ts">
+import { categorizeTools } from '~/utils/categorizeTools'
+
 definePageMeta({
   hero: false,
   footer: false
@@ -64,6 +72,12 @@ const { data: summary, pending, error } = useAsyncData(
     return result
   }
 )
+
+// Computed categorized tools
+const categorizedTools = computed(() => {
+  if (!summary.value?.tools?.length) return []
+  return categorizeTools(summary.value.tools)
+})
 </script>
 
 <style scoped>
@@ -112,33 +126,30 @@ const { data: summary, pending, error } = useAsyncData(
 
 .tools-section h2 {
   margin-block-start: 0;
-  margin-block-end: var(--space-s, 0.75rem);
+  margin-block-end: var(--space-m, 1rem);
   font-size: var(--step-1, 1.125rem);
 }
 
-.tools-list {
+.tools-category {
+  margin-block-end: var(--space-s, 0.75rem);
+}
+
+.tools-category:last-child {
+  margin-block-end: 0;
+}
+
+.tools-category__heading {
+  margin-block: 0 var(--space-2xs, 0.25rem);
+  font-size: var(--step--1, 0.875rem);
+  font-weight: 600;
+  color: var(--color-text-secondary, #666);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tools-category__chips {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-xs, 0.5rem);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.tools-list__item {
-  padding: var(--space-2xs, 0.25rem) var(--space-s, 0.75rem);
-  background: var(--color-surface, #fff);
-  border-radius: var(--radius-xs, 3px);
-  border: 1px solid var(--color-border, #e0e0e0);
-  font-size: var(--step--1, 0.875rem);
-}
-
-.tools-list__item a {
-  color: var(--color-link, #0066cc);
-  text-decoration: none;
-}
-
-.tools-list__item a:hover {
-  text-decoration: underline;
 }
 </style>
