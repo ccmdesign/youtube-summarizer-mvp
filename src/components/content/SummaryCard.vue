@@ -2,14 +2,15 @@
 import { formatDate } from '~/utils/formatDate'
 import { marked } from 'marked'
 
-// Configure marked for inline rendering (no <p> wrappers)
-marked.use({
-  renderer: {
-    paragraph(token) {
-      return token.text
-    }
+// Configure marked for compact rendering (no <p> wrappers on single paragraphs)
+const renderer = {
+  paragraph({ tokens }: { tokens: any[] }) {
+    // Parse inline tokens to HTML, then return without <p> wrapper
+    return (this as any).parser.parseInline(tokens)
   }
-})
+}
+
+marked.use({ renderer })
 
 // Summary with nested metadata structure
 interface SummaryMetadata {

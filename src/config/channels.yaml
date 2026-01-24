@@ -82,12 +82,16 @@ channels:
     name: "Neil Patel"
     enabled: true
 
-  - id: "UCSWj8mqQCcrcBlXPi4ThRDQ"
-    name: "KodeKloud"
-    enabled: true
-
   - id: "UCKWaEZ-_VweaEx1j62do_vQ"
     name: "IBM Technology"
+    enabled: true
+
+  - id: "UCjIMtrzxYc0lblGhmOgC_CA"
+    name: "Every"
+    enabled: true
+
+  - id: "UCqGW5G0XWic_KSEH9IcVHAQ"
+    name: "Department of Product"
     enabled: true
 
   # Example channels (uncomment and replace with your own):

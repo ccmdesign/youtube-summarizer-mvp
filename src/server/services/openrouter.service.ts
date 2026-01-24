@@ -225,10 +225,50 @@ Do not include any text outside the JSON object.`;
     };
   }
 
+  /**
+   * Sanitize LLM output by removing repetitive garbage patterns.
+   * Some models (especially DeepSeek) can get stuck in loops generating
+   * repetitive sequences like "。 \n\n" hundreds of times.
+   */
+  private sanitizeResponse(text: string): string {
+    // Limit response to reasonable length (50KB should be more than enough)
+    const MAX_RESPONSE_LENGTH = 50000;
+    let sanitized = text.slice(0, MAX_RESPONSE_LENGTH);
+
+    // Detect and remove repetitive trailing patterns
+    // Common patterns: "。 \n\n", "\n\n", repeated punctuation, etc.
+    const repetitionPatterns = [
+      /(\。\s*\n\n){3,}/g,           // Chinese period + newlines repeated
+      /(\.\s*\n\n){5,}/g,            // Period + newlines repeated
+      /(\n\n){10,}/g,                // Many consecutive blank lines
+      /([。.!?]\s*){10,}$/,          // Trailing repeated punctuation
+      /(.{1,20})\1{5,}/g,            // Any short sequence repeated 5+ times
+    ];
+
+    for (const pattern of repetitionPatterns) {
+      const before = sanitized.length;
+      sanitized = sanitized.replace(pattern, (match, group) => {
+        // Keep a reasonable amount (2-3 occurrences max)
+        return group.repeat ? group.repeat(2) : group + group;
+      });
+      if (sanitized.length < before) {
+        logger.warn('Sanitized repetitive pattern from LLM response', {
+          pattern: pattern.source,
+          removedChars: before - sanitized.length
+        });
+      }
+    }
+
+    return sanitized.trim();
+  }
+
   private parseResponse(text: string): { tldr: string; keyTakeaways: string; summary: string; context: string } {
     try {
+      // Sanitize response to remove repetitive garbage
+      const sanitized = this.sanitizeResponse(text);
+
       // Try to extract JSON from the response (model might include extra text)
-      const jsonMatch = text.match(/\{[\s\S]*\}/);
+      const jsonMatch = sanitized.match(/\{[\s\S]*\}/);
       if (!jsonMatch) {
         throw new Error('No JSON found in response');
       }
@@ -240,14 +280,22 @@ Do not include any text outside the JSON object.`;
         throw new Error('MALFORMED_OPENROUTER_RESPONSE');
       }
 
-      // Normalize literal \n to actual newlines
-      const normalize = (s: string) => s.replace(/\\n/g, '\n');
+      // Normalize and clean each field
+      const cleanField = (s: string) => {
+        // Normalize literal \n to actual newlines
+        let cleaned = s.replace(/\\n/g, '\n');
+        // Remove repetitive patterns within fields
+        cleaned = cleaned.replace(/(\。\s*\n\n){3,}/g, '\n\n');
+        cleaned = cleaned.replace(/(\n\n){5,}/g, '\n\n');
+        cleaned = cleaned.replace(/([。.!?]\s*){5,}/g, '. ');
+        return cleaned.trim();
+      };
 
       return {
-        tldr: parsed.tldr.slice(0, 400),
-        keyTakeaways: normalize(parsed.keyTakeaways),
-        summary: normalize(parsed.summary),
-        context: normalize(parsed.context)
+        tldr: cleanField(parsed.tldr).slice(0, 400),
+        keyTakeaways: cleanField(parsed.keyTakeaways),
+        summary: cleanField(parsed.summary),
+        context: cleanField(parsed.context)
       };
     } catch (error) {
       logger.error('Failed to parse OpenRouter JSON response', { text, error });
