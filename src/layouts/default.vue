@@ -19,6 +19,7 @@
       </main>
     </div>
     <ccm-footer v-if="footer" class="layout-footer" />
+    <MobileNav v-if="showSidebar" />
   </div>
 </template>
 

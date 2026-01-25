@@ -1,0 +1,116 @@
+[
+  {
+    "id": "UC0C-17n9iuUQPylguM1d-lQ",
+    "name": "AI News & Strategy Daily | Nate B Jones",
+    "slug": "ai-news-strategy-daily-nate-b-jones",
+    "enabled": true
+  },
+  {
+    "id": "UCKelCK4ZaO6HeEI1KQjqzWA",
+    "name": "The AI Daily Brief: Artificial Intelligence News",
+    "slug": "the-ai-daily-brief-artificial-intelligence-news",
+    "enabled": true
+  },
+  {
+    "id": "UCkVfrGwV-iG9bSsgCbrNPxQ",
+    "name": "Better Stack",
+    "slug": "better-stack",
+    "enabled": true
+  },
+  {
+    "id": "UCLKPca3kwwd-B59HNr-_lvA",
+    "name": "AI Engineer",
+    "slug": "ai-engineer",
+    "enabled": true
+  },
+  {
+    "id": "UC_x36zCEGilGpB1m-V4gmjg",
+    "name": "IndyDevDan",
+    "slug": "indydevdan",
+    "enabled": true
+  },
+  {
+    "id": "UCSxPE9PHHxQUEt6ajGmQyMA",
+    "name": "Brian Casel",
+    "slug": "brian-casel",
+    "enabled": true
+  },
+  {
+    "id": "UCR9j1jqqB5Rse69wjUnbYwA",
+    "name": "All About AI",
+    "slug": "all-about-ai",
+    "enabled": true
+  },
+  {
+    "id": "UCelfWQr9sXVMTvBzviPGlFw",
+    "name": "AI LABS",
+    "slug": "ai-labs",
+    "enabled": true
+  },
+  {
+    "id": "UCNHIUc6KE64sUe5G0eP70aQ",
+    "name": "Den Delimarsky",
+    "slug": "den-delimarsky",
+    "enabled": true
+  },
+  {
+    "id": "UCkCnraWwlnBw1_i7C9-3p0w",
+    "name": "Dive Club",
+    "slug": "dive-club",
+    "enabled": true
+  },
+  {
+    "id": "UCPjNBjflYl0-HQtUvOx0Ibw",
+    "name": "Greg Isenberg",
+    "slug": "greg-isenberg",
+    "enabled": true
+  },
+  {
+    "id": "UCaIm6rTg-RXb6rB19fYJgTg",
+    "name": "JeredBlu",
+    "slug": "jeredblu",
+    "enabled": true
+  },
+  {
+    "id": "UCO9epahzfdOtOQP3WLN4ELQ",
+    "name": "Reinike AI",
+    "slug": "reinike-ai",
+    "enabled": true
+  },
+  {
+    "id": "UCSDtqcJ8ZXviPrEcj1vuLiQ",
+    "name": "Smashing Magazine",
+    "slug": "smashing-magazine",
+    "enabled": true
+  },
+  {
+    "id": "UCGtXqPiNV8YC0GMUzY-EUFg",
+    "name": "Marketing Against the Grain",
+    "slug": "marketing-against-the-grain",
+    "enabled": true
+  },
+  {
+    "id": "UCl-Zrl0QhF66lu1aGXaTbfw",
+    "name": "Neil Patel",
+    "slug": "neil-patel",
+    "enabled": true
+  },
+  {
+    "id": "UCKWaEZ-_VweaEx1j62do_vQ",
+    "name": "IBM Technology",
+    "slug": "ibm-technology",
+    "enabled": true
+  },
+  {
+    "id": "UCjIMtrzxYc0lblGhmOgC_CA",
+    "name": "Every",
+    "slug": "every",
+    "enabled": true
+  },
+  {
+    "id": "UCqGW5G0XWic_KSEH9IcVHAQ",
+    "name": "Department of Product",
+    "slug": "department-of-product",
+    "enabled": true
+  }
+]

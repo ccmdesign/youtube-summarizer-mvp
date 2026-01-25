@@ -25,8 +25,11 @@ const { data: summaries, pending } = useContentStream('summaries', {
 // Group by date
 const { segments } = useDateGroups(computed(() => summaries.value || []))
 
+// Check if empty (playlist exists but no summaries)
+const isEmpty = computed(() => !pending.value && (!summaries.value || summaries.value.length === 0))
+
 useHead({
-  title: `${playlist.value.name} | YouTube Summarizer`
+  title: `${playlist.value.name} | YouTube Summaries`
 })
 </script>
 
@@ -38,6 +41,13 @@ useHead({
     </header>
 
     <div v-if="pending" class="loading">Loading...</div>
+
+    <div v-else-if="isEmpty" class="empty-state">
+      <span class="material-symbols-outlined empty-state__icon">playlist_remove</span>
+      <p class="empty-state__message">No summaries in this playlist yet.</p>
+      <p class="empty-state__hint">Check back soon - new videos are processed daily.</p>
+      <NuxtLink to="/" class="empty-state__link">Browse all summaries</NuxtLink>
+    </div>
 
     <DateGroupedFeed v-else :segments="segments" />
   </div>
@@ -67,5 +77,46 @@ useHead({
   text-align: center;
   padding: var(--space-2xl, 3rem);
   color: var(--color-base-shade-10, #6b7280);
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--space-2xl, 3rem) var(--space-l, 1.5rem);
+}
+
+.empty-state__icon {
+  font-size: 3rem;
+  color: var(--color-base-shade-10, #6b7280);
+  margin-bottom: var(--space-m, 1rem);
+}
+
+.empty-state__message {
+  font-size: var(--step-1, 1.125rem);
+  font-weight: 500;
+  color: var(--color-text, #374151);
+  margin-bottom: var(--space-xs, 0.5rem);
+}
+
+.empty-state__hint {
+  font-size: var(--step-0, 1rem);
+  color: var(--color-base-shade-10, #6b7280);
+  margin-bottom: var(--space-l, 1.5rem);
+}
+
+.empty-state__link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2xs, 0.25rem);
+  padding: var(--space-s, 0.75rem) var(--space-m, 1rem);
+  background: var(--color-primary, #2563eb);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.empty-state__link:hover {
+  background: var(--color-primary-shade-10, #1d4ed8);
 }
 </style>

@@ -3,8 +3,8 @@ import { usePlaylistsConfig } from '~/composables/usePlaylistsConfig'
 import { useChannelsConfig } from '~/composables/useChannelsConfig'
 import { useTruncate } from '~/composables/useTruncate'
 
-const { playlists } = usePlaylistsConfig()
-const { channels } = useChannelsConfig()
+const { enabledPlaylists } = usePlaylistsConfig()
+const { enabledChannels } = useChannelsConfig()
 </script>
 
 <template>
@@ -17,7 +17,7 @@ const { channels } = useChannelsConfig()
       <section class="sidebar-section">
         <h3 class="sidebar-heading">Playlists</h3>
         <ul class="sidebar-list">
-          <li v-for="playlist in playlists" :key="playlist.id">
+          <li v-for="playlist in enabledPlaylists" :key="playlist.id">
             <NuxtLink
               :to="`/playlists/${playlist.slug}`"
               class="sidebar-link"
@@ -32,7 +32,7 @@ const { channels } = useChannelsConfig()
       <section class="sidebar-section">
         <h3 class="sidebar-heading">Channels</h3>
         <ul class="sidebar-list">
-          <li v-for="channel in channels" :key="channel.slug">
+          <li v-for="channel in enabledChannels" :key="channel.slug">
             <NuxtLink
               :to="`/channels/${channel.slug}`"
               class="sidebar-link"

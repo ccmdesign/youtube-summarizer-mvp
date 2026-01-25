@@ -1,0 +1,30 @@
+[
+  {
+    "id": "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn",
+    "name": "AI Summaries",
+    "category": "ai",
+    "slug": "ai-summaries",
+    "enabled": true
+  },
+  {
+    "id": "PL-SEjLl-bojUYCpJcOL5XVeJicf9X1nGS",
+    "name": "Geopolitics",
+    "category": "geopolitics",
+    "slug": "geopolitics",
+    "enabled": true
+  },
+  {
+    "id": "PL-SEjLl-bojUBbH6pniyrHDaxs-WO6E7R",
+    "name": "Personal",
+    "category": "personal",
+    "slug": "personal",
+    "enabled": true
+  },
+  {
+    "id": "PL-SEjLl-bojWiSK9b4JVTsaOeyrjhuSUQ",
+    "name": "YY",
+    "category": "yy",
+    "slug": "yy",
+    "enabled": true
+  }
+]
