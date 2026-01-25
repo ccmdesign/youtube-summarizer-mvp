@@ -45,3 +45,5 @@ GEMINI.md
 _process/
 
 .playwright-mcp/
+
+scripts/.backfill-tools-progress.json

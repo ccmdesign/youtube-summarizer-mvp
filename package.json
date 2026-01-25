@@ -25,7 +25,9 @@
     "video:retry": "tsx scripts/video-retry.ts",
     "video:status": "tsx scripts/video-status.ts",
     "migrate:folders": "tsx scripts/migrate-to-folders.ts",
-    "backfill": "tsx scripts/backfill-video-data.ts"
+    "backfill": "tsx scripts/backfill-video-data.ts",
+    "backfill:tools": "tsx scripts/backfill-tools.ts",
+    "backfill:tools:dry": "tsx scripts/backfill-tools.ts --dry-run"
   },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
