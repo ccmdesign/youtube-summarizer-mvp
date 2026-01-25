@@ -28,7 +28,7 @@ export function loadConfig(): AppConfig {
     maxVideosPerRun: parseInt(process.env.MAX_VIDEOS_PER_RUN || '10', 10),
     enableProFallback: process.env.ENABLE_PRO_FALLBACK === 'true',
     enableModelFallback: process.env.ENABLE_MODEL_FALLBACK !== 'false', // Default to true
-    outputDir: process.env.OUTPUT_DIR || 'src/content/summaries'
+    outputDir: process.env.OUTPUT_DIR || 'output/summaries'
   };
 
   try {

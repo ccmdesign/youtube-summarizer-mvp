@@ -28,8 +28,8 @@ logs
 !.env.example
 /content/
 
-# YouTube Summarizer data
-!src/content/summaries/.gitkeep
+# Output directory (generated summaries)
+output/
 
 # AI Files
 _archive/

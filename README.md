@@ -1,6 +1,6 @@
-# YouTube Summarizer MVP
+# AI Content Scraper
 
-AI-powered YouTube video summarization platform built with Nuxt 4, Google Gemini, and Nuxt Content.
+Backend scraper engine for YouTube video summarization powered by Google Gemini.
 
 ## Features
 
@@ -9,7 +9,6 @@ AI-powered YouTube video summarization platform built with Nuxt 4, Google Gemini
 - **Intelligent Fallback** - Automatic model switching when quota is exhausted (Gemini -> OpenRouter)
 - **Full Transcripts** - Stores timestamped transcripts alongside summaries
 - **RSS Feed** - Subscribe to summaries in podcast apps or RSS readers
-- **Static Generation** - Pre-rendered pages for fast loading and easy hosting
 
 ## Quick Start
 
@@ -25,7 +24,7 @@ AI-powered YouTube video summarization platform built with Nuxt 4, Google Gemini
 ```bash
 # Clone and install
 git clone <repo-url>
-cd youtube-summarizer-mvp
+cd ai-content-scraper
 npm install
 
 # Configure environment
@@ -49,6 +48,7 @@ ENABLE_MODEL_FALLBACK=true              # Enable fallback chain
 # Optional - Processing
 MAX_VIDEOS_PER_RUN=10                   # Max videos per sync (1-50)
 PROCESSING_MODE=transcript              # transcript or native-video
+OUTPUT_DIR=output/summaries             # Where to write generated summaries
 
 # Optional - Deployment
 SITE_URL=https://your-site.com
@@ -131,24 +131,6 @@ npm run ai:validate
 npm run ai:setup
 ```
 
-### Development Tools
-
-```bash
-# Type checking
-npm run typecheck
-
-# Lint CSS
-npm run lint:css
-npm run lint:css:fix
-
-# Validate design tokens
-npm run validate:tokens
-npm run validate:tokens:fix
-
-# Analyze components
-npm run analyze:components
-```
-
 ## Architecture
 
 ### Data Flow
@@ -162,16 +144,13 @@ Write Files (summary.md, transcript.json, metadata.yml) -> Update Processing Log
 
 ```
 src/
-├── content/summaries/          # Generated content
-│   └── {videoId}/
-│       ├── summary.md          # Main content with YAML frontmatter
-│       ├── transcript.json     # Timestamped transcript segments
-│       └── metadata.yml        # Video metadata + processing metrics
 ├── server/
-│   ├── routes/                 # API endpoints
-│   │   ├── api/sync.ts         # Playlist sync
-│   │   ├── api/channels/       # Channel monitoring
-│   │   └── feed.xml.ts         # RSS feed
+│   ├── api/                    # Nitro API endpoints
+│   │   ├── sync.ts             # Playlist sync
+│   │   └── channels/           # Channel monitoring
+│   ├── routes/                 # Server routes
+│   │   ├── feed.xml.ts         # RSS feed
+│   │   └── digest.xml.ts       # Digest feed
 │   ├── services/               # Business logic
 │   │   ├── sync.service.ts     # Main orchestration
 │   │   ├── youtube.service.ts  # YouTube API + transcripts
@@ -180,19 +159,18 @@ src/
 │   │   ├── openrouter.service.ts  # Fallback provider
 │   │   ├── content-writer.service.ts  # File output
 │   │   └── processing-log.service.ts  # Status tracking
-│   └── utils/                  # Helpers
-├── pages/                      # Nuxt pages
-│   ├── index.vue               # Home - summary list
-│   ├── summaries/[slug].vue    # Individual summary
-│   └── channels/[slug].vue     # Channel view
-├── components/                 # Vue components
-│   └── content/
-│       ├── SummaryCard.vue     # Summary card display
-│       └── DateGroupedFeed.vue # Grouped summary list
-├── composables/                # Vue composables
-│   ├── useContentStream.ts     # Content fetching
-│   └── useDateGroups.ts        # Date grouping
-└── types/                      # TypeScript definitions
+│   ├── prompts/                # AI prompt templates
+│   └── utils/                  # Helpers (config, logger, etc.)
+├── types/                      # TypeScript definitions
+└── tests/                      # Vitest test specs
+scripts/                        # CLI tools
+config/                         # Playlist/channel YAML configs
+data/                           # Processing state
+output/summaries/               # Generated content (gitignored)
+    └── {videoId}/
+        ├── summary.md          # Main content with YAML frontmatter
+        ├── transcript.json     # Timestamped transcript segments
+        └── metadata.yml        # Video metadata + processing metrics
 ```
 
 ### Content Schema
@@ -336,35 +314,6 @@ Status is tracked in `.data/processing-log.json`:
 }
 ```
 
-## Deployment
-
-### Static Hosting (Netlify, Vercel, etc.)
-
-```bash
-# Build static site
-npm run build
-
-# Output in .output/public/
-```
-
-### Automated Sync with CI/CD
-
-Use `npm run sync-deploy` in GitHub Actions or similar:
-
-```yaml
-- name: Sync videos
-  run: npm run sync-deploy
-  env:
-    YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
-    GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-```
-
-This will:
-1. Sync new videos from playlists/channels
-2. Generate AI summaries
-3. Commit new summaries to git
-4. Push changes to trigger site rebuild
-
 ## Rate Limiting
 
 - **YouTube API**: ~2 videos/minute (30s delay between videos)
@@ -376,26 +325,17 @@ This will:
 | File | Purpose |
 |------|---------|
 | `.env` | Environment variables (API keys) |
-| `content.config.ts` | Nuxt Content collection schemas |
 | `nuxt.config.ts` | Nuxt/Nitro configuration |
 | `tsconfig.json` | TypeScript settings |
+| `config/playlists.yml` | Playlist configuration |
+| `config/channels.yml` | Channel configuration |
 
 ## Tech Stack
 
-- **Framework**: Nuxt 4 (Vue 3.5)
-- **Content**: @nuxt/content
+- **Framework**: Nuxt 4 (Nitro server-only)
 - **AI**: Google Gemini, OpenRouter
 - **Transcripts**: youtube-caption-extractor, yt-dlp
-- **Styling**: CUBE CSS
-- **Build**: Nitro (static preset)
-
-## AI Assistant Support
-
-This project includes instructions for AI coding assistants:
-
-- **Claude Code**: See `CLAUDE.md` and `.claude/` directory
-- **Gemini**: See `GEMINI.md` and `.gemini/` directory
-- **Cursor**: See `.cursorrules` and `.cursor/` directory
+- **Build**: Nitro
 
 ## License
 

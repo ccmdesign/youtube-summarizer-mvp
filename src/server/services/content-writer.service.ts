@@ -23,7 +23,7 @@ export interface MetadataExtra {
 }
 
 export class ContentWriterService {
-  constructor(private outputDir: string = 'src/content/summaries') {}
+  constructor(private outputDir: string = 'output/summaries') {}
 
   /**
    * Write a markdown file with frontmatter to folder structure
