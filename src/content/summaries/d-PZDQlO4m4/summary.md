@@ -81,6 +81,27 @@ ai:
   outputTokens: 860
   totalTokens: 5655
   processingTimeMs: 14328
+tools:
+  - name: "Google NotebookLM"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Gemini CLI"
+    url: null
+  - name: "Wisper Flow"
+    url: null
+  - name: "Codex"
+    url: null
+  - name: "Chrome"
+    url: null
+  - name: "Google Drive"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com/jacob-bd/notebooklm-mcp"
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

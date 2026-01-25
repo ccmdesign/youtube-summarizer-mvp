@@ -21,6 +21,13 @@ ai:
   outputTokens: 1936
   totalTokens: 12367
   processingTimeMs: 35342
+tools:
+  - name: "Otter AI"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

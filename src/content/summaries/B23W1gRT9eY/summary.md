@@ -83,6 +83,21 @@ ai:
   outputTokens: 912
   totalTokens: 5227
   processingTimeMs: 12863
+tools:
+  - name: "Gemini"
+    url: null
+  - name: "GPT-4"
+    url: null
+  - name: "Llama"
+    url: null
+  - name: "DeepSeek"
+    url: null
+  - name: "Custom GPTs"
+    url: null
+  - name: "Waymo"
+    url: null
+  - name: "Notion"
+    url: "https://www.notion.so"
 ---
 
 ## Key Takeaways

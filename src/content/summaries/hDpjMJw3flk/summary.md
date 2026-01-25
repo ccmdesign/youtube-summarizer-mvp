@@ -80,6 +80,17 @@ ai:
   totalTokens: 6928
   processingTimeMs: 3664201
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Codeex"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "GPT 5.2"
+    url: null
+  - name: "ChatGPT 5.2"
+    url: null
 ---
 
 ## Key Takeaways

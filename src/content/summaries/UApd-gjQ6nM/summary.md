@@ -50,6 +50,17 @@ ai:
   totalTokens: 5098
   processingTimeMs: 47108
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "GPT OSS"
+    url: null
+  - name: "Quen Coder"
+    url: null
+  - name: "Quen 3VL"
+    url: null
+  - name: "Llama"
+    url: null
+  - name: "Open Coder"
+    url: null
 ---
 
 ## Key Takeaways

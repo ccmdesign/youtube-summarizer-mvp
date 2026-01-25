@@ -38,6 +38,21 @@ ai:
   outputTokens: 979
   totalTokens: 9734
   processingTimeMs: 15834
+tools:
+  - name: "Claude Co-work"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Max"
+    url: null
+  - name: "Google Drive"
+    url: null
+  - name: "Gmail"
+    url: null
+  - name: "Claude for Chrome"
+    url: null
+  - name: "Stripe APIs"
+    url: null
 ---
 
 ## Key Takeaways

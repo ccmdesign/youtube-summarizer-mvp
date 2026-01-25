@@ -30,6 +30,19 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Claude Code"
+    url: "https://code.claude.com/docs/en/plugin-marketplaces"
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Lucide React"
+    url: null
+  - name: "Shadcn/UI"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "React"
+    url: null
 ---
 
 The video explores the integration of the "frontend-design" plugin within Claude Code, Anthropic’s agentic command-line tool. This combination represents a significant shift in developer experience, moving from manual CSS/component writing to high-level architectural prompting.

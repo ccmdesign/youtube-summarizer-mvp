@@ -55,6 +55,13 @@ ai:
   outputTokens: 874
   totalTokens: 3535
   processingTimeMs: 89904
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Zo Computer"
+    url: "https://zo.computer"
+  - name: "OpenAI"
+    url: null
 ---
 
 ## Key Takeaways

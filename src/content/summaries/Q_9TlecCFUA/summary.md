@@ -76,6 +76,23 @@ ai:
   totalTokens: 3423
   processingTimeMs: 11394
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Gmail"
+    url: null
+  - name: "Fireflies"
+    url: null
+  - name: "Cal.com"
+    url: null
+  - name: "n8n"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Stripe"
+    url: null
+  - name: "Claude Desktop"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

@@ -87,6 +87,17 @@ ai:
   outputTokens: 963
   totalTokens: 7523
   processingTimeMs: 39293
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Ralph Plugin"
+    url: "https://github.com/anthropics/claude-code/blob/main/plugins/ralph-wiggum/README.md"
+  - name: "Playwright MCP"
+    url: null
+  - name: "Claude for Chrome"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

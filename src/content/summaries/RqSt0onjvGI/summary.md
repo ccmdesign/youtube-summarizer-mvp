@@ -19,6 +19,7 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools: []
 ---
 
 A2UI (AI for User Interface) represents a fundamental paradigm shift in how humans interact with digital systems. Rather than requiring users to navigate pre-defined menus and rigid workflows, A2UI leverages artificial intelligence to bridge the gap between human intent and functional interface elements.

@@ -113,6 +113,27 @@ ai:
   totalTokens: 9495
   processingTimeMs: 52323
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Ralphy AI Agent"
+    url: "https://startup-ideas-pod.link/ras-ralphy"
+  - name: "Claude 3.5 Opus"
+    url: null
+  - name: "Ask User Question Tool"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Model Context Protocol (MCP)"
+    url: null
+  - name: "IdeaBrowser"
+    url: "https://www.ideabrowser.com/"
+  - name: "Late Checkout Agency (LCA)"
+    url: "https://latecheckout.agency/"
+  - name: "The Vibe Marketer"
+    url: "https://www.thevibemarketer.com/"
+  - name: "Ralph loops"
+    url: null
 ---
 
 ## Key Takeaways

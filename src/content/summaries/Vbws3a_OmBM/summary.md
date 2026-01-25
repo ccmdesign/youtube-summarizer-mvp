@@ -42,6 +42,15 @@ ai:
   totalTokens: 3608
   processingTimeMs: 25111
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Gemini 3 Flash"
+    url: null
+  - name: "Qwen3 TTS"
+    url: null
+  - name: "Omnihuman"
+    url: null
 ---
 
 ## Key Takeaways

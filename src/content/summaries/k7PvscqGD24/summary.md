@@ -34,6 +34,9 @@ ai:
   totalTokens: 4832
   processingTimeMs: 67076
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "watsonx"
+    url: "https://ibm.biz/Bdb5ip"
 ---
 
 ## Key Takeaways

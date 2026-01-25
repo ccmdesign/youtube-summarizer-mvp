@@ -52,6 +52,25 @@ ai:
   outputTokens: 2376
   totalTokens: 23333
   processingTimeMs: 75492
+tools:
+  - name: "OpenAI"
+    url: null
+  - name: "Temporal"
+    url: null
+  - name: "OpenAI Agents SDK"
+    url: null
+  - name: "Redis"
+    url: null
+  - name: "Kafka"
+    url: null
+  - name: "MCP"
+    url: null
+  - name: "Pydantic"
+    url: null
+  - name: "Cloud Foundry"
+    url: null
+  - name: "Codex"
+    url: null
 ---
 
 ## Key Takeaways

@@ -52,6 +52,17 @@ ai:
   outputTokens: 898
   totalTokens: 5351
   processingTimeMs: 13596
+tools:
+  - name: "ManyChat"
+    url: null
+  - name: "Perplexity"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Answer the Public"
+    url: null
+  - name: "Ubersuggest"
+    url: null
 ---
 
 ## Key Takeaways

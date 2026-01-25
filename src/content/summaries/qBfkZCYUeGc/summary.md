@@ -56,6 +56,13 @@ ai:
   outputTokens: 749
   totalTokens: 4230
   processingTimeMs: 22056
+tools:
+  - name: "Claude Browser Extension"
+    url: null
+  - name: "Perplexity Comet Browser"
+    url: null
+  - name: "n8n"
+    url: null
 ---
 
 ## Key Takeaways

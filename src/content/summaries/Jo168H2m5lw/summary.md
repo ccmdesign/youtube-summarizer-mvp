@@ -70,6 +70,23 @@ ai:
   outputTokens: 885
   totalTokens: 8380
   processingTimeMs: 14069
+tools:
+  - name: "n8n"
+    url: null
+  - name: "Claude Opus"
+    url: null
+  - name: "Google Gemini Image Generation"
+    url: null
+  - name: "Gemini API"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Zapier"
+    url: null
+  - name: "Dribbble"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

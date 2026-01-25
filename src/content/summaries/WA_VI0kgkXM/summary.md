@@ -98,6 +98,13 @@ ai:
   outputTokens: 824
   totalTokens: 4800
   processingTimeMs: 14088
+tools:
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "Gemini"
+    url: "https://gemini.google.com"
+  - name: "Google AI Studio"
+    url: "https://aistudio.google.com"
 ---
 
 ## Key Takeaways

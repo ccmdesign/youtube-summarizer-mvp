@@ -77,6 +77,21 @@ ai:
   outputTokens: 857
   totalTokens: 6108
   processingTimeMs: 23351
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Opus 4.5"
+    url: null
+  - name: "Agent OS"
+    url: null
+  - name: "Claude Code CLI"
+    url: null
+  - name: "Claude Skills"
+    url: null
+  - name: "Gemini 3"
+    url: null
+  - name: "GPT-5"
+    url: null
 ---
 
 ## Key Takeaways

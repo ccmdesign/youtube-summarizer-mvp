@@ -116,6 +116,33 @@ ai:
   outputTokens: 1462
   totalTokens: 11430
   processingTimeMs: 18768
+tools:
+  - name: "Claude Code"
+    url: "https://claude.com/blog/cowork-research-preview"
+  - name: "Co-work"
+    url: "https://claude.com/blog/cowork-research-preview"
+  - name: "Universal Commerce Protocol (UCP)"
+    url: null
+  - name: "Model Context Protocol (MCP)"
+    url: null
+  - name: "Agent Payments Protocol (AP2)"
+    url: null
+  - name: "Deepseek V4"
+    url: "https://www.theinformation.com/articles/deepseek-release-next-flagship-ai-model-strong-coding-ability?rc=pplyci"
+  - name: "Gemini"
+    url: null
+  - name: "Apple Intelligence"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "HubSpot"
+    url: null
+  - name: "Zapier"
+    url: null
+  - name: "Sweet Pea"
+    url: null
+  - name: "Gumdrop"
+    url: null
 ---
 
 ## Key Takeaways

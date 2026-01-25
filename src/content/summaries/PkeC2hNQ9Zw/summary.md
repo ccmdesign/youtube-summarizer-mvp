@@ -70,6 +70,21 @@ ai:
   totalTokens: 4513
   processingTimeMs: 48710
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Vercel Skills"
+    url: "https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem"
+  - name: "add-skill"
+    url: null
+  - name: "skills.sh"
+    url: null
+  - name: "Cloudflare Agent Skills Discovery"
+    url: "https://github.com/cloudflare/agent-skills-discovery-rfc?tab=readme-ov-file"
+  - name: "Remotion"
+    url: null
+  - name: "Better Stack"
+    url: "https://betterstack.com/"
 ---
 
 ## Key Takeaways

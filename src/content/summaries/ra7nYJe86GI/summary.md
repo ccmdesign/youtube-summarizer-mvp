@@ -82,6 +82,11 @@ ai:
   totalTokens: 6665
   processingTimeMs: 26863
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Salesforce"
+    url: null
 ---
 
 ## Key Takeaways

@@ -91,6 +91,21 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Claude Code"
+    url: "https://claude.com/product/claude-code"
+  - name: "Ralph Loop"
+    url: "https://awesomeclaude.ai/ralph-wiggum"
+  - name: "Cursed"
+    url: "https://cursed-lang.org"
+  - name: "Supabase"
+    url: null
+  - name: "Node Package Manager"
+    url: null
+  - name: "Git"
+    url: null
+  - name: "@anthropic-ai/claude-code"
+    url: null
 ---
 
 Claude Code is Anthropic’s official command-line interface (CLI) tool designed to assist developers directly within their terminal. While powerful, the standard version often requires frequent "human-in-the-loop" confirmations for security and cost management. The "Ralph Loop" is a specialized wrapper script and methodology that bypasses these manual interruptions, enabling Claude Code to function as a truly autonomous agent.

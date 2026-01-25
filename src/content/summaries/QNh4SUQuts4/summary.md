@@ -128,6 +128,19 @@ ai:
   outputTokens: 874
   totalTokens: 8085
   processingTimeMs: 16344
+tools:
+  - name: "Gemini 3.0"
+    url: null
+  - name: "Google AI Studio"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Dribbble"
+    url: null
+  - name: "Apple Health"
+    url: null
 ---
 
 ## Key Takeaways

@@ -77,6 +77,27 @@ ai:
   outputTokens: 910
   totalTokens: 3409
   processingTimeMs: 10377
+tools:
+  - name: "Agent Browser"
+    url: "https://github.com/vercel-labs/agent-browser"
+  - name: "Claude Code"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Chromium"
+    url: null
+  - name: "Browser-use"
+    url: null
+  - name: "Playwright MCP Server"
+    url: null
+  - name: "GPT-4"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Vite"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

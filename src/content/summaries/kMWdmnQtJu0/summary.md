@@ -70,6 +70,11 @@ ai:
   outputTokens: 883
   totalTokens: 4453
   processingTimeMs: 12441
+tools:
+  - name: "Figma"
+    url: null
+  - name: "FigJam"
+    url: null
 ---
 
 ## Key Takeaways

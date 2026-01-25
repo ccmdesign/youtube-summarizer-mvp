@@ -48,6 +48,15 @@ ai:
   outputTokens: 906
   totalTokens: 5065
   processingTimeMs: 17817
+tools:
+  - name: "MAKER Framework"
+    url: null
+  - name: "Llama 3 8B"
+    url: null
+  - name: "GPT-4"
+    url: null
+  - name: "Gemini 3"
+    url: null
 ---
 
 ## Key Takeaways

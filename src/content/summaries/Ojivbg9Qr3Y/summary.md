@@ -126,6 +126,29 @@ ai:
   outputTokens: 899
   totalTokens: 5048
   processingTimeMs: 16918
+tools:
+  - name: "Adobe Express"
+    url: null
+  - name: "Canva"
+    url: null
+  - name: "Affinity Designer"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Milanote"
+    url: null
+  - name: "Adobe Illustrator"
+    url: null
+  - name: "Google Stitch"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Figma Weave"
+    url: null
+  - name: "Love Art AI"
+    url: null
+  - name: "Freepik"
+    url: "https://www.freepik.com"
 ---
 
 ## Key Takeaways

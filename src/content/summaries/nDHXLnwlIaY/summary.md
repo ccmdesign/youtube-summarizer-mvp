@@ -86,6 +86,19 @@ ai:
   outputTokens: 924
   totalTokens: 6272
   processingTimeMs: 12861
+tools:
+  - name: "Claude 3.5 Sonnet"
+    url: null
+  - name: "Replit"
+    url: null
+  - name: "Replit Agent"
+    url: null
+  - name: "Polyat"
+    url: null
+  - name: "Google Stitch"
+    url: null
+  - name: "v0"
+    url: null
 ---
 
 ## Key Takeaways

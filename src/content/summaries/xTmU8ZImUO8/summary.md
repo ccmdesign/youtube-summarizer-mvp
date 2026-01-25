@@ -88,6 +88,25 @@ ai:
   outputTokens: 866
   totalTokens: 4844
   processingTimeMs: 68051
+tools:
+  - name: "LangChain"
+    url: null
+  - name: "OpenAI"
+    url: null
+  - name: "Anthropic"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Chroma"
+    url: null
+  - name: "Pinecone"
+    url: null
+  - name: "LangChain Expression Language"
+    url: null
+  - name: "Gradio"
+    url: null
+  - name: "LangGraph"
+    url: null
 ---
 
 ## Key Takeaways

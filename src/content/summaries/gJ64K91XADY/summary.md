@@ -55,6 +55,29 @@ ai:
   outputTokens: 1524
   totalTokens: 16388
   processingTimeMs: 22189
+tools:
+  - name: "ChatGPT"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Perplexity"
+    url: null
+  - name: "TikTok"
+    url: null
+  - name: "Instagram"
+    url: null
+  - name: "LinkedIn"
+    url: null
+  - name: "Reddit"
+    url: null
+  - name: "Google"
+    url: null
+  - name: "Pmax"
+    url: null
+  - name: "Atlas"
+    url: null
+  - name: "Comet"
+    url: null
 ---
 
 ## Key Takeaways

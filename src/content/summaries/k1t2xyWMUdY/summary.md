@@ -25,6 +25,11 @@ ai:
   totalTokens: 18521
   processingTimeMs: 44458
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "GitHub"
+    url: null
 ---
 
 ## Key Takeaways

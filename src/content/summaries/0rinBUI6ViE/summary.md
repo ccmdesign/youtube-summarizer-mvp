@@ -49,6 +49,7 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools: []
 ---
 
 DeepSeek continues to disrupt the AI landscape by prioritizing architectural efficiency over brute-force compute. Following the success of the R1 and V3 models, the introduction of Multi-Head Chain-of-thought (MHC) marks a shift in how Large Language Models (LLMs) handle complex logic and inference.

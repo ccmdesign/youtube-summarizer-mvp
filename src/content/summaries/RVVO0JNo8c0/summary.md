@@ -42,6 +42,19 @@ ai:
   outputTokens: 849
   totalTokens: 5733
   processingTimeMs: 16988
+tools:
+  - name: "ChatGPT Health"
+    url: null
+  - name: "Apple Health"
+    url: null
+  - name: "Function Health"
+    url: null
+  - name: "MyFitnessPal"
+    url: null
+  - name: "KPMG"
+    url: "https://www.kpmg.us/ai"
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
 ---
 
 ## Key Takeaways

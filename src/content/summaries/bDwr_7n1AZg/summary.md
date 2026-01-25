@@ -72,6 +72,23 @@ ai:
   outputTokens: 848
   totalTokens: 5604
   processingTimeMs: 24257
+tools:
+  - name: "Dioxus"
+    url: "https://dioxuslabs.com/"
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Bevy"
+    url: null
+  - name: "Serde"
+    url: null
+  - name: "React Native"
+    url: null
+  - name: "Flutter"
+    url: null
+  - name: "Reqwest"
+    url: null
+  - name: "Radix UI"
+    url: null
 ---
 
 ## Key Takeaways

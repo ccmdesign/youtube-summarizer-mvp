@@ -70,6 +70,15 @@ ai:
   outputTokens: 963
   totalTokens: 6119
   processingTimeMs: 18165
+tools:
+  - name: "Confucius SDK"
+    url: null
+  - name: "Confucius Code Agent"
+    url: null
+  - name: "vLLM"
+    url: null
+  - name: "SWE-bench Pro"
+    url: null
 ---
 
 ## Key Takeaways

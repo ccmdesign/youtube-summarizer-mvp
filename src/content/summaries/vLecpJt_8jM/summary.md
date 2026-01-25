@@ -70,6 +70,23 @@ ai:
   outputTokens: 942
   totalTokens: 3608
   processingTimeMs: 12997
+tools:
+  - name: "Claude API"
+    url: null
+  - name: "OpenCode"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "OpenAI"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Grok"
+    url: null
+  - name: "OpenCode Black"
+    url: null
+  - name: "SST"
+    url: null
 ---
 
 ## Key Takeaways

@@ -68,6 +68,19 @@ ai:
   outputTokens: 1203
   totalTokens: 3507
   processingTimeMs: 87334
+tools:
+  - name: "GPT-4"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "Llama"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Llama 3.1"
+    url: null
+  - name: "Phi-4"
+    url: null
 ---
 
 ## Key Takeaways

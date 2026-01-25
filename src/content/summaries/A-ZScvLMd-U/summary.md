@@ -77,6 +77,25 @@ ai:
   outputTokens: 821
   totalTokens: 3323
   processingTimeMs: 12054
+tools:
+  - name: "Agent Skills"
+    url: "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview"
+  - name: "Model Context Protocol"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "MCP Builder"
+    url: null
+  - name: "Skill Creator"
+    url: null
+  - name: "Python"
+    url: null
+  - name: "Node.js"
+    url: null
 ---
 
 ## Key Takeaways

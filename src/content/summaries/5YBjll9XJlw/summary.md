@@ -79,6 +79,37 @@ ai:
   totalTokens: 117758
   processingTimeMs: 190139
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Opus 4.5"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Conductor"
+    url: null
+  - name: "Claudebot"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Droid"
+    url: null
+  - name: "Remotion"
+    url: null
+  - name: "Streamlit"
+    url: null
+  - name: "Tolen"
+    url: null
+  - name: "Proof"
+    url: null
+  - name: "Anecdote"
+    url: null
+  - name: "Monologue"
+    url: null
+  - name: "Sparkle"
+    url: null
 ---
 
 ## Key Takeaways

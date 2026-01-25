@@ -76,6 +76,23 @@ ai:
   outputTokens: 971
   totalTokens: 6509
   processingTimeMs: 20768
+tools:
+  - name: "Google Gemini"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Tensor Processing Units"
+    url: null
+  - name: "Google Cloud"
+    url: null
+  - name: "Google Ads"
+    url: null
+  - name: "Google Workspace"
+    url: null
+  - name: "Google Sheets"
+    url: null
+  - name: "Custom GPTs"
+    url: null
 ---
 
 ## Key Takeaways

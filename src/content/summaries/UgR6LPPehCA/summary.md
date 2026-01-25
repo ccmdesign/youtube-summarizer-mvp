@@ -49,6 +49,11 @@ ai:
   outputTokens: 846
   totalTokens: 2390
   processingTimeMs: 11390
+tools:
+  - name: "Gemini 3"
+    url: null
+  - name: "Nano Banana Pro"
+    url: null
 ---
 
 ## Key Takeaways

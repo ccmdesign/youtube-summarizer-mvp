@@ -40,6 +40,15 @@ ai:
   outputTokens: 1042
   totalTokens: 3483
   processingTimeMs: 80623
+tools:
+  - name: "Python"
+    url: null
+  - name: "Docker"
+    url: null
+  - name: "LangChain"
+    url: null
+  - name: "AutoGen"
+    url: null
 ---
 
 ## Key Takeaways

@@ -40,6 +40,11 @@ ai:
   outputTokens: 917
   totalTokens: 5752
   processingTimeMs: 16932
+tools:
+  - name: "LangChain"
+    url: null
+  - name: "watsonx"
+    url: "https://ibm.biz/BdbTRQ"
 ---
 
 ## Key Takeaways

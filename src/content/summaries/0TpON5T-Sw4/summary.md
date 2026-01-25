@@ -107,6 +107,21 @@ ai:
   outputTokens: 1366
   totalTokens: 11370
   processingTimeMs: 22916
+tools:
+  - name: "Slack"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Zapier"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Evernote"
+    url: null
+  - name: "Obsidian"
+    url: null
 ---
 
 ## Key Takeaways

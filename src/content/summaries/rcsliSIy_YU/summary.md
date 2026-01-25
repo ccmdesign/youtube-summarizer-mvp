@@ -36,6 +36,23 @@ ai:
   outputTokens: 1258
   totalTokens: 14902
   processingTimeMs: 20983
+tools:
+  - name: "Open Hands"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Trivy"
+    url: null
+  - name: "npm audit"
+    url: null
+  - name: "Refactor SDK"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Devin"
+    url: null
+  - name: "AllHands"
+    url: null
 ---
 
 ## Key Takeaways

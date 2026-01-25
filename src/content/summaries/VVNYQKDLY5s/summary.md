@@ -86,6 +86,11 @@ ai:
   outputTokens: 704
   totalTokens: 3502
   processingTimeMs: 12217
+tools:
+  - name: "ChromaDB"
+    url: null
+  - name: "Pinecone"
+    url: null
 ---
 
 ## Key Takeaways

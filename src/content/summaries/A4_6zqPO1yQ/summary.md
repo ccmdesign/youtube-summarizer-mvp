@@ -129,6 +129,21 @@ ai:
   outputTokens: 765
   totalTokens: 2325
   processingTimeMs: 13764
+tools:
+  - name: "MAID Runner"
+    url: "https://github.com/mamertofabian/maid-runner"
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "MAID Runner MCP Server"
+    url: "https://github.com/mamertofabian/maid-runner-mcp"
+  - name: "Node.js"
+    url: null
+  - name: "Python"
+    url: null
+  - name: "Claude Desktop"
+    url: null
 ---
 
 ## Key Takeaways

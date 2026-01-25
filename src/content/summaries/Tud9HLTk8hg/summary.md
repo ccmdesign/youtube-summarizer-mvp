@@ -34,6 +34,13 @@ ai:
   outputTokens: 781
   totalTokens: 3000
   processingTimeMs: 21201
+tools:
+  - name: "A2A Protocol"
+    url: "https://ibm.biz/Bdewcc"
+  - name: "JSON RPC"
+    url: null
+  - name: "Server-Sent Events"
+    url: null
 ---
 
 ## Key Takeaways

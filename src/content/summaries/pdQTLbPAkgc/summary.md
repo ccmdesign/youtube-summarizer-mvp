@@ -67,6 +67,23 @@ ai:
   outputTokens: 934
   totalTokens: 7937
   processingTimeMs: 14013
+tools:
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Gmail API"
+    url: null
+  - name: "Google Cloud Platform"
+    url: null
+  - name: "OAuth"
+    url: null
+  - name: "Claude Co-work"
+    url: null
+  - name: "Kaggle"
+    url: null
+  - name: "Qwen2-VL"
+    url: null
 ---
 
 ## Key Takeaways

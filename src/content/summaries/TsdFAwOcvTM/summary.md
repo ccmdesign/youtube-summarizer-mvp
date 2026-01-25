@@ -58,6 +58,25 @@ ai:
   outputTokens: 1019
   totalTokens: 4801
   processingTimeMs: 11670
+tools:
+  - name: "MiniMax M2.1"
+    url: null
+  - name: "GLM 4.7"
+    url: null
+  - name: "Claude 4.5 Sonnet"
+    url: null
+  - name: "Claude 4.5 Opus"
+    url: null
+  - name: "Gemini 3 Pro"
+    url: null
+  - name: "Design Arena"
+    url: null
+  - name: "Drizzle ORM"
+    url: null
+  - name: "SQLite"
+    url: null
+  - name: "Next.js"
+    url: null
 ---
 
 ## Key Takeaways

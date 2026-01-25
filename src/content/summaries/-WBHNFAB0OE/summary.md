@@ -94,6 +94,17 @@ ai:
   outputTokens: 1186
   totalTokens: 10840
   processingTimeMs: 20334
+tools:
+  - name: "mprocs"
+    url: "https://github.com/pvolok/mprocs"
+  - name: "Claude Code"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Codex"
+    url: null
+  - name: "MROS"
+    url: null
 ---
 
 ## Key Takeaways

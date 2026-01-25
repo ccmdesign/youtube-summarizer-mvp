@@ -101,6 +101,25 @@ ai:
   totalTokens: 18153
   processingTimeMs: 54675
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Paper"
+    url: null
+  - name: "Shape Up"
+    url: "https://basecamp.com/shapeup"
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Tailwind"
+    url: null
+  - name: "Radix UI"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

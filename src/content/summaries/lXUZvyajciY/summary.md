@@ -66,6 +66,23 @@ ai:
   outputTokens: 1681
   totalTokens: 45820
   processingTimeMs: 18896
+tools:
+  - name: "Labelbox"
+    url: "https://labelbox.com/dwarkesh"
+  - name: "Mercury"
+    url: "https://mercury.com"
+  - name: "Google Gemini"
+    url: "https://gemini.google"
+  - name: "Veo"
+    url: null
+  - name: "Eureka Labs"
+    url: null
+  - name: "LLM101n"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "ChatGPT"
+    url: null
 ---
 
 ## Key Takeaways

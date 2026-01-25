@@ -119,6 +119,29 @@ ai:
   outputTokens: 1828
   totalTokens: 5778
   processingTimeMs: 36402
+tools:
+  - name: "Google Antigravity"
+    url: "https://anti-gravity.google"
+  - name: "Anthropic Skills"
+    url: "https://github.com/anthropics/skills/tree/main/skills"
+  - name: "n8n"
+    url: "https://n8n.partnerlinks.io/duncan"
+  - name: "Instantly"
+    url: "https://instantly.ai/?via=duncan-rogoff"
+  - name: "Apify"
+    url: "https://www.apify.com?fpr=nj0vn"
+  - name: "Make"
+    url: "https://www.make.com/en/register?pc=duncan"
+  - name: "Blotato"
+    url: "https://blotato.com/?ref=duncan"
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Agent Manager"
+    url: null
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "Money Mode AI"
+    url: "https://chatgpt.com/g/g-693c7932014c8191b272e9088a5e14d2-money-mode-ai"
 ---
 
 ## Key Takeaways

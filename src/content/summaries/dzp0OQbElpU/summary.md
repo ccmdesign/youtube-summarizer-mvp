@@ -100,6 +100,19 @@ ai:
   outputTokens: 943
   totalTokens: 9146
   processingTimeMs: 21046
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Copilot"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Roast"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "LLM proxy"
+    url: null
 ---
 
 ## Key Takeaways

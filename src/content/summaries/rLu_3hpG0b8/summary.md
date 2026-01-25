@@ -88,6 +88,27 @@ ai:
   outputTokens: 960
   totalTokens: 4076
   processingTimeMs: 11418
+tools:
+  - name: "Gemini Conductor"
+    url: "https://github.com/gemini-cli-extensions/conductor"
+  - name: "Gemini CLI"
+    url: "https://geminicli.com/"
+  - name: "NotebookLM"
+    url: null
+  - name: "Neo"
+    url: null
+  - name: "NPM"
+    url: null
+  - name: "React"
+    url: null
+  - name: "React Context API"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
+  - name: "Scrimba"
+    url: "https://scrimba.com/?via=worldofai"
 ---
 
 ## Key Takeaways

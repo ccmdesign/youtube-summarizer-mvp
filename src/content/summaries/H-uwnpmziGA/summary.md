@@ -72,6 +72,11 @@ ai:
   outputTokens: 936
   totalTokens: 7154
   processingTimeMs: 13900
+tools:
+  - name: "Claude"
+    url: "https://claude.com/download"
+  - name: "Claude for Desktop"
+    url: "https://claude.com/download"
 ---
 
 ## Key Takeaways

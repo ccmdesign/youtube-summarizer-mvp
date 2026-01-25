@@ -138,6 +138,9 @@ ai:
   outputTokens: 914
   totalTokens: 4787
   processingTimeMs: 14297
+tools:
+  - name: "ConvertKit"
+    url: "https://cleananddelicious.ck.page/weeklynewsletter"
 ---
 
 ## Key Takeaways

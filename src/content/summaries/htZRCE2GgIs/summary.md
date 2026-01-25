@@ -86,6 +86,17 @@ ai:
   outputTokens: 821
   totalTokens: 3968
   processingTimeMs: 23953
+tools:
+  - name: "ChatGPT"
+    url: null
+  - name: "Google Gemini"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "Perplexity"
+    url: null
+  - name: "NotebookLM"
+    url: null
 ---
 
 ## Key Takeaways

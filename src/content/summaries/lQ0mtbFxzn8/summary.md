@@ -73,6 +73,15 @@ ai:
   outputTokens: 876
   totalTokens: 2956
   processingTimeMs: 9805
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Co-work"
+    url: "https://claude.com/blog/cowork-research-preview"
+  - name: "Google Drive"
+    url: null
+  - name: "Box"
+    url: null
 ---
 
 ## Key Takeaways

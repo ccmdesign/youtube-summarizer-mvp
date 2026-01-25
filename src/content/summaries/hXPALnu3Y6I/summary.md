@@ -64,6 +64,21 @@ ai:
   outputTokens: 1262
   totalTokens: 6698
   processingTimeMs: 56206
+tools:
+  - name: "Manychat"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Perplexity"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Comet"
+    url: null
+  - name: "HeyGen"
+    url: null
+  - name: "NP Digital"
+    url: "http://npdigital.com"
 ---
 
 ## Key Takeaways

@@ -133,6 +133,31 @@ ai:
   outputTokens: 1273
   totalTokens: 12219
   processingTimeMs: 31176
+tools:
+  - name: "ChatGPT"
+    url: null
+  - name: "Canva"
+    url: null
+  - name: "Envato Elements"
+    url: "https://elements.envato.com/"
+  - name: "Shopify"
+    url: null
+  - name: "Solo Drop"
+    url: null
+  - name: "Elixir"
+    url: null
+  - name: "HeyGen"
+    url: null
+  - name: "11 Labs"
+    url: null
+  - name: "Google Docs"
+    url: null
+  - name: "Suppliful"
+    url: null
+  - name: "Anox"
+    url: null
+  - name: "IdeaBrowser"
+    url: "https://www.ideabrowser.com/"
 ---
 
 ## Key Takeaways

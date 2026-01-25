@@ -100,6 +100,15 @@ ai:
   outputTokens: 1248
   totalTokens: 17706
   processingTimeMs: 18552
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Lovable"
+    url: null
+  - name: "Granola"
+    url: null
+  - name: "Figma"
+    url: null
 ---
 
 ## Key Takeaways

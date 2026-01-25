@@ -102,6 +102,25 @@ ai:
   outputTokens: 900
   totalTokens: 5930
   processingTimeMs: 16114
+tools:
+  - name: "LTX-2"
+    url: "https://ltx.io/model/ltx-2"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/Lightricks/LTX-2"
+  - name: "Rubin"
+    url: "https://blogs.nvidia.com/blog/2026-ces-special-presentation/"
+  - name: "Alpamayo"
+    url: "https://nvidianews.nvidia.com/news/alpamayo-autonomous-vehicle-development"
+  - name: "ChatGPT Health"
+    url: "https://openai.com/index/introducing-chatgpt-health/"
+  - name: "Apple Health"
+    url: null
+  - name: "Whoop"
+    url: null
+  - name: "Oura"
+    url: null
+  - name: "Greptile"
+    url: "https://greptile.com/go/berman"
 ---
 
 ## Key Takeaways

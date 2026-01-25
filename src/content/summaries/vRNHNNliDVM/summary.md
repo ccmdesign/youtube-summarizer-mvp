@@ -127,6 +127,21 @@ ai:
   outputTokens: 882
   totalTokens: 6170
   processingTimeMs: 15680
+tools:
+  - name: "Midjourney"
+    url: null
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "Kling AI"
+    url: "klingaiaffiliate.pxf.io/qz3955"
+  - name: "ShotDeck"
+    url: "https://shotdeck.com"
+  - name: "Flora"
+    url: "https://dub.florafauna.ai/theoretically-media"
+  - name: "GPT"
+    url: null
+  - name: "Claude"
+    url: null
 ---
 
 ## Key Takeaways

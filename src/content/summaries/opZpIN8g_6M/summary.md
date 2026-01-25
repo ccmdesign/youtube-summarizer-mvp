@@ -42,6 +42,13 @@ ai:
   outputTokens: 931
   totalTokens: 4811
   processingTimeMs: 14356
+tools:
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Skills"
+    url: null
 ---
 
 ## Key Takeaways

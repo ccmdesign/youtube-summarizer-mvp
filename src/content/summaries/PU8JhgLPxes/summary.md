@@ -64,6 +64,25 @@ ai:
   outputTokens: 777
   totalTokens: 3125
   processingTimeMs: 11249
+tools:
+  - name: "Claude Desktop"
+    url: null
+  - name: "NotebookLM"
+    url: null
+  - name: "Model Context Protocol (MCP)"
+    url: null
+  - name: "notebooklm-mcp"
+    url: "https://github.com/jacob-bd/notebooklm-mcp"
+  - name: "PyPI"
+    url: null
+  - name: "uv"
+    url: null
+  - name: "pip"
+    url: null
+  - name: "JSON"
+    url: null
+  - name: "Perplexity"
+    url: null
 ---
 
 ## Key Takeaways

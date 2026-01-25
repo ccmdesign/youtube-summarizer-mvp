@@ -62,6 +62,17 @@ ai:
   outputTokens: 1202
   totalTokens: 7410
   processingTimeMs: 55204
+tools:
+  - name: "Visual Studio Code"
+    url: "https://code.visualstudio.com/"
+  - name: "Visual Studio Code Insiders"
+    url: "https://code.visualstudio.com/insiders/"
+  - name: "GitHub Spec Kit"
+    url: "https://github.com/github/spec-kit"
+  - name: "GitHub Copilot"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com/"
 ---
 
 ## Key Takeaways

@@ -69,6 +69,17 @@ ai:
   outputTokens: 808
   totalTokens: 5918
   processingTimeMs: 15226
+tools:
+  - name: "Make.com"
+    url: "https://www.make.com/"
+  - name: "OpenAI API"
+    url: null
+  - name: "Gmail"
+    url: null
+  - name: "Google Local Services Ads"
+    url: null
+  - name: "Google Business Profile"
+    url: null
 ---
 
 ## Key Takeaways

@@ -72,6 +72,25 @@ ai:
   totalTokens: 23363
   processingTimeMs: 56319
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Cowork"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Skills"
+    url: null
+  - name: "Chrome connector"
+    url: null
+  - name: "PostHog"
+    url: null
+  - name: "Google Docs"
+    url: null
+  - name: "Every"
+    url: "https://every.to"
+  - name: "Kora"
+    url: null
+  - name: "Claude AI"
+    url: null
 ---
 
 ## Key Takeaways

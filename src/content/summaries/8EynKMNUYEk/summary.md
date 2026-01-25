@@ -75,6 +75,33 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Grok Business"
+    url: "https://x.ai/news/grok-business"
+  - name: "VAETKI"
+    url: "https://huggingface.co/NC-AI-consortium-VAETKI/VAETKI"
+  - name: "Firecrawl"
+    url: "https://x.com/firecrawl/status/2006047443834798149"
+  - name: "ApsaraDB RDS for SQL Server 2025"
+    url: "https://www.alibabacloud.com/blog/apsaradb-rds-for-sql-server-2025-released-unlocking-ai-ready-enterprise-databases_602769"
+  - name: "llama.cpp"
+    url: "https://github.com/ggml-org/llama.cpp/releases/tag/b7595"
+  - name: "InfTool"
+    url: "https://arxiv.org/abs/2512.23611"
+  - name: "NestBrowse"
+    url: "https://arxiv.org/abs/2512.23611"
+  - name: "Voice-Agents"
+    url: "https://github.com/The-Swarm-Corporation/Voice-Agents"
+  - name: "UltraShape-1.0"
+    url: "https://github.com/PKU-YuanGroup/UltraShape-1.0"
+  - name: "Manus Slack Connector"
+    url: "https://manus.im/blog/manus-slack-connector"
+  - name: "Vidu AI"
+    url: "https://x.com/ViduAI_official/status/2005994785610555622"
+  - name: "Microsoft Teams Copilot"
+    url: "https://techcommunity.microsoft.com/blog/microsoftteamsblog/what%E2%80%99s-new-in-microsoft-teams--december-2025/4482056"
+  - name: "tiny-diffusion"
+    url: "https://github.com/nathan-barry/tiny-diffusion"
 ---
 
 The video outlines a series of pivotal updates in the AI landscape, focusing on enterprise expansion, architectural efficiency, and autonomous agent capabilities.

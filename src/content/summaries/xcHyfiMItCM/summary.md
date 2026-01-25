@@ -89,6 +89,21 @@ ai:
   outputTokens: 938
   totalTokens: 5575
   processingTimeMs: 13988
+tools:
+  - name: "PostHog"
+    url: null
+  - name: "Slidev"
+    url: null
+  - name: "Google Slides"
+    url: null
+  - name: "Google Sheets"
+    url: null
+  - name: "Apple Numbers"
+    url: null
+  - name: "Awesome Claude Skills"
+    url: null
+  - name: "Zapier"
+    url: null
 ---
 
 ## Key Takeaways

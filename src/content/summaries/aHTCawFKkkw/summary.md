@@ -55,6 +55,25 @@ ai:
   outputTokens: 803
   totalTokens: 7546
   processingTimeMs: 30365
+tools:
+  - name: "MongoDB"
+    url: null
+  - name: "OpenSSL"
+    url: null
+  - name: "mongobleed-detector"
+    url: "https://github.com/Neo23x0/mongobleed-detector"
+  - name: "mongobleed"
+    url: "https://github.com/joe-desimone/mongobleed"
+  - name: "Boot.dev"
+    url: "https://boot.dev"
+  - name: "Twitch"
+    url: "https://twitch.tv"
+  - name: "X"
+    url: "https://twitter.com"
+  - name: "terminal.shop"
+    url: null
+  - name: "zlib"
+    url: null
 ---
 
 ## Key Takeaways

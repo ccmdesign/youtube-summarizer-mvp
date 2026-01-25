@@ -21,6 +21,9 @@ ai:
   outputTokens: 1862
   totalTokens: 13546
   processingTimeMs: 64999
+tools:
+  - name: "Google Sites"
+    url: null
 ---
 
 ## Key Takeaways

@@ -122,6 +122,37 @@ ai:
   outputTokens: 824
   totalTokens: 4894
   processingTimeMs: 22807
+tools:
+  - name: "Gemini Advanced"
+    url: null
+  - name: "Notebook LM"
+    url: null
+  - name: "Nano Banana"
+    url: null
+  - name: "V3"
+    url: null
+  - name: "Opal"
+    url: null
+  - name: "Gemini Gems"
+    url: null
+  - name: "Google AI Studio"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "Jules"
+    url: null
+  - name: "Stitch"
+    url: null
+  - name: "Google Labs"
+    url: null
+  - name: "Pimelli"
+    url: null
+  - name: "Gen Tabs"
+    url: null
+  - name: "fal.ai"
+    url: null
 ---
 
 ## Key Takeaways

@@ -41,6 +41,11 @@ ai:
   outputTokens: 792
   totalTokens: 2668
   processingTimeMs: 42188
+tools:
+  - name: "ToolOrchestra"
+    url: null
+  - name: "GPT-5"
+    url: null
 ---
 
 ## Key Takeaways

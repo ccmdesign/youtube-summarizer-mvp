@@ -21,6 +21,11 @@ ai:
   outputTokens: 744
   totalTokens: 2947
   processingTimeMs: 21454
+tools:
+  - name: "eBay"
+    url: null
+  - name: "Orlando"
+    url: null
 ---
 
 ## Key Takeaways

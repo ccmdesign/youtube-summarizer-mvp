@@ -22,6 +22,11 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Jasper"
+    url: null
+  - name: "Veo API"
+    url: null
 ---
 
 The "Technical & Systems" approach marks the evolution from casual AI usage to professional-grade implementation. While most users rely on "one-shot" prompting—asking a chatbot for a single output—true authority is built by creating repeatable, data-driven systems that reflect a professional's unique expertise and internal business processes.

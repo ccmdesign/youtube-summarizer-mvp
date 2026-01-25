@@ -52,6 +52,21 @@ ai:
   outputTokens: 873
   totalTokens: 3188
   processingTimeMs: 10461
+tools:
+  - name: "Model Context Protocol"
+    url: null
+  - name: "p5.js"
+    url: "https://p5js.org"
+  - name: "Slack"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "AutoGen"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Vercel AI SDK"
+    url: null
 ---
 
 ## Key Takeaways

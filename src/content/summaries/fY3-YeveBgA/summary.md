@@ -73,6 +73,21 @@ ai:
   outputTokens: 1087
   totalTokens: 6825
   processingTimeMs: 14917
+tools:
+  - name: "Qwen3-VL-Embeddings"
+    url: "https://huggingface.co/collections/Qwen/qwen3-vl-embedding"
+  - name: "Qwen3-VL-Rerankers"
+    url: "https://huggingface.co/collections/Qwen/qwen3-vl-embedding"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/collections/Qwen/qwen3-vl-embedding"
+  - name: "Google Colab"
+    url: "https://dripl.ink/ReqOF"
+  - name: "CLIP"
+    url: null
+  - name: "SIGLIP"
+    url: null
+  - name: "MMEB Leaderboard"
+    url: null
 ---
 
 ## Key Takeaways

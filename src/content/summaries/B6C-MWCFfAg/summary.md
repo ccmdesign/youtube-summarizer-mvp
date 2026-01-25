@@ -43,6 +43,31 @@ ai:
   outputTokens: 2358
   totalTokens: 16031
   processingTimeMs: 43370
+tools:
+  - name: "Convex"
+    url: null
+  - name: "Firebase"
+    url: null
+  - name: "Supabase"
+    url: null
+  - name: "Tuple"
+    url: "https://soydev.link/tuple"
+  - name: "Stripe"
+    url: null
+  - name: "R2"
+    url: null
+  - name: "Resend"
+    url: null
+  - name: "Databricks"
+    url: null
+  - name: "Snowflake"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Fowl"
+    url: null
+  - name: "Node.js"
+    url: null
 ---
 
 ## Key Takeaways

@@ -45,6 +45,23 @@ ai:
   outputTokens: 923
   totalTokens: 5738
   processingTimeMs: 13443
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Whisper"
+    url: null
+  - name: "Gemini 1.5 Flash API"
+    url: null
+  - name: "ffmpeg"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "JavaScript"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

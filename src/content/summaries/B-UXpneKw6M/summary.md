@@ -75,6 +75,27 @@ ai:
   outputTokens: 921
   totalTokens: 4729
   processingTimeMs: 13505
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "BigQuery"
+    url: null
+  - name: "GitHub Actions"
+    url: null
+  - name: "Sentry"
+    url: null
+  - name: "Visual Studio Code"
+    url: null
+  - name: "Ralph Wiggum Plugin"
+    url: "https://youtu.be/MFJ0mH72_qI?si=8GN4_7kMy0D9HVip"
+  - name: "Claude Browser Extension"
+    url: "https://youtu.be/NuKrtiJqW3Y?si=7Hi_ubVdlC8jalFC"
 ---
 
 ## Key Takeaways

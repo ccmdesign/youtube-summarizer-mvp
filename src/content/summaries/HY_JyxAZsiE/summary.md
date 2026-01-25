@@ -25,6 +25,29 @@ ai:
   outputTokens: 1410
   totalTokens: 17631
   processingTimeMs: 20587
+tools:
+  - name: "Kiro"
+    url: null
+  - name: "Easy Approach to Requirement Syntax"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Asana"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "AWS"
+    url: null
+  - name: "Brave Search"
+    url: null
+  - name: "Agent Core"
+    url: null
+  - name: "LangGraph"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
 ---
 
 ## Key Takeaways

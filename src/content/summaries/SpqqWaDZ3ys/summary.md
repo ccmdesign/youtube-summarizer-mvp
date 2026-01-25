@@ -51,6 +51,29 @@ ai:
   outputTokens: 992
   totalTokens: 5938
   processingTimeMs: 28860
+tools:
+  - name: "Cowork"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Gmail"
+    url: null
+  - name: "Google Calendar"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "Google Drive"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Python PowerPoint"
+    url: null
+  - name: "Microsoft PowerPoint"
+    url: null
+  - name: "Claude in Chrome"
+    url: null
+  - name: "Next.js"
+    url: null
 ---
 
 ## Key Takeaways

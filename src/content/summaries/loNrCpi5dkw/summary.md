@@ -103,6 +103,21 @@ ai:
   outputTokens: 1229
   totalTokens: 16684
   processingTimeMs: 27568
+tools:
+  - name: "Facebook Marketplace API"
+    url: null
+  - name: "Shopify"
+    url: null
+  - name: "eBay"
+    url: null
+  - name: "PSA"
+    url: null
+  - name: "IdeaBrowser"
+    url: "https://www.ideabrowser.com/"
+  - name: "Late Checkout Agency"
+    url: "https://latecheckout.agency/"
+  - name: "The Vibe Marketer"
+    url: "https://www.thevibemarketer.com/"
 ---
 
 ## Key Takeaways

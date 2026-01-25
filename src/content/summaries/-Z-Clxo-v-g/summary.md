@@ -81,6 +81,21 @@ ai:
   outputTokens: 887
   totalTokens: 3652
   processingTimeMs: 15851
+tools:
+  - name: "Buzz"
+    url: "https://github.com/chidiwilliams/buzz?tab=readme-ov-file"
+  - name: "OpenAI Whisper"
+    url: null
+  - name: "Buzz Captions"
+    url: "https://buzzcaptions.com/"
+  - name: "Buzz UI"
+    url: "https://sourceforge.net/projects/buzz-captions/"
+  - name: "faster-whisper"
+    url: null
+  - name: "Otter.ai"
+    url: null
+  - name: "Rev"
+    url: null
 ---
 
 ## Key Takeaways

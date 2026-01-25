@@ -76,6 +76,29 @@ ai:
   outputTokens: 1078
   totalTokens: 9094
   processingTimeMs: 74618
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "iTerm2"
+    url: null
+  - name: "Git"
+    url: null
+  - name: "GitHub Actions"
+    url: null
+  - name: "bun"
+    url: null
+  - name: "Chrome for Claude"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Chrome DevTools"
+    url: null
+  - name: "Sentry"
+    url: null
+  - name: "BigQuery CLI"
+    url: null
+  - name: "Slack"
+    url: null
 ---
 
 ## Key Takeaways

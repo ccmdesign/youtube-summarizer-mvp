@@ -179,6 +179,23 @@ ai:
   outputTokens: 1470
   totalTokens: 17150
   processingTimeMs: 14667
+tools:
+  - name: "AI Studio"
+    url: "http://ai.studio/build"
+  - name: "Continuous Thought Machines"
+    url: "https://sakana.ai/ctm/"
+  - name: "Neuron Level Models"
+    url: null
+  - name: "Sudoku Bench"
+    url: "https://pub.sakana.ai/sudoku/"
+  - name: "Sakana AI"
+    url: "https://sakana.ai/"
+  - name: "Tufa AI Labs"
+    url: "https://tufalabs.ai/"
+  - name: "cyber•Fund"
+    url: "https://cyber.fund/"
+  - name: "Rescript"
+    url: "https://app.rescript.info/"
 ---
 
 ## Key Takeaways

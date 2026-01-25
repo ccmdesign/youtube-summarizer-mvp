@@ -52,6 +52,29 @@ ai:
   outputTokens: 1048
   totalTokens: 3785
   processingTimeMs: 14278
+tools:
+  - name: "Gemini 3"
+    url: null
+  - name: "Gemini 3 Pro"
+    url: null
+  - name: "GPT 5.1"
+    url: null
+  - name: "GPT 5.1 Pro"
+    url: null
+  - name: "Grok 4.1"
+    url: null
+  - name: "Claude 4"
+    url: null
+  - name: "Claude 4.1 Opus"
+    url: null
+  - name: "Quen 3"
+    url: null
+  - name: "DeepSeek R1"
+    url: null
+  - name: "Google TPUs"
+    url: null
+  - name: "Midjourney"
+    url: null
 ---
 
 ## Key Takeaways

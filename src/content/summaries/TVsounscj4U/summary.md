@@ -46,6 +46,13 @@ ai:
   outputTokens: 878
   totalTokens: 4628
   processingTimeMs: 13581
+tools:
+  - name: "Google Gemini"
+    url: null
+  - name: "OpenAI"
+    url: null
+  - name: "Raycast"
+    url: null
 ---
 
 ## Key Takeaways

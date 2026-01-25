@@ -73,6 +73,19 @@ ai:
   outputTokens: 824
   totalTokens: 7405
   processingTimeMs: 14837
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Nvidia DGX Spark"
+    url: "https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/"
+  - name: "Nvidia DGX Station"
+    url: "https://blogs.nvidia.com/blog/dgx-spark-and-station-open-source-frontier-models/"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/collections/mistralai/ministral-3"
+  - name: "ffmpeg"
+    url: null
 ---
 
 ## Key Takeaways

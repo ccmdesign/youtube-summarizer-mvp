@@ -68,6 +68,19 @@ ai:
   outputTokens: 1513
   totalTokens: 11837
   processingTimeMs: 50963
+tools:
+  - name: "Dessn"
+    url: "https://join.dive.club/dessn-content"
+  - name: "Inflight"
+    url: "https://www.inflight.co/"
+  - name: "Figma"
+    url: null
+  - name: "Dive Club"
+    url: "https://dive.club"
+  - name: "Docker"
+    url: null
+  - name: "Git"
+    url: null
 ---
 
 ## Key Takeaways

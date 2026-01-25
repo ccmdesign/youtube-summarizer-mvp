@@ -70,6 +70,25 @@ ai:
   outputTokens: 836
   totalTokens: 3406
   processingTimeMs: 14118
+tools:
+  - name: "Docker"
+    url: "https://www.docker.com/"
+  - name: "Docker Hardened Images"
+    url: "https://www.docker.com/products/hardened-images/"
+  - name: "Helm"
+    url: null
+  - name: "Kubernetes"
+    url: null
+  - name: "Debian"
+    url: null
+  - name: "Alpine"
+    url: null
+  - name: "bash"
+    url: null
+  - name: "curl"
+    url: null
+  - name: "apt"
+    url: null
 ---
 
 ## Key Takeaways

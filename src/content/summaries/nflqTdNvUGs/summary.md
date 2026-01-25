@@ -44,6 +44,29 @@ ai:
   outputTokens: 916
   totalTokens: 4576
   processingTimeMs: 12485
+tools:
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Stack Overflow"
+    url: null
+  - name: "Google AI Studio"
+    url: null
+  - name: "Vercel"
+    url: null
+  - name: "Lovable"
+    url: null
+  - name: "MongoDB"
+    url: null
+  - name: "GitLab"
+    url: null
+  - name: "Anthropic"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "KPMG"
+    url: "www.kpmg.us/ai"
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
 ---
 
 ## Key Takeaways

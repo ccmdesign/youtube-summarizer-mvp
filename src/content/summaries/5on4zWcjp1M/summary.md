@@ -75,6 +75,9 @@ ai:
   outputTokens: 849
   totalTokens: 3128
   processingTimeMs: 26207
+tools:
+  - name: "Better Stack"
+    url: "https://betterstack.com/"
 ---
 
 ## Key Takeaways

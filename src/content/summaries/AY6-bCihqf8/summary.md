@@ -30,6 +30,13 @@ ai:
   outputTokens: 908
   totalTokens: 5757
   processingTimeMs: 14277
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Git"
+    url: null
 ---
 
 ## Key Takeaways

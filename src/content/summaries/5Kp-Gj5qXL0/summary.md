@@ -76,6 +76,21 @@ ai:
   outputTokens: 942
   totalTokens: 6566
   processingTimeMs: 15545
+tools:
+  - name: "Vera Rubin Platform"
+    url: null
+  - name: "NVLink 6"
+    url: null
+  - name: "Vera CPU"
+    url: null
+  - name: "Rubin GPU"
+    url: null
+  - name: "Inference Context Memory"
+    url: null
+  - name: "Tensor Processing Unit (TPU)"
+    url: null
+  - name: "Stargate"
+    url: null
 ---
 
 ## Key Takeaways

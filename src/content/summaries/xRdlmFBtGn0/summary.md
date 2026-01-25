@@ -66,6 +66,15 @@ ai:
   outputTokens: 1119
   totalTokens: 4824
   processingTimeMs: 86659
+tools:
+  - name: "Claude Cowork"
+    url: "https://support.claude.com/en/articles/13345190-getting-started-with-cowork"
+  - name: "Claude Max"
+    url: "https://support.claude.com/en/articles/11014257-about-claude-s-max-plan-usage"
+  - name: "Keynote"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

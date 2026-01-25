@@ -52,6 +52,23 @@ ai:
   outputTokens: 955
   totalTokens: 5404
   processingTimeMs: 13237
+tools:
+  - name: "Google Antigravity"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Cursor"
+    url: "https://cursor.com"
+  - name: "Claude Code"
+    url: null
+  - name: "Ray 3 Modify"
+    url: "https://lumalabs.ai/ailabs"
+  - name: "aagent"
+    url: null
+  - name: "Mermaid"
+    url: null
+  - name: "VAG"
+    url: null
 ---
 
 ## Key Takeaways

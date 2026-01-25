@@ -55,6 +55,17 @@ ai:
   outputTokens: 955
   totalTokens: 7152
   processingTimeMs: 17130
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Open Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "terminal.shop"
+    url: "ssh terminal.shop"
+  - name: "boot.dev"
+    url: "https://boot.dev/prime"
 ---
 
 ## Key Takeaways

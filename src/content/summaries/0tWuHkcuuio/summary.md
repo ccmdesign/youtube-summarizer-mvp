@@ -58,6 +58,33 @@ ai:
   totalTokens: 3985
   processingTimeMs: 35576
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "ManyPI"
+    url: "https://manypi.com/?utm_source=departmentofproduct_newsletter"
+  - name: "Craft"
+    url: "https://www.craft.do/?utm_source=departmentofproduct_newsletter"
+  - name: "Monocle"
+    url: "https://monocle.heyiam.dk/?utm_source=departmentofproduct_newsletter"
+  - name: "Figma"
+    url: null
+  - name: "Lovable"
+    url: null
+  - name: "Aha!"
+    url: null
+  - name: "CC"
+    url: null
+  - name: "OPEL"
+    url: null
+  - name: "Zesty"
+    url: null
+  - name: "Sora"
+    url: null
+  - name: "Notebook LM"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Eleven Labs"
+    url: null
 ---
 
 ## Key Takeaways

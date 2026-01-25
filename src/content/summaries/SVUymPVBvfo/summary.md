@@ -33,6 +33,11 @@ ai:
   outputTokens: 907
   totalTokens: 5327
   processingTimeMs: 13876
+tools:
+  - name: "Salesforce"
+    url: null
+  - name: "Netsuite"
+    url: null
 ---
 
 ## Key Takeaways

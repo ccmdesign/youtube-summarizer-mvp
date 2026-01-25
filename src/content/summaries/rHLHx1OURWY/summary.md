@@ -64,6 +64,9 @@ ai:
   outputTokens: 930
   totalTokens: 5597
   processingTimeMs: 75615
+tools:
+  - name: "Grok"
+    url: "https://grok.com/"
 ---
 
 ## Key Takeaways

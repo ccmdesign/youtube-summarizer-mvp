@@ -87,6 +87,19 @@ ai:
   outputTokens: 1520
   totalTokens: 11549
   processingTimeMs: 19438
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Asana"
+    url: null
+  - name: "System 7"
+    url: null
+  - name: "RyoOS"
+    url: null
 ---
 
 ## Key Takeaways

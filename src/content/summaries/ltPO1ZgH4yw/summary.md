@@ -38,6 +38,21 @@ ai:
   totalTokens: 3089
   processingTimeMs: 64927
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Replit"
+    url: null
+  - name: "Vibecode"
+    url: null
+  - name: "Higsfield"
+    url: null
+  - name: "ZAI"
+    url: null
+  - name: "Kimmy K2"
+    url: null
+  - name: "Quen 3"
+    url: null
+  - name: "OpenAI"
+    url: null
 ---
 
 ## Key Takeaways

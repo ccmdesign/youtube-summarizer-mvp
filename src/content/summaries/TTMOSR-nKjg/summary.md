@@ -72,6 +72,17 @@ ai:
   outputTokens: 979
   totalTokens: 6038
   processingTimeMs: 18892
+tools:
+  - name: "Vera Rubin platform"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "MCP"
+    url: null
+  - name: "Managed MCP Servers"
+    url: null
+  - name: "Graphite"
+    url: null
 ---
 
 ## Key Takeaways

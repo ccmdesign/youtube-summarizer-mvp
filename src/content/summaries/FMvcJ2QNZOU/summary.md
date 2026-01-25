@@ -27,6 +27,13 @@ ai:
   totalTokens: 1641
   processingTimeMs: 112437
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Bit Chat"
+    url: "https://apps.apple.com/us/app/bitchat-mesh/id6748219622"
+  - name: "WhatsApp"
+    url: null
+  - name: "iMessage"
+    url: null
 ---
 
 ## Key Takeaways

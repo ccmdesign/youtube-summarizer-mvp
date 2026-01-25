@@ -53,6 +53,27 @@ ai:
   outputTokens: 1564
   totalTokens: 12598
   processingTimeMs: 41502
+tools:
+  - name: "Ubersuggest"
+    url: null
+  - name: "Google Search Console"
+    url: null
+  - name: "Intercom"
+    url: null
+  - name: "Drift"
+    url: null
+  - name: "Google Correlate"
+    url: null
+  - name: "Medium"
+    url: null
+  - name: "LinkedIn"
+    url: null
+  - name: "YouTube"
+    url: null
+  - name: "Facebook"
+    url: null
+  - name: "Google Ads"
+    url: null
 ---
 
 ## Key Takeaways

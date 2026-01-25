@@ -34,6 +34,17 @@ ai:
   totalTokens: 4873
   processingTimeMs: 38412
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Low Key C2"
+    url: null
+  - name: "SharePoint"
+    url: null
+  - name: "Active Directory"
+    url: null
+  - name: "System Center Configuration Manager"
+    url: null
+  - name: "QRadar SIEM"
+    url: "https://ibm.biz/Bdb6wi"
 ---
 
 ## Key Takeaways

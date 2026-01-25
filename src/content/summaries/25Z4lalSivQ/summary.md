@@ -39,6 +39,13 @@ ai:
   totalTokens: 1642
   processingTimeMs: 42812
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "AWS Lambda"
+    url: null
+  - name: "Amazon SQS"
+    url: null
+  - name: "Amazon SNS"
+    url: null
 ---
 
 ## Key Takeaways

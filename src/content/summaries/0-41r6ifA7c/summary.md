@@ -45,6 +45,25 @@ ai:
   outputTokens: 2096
   totalTokens: 15243
   processingTimeMs: 57112
+tools:
+  - name: "Flask"
+    url: "https://flask.do/"
+  - name: "The Mom Test"
+    url: "https://www.momtestbook.com/"
+  - name: "Supercut"
+    url: "https://www.dive.club/deep-dives/supercut"
+  - name: "Tailwind CSS"
+    url: "https://tailwindcss.com/"
+  - name: "Shadcn UI"
+    url: "https://ui.shadcn.com/"
+  - name: "Figma"
+    url: "https://www.figma.com/"
+  - name: "Notion"
+    url: "https://www.notion.so/"
+  - name: "Claude"
+    url: null
+  - name: "Final Cut"
+    url: null
 ---
 
 ## Key Takeaways

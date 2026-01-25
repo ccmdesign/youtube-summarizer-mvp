@@ -72,6 +72,27 @@ ai:
   totalTokens: 3744
   processingTimeMs: 27375
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Astro"
+    url: "https://astro.build/"
+  - name: "Cloudflare"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "Blazor"
+    url: null
+  - name: "Vercel"
+    url: null
+  - name: "Netlify"
+    url: null
+  - name: "AWS"
+    url: null
+  - name: "Stainless"
+    url: null
+  - name: "WebFlow Cloud"
+    url: null
+  - name: "Cloudflare Workers"
+    url: null
 ---
 
 ## Key Takeaways

@@ -115,6 +115,7 @@ ai:
   outputTokens: 844
   totalTokens: 4201
   processingTimeMs: 18206
+tools: []
 ---
 
 ## Key Takeaways

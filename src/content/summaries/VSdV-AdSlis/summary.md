@@ -33,6 +33,23 @@ ai:
   outputTokens: 1261
   totalTokens: 17582
   processingTimeMs: 518135
+tools:
+  - name: "Auth0 AIO"
+    url: null
+  - name: "Token Vault"
+    url: null
+  - name: "Async Auth"
+    url: null
+  - name: "CIBA"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "OpenFGA"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "Okta"
+    url: null
 ---
 
 ## Key Takeaways

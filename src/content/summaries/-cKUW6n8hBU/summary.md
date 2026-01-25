@@ -63,6 +63,25 @@ ai:
   outputTokens: 1407
   totalTokens: 18537
   processingTimeMs: 18769
+tools:
+  - name: "DSPy"
+    url: "https://github.com/stanfordnlp/dspy"
+  - name: "BAML"
+    url: null
+  - name: "MIPRO"
+    url: null
+  - name: "JEPA"
+    url: null
+  - name: "Attachments"
+    url: null
+  - name: "Phoenix"
+    url: null
+  - name: "Pydantic"
+    url: null
+  - name: "DSPy Hub"
+    url: null
+  - name: "LangChain"
+    url: null
 ---
 
 ## Key Takeaways

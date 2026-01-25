@@ -43,6 +43,35 @@ ai:
   outputTokens: 2277
   totalTokens: 12015
   processingTimeMs: 166467
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Open Code"
+    url: null
+  - name: "Devon"
+    url: null
+  - name: "OpenAI GPT"
+    url: null
+  - name: "Convex"
+    url: null
+  - name: "FAL"
+    url: null
+  - name: "Linear"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com"
+  - name: "DataDog"
+    url: "https://www.datadoghq.com"
+  - name: "Sentry"
+    url: "https://sentry.io"
+  - name: "Grapile"
+    url: null
+  - name: "Code Rabbit"
+    url: null
+  - name: "Depot"
+    url: "https://soydev.link/depot"
 ---
 
 ## Key Takeaways

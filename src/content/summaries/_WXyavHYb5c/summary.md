@@ -42,6 +42,17 @@ ai:
   outputTokens: 977
   totalTokens: 8990
   processingTimeMs: 15693
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Opus 4.5"
+    url: null
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
+  - name: "Slack"
+    url: null
+  - name: "App Store"
+    url: null
 ---
 
 ## Key Takeaways

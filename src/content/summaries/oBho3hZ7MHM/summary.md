@@ -128,6 +128,27 @@ ai:
   outputTokens: 1769
   totalTokens: 12300
   processingTimeMs: 132046
+tools:
+  - name: "Claude Code"
+    url: "https://claude.ai/"
+  - name: "Obsidian"
+    url: "https://obsidian.md/"
+  - name: "VS Code"
+    url: "https://code.visualstudio.com/"
+  - name: "Descript"
+    url: "https://www.descript.com/"
+  - name: "ChatGPT"
+    url: "https://chat.openai.com/"
+  - name: "Trello"
+    url: "https://trello.com/"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/"
+  - name: "arXiv"
+    url: "https://arxiv.org/"
+  - name: "Brex"
+    url: "https://brex.com/howiai"
+  - name: "Graphite"
+    url: "https://graphitedev.link/howiai"
 ---
 
 ## Key Takeaways

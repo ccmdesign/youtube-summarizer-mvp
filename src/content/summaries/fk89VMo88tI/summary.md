@@ -44,6 +44,15 @@ ai:
   outputTokens: 894
   totalTokens: 4958
   processingTimeMs: 32952
+tools:
+  - name: "NVIDIA H200"
+    url: null
+  - name: "Torch"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Cerebras"
+    url: null
 ---
 
 ## Key Takeaways

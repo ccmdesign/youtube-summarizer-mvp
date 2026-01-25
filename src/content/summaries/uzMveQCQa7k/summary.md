@@ -27,6 +27,17 @@ ai:
   outputTokens: 861
   totalTokens: 2896
   processingTimeMs: 15595
+tools:
+  - name: "Windows 11"
+    url: null
+  - name: "Windows 10"
+    url: null
+  - name: "Linux"
+    url: null
+  - name: "OneDrive"
+    url: null
+  - name: "Recall"
+    url: null
 ---
 
 ## Key Takeaways

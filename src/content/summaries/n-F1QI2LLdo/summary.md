@@ -70,6 +70,17 @@ ai:
   outputTokens: 1169
   totalTokens: 4174
   processingTimeMs: 143821
+tools:
+  - name: "TestSprite"
+    url: "https://www.testsprite.com/?via=jered"
+  - name: "Cursor"
+    url: null
+  - name: "Visual Studio Code"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

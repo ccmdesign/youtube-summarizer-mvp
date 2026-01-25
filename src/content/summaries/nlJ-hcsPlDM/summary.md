@@ -86,6 +86,13 @@ ai:
   totalTokens: 7882
   processingTimeMs: 363015
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Astral"
+    url: "https://www.astral.now"
+  - name: "Reddit"
+    url: "https://www.reddit.com"
+  - name: "LinkedIn"
+    url: "https://www.linkedin.com"
 ---
 
 ## Key Takeaways

@@ -45,6 +45,9 @@ ai:
   outputTokens: 929
   totalTokens: 4061
   processingTimeMs: 27201
+tools:
+  - name: "Stan Store"
+    url: "https://stan.store"
 ---
 
 ## Key Takeaways

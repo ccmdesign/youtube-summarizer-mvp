@@ -62,6 +62,13 @@ ai:
   outputTokens: 1004
   totalTokens: 8954
   processingTimeMs: 14235
+tools:
+  - name: "Figma"
+    url: "https://www.figma.com"
+  - name: "Figma Jam"
+    url: "https://www.figma.com/figjam"
+  - name: "Claude Artifacts"
+    url: null
 ---
 
 ## Key Takeaways

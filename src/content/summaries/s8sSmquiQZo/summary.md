@@ -33,6 +33,21 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "N8N"
+    url: "https://storytellingdb.com/go/n8n-hostinger"
+  - name: "Hostinger"
+    url: "https://storytellingdb.com/go/n8n-hostinger"
+  - name: "Novelcrafter"
+    url: "https://storytellingdb.com/go/novelcrafter"
+  - name: "RaptorWrite"
+    url: "https://storytellingdb.com/go/raptorwrite"
+  - name: "Autocrit"
+    url: "https://storytellingdb.com/go/autocritlifetime"
+  - name: "Perplexity"
+    url: "https://storytellingdb.com/go/perplexity"
+  - name: "Claude 3.5 Sonnet"
+    url: null
 ---
 
 The video introduces a sophisticated automation workflow designed to move beyond generic AI writing and toward the specific, high-caliber craft required for award-winning short fiction (e.g., Hugo, Nebula, or Shirley Jackson awards). The core premise is that "award-winning" writing follows identifiable patterns of psychological resonance and structural precision that can be mapped and emulated.

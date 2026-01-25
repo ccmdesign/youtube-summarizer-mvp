@@ -94,6 +94,21 @@ ai:
   outputTokens: 819
   totalTokens: 4546
   processingTimeMs: 20565
+tools:
+  - name: "Antigravity"
+    url: "https://antigravity.google/"
+  - name: "Agent Skills"
+    url: "https://antigravity.google/docs/skills"
+  - name: "Gemini 3 Flash"
+    url: null
+  - name: "Jira"
+    url: null
+  - name: "Google Sheets"
+    url: null
+  - name: "Gmail"
+    url: null
+  - name: "Google Workspace"
+    url: null
 ---
 
 ## Key Takeaways

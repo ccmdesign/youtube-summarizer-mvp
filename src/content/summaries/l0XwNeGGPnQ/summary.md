@@ -59,6 +59,9 @@ ai:
   totalTokens: 10415
   processingTimeMs: 373252
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "IBM Cyber Range"
+    url: "https://ibm.biz/BdbW4L"
 ---
 
 ## Key Takeaways

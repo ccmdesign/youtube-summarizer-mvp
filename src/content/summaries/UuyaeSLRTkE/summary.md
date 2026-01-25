@@ -59,6 +59,27 @@ ai:
   outputTokens: 859
   totalTokens: 5383
   processingTimeMs: 14759
+tools:
+  - name: "Gemini 3"
+    url: null
+  - name: "Anthropic Sonnet"
+    url: null
+  - name: "Superdesign"
+    url: "http://superdesign.dev/"
+  - name: "Excalidraw"
+    url: null
+  - name: "HubSpot"
+    url: "https://clickhubspot.com/f99e63"
+  - name: "Cursor"
+    url: null
+  - name: "AutoGen"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Vercel AI SDK"
+    url: null
+  - name: "AI Builder Club"
+    url: "https://www.aibuilderclub.com/"
 ---
 
 ## Key Takeaways

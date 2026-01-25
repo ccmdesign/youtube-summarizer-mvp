@@ -104,6 +104,19 @@ ai:
   outputTokens: 909
   totalTokens: 5139
   processingTimeMs: 14710
+tools:
+  - name: "Cubic"
+    url: "https://www.cubic.dev/"
+  - name: "Ralph TUI"
+    url: "https://ralph-tui.com/"
+  - name: "Claude Code"
+    url: "https://code.claude.com/docs/en/desktop"
+  - name: "OpenCode"
+    url: "https://opencode.ai/"
+  - name: "Bun"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
 ---
 
 ## Key Takeaways

@@ -31,6 +31,19 @@ ai:
   totalTokens: 1584
   processingTimeMs: 42945
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "OpenSSH"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "AWS"
+    url: null
+  - name: "Microsoft Azure"
+    url: null
+  - name: "Google Cloud"
+    url: null
+  - name: "PowerShell"
+    url: null
 ---
 
 ## Key Takeaways

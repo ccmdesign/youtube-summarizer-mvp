@@ -58,6 +58,29 @@ ai:
   outputTokens: 832
   totalTokens: 5971
   processingTimeMs: 11637
+tools:
+  - name: "A2UI"
+    url: "https://a2ui.org"
+  - name: "A2UI Bridge"
+    url: "https://github.com/southleft/a2ui-bridge"
+  - name: "React"
+    url: null
+  - name: "Vue"
+    url: null
+  - name: "Shadcn"
+    url: null
+  - name: "Mantine"
+    url: null
+  - name: "v0"
+    url: null
+  - name: "Lovable"
+    url: null
+  - name: "Bolt"
+    url: null
+  - name: "Angular"
+    url: null
+  - name: "Web Components"
+    url: null
 ---
 
 ## Key Takeaways

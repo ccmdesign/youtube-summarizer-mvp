@@ -88,6 +88,29 @@ ai:
   outputTokens: 915
   totalTokens: 8280
   processingTimeMs: 21058
+tools:
+  - name: "OpenAI for Health"
+    url: null
+  - name: "Claude for Healthcare"
+    url: null
+  - name: "Llama 4"
+    url: null
+  - name: "Jetson T4000"
+    url: null
+  - name: "Omniverse"
+    url: null
+  - name: "Handshake AI"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Co-work"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Reuben"
+    url: null
 ---
 
 ## Key Takeaways

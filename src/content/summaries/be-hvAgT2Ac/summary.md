@@ -84,6 +84,9 @@ ai:
   outputTokens: 867
   totalTokens: 3634
   processingTimeMs: 16970
+tools:
+  - name: "Gemini"
+    url: null
 ---
 
 ## Key Takeaways

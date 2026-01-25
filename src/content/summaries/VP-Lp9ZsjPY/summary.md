@@ -57,6 +57,37 @@ ai:
   outputTokens: 863
   totalTokens: 5054
   processingTimeMs: 10674
+tools:
+  - name: "TypeScript"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "TanStack Start"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "Bun"
+    url: null
+  - name: "Node.js"
+    url: null
+  - name: "Popover API"
+    url: null
+  - name: "PostgreSQL"
+    url: null
+  - name: "pgvector"
+    url: null
+  - name: "SQLite"
+    url: null
+  - name: "BetterAuth"
+    url: null
+  - name: "Open Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Buildmygraphic"
+    url: "https://buildmygraphic.com/"
 ---
 
 ## Key Takeaways

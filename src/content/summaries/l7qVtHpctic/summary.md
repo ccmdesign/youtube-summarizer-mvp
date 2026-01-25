@@ -88,6 +88,23 @@ ai:
   outputTokens: 792
   totalTokens: 11552
   processingTimeMs: 37736
+tools:
+  - name: "Claude Code"
+    url: "https://github.com/anthropics/claude-code"
+  - name: "Model Context Protocol"
+    url: null
+  - name: "MCP Search Tool"
+    url: null
+  - name: "Docker MCP Toolkit"
+    url: null
+  - name: "Supabase"
+    url: null
+  - name: "Sentry"
+    url: null
+  - name: "MCP Launchpad"
+    url: "https://github.com/kenneth-liao/mcp-launchpad"
+  - name: "AI Launchpad Marketplace"
+    url: "https://github.com/kenneth-liao/ai-launchpad-marketplace"
 ---
 
 ## Key Takeaways

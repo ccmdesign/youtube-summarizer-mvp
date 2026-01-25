@@ -61,6 +61,13 @@ ai:
   outputTokens: 894
   totalTokens: 6452
   processingTimeMs: 15343
+tools:
+  - name: "AI Fact Checker"
+    url: "https://check.brainqub3.com/"
+  - name: "Ripple Framework"
+    url: null
+  - name: "Recursive Language Model (RLM) framework"
+    url: null
 ---
 
 ## Key Takeaways

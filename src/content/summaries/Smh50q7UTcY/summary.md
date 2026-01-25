@@ -38,6 +38,31 @@ ai:
   outputTokens: 1140
   totalTokens: 6361
   processingTimeMs: 53598
+tools:
+  - name: "GPT-5.3 Garlic"
+    url: null
+  - name: "GPT-5"
+    url: null
+  - name: "DeepSeek V4"
+    url: null
+  - name: "Gemini 3"
+    url: null
+  - name: "ChatGPT Images"
+    url: null
+  - name: "GPT-5.2"
+    url: null
+  - name: "Claude Opus 4.5"
+    url: null
+  - name: "SweetPea"
+    url: null
+  - name: "Gemini 3 Pro"
+    url: null
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "Co-work"
+    url: null
+  - name: "Vio"
+    url: null
 ---
 
 ## Key Takeaways

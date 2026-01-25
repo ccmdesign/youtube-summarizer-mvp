@@ -52,6 +52,31 @@ ai:
   outputTokens: 844
   totalTokens: 2086
   processingTimeMs: 12216
+tools:
+  - name: "shadcn/ui"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "v0"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Radix UI"
+    url: null
+  - name: "Next.js"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "OpenAI"
+    url: null
 ---
 
 ## Key Takeaways

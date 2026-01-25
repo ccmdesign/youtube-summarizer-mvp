@@ -70,6 +70,19 @@ ai:
   outputTokens: 803
   totalTokens: 3745
   processingTimeMs: 11938
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "FFmpeg"
+    url: null
+  - name: "Node.js"
+    url: null
+  - name: "Python"
+    url: null
+  - name: "Automaker"
+    url: "https://automaker.app/"
+  - name: "GitHub"
+    url: "https://github.com/"
 ---
 
 ## Key Takeaways

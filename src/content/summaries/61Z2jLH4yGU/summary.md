@@ -58,6 +58,37 @@ ai:
   outputTokens: 720
   totalTokens: 2045
   processingTimeMs: 12030
+tools:
+  - name: "Design OS"
+    url: "https://buildermethods.com/design-os"
+  - name: "Vizcom"
+    url: "https://www.vizcom.com/"
+  - name: "Google Mixboard"
+    url: "https://mixboard.google.com/projects"
+  - name: "Magic Animator"
+    url: "https://magicanimator.com/"
+  - name: "Lottie Files"
+    url: "https://lottiefiles.com/plugins/figma"
+  - name: "Html to design"
+    url: "https://html.to.design/home"
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Copilot"
+    url: null
+  - name: "GoFullPage"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Radix UI"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Shadcn UI"
+    url: null
 ---
 
 ## Key Takeaways

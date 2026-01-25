@@ -50,6 +50,15 @@ ai:
   totalTokens: 2532
   processingTimeMs: 25984
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Kanata"
+    url: null
+  - name: "Karabiner-Elements"
+    url: null
+  - name: "QMK Firmware"
+    url: null
+  - name: "SketchyBar"
+    url: null
 ---
 
 ## Key Takeaways

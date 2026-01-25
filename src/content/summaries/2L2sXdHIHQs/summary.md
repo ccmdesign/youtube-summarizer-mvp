@@ -50,6 +50,13 @@ ai:
   outputTokens: 1000
   totalTokens: 3752
   processingTimeMs: 97253
+tools:
+  - name: "WordPress"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Discord"
+    url: null
 ---
 
 ## Key Takeaways

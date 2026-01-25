@@ -50,6 +50,13 @@ ai:
   outputTokens: 894
   totalTokens: 4844
   processingTimeMs: 14950
+tools:
+  - name: "Skool"
+    url: "https://www.skool.com"
+  - name: "Claude"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

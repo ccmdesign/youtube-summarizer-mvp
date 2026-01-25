@@ -51,6 +51,11 @@ ai:
   outputTokens: 698
   totalTokens: 2836
   processingTimeMs: 20732
+tools:
+  - name: "Visual Studio Code"
+    url: null
+  - name: "Language Server Protocol"
+    url: null
 ---
 
 ## Key Takeaways

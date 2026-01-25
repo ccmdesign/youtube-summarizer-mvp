@@ -90,6 +90,17 @@ ai:
   outputTokens: 1244
   totalTokens: 9555
   processingTimeMs: 26915
+tools:
+  - name: "Claude Code"
+    url: "https://code.claude.com/docs/en/hooks#how-prompt-based-hooks-work"
+  - name: "claude-code-damage-control"
+    url: "https://github.com/disler/claude-code-damage-control"
+  - name: "patterns.yaml"
+    url: null
+  - name: "settings.json"
+    url: null
+  - name: "/install"
+    url: null
 ---
 
 ## Key Takeaways

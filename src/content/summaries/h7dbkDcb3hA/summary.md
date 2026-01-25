@@ -97,6 +97,23 @@ ai:
   outputTokens: 2224
   totalTokens: 11859
   processingTimeMs: 58941
+tools:
+  - name: "Claude Co-work"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Microsoft Copilot"
+    url: null
+  - name: "Google Workspace AI"
+    url: null
+  - name: "Do Anything"
+    url: null
+  - name: "Claude in Chrome"
+    url: null
+  - name: "PowerPoint"
+    url: null
+  - name: "Excel"
+    url: null
 ---
 
 ## Key Takeaways

@@ -67,6 +67,9 @@ ai:
   outputTokens: 816
   totalTokens: 4681
   processingTimeMs: 24525
+tools:
+  - name: "Starlink"
+    url: null
 ---
 
 ## Key Takeaways

@@ -67,6 +67,21 @@ ai:
   totalTokens: 4125
   processingTimeMs: 28298
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Gemini"
+    url: null
+  - name: "ChatGPT Health"
+    url: null
+  - name: "Claude Cowork"
+    url: null
+  - name: "Claude Projects"
+    url: "https://departmentofproduct.substack.com/p/how-to-use-claude-projects-and-skills"
+  - name: "Claude Skills"
+    url: "https://departmentofproduct.substack.com/p/how-to-use-claude-projects-and-skills"
+  - name: "Google AI Inbox"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
 ---
 
 ## Key Takeaways

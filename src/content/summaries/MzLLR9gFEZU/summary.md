@@ -28,6 +28,13 @@ ai:
   outputTokens: 879
   totalTokens: 1372
   processingTimeMs: 63346
+tools:
+  - name: "Obsidian"
+    url: "https://obsidian.md"
+  - name: "SharePoint"
+    url: null
+  - name: "Notion"
+    url: null
 ---
 
 ## Key Takeaways

@@ -46,6 +46,11 @@ ai:
   outputTokens: 711
   totalTokens: 3825
   processingTimeMs: 21669
+tools:
+  - name: "Gemini 3.0 Pro"
+    url: null
+  - name: "Google Workspace"
+    url: null
 ---
 
 ## Key Takeaways

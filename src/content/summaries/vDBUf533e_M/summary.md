@@ -42,6 +42,23 @@ ai:
   totalTokens: 4643
   processingTimeMs: 376181
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Skills.sh"
+    url: "https://skills.sh"
+  - name: "Claude Code"
+    url: null
+  - name: "Vercel"
+    url: "https://vercel.com"
+  - name: "React"
+    url: null
+  - name: "Remotion"
+    url: "https://remotion.dev"
+  - name: "FFmpeg"
+    url: null
+  - name: "Whisper"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

@@ -77,6 +77,17 @@ ai:
   outputTokens: 879
   totalTokens: 3991
   processingTimeMs: 14874
+tools:
+  - name: "GPT-5.2"
+    url: null
+  - name: "Aristotle"
+    url: null
+  - name: "Lean"
+    url: null
+  - name: "Alpha Evolve"
+    url: null
+  - name: "AI Scientist"
+    url: null
 ---
 
 ## Key Takeaways

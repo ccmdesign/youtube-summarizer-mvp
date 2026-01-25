@@ -109,6 +109,7 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools: []
 ---
 
 The video explores "Vibe Coding" as it exists in 2026—a paradigm where software development has shifted from manual syntax entry to high-level orchestration using AI agents. While the "vibe" refers to the flow and intent of the developer, the video warns that this speed often leads to a "technical debt explosion" if not managed with discipline.

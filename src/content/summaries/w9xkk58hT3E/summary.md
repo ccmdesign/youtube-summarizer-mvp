@@ -44,6 +44,21 @@ ai:
   outputTokens: 801
   totalTokens: 6639
   processingTimeMs: 25615
+tools:
+  - name: "Gemini"
+    url: null
+  - name: "Claude Cowork"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "ChatGPT Health"
+    url: null
+  - name: "Apple Intelligence"
+    url: null
+  - name: "Grok"
+    url: null
 ---
 
 ## Key Takeaways

@@ -97,6 +97,37 @@ ai:
   outputTokens: 798
   totalTokens: 4410
   processingTimeMs: 24143
+tools:
+  - name: "Sled"
+    url: "https://sled.layercode.com/?ref=manuagi"
+  - name: "Colloqio"
+    url: "https://colloqio.app/?ref=manuagi"
+  - name: "Binary"
+    url: "https://binary.so/?ref=manuagi"
+  - name: "Notto"
+    url: "https://usenotto.com/?ref=manuagi"
+  - name: "Snaply AI"
+    url: "https://snaply.ai/?ref=manuagi"
+  - name: "Remio"
+    url: "https://www.remio.ai/?ref=manuagi"
+  - name: "Vellum"
+    url: "https://www.vellum.ai/?ref=manuagi"
+  - name: "Simpl"
+    url: "https://www.simpl.sh/?ref=manuagi"
+  - name: "Ekamoira Console MCP"
+    url: "https://app.ekamoira.com/tools/gsc?ref=manuagi"
+  - name: "Langfinity AI"
+    url: "https://langfinity.ai/?ref=manuagi"
+  - name: "BlocPad"
+    url: "https://www.blocpad.com/?ref=manuagi"
+  - name: "Knowns CLI"
+    url: "https://cli.knowns.dev/?ref=manuagi"
+  - name: "Alpine"
+    url: "https://www.alpine.inc/?ref=manuagi"
+  - name: "Aden AI"
+    url: "https://adenhq.com/?ref=manuagi"
+  - name: "Hal9"
+    url: "https://hal9.com/?ref=manuagi"
 ---
 
 ## Key Takeaways

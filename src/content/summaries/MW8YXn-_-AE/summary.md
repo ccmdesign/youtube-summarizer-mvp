@@ -126,6 +126,25 @@ ai:
   outputTokens: 932
   totalTokens: 6518
   processingTimeMs: 15481
+tools:
+  - name: "Claude Skills"
+    url: null
+  - name: "NVIDIA DGX Spark"
+    url: null
+  - name: "Sign in with ChatGPT"
+    url: null
+  - name: "C2S model"
+    url: null
+  - name: "Eagle Eye"
+    url: null
+  - name: "Veo"
+    url: "https://blog.google/technology/ai/veo-updates-flow/"
+  - name: "Sora"
+    url: "https://x.com/OpenAI/status/1978661828419822066"
+  - name: "Gemma"
+    url: null
+  - name: "StackAI"
+    url: "https://bit.ly/4lkbvir"
 ---
 
 ## Key Takeaways

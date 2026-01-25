@@ -88,6 +88,25 @@ ai:
   totalTokens: 9946
   processingTimeMs: 26157
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Zapier"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Python"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Notion"
+    url: null
+  - name: "Obsidian"
+    url: null
+  - name: "Mac Whisper"
+    url: null
+  - name: "Postgres"
+    url: null
+  - name: "Co-work"
+    url: null
 ---
 
 ## Key Takeaways

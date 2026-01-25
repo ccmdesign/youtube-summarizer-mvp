@@ -76,6 +76,23 @@ ai:
   outputTokens: 955
   totalTokens: 3996
   processingTimeMs: 15663
+tools:
+  - name: "WordPress"
+    url: null
+  - name: "Rust"
+    url: "https://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html"
+  - name: "Go"
+    url: null
+  - name: "Swift"
+    url: null
+  - name: "Better Stack"
+    url: "https://betterstack.com/"
+  - name: "React"
+    url: null
+  - name: "C"
+    url: null
+  - name: "C++"
+    url: null
 ---
 
 ## Key Takeaways

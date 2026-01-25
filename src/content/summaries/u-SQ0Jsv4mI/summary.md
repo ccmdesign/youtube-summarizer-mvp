@@ -137,6 +137,19 @@ ai:
   outputTokens: 2394
   totalTokens: 16086
   processingTimeMs: 31398
+tools:
+  - name: "Gemini 3 Flash"
+    url: "https://blog.google/products/gemini/gemini-3-flash/"
+  - name: "Opus 4.5"
+    url: null
+  - name: "GPT-5.2"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "OpenRouter"
+    url: "https://openrouter.ai/state-of-ai"
+  - name: "Artificial Analysis"
+    url: "https://artificialanalysis.ai/models"
 ---
 
 ## Key Takeaways

@@ -27,6 +27,15 @@ ai:
   outputTokens: 871
   totalTokens: 3721
   processingTimeMs: 20482
+tools:
+  - name: "AWS CodeBuild"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "AWS JavaScript SDK"
+    url: null
+  - name: "Wiz"
+    url: null
 ---
 
 ## Key Takeaways

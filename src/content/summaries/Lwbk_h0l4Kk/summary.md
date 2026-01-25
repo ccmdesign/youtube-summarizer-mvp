@@ -23,6 +23,27 @@ ai:
   outputTokens: 1534
   totalTokens: 13351
   processingTimeMs: 42882
+tools:
+  - name: "Gas Town"
+    url: null
+  - name: "Kubernetes"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "TypeScript"
+    url: null
+  - name: "npm"
+    url: null
 ---
 
 ## Key Takeaways

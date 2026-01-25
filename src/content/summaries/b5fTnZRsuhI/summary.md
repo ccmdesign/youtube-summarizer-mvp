@@ -109,6 +109,23 @@ ai:
   outputTokens: 1575
   totalTokens: 24704
   processingTimeMs: 22763
+tools:
+  - name: "Plaid"
+    url: null
+  - name: "Mercury"
+    url: null
+  - name: "OpenDoor"
+    url: null
+  - name: "Workday"
+    url: null
+  - name: "Oracle"
+    url: null
+  - name: "Zendesk"
+    url: null
+  - name: "Eve"
+    url: null
+  - name: "vLex"
+    url: null
 ---
 
 ## Key Takeaways

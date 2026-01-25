@@ -29,6 +29,25 @@ ai:
   outputTokens: 833
   totalTokens: 4439
   processingTimeMs: 19008
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Opus 4.5"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "GitHub"
+    url: null
+  - name: "Linear"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Agent OS"
+    url: null
+  - name: "VS Code"
+    url: null
 ---
 
 ## Key Takeaways

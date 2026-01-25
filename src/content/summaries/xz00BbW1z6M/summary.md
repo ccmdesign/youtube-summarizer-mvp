@@ -42,6 +42,11 @@ ai:
   outputTokens: 983
   totalTokens: 4508
   processingTimeMs: 22019
+tools:
+  - name: "Langflow"
+    url: "https://ibm.biz/BdbtwH"
+  - name: "MCP"
+    url: null
 ---
 
 ## Key Takeaways

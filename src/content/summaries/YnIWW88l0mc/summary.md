@@ -91,6 +91,21 @@ ai:
   outputTokens: 828
   totalTokens: 7586
   processingTimeMs: 14499
+tools:
+  - name: "Spark"
+    url: null
+  - name: "Databricks"
+    url: null
+  - name: "Databricks SQL"
+    url: null
+  - name: "Genie Spaces"
+    url: null
+  - name: "Context 7"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Databricks Asset Bundles"
+    url: null
 ---
 
 ## Key Takeaways

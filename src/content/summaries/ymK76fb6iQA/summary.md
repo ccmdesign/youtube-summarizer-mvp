@@ -73,6 +73,13 @@ ai:
   outputTokens: 767
   totalTokens: 2273
   processingTimeMs: 13351
+tools:
+  - name: "VL-JEPA"
+    url: null
+  - name: "Llama 3.2"
+    url: null
+  - name: "GPT-4"
+    url: null
 ---
 
 ## Key Takeaways

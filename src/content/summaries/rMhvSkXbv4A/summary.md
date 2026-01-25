@@ -108,6 +108,9 @@ ai:
   outputTokens: 1121
   totalTokens: 15445
   processingTimeMs: 58537
+tools:
+  - name: "Arcade.dev"
+    url: "https://www.arcade.dev/"
 ---
 
 ## Key Takeaways

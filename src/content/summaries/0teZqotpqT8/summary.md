@@ -59,6 +59,9 @@ ai:
   outputTokens: 922
   totalTokens: 8594
   processingTimeMs: 17438
+tools:
+  - name: "Lovable"
+    url: "https://lovable.app"
 ---
 
 ## Key Takeaways

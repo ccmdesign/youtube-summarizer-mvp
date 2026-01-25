@@ -74,6 +74,9 @@ ai:
   outputTokens: 728
   totalTokens: 2698
   processingTimeMs: 28774
+tools:
+  - name: "HubSpot"
+    url: "https://clickhubspot.com/u99"
 ---
 
 ## Key Takeaways

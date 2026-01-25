@@ -40,6 +40,25 @@ ai:
   outputTokens: 778
   totalTokens: 6000
   processingTimeMs: 17003
+tools:
+  - name: "Opencode"
+    url: null
+  - name: "Ollama"
+    url: null
+  - name: "marimo"
+    url: null
+  - name: "Open Code Zen"
+    url: null
+  - name: "Open Router"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

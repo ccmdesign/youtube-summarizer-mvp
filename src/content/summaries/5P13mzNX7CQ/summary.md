@@ -48,6 +48,19 @@ ai:
   outputTokens: 1198
   totalTokens: 6991
   processingTimeMs: 28906
+tools:
+  - name: "Claude"
+    url: null
+  - name: "Claude Code Max"
+    url: null
+  - name: "Upwork"
+    url: null
+  - name: "Fiverr"
+    url: null
+  - name: "YouTube"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

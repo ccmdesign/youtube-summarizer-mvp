@@ -28,6 +28,23 @@ ai:
   outputTokens: 1522
   totalTokens: 15954
   processingTimeMs: 25720
+tools:
+  - name: "Cline"
+    url: null
+  - name: "Open Hands"
+    url: null
+  - name: "DSPy"
+    url: null
+  - name: "MIPRO"
+    url: null
+  - name: "Genetic Algorithms"
+    url: null
+  - name: "Arize Phoenix SDK"
+    url: null
+  - name: "Phoenix"
+    url: null
+  - name: "DS-Bench Light"
+    url: null
 ---
 
 ## Key Takeaways

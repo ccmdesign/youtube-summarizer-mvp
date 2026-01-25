@@ -67,6 +67,21 @@ ai:
   outputTokens: 793
   totalTokens: 5302
   processingTimeMs: 14518
+tools:
+  - name: "Claude Skills"
+    url: "https://www.anthropic.com/news/skills"
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Skill Creator"
+    url: null
+  - name: "Python"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com/anthropics/skills/"
+  - name: "Gemini CLI extensions"
+    url: null
 ---
 
 ## Key Takeaways

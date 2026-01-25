@@ -90,6 +90,19 @@ ai:
   outputTokens: 856
   totalTokens: 2998
   processingTimeMs: 55375
+tools:
+  - name: "ChatGPT"
+    url: "https://openai.com/chatgpt"
+  - name: "Codex"
+    url: "https://openai.com/research/openai-codex"
+  - name: "Cursor"
+    url: null
+  - name: "Replit"
+    url: null
+  - name: "V0"
+    url: null
+  - name: "Things"
+    url: "https://culturedcode.com/things/"
 ---
 
 ## Key Takeaways

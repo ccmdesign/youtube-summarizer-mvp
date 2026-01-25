@@ -69,6 +69,17 @@ ai:
   outputTokens: 796
   totalTokens: 3177
   processingTimeMs: 12322
+tools:
+  - name: "LangExtract"
+    url: "https://github.com/google/langextract"
+  - name: "Gemini"
+    url: null
+  - name: "GPT"
+    url: null
+  - name: "Retrieval-Augmented Generation"
+    url: null
+  - name: "Knowledge Graphs"
+    url: null
 ---
 
 ## Key Takeaways

@@ -89,6 +89,19 @@ ai:
   outputTokens: 845
   totalTokens: 2271
   processingTimeMs: 14043
+tools:
+  - name: "Eden"
+    url: "https://eden.so/dan-yt"
+  - name: "Spotify"
+    url: "https://open.spotify.com/show/3lZRG3LCFZxKkQVSsCwoyN"
+  - name: "YouTube"
+    url: "https://youtube.com/c/DanKoeTalks"
+  - name: "Twitter"
+    url: "https://twitter.com/thedankoe"
+  - name: "Instagram"
+    url: "https://instagram.com/thedankoe"
+  - name: "LinkedIn"
+    url: "https://linkedin.com/in/thedankoe"
 ---
 
 ## Key Takeaways

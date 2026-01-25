@@ -56,6 +56,9 @@ ai:
   outputTokens: 758
   totalTokens: 2686
   processingTimeMs: 13361
+tools:
+  - name: "NanoBanana Pro"
+    url: null
 ---
 
 ## Key Takeaways

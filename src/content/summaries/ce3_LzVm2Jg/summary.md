@@ -68,6 +68,13 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "TradingAgents"
+    url: "https://tradingagents-ai.github.io/"
+  - name: "Python"
+    url: null
+  - name: "Conda"
+    url: null
 ---
 
 The video explores a technical experiment using large language models (LLMs) to conduct a "Bull vs. Bear" debate regarding a specific stock. The primary goal is to demonstrate how a multi-agent AI framework can be used to remove human confirmation bias and provide a more balanced view of financial markets.

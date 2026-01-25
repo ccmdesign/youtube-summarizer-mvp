@@ -96,6 +96,23 @@ ai:
   outputTokens: 1249
   totalTokens: 5782
   processingTimeMs: 98410
+tools:
+  - name: "n8n"
+    url: null
+  - name: "Claude Opus"
+    url: null
+  - name: "Hostinger"
+    url: "https://hostinger.com/jeredblu"
+  - name: "Docker"
+    url: "https://www.docker.com/products/docker-desktop/"
+  - name: "n8n MCP Server"
+    url: "https://github.com/czlonkowski/n8n-mcp"
+  - name: "n8n Claude Skills"
+    url: "https://github.com/czlonkowski/n8n-skills"
+  - name: "Claude Code"
+    url: null
+  - name: "OpenRouter"
+    url: null
 ---
 
 ## Key Takeaways

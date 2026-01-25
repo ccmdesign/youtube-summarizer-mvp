@@ -69,6 +69,15 @@ ai:
   outputTokens: 1228
   totalTokens: 8017
   processingTimeMs: 25115
+tools:
+  - name: "Ralph"
+    url: "https://github.com/snarktank/ralph"
+  - name: "Ralph Wiggum plugin"
+    url: "https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum"
+  - name: "n8n"
+    url: "https://n8n.partnerlinks.io/bfumg8i8y8nc"
+  - name: "Cloud Code"
+    url: null
 ---
 
 ## Key Takeaways

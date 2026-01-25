@@ -49,6 +49,21 @@ ai:
   totalTokens: 2744
   processingTimeMs: 70203
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "jQuery"
+    url: "https://blog.jquery.com/2026/01/17/jquery-4-0-0/"
+  - name: "Vite"
+    url: null
+  - name: "Webpack"
+    url: null
+  - name: "WordPress"
+    url: null
+  - name: "BetterStack"
+    url: "https://betterstack.com/"
+  - name: "GitHub"
+    url: "https://github.com/BetterStackHQ"
+  - name: "w3techs"
+    url: "https://w3techs.com/technologies/details/js-jquery"
 ---
 
 ## Key Takeaways

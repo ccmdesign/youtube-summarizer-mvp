@@ -107,6 +107,19 @@ ai:
   outputTokens: 1109
   totalTokens: 8029
   processingTimeMs: 91352
+tools:
+  - name: "Ralph Wiggum Agent"
+    url: "https://startup-ideas-pod.link/Ralph-agent"
+  - name: "AMP"
+    url: "https://startup-ideas-pod.link/amp-code"
+  - name: "AI Agent Skills"
+    url: "https://startup-ideas-pod.link/amp-skills"
+  - name: "Claude Opus"
+    url: null
+  - name: "GitHub"
+    url: "https://github.comankral"
+  - name: "dev browser"
+    url: null
 ---
 
 ## Key Takeaways

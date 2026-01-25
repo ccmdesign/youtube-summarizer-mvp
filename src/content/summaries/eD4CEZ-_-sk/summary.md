@@ -42,6 +42,13 @@ ai:
   totalTokens: 4515
   processingTimeMs: 26924
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Three.js"
+    url: null
+  - name: "Suno API"
+    url: null
 ---
 
 ## Key Takeaways

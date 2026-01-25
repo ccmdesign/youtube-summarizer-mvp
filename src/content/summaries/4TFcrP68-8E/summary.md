@@ -40,6 +40,21 @@ ai:
   totalTokens: 1738
   processingTimeMs: 23279
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "AWS Secrets Manager"
+    url: null
+  - name: "AWS Systems Manager Parameter Store"
+    url: null
+  - name: "Amazon RDS"
+    url: null
+  - name: "MySQL"
+    url: null
+  - name: "AWS Lambda"
+    url: null
+  - name: "Amazon EC2"
+    url: null
+  - name: "Amazon S3"
+    url: null
 ---
 
 ## Key Takeaways

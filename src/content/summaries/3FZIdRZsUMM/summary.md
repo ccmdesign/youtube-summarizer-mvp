@@ -52,6 +52,19 @@ ai:
   totalTokens: 3923
   processingTimeMs: 23763
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Google AI Studio"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Chrome extension"
+    url: null
+  - name: "Linear"
+    url: null
+  - name: "ChatGPT"
+    url: null
 ---
 
 ## Key Takeaways

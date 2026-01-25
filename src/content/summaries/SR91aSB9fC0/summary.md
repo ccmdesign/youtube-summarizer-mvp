@@ -66,6 +66,13 @@ ai:
   outputTokens: 1123
   totalTokens: 10114
   processingTimeMs: 47674
+tools:
+  - name: "Payhip"
+    url: null
+  - name: "Shopify"
+    url: null
+  - name: "Bventi"
+    url: null
 ---
 
 ## Key Takeaways

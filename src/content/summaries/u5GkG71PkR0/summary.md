@@ -90,6 +90,15 @@ ai:
   totalTokens: 9500
   processingTimeMs: 15816
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: "https://code.claude.com/docs/en/hooks"
+  - name: "Python"
+    url: null
+  - name: "Pandas"
+    url: null
+  - name: "Astral UV"
+    url: null
 ---
 
 ## Key Takeaways

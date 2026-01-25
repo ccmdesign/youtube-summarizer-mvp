@@ -75,6 +75,25 @@ ai:
   outputTokens: 1105
   totalTokens: 3640
   processingTimeMs: 89162
+tools:
+  - name: "Codex"
+    url: "https://developers.openai.com/codex/skills/"
+  - name: "Claude"
+    url: null
+  - name: "Agent Skills Spec"
+    url: "https://agentskills.io/specification"
+  - name: "Playwright"
+    url: null
+  - name: "Bright Data"
+    url: null
+  - name: "npm"
+    url: null
+  - name: "bun"
+    url: null
+  - name: "eval-marketplace"
+    url: "https://github.com/JeredBlu/eval-marketplace"
+  - name: "ChatGPT"
+    url: null
 ---
 
 ## Key Takeaways

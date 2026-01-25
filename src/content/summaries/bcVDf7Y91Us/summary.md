@@ -26,6 +26,11 @@ ai:
   outputTokens: 802
   totalTokens: 2382
   processingTimeMs: 25893
+tools:
+  - name: "GPT-3"
+    url: null
+  - name: "ChatGPT"
+    url: null
 ---
 
 ## Key Takeaways

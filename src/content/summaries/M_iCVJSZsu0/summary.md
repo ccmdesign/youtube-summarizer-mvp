@@ -92,6 +92,21 @@ ai:
   outputTokens: 932
   totalTokens: 3796
   processingTimeMs: 10676
+tools:
+  - name: "Claude Canvas"
+    url: "https://github.com/dvdsgl/claude-canvas"
+  - name: "Claude Code"
+    url: "https://github.com/anthropics/claude-code"
+  - name: "Bun"
+    url: null
+  - name: "tmux"
+    url: null
+  - name: "iTerm2"
+    url: null
+  - name: "Google Calendar"
+    url: null
+  - name: "Terminal"
+    url: null
 ---
 
 ## Key Takeaways

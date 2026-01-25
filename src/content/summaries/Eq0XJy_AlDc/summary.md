@@ -66,6 +66,17 @@ ai:
   totalTokens: 7506
   processingTimeMs: 21040
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude"
+    url: null
+  - name: "Oxto"
+    url: null
+  - name: "Augster"
+    url: null
+  - name: "PhpStorm"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
 ---
 
 ## Key Takeaways

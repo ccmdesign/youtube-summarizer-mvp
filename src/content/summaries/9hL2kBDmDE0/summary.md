@@ -63,6 +63,13 @@ ai:
   outputTokens: 1193
   totalTokens: 4397
   processingTimeMs: 25858
+tools:
+  - name: "DeepSeek-OCR"
+    url: "github.com/deepseek-ai/DeepSeek-OCR"
+  - name: "PyMuPDF"
+    url: null
+  - name: "OmniDoc bench"
+    url: null
 ---
 
 ## Key Takeaways

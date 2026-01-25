@@ -59,6 +59,23 @@ ai:
   outputTokens: 873
   totalTokens: 2910
   processingTimeMs: 12195
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "MCP Tool Search"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com/"
+  - name: "Docker"
+    url: "https://www.docker.com/"
+  - name: "Notion"
+    url: "https://www.notion.so/"
+  - name: "Cloudflare Code Mode"
+    url: "https://blog.cloudflare.com/code-mode/"
+  - name: "Cursor"
+    url: "https://cursor.com/"
 ---
 
 ## Key Takeaways

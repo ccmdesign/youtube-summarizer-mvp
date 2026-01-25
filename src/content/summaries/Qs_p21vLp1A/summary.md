@@ -51,6 +51,29 @@ ai:
   outputTokens: 920
   totalTokens: 4410
   processingTimeMs: 39986
+tools:
+  - name: "Ahrefs Site Explorer"
+    url: null
+  - name: "Ahrefs Link Intersect"
+    url: null
+  - name: "Ahrefs Keywords Explorer"
+    url: null
+  - name: "Google Business Profile"
+    url: null
+  - name: "Yelp"
+    url: null
+  - name: "Apple Maps"
+    url: null
+  - name: "TripAdvisor"
+    url: null
+  - name: "Houzz"
+    url: null
+  - name: "Avvo"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Reddit"
+    url: null
 ---
 
 ## Key Takeaways

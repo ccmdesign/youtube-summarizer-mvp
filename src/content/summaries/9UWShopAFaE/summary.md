@@ -44,6 +44,11 @@ ai:
   outputTokens: 938
   totalTokens: 5375
   processingTimeMs: 13706
+tools:
+  - name: "KPMG"
+    url: "https://www.kpmg.us/ai"
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
 ---
 
 ## Key Takeaways

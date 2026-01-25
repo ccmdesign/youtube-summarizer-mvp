@@ -76,6 +76,25 @@ ai:
   outputTokens: 1272
   totalTokens: 12973
   processingTimeMs: 20042
+tools:
+  - name: "Design OS"
+    url: "https://buildermethods.com/design-os"
+  - name: "Agent OS"
+    url: "https://buildermethods.com/agent-os"
+  - name: "React"
+    url: null
+  - name: "Vite"
+    url: null
+  - name: "Shadcn"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Playwright"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

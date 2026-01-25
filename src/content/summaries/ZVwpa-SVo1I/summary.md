@@ -48,6 +48,15 @@ ai:
   totalTokens: 1687
   processingTimeMs: 390657
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "AWS Direct Connect"
+    url: null
+  - name: "AWS Site-to-Site VPN"
+    url: null
+  - name: "VPC Peering"
+    url: null
+  - name: "CloudFront"
+    url: null
 ---
 
 ## Key Takeaways

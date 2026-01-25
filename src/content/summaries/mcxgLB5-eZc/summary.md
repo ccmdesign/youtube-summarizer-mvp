@@ -93,6 +93,21 @@ ai:
   totalTokens: 6817
   processingTimeMs: 26478
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Agent OS"
+    url: "https://buildermethods.com/agent-os"
+  - name: "Design OS"
+    url: "https://buildermethods.com/design-os"
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Cloud Code"
+    url: null
+  - name: "Laravel"
+    url: null
+  - name: "Ruby on Rails"
+    url: null
 ---
 
 ## Key Takeaways

@@ -60,6 +60,23 @@ ai:
   outputTokens: 1336
   totalTokens: 9015
   processingTimeMs: 66107
+tools:
+  - name: "Google Lens"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Rufus"
+    url: null
+  - name: "Perplexity"
+    url: null
+  - name: "TikTok"
+    url: null
+  - name: "Instagram"
+    url: null
+  - name: "Facebook"
+    url: null
+  - name: "YouTube"
+    url: null
 ---
 
 ## Key Takeaways

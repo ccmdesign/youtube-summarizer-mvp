@@ -74,6 +74,31 @@ ai:
   outputTokens: 1585
   totalTokens: 18452
   processingTimeMs: 22854
+tools:
+  - name: "OpenCode"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "ChatGPT Plus"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Neovim"
+    url: null
+  - name: "Three.js"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
+  - name: "Open Router"
+    url: null
+  - name: "OpenCode Zen"
+    url: null
+  - name: "Hostinger"
+    url: "https://www.hostinger.com/david"
+  - name: "n8n"
+    url: null
 ---
 
 ## Key Takeaways

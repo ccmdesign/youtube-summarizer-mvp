@@ -25,6 +25,15 @@ ai:
   totalTokens: 1461
   processingTimeMs: 40649
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Gemini"
+    url: null
+  - name: "Gemma"
+    url: null
+  - name: "Siri"
+    url: null
+  - name: "Claude"
+    url: null
 ---
 
 ## Key Takeaways

@@ -45,6 +45,15 @@ ai:
   outputTokens: 749
   totalTokens: 2223
   processingTimeMs: 13413
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Git"
+    url: null
+  - name: "Docker"
+    url: null
 ---
 
 ## Key Takeaways

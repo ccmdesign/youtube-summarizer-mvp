@@ -35,6 +35,19 @@ ai:
   outputTokens: 824
   totalTokens: 2975
   processingTimeMs: 148978
+tools:
+  - name: "Cursor"
+    url: "https://cursor.com"
+  - name: "Windsurf"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Linear"
+    url: null
+  - name: "Git"
+    url: null
 ---
 
 ## Key Takeaways

@@ -73,6 +73,33 @@ ai:
   outputTokens: 1238
   totalTokens: 11180
   processingTimeMs: 41462
+tools:
+  - name: "Lovable"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Cloud Code"
+    url: null
+  - name: "Open Code"
+    url: null
+  - name: "Quen"
+    url: null
+  - name: "Kim K2 Thinking"
+    url: null
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "VO3"
+    url: null
+  - name: "Deep Seek R1"
+    url: null
+  - name: "Opus 4.5"
+    url: null
+  - name: "Gemini 2.5 Pro"
+    url: null
+  - name: "Gemini 3 Flash"
+    url: null
+  - name: "GPT 5.1"
+    url: null
 ---
 
 ## Key Takeaways

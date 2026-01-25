@@ -63,6 +63,19 @@ ai:
   outputTokens: 930
   totalTokens: 5687
   processingTimeMs: 12072
+tools:
+  - name: "agentic-file-search"
+    url: "https://github.com/PromtEngineer/agentic-file-search"
+  - name: "llamaIndex"
+    url: null
+  - name: "Dockling"
+    url: null
+  - name: "whryte"
+    url: "https://whryte.com"
+  - name: "Gemini 1.5 Flash"
+    url: null
+  - name: "localGPT"
+    url: null
 ---
 
 ## Key Takeaways

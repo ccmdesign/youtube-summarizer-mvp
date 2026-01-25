@@ -52,6 +52,33 @@ ai:
   outputTokens: 793
   totalTokens: 2924
   processingTimeMs: 22679
+tools:
+  - name: "GitHub Copilot"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "OpenAI GPT-5.2 Codex"
+    url: null
+  - name: "GLM 4.7"
+    url: null
+  - name: "MiniMax M2.1"
+    url: null
+  - name: "Aider"
+    url: null
+  - name: "Codex CLI"
+    url: null
+  - name: "Gemini CLI"
+    url: null
+  - name: "Cline"
+    url: null
+  - name: "Roo"
+    url: null
+  - name: "Windsurf"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "OpenCode"
+    url: null
 ---
 
 ## Key Takeaways

@@ -63,6 +63,13 @@ ai:
   totalTokens: 2350
   processingTimeMs: 30972
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "ADK"
+    url: null
+  - name: "ACE"
+    url: null
+  - name: "Manus"
+    url: null
 ---
 
 ## Key Takeaways

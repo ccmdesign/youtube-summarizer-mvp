@@ -60,6 +60,25 @@ ai:
   outputTokens: 863
   totalTokens: 4322
   processingTimeMs: 12117
+tools:
+  - name: "Google Whisk"
+    url: "https://labs.google/fx/tools/whisk"
+  - name: "Google Flow"
+    url: "https://labs.google/flow/about"
+  - name: "Gemini 3"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Hero UI"
+    url: "https://www.heroui.com/"
+  - name: "Motion"
+    url: "https://motion.dev/"
+  - name: "21st.dev"
+    url: "https://21st.dev/"
+  - name: "Google AI Studio"
+    url: null
+  - name: "Next.js"
+    url: null
 ---
 
 ## Key Takeaways

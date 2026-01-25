@@ -27,6 +27,13 @@ ai:
   outputTokens: 655
   totalTokens: 1522
   processingTimeMs: 101773
+tools:
+  - name: "Plannotator"
+    url: "https://github.com/backnotprop/plannotator"
+  - name: "Claude Code"
+    url: null
+  - name: "PNPM"
+    url: null
 ---
 
 ## Key Takeaways

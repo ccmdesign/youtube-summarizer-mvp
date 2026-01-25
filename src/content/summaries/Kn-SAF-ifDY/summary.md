@@ -63,6 +63,27 @@ ai:
   totalTokens: 3457
   processingTimeMs: 82095
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Artifacts"
+    url: null
+  - name: "Mixboard"
+    url: null
+  - name: "Stitch"
+    url: null
+  - name: "Prototypes"
+    url: null
+  - name: "Agent Force"
+    url: null
+  - name: "Agentic Commerce Protocol"
+    url: null
+  - name: "Comet"
+    url: null
+  - name: "Figma"
+    url: null
+  - name: "Timo"
+    url: "https://www.tiimoapp.com/?utm_source=departmentofproduct_newsletter"
 ---
 
 ## Key Takeaways

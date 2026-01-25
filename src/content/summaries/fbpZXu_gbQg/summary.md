@@ -55,6 +55,17 @@ ai:
   outputTokens: 836
   totalTokens: 5425
   processingTimeMs: 31788
+tools:
+  - name: "ChatGPT 5.1"
+    url: null
+  - name: "Claude Opus 4.5"
+    url: null
+  - name: "Gemini 3"
+    url: null
+  - name: "Atlas"
+    url: null
+  - name: "Comet"
+    url: null
 ---
 
 ## Key Takeaways

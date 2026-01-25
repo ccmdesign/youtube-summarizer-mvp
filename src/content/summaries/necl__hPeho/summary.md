@@ -101,6 +101,15 @@ ai:
   outputTokens: 810
   totalTokens: 3253
   processingTimeMs: 12078
+tools:
+  - name: "Claude Code Plugins"
+    url: "https://github.com/applied-artificial-intelligence/claude-code-plugins"
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
 ---
 
 ## Key Takeaways

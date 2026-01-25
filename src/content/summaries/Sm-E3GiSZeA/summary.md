@@ -78,6 +78,13 @@ ai:
   outputTokens: 906
   totalTokens: 6403
   processingTimeMs: 13819
+tools:
+  - name: "Nano Banana Pro"
+    url: null
+  - name: "Google AI Studio"
+    url: null
+  - name: "Midjourney"
+    url: null
 ---
 
 ## Key Takeaways

@@ -51,6 +51,13 @@ ai:
   outputTokens: 697
   totalTokens: 2077
   processingTimeMs: 10170
+tools:
+  - name: "Claude Opus 4.5"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "GPT-5.1"
+    url: null
 ---
 
 ## Key Takeaways

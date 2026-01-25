@@ -101,6 +101,21 @@ ai:
   outputTokens: 946
   totalTokens: 7370
   processingTimeMs: 16166
+tools:
+  - name: "Cerebras Inference"
+    url: null
+  - name: "LiveKit"
+    url: null
+  - name: "WebRTC"
+    url: null
+  - name: "Cartesia"
+    url: null
+  - name: "OpenAI"
+    url: null
+  - name: "LiveKit Agent SDK"
+    url: null
+  - name: "LiveKit CLI"
+    url: null
 ---
 
 ## Key Takeaways

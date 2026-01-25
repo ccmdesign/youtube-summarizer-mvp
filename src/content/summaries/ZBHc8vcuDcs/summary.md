@@ -74,6 +74,13 @@ ai:
   outputTokens: 995
   totalTokens: 7225
   processingTimeMs: 15369
+tools:
+  - name: "OpenAI Prompt Optimizer"
+    url: "https://platform.openai.com/chat/edit?models=gpt-5"
+  - name: "Anthropic Console"
+    url: "https://console.anthropic.com/dashboard"
+  - name: "ChatGPT"
+    url: "https://chatgpt.com/share/68c2ca06-ebf4-8011-8d66-959e9d2e30cf"
 ---
 
 ## Key Takeaways

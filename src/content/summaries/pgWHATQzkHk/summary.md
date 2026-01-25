@@ -75,6 +75,31 @@ ai:
   outputTokens: 816
   totalTokens: 3636
   processingTimeMs: 12720
+tools:
+  - name: "Plane"
+    url: "https://plane.so/"
+  - name: "Jira"
+    url: null
+  - name: "Linear"
+    url: null
+  - name: "ClickUp"
+    url: null
+  - name: "TypeScript"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Django"
+    url: null
+  - name: "PostgreSQL"
+    url: null
+  - name: "Redis"
+    url: null
+  - name: "Docker"
+    url: null
+  - name: "Kubernetes"
+    url: null
+  - name: "OpenAI API"
+    url: null
 ---
 
 ## Key Takeaways

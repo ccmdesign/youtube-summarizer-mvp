@@ -73,6 +73,21 @@ ai:
   outputTokens: 802
   totalTokens: 2829
   processingTimeMs: 14511
+tools:
+  - name: "JSON Crack"
+    url: "https://jsoncrack.com/"
+  - name: "BetterStack"
+    url: "https://betterstack.com/"
+  - name: "Visual Studio Code"
+    url: null
+  - name: "JetBrains"
+    url: null
+  - name: "jq"
+    url: null
+  - name: "GitHub"
+    url: "https://github.com/"
+  - name: "Kubernetes"
+    url: null
 ---
 
 ## Key Takeaways

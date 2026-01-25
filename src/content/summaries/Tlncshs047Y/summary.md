@@ -43,6 +43,23 @@ ai:
   outputTokens: 1014
   totalTokens: 6658
   processingTimeMs: 22370
+tools:
+  - name: "MAX"
+    url: null
+  - name: "Mojo"
+    url: null
+  - name: "PyTorch"
+    url: null
+  - name: "vLLM"
+    url: null
+  - name: "SGLang"
+    url: null
+  - name: "Nabla"
+    url: null
+  - name: "pip"
+    url: null
+  - name: "conda"
+    url: null
 ---
 
 ## Key Takeaways

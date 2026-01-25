@@ -65,6 +65,13 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Windsurf"
+    url: null
+  - name: "ClaudeCode"
+    url: null
 ---
 
 The landscape of AI-assisted software development is undergoing a fundamental transition. Ray Fernando argues that we are moving past the "Copilot era"—characterized by inline completions and chat sidebars—into an era of "Agentic Development." This shift is driven by three primary technological advancements: massive context windows, agentic reasoning, and deep IDE integration.

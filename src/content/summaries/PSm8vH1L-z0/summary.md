@@ -34,6 +34,37 @@ ai:
   outputTokens: 1409
   totalTokens: 11303
   processingTimeMs: 26526
+tools:
+  - name: "Claude Haiku 45"
+    url: null
+  - name: "Gemini 3 Pro"
+    url: null
+  - name: "Grok Code Fast 1"
+    url: null
+  - name: "GPT-5 Mini"
+    url: null
+  - name: "Claude 4.5 Opus"
+    url: null
+  - name: "Claude 4.5 Sonnet"
+    url: null
+  - name: "GPT-5.1"
+    url: null
+  - name: "GLM-4-6"
+    url: null
+  - name: "DeepSeek 3.2"
+    url: null
+  - name: "GPT-OSS 120B"
+    url: null
+  - name: "Brokk AI"
+    url: null
+  - name: "SWE-bench"
+    url: null
+  - name: "LiveCodeBench"
+    url: null
+  - name: "Apache Cassandra"
+    url: null
+  - name: "Lucene"
+    url: null
 ---
 
 ## Key Takeaways

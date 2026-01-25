@@ -60,6 +60,13 @@ ai:
   outputTokens: 1162
   totalTokens: 5181
   processingTimeMs: 25766
+tools:
+  - name: "GitHub Spec Kit"
+    url: "https://github.com/github/spec-kit"
+  - name: "Visual Studio Code"
+    url: null
+  - name: "GitHub Copilot CLI"
+    url: "https://github.com/github/copilot-cli"
 ---
 
 ## Key Takeaways

@@ -44,6 +44,23 @@ ai:
   outputTokens: 983
   totalTokens: 6035
   processingTimeMs: 13832
+tools:
+  - name: "Vera Rubin"
+    url: null
+  - name: "Cosmos"
+    url: null
+  - name: "Isaac Groot 1.6"
+    url: null
+  - name: "Osmo"
+    url: null
+  - name: "Alexa Plus"
+    url: "https://alexa.com"
+  - name: "Be"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Mi455 GPU"
+    url: null
 ---
 
 ## Key Takeaways

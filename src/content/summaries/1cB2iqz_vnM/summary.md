@@ -52,6 +52,27 @@ ai:
   apiCalls: 0
   fallbackAttempts: 0
   processingTimeMs: 0
+tools:
+  - name: "Drawbridge"
+    url: "https://github.com/breschio/drawbridge"
+  - name: "Claude"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Lumi"
+    url: "http://bit.ly/4fL1fP2"
+  - name: "TweakCN"
+    url: "https://tweakcn.com/"
+  - name: "v0.dev"
+    url: null
+  - name: "Claude 3.5 Sonnet"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Vercel"
+    url: null
+  - name: "Next.js"
+    url: null
 ---
 
 The video outlines a fundamental shift in web development, moving from a manual, syntax-heavy process to an "AI-first" workflow. The creator emphasizes that the barrier to entry for building professional, high-performance websites has effectively vanished for those who can master AI orchestration.

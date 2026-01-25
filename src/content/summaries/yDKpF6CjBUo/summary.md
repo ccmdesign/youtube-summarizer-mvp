@@ -69,6 +69,27 @@ ai:
   outputTokens: 921
   totalTokens: 4954
   processingTimeMs: 14854
+tools:
+  - name: "Universal Commerce Protocol"
+    url: "https://ucp.dev"
+  - name: "Gemini"
+    url: null
+  - name: "AI Search Mode"
+    url: null
+  - name: "AP2"
+    url: null
+  - name: "Google Wallet"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Agent-to-Agent"
+    url: null
+  - name: "OpenAI Agent Commerce Protocol"
+    url: null
+  - name: "Google Merchant Center"
+    url: null
+  - name: "Google Ads"
+    url: null
 ---
 
 ## Key Takeaways

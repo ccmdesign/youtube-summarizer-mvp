@@ -100,6 +100,9 @@ ai:
   outputTokens: 1368
   totalTokens: 19015
   processingTimeMs: 20452
+tools:
+  - name: "Figma"
+    url: null
 ---
 
 ## Key Takeaways

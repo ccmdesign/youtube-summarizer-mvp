@@ -54,6 +54,15 @@ ai:
   outputTokens: 788
   totalTokens: 2842
   processingTimeMs: 19721
+tools:
+  - name: "HelloBooks AI"
+    url: "https://hellobooks.ai"
+  - name: "QuickBooks"
+    url: null
+  - name: "Xero"
+    url: null
+  - name: "Tally"
+    url: null
 ---
 
 ## Key Takeaways

@@ -56,6 +56,11 @@ ai:
   outputTokens: 796
   totalTokens: 3772
   processingTimeMs: 19684
+tools:
+  - name: "Google AI Studio"
+    url: null
+  - name: "NanoBanana Pro"
+    url: null
 ---
 
 ## Key Takeaways

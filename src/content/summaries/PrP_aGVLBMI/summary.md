@@ -95,6 +95,15 @@ ai:
   outputTokens: 959
   totalTokens: 6495
   processingTimeMs: 76682
+tools:
+  - name: "Accio"
+    url: null
+  - name: "IdeaBrowser"
+    url: "https://www.ideabrowser.com/"
+  - name: "Late Checkout"
+    url: "https://latecheckout.agency/"
+  - name: "The Vibe Marketer"
+    url: "https://www.thevibemarketer.com/"
 ---
 
 ## Key Takeaways

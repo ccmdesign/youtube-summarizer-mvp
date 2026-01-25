@@ -74,6 +74,9 @@ ai:
   outputTokens: 971
   totalTokens: 5507
   processingTimeMs: 28077
+tools:
+  - name: "Laravel"
+    url: "https://lrvl.co/eo-channel"
 ---
 
 ## Key Takeaways

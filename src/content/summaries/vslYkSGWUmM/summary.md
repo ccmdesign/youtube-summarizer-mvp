@@ -48,6 +48,21 @@ ai:
   outputTokens: 1002
   totalTokens: 5772
   processingTimeMs: 21879
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Supabase"
+    url: null
+  - name: "Neon"
+    url: null
+  - name: "Stripe"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "HeyGen"
+    url: null
+  - name: "Sora"
+    url: null
 ---
 
 ## Key Takeaways

@@ -58,6 +58,17 @@ ai:
   outputTokens: 911
   totalTokens: 2666
   processingTimeMs: 13273
+tools:
+  - name: "Agent Development Kit"
+    url: "https://goo.gle/4aTg7KQ"
+  - name: "Agent-to-Agent Protocol"
+    url: "https://goo.gle/4apT8a2"
+  - name: "Cloud Run"
+    url: "https://goo.gle/3LbFLjv"
+  - name: "Gemini 3 models"
+    url: "https://goo.gle/4aY7zSV"
+  - name: "React"
+    url: null
 ---
 
 ## Key Takeaways

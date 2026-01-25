@@ -48,6 +48,9 @@ ai:
   totalTokens: 2592
   processingTimeMs: 68407
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "KodeKloud"
+    url: null
 ---
 
 ## Key Takeaways

@@ -95,6 +95,9 @@ ai:
   outputTokens: 889
   totalTokens: 5928
   processingTimeMs: 12354
+tools:
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

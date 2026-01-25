@@ -45,6 +45,25 @@ ai:
   outputTokens: 1493
   totalTokens: 1979
   processingTimeMs: 77412
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor AI"
+    url: null
+  - name: "Beautiful Soup"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Visual Studio Code"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "OpenAI"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
 ---
 
 ## Key Takeaways

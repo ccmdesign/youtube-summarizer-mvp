@@ -92,6 +92,9 @@ ai:
   totalTokens: 8121
   processingTimeMs: 15496
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Nano Banana Pro"
+    url: null
 ---
 
 ## Key Takeaways

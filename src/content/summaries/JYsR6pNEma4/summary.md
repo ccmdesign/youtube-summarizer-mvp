@@ -66,6 +66,11 @@ ai:
   outputTokens: 1006
   totalTokens: 4915
   processingTimeMs: 55024
+tools:
+  - name: "Google Antigravity"
+    url: "https://antigravity.google/"
+  - name: "Git"
+    url: null
 ---
 
 ## Key Takeaways

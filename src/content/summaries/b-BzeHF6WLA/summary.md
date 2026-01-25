@@ -73,6 +73,25 @@ ai:
   outputTokens: 849
   totalTokens: 4563
   processingTimeMs: 64992
+tools:
+  - name: "Open Responses"
+    url: "https://www.openresponses.org/"
+  - name: "Hugging Face"
+    url: "https://huggingface.co/blog/open-responses"
+  - name: "Ollama"
+    url: null
+  - name: "Anthropic's Claude API"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Vercel"
+    url: null
+  - name: "Open Router"
+    url: null
+  - name: "LM Studio"
+    url: null
+  - name: "vLLM"
+    url: null
 ---
 
 ## Key Takeaways

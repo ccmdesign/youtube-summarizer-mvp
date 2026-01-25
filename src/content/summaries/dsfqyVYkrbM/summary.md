@@ -65,6 +65,21 @@ ai:
   outputTokens: 908
   totalTokens: 4768
   processingTimeMs: 15140
+tools:
+  - name: "Stack Overflow"
+    url: null
+  - name: "Discord"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Answer Overflow"
+    url: null
+  - name: "Reddit"
+    url: null
+  - name: "Wikipedia"
+    url: null
 ---
 
 ## Key Takeaways

@@ -47,6 +47,13 @@ ai:
   outputTokens: 894
   totalTokens: 5064
   processingTimeMs: 15033
+tools:
+  - name: "Codex"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "GitHub Copilot"
+    url: null
 ---
 
 ## Key Takeaways

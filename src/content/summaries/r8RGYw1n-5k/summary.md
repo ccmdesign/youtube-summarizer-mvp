@@ -141,6 +141,17 @@ ai:
   outputTokens: 1356
   totalTokens: 24955
   processingTimeMs: 73224
+tools:
+  - name: "Anti-gravity"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Project Prometheus"
+    url: null
+  - name: "Red Queen Bio"
+    url: null
+  - name: "Blitzy"
+    url: "https://qr.diamandis.com/blitzy"
 ---
 
 ## Key Takeaways

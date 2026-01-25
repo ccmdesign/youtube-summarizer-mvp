@@ -58,6 +58,19 @@ ai:
   outputTokens: 797
   totalTokens: 4714
   processingTimeMs: 12324
+tools:
+  - name: "Vibe Kanban"
+    url: "https://github.com/BloopAI/vibe-kanban"
+  - name: "Claude Code"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Codex"
+    url: null
+  - name: "Copilot"
+    url: null
+  - name: "Git"
+    url: null
 ---
 
 ## Key Takeaways

@@ -92,6 +92,27 @@ ai:
   outputTokens: 1327
   totalTokens: 15032
   processingTimeMs: 22389
+tools:
+  - name: "Figma Make"
+    url: "https://www.figma.com/make/?gad_campaignid=23356954992&gbraid=0AAAABCTX0ItGAe7RZBBeUOUindISLe0Un"
+  - name: "Atlassian Design System"
+    url: "https://atlassian.design/"
+  - name: "AI Builders Week"
+    url: "https://www.atlassian.com/blog/inside-atlassian/ai-product-builders-week"
+  - name: "Replit"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Shadcn UI"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "Figma AI"
+    url: null
+  - name: "Slack"
+    url: null
+  - name: "Rovo"
+    url: null
 ---
 
 ## Key Takeaways

@@ -100,6 +100,15 @@ ai:
   outputTokens: 1879
   totalTokens: 14204
   processingTimeMs: 81166
+tools:
+  - name: "Claude"
+    url: "https://www.anthropic.com"
+  - name: "Cursor"
+    url: "https://cursor.sh"
+  - name: "Manus"
+    url: "https://manus.com"
+  - name: "Devin"
+    url: "https://www.cognition-labs.com"
 ---
 
 ## Key Takeaways

@@ -42,6 +42,21 @@ ai:
   totalTokens: 1727
   processingTimeMs: 19752
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "AWS Shield Advanced"
+    url: null
+  - name: "AWS WAF"
+    url: null
+  - name: "Security Groups"
+    url: null
+  - name: "Network ACLs"
+    url: null
+  - name: "Amazon GuardDuty"
+    url: null
+  - name: "Application Load Balancer"
+    url: null
+  - name: "Amazon CloudFront"
+    url: null
 ---
 
 ## Key Takeaways

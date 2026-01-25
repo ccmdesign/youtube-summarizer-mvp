@@ -47,6 +47,13 @@ ai:
   outputTokens: 644
   totalTokens: 2194
   processingTimeMs: 24535
+tools:
+  - name: "Claude"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Agent OS"
+    url: "https://buildermethods.com/agent-os"
 ---
 
 ## Key Takeaways

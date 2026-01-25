@@ -45,6 +45,25 @@ ai:
   outputTokens: 873
   totalTokens: 4244
   processingTimeMs: 13805
+tools:
+  - name: "Stack Overflow"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Claude"
+    url: null
+  - name: "Java Swing"
+    url: null
+  - name: "Twitch"
+    url: "https://twitch.tv"
+  - name: "Twitter"
+    url: "https://twitter.com"
+  - name: "boot.dev"
+    url: "https://boot.dev"
+  - name: "Reddit"
+    url: "https://www.reddit.com"
+  - name: "terminal.shop"
+    url: null
 ---
 
 ## Key Takeaways

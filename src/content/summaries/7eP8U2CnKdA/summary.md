@@ -107,6 +107,29 @@ ai:
   totalTokens: 7949
   processingTimeMs: 46506
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Amazon VPC"
+    url: null
+  - name: "AWS IAM"
+    url: null
+  - name: "Amazon EC2"
+    url: null
+  - name: "Amazon EBS"
+    url: null
+  - name: "Amazon RDS"
+    url: null
+  - name: "Amazon S3"
+    url: null
+  - name: "AWS Lambda"
+    url: null
+  - name: "Application Load Balancer"
+    url: null
+  - name: "AWS KMS"
+    url: null
+  - name: "AWS Secrets Manager"
+    url: null
+  - name: "Amazon CloudWatch"
+    url: null
 ---
 
 ## Key Takeaways

@@ -63,6 +63,13 @@ ai:
   outputTokens: 840
   totalTokens: 3600
   processingTimeMs: 13168
+tools:
+  - name: "JavaScript"
+    url: null
+  - name: "ImageMagick"
+    url: null
+  - name: "Playwright"
+    url: null
 ---
 
 ## Key Takeaways

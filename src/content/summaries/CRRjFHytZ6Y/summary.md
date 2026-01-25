@@ -71,6 +71,13 @@ ai:
   outputTokens: 926
   totalTokens: 7090
   processingTimeMs: 18672
+tools:
+  - name: "Operator"
+    url: null
+  - name: "Grok"
+    url: null
+  - name: "Tesla Autopilot"
+    url: "https://www.tesla.com/autopilot"
 ---
 
 ## Key Takeaways

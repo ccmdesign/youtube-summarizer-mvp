@@ -49,6 +49,17 @@ ai:
   outputTokens: 790
   totalTokens: 5542
   processingTimeMs: 18585
+tools:
+  - name: "Tailwind CSS"
+    url: "https://tailwindcss.com/"
+  - name: "Tailwind Plus"
+    url: null
+  - name: "Shadcn UI"
+    url: null
+  - name: "BetterStack"
+    url: "https://betterstack.com/"
+  - name: "GitHub"
+    url: "https://github.com"
 ---
 
 ## Key Takeaways

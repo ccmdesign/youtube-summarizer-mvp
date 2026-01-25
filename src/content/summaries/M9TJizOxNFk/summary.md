@@ -91,6 +91,17 @@ ai:
   outputTokens: 912
   totalTokens: 7104
   processingTimeMs: 11500
+tools:
+  - name: "Sora"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Constitutional AI"
+    url: null
+  - name: "AI Safety Levels"
+    url: null
+  - name: "Search"
+    url: null
 ---
 
 ## Key Takeaways

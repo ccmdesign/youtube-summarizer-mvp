@@ -56,6 +56,7 @@ ai:
   totalTokens: 2384
   processingTimeMs: 3578340
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools: []
 ---
 
 ## Key Takeaways

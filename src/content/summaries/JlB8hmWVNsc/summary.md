@@ -69,6 +69,17 @@ ai:
   totalTokens: 4025
   processingTimeMs: 252305
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "TikTok"
+    url: null
+  - name: "Reels"
+    url: null
+  - name: "YouTube"
+    url: null
+  - name: "LinkedIn"
+    url: null
+  - name: "NP Digital"
+    url: "http://npdigital.com"
 ---
 
 ## Key Takeaways

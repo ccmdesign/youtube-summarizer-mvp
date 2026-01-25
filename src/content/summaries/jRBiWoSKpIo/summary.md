@@ -57,6 +57,25 @@ ai:
   outputTokens: 856
   totalTokens: 4742
   processingTimeMs: 20337
+tools:
+  - name: "Claude Canvas"
+    url: "https://github.com/dvdsgl/claude-canvas/tree/main"
+  - name: "Ink"
+    url: null
+  - name: "Bun"
+    url: null
+  - name: "TypeScript"
+    url: null
+  - name: "T-mux"
+    url: null
+  - name: "iTerm"
+    url: null
+  - name: "Apple Terminal"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Claude Code"
+    url: null
 ---
 
 ## Key Takeaways

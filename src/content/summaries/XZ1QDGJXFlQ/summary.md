@@ -68,6 +68,15 @@ ai:
   outputTokens: 1322
   totalTokens: 5163
   processingTimeMs: 48099
+tools:
+  - name: "GPT-4o"
+    url: null
+  - name: "Gemini 2"
+    url: null
+  - name: "Claude 3.7"
+    url: null
+  - name: "DeepSeek"
+    url: null
 ---
 
 ## Key Takeaways

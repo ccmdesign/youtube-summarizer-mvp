@@ -45,6 +45,17 @@ ai:
   outputTokens: 961
   totalTokens: 5030
   processingTimeMs: 17188
+tools:
+  - name: "Note Pin S"
+    url: null
+  - name: "Mind Clip"
+    url: null
+  - name: "Grok"
+    url: null
+  - name: "KPMG AI Solutions"
+    url: "https://www.kpmg.us/ai"
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
 ---
 
 ## Key Takeaways

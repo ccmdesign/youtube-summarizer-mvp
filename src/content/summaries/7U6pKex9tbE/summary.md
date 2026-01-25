@@ -98,6 +98,19 @@ ai:
   outputTokens: 764
   totalTokens: 8202
   processingTimeMs: 20516
+tools:
+  - name: "Antigravity"
+    url: null
+  - name: "n8n"
+    url: "https://n8n.partnerlinks.io/duncan"
+  - name: "Instantly"
+    url: "https://instantly.ai/?via=duncan-rogoff"
+  - name: "Apify"
+    url: "https://www.apify.com?fpr=nj0vn"
+  - name: "Make"
+    url: "https://www.make.com/en/register?pc=duncan"
+  - name: "Blotato"
+    url: "https://blotato.com/?ref=duncan"
 ---
 
 ## Key Takeaways

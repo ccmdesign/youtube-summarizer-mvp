@@ -28,6 +28,13 @@ ai:
   outputTokens: 1620
   totalTokens: 28414
   processingTimeMs: 56852
+tools:
+  - name: "Maven"
+    url: "https://maven.com/web-adventures/design-patterns-ai-interfaces/"
+  - name: "Gexcon"
+    url: null
+  - name: "Shopify"
+    url: null
 ---
 
 ## Key Takeaways

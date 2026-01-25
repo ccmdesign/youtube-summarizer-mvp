@@ -38,6 +38,21 @@ ai:
   totalTokens: 6330
   processingTimeMs: 75936
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "KPMG AI Solutions"
+    url: "www.kpmg.us/ai"
+  - name: "Vanta"
+    url: "https://vanta.com/nlw"
+  - name: "The AI Daily Brief"
+    url: "https://pod.link/1680633614"
+  - name: "Discord"
+    url: "https://bit.ly/aibreakdown"
+  - name: "ChatGPT"
+    url: null
+  - name: "Gemini"
+    url: null
+  - name: "Google Search"
+    url: null
 ---
 
 ## Key Takeaways

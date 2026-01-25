@@ -57,6 +57,15 @@ ai:
   totalTokens: 4055
   processingTimeMs: 32212
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Cursor"
+    url: "https://cursor.com"
+  - name: "Gemini"
+    url: null
+  - name: "ElevenLabs"
+    url: null
+  - name: "GPT-4"
+    url: null
 ---
 
 ## Key Takeaways

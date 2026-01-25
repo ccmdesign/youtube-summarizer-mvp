@@ -56,6 +56,21 @@ ai:
   outputTokens: 901
   totalTokens: 4472
   processingTimeMs: 14176
+tools:
+  - name: "Cursor"
+    url: null
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "MCP CLI"
+    url: null
+  - name: "ZenRows"
+    url: "https://zenrows.com/?utm_campaign=247868614-Influencer&utm_source=youtube&utm_medium=paidsocial&utm_content=ai_labs"
+  - name: "ChatGPT"
+    url: null
+  - name: "Google AI Studio"
+    url: null
 ---
 
 ## Key Takeaways

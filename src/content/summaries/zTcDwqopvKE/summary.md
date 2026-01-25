@@ -96,6 +96,9 @@ ai:
   outputTokens: 1150
   totalTokens: 7538
   processingTimeMs: 23789
+tools:
+  - name: "Tactical Agentic Coding"
+    url: "https://agenticengineer.com/tactical-agentic-coding?y=zTcDwqopvKE"
 ---
 
 ## Key Takeaways

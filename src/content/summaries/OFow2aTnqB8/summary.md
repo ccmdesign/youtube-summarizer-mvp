@@ -64,6 +64,13 @@ ai:
   outputTokens: 1268
   totalTokens: 10130
   processingTimeMs: 40862
+tools:
+  - name: "GitHub Spec Kit"
+    url: "https://github.com/github/spec-kit"
+  - name: "GitHub Copilot CLI"
+    url: "https://github.com/github/copilot-cli"
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

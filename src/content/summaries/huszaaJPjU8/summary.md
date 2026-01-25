@@ -67,6 +67,25 @@ ai:
   outputTokens: 934
   totalTokens: 6349
   processingTimeMs: 15636
+tools:
+  - name: "Ripple"
+    url: null
+  - name: "Regex"
+    url: null
+  - name: "GPT-5"
+    url: null
+  - name: "Qwen 3"
+    url: null
+  - name: "BrowseComp+"
+    url: null
+  - name: "Ulong"
+    url: null
+  - name: "Ulong Pairs"
+    url: null
+  - name: "LongBench V2"
+    url: null
+  - name: "Zapier"
+    url: "https://bit.ly/4qSsFXA"
 ---
 
 ## Key Takeaways

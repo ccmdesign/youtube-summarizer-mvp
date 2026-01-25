@@ -21,6 +21,21 @@ ai:
   outputTokens: 1137
   totalTokens: 10393
   processingTimeMs: 21846
+tools:
+  - name: "Axe MCP"
+    url: null
+  - name: "Cursor"
+    url: null
+  - name: "AliPlanned"
+    url: null
+  - name: "Axe"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Excel"
+    url: null
+  - name: "PowerPoint"
+    url: null
 ---
 
 ## Key Takeaways

@@ -58,6 +58,27 @@ ai:
   outputTokens: 908
   totalTokens: 5182
   processingTimeMs: 13949
+tools:
+  - name: "Claude Skills"
+    url: "https://www.claude.com/blog/skills-explained"
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "React"
+    url: null
+  - name: "Google Fonts"
+    url: null
+  - name: "ChatGPT"
+    url: null
+  - name: "Bootstrap"
+    url: null
+  - name: "Shadcn"
+    url: null
+  - name: "Web Artifacts Builder"
+    url: "https://github.com/anthropics/skills/blob/main/web-artifacts-builder/SKILL.md"
+  - name: "Visual Studio Code"
+    url: null
 ---
 
 ## Key Takeaways

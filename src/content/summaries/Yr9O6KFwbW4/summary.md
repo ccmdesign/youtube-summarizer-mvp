@@ -55,6 +55,15 @@ ai:
   outputTokens: 942
   totalTokens: 8597
   processingTimeMs: 15464
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "WorkOS"
+    url: "https://soydev.link/workos"
+  - name: "Ralph"
+    url: "https://github.com/snarktank/ralph"
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways

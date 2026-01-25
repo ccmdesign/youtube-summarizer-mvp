@@ -38,6 +38,11 @@ ai:
   totalTokens: 3935
   processingTimeMs: 26080
 playlistId: "PL-SEjLl-bojVmsXOvG-TBp7DVv0McXJzn"
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Claude Cowork"
+    url: null
 ---
 
 ## Key Takeaways

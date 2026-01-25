@@ -87,6 +87,21 @@ ai:
   outputTokens: 805
   totalTokens: 3105
   processingTimeMs: 19447
+tools:
+  - name: "Claude Code"
+    url: null
+  - name: "Model Context Protocol"
+    url: null
+  - name: "Leva"
+    url: "https://threejsresources.com/tool/leva"
+  - name: "Compound Engineering Plugin"
+    url: "https://github.com/EveryInc/compound-engineering-plugin"
+  - name: "Figma"
+    url: null
+  - name: "Tailwind CSS"
+    url: null
+  - name: "Cursor"
+    url: null
 ---
 
 ## Key Takeaways
